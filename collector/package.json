@@ -8,7 +8,8 @@
     "collect:all": "ts-node src/index.ts --all"
   },
   "dependencies": {
-    "firebase": "^12.13.0"
+    "firebase": "^12.13.0",
+    "firebase-admin": "^13.3.0"
   },
   "devDependencies": {
     "@types/node": "^24.12.3",

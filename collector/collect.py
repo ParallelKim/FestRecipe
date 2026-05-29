@@ -287,12 +287,53 @@ def collect(artist, years=3, maxv=500, conc=20, update=False, prev_ids=None):
 
     hd = sum(1 for v in videos if v["description"])
     print(f"\n[stats] {hd}/{len(videos)} have desc")
+    
+    # Phase 3: extract playlist URLs from descriptions and fetch playlist videos
+    all_descriptions = " ".join([v.get("description", "") or "" for v in videos])
+    plist_urls = extract_playlist_urls(all_descriptions)
+    print(f"\n[Phase 3] found {len(plist_urls)} playlist URLs in descriptions")
+    
+    plist_videos = []
+    for pl_url in plist_urls[:5]:  # limit to 5 playlists
+        pid_match = re.search(r'list=([A-Za-z0-9_-]+)', pl_url)
+        if pid_match:
+            pvideos = fetch_plist(pid_match.group(1))
+            new_from_plist = 0
+            for pv in pvideos:
+                vid = pv.get("id", "")
+                if valid_vid(vid) and vid not in seen:
+                    seen.add(vid)
+                    plist_videos.append(pv)
+                    new_from_plist += 1
+            if new_from_plist:
+                print(f"  [playlist] {pl_url[:60]} → +{new_from_plist}v")
+    
+    # Fetch details for playlist videos (limit to remaining budget)
+    plist_target = plist_videos[:max(0, maxv - len(target))]
+    if plist_target:
+        print(f"  fetching {len(plist_target)} playlist video details...")
+        plist_details = asyncio.run(fetch_all([e["id"] for e in plist_target], conc))
+        for e in plist_target:
+            v = e["id"]
+            t = e.get("title", "")
+            d, u, dur, vc, ud = "", "", None, None, None
+            if v in plist_details:
+                dd = plist_details[v]
+                t = dd.get("title", t)
+                d = dd.get("description", "") or ""
+                u, dur, vc, ud = dd.get("uploader"), dd.get("duration"), dd.get("view_count"), dd.get("upload_date")
+            videos.append({"videoId": v, "title": t, "description": d,
+                           "url": f"https://www.youtube.com/watch?v={v}",
+                           "uploader": u, "duration": dur, "viewCount": vc, "uploadDate": ud})
+    
+    hd = sum(1 for v in videos if v["description"])
     return {"artistId": aid, "artistName": aname, "englishName": ename,
             "collectedAt": datetime.now().isoformat(),
             "stats": {"years": years, "newCandidates": len(entries) + len(pids),
                       "playlistsExpanded": len(pids), "titleDeduped": len(dups),
                       "totalCollected": len(videos), "hasDescription": hd,
-                      "autoQueries": len(auto), "update": update}, "videos": videos}
+                      "autoQueries": len(auto), "update": update,
+                      "playlistsFound": len(plist_urls)}, "videos": videos}
 
 
 def main():

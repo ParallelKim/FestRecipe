@@ -8,17 +8,36 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+collector/node_modules
 dist
 dist-ssr
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Collector output
+collector/output/
+
+# Firebase service account key — NEVER commit
+collector/serviceAccountKey.json
+
+# OS
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Vite / TS build artifacts
+*.tsbuildinfo
+node_modules/.tmp/

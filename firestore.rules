@@ -1,0 +1,28 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // 아티스트 정보 — 공개 읽기, 쓰기 불가 (Admin SDK only)
+    match /artists/{artistId} {
+      allow read;
+      allow write: if false;
+
+      // 동영상 목록 — 공개 읽기, 쓰기 불가
+      match /videos/{videoId} {
+        allow read;
+        allow write: if false;
+      }
+    }
+
+    // 동기화 메타 — 공개 읽기만
+    match /_sync/{docId} {
+      allow read;
+      allow write: if false;
+    }
+
+    // 그외 전부 차단
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
