@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/timetablegrid.tsx","./src/components/topnav.tsx","./src/lib/firebase.ts","./src/pages/festivaldetail.tsx","./src/pages/home.tsx","./src/services/festivals.ts","./src/services/setlistcollector.ts","./src/services/setlistcollectorscript.ts","./src/types/index.ts"],"version":"6.0.3"}

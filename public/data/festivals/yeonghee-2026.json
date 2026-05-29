@@ -1,0 +1,62 @@
+{
+  "id": "yeonghee-2026",
+  "name": "영희 페스티벌 2026",
+  "startDate": "2026-06-12",
+  "endDate": "2026-06-14",
+  "location": "마포아트센터 (아트홀맥, 플레이맥, 갤러리맥, 야외광장)",
+  "signatureColor": "cream",
+  "status": "upcoming",
+  "lineupStage": "stage2_daily",
+  "description": "영희 페스티벌은 인디 음악과 예술이 만나는 따뜻한 봄 축제입니다. 여성 창작자들이 주도하여 다양한 공간을 음악과 문학으로 채우며, 독창적인 무대를 선사합니다.",
+  "allArtists": [],
+  "lineup": [
+    {
+      "date": "2026-06-12",
+      "dayLabel": "6.12 FRI (전야제)",
+      "artists": [
+        "nam-meari",
+        "sunwoo-junga",
+        "lee-rang"
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "dayLabel": "6.13 SAT",
+      "artists": [
+        "kim-tteutdol",
+        "kim-sawol",
+        "drinking-boys-and-girls-choir",
+        "park-soeun",
+        "sujo",
+        "an-dayeong",
+        "yozoh",
+        "woo-heejun",
+        "yun-sae",
+        "lee-sangeun",
+        "lee-arip",
+        "jung-saebyeok",
+        "jung-woo",
+        "haepa"
+      ]
+    },
+    {
+      "date": "2026-06-14",
+      "dayLabel": "6.14 SUN",
+      "artists": [
+        "kim-yuna",
+        "kim-jina",
+        "nine9",
+        "an-shinae",
+        "yeram",
+        "oh-soyoung",
+        "oh-jieun",
+        "lee-seola",
+        "cho-sojeong",
+        "cheong-yoil",
+        "ddbb",
+        "the-fix",
+        "sunwashere"
+      ]
+    }
+  ]
+}

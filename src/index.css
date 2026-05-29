@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────
+   AIRTABLE DESIGN SYSTEM — FestRecipe Custom Tokens
+   Based on DESIGN.md (Airtable design analysis)
+───────────────────────────────────────────────────── */
+@theme {
+  /* ── Colors: Brand & Text ── */
+  --color-ink:           #181d26;
+  --color-ink-active:    #0d1218;
+  --color-body:          #333840;
+  --color-muted:         #41454d;
+  --color-hairline:      #dddddd;
+  --color-border-strong: #9297a0;
+  --color-canvas:        #ffffff;
+  --color-link:          #1b61c9;
+
+  /* ── Colors: Surfaces ── */
+  --color-surface-soft:         #f8fafc;
+  --color-surface-strong:       #e0e2e6;
+  --color-surface-dark:         #181d26;
+  --color-surface-dark-elevated:#1d1f25;
+
+  /* ── Colors: Signature Cards (FestRecipe BX) ── */
+  --color-sig-coral:   #aa2d00;  /* 영희 페스티벌 / 락 에너지 */
+  --color-sig-forest:  #0a2e0e;  /* DMZ 피스트레인 / 평화 & 자연 */
+  --color-sig-cream:   #f5e9d4;  /* 멀티장르 / 에디토리얼 */
+  --color-sig-peach:   #fcab79;
+  --color-sig-mint:    #a8d8c4;
+  --color-sig-yellow:  #f4d35e;
+  --color-sig-mustard: #d9a441;
+
+  /* ── Colors: Semantic ── */
+  --color-info:          #254fad;
+  --color-info-border:   #458fff;
+  --color-success:       #006400;
+  --color-success-border:#39bf45;
+
+  /* ── Typography ── */
+  --font-display: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono:    'Geist Mono', 'Menlo', monospace;
+
+  /* ── Font Sizes (Airtable scale) ── */
+  --text-display-xl: 48px;
+  --text-display-lg: 40px;
+  --text-display-md: 32px;
+  --text-title-lg:   24px;
+  --text-title-md:   20px;
+  --text-title-sm:   18px;
+  --text-label-md:   16px;
+  --text-body:       14px;
+  --text-caption:    14px;
+  --text-legal:      13px;
+
+  /* ── Border Radius ── */
+  --radius-xs:   2px;
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   12px;
+  --radius-pill: 9999px;
+  --radius-full: 9999px;
+
+  /* ── Spacing ── */
+  --spacing-section: 96px;
+
+  /* ── Shadows ── */
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-modal: 0 20px 60px rgba(0,0,0,0.15);
+}
+
+/* ─────────────────────────────────────────────────────
+   BASE STYLES
+───────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* ─────────────────────────────────────────────────────
+   COMPONENT STYLES — Airtable Design System
+───────────────────────────────────────────────────── */
+
+/* Primary Button (Airtable: button-primary) */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--color-ink);
+  color: var(--color-canvas);
+  font-family: var(--font-body);
+  font-size: var(--text-label-md);
+  font-weight: 500;
+  line-height: 1.4;
+  padding: 14px 24px;
+  border-radius: var(--radius-lg);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.12s ease, transform 0.1s ease;
+  white-space: nowrap;
+}
+.btn-primary:hover {
+  background-color: var(--color-ink-active);
+}
+.btn-primary:active {
+  transform: scale(0.98);
+  background-color: var(--color-ink-active);
+}
+
+/* Secondary Button (Airtable: button-secondary) */
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: var(--text-label-md);
+  font-weight: 500;
+  line-height: 1.4;
+  padding: 14px 24px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-hairline);
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color 0.12s ease, background-color 0.12s ease;
+  white-space: nowrap;
+}
+.btn-secondary:hover {
+  border-color: var(--color-border-strong);
+  background-color: var(--color-surface-soft);
+}
+
+/* Signature Card — Coral (영희 페스티벌 / 락) */
+.card-coral {
+  background-color: var(--color-sig-coral);
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 48px;
+}
+
+/* Signature Card — Forest (DMZ 피스트레인) */
+.card-forest {
+  background-color: var(--color-sig-forest);
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 48px;
+}
+
+/* Signature Card — Dark (다크 에디토리얼) */
+.card-dark {
+  background-color: var(--color-surface-dark);
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 48px;
+}
+
+/* Signature Card — Cream (웜 에디토리얼) */
+.card-cream {
+  background-color: var(--color-sig-cream);
+  color: var(--color-ink);
+  border-radius: var(--radius-md);
+  padding: 24px;
+}
+
+/* Content Card */
+.card-content {
+  background-color: var(--color-canvas);
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow 0.2s ease;
+}
+.card-content:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Hairline Divider */
+.divider {
+  border: none;
+  border-top: 1px solid var(--color-hairline);
+  margin: 0;
+}
+
+/* Tag / Badge */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+.badge-released  { background-color: #dbeafe; color: #1e40af; }  /* 발매곡 */
+.badge-unreleased{ background-color: #fef3c7; color: #92400e; }  /* 미발매곡 */
+.badge-cover     { background-color: #ede9fe; color: #5b21b6; }  /* 커버곡 */
+.badge-single    { background-color: var(--color-sig-peach); color: var(--color-ink); }
+.badge-ep        { background-color: var(--color-sig-mint); color: var(--color-ink); }
+.badge-lp        { background-color: var(--color-sig-mustard); color: var(--color-ink); }
+
+/* Section padding (Airtable: 96px vertical rhythm) */
+.section {
+  padding-top: var(--spacing-section);
+  padding-bottom: var(--spacing-section);
+}
+
+/* Max container */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+@media (max-width: 768px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* Top nav */
+.top-nav {
+  height: 64px;
+  background-color: var(--color-canvas);
+  border-bottom: 1px solid var(--color-hairline);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+/* Typography utilities */
+.text-display-xl { font-size: var(--text-display-xl); font-weight: 500; line-height: 1.1; }
+.text-display-lg { font-size: var(--text-display-lg); font-weight: 400; line-height: 1.2; }
+.text-display-md { font-size: var(--text-display-md); font-weight: 400; line-height: 1.2; }
+.text-title-lg   { font-size: var(--text-title-lg);   font-weight: 400; line-height: 1.35; letter-spacing: 0.12px; }
+.text-title-sm   { font-size: var(--text-title-sm);   font-weight: 500; line-height: 1.4; }
+.text-label-md   { font-size: var(--text-label-md);   font-weight: 500; line-height: 1.4; }
+.text-body       { font-size: var(--text-body);        font-weight: 400; line-height: 1.6; }
+.text-muted      { color: var(--color-muted); }
+.text-hairline   { color: var(--color-hairline); }
+
+/* Setlist row */
+.setlist-row {
+  display: grid;
+  grid-template-columns: 32px 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--color-hairline);
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  border-radius: 4px;
+}
+.setlist-row:hover {
+  background-color: var(--color-surface-soft);
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.setlist-number {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-muted);
+  text-align: right;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 100;
+  padding: 0;
+}
+@media (min-width: 640px) {
+  .modal-overlay {
+    align-items: center;
+    padding: 24px;
+  }
+}
+.modal-sheet {
+  background: var(--color-canvas);
+  border-radius: var(--radius-lg);
+  width: 100%;
+  max-width: 480px;
+  padding: 32px 24px 40px;
+  box-shadow: var(--shadow-modal);
+  margin: auto;
+}
+.modal-sheet::backdrop {
+  background: rgba(0,0,0,0.4);
+}
+@media (min-width: 640px) {
+  .modal-sheet {
+    padding: 40px;
+  }
+}

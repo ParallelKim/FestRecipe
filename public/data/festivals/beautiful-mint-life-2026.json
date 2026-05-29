@@ -1,0 +1,84 @@
+{
+  "id": "beautiful-mint-life-2026",
+  "name": "뷰티풀 민트 라이프 2026",
+  "startDate": "2026-05-30",
+  "endDate": "2026-05-31",
+  "location": "올림픽공원",
+  "signatureColor": "coral",
+  "status": "upcoming",
+  "lineupStage": "stage3_timetable",
+  "description": "뷰티풀 민트 라이프는 봄날의 소풍 같은 음악 페스티벌입니다. 올림픽공원의 푸른 잔디 위에서 펼쳐지는 네 개의 메인 스테이지를 통해 봄 향기 가득한 어쿠스틱과 밴드 라이브를 즐겨보세요.",
+  "allArtists": [],
+  "lineup": [
+    {
+      "date": "2026-05-30",
+      "dayLabel": "5.30 SAT",
+      "stages": ["Mint Stage", "Breeze Stage", "Loving Forest Garden", "Flood in the Cave"],
+      "artists": [],
+      "slots": [
+        { "artistId": "nerd-connection", "stageName": "Mint Stage", "startTime": "12:40", "endTime": "13:25", "durationMinutes": 45 },
+        { "artistId": "daybreak", "stageName": "Mint Stage", "startTime": "14:20", "endTime": "15:05", "durationMinutes": 45 },
+        { "artistId": "jung-seung-hwan", "stageName": "Mint Stage", "startTime": "16:10", "endTime": "17:00", "durationMinutes": 50 },
+        { "artistId": "touched", "stageName": "Mint Stage", "startTime": "18:10", "endTime": "19:00", "durationMinutes": 50 },
+        { "artistId": "lucy", "stageName": "Mint Stage", "startTime": "20:10", "endTime": "21:10", "durationMinutes": 60 },
+        
+        { "artistId": "amp", "stageName": "Breeze Stage", "startTime": "12:00", "endTime": "12:40", "durationMinutes": 40 },
+        { "artistId": "soran", "stageName": "Breeze Stage", "startTime": "13:30", "endTime": "14:15", "durationMinutes": 45 },
+        { "artistId": "peppertones", "stageName": "Breeze Stage", "startTime": "15:10", "endTime": "16:00", "durationMinutes": 50 },
+        { "artistId": "car-the-garden", "stageName": "Breeze Stage", "startTime": "17:10", "endTime": "18:00", "durationMinutes": 50 },
+        { "artistId": "nflying", "stageName": "Breeze Stage", "startTime": "19:10", "endTime": "20:10", "durationMinutes": 60 },
+        
+        { "artistId": "chanmin", "stageName": "Loving Forest Garden", "startTime": "12:20", "endTime": "12:50", "durationMinutes": 30 },
+        { "artistId": "its", "stageName": "Loving Forest Garden", "startTime": "13:20", "endTime": "14:00", "durationMinutes": 40 },
+        { "artistId": "lee-oh-wook", "stageName": "Loving Forest Garden", "startTime": "14:30", "endTime": "15:10", "durationMinutes": 40 },
+        { "artistId": "yeonjeong", "stageName": "Loving Forest Garden", "startTime": "15:40", "endTime": "16:20", "durationMinutes": 40 },
+        { "artistId": "kim-suyoung", "stageName": "Loving Forest Garden", "startTime": "16:50", "endTime": "17:30", "durationMinutes": 40 },
+        { "artistId": "ahn-yeeun", "stageName": "Loving Forest Garden", "startTime": "18:10", "endTime": "19:00", "durationMinutes": 50 },
+        { "artistId": "ha-dong-qn", "stageName": "Loving Forest Garden", "startTime": "19:40", "endTime": "20:30", "durationMinutes": 50 },
+        
+        { "artistId": "uinone", "stageName": "Flood in the Cave", "startTime": "11:50", "endTime": "12:20", "durationMinutes": 30 },
+        { "artistId": "ghost-bookstore", "stageName": "Flood in the Cave", "startTime": "12:50", "endTime": "13:30", "durationMinutes": 40 },
+        { "artistId": "decadent", "stageName": "Flood in the Cave", "startTime": "14:00", "endTime": "14:40", "durationMinutes": 40 },
+        { "artistId": "jkc", "stageName": "Flood in the Cave", "startTime": "15:10", "endTime": "15:50", "durationMinutes": 40 },
+        { "artistId": "87dance", "stageName": "Flood in the Cave", "startTime": "16:20", "endTime": "17:00", "durationMinutes": 40 },
+        { "artistId": "tuesday-beach-club", "stageName": "Flood in the Cave", "startTime": "17:30", "endTime": "18:20", "durationMinutes": 50 },
+        { "artistId": "dasutt", "stageName": "Flood in the Cave", "startTime": "19:00", "endTime": "19:50", "durationMinutes": 50 }
+      ]
+    },
+    {
+      "date": "2026-05-31",
+      "dayLabel": "5.31 SUN",
+      "stages": ["Mint Stage", "Breeze Stage", "Loving Forest Garden", "Flood in the Cave"],
+      "artists": [],
+      "slots": [
+        { "artistId": "kachisan", "stageName": "Mint Stage", "startTime": "12:00", "endTime": "12:40", "durationMinutes": 40 },
+        { "artistId": "owalloil", "stageName": "Mint Stage", "startTime": "13:30", "endTime": "14:15", "durationMinutes": 45 },
+        { "artistId": "ha-hyun-sang", "stageName": "Mint Stage", "startTime": "15:10", "endTime": "16:00", "durationMinutes": 50 },
+        { "artistId": "roy-kim", "stageName": "Mint Stage", "startTime": "17:10", "endTime": "18:00", "durationMinutes": 50 },
+        { "artistId": "wonpil", "stageName": "Mint Stage", "startTime": "19:10", "endTime": "20:00", "durationMinutes": 50 },
+        
+        { "artistId": "dragon-pony", "stageName": "Breeze Stage", "startTime": "12:40", "endTime": "13:25", "durationMinutes": 45 },
+        { "artistId": "so-soo-bin", "stageName": "Breeze Stage", "startTime": "14:20", "endTime": "15:05", "durationMinutes": 45 },
+        { "artistId": "lucia", "stageName": "Breeze Stage", "startTime": "16:10", "endTime": "17:00", "durationMinutes": 50 },
+        { "artistId": "chang-kiha", "stageName": "Breeze Stage", "startTime": "18:10", "endTime": "19:00", "durationMinutes": 50 },
+        { "artistId": "akmu", "stageName": "Breeze Stage", "startTime": "20:10", "endTime": "21:10", "durationMinutes": 60 },
+        
+        { "artistId": "imzoo", "stageName": "Loving Forest Garden", "startTime": "12:20", "endTime": "12:50", "durationMinutes": 30 },
+        { "artistId": "band-kirin", "stageName": "Loving Forest Garden", "startTime": "13:20", "endTime": "14:00", "durationMinutes": 40 },
+        { "artistId": "gonny", "stageName": "Loving Forest Garden", "startTime": "14:30", "endTime": "15:10", "durationMinutes": 40 },
+        { "artistId": "o3ohn", "stageName": "Loving Forest Garden", "startTime": "15:40", "endTime": "16:20", "durationMinutes": 40 },
+        { "artistId": "92914", "stageName": "Loving Forest Garden", "startTime": "16:50", "endTime": "17:30", "durationMinutes": 40 },
+        { "artistId": "aleph", "stageName": "Loving Forest Garden", "startTime": "18:10", "endTime": "19:00", "durationMinutes": 50 },
+        { "artistId": "okdal", "stageName": "Loving Forest Garden", "startTime": "19:40", "endTime": "20:30", "durationMinutes": 50 },
+        
+        { "artistId": "the-shepherd-bois", "stageName": "Flood in the Cave", "startTime": "11:50", "endTime": "12:20", "durationMinutes": 30 },
+        { "artistId": "oysters", "stageName": "Flood in the Cave", "startTime": "12:50", "endTime": "13:30", "durationMinutes": 40 },
+        { "artistId": "kik", "stageName": "Flood in the Cave", "startTime": "14:00", "endTime": "14:40", "durationMinutes": 40 },
+        { "artistId": "low-high-low", "stageName": "Flood in the Cave", "startTime": "15:10", "endTime": "15:50", "durationMinutes": 40 },
+        { "artistId": "wah-wah-wah", "stageName": "Flood in the Cave", "startTime": "16:20", "endTime": "17:00", "durationMinutes": 40 },
+        { "artistId": "snake-chicken-soup", "stageName": "Flood in the Cave", "startTime": "17:30", "endTime": "18:20", "durationMinutes": 50 },
+        { "artistId": "kardi", "stageName": "Flood in the Cave", "startTime": "19:00", "endTime": "19:50", "durationMinutes": 50 }
+      ]
+    }
+  ]
+}
