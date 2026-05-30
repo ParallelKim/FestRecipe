@@ -107,8 +107,12 @@ export default function FestivalDetail() {
   const artistRecipe = selectedArtist ? FestivalService.getRecipeForArtist(selectedArtist.id) : null
 
   const artistCount = festival.lineupStage === 'stage1_all'
-    ? festival.allArtists.length
-    : festival.lineup.reduce((acc, day) => acc + (day.artists?.length || 0), 0)
+    ? (festival.allArtists?.length || 0)
+    : festival.lineup.reduce((acc, day) => {
+        if (day.artists?.length) return acc + day.artists.length;
+        if (day.slots?.length) return acc + day.slots.length;
+        return acc;
+      }, 0)
 
   return (
     <div style={{ backgroundColor: 'var(--color-canvas)', minHeight: '100vh', paddingBottom: '96px' }}>
