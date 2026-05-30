@@ -1,3 +1,4 @@
+import './prerender-polyfill'
 import { renderToString } from 'react-dom/server'
 import { HelmetProvider } from 'react-helmet-async'
 import { StaticRouter } from 'react-router-dom'
@@ -22,10 +23,11 @@ export async function prerender({ url }: { url: string }) {
       title: helmet?.title?.toString() || '',
       lang: 'ko',
       elements: helmet
-        ? new Set([
-            helmet.meta?.toString(),
-            helmet.link?.toString(),
-          ].filter(Boolean))
+        ? new Set(
+            [helmet.meta?.toString(), helmet.link?.toString()].filter(
+              Boolean,
+            ),
+          )
         : new Set(),
     },
   }
