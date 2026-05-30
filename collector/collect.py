@@ -177,8 +177,99 @@ def save_cache(ids):
 
 
 def base_queries(name):
-    return [f"{name} {s}" for s in
-            ["fullcam", "setlist", "festival", "concert", "live", "tour", "fancam"]]
+    """Initial broad search with just artist name + setlist keywords."""
+    return [
+        f"{name} 셋리스트",
+        f"{name} setlist",
+        f"{name} 풀캠 페스티벌",
+        f"{name} 풀캠 콘서트",
+        f"{name} full set",
+        f"{name} festival set",
+        f"{name} concert footage",
+        f"{name} live set",
+    ]
+
+
+def extract_event_candidates_from_titles(titles):
+    """
+    Extract potential concert/festival names from video titles.
+    Returns list of (event_name, year) tuples.
+    """
+    event_candidates = {}
+    
+    # Pattern: (year)(month)(day) EventName or EventName (year)
+    date_event_patterns = [
+        # 251101 서울뮤직페스티벌
+        r'(\d{2,4}\d{2,4})\s+(.+?)(?:\s*(?:FULL|FULLCAM|풀캠|직캠|FANCAM|4K|8K)|$)',
+        # 20251101 서울뮤직페스티벌
+        r'(20\d{2})(\d{2})(\d{2})\s+(.+)',
+    ]
+    
+    for title in titles:
+        # Skip TV broadcasts
+        tv_keywords = ['인기가요', '뮤직뱅크', '음악중심', '쇼챔피언', '더쇼', '엠카운트다운',
+                      'inkigayo', 'musicbank', 'mcountdown', 'showchampion', 'theshow',
+                      'sbs', 'mbc', 'kbs', 'mnet']
+        if any(kw.lower() in title.lower() for kw in tv_keywords):
+            continue
+        
+        # Extract festival/concert names
+        # Look for: "페스티벌", "콘서트", "축제", "페스타", "festival", "concert"
+        fest_keywords = ['페스티벌', '콘서트', '축제', '페스타', 'festival', 'concert',
+                        '라이브', 'live', '투어', 'tour', '단독', '대동제']
+        
+        for kw in fest_keywords:
+            if kw.lower() in title.lower():
+                # Extract the event name around the keyword
+                idx = title.lower().index(kw.lower())
+                # Get surrounding context
+                start = max(0, idx - 30)
+                end = min(len(title), idx + len(kw) + 30)
+                event_name = title[start:end].strip()
+                
+                # Clean up: remove common noise words
+                noise = ['FULL', 'FULLCAM', '풀캠', '직캠', 'FANCAM', '4K', '8K', 'FULL CAM',
+                        'setlist', '셋리스트', 'concert', 'festival']
+                for n in noise:
+                    event_name = event_name.replace(n, '').replace(n.lower(), '')
+                event_name = re.sub(r'\s+', ' ', event_name).strip()
+                
+                if len(event_name) >= 5 and len(event_name) <= 80:
+                    # Extract year if present
+                    year_match = re.search(r'(20\d{2})', title)
+                    year = year_match.group(1) if year_match else 'unknown'
+                    
+                    key = event_name.lower()
+                    if key not in event_candidates:
+                        event_candidates[key] = {'name': event_name, 'year': year, 'count': 0}
+                    event_candidates[key]['count'] += 1
+                break
+    
+    # Sort by count (most frequent = likely real events)
+    sorted_events = sorted(event_candidates.values(), key=lambda x: x['count'], reverse=True)
+    return [e['name'] for e in sorted_events[:30]]  # Top 30 events
+
+
+def is_tv_broadcast(title, desc):
+    """Check if video is a TV broadcast (music show) — these are single-song, no setlist."""
+    tv_keywords = [
+        "인기가요", "뮤직뱅크", "음악중심", "쇼챔피언", "더쇼", "엠카운트다운",
+        "inkigayo", "musicbank", "mcountdown", "showchampion", "theshow",
+        "sbs", "mbc", "kbs", "mnet", "jtbc", "tvn",
+        "풀캠4k", "직캠4k", "4k fullcam", "fullcam 4k",
+    ]
+    text = f"{title} {desc}".lower()
+    return any(kw.lower() in text for kw in tv_keywords)
+
+
+def has_setlist_pattern(desc):
+    """Check if description contains setlist-like timestamp patterns."""
+    if not desc:
+        return False
+    # Pattern: HH:MM or MM:SS followed by song name
+    ts_pattern = re.compile(r'\d{1,2}:\d{2}(?::\d{2})?\s+\S+')
+    matches = ts_pattern.findall(desc)
+    return len(matches) >= 2  # At least 2 timestamp entries
 
 
 def collect(artist, years=3, maxv=500, conc=20, update=False, prev_ids=None):
@@ -284,6 +375,41 @@ def collect(artist, years=3, maxv=500, conc=20, update=False, prev_ids=None):
             u, dur, vc, ud = dd.get("uploader", u), dd.get("duration", dur), dd.get("view_count", vc), dd.get("upload_date", ud)
         videos.append({"videoId": v, "title": t, "description": d, "url": f"https://www.youtube.com/watch?v={v}",
                         "uploader": u, "duration": dur, "viewCount": vc, "uploadDate": ud})
+
+    # Filter out TV broadcasts and single-song fancams
+    before_filter = len(videos)
+    filtered = []
+    tv_count = 0
+    no_ts_count = 0
+    for v in videos:
+        desc = v.get("description", "") or ""
+        title = v.get("title", "")
+        
+        # Remove TV broadcasts
+        if is_tv_broadcast(title, desc):
+            tv_count += 1
+            continue
+        
+        # Keep videos with setlist patterns OR long descriptions (likely concert footage)
+        if has_setlist_pattern(desc) or len(desc) > 200:
+            filtered.append(v)
+        else:
+            no_ts_count += 1
+    
+    print(f"  [filter] TV broadcasts removed: {tv_count}, no-timestamp removed: {no_ts_count}")
+    print(f"  [filter] kept: {len(filtered)}/{before_filter}")
+    
+    # If too few videos after filtering, relax the criteria
+    if len(filtered) < maxv // 2:
+        print(f"  [filter] too few results, including videos with any timestamp")
+        filtered = [v for v in videos if not is_tv_broadcast(v.get("title",""), v.get("description","") or "")]
+        # Among non-TV, prefer those with timestamps
+        with_ts = [v for v in filtered if has_setlist_pattern(v.get("description","") or "")]
+        without_ts = [v for v in filtered if not has_setlist_pattern(v.get("description","") or "")]
+        filtered = (with_ts + without_ts)[:maxv]
+        print(f"  [filter] relaxed: kept {len(filtered)}")
+    
+    videos = filtered[:maxv]
 
     hd = sum(1 for v in videos if v["description"])
     print(f"\n[stats] {hd}/{len(videos)} have desc")

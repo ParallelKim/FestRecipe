@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import { FestivalService } from '../services/festivals'
 import type { Festival, Artist } from '../types'
 import TimetableGrid from '../components/TimetableGrid'
+import FestivalHelmet from '../components/seo/FestivalHelmet'
 
 export default function FestivalDetail() {
   const { id } = useParams<{ id: string }>()
@@ -105,8 +106,21 @@ export default function FestivalDetail() {
 
   const artistRecipe = selectedArtist ? FestivalService.getRecipeForArtist(selectedArtist.id) : null
 
+  const artistCount = festival.lineupStage === 'stage1_all'
+    ? festival.allArtists.length
+    : festival.lineup.reduce((acc, day) => acc + (day.artists?.length || 0), 0)
+
   return (
     <div style={{ backgroundColor: 'var(--color-canvas)', minHeight: '100vh', paddingBottom: '96px' }}>
+      <FestivalHelmet
+        festivalId={festival.id}
+        festivalName={festival.name}
+        description={festival.description}
+        startDate={festival.startDate}
+        endDate={festival.endDate}
+        location={festival.location}
+        artistCount={artistCount}
+      />
       
       {/* Festival Banner */}
       <section 

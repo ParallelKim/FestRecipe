@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { FestivalService } from '../services/festivals'
 import type { Festival } from '../types'
+import HomeHelmet from '../components/seo/HomeHelmet'
 
 export default function Home() {
   const [festivals, setFestivals] = useState<Festival[]>([])
@@ -33,6 +34,7 @@ export default function Home() {
 
   return (
     <div style={{ backgroundColor: 'var(--color-canvas)', minHeight: 'calc(100vh - 64px)' }}>
+      <HomeHelmet festivalCount={festivals.length} />
       {/* Hero Section */}
       <section className="section" style={{ borderBottom: '1px solid var(--color-hairline)', backgroundColor: 'var(--color-surface-soft)', paddingBottom: '72px', paddingTop: '72px' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '800px' }}>
