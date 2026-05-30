@@ -155,16 +155,30 @@ function buildHtml(meta) {
   // Read the built index.html as a base
   const template = readFileSync(join(DIST, "index.html"), "utf-8");
 
-  // Replace everything between <head> and </head> with our meta + original meta
+  // Extract Vite-injected assets (<script> and <link rel="stylesheet">) from <head>
+  const headMatch = template.match(/<head>[\s\S]*?<\/head>/);
+  const headInner = headMatch ? headMatch[0] : "";
+
+  // Preserve JS/CSS bundle tags that Vite injected
+  const styleTag = headInner.match(/<link\s+[^>]*rel="stylesheet"[^>]*\/?>/gi)?.[0] || "";
+  const scriptTag = headInner.match(/<script\s+[^>]*src="[^"]*"[^>]*\/?>(?:<\/script>)?/gi)?.[0] || "";
+  const modulePreloadTags = (headInner.match(/<link\s+[^>]*rel="modulepreload"[^>]*\/?>/gi) || []).join("\n    ");
+
   const headContent = renderHead(meta);
 
-  // Keep the original <meta charset>, <link rel="icon">, <meta viewport> from template
-  const originalHeadMatch = template.match(/<head>[\s\S]*?<\/head>/);
-  const originalMeta = originalHeadMatch
-    ? originalHeadMatch[0].replace(/<title>.*?<\/title>/s, "").replace(/<meta\s+(name|property)="(description|title|og:|twitter:)[^>]*\/?>/gi, "").replace(/<link\s+rel="(canonical|og:)[^>]*\/?>/gi, "").replace(/<script\s+type="application\/ld\+json">.*?<\/script>/gi, "").replace(/<head>|<\/head>/g, "").trim()
-    : "";
-
-  const newHead = `<head>\n    <meta charset="UTF-8" />\n    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />\n    <meta name="viewport" content="width=device-width, initial-scale=1.0" />\n    ${headContent}\n  </head>`;
+  const newHead = [
+    "<head>",
+    '  <meta charset="UTF-8" />',
+    '  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />',
+    '  <meta name="viewport" content="width=device-width, initial-scale=1.0" />',
+    "  " + headContent,
+    styleTag ? "  " + styleTag : "",
+    modulePreloadTags ? "  " + modulePreloadTags : "",
+    scriptTag ? "  " + scriptTag : "",
+    "</head>",
+  ]
+    .filter(Boolean)
+    .join("\n");
 
   return template.replace(/<head>[\s\S]*?<\/head>/, newHead);
 }
