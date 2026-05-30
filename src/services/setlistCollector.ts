@@ -28,7 +28,7 @@
  */
 
 import { execSync } from 'child_process';
-import { initializeApp, FirebaseApp } from 'firebase/app';
+import { initializeApp, type FirebaseApp } from 'firebase/app';
 import { setDoc, getFirestore, Firestore, doc, collection } from 'firebase/firestore';
 
 // ─────────────────────────────────────────────
@@ -356,7 +356,7 @@ function extractSongTitleFromVideoTitle(rawTitle: string, artistName: string, co
 
 function parsePlaylistSongs(
     playlistVideos: Array<RawVideoMeta & { playlistIndex: number }>,
-    playlistId: string,
+    _playlistId: string,
     artistName: string,
     concertLabel: string,
 ): SetlistSong[] {
