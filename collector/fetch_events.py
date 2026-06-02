@@ -2,37 +2,27 @@
 """
 FestRecipe - Event Video Fetcher
 
-Step 1: {아티스트명} live 검색 → 제목 수집 → LLM으로 공연명 추출
-Step 2: {아티스트명} {공연명} live 검색 → 재생목록 + 풀캠 영상 수집
-Step 3: 풀캠 영상의 description 전부 수집 → 저장
+아티스트별 공연 영상 + 재생목록 + description을 수집하여
+Firestore 업로드용 정규화된 스키마로 저장한다.
 
-재생목록 검색:
-  YouTube 검색 URL에 sp 파라미터를 사용하여 재생목록 전용 필터링.
-  sp는 base64로 인코딩된 바이너리 필터 플래그.
-  참고:
-      - https://ktsk.xyz/docs/programming/decoding-youtube-filters/
-      - https://github.com/yt-dlp/yt-dlp/issues/11192 (yt-dlp playlist search issue)
-      - https://github.com/yt-dlp/yt-dlp/issues/2786 (filter for playlists)
+스텝별 결과물:
+  Step 1 (collect.py): 아티스트명 live 검색 → 제목 수집
+  Step 2 (collect.py): 제목 → LLM으로 공연명 추출 → events.json + queries.json
+  Step 3 (fetch_events.py): 공연명 기반 쿼리 확장 → 검색 → description 수집
 
-  실험으로 확인한 sp 값:
-    EgIQAw== → Playlist only
-    EgIQAQ=  → Video only
-    EgIQAg== → Channel only
-
-  검색 URL 형식:
-    https://www.youtube.com/results?search_query={query}&sp=EgIQAw==
-
-  ytsearch{N} 형식은 재생목록 필터링을 지원하지 않으므로
-  yt-dlp에 YouTube 검색 URL을 직접 전달하는 방식 사용.
+디렉토리 구조:
+  output/
+    {artistId}/
+      events.json              ← 공연명 목록 [{event_name, date, source_titles}]
+      queries.json             ← 쿼리 확장 목록 [{query, strategy, event_name}]
+      search_results/
+        {eventSlug}/
+          search.json          ← 검색 결과 [{query, full_videos, playlists}]
+          descriptions.json    ← description 목록 [{videoId, title, description, timestamps}]
 
 Usage:
-  # Phase 2 결과(events.json)에서 읽어서 수집
-  python3 fetch_events.py --from-events output/nflying_events.json --artist "엔플라잉"
-
-  # 수동 지정
-  python3 fetch_events.py --artist "터치트" --events "2025 Pentaport" "remnant Concert"
-
-  # output/의 모든 events.json 배치 처리
+  python3 fetch_events.py --artist "소음발광"
+  python3 fetch_events.py --artist "소음발광" --event "2025 Pentaport Rock Festival"
   python3 fetch_events.py --all
 """
 
@@ -52,40 +42,15 @@ ARTISTS_JSON = PROJECT_ROOT / "public" / "data" / "artists.json"
 OUTPUT_DIR = SCRIPT_DIR / "output"
 
 # ── constants ──────────────────────────────────────────────────────────
-SEARCH_LIMIT = 100       # 공연명당 ytsearch 수
-PLAYLIST_SEARCH_LIMIT = 20  # 재생목록 검색 수
-DETAIL_DELAY = 0.5       # description 수집 요청 간 딜레이 (초)
-DEFAULT_YEARS = 5        # 수집 기간 (년)
+SEARCH_LIMIT = 100
+PLAYLIST_SEARCH_LIMIT = 20
+DETAIL_DELAY = 0.5
+DEFAULT_YEARS = 5
 
-# YouTube 검색 결과 타입/피처 필터 (sp 파라미터)
-# sp는 base64로 인코딩된 바이너리 필터 플래그.
+# YouTube sp 파라미터 (base64 인코딩된 바이너리 필터)
 # 참고: https://ktsk.xyz/docs/programming/decoding-youtube-filters/
-#
-# 구조:
-#   - 첫 2 bytes: 헤더 (0x12 + 카운터)
-#   - 이후 2 bytes씩 필터 워드
-#   - 카운터 bit 0이 1이면 마지막 필터는 3 bytes
-#
-# Type 필터 (2 bytes):
-#   Video:    0x10 0x01
-#   Channel:  0x10 0x02
-#   Playlist: 0x10 0x03
-#   Movie:    0x10 0x04
-#
-# Features 필터 (2 bytes):
-#   Live: 0x40 0x01
-#   4K:   0x70 0x01
-#   HD:   0x20 0x01
-#
-# 실험으로 확인한 sp 값:
-#   EgIQAw== → Playlist only (Type=Playlist)
-#   EgIQAQ=  → Video only (Type=Video)
-#   EgIQAg== → Channel only (Type=Channel)
-#
-# 참고: 검색어에 "live" 키워드를 추가하던 것을 sp의 Live 필터로 대체 가능
-#   → 검색어는 아티스트명만 깔끔하게, 필터는 sp로 분리
-PLAYLIST_FILTER = "EgIQAw=="
-VIDEO_FILTER = "EgIQAQ="
+PLAYLIST_FILTER = "EgIQAw=="   # Playlist only
+VIDEO_FILTER = "EgIQAQ="       # Video only
 
 
 # ── helpers ────────────────────────────────────────────────────────────
@@ -112,29 +77,63 @@ def date_after(years):
     return (datetime.now() - timedelta(days=years * 365)).strftime("%Y%m%d")
 
 
-# ── Step 2a: 재생목록 검색 ────────────────────────────────────────────
+def artist_dir(artist_id):
+    d = OUTPUT_DIR / artist_id
+    d.mkdir(parents=True, exist_ok=True)
+    return d
+
+
+# ── 쿼리 확장 ──────────────────────────────────────────────────────────
+def expand_queries(artist_name, event_name):
+    """
+    공연명으로부터 검색 쿼리를 확장한다.
+    날짜를 제거하고, 핵심 키워드만 추출하여 다양한 변형을 생성.
+
+    전략:
+      1. 공연명 전체 (날짜 제거)
+      2. 핵심 키워드만 (페스티벌/콘서트명)
+      3. 영문명 (있는 경우)
+    """
+    queries = []
+
+    # 날짜 제거
+    clean = re.sub(r'\d{4}\s*', '', event_name).strip()
+    if clean != event_name:
+        queries.append({"query": f"{artist_name} {clean} live", "strategy": "date_removed", "event": event_name})
+    else:
+        queries.append({"query": f"{artist_name} {clean} live", "strategy": "full", "event": event_name})
+
+    # 핵심 키워드 (3단어 이하)
+    words = clean.split()
+    if len(words) > 3:
+        short = ' '.join(words[:3])
+        queries.append({"query": f"{artist_name} {short} live", "strategy": "short_3words", "event": event_name})
+
+    # 장소명만 (@ 뒤)
+    if '@' in clean:
+        venue = clean.split('@')[-1].strip()
+        queries.append({"query": f"{artist_name} {venue} live", "strategy": "venue_only", "event": event_name})
+
+    # 영문 페스티벌명 (소문자)
+    fest_words = ['festival', 'concert', 'fest', 'tour', 'live']
+    for fw in fest_words:
+        if fw in clean.lower():
+            # 영문 키워드 중심 쿼리
+            en_part = ' '.join(w for w in words if re.match(r'^[A-Za-z]+$', w) or w.lower() in fest_words)
+            if en_part:
+                queries.append({"query": f"{artist_name} {en_part} live", "strategy": "english_keywords", "event": event_name})
+
+    return queries
+
+
+# ── 검색 ──────────────────────────────────────────────────────────────
 def search_playlists(artist_name, event_name, limit=PLAYLIST_SEARCH_LIMIT):
-    """
-    아티스트명 + 공연명으로 재생목록 전용 검색.
-
-    YouTube 검색 결과를 재생목록으로만 필터링하기 위해 sp 파라미터 사용.
-    sp 파라미터는 base64로 인코딩된 바이너리 필터 플래그.
-    참고:
-      - https://ktsk.xyz/docs/programming/decoding-youtube-filters/
-      - https://github.com/yt-dlp/yt-dlp/issues/11192 (yt-dlp playlist search issue)
-
-    EgIQAw== 바이너리 분석:
-      hex: 12 02 10 03
-      - 0x12 0x02: YouTube sp 파라미터 헤더
-      - 0x10: Type 필터 활성화
-      - 0x03: Playlist 타입 (0x01=Video, 0x02=Channel, 0x03=Playlist)
-
-    yt-dlp에 YouTube 검색 URL을 직접 전달하여 재생목록 검색 결과를 얻는다.
-    ytsearch{N} 형식은 재생목록 필터링을 지원하지 않으므로 URL 기반 검색 사용.
-
-    반환: list[{"id": playlistId, "title": str}]
-    """
-    query = f"{artist_name} {event_name} live"
+    """재생목록 전용 검색. sp 파라미터 사용."""
+    clean = re.sub(r'\d{4}\s*', '', event_name).strip()
+    words = clean.split()
+    if len(words) > 3:
+        clean = ' '.join(words[:3])
+    query = f"{artist_name} {clean} live"
     url = f"https://www.youtube.com/results?search_query={query}&sp={PLAYLIST_FILTER}"
 
     r = subprocess.run(
@@ -149,17 +148,13 @@ def search_playlists(artist_name, event_name, limit=PLAYLIST_SEARCH_LIMIT):
     playlists = []
     for e in data.get("entries", []):
         pid = e.get("id", "")
-        if pid and len(pid) > 10:  # playlist ID는 보통 10자 이상
+        if pid and len(pid) > 10:
             playlists.append({"id": pid, "title": e.get("title", "")})
-
     return playlists
 
 
 def fetch_playlist_videos(playlist_id, limit=SEARCH_LIMIT):
-    """
-    재생목록 내부 영상 목록 수집.
-    반환: list[{"id": videoId, "title": str}]
-    """
+    """재생목록 내부 영상 목록."""
     url = f"https://www.youtube.com/playlist?list={playlist_id}"
     r = subprocess.run(
         ["yt-dlp", "--flat-playlist", "--dump-single-json", "--no-warnings",
@@ -168,24 +163,13 @@ def fetch_playlist_videos(playlist_id, limit=SEARCH_LIMIT):
     )
     if r.returncode != 0:
         return []
-
     data = json.loads(r.stdout)
-    videos = []
-    for e in data.get("entries", []):
-        vid = e.get("id", "")
-        if valid_vid(vid):
-            videos.append({"id": vid, "title": e.get("title", "")})
-
-    return videos
+    return [{"id": e["id"], "title": e.get("title", "")}
+            for e in data.get("entries", []) if valid_vid(e.get("id", ""))]
 
 
-# ── Step 2b: 풀캠 영상 검색 ───────────────────────────────────────────
-def search_full_videos(artist_name, event_name, years=DEFAULT_YEARS, limit=SEARCH_LIMIT):
-    """
-    아티스트명 + 공연명으로 일반 영상 검색 (풀캠 포함).
-    반환: list[{"id": videoId, "title": str}]
-    """
-    query = f"{artist_name} {event_name} live"
+def search_full_videos(query, years=DEFAULT_YEARS, limit=SEARCH_LIMIT):
+    """일반 영상 검색. 쿼리를 그대로 사용."""
     r = subprocess.run(
         ["yt-dlp", f"ytsearch{limit}:{query}", "--flat-playlist",
          f"--dateafter={date_after(years)}", "--dump-single-json", "--no-warnings"],
@@ -193,117 +177,78 @@ def search_full_videos(artist_name, event_name, years=DEFAULT_YEARS, limit=SEARC
     )
     if r.returncode != 0:
         return []
-
     data = json.loads(r.stdout)
-    videos = []
-    for e in data.get("entries", []):
-        vid = e.get("id", "")
-        if valid_vid(vid):
-            videos.append({"id": vid, "title": e.get("title", "")})
-
-    return videos
+    return [{"id": e["id"], "title": e.get("title", "")}
+            for e in data.get("entries", []) if valid_vid(e.get("id", ""))]
 
 
-# ── Step 3: description 순차 수집 ─────────────────────────────────────
-async def _fetch_one_detail(vid):
-    """단일 영상 description 수집. 타임아웃 20초."""
+# ── description 수집 ─────────────────────────────────────────────────
+async def _fetch_detail(vid):
     try:
         p = await asyncio.create_subprocess_exec(
-            "yt-dlp",
-            f"https://www.youtube.com/watch?v={vid}",
+            "yt-dlp", f"https://www.youtube.com/watch?v={vid}",
             "--dump-single-json", "--no-playlist", "--no-warnings",
-            stdout=asyncio.subprocess.PIPE,
-            stderr=asyncio.subprocess.PIPE,
+            stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE,
         )
         o, _ = await asyncio.wait_for(p.communicate(), 20)
         return json.loads(o) if p.returncode == 0 else None
-    except (asyncio.TimeoutError, json.JSONDecodeError):
+    except:
         return None
 
 
 async def fetch_all_details(entries, delay=DETAIL_DELAY):
-    """
-    영상 목록의 description을 순차 + 딜레이로 수집.
-    YouTube rate limit 대응: 동시 요청 없이 순차 처리.
-    """
+    """순차 + 딜레이로 description 수집."""
     vids = [e["id"] for e in entries]
     results = {}
-
-    print(f"  [detail] {len(vids)} videos, sequential (delay={delay}s)")
-
     for i, vid in enumerate(vids):
-        d = await _fetch_one_detail(vid)
+        d = await _fetch_detail(vid)
         if d:
             results[vid] = d
-
         if (i + 1) % 10 == 0 or i + 1 == len(vids):
             print(f"    [detail] {i+1}/{len(vids)}", end="\r")
-
         await asyncio.sleep(delay)
-
     print()
-    print(f"  [detail] done: {len(results)}/{len(vids)} with description")
     return results
 
 
-# ── 저장 ──────────────────────────────────────────────────────────────
-def save_event_result(artist_id, event_name, event_date, playlists_data, full_videos_data):
+# ── 코어: 공연별 수집 ─────────────────────────────────────────────────
+async def fetch_event(artist_name, event_name, years=DEFAULT_YEARS):
     """
-    공연별 결과 저장.
-
-    playlists_data: [{"playlistId", "playlistTitle", "videos": [{videoId, title}]}]
-    full_videos_data: [{"videoId", "title", "description", "url", "uploader", ...}]
-    """
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    slug = slugify(event_name)
-    out_path = OUTPUT_DIR / f"{artist_id}_{slug}.json"
-
-    output = {
-        "artistId": artist_id,
-        "eventName": event_name,
-        "eventDate": event_date,
-        "fetchedAt": datetime.now().isoformat(),
-        "playlists": playlists_data,
-        "fullVideos": full_videos_data,
-        "stats": {
-            "playlistCount": len(playlists_data),
-            "playlistVideoCount": sum(len(p["videos"]) for p in playlists_data),
-            "fullVideoCount": len(full_videos_data),
-            "fullVideoWithDesc": sum(1 for v in full_videos_data if v.get("description")),
-        },
-    }
-
-    out_path.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
-    stats = output["stats"]
-    print(f"  [save] {event_name[:40]:40s} → {out_path.name}")
-    print(f"         playlists: {stats['playlistCount']} ({stats['playlistVideoCount']} videos)")
-    print(f"         full videos: {stats['fullVideoCount']} ({stats['fullVideoWithDesc']} with desc)")
-
-    return out_path
-
-
-# ── Phase 2 결과 파일 로드 ────────────────────────────────────────────
-def load_events(events_path):
-    """Phase 2 결과 로드. 기대 형식: list[{"event_name": str, "date": str}]"""
-    return json.loads(Path(events_path).read_text())
-
-
-# ── 메인 오케스트레이터 ───────────────────────────────────────────────
-async def fetch_event(artist_name, event_name, event_date, years=DEFAULT_YEARS):
-    """
-    단일 공연에 대한 전체 수집:
-      1. 재생목록 검색 → 내부 영상 수집
-      2. 풀캠 영상 검색 → description 수집
+    단일 공연에 대해 쿼리 확장 → 검색 → description 수집.
+    모든 쿼리의 결과를 병합하여 저장.
     """
     print(f"\n  [{artist_name}] {event_name}")
 
-    # Step 2a: 재생목록 수집
-    print(f"    searching playlists...")
-    playlists = search_playlists(artist_name, event_name)
-    print(f"    playlists: {len(playlists)}")
+    # 쿼리 확장
+    queries = expand_queries(artist_name, event_name)
+    print(f"    queries: {len(queries)}")
+    for q in queries:
+        print(f"      [{q['strategy']}] {q['query']}")
 
+    # 모든 쿼리 실행 → 결과 병합
+    all_full_videos = {}
+    all_playlists = []
+
+    for q in queries:
+        query = q["query"]
+
+        # 재생목록
+        playlists = search_playlists(artist_name, query)
+        for pl in playlists:
+            if not any(p["id"] == pl["id"] for p in all_playlists):
+                all_playlists.append(pl)
+
+        # 풀캠
+        full_videos = search_full_videos(query, years=years)
+        for v in full_videos:
+            if v["id"] not in all_full_videos:
+                all_full_videos[v["id"]] = v
+
+    print(f"    playlists: {len(all_playlists)}, full videos: {len(all_full_videos)}")
+
+    # 재생목록 내부 영상 수집
     playlists_data = []
-    for pl in playlists:
+    for pl in all_playlists:
         videos = fetch_playlist_videos(pl["id"])
         playlists_data.append({
             "playlistId": pl["id"],
@@ -312,81 +257,202 @@ async def fetch_event(artist_name, event_name, event_date, years=DEFAULT_YEARS):
             "videoCount": len(videos),
             "videos": videos,
         })
-        print(f"      [{pl['title'][:40]}] {len(videos)} videos")
 
-    # Step 2b: 풀캠 영상 수집
-    print(f"    searching full videos...")
-    full_videos = search_full_videos(artist_name, event_name, years=years)
-    print(f"    full videos: {len(full_videos)}")
-
-    # 재생목록에 이미 포함된 영상은 제외
+    # 재생목록 중복 제외
     pl_vids = set()
     for pl in playlists_data:
         for v in pl["videos"]:
             pl_vids.add(v["id"])
 
-    full_videos_unique = [v for v in full_videos if v["id"] not in pl_vids]
-    print(f"    unique full videos: {len(full_videos_unique)} (excluded {len(full_videos) - len(full_videos_unique)} duplicates)")
+    full_unique = [v for v in all_full_videos.values() if v["id"] not in pl_vids]
+    print(f"    unique full videos: {len(full_unique)} (excluded {len(all_full_videos) - len(full_unique)} dups)")
 
-    # Step 3: description 수집
-    if full_videos_unique:
-        details = await fetch_all_details(full_videos_unique)
+    # description 수집
+    all_entries = full_unique + [{"id": vid, "title": "(playlist)"} for vid in pl_vids]
+
+    if all_entries:
+        details = await fetch_all_details(all_entries)
     else:
         details = {}
 
     # 결과 조립
     full_videos_data = []
-    for v in full_videos_unique:
+    for v in full_unique:
         vid = v["id"]
-        title = v["title"]
-        desc = ""
-        uploader = ""
-        upload_date = None
-        duration = None
-        view_count = None
-
-        if vid in details:
-            d = details[vid]
-            title = d.get("title", title)
-            desc = d.get("description", "") or ""
-            uploader = d.get("uploader", "")
-            upload_date = d.get("upload_date")
-            duration = d.get("duration")
-            view_count = d.get("view_count")
+        d = details.get(vid, {})
+        desc = d.get("description", "") or ""
+        timestamps = []
+        for line in desc.splitlines():
+            stripped = line.strip()
+            if ":" in stripped:
+                # MM:SS 또는 HH:MM:SS 형식이면 후보
+                parts = stripped.split(":")
+                if 2 <= len(parts) <= 3:
+                    try:
+                        # 첫 부분이 숫자여야 함
+                        int(parts[0])
+                        timestamps.append({"raw": stripped[:120]})
+                    except ValueError:
+                        pass
 
         full_videos_data.append({
             "videoId": vid,
-            "title": title,
+            "title": d.get("title", v["title"]),
             "description": desc,
             "url": f"https://www.youtube.com/watch?v={vid}",
-            "uploader": uploader,
-            "uploadDate": upload_date,
-            "duration": duration,
-            "viewCount": view_count,
+            "uploader": d.get("uploader", ""),
+            "uploadDate": d.get("upload_date"),
+            "duration": d.get("duration"),
+            "viewCount": d.get("view_count"),
+            "hasTimestamps": len(timestamps) >= 3,
+            "timestamps": timestamps[:30],
         })
 
-    return playlists_data, full_videos_data
+    # 재생목록 영상도 셋리스트 후보로 포함
+    playlist_entries = []
+    for pl in playlists_data:
+        for pv in pl["videos"]:
+            if pv["id"] not in all_full_videos:  # 풀캠에 없는 것만
+                playlist_entries.append({
+                    "videoId": pv["id"],
+                    "title": pv["title"],
+                    "url": f"https://www.youtube.com/watch?v={pv['id']}",
+                    "playlistId": pl["playlistId"],
+                    "playlistTitle": pl["playlistTitle"],
+                    "source": "playlist",  # description 대신 재생목록 제목 기반
+                })
+
+    with_desc = sum(1 for v in full_videos_data if v["description"])
+    with_ts = sum(1 for v in full_videos_data if v["hasTimestamps"])
+    print(f"    saved: {len(full_videos_data)} videos ({with_desc} desc, {with_ts} with timestamps), {len(playlist_entries)} from playlists")
+
+    return {
+        "eventName": event_name,
+        "queries": queries,
+        "playlists": playlists_data,
+        "fullVideos": full_videos_data,
+        "playlistEntries": playlist_entries,
+        "stats": {
+            "queryCount": len(queries),
+            "playlistCount": len(playlists_data),
+            "playlistVideoCount": sum(p["videoCount"] for p in playlists_data),
+            "playlistEntryCount": len(playlist_entries),
+            "fullVideoCount": len(full_videos_data),
+            "withDescription": with_desc,
+            "withTimestamps": with_ts,
+        },
+    }
 
 
+# ── 저장 ──────────────────────────────────────────────────────────────
+def save_results(artist, event_name, result):
+    """공연별 결과를 아티스트 폴더 내 search_results/{eventSlug}/에 저장."""
+    a_dir = artist_dir(artist["id"])
+    slug = slugify(event_name)
+    sr_dir = a_dir / "search_results" / slug
+    sr_dir.mkdir(parents=True, exist_ok=True)
+
+    # search.json — 전체 검색 결과
+    search_path = sr_dir / "search.json"
+    search_data = {
+        "artistId": artist["id"],
+        "artistName": artist["name"],
+        "eventName": event_name,
+        "fetchedAt": datetime.now().isoformat(),
+        "stats": result["stats"],
+        "queries": result["queries"],
+        "playlists": result["playlists"],
+        "fullVideos": result["fullVideos"],
+    }
+    search_path.write_text(json.dumps(search_data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # descriptions.json — Firestore 업로드용
+    # 풀캠 description + 재생목록 영상 제목을 합쳐서 저장
+    desc_path = sr_dir / "descriptions.json"
+    descriptions = []
+
+    # 풀캠 영상 (description 있는 것)
+    for v in result["fullVideos"]:
+        if v["description"]:
+            descriptions.append({
+                "videoId": v["videoId"],
+                "title": v["title"],
+                "url": v["url"],
+                "uploader": v["uploader"],
+                "uploadDate": v["uploadDate"],
+                "source": "description",
+                "description": v["description"],
+                "timestamps": v["timestamps"],
+                "hasTimestamps": v["hasTimestamps"],
+            })
+
+    # 재생목록 영상 (제목 = 셋리스트 후보)
+    for e in result.get("playlistEntries", []):
+        descriptions.append({
+            "videoId": e["videoId"],
+            "title": e["title"],
+            "url": e["url"],
+            "playlistId": e["playlistId"],
+            "playlistTitle": e["playlistTitle"],
+            "source": "playlist_title",
+            "description": None,
+            "timestamps": [],
+            "hasTimestamps": False,
+        })
+
+    desc_path.write_text(json.dumps(descriptions, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(f"  [save] {sr_dir}")
+    return sr_dir
+
+
+# ── Step 2: events.json + queries.json 로드 ─────────────────────────
+def load_events(artist_id):
+    """Step 2 결과 로드."""
+    events_path = artist_dir(artist_id) / "events.json"
+    if not events_path.exists():
+        return []
+    return json.loads(events_path.read_text())
+
+
+def save_queries(artist_id, queries_list):
+    """쿼리 확장 결과 저장."""
+    q_path = artist_dir(artist_id) / "queries.json"
+    q_path.write_text(json.dumps(queries_list, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+# ── 메인 ───────────────────────────────────────────────────────────────
 async def fetch_all(artist, events, years=DEFAULT_YEARS):
-    """전체 공연에 대해 순차 수집."""
-    artist_name = artist["name"]
-    artist_id = artist["id"]
-    print(f"\n{'#'*60}\n# {artist_name} ({artist_id})\n# events: {len(events)}\n{'#'*60}")
+    aid = artist["id"]
+    aname = artist["name"]
+    a_dir = artist_dir(aid)
 
+    print(f"\n{'#'*60}\n# {aname} ({aid})\n# events: {len(events)}\n{'#'*60}")
+
+    # events.json 저장 (Step 2 결과)
+    events_path = a_dir / "events.json"
+    events_path.write_text(json.dumps(
+        [{"event_name": ev.get("event_name", ev) if isinstance(ev, dict) else ev,
+          "date": ev.get("date", "unknown") if isinstance(ev, dict) else "unknown"}
+         for ev in events],
+        ensure_ascii=False, indent=2
+    ), encoding="utf-8")
+
+    all_queries = []
     results = []
+
     for ev in events:
-        event_name = ev.get("event_name", "")
-        event_date = ev.get("date", "unknown")
+        event_name = ev.get("event_name", ev) if isinstance(ev, dict) else ev
         if not event_name:
             continue
 
-        playlists_data, full_videos_data = await fetch_event(
-            artist_name, event_name, event_date, years=years
-        )
+        result = await fetch_event(aname, event_name, years=years)
+        all_queries.extend(result["queries"])
+        results.append(result)
+        save_results(artist, event_name, result)
 
-        save_event_result(artist_id, event_name, event_date, playlists_data, full_videos_data)
-        results.append({"eventName": event_name, "playlists": len(playlists_data), "fullVideos": len(full_videos_data)})
+    # queries.json 저장
+    save_queries(aid, all_queries)
 
     return results
 
@@ -394,11 +460,11 @@ async def fetch_all(artist, events, years=DEFAULT_YEARS):
 # ── CLI ───────────────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser(description="FestRecipe Event Video Fetcher")
-    parser.add_argument("--from-events", type=str, help="Phase 2 events.json 파일 경로")
-    parser.add_argument("--artist", type=str, help="아티스트명")
-    parser.add_argument("--events", nargs="+", type=str, help="수동 지정 공연명 목록")
-    parser.add_argument("--all", action="store_true", help="output/의 모든 events.json 배치 처리")
-    parser.add_argument("--years", type=int, default=DEFAULT_YEARS, help=f"수집 기간 (기본: {DEFAULT_YEARS}년)")
+    parser.add_argument("--artist", type=str, help="아티스트명 (events.json 필요)")
+    parser.add_argument("--event", type=str, help="단일 공연명 (수동 지정)")
+    parser.add_argument("--events", nargs="+", type=str, help="공연명 목록 (수동)")
+    parser.add_argument("--all", action="store_true", help="output/ 아티스트 폴더 전체 처리")
+    parser.add_argument("--years", type=int, default=DEFAULT_YEARS)
     a = parser.parse_args()
 
     if not check_yt_dlp():
@@ -407,33 +473,36 @@ def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     artists = json.loads(ARTISTS_JSON.read_text())
 
-    # ── 모드 1: Phase 2 결과 파일 ──
-    if a.from_events:
-        events = load_events(a.from_events)
-        artist_id = Path(a.from_events).stem.replace("_events", "")
-        artist = next((x for x in artists if x["id"] == artist_id), {"id": artist_id, "name": artist_id})
-        asyncio.run(fetch_all(artist, events, years=a.years))
-        return
-
-    # ── 모드 2: 수동 지정 ──
-    if a.artist and a.events:
-        artist_id = a.artist.lower().replace(" ", "-")
-        artist = {"id": artist_id, "name": a.artist}
-        events = [{"event_name": e, "date": "unknown"} for e in a.events]
-        asyncio.run(fetch_all(artist, events, years=a.years))
-        return
-
-    # ── 모드 3: 전체 배치 ──
-    if a.all:
-        events_files = sorted(OUTPUT_DIR.glob("*_events.json"))
-        if not events_files:
-            print("[ERR] No *_events.json in output/")
+    # 모드 1: events.json에서 읽기
+    if a.artist and not a.event and not a.events:
+        matched = [x for x in artists if a.artist.lower() in x.get("name", "").lower()]
+        if not matched:
+            print(f"[ERR] '{a.artist}' not found"); sys.exit(1)
+        artist = matched[0]
+        events = load_events(artist["id"])
+        if not events:
+            print(f"[ERR] No events.json for {artist['id']}. Run collect.py first.")
             sys.exit(1)
-        print(f"Found {len(events_files)} events files\n")
-        for ef in events_files:
-            artist_id = ef.stem.replace("_events", "")
+        asyncio.run(fetch_all(artist, events, years=a.years))
+        return
+
+    # 모드 2: 수동 지정
+    if a.artist and (a.event or a.events):
+        matched = [x for x in artists if a.artist.lower() in x.get("name", "").lower()]
+        artist = matched[0] if matched else {"id": a.artist.lower().replace(" ", "-"), "name": a.artist}
+        events = [{"event_name": e, "date": "unknown"} for e in (a.events or [a.event])]
+        asyncio.run(fetch_all(artist, events, years=a.years))
+        return
+
+    # 모드 3: 전체 배치
+    if a.all:
+        artist_dirs = [d for d in OUTPUT_DIR.iterdir() if d.is_dir() and (d / "events.json").exists()]
+        if not artist_dirs:
+            print("[ERR] No artist dirs with events.json"); sys.exit(1)
+        for ad in sorted(artist_dirs):
+            artist_id = ad.name
             artist = next((x for x in artists if x["id"] == artist_id), {"id": artist_id, "name": artist_id})
-            events = load_events(ef)
+            events = json.loads((ad / "events.json").read_text())
             asyncio.run(fetch_all(artist, events, years=a.years))
         return
 
