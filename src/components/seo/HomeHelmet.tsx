@@ -7,8 +7,8 @@ interface HomeHelmetProps {
 }
 
 export default function HomeHelmet({ festivalCount }: HomeHelmetProps) {
-  const title = 'FestRecipe — AI가 말아주는 페스티벌 셋리스트'
-  const description = `페스티벌 전날 밤, AI가 예상한 셋리스트를 유튜브로 바로 들어보세요. 현재 ${festivalCount}개 페스티벌 등록됨.`
+  const title = 'FestRecipe — 페스티벌 라인업 & 대표곡 플레이리스트'
+  const description = `페스티벌 라인업 아티스트의 YouTube Music 대표곡을 3~5곡 플레이리스트로 바로 들어보세요. 현재 ${festivalCount}개 페스티벌 등록됨.`
   const url = BASE_URL + '/'
 
   return (

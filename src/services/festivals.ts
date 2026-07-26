@@ -1,52 +1,10 @@
-import type { Festival, Artist, SetlistSong } from '../types'
-
-// ─────────────────────────────────────────────────────
-//  예상 셋리스트 레시피 (통계 기반 — 확률 수치 없음)
-//  pastConcertLinks: 실제 확인된 과거 공연 영상 링크 목록 (최신순)
-// ─────────────────────────────────────────────────────
-const SETLIST_RECIPES: Record<string, SetlistSong[]> = {
-  'the-volunteers': [
-    {
-      songTitle: 'PINKTOP',
-      songType: 'released',
-      albumInfo: { albumType: 'lp', albumName: 'The Volunteers' },
-      appearanceCount: 5,
-      totalConcertCount: 5,
-      youtubeOfficialUrl: 'https://www.youtube.com/watch?v=pinktop-official',
-      pastConcertLinks: [
-        { concertLabel: '2025 펜타포트', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=pinktop-full&t=45s', youtubeLiveClipUrl: 'https://www.youtube.com/watch?v=pinktop-playlist' },
-        { concertLabel: '2024 GMF', youtubeLiveClipUrl: 'https://www.youtube.com/watch?v=pinktop-gmf' },
-      ]
-    },
-    {
-      songTitle: 'Radio',
-      songType: 'released',
-      albumInfo: { albumType: 'lp', albumName: 'The Volunteers' },
-      appearanceCount: 4,
-      totalConcertCount: 5,
-      youtubeOfficialUrl: 'https://www.youtube.com/watch?v=radio-official',
-      pastConcertLinks: [
-        { concertLabel: '2025 펜타포트', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=pinktop-full&t=320s' },
-      ]
-    },
-    {
-      songTitle: 'Summer',
-      songType: 'released',
-      albumInfo: { albumType: 'single', albumName: 'Summer' },
-      appearanceCount: 4,
-      totalConcertCount: 5,
-      youtubeOfficialUrl: 'https://www.youtube.com/watch?v=summer-official',
-      pastConcertLinks: [
-        { concertLabel: '2024 단독콘서트', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=summer-full&t=180s' },
-        { concertLabel: '2024 GMF', youtubeLiveClipUrl: 'https://www.youtube.com/watch?v=summer-gmf' },
-      ]
-    }
-  ],
-}
+import type { Festival, Artist, ArtistPlaylist } from '../types'
 
 // Memory caches
 let cachedArtists: Artist[] | null = null
 const cachedFestivals: Record<string, Festival> = {}
+let cachedPlaylistIndex: Set<string> | null = null
+const cachedPlaylists: Record<string, ArtistPlaylist | null> = {}
 
 export const FestivalService = {
   // Fetch manifest and then fetch all individual festivals
@@ -54,7 +12,7 @@ export const FestivalService = {
     try {
       const response = await fetch('/data/festivals/index.json')
       const index: { festivals: string[] } = await response.json()
-      
+
       const festivals = await Promise.all(
         index.festivals.map(async (id) => {
           return this.getFestivalById(id)
@@ -110,7 +68,46 @@ export const FestivalService = {
       .filter((a): a is Artist => !!a)
   },
 
-  getRecipeForArtist(artistId: string): SetlistSong[] | undefined {
-    return SETLIST_RECIPES[artistId]
-  }
+  async getPlaylistIndex(): Promise<Set<string>> {
+    if (cachedPlaylistIndex) return cachedPlaylistIndex
+    try {
+      const response = await fetch('/data/playlists/index.json')
+      if (!response.ok) {
+        cachedPlaylistIndex = new Set()
+        return cachedPlaylistIndex
+      }
+      const data: { artists?: string[] } = await response.json()
+      cachedPlaylistIndex = new Set(data.artists || [])
+      return cachedPlaylistIndex
+    } catch (error) {
+      console.error('Error fetching playlist index:', error)
+      cachedPlaylistIndex = new Set()
+      return cachedPlaylistIndex
+    }
+  },
+
+  async hasPlaylist(artistId: string): Promise<boolean> {
+    const index = await this.getPlaylistIndex()
+    return index.has(artistId)
+  },
+
+  async getPlaylistForArtist(artistId: string): Promise<ArtistPlaylist | undefined> {
+    if (artistId in cachedPlaylists) {
+      return cachedPlaylists[artistId] || undefined
+    }
+    try {
+      const response = await fetch(`/data/playlists/${artistId}.json`)
+      if (!response.ok) {
+        cachedPlaylists[artistId] = null
+        return undefined
+      }
+      const data: ArtistPlaylist = await response.json()
+      cachedPlaylists[artistId] = data
+      return data
+    } catch (error) {
+      console.error(`Error fetching playlist ${artistId}:`, error)
+      cachedPlaylists[artistId] = null
+      return undefined
+    }
+  },
 }

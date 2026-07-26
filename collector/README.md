@@ -24,6 +24,7 @@
 | 1. 페스티벌 | (큐레이션) `public/data/festivals/*.json` | 페스티벌 메타 + 라인업/타임테이블 | 동일 경로 |
 | 2. 아티스트 | `sync_artists.py` | festivals/*.json | `artists.json` 정합 검사, `output/_artist_index.json` |
 | 3. 발매곡 | `fetch_releases.py` | artists (+ optional `YT_API_KEY`) | `output/{artistId}/releases.json` |
+| 4. 대표곡 PL | `build_playlists.py` | releases + 타임테이블 니중도 | `public/data/playlists/{id}.json` |
 
 오케스트레이션:
 
@@ -36,10 +37,23 @@ python3 pipeline.py --write-festivals
 # Step 1→3: 동기화 후 페스티벌 아티스트 발매곡 수집
 python3 pipeline.py --write-festivals --releases
 
-# 소량 테스트
-python3 pipeline.py --releases --limit 3
-python3 pipeline.py --releases --artist-id hyukoh,khruangbin,silica-gel
+# 소량 테스트 + 대표곡 플레이리스트
+python3 pipeline.py --releases --playlists --artist-id hyukoh,khruangbin,silica-gel
+python3 build_playlists.py --artist-id hyukoh,khruangbin,silica-gel
 ```
+
+### Step 4 — 대표곡 플레이리스트
+
+인지도는 **타임테이블 슬롯이 늦을수록 높다**고 간주한다.
+
+| 티어 | 기준 (상대 순위) | 곡 수 |
+|------|------------------|-------|
+| high | 가장 늦은 상위 25% | 5 |
+| mid | 상위 25~60% | 4 |
+| low | 나머지 / 타임테이블 없음 | 3 |
+
+곡 선정은 YouTube Music Songs 플레이리스트 **인기순**을 사용한다.  
+결과는 `public/data/playlists/{artistId}.json` 으로 프론트에 제공된다.
 
 ### Step 1 — 페스티벌 정보
 

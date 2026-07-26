@@ -61,6 +61,48 @@ export interface ArtistReleases {
   releases: ReleasedSong[]
 }
 
+/** 인지도 티어에 따른 대표곡 플레이리스트 */
+export type RecognitionTier = 'high' | 'mid' | 'low'
+
+export interface ArtistRecognition {
+  tier: RecognitionTier
+  songCount: number
+  latestSlotMinutes?: number | null
+  latestSlotLabel?: string | null
+  festivalId?: string | null
+  rank?: number | null
+  reason: 'timetable_lateness' | 'no_timetable_default' | string
+}
+
+export interface PlaylistTrack {
+  videoId: string
+  songTitle: string
+  title?: string
+  artists?: string[]
+  albumTitle?: string
+  year?: string | number | null
+  duration?: string
+  durationSeconds?: number | null
+  thumbnailUrl?: string
+  youtubeUrl: string
+  youtubeMusicUrl?: string
+  source?: string
+}
+
+export interface ArtistPlaylist {
+  artistId: string
+  artistName?: string
+  englishName?: string
+  collectedAt: string
+  source: 'youtube_music'
+  selection: string
+  recognition: ArtistRecognition
+  songCount: number
+  targetSongCount: number
+  tracks: PlaylistTrack[]
+  youtubePlaylistUrl?: string | null
+}
+
 export interface AlbumInfo {
   albumType: AlbumType
   albumName: string

@@ -1,0 +1,82 @@
+{
+  "artistId": "silica-gel",
+  "artistName": "실리카겔",
+  "englishName": "Silica Gel",
+  "collectedAt": "2026-07-26T13:40:13.482070+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCWqbaWENrp5JLNzAyg_vueQ",
+    "name": "Silica Gel",
+    "subscribers": "172K",
+    "channelId": "UCXteMTpHAvyDP05G0QULuZA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/LwlbGXLL8SYeoOX9rubrP__51Phwqud_uUbXhOCmSHcZVf7R-7081K49JvaG8huquTTVksu9deOHIi-p=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCWqbaWENrp5JLNzAyg_vueQ"
+  },
+  "tracks": [
+    {
+      "videoId": "U31mUH2DnWk",
+      "songTitle": "NO PAIN",
+      "title": "NO PAIN",
+      "artists": [
+        "Silica Gel"
+      ],
+      "albumTitle": "NO PAIN",
+      "albumBrowseId": "MPREb_dZadK24ebWY",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-V2vyRArXHs-MopfpULVmDC7amR_plX0qmZUnMeXLLKNejenmiaqTzqAwB78DLHhnjwngmrfbYgaK0l8eA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=U31mUH2DnWk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=U31mUH2DnWk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "wnx_bD5kNBU",
+      "songTitle": "Tik Tak Tok (feat. So!YoON!)",
+      "title": "Tik Tak Tok (feat. So!YoON!)",
+      "artists": [
+        "Silica Gel"
+      ],
+      "albumTitle": "Tik Tak Tok",
+      "albumBrowseId": "MPREb_SYvIkMl2ek2",
+      "duration": "6:16",
+      "durationSeconds": 376,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/n_Sn6cGU3QmF9kGtig84nsXNkDHBmfqIng6FVBue5r2WLUrKdQ8BVpV1bfFpA1NkUzmDXe9E3VExAcE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wnx_bD5kNBU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wnx_bD5kNBU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WisAHyIrjvk",
+      "songTitle": "BIG VOID (Single ver.)",
+      "title": "BIG VOID (Single ver.)",
+      "artists": [
+        "Silica Gel"
+      ],
+      "albumTitle": "BIG VOID (Single ver.)",
+      "albumBrowseId": "MPREb_VQVFVwbYwJh",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FR835DQTyrPb2AVXRgUaWAwuaVeZsOQv-sa9FbWhnZlqaijbwxxFBHRm0NAJBkH5Dzkj9KrqIDQbyWmH=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WisAHyIrjvk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WisAHyIrjvk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=U31mUH2DnWk,wnx_bD5kNBU,WisAHyIrjvk",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=U31mUH2DnWk&list=RDAMVMU31mUH2DnWk"
+}

@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-07-26T13:40:13.482592+00:00",
+  "count": 3,
+  "artists": [
+    "hyukoh",
+    "khruangbin",
+    "silica-gel"
+  ],
+  "tierSongCounts": {
+    "high": 5,
+    "mid": 4,
+    "low": 3
+  },
+  "recognitionRule": {
+    "withTimetable": "later slot => higher tier (high=5, mid=4, low=3)",
+    "withoutTimetable": "default low=3"
+  }
+}

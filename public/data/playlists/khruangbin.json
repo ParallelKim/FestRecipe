@@ -1,0 +1,84 @@
+{
+  "artistId": "khruangbin",
+  "artistName": "크루앙빈",
+  "englishName": "Khruangbin",
+  "collectedAt": "2026-07-26T13:40:12.958974+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCW2SLxltqPa553qretr4KzQ",
+    "name": "Khruangbin",
+    "subscribers": "358K",
+    "channelId": "UCZGBua-dvwfSdcF9AskDIgw",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/HRNSQdv2vaKBAcEUOPD5UIQ4qwB6-6RWir4bbolvkorpevZO8s_dt9Ej5NFdvZgjgkwaPUL_YW8DsA=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCW2SLxltqPa553qretr4KzQ"
+  },
+  "tracks": [
+    {
+      "videoId": "VFXR6pUMjUU",
+      "songTitle": "Texas Sun",
+      "title": "Texas Sun",
+      "artists": [
+        "Khruangbin",
+        "Leon Bridges"
+      ],
+      "albumTitle": "Texas Sun",
+      "albumBrowseId": "MPREb_Sa0gF76HQxz",
+      "duration": "4:13",
+      "durationSeconds": 253,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KEuZsBtsfd5CqXfJ_g5IYUXIR3zns3bamHvAEAVSfMaFHKx5tJJoxuQxrT2zyRgW2ScWOopW1XWEgps=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VFXR6pUMjUU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VFXR6pUMjUU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "NA48_XQcuwc",
+      "songTitle": "August 10",
+      "title": "August 10",
+      "artists": [
+        "Khruangbin"
+      ],
+      "albumTitle": "Con Todo El Mundo",
+      "albumBrowseId": "MPREb_eMtJ0gI8aoT",
+      "duration": "4:26",
+      "durationSeconds": 266,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jcz_STQ7XTHffl4PfRY85_rX84g3zeyMiJJb0SGz0uA97_MtpD38l1VXTY9LVDz_22rBfzsoO9tane4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NA48_XQcuwc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NA48_XQcuwc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qtz8L-gICzA",
+      "songTitle": "Mariella",
+      "title": "Mariella",
+      "artists": [
+        "Khruangbin",
+        "Leon Bridges"
+      ],
+      "albumTitle": "Texas Moon",
+      "albumBrowseId": "MPREb_uxsMek3FUn0",
+      "duration": "5:11",
+      "durationSeconds": 311,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qxJBC3q3Waesy1od3cWB7qa-o9v4vbJXc5ijfYlLNHr47zeLhA4VnRXQH3GFxVMtp0qlO4MXA8OmYLzm=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qtz8L-gICzA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qtz8L-gICzA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VFXR6pUMjUU,NA48_XQcuwc,qtz8L-gICzA",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VFXR6pUMjUU&list=RDAMVMVFXR6pUMjUU"
+}
