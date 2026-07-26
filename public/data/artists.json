@@ -1,13 +1,5 @@
 [
   {
-    "id": "an-dayeong",
-    "name": "안다영"
-  },
-  {
-    "id": "an-shinae",
-    "name": "안신애"
-  },
-  {
     "id": "asian-spice-house",
     "name": "아시안 스파이스 하우스",
     "englishName": "Asian Spice House"
@@ -52,10 +44,6 @@
     "name": "청요일"
   },
   {
-    "id": "cho-sojeong",
-    "name": "조소정"
-  },
-  {
     "id": "chorokbulkkot-sonyeondan",
     "name": "초록불꽃소년단",
     "englishName": "Chorokbulkkot Sonyeondan"
@@ -71,18 +59,9 @@
     "englishName": "Dabda"
   },
   {
-    "id": "ddbb",
-    "name": "ddbb",
-    "englishName": "ddbb"
-  },
-  {
     "id": "dragon-pony",
     "name": "드래곤포니",
     "englishName": "Dragon Pony"
-  },
-  {
-    "id": "drinking-boys-and-girls-choir",
-    "name": "드링킹소년소녀합창단"
   },
   {
     "id": "eddie-and-the-bricks",
@@ -104,10 +83,6 @@
     "name": "플레쉬 쥬서",
     "englishName": "Flesh Juicer",
     "country": "TW"
-  },
-  {
-    "id": "haepa",
-    "name": "해파"
   },
   {
     "id": "hana",
@@ -148,34 +123,10 @@
     "englishName": "JKC"
   },
   {
-    "id": "jung-saebyeok",
-    "name": "정새벽"
-  },
-  {
-    "id": "jung-woo",
-    "name": "정우"
-  },
-  {
     "id": "khruangbin",
     "name": "크루앙빈",
     "englishName": "Khruangbin",
     "country": "US"
-  },
-  {
-    "id": "kim-jina",
-    "name": "김진아"
-  },
-  {
-    "id": "kim-sawol",
-    "name": "김사월"
-  },
-  {
-    "id": "kim-tteutdol",
-    "name": "김뜻돌"
-  },
-  {
-    "id": "kim-yuna",
-    "name": "김윤아"
   },
   {
     "id": "kirara",
@@ -186,22 +137,6 @@
     "id": "kwon-jina",
     "name": "권진아",
     "englishName": "Kwon Jin Ah"
-  },
-  {
-    "id": "lee-arip",
-    "name": "이아립"
-  },
-  {
-    "id": "lee-rang",
-    "name": "이랑"
-  },
-  {
-    "id": "lee-sangeun",
-    "name": "이상은"
-  },
-  {
-    "id": "lee-seola",
-    "name": "이설아"
   },
   {
     "id": "lee-seung-yoon",
@@ -236,10 +171,6 @@
     "englishName": "Mudd the student"
   },
   {
-    "id": "nam-meari",
-    "name": "남메아리"
-  },
-  {
     "id": "neu",
     "name": "노이",
     "englishName": "neu"
@@ -249,11 +180,6 @@
     "name": "네버 영 비치",
     "englishName": "never young beach",
     "country": "JP"
-  },
-  {
-    "id": "nine9",
-    "name": "나인(NINE9)",
-    "englishName": "NINE9"
   },
   {
     "id": "noizegarden",
@@ -266,22 +192,10 @@
     "englishName": "Nyteh"
   },
   {
-    "id": "oh-jieun",
-    "name": "오지은"
-  },
-  {
-    "id": "oh-soyoung",
-    "name": "오소영"
-  },
-  {
     "id": "original-love",
     "name": "오리지널 러브",
     "englishName": "Original Love",
     "country": "JP"
-  },
-  {
-    "id": "park-soeun",
-    "name": "박소은"
   },
   {
     "id": "peach-truck-hijackers",
@@ -344,10 +258,6 @@
     "country": "CN"
   },
   {
-    "id": "sujo",
-    "name": "수조"
-  },
-  {
     "id": "sultan-of-the-disco",
     "name": "술탄오브더디스코",
     "englishName": "Sultan Of The Disco"
@@ -356,15 +266,6 @@
     "id": "sumin",
     "name": "수민",
     "englishName": "SUMIN"
-  },
-  {
-    "id": "sunwashere",
-    "name": "sunwashere",
-    "englishName": "sunwashere"
-  },
-  {
-    "id": "sunwoo-junga",
-    "name": "선우정아"
   },
   {
     "id": "the-fix",
@@ -425,10 +326,6 @@
     "englishName": "WE STEAL ORANGES"
   },
   {
-    "id": "woo-heejun",
-    "name": "우희준"
-  },
-  {
     "id": "xdinary-heroes",
     "name": "엑스디너리 히어로즈",
     "englishName": "Xdinary Heroes"
@@ -437,18 +334,6 @@
     "id": "yang-jeong-hoon",
     "name": "양정훈",
     "englishName": "YANG JEONG HOON"
-  },
-  {
-    "id": "yeram",
-    "name": "예람"
-  },
-  {
-    "id": "yozoh",
-    "name": "요조"
-  },
-  {
-    "id": "yun-sae",
-    "name": "윤새"
   },
   {
     "id": "yunmachi",
