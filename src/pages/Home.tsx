@@ -93,6 +93,17 @@ export default function Home() {
                   border: '1px solid rgba(255,255,255,0.3)',
                   backdropFilter: 'blur(4px)'
                 }
+              } else if (festival.signatureColor === 'dark') {
+                cardClass = 'card-dark'
+                textColor = '#ffffff'
+                mutedColor = 'rgba(255,255,255,0.7)'
+                btnClass = 'btn-secondary'
+                btnStyle = {
+                  backgroundColor: 'rgba(255,255,255,0.15)',
+                  color: '#ffffff',
+                  border: '1px solid rgba(255,255,255,0.3)',
+                  backdropFilter: 'blur(4px)'
+                }
               }
 
               return (

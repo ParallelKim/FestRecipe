@@ -76,6 +76,11 @@ export default function FestivalDetail() {
     sigTextColor = '#ffffff'
     sigMutedColor = 'rgba(255,255,255,0.7)'
     progressActiveColor = 'var(--color-sig-peach)'
+  } else if (festival.signatureColor === 'dark') {
+    sigColor = 'var(--color-surface-dark)'
+    sigTextColor = '#ffffff'
+    sigMutedColor = 'rgba(255,255,255,0.7)'
+    progressActiveColor = 'var(--color-sig-mint)'
   }
 
   const activeDay = festival.lineup[activeDayIndex]
