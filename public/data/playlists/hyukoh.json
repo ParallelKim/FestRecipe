@@ -2,20 +2,20 @@
   "artistId": "hyukoh",
   "artistName": "혁오",
   "englishName": "HYUKOH",
-  "collectedAt": "2026-07-26T13:40:12.183913+00:00",
+  "collectedAt": "2026-07-26T13:56:01.232488+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
-    "tier": "low",
-    "songCount": 3,
-    "latestSlotMinutes": null,
-    "latestSlotLabel": null,
-    "festivalId": null,
-    "rank": null,
-    "reason": "no_timetable_default"
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1200,
+    "latestSlotLabel": "20:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.862,
+    "reason": "timetable_lateness"
   },
-  "songCount": 3,
-  "targetSongCount": 3,
+  "songCount": 5,
+  "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCUUPndfCXVm8-srwV6dzXcg",
     "name": "HYUKOH",
@@ -75,8 +75,42 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=cSAXXE7VBYo",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "-o7lgP1VPJk",
+      "songTitle": "LOVE YA!",
+      "title": "LOVE YA!",
+      "artists": [
+        "HYUKOH"
+      ],
+      "albumTitle": "24 : How to find true love and happiness",
+      "albumBrowseId": "MPREb_kRJhL7pJsA0",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/G5BJ35MVUR1FY1UbswJdJUZQK6WynLqI4OZTWw76vERV4V9WiPUllt4ZEz297GKqcqZsbPqzJomJfW0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-o7lgP1VPJk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-o7lgP1VPJk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "lCgcGWJHOFE",
+      "songTitle": "Gondry",
+      "title": "Gondry",
+      "artists": [
+        "HYUKOH"
+      ],
+      "albumTitle": "22",
+      "albumBrowseId": "MPREb_kj4sr3sf4IQ",
+      "duration": "5:09",
+      "durationSeconds": 309,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IEKcOLhwh9J3ad483zd8Mb1rh3inRJ14cU_4wkds1eJy6r7MTaWBZWJ3vSgjz9_Z90Xx6a3yfHK7FBJsxg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lCgcGWJHOFE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lCgcGWJHOFE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zC8RrOA0spo,bVrW1eDMtL8,cSAXXE7VBYo",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zC8RrOA0spo,bVrW1eDMtL8,cSAXXE7VBYo,-o7lgP1VPJk,lCgcGWJHOFE",
   "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zC8RrOA0spo&list=RDAMVMzC8RrOA0spo"
 }

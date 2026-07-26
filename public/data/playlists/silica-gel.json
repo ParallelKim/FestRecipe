@@ -2,20 +2,20 @@
   "artistId": "silica-gel",
   "artistName": "실리카겔",
   "englishName": "Silica Gel",
-  "collectedAt": "2026-07-26T13:40:13.482070+00:00",
+  "collectedAt": "2026-07-26T13:56:02.714367+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
-    "tier": "low",
-    "songCount": 3,
-    "latestSlotMinutes": null,
-    "latestSlotLabel": null,
-    "festivalId": null,
-    "rank": null,
-    "reason": "no_timetable_default"
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1200,
+    "latestSlotLabel": "20:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.892,
+    "reason": "timetable_lateness"
   },
-  "songCount": 3,
-  "targetSongCount": 3,
+  "songCount": 5,
+  "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCWqbaWENrp5JLNzAyg_vueQ",
     "name": "Silica Gel",
@@ -75,8 +75,42 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=WisAHyIrjvk",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "_g3vxL400l0",
+      "songTitle": "Desert Eagle",
+      "title": "Desert Eagle",
+      "artists": [
+        "Silica Gel"
+      ],
+      "albumTitle": "Desert Eagle",
+      "albumBrowseId": "MPREb_1eLfcUQh94S",
+      "duration": "5:10",
+      "durationSeconds": 310,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Db-sR_o7sTisq8GjCq91avgRPi-hX8PxjGBdvomlnz7pCbpOPhKHzTaC0YHEQGfTNB2aRnRbbLRlH0q7=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_g3vxL400l0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_g3vxL400l0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "jZyKcwGoQpM",
+      "songTitle": "Realize",
+      "title": "Realize",
+      "artists": [
+        "Silica Gel"
+      ],
+      "albumTitle": "Machine Boy",
+      "albumBrowseId": "MPREb_rHCZpyIEWIP",
+      "duration": "4:24",
+      "durationSeconds": 264,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/knncz51N1PN3-Sif8g9Ta4kqhgl8Jl7Cl9wKHHL3tio2fg_U4Dgm-SWHYRRn3WI4GwtEc-1YAI-X34sITQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jZyKcwGoQpM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jZyKcwGoQpM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=U31mUH2DnWk,wnx_bD5kNBU,WisAHyIrjvk",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=U31mUH2DnWk,wnx_bD5kNBU,WisAHyIrjvk,_g3vxL400l0,jZyKcwGoQpM",
   "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=U31mUH2DnWk&list=RDAMVMU31mUH2DnWk"
 }

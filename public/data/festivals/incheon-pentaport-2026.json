@@ -6,76 +6,649 @@
   "location": "인천 송도달빛축제공원",
   "signatureColor": "dark",
   "status": "upcoming",
-  "lineupStage": "stage1_all",
-  "description": "인천광역시가 주최하는 대한민국 대표 록 페스티벌. 2026년 21회에는 Massive Attack, Pixies, Khruangbin을 비롯해 국내외 66팀이 송도달빛축제공원 무대에 오른다. (일별 배정·타임테이블은 추후 반영)",
+  "lineupStage": "stage3_timetable",
+  "description": "인천광역시가 주최하는 대한민국 대표 록 페스티벌. 2026년 21회에는 Massive Attack, Pixies, Khruangbin을 비롯해 국내외 아티스트가 KB국민카드·몬스터에너지·스탠리 1913 스테이지에서 공연한다.",
   "websiteUrl": "https://www.pentaport.co.kr",
   "allArtists": [
-    "khruangbin",
-    "silica-gel",
-    "the-volunteers",
-    "jang-pillsoon",
-    "kwon-jina",
-    "far-east-asian-tigers",
-    "never-young-beach",
-    "the-geeks",
-    "the-lemon-twigs",
-    "the-poles",
-    "dragon-pony",
-    "redoor",
-    "mono-no-aware",
-    "baan",
-    "baek-hyeonjin",
-    "bongjeingan",
-    "broken-valentine",
-    "seisumi",
-    "sinin-ryu",
-    "thornapple",
-    "yunmachi",
-    "isyana-sarasvati",
-    "jkc",
-    "chorokbulkkot-sonyeondan",
-    "confined-white",
-    "kirara",
-    "fat-hamster-and-kang-new",
-    "hollow-jan",
-    "massive-attack",
-    "pixies",
-    "hyukoh",
-    "sultan-of-the-disco",
     "band-nah",
-    "dabda",
-    "leenalchi",
-    "simile-land",
-    "the-jesus-and-mary-chain",
-    "original-love",
-    "turtle-island",
-    "noizegarden",
-    "lee-seung-yoon",
-    "touched",
     "qwer",
-    "the-fix",
-    "mudd-the-student",
-    "song-dongye",
-    "betcover",
-    "hi-fi-unicorn",
-    "sanbo",
-    "cheong-yoil",
+    "broken-valentine",
+    "the-poles",
+    "thornapple",
+    "the-volunteers",
+    "khruangbin",
+    "simile-land",
+    "sinin-ryu",
+    "mono-no-aware",
+    "yunmachi",
+    "kirara",
+    "the-lemon-twigs",
+    "xdinary-heroes",
+    "neu",
     "poser",
-    "we-steal-oranges",
-    "lilly-eat-machine",
     "peach-truck-hijackers",
-    "ureuk-and-the-gypsies",
     "socialclub-hyangwu",
+    "sumin",
+    "mudd-the-student",
+    "the-fix",
+    "flesh-juicer",
+    "jkc",
+    "far-east-asian-tigers",
+    "kwon-jina",
+    "never-young-beach",
+    "lee-seung-yoon",
+    "hyukoh",
+    "massive-attack",
+    "hi-fi-unicorn",
+    "chorokbulkkot-sonyeondan",
+    "seisumi",
+    "song-dongye",
+    "isyana-sarasvati",
+    "jang-pillsoon",
+    "the-jesus-and-mary-chain",
+    "lilly-eat-machine",
+    "cheong-yoil",
+    "sanbo",
+    "ureuk-and-the-gypsies",
+    "baan",
+    "turtle-island",
+    "hollow-jan",
+    "the-geeks",
+    "dragon-pony",
+    "bongjeingan",
+    "hana",
+    "redoor",
+    "touched",
+    "silica-gel",
+    "pixies",
+    "confined-white",
+    "dabda",
+    "baek-hyeonjin",
+    "betcover",
+    "noizegarden",
+    "original-love",
+    "sultan-of-the-disco",
+    "eddie-and-the-bricks",
+    "casually-connected",
+    "yang-jeong-hoon",
+    "we-steal-oranges",
     "nyteh",
     "asian-spice-house",
-    "xdinary-heroes",
-    "flesh-juicer",
-    "hana",
-    "sumin",
-    "neu",
-    "yang-jeong-hoon",
-    "casually-connected",
-    "eddie-and-the-bricks"
+    "fat-hamster-and-kang-new",
+    "leenalchi"
   ],
-  "lineup": []
+  "lineup": [
+    {
+      "date": "2026-07-31",
+      "dayLabel": "7.31 FRI",
+      "stages": [
+        "KB국민카드",
+        "몬스터에너지",
+        "스탠리 1913"
+      ],
+      "artists": [
+        "band-nah",
+        "qwer",
+        "broken-valentine",
+        "the-poles",
+        "thornapple",
+        "the-volunteers",
+        "khruangbin",
+        "simile-land",
+        "sinin-ryu",
+        "mono-no-aware",
+        "yunmachi",
+        "kirara",
+        "the-lemon-twigs",
+        "xdinary-heroes",
+        "neu",
+        "poser",
+        "peach-truck-hijackers",
+        "socialclub-hyangwu",
+        "sumin",
+        "mudd-the-student",
+        "the-fix",
+        "flesh-juicer"
+      ],
+      "slots": [
+        {
+          "artistId": "band-nah",
+          "stageName": "KB국민카드",
+          "startTime": "12:00",
+          "endTime": "12:40",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "qwer",
+          "stageName": "KB국민카드",
+          "startTime": "13:10",
+          "endTime": "13:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "broken-valentine",
+          "stageName": "KB국민카드",
+          "startTime": "14:30",
+          "endTime": "15:10",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "the-poles",
+          "stageName": "KB국민카드",
+          "startTime": "15:50",
+          "endTime": "16:30",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "thornapple",
+          "stageName": "KB국민카드",
+          "startTime": "17:20",
+          "endTime": "18:10",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "the-volunteers",
+          "stageName": "KB국민카드",
+          "startTime": "19:00",
+          "endTime": "20:00",
+          "durationMinutes": 60
+        },
+        {
+          "artistId": "khruangbin",
+          "stageName": "KB국민카드",
+          "startTime": "21:10",
+          "endTime": "22:30",
+          "durationMinutes": 80
+        },
+        {
+          "artistId": "simile-land",
+          "stageName": "몬스터에너지",
+          "startTime": "11:30",
+          "endTime": "12:00",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "sinin-ryu",
+          "stageName": "몬스터에너지",
+          "startTime": "12:40",
+          "endTime": "13:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "mono-no-aware",
+          "stageName": "몬스터에너지",
+          "startTime": "13:50",
+          "endTime": "14:30",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "yunmachi",
+          "stageName": "몬스터에너지",
+          "startTime": "15:10",
+          "endTime": "15:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "kirara",
+          "stageName": "몬스터에너지",
+          "startTime": "16:30",
+          "endTime": "17:20",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "the-lemon-twigs",
+          "stageName": "몬스터에너지",
+          "startTime": "18:10",
+          "endTime": "19:00",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "xdinary-heroes",
+          "stageName": "몬스터에너지",
+          "startTime": "20:00",
+          "endTime": "21:00",
+          "durationMinutes": 60
+        },
+        {
+          "artistId": "neu",
+          "stageName": "스탠리 1913",
+          "startTime": "11:40",
+          "endTime": "12:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "poser",
+          "stageName": "스탠리 1913",
+          "startTime": "12:40",
+          "endTime": "13:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "peach-truck-hijackers",
+          "stageName": "스탠리 1913",
+          "startTime": "13:40",
+          "endTime": "14:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "socialclub-hyangwu",
+          "stageName": "스탠리 1913",
+          "startTime": "14:40",
+          "endTime": "15:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "sumin",
+          "stageName": "스탠리 1913",
+          "startTime": "15:40",
+          "endTime": "16:20",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "mudd-the-student",
+          "stageName": "스탠리 1913",
+          "startTime": "16:50",
+          "endTime": "17:30",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "the-fix",
+          "stageName": "스탠리 1913",
+          "startTime": "18:00",
+          "endTime": "18:40",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "flesh-juicer",
+          "stageName": "스탠리 1913",
+          "startTime": "19:20",
+          "endTime": "20:00",
+          "durationMinutes": 40
+        }
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "dayLabel": "8.1 SAT",
+      "stages": [
+        "KB국민카드",
+        "몬스터에너지",
+        "스탠리 1913"
+      ],
+      "artists": [
+        "jkc",
+        "far-east-asian-tigers",
+        "kwon-jina",
+        "never-young-beach",
+        "lee-seung-yoon",
+        "hyukoh",
+        "massive-attack",
+        "hi-fi-unicorn",
+        "chorokbulkkot-sonyeondan",
+        "seisumi",
+        "song-dongye",
+        "isyana-sarasvati",
+        "jang-pillsoon",
+        "the-jesus-and-mary-chain",
+        "lilly-eat-machine",
+        "cheong-yoil",
+        "sanbo",
+        "ureuk-and-the-gypsies",
+        "baan",
+        "turtle-island",
+        "hollow-jan",
+        "the-geeks"
+      ],
+      "slots": [
+        {
+          "artistId": "jkc",
+          "stageName": "KB국민카드",
+          "startTime": "12:00",
+          "endTime": "12:40",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "far-east-asian-tigers",
+          "stageName": "KB국민카드",
+          "startTime": "13:10",
+          "endTime": "13:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "kwon-jina",
+          "stageName": "KB국민카드",
+          "startTime": "14:30",
+          "endTime": "15:10",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "never-young-beach",
+          "stageName": "KB국민카드",
+          "startTime": "15:50",
+          "endTime": "16:30",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "lee-seung-yoon",
+          "stageName": "KB국민카드",
+          "startTime": "17:10",
+          "endTime": "18:00",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "hyukoh",
+          "stageName": "KB국민카드",
+          "startTime": "18:50",
+          "endTime": "20:00",
+          "durationMinutes": 70
+        },
+        {
+          "artistId": "massive-attack",
+          "stageName": "KB국민카드",
+          "startTime": "21:10",
+          "endTime": "22:40",
+          "durationMinutes": 90
+        },
+        {
+          "artistId": "hi-fi-unicorn",
+          "stageName": "몬스터에너지",
+          "startTime": "11:30",
+          "endTime": "12:00",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "chorokbulkkot-sonyeondan",
+          "stageName": "몬스터에너지",
+          "startTime": "12:40",
+          "endTime": "13:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "seisumi",
+          "stageName": "몬스터에너지",
+          "startTime": "13:50",
+          "endTime": "14:30",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "song-dongye",
+          "stageName": "몬스터에너지",
+          "startTime": "15:10",
+          "endTime": "15:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "isyana-sarasvati",
+          "stageName": "몬스터에너지",
+          "startTime": "16:30",
+          "endTime": "17:10",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "jang-pillsoon",
+          "stageName": "몬스터에너지",
+          "startTime": "18:00",
+          "endTime": "18:50",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "the-jesus-and-mary-chain",
+          "stageName": "몬스터에너지",
+          "startTime": "20:00",
+          "endTime": "21:00",
+          "durationMinutes": 60
+        },
+        {
+          "artistId": "lilly-eat-machine",
+          "stageName": "스탠리 1913",
+          "startTime": "11:40",
+          "endTime": "12:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "cheong-yoil",
+          "stageName": "스탠리 1913",
+          "startTime": "12:40",
+          "endTime": "13:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "sanbo",
+          "stageName": "스탠리 1913",
+          "startTime": "13:40",
+          "endTime": "14:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "ureuk-and-the-gypsies",
+          "stageName": "스탠리 1913",
+          "startTime": "14:40",
+          "endTime": "15:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "baan",
+          "stageName": "스탠리 1913",
+          "startTime": "15:40",
+          "endTime": "16:20",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "turtle-island",
+          "stageName": "스탠리 1913",
+          "startTime": "17:00",
+          "endTime": "17:40",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "hollow-jan",
+          "stageName": "스탠리 1913",
+          "startTime": "18:10",
+          "endTime": "18:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "the-geeks",
+          "stageName": "스탠리 1913",
+          "startTime": "19:20",
+          "endTime": "20:00",
+          "durationMinutes": 40
+        }
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "dayLabel": "8.2 SUN",
+      "stages": [
+        "KB국민카드",
+        "몬스터에너지",
+        "스탠리 1913"
+      ],
+      "artists": [
+        "dragon-pony",
+        "bongjeingan",
+        "hana",
+        "redoor",
+        "touched",
+        "silica-gel",
+        "pixies",
+        "confined-white",
+        "dabda",
+        "baek-hyeonjin",
+        "betcover",
+        "noizegarden",
+        "original-love",
+        "sultan-of-the-disco",
+        "eddie-and-the-bricks",
+        "casually-connected",
+        "yang-jeong-hoon",
+        "we-steal-oranges",
+        "nyteh",
+        "asian-spice-house",
+        "fat-hamster-and-kang-new",
+        "leenalchi"
+      ],
+      "slots": [
+        {
+          "artistId": "dragon-pony",
+          "stageName": "KB국민카드",
+          "startTime": "12:00",
+          "endTime": "12:40",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "bongjeingan",
+          "stageName": "KB국민카드",
+          "startTime": "13:10",
+          "endTime": "13:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "hana",
+          "stageName": "KB국민카드",
+          "startTime": "14:30",
+          "endTime": "15:10",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "redoor",
+          "stageName": "KB국민카드",
+          "startTime": "15:50",
+          "endTime": "16:30",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "touched",
+          "stageName": "KB국민카드",
+          "startTime": "17:10",
+          "endTime": "18:00",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "silica-gel",
+          "stageName": "KB국민카드",
+          "startTime": "18:50",
+          "endTime": "20:00",
+          "durationMinutes": 70
+        },
+        {
+          "artistId": "pixies",
+          "stageName": "KB국민카드",
+          "startTime": "21:10",
+          "endTime": "22:40",
+          "durationMinutes": 90
+        },
+        {
+          "artistId": "confined-white",
+          "stageName": "몬스터에너지",
+          "startTime": "11:30",
+          "endTime": "12:00",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "dabda",
+          "stageName": "몬스터에너지",
+          "startTime": "12:40",
+          "endTime": "13:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "baek-hyeonjin",
+          "stageName": "몬스터에너지",
+          "startTime": "13:50",
+          "endTime": "14:30",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "betcover",
+          "stageName": "몬스터에너지",
+          "startTime": "15:10",
+          "endTime": "15:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "noizegarden",
+          "stageName": "몬스터에너지",
+          "startTime": "16:30",
+          "endTime": "17:10",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "original-love",
+          "stageName": "몬스터에너지",
+          "startTime": "18:00",
+          "endTime": "18:50",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "sultan-of-the-disco",
+          "stageName": "몬스터에너지",
+          "startTime": "20:00",
+          "endTime": "21:00",
+          "durationMinutes": 60
+        },
+        {
+          "artistId": "eddie-and-the-bricks",
+          "stageName": "스탠리 1913",
+          "startTime": "11:40",
+          "endTime": "12:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "casually-connected",
+          "stageName": "스탠리 1913",
+          "startTime": "12:40",
+          "endTime": "13:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "yang-jeong-hoon",
+          "stageName": "스탠리 1913",
+          "startTime": "13:40",
+          "endTime": "14:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "we-steal-oranges",
+          "stageName": "스탠리 1913",
+          "startTime": "14:50",
+          "endTime": "15:20",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "nyteh",
+          "stageName": "스탠리 1913",
+          "startTime": "15:50",
+          "endTime": "16:20",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "asian-spice-house",
+          "stageName": "스탠리 1913",
+          "startTime": "17:00",
+          "endTime": "17:30",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "fat-hamster-and-kang-new",
+          "stageName": "스탠리 1913",
+          "startTime": "18:00",
+          "endTime": "18:40",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "leenalchi",
+          "stageName": "스탠리 1913",
+          "startTime": "19:20",
+          "endTime": "20:00",
+          "durationMinutes": 40
+        }
+      ]
+    }
+  ],
+  "timetableSource": {
+    "note": "공식 타임테이블 이미지 기준으로 정리 (입장 10:30, 개막행사/펜타로빅 등 비전시 프로그램 제외)",
+    "referencedAt": "2026-07-12",
+    "referenceUrl": "https://songdo.life/guides/songdo-pentaport-rock-festival-2026-guide"
+  }
 }

@@ -2,20 +2,20 @@
   "artistId": "khruangbin",
   "artistName": "크루앙빈",
   "englishName": "Khruangbin",
-  "collectedAt": "2026-07-26T13:40:12.958974+00:00",
+  "collectedAt": "2026-07-26T13:56:02.098114+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
-    "tier": "low",
-    "songCount": 3,
-    "latestSlotMinutes": null,
-    "latestSlotLabel": null,
-    "festivalId": null,
-    "rank": null,
-    "reason": "no_timetable_default"
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1350,
+    "latestSlotLabel": "22:30",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.969,
+    "reason": "timetable_lateness"
   },
-  "songCount": 3,
-  "targetSongCount": 3,
+  "songCount": 5,
+  "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCW2SLxltqPa553qretr4KzQ",
     "name": "Khruangbin",
@@ -77,8 +77,43 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=qtz8L-gICzA",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "XBrglpStGbI",
+      "songTitle": "B-Side",
+      "title": "B-Side",
+      "artists": [
+        "Khruangbin",
+        "Leon Bridges"
+      ],
+      "albumTitle": "Texas Moon",
+      "albumBrowseId": "MPREb_uxsMek3FUn0",
+      "duration": "4:35",
+      "durationSeconds": 275,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qxJBC3q3Waesy1od3cWB7qa-o9v4vbJXc5ijfYlLNHr47zeLhA4VnRXQH3GFxVMtp0qlO4MXA8OmYLzm=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XBrglpStGbI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XBrglpStGbI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "mAUmQgP-ARs",
+      "songTitle": "White Gloves ii",
+      "title": "White Gloves ii",
+      "artists": [
+        "Khruangbin"
+      ],
+      "albumTitle": "The Universe Smiles Upon You ii",
+      "albumBrowseId": "MPREb_wVzfHiso5Of",
+      "duration": "4:52",
+      "durationSeconds": 292,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0_da3mgrgSrTlGeH3ymgnlL_AoGq73OSexc-bg7y-lADJ3M5LIpH0dMh687qpWgoPKuoE_e-uX6M7jwHNw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mAUmQgP-ARs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mAUmQgP-ARs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VFXR6pUMjUU,NA48_XQcuwc,qtz8L-gICzA",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VFXR6pUMjUU,NA48_XQcuwc,qtz8L-gICzA,XBrglpStGbI,mAUmQgP-ARs",
   "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VFXR6pUMjUU&list=RDAMVMVFXR6pUMjUU"
 }
