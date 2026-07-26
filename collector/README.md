@@ -37,7 +37,7 @@ python3 pipeline.py --write-festivals --releases
 
 # 소량 테스트
 python3 pipeline.py --releases --limit 3
-python3 pipeline.py --releases --artist-id nerd-connection
+python3 pipeline.py --releases --artist-id hyukoh
 ```
 
 ### Step 1 — 페스티벌 정보
@@ -64,7 +64,7 @@ python3 sync_artists.py --add-missing       # 미등록 ID를 artists.json place
 
 ```bash
 export YT_API_KEY=your_key
-python3 fetch_releases.py --artist-id nerd-connection
+python3 fetch_releases.py --artist-id hyukoh
 python3 fetch_releases.py --from-index --limit 5
 python3 fetch_releases.py --all
 ```
@@ -80,7 +80,7 @@ python3 fetch_releases.py --all
 
 ```json
 {
-  "artistId": "nerd-connection",
+  "artistId": "hyukoh",
   "source": "youtube_music",
   "provider": "youtube_data_api_v3",
   "topicChannel": { "id": "...", "title": "... - Topic" },

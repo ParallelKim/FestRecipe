@@ -12,8 +12,8 @@ Output:
 
 Usage:
   export YT_API_KEY=...
-  python3 fetch_releases.py --artist "nerd-connection"
-  python3 fetch_releases.py --artist-id nerd-connection
+  python3 fetch_releases.py --artist "혁오"
+  python3 fetch_releases.py --artist-id hyukoh
   python3 fetch_releases.py --all --limit 5
   python3 fetch_releases.py --from-index   # sync_artists.py 결과의 artistIds 사용
 """
