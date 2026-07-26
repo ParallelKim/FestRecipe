@@ -74,7 +74,6 @@ const SETLIST_RECIPES: Record<string, SetlistSong[]> = {
       youtubeOfficialUrl: 'https://www.youtube.com/watch?v=pippo-official',
       pastConcertLinks: [
         { concertLabel: '2025 단독콘서트', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=pippo-full&t=320s', youtubeLiveClipUrl: 'https://www.youtube.com/watch?v=pippo-playlist' },
-        { concertLabel: '2024 DMZ Peace Train', youtubeLiveClipUrl: 'https://www.youtube.com/watch?v=dmz-pippo' },
       ]
     },
     {
@@ -137,93 +136,6 @@ const SETLIST_RECIPES: Record<string, SetlistSong[]> = {
       ]
     }
   ],
-  'peppertones': [
-    {
-      songTitle: '행운을 빌어요 (Good Luck)',
-      songType: 'released',
-      albumInfo: { albumType: 'lp', albumName: "Beginner's Luck" },
-      appearanceCount: 5,
-      totalConcertCount: 5,
-      youtubeOfficialUrl: 'https://www.youtube.com/watch?v=luck-official',
-      pastConcertLinks: [
-        { concertLabel: '2025 BML', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=luck-full&t=90s', youtubeLiveClipUrl: 'https://www.youtube.com/watch?v=luck-playlist' },
-        { concertLabel: '2024 펩톤 20주년 콘서트', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=ppt20th-full&t=220s' },
-      ]
-    },
-    {
-      songTitle: '공원여행 (Park Voyage)',
-      songType: 'released',
-      albumInfo: { albumType: 'lp', albumName: 'New Standard' },
-      appearanceCount: 4,
-      totalConcertCount: 5,
-      youtubeOfficialUrl: 'https://www.youtube.com/watch?v=park-official',
-      pastConcertLinks: [
-        { concertLabel: '2025 BML', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=luck-full&t=350s' },
-      ]
-    },
-    {
-      songTitle: 'New Hippie Generation',
-      songType: 'released',
-      albumInfo: { albumType: 'lp', albumName: 'Sounds Good!' },
-      appearanceCount: 5,
-      totalConcertCount: 5,
-      youtubeOfficialUrl: 'https://www.youtube.com/watch?v=hippie-official',
-      pastConcertLinks: [
-        { concertLabel: '2025 BML', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=luck-full&t=600s' },
-        { concertLabel: '2024 펩톤 20주년 콘서트', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=ppt20th-full&t=800s' },
-      ]
-    }
-  ],
-  'lucy': [
-    {
-      songTitle: '개화 (Flowering)',
-      songType: 'released',
-      albumInfo: { albumType: 'single', albumName: '개화' },
-      appearanceCount: 5,
-      totalConcertCount: 5,
-      youtubeOfficialUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      pastConcertLinks: [
-        { concertLabel: '2025 BML', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=10s', youtubeLiveClipUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' },
-        { concertLabel: "2024 단독콘서트 '열'", youtubeFullcamUrl: 'https://www.youtube.com/watch?v=lucy-full&t=55s' },
-      ]
-    },
-    {
-      songTitle: '아지랑이 (Haze)',
-      songType: 'released',
-      albumInfo: { albumType: 'ep', albumName: 'Fever' },
-      appearanceCount: 4,
-      totalConcertCount: 5,
-      youtubeOfficialUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      pastConcertLinks: [
-        { concertLabel: '2025 BML', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=300s' },
-      ]
-    }
-  ],
-  'nerd-connection': [
-    {
-      songTitle: '좋은 밤 좋은 꿈 (Good Night Good Dream)',
-      songType: 'released',
-      albumInfo: { albumType: 'single', albumName: '좋은 밤 좋은 꿈' },
-      appearanceCount: 5,
-      totalConcertCount: 5,
-      youtubeOfficialUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      pastConcertLinks: [
-        { concertLabel: '2025 BML', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=30s', youtubeLiveClipUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' },
-        { concertLabel: '2024 단독콘서트', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=nerd-solo&t=120s' },
-      ]
-    },
-    {
-      songTitle: '어지러운 세상 속에 (In This Dizzy World)',
-      songType: 'released',
-      albumInfo: { albumType: 'ep', albumName: '대항해시대' },
-      appearanceCount: 4,
-      totalConcertCount: 5,
-      youtubeOfficialUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      pastConcertLinks: [
-        { concertLabel: '2025 BML', youtubeFullcamUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=480s' },
-      ]
-    }
-  ]
 }
 
 // Memory caches
