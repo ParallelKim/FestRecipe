@@ -22,8 +22,13 @@ export interface ReleasedSong {
   videoId: string
   title: string
   songTitle: string
-  channelId: string
-  channelTitle: string
+  artists?: string[]
+  albumTitle?: string
+  albumBrowseId?: string
+  releaseType?: 'album' | 'single' | 'ep' | 'song'
+  year?: string | number | null
+  channelId?: string
+  channelTitle?: string
   publishedAt?: string
   duration?: string
   durationSeconds?: number | null
@@ -31,7 +36,8 @@ export interface ReleasedSong {
   youtubeUrl: string
   youtubeMusicUrl?: string
   thumbnailUrl?: string
-  source: 'topic_channel' | 'search'
+  source: 'album' | 'songs_playlist' | 'songs_top' | 'topic_channel' | 'search'
+  isLiveRelease?: boolean
 }
 
 export interface ArtistReleases {
@@ -39,9 +45,18 @@ export interface ArtistReleases {
   artistName?: string
   englishName?: string
   source: 'youtube_music'
-  provider: 'youtube_data_api_v3'
+  provider: 'ytmusicapi' | 'youtube_data_api_v3'
   collectedAt: string
+  ytmArtist?: {
+    browseId: string
+    name: string
+    subscribers?: string
+    channelId?: string
+    thumbnailUrl?: string
+    url?: string
+  } | null
   topicChannel?: { id: string; title: string; score?: number } | null
+  releaseGroupCount?: number
   releaseCount: number
   releases: ReleasedSong[]
 }

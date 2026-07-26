@@ -4,13 +4,13 @@ FestRecipe MVP 수집 파이프라인
 
   1) 페스티벌 정보 (public/data/festivals/*.json — 현재는 큐레이션 입력)
   2) 아티스트 리스트업 (sync_artists.py)
-  3) YouTube Music 기반 발매곡 수집 (fetch_releases.py + YouTube Data API search)
+  3) YouTube Music 기반 발매곡 수집 (fetch_releases.py + ytmusicapi)
 
 Usage:
-  export YT_API_KEY=...
   python3 pipeline.py                 # sync only
   python3 pipeline.py --releases      # sync + fetch releases for festival artists
   python3 pipeline.py --releases --limit 3
+  python3 pipeline.py --releases --artist-id hyukoh,khruangbin,silica-gel
   python3 pipeline.py --write-festivals --releases
 """
 
@@ -54,7 +54,9 @@ def main():
         print("\n[done] sync only. Add --releases to collect YouTube Music releases.")
         return
 
-    release_cmd = [sys.executable, "fetch_releases.py", "--max-results", str(args.max_results)]
+    release_cmd = [sys.executable, "fetch_releases.py"]
+    if args.max_results:
+        release_cmd += ["--max-results", str(args.max_results)]
     if args.artist_id:
         release_cmd += ["--artist-id", args.artist_id]
     elif args.artist:

@@ -11,8 +11,9 @@
     → 아티스트 발매곡 수집 (YouTube Music 기반)
 ```
 
-발매곡은 **YouTube Music 카탈로그(= Topic 채널 + Music 카테고리)** 를 기준으로 하며,  
-수집에는 기존과 동일하게 **YouTube Data API v3 (`search.list` / `videos.list`)** 를 사용한다.
+발매곡은 **YouTube Music 카탈로그** 를 기준으로 하며,  
+수집에는 **`ytmusicapi`** 로 아티스트/앨범/트랙을 조회한다.  
+(`YT_API_KEY`가 있으면 `videos.list`로 duration 등을 선택 보강)
 
 ---
 
@@ -22,12 +23,12 @@
 |------|----------|------|------|
 | 1. 페스티벌 | (큐레이션) `public/data/festivals/*.json` | 페스티벌 메타 + 라인업/타임테이블 | 동일 경로 |
 | 2. 아티스트 | `sync_artists.py` | festivals/*.json | `artists.json` 정합 검사, `output/_artist_index.json` |
-| 3. 발매곡 | `fetch_releases.py` | artists + `YT_API_KEY` | `output/{artistId}/releases.json` |
+| 3. 발매곡 | `fetch_releases.py` | artists (+ optional `YT_API_KEY`) | `output/{artistId}/releases.json` |
 
 오케스트레이션:
 
 ```bash
-export YT_API_KEY=your_key
+pip install -r requirements.txt
 
 # Step 1→2: 페스티벌에서 아티스트 동기화 (+ allArtists 채우기)
 python3 pipeline.py --write-festivals
@@ -37,7 +38,7 @@ python3 pipeline.py --write-festivals --releases
 
 # 소량 테스트
 python3 pipeline.py --releases --limit 3
-python3 pipeline.py --releases --artist-id hyukoh
+python3 pipeline.py --releases --artist-id hyukoh,khruangbin,silica-gel
 ```
 
 ### Step 1 — 페스티벌 정보
@@ -63,18 +64,19 @@ python3 sync_artists.py --add-missing       # 미등록 ID를 artists.json place
 ### Step 3 — YouTube Music 발매곡
 
 ```bash
-export YT_API_KEY=your_key
 python3 fetch_releases.py --artist-id hyukoh
+python3 fetch_releases.py --artist-id hyukoh,khruangbin,silica-gel
 python3 fetch_releases.py --from-index --limit 5
 python3 fetch_releases.py --all
 ```
 
-수집 전략:
+수집 전략 (`ytmusicapi`):
 
-1. `search.list(type=channel)` 로 `{아티스트} Topic` 채널 탐색 (YouTube Music 자동 생성 채널)
-2. Topic 채널의 업로드 영상 + `videoCategoryId=10`(Music) 검색 (`official audio` / `official MV`)
-3. `videos.list` 로 duration·조회수 보강
-4. 라이브/직캠/셋리스트성 제목 필터링 후 `releases.json` 저장
+1. YouTube Music 아티스트 검색 → `browseId` 확정
+2. albums / singles 목록 확장 (`get_artist_albums`)
+3. 각 앨범·싱글의 트랙 (`get_album`) + songs 플레이리스트 병합
+4. LIVE 앨범 트랙 제외(기본) 후 `releases.json` 저장
+5. (선택) `YT_API_KEY` 있으면 `videos.list`로 조회수·게시일 보강
 
 결과 스키마 요약:
 
@@ -82,15 +84,15 @@ python3 fetch_releases.py --all
 {
   "artistId": "hyukoh",
   "source": "youtube_music",
-  "provider": "youtube_data_api_v3",
-  "topicChannel": { "id": "...", "title": "... - Topic" },
+  "provider": "ytmusicapi",
+  "ytmArtist": { "browseId": "UC...", "name": "HYUKOH", "url": "https://music.youtube.com/channel/UC..." },
+  "releaseGroups": [{ "title": "23", "releaseType": "album", "year": "2017" }],
   "releases": [
     {
       "videoId": "...",
-      "songTitle": "...",
-      "youtubeUrl": "https://www.youtube.com/watch?v=...",
-      "youtubeMusicUrl": "https://music.youtube.com/watch?v=...",
-      "source": "topic_channel"
+      "songTitle": "TOMBOY",
+      "albumTitle": "23",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=..."
     }
   ]
 }
@@ -102,10 +104,7 @@ python3 fetch_releases.py --all
 
 | 변수 | 설명 |
 |------|------|
-| `YT_API_KEY` | YouTube Data API v3 키 (**필수**, 코드에 키를 커밋하지 말 것) |
-
-Google Cloud Console에서 YouTube Data API v3 를 활성화한 뒤 API 키를 발급한다.  
-`search.list` 는 quota 비용이 크므로(`100 units/call`) 배치 시 `--limit` 으로 나눠 실행한다.
+| `YT_API_KEY` | (선택) YouTube Data API v3 키 — duration/조회수 보강용 |
 
 ---
 

@@ -2,20 +2,22 @@
 """
 Step 3: 아티스트 발매곡 수집 (YouTube Music 기반)
 
-YouTube Data API v3 search.list 를 사용해:
-  1) "{아티스트} - Topic" 채널(YouTube Music 자동 채널) 탐색
-  2) Topic 채널 업로드 + Music 카테고리 검색으로 발매곡 후보 수집
-  3) videos.list 로 duration 등 메타 보강 후 라이브/팬캠 필터링
+ytmusicapi 로 YouTube Music 카탈로그를 조회한다.
+  1) 아티스트 검색 → browseId 확정
+  2) albums / singles 목록 확장
+  3) 각 앨범·싱글 트랙 + songs 플레이리스트 수집
+  4) videoId 기준 중복 제거 후 releases.json 저장
+
+Optional: YT_API_KEY 가 있으면 videos.list 로 duration 보강.
 
 Output:
   collector/output/{artistId}/releases.json
 
 Usage:
-  export YT_API_KEY=...
   python3 fetch_releases.py --artist "혁오"
   python3 fetch_releases.py --artist-id hyukoh
-  python3 fetch_releases.py --all --limit 5
-  python3 fetch_releases.py --from-index   # sync_artists.py 결과의 artistIds 사용
+  python3 fetch_releases.py --artist-id hyukoh,khruangbin,silica-gel
+  python3 fetch_releases.py --from-index --limit 3
 """
 
 from __future__ import annotations
@@ -27,7 +29,12 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import yt_api
+from ytmusicapi import YTMusic
+
+try:
+    import yt_api
+except ImportError:  # pragma: no cover
+    yt_api = None
 
 
 SCRIPT_DIR = Path(__file__).parent
@@ -36,22 +43,7 @@ ARTISTS_JSON = PROJECT_ROOT / "public" / "data" / "artists.json"
 OUTPUT_DIR = SCRIPT_DIR / "output"
 INDEX_PATH = OUTPUT_DIR / "_artist_index.json"
 
-# 라이브/공연 클립으로 보이는 제목 키워드 (발매곡 MVP에서는 제외)
-LIVE_NOISE = re.compile(
-    r"("
-    r"live|풀캠|fancam|직캠|셋리스트|setlist|"
-    r"concert|콘서트|festival|페스티벌|페스타|"
-    r"tour|투어|공연|무대|stage\s*cam|"
-    r"반응|reaction|cover\s*by|karaoke|노래방|"
-    r"behind|비하인드|making|리허설|rehearsal"
-    r")",
-    re.I,
-)
-
-OFFICIAL_HINT = re.compile(
-    r"(official\s*(audio|mv|music\s*video|lyric)|공식\s*(오디오|뮤직비디오|MV)|topic)",
-    re.I,
-)
+LIVE_RELEASE = re.compile(r"\b(live|라이브|공연|tour|투어)\b", re.I)
 
 
 def load_artists() -> list[dict]:
@@ -77,8 +69,8 @@ def find_artist(artists: list[dict], *, artist: str | None = None, artist_id: st
     if not matches:
         raise SystemExit(f"[ERR] artist not found: {artist}")
     if len(matches) > 1:
-        # prefer exact id / exact name
-        exact = [a for a in matches if a["id"] == needle or a.get("name", "").lower() == needle]
+        exact = [a for a in matches if a["id"] == needle or a.get("name", "").lower() == needle
+                 or (a.get("englishName") or "").lower() == needle]
         if len(exact) == 1:
             return exact[0]
         ids = ", ".join(a["id"] for a in matches[:8])
@@ -88,286 +80,367 @@ def find_artist(artists: list[dict], *, artist: str | None = None, artist_id: st
 
 def artist_query_names(artist: dict) -> list[str]:
     names = []
-    for key in ("name", "englishName"):
+    for key in ("englishName", "name"):
         val = (artist.get(key) or "").strip()
         if val and val not in names:
             names.append(val)
     return names or [artist["id"]]
 
 
-def normalize_song_title(title: str, artist_names: list[str]) -> str:
-    t = title.strip()
-    # common "Artist - Song (Official Audio)" patterns
-    t = re.sub(r"\s*[\(\[\{][^\)\]\}]*[\)\]\}]\s*", " ", t)
-    for name in artist_names:
-        t = re.sub(re.escape(name), "", t, flags=re.I)
-    t = re.sub(r"^\s*[-–—|:]\s*", "", t)
-    t = re.sub(r"\s*[-–—|:]\s*$", "", t)
-    t = re.sub(r"\s+", " ", t).strip(" -–—|:")
-    return t or title.strip()
-
-
-def is_topic_channel(title: str) -> bool:
-    return bool(re.search(r"\s-\s*Topic\s*$", title or "", re.I))
-
-
-def parse_iso8601_duration(duration: str) -> int | None:
-    """Return seconds from ISO-8601 duration (PT#H#M#S)."""
-    if not duration:
-        return None
-    m = re.fullmatch(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", duration)
+def _parse_subscribers(text: str | None) -> int:
+    if not text:
+        return 0
+    t = text.strip().upper().replace(",", "")
+    m = re.fullmatch(r"([\d.]+)\s*([KMB])?", t.replace(" SUBSCRIBERS", "").strip())
     if not m:
-        return None
-    h, mi, s = (int(x) if x else 0 for x in m.groups())
-    return h * 3600 + mi * 60 + s
+        digits = re.sub(r"\D", "", t)
+        return int(digits) if digits else 0
+    num = float(m.group(1))
+    unit = m.group(2)
+    mult = {None: 1, "K": 1_000, "M": 1_000_000, "B": 1_000_000_000}[unit]
+    return int(num * mult)
 
 
-def resolve_topic_channel(artist_names: list[str]) -> dict | None:
-    """Search for YouTube Music Topic channel."""
+def resolve_ytm_artist(yt: YTMusic, artist: dict) -> dict | None:
+    """YouTube Music 아티스트 browseId 확정."""
+    names = artist_query_names(artist)
     candidates: list[dict] = []
-    for name in artist_names:
-        for q in (f"{name} Topic", name):
-            items = yt_api.search_all(q=q, type_="channel", max_total=10)
-            for item in items:
-                ch_id = (item.get("id") or {}).get("channelId")
-                sn = item.get("snippet") or {}
-                title = sn.get("title") or sn.get("channelTitle") or ""
-                if not ch_id:
-                    continue
-                score = 0
-                if is_topic_channel(title):
+
+    for q in names:
+        for item in yt.search(q, filter="artists", limit=8) or []:
+            name = item.get("artist") or item.get("name") or ""
+            browse_id = item.get("browseId")
+            if not browse_id:
+                continue
+            score = 0
+            for n in names:
+                if name.lower() == n.lower():
                     score += 100
-                if any(n.lower() in title.lower() for n in artist_names):
-                    score += 20
-                if "topic" in title.lower():
-                    score += 10
-                candidates.append({
-                    "id": ch_id,
-                    "title": title,
-                    "description": sn.get("description") or "",
-                    "score": score,
-                    "query": q,
-                })
+                elif n.lower() in name.lower() or name.lower() in n.lower():
+                    score += 40
+            score += min(_parse_subscribers(item.get("subscribers")), 1_000_000) // 10_000
+            candidates.append({
+                "browseId": browse_id,
+                "name": name,
+                "subscribers": item.get("subscribers"),
+                "thumbnails": item.get("thumbnails"),
+                "score": score,
+                "query": q,
+            })
 
     if not candidates:
         return None
 
-    # de-dupe by channel id, keep best score
     best: dict[str, dict] = {}
     for c in candidates:
-        prev = best.get(c["id"])
+        prev = best.get(c["browseId"])
         if not prev or c["score"] > prev["score"]:
-            best[c["id"]] = c
-
+            best[c["browseId"]] = c
     ranked = sorted(best.values(), key=lambda x: x["score"], reverse=True)
     top = ranked[0]
-    if top["score"] < 20:
+    if top["score"] < 40:
         return None
-    return {"id": top["id"], "title": top["title"], "score": top["score"]}
+    return top
 
 
-def collect_search_candidates(artist_names: list[str], *, max_per_query: int = 25) -> list[dict]:
-    queries = []
-    for name in artist_names:
-        queries.extend([
-            f"{name} official audio",
-            f"{name} official MV",
-            f"{name}",
-        ])
+def _release_type(meta: dict) -> str:
+    t = (meta.get("type") or "").lower()
+    if t in {"single", "ep", "album"}:
+        return t
+    title = meta.get("title") or ""
+    if re.search(r"\bEP\b", title):
+        return "ep"
+    if re.search(r"\b(single|싱글)\b", title, re.I):
+        return "single"
+    return "album"
 
+
+def collect_release_groups(yt: YTMusic, artist_info: dict) -> list[dict]:
+    """앨범/싱글 목록을 가능한 한 전부 모은다."""
+    groups: list[dict] = []
     seen = set()
-    results = []
-    for q in queries:
-        items = yt_api.search_all(
-            q=q,
-            type_="video",
-            max_total=max_per_query,
-            video_category_id=yt_api.MUSIC_CATEGORY_ID,
-            order="relevance",
-        )
-        for item in items:
-            vid = (item.get("id") or {}).get("videoId")
-            if not vid or vid in seen:
-                continue
-            seen.add(vid)
-            sn = item.get("snippet") or {}
-            results.append({
-                "videoId": vid,
-                "title": sn.get("title") or "",
-                "channelId": sn.get("channelId") or "",
-                "channelTitle": sn.get("channelTitle") or "",
-                "publishedAt": sn.get("publishedAt") or "",
-                "thumbnailUrl": ((sn.get("thumbnails") or {}).get("high") or {}).get("url")
-                or ((sn.get("thumbnails") or {}).get("default") or {}).get("url"),
-                "source": "search",
-                "query": q,
-            })
-    return results
+
+    def add_group(item: dict, fallback_type: str):
+        browse_id = item.get("browseId")
+        if not browse_id or browse_id in seen:
+            return
+        seen.add(browse_id)
+        groups.append({
+            "browseId": browse_id,
+            "title": item.get("title") or "",
+            "year": item.get("year"),
+            "releaseType": _release_type({**item, "type": item.get("type") or fallback_type}),
+            "thumbnails": item.get("thumbnails"),
+        })
+
+    for section, fallback in (("albums", "album"), ("singles", "single")):
+        block = artist_info.get(section) or {}
+        for item in block.get("results") or []:
+            add_group(item, fallback)
+        browse_id = block.get("browseId")
+        params = block.get("params")
+        if browse_id and params:
+            try:
+                more = yt.get_artist_albums(browse_id, params) or []
+                for item in more:
+                    add_group(item, fallback)
+            except Exception as e:
+                print(f"    [warn] get_artist_albums({section}): {e}")
+
+    return groups
 
 
-def collect_topic_uploads(channel_id: str, *, max_total: int = 50) -> list[dict]:
-    items = yt_api.search_all(
-        q="",
-        type_="video",
-        max_total=max_total,
-        channel_id=channel_id,
-        order="date",
-    )
-    results = []
-    for item in items:
-        vid = (item.get("id") or {}).get("videoId")
+def tracks_from_album(yt: YTMusic, group: dict) -> list[dict]:
+    try:
+        album = yt.get_album(group["browseId"])
+    except Exception as e:
+        print(f"    [warn] get_album {group.get('title')}: {e}")
+        return []
+
+    tracks = []
+    album_title = album.get("title") or group["title"]
+    year = album.get("year") or group.get("year")
+    release_type = group["releaseType"]
+    for t in album.get("tracks") or []:
+        vid = t.get("videoId")
         if not vid:
             continue
-        sn = item.get("snippet") or {}
-        results.append({
+        artists = [a.get("name") for a in (t.get("artists") or []) if a.get("name")]
+        tracks.append({
             "videoId": vid,
-            "title": sn.get("title") or "",
-            "channelId": sn.get("channelId") or channel_id,
-            "channelTitle": sn.get("channelTitle") or "",
-            "publishedAt": sn.get("publishedAt") or "",
-            "thumbnailUrl": ((sn.get("thumbnails") or {}).get("high") or {}).get("url")
-            or ((sn.get("thumbnails") or {}).get("default") or {}).get("url"),
-            "source": "topic_channel",
-            "query": f"channel:{channel_id}",
+            "songTitle": t.get("title") or "",
+            "title": t.get("title") or "",
+            "artists": artists,
+            "albumTitle": album_title,
+            "albumBrowseId": group["browseId"],
+            "releaseType": release_type,
+            "year": year,
+            "duration": t.get("duration"),
+            "durationSeconds": t.get("duration_seconds"),
+            "isExplicit": t.get("isExplicit"),
+            "trackNumber": t.get("trackNumber"),
+            "thumbnailUrl": ((album.get("thumbnails") or [{}])[-1] or {}).get("url"),
+            "source": "album",
+            "isLiveRelease": bool(LIVE_RELEASE.search(album_title)),
         })
-    return results
+    return tracks
 
 
-def should_keep(title: str, *, from_topic: bool) -> bool:
-    if from_topic:
-        # Topic 채널은 YouTube Music 카탈로그이므로 기본적으로 유지
-        # 단, 명확한 라이브 표기는 제외
-        if re.search(r"\blive\b|풀캠|직캠|fancam|setlist|셋리스트", title, re.I):
-            return False
-        return True
-    if LIVE_NOISE.search(title) and not OFFICIAL_HINT.search(title):
-        return False
-    return True
+def tracks_from_songs_playlist(yt: YTMusic, artist_info: dict) -> list[dict]:
+    block = artist_info.get("songs") or {}
+    browse_id = block.get("browseId")
+    if not browse_id:
+        # fallback: top results only
+        tracks = []
+        for t in block.get("results") or []:
+            vid = t.get("videoId")
+            if not vid:
+                continue
+            album = t.get("album") or {}
+            tracks.append({
+                "videoId": vid,
+                "songTitle": t.get("title") or "",
+                "title": t.get("title") or "",
+                "artists": [a.get("name") for a in (t.get("artists") or []) if a.get("name")],
+                "albumTitle": album.get("name"),
+                "albumBrowseId": album.get("id"),
+                "releaseType": "song",
+                "year": None,
+                "duration": t.get("duration"),
+                "durationSeconds": t.get("duration_seconds"),
+                "isExplicit": t.get("isExplicit"),
+                "trackNumber": None,
+                "thumbnailUrl": ((t.get("thumbnails") or [{}])[-1] or {}).get("url"),
+                "source": "songs_top",
+                "isLiveRelease": False,
+            })
+        return tracks
 
+    try:
+        playlist = yt.get_playlist(browse_id, limit=300)
+    except Exception as e:
+        print(f"    [warn] get_playlist songs: {e}")
+        return []
 
-def enrich_and_filter(candidates: list[dict], artist_names: list[str], topic_channel_id: str | None) -> list[dict]:
-    details = yt_api.videos_list([c["videoId"] for c in candidates])
-    releases = []
-    seen_titles: set[str] = set()
-
-    for c in candidates:
-        item = details.get(c["videoId"])
-        title = c["title"]
-        channel_id = c["channelId"]
-        from_topic = bool(topic_channel_id and channel_id == topic_channel_id) or c["source"] == "topic_channel"
-
-        if item:
-            sn = item.get("snippet") or {}
-            title = sn.get("title") or title
-            channel_id = sn.get("channelId") or channel_id
-            c["channelTitle"] = sn.get("channelTitle") or c["channelTitle"]
-            c["publishedAt"] = sn.get("publishedAt") or c["publishedAt"]
-            c["thumbnailUrl"] = (
-                ((sn.get("thumbnails") or {}).get("high") or {}).get("url")
-                or c.get("thumbnailUrl")
-            )
-            duration = (item.get("contentDetails") or {}).get("duration") or ""
-            seconds = parse_iso8601_duration(duration)
-            view_count = int((item.get("statistics") or {}).get("viewCount") or 0)
-            category_id = sn.get("categoryId")
-        else:
-            duration = ""
-            seconds = None
-            view_count = 0
-            category_id = None
-
-        if category_id and category_id != yt_api.MUSIC_CATEGORY_ID and not from_topic:
+    tracks = []
+    for t in playlist.get("tracks") or []:
+        vid = t.get("videoId")
+        if not vid:
             continue
-        if seconds is not None and (seconds < 45 or seconds > 15 * 60) and not from_topic:
-            # 너무 짧거나 긴 non-topic 영상은 제외 (라이브/클립 가능성)
-            continue
-        if not should_keep(title, from_topic=from_topic):
-            continue
-
-        song_title = normalize_song_title(title, artist_names)
-        dedupe_key = re.sub(r"\W+", "", song_title.lower())
-        if dedupe_key in seen_titles:
-            continue
-        seen_titles.add(dedupe_key)
-
-        releases.append({
-            "videoId": c["videoId"],
-            "title": title,
-            "songTitle": song_title,
-            "channelId": channel_id,
-            "channelTitle": c.get("channelTitle") or "",
-            "publishedAt": c.get("publishedAt") or "",
-            "duration": duration,
-            "durationSeconds": seconds,
-            "viewCount": view_count,
-            "youtubeUrl": f"https://www.youtube.com/watch?v={c['videoId']}",
-            "youtubeMusicUrl": f"https://music.youtube.com/watch?v={c['videoId']}",
-            "thumbnailUrl": c.get("thumbnailUrl"),
-            "source": "topic_channel" if from_topic else "search",
+        album = t.get("album") or {}
+        album_title = album.get("name")
+        tracks.append({
+            "videoId": vid,
+            "songTitle": t.get("title") or "",
+            "title": t.get("title") or "",
+            "artists": [a.get("name") for a in (t.get("artists") or []) if a.get("name")],
+            "albumTitle": album_title,
+            "albumBrowseId": album.get("id"),
+            "releaseType": "song",
+            "year": None,
+            "duration": t.get("duration"),
+            "durationSeconds": t.get("duration_seconds"),
+            "isExplicit": t.get("isExplicit"),
+            "trackNumber": None,
+            "thumbnailUrl": ((t.get("thumbnails") or [{}])[-1] or {}).get("url"),
+            "source": "songs_playlist",
+            "isLiveRelease": bool(album_title and LIVE_RELEASE.search(album_title)),
         })
+    return tracks
 
-    # Topic 우선, 그다음 조회수
-    releases.sort(key=lambda r: (0 if r["source"] == "topic_channel" else 1, -(r.get("viewCount") or 0)))
+
+def merge_tracks(album_tracks: list[dict], playlist_tracks: list[dict]) -> list[dict]:
+    by_id: dict[str, dict] = {}
+    # album tracks first (richer metadata)
+    for t in album_tracks + playlist_tracks:
+        vid = t["videoId"]
+        if vid not in by_id:
+            by_id[vid] = t
+            continue
+        cur = by_id[vid]
+        # fill missing fields from playlist entry
+        for key in ("albumTitle", "albumBrowseId", "year", "duration", "durationSeconds", "thumbnailUrl"):
+            if not cur.get(key) and t.get(key):
+                cur[key] = t[key]
+        if cur.get("releaseType") == "song" and t.get("releaseType") in {"album", "single", "ep"}:
+            cur["releaseType"] = t["releaseType"]
+            cur["source"] = t["source"]
+    releases = list(by_id.values())
+    releases.sort(key=lambda r: (
+        0 if r.get("source") == "album" else 1,
+        -(int(r["year"]) if str(r.get("year") or "").isdigit() else 0),
+        r.get("albumTitle") or "",
+        r.get("trackNumber") or 999,
+        r.get("songTitle") or "",
+    ))
     return releases
 
 
-def fetch_releases_for_artist(artist: dict, *, max_results: int = 50) -> dict:
+def enrich_with_youtube_api(releases: list[dict]) -> None:
+    if not yt_api:
+        return
+    try:
+        yt_api.get_api_key()
+    except Exception:
+        return
+    try:
+        details = yt_api.videos_list([r["videoId"] for r in releases])
+    except Exception as e:
+        print(f"    [warn] videos.list enrich skipped: {e}")
+        return
+    for r in releases:
+        item = details.get(r["videoId"])
+        if not item:
+            continue
+        sn = item.get("snippet") or {}
+        cd = item.get("contentDetails") or {}
+        st = item.get("statistics") or {}
+        r["youtubeTitle"] = sn.get("title")
+        r["publishedAt"] = sn.get("publishedAt")
+        r["viewCount"] = int(st.get("viewCount") or 0)
+        if not r.get("duration") and cd.get("duration"):
+            r["durationIso"] = cd["duration"]
+
+
+def fetch_releases_for_artist(yt: YTMusic, artist: dict, *, max_results: int = 0, include_live: bool = False) -> dict:
     names = artist_query_names(artist)
     print(f"\n=== {artist.get('name')} ({artist['id']}) ===")
-    print(f"  names: {names}")
+    print(f"  queries: {names}")
 
-    topic = resolve_topic_channel(names)
-    if topic:
-        print(f"  topic channel: {topic['title']} ({topic['id']})")
-    else:
-        print("  topic channel: (not found)")
+    ytm = resolve_ytm_artist(yt, artist)
+    if not ytm:
+        raise RuntimeError("YouTube Music artist not found")
+    print(f"  ytm artist: {ytm['name']} ({ytm['browseId']}) score={ytm['score']}")
 
-    candidates: list[dict] = []
-    seen = set()
+    info = yt.get_artist(ytm["browseId"])
+    groups = collect_release_groups(yt, info)
+    print(f"  release groups: {len(groups)}")
 
-    if topic:
-        for c in collect_topic_uploads(topic["id"], max_total=max_results):
-            if c["videoId"] not in seen:
-                seen.add(c["videoId"])
-                candidates.append(c)
+    album_tracks: list[dict] = []
+    for i, group in enumerate(groups, 1):
+        print(f"  [{i}/{len(groups)}] {group['releaseType']}: {group['title']} ({group.get('year') or '?'})")
+        album_tracks.extend(tracks_from_album(yt, group))
 
-    for c in collect_search_candidates(names, max_per_query=min(25, max_results)):
-        if c["videoId"] not in seen:
-            seen.add(c["videoId"])
-            candidates.append(c)
+    playlist_tracks = tracks_from_songs_playlist(yt, info)
+    print(f"  album tracks: {len(album_tracks)}, playlist tracks: {len(playlist_tracks)}")
 
-    print(f"  candidates: {len(candidates)}")
-    releases = enrich_and_filter(candidates, names, topic["id"] if topic else None)
-    print(f"  releases kept: {len(releases)}")
+    releases = merge_tracks(album_tracks, playlist_tracks)
+    if not include_live:
+        before = len(releases)
+        releases = [r for r in releases if not r.get("isLiveRelease")]
+        if before != len(releases):
+            print(f"  filtered live releases: {before - len(releases)}")
+
+    enrich_with_youtube_api(releases)
+
+    for r in releases:
+        r["youtubeUrl"] = f"https://www.youtube.com/watch?v={r['videoId']}"
+        r["youtubeMusicUrl"] = f"https://music.youtube.com/watch?v={r['videoId']}"
+
+    if max_results and max_results > 0:
+        releases = releases[:max_results]
+
+    thumb = None
+    thumbs = info.get("thumbnails") or ytm.get("thumbnails") or []
+    if thumbs:
+        thumb = thumbs[-1].get("url")
 
     payload = {
         "artistId": artist["id"],
         "artistName": artist.get("name"),
         "englishName": artist.get("englishName"),
         "source": "youtube_music",
-        "provider": "youtube_data_api_v3",
+        "provider": "ytmusicapi",
         "collectedAt": datetime.now(timezone.utc).isoformat(),
-        "topicChannel": topic,
+        "ytmArtist": {
+            "browseId": ytm["browseId"],
+            "name": info.get("name") or ytm["name"],
+            "subscribers": info.get("subscribers") or ytm.get("subscribers"),
+            "channelId": info.get("channelId"),
+            "thumbnailUrl": thumb,
+            "url": f"https://music.youtube.com/channel/{ytm['browseId']}",
+        },
+        "releaseGroupCount": len(groups),
+        "releaseGroups": [
+            {
+                "browseId": g["browseId"],
+                "title": g["title"],
+                "year": g.get("year"),
+                "releaseType": g["releaseType"],
+                "url": f"https://music.youtube.com/browse/{g['browseId']}",
+            }
+            for g in groups
+        ],
         "releaseCount": len(releases),
-        "releases": releases[:max_results],
+        "releases": releases,
     }
 
     out_dir = OUTPUT_DIR / artist["id"]
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "releases.json"
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"  [save] {out_path}")
+    print(f"  [save] {out_path} ({len(releases)} tracks)")
     return payload
 
 
+def parse_artist_ids(raw: str | None) -> list[str]:
+    if not raw:
+        return []
+    return [x.strip() for x in raw.split(",") if x.strip()]
+
+
 def iter_target_artists(args, artists: list[dict]) -> list[dict]:
+    ids = parse_artist_ids(args.artist_id)
+    if ids:
+        return [find_artist(artists, artist_id=i) for i in ids]
+
     if args.from_index:
         if not INDEX_PATH.exists():
             raise SystemExit("[ERR] _artist_index.json 없음. 먼저 sync_artists.py 를 실행하세요.")
         index = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
-        ids = index.get("artistIds") or []
+        id_list = index.get("artistIds") or []
         by_id = {a["id"]: a for a in artists}
-        selected = [by_id[i] for i in ids if i in by_id]
+        selected = [by_id[i] for i in id_list if i in by_id]
         if args.limit:
             selected = selected[: args.limit]
         return selected
@@ -378,56 +451,65 @@ def iter_target_artists(args, artists: list[dict]) -> list[dict]:
             selected = selected[: args.limit]
         return selected
 
-    if args.artist_id or args.artist:
-        return [find_artist(artists, artist=args.artist, artist_id=args.artist_id)]
+    if args.artist:
+        return [find_artist(artists, artist=args.artist)]
 
     raise SystemExit("Specify --artist / --artist-id / --all / --from-index")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Fetch artist releases via YouTube Music (Search API)")
+    parser = argparse.ArgumentParser(description="Fetch artist releases from YouTube Music (ytmusicapi)")
     parser.add_argument("--artist", type=str, help="Artist name or id substring")
-    parser.add_argument("--artist-id", type=str, help="Exact artist id")
+    parser.add_argument("--artist-id", type=str, help="Exact artist id (comma-separated for multiple)")
     parser.add_argument("--all", action="store_true", help="All artists in artists.json")
     parser.add_argument("--from-index", action="store_true", help="Use artistIds from sync_artists output")
-    parser.add_argument("--limit", type=int, default=0, help="Limit number of artists (with --all/--from-index)")
-    parser.add_argument("--max-results", type=int, default=50, help="Max releases per artist")
+    parser.add_argument("--limit", type=int, default=0, help="Limit number of artists")
+    parser.add_argument("--max-results", type=int, default=0, help="Max tracks per artist (0=all)")
+    parser.add_argument("--include-live", action="store_true", help="Keep LIVE album tracks")
     args = parser.parse_args()
-
-    try:
-        yt_api.get_api_key()
-    except yt_api.YouTubeApiError as e:
-        print(f"[ERR] {e}", file=sys.stderr)
-        sys.exit(1)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     artists = load_artists()
     targets = iter_target_artists(args, artists)
-    print(f"[start] artists={len(targets)} max_results={args.max_results}")
+    print(f"[start] artists={len(targets)} provider=ytmusicapi")
 
+    yt = YTMusic()
     ok = 0
     failed = []
+    summaries = []
     for artist in targets:
         try:
-            fetch_releases_for_artist(artist, max_results=args.max_results)
+            payload = fetch_releases_for_artist(
+                yt,
+                artist,
+                max_results=args.max_results,
+                include_live=args.include_live,
+            )
             ok += 1
-        except yt_api.YouTubeApiError as e:
-            print(f"[ERR] {artist['id']}: {e}")
-            failed.append({"artistId": artist["id"], "error": str(e)})
+            summaries.append({
+                "artistId": artist["id"],
+                "ytmName": (payload.get("ytmArtist") or {}).get("name"),
+                "releaseGroups": payload.get("releaseGroupCount"),
+                "releases": payload.get("releaseCount"),
+            })
         except Exception as e:
             print(f"[ERR] {artist['id']}: {e}")
             failed.append({"artistId": artist["id"], "error": str(e)})
 
     summary = {
         "collectedAt": datetime.now(timezone.utc).isoformat(),
+        "provider": "ytmusicapi",
         "requested": len(targets),
         "ok": ok,
         "failed": failed,
+        "artists": summaries,
     }
     (OUTPUT_DIR / "_releases_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     print(f"\n[done] ok={ok}/{len(targets)} failed={len(failed)}")
+    for s in summaries:
+        print(f"  - {s['artistId']}: groups={s['releaseGroups']} tracks={s['releases']}")
     if failed:
         sys.exit(2)
 
