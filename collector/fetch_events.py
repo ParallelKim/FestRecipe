@@ -48,8 +48,8 @@ PLAYLIST_SEARCH_LIMIT = 20
 DETAIL_DELAY = 0.5
 DEFAULT_YEARS = 5
 
-# YouTube Data API v3
-YT_API_KEY = os.environ.get("YT_API_KEY", "AIzaSyDCIAm3leATnX9jbJxfqGXhL4UAIvFVlGk")
+# YouTube Data API v3 (키는 환경변수만 사용 — 하드코딩 금지)
+YT_API_KEY = os.environ.get("YT_API_KEY", "").strip()
 YT_API_BASE = "https://www.googleapis.com/youtube/v3"
 
 # YouTube sp 파라미터 (base64 인코딩된 바이너리 필터)

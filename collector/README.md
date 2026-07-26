@@ -1,118 +1,156 @@
 # FestRecipe Collector
 
-## 최종 목표
+## 현재 MVP 목표
 
-페스티벌 참가 아티스트별 **공연 셋리스트 데이터**를 YouTube에서 수집하여, AI가 예상 셋리스트를 생성할 수 있는 기반 데이터를 구축한다.
+셋리스트/예상 재생목록 고도화는 **나중으로 미룬다.**  
+지금은 아래 3단계만 안정적으로 구축한다.
 
-구체적으로:
-1. 아티스트별 과거 공연 영상(풀캠/팬캠) 수집
-2. 영상 description에서 타임스탬프 셋리스트 추출
-3. 공연명(페스티벌/콘서트) 기준으로 영상 분류
-4. LLM이 정규화하기 쉬운 구조로 저장
+```
+페스티벌 정보 수집
+    → 아티스트 리스트업
+    → 아티스트 발매곡 수집 (YouTube Music 기반)
+```
 
-## 현재 구현 상황
+발매곡은 **YouTube Music 카탈로그(= Topic 채널 + Music 카테고리)** 를 기준으로 하며,  
+수집에는 기존과 동일하게 **YouTube Data API v3 (`search.list` / `videos.list`)** 를 사용한다.
 
-### 보유 파일
+---
+
+## 파이프라인
+
+| Step | 스크립트 | 입력 | 출력 |
+|------|----------|------|------|
+| 1. 페스티벌 | (큐레이션) `public/data/festivals/*.json` | 페스티벌 메타 + 라인업/타임테이블 | 동일 경로 |
+| 2. 아티스트 | `sync_artists.py` | festivals/*.json | `artists.json` 정합 검사, `output/_artist_index.json` |
+| 3. 발매곡 | `fetch_releases.py` | artists + `YT_API_KEY` | `output/{artistId}/releases.json` |
+
+오케스트레이션:
+
+```bash
+export YT_API_KEY=your_key
+
+# Step 1→2: 페스티벌에서 아티스트 동기화 (+ allArtists 채우기)
+python3 pipeline.py --write-festivals
+
+# Step 1→3: 동기화 후 페스티벌 아티스트 발매곡 수집
+python3 pipeline.py --write-festivals --releases
+
+# 소량 테스트
+python3 pipeline.py --releases --limit 3
+python3 pipeline.py --releases --artist-id nerd-connection
+```
+
+### Step 1 — 페스티벌 정보
+
+현재는 공식 라인업/타임테이블을 바탕으로 `public/data/festivals/{id}.json` 을 관리한다.
+
+필수 필드: `id`, `name`, `startDate`, `endDate`, `location`, `lineupStage`, `lineup`  
+아티스트 참조는 `lineup[].slots[].artistId` (또는 `lineup[].artists[]`) 로 둔다.
+
+`index.json` 의 `festivals` 배열과 파일명이 일치해야 한다.
+
+### Step 2 — 아티스트 리스트업
+
+```bash
+python3 sync_artists.py
+python3 sync_artists.py --write-festivals   # allArtists / day.artists 자동 채움
+python3 sync_artists.py --add-missing       # 미등록 ID를 artists.json placeholder로 추가
+```
+
+- 페스티벌에 등장하는 artistId를 모아 `_artist_index.json` 에 저장
+- `artists.json` 누락 / index 불일치를 경고
+
+### Step 3 — YouTube Music 발매곡
+
+```bash
+export YT_API_KEY=your_key
+python3 fetch_releases.py --artist-id nerd-connection
+python3 fetch_releases.py --from-index --limit 5
+python3 fetch_releases.py --all
+```
+
+수집 전략:
+
+1. `search.list(type=channel)` 로 `{아티스트} Topic` 채널 탐색 (YouTube Music 자동 생성 채널)
+2. Topic 채널의 업로드 영상 + `videoCategoryId=10`(Music) 검색 (`official audio` / `official MV`)
+3. `videos.list` 로 duration·조회수 보강
+4. 라이브/직캠/셋리스트성 제목 필터링 후 `releases.json` 저장
+
+결과 스키마 요약:
+
+```json
+{
+  "artistId": "nerd-connection",
+  "source": "youtube_music",
+  "provider": "youtube_data_api_v3",
+  "topicChannel": { "id": "...", "title": "... - Topic" },
+  "releases": [
+    {
+      "videoId": "...",
+      "songTitle": "...",
+      "youtubeUrl": "https://www.youtube.com/watch?v=...",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=...",
+      "source": "topic_channel"
+    }
+  ]
+}
+```
+
+---
+
+## 환경 변수
+
+| 변수 | 설명 |
+|------|------|
+| `YT_API_KEY` | YouTube Data API v3 키 (**필수**, 코드에 키를 커밋하지 말 것) |
+
+Google Cloud Console에서 YouTube Data API v3 를 활성화한 뒤 API 키를 발급한다.  
+`search.list` 는 quota 비용이 크므로(`100 units/call`) 배치 시 `--limit` 으로 나눠 실행한다.
+
+---
+
+## 향후 고도화 (보류)
+
+아래 스크립트는 **예상 셋리스트 / 라이브 아카이브** 용이며 MVP 범위 밖이다.
 
 | 파일 | 상태 | 설명 |
 |------|------|------|
-| `collect.py` | 메인 | 셋리스트 수집 스크립트 v6 |
-| `output/nflying_titles.json` | 수집됨 | 엔플라잉 1,767개 영상 제목 |
-| `output/nflying_events_summary.json` | 수집됨 | 엔플라잉 640개 공연 후보 |
+| `collect.py` | 보류 | 과거 공연 영상·셋리스트 후보 수집 (yt-dlp) |
+| `fetch_events.py` | 보류 | 공연명 기반 검색 → description 수집 |
+| `namu_crawler.py` | 보류 | 나무위키 공연 이력 (CSR 이슈로 보류) |
 
-### collect.py 구조
+고도화 시 예상 흐름:
 
-3단계 파이프라인:
+1. 발매곡 카탈로그(MVP)를 기준으로 곡명 정규화
+2. 공연 영상 description / 타임스탬프에서 셋리스트 추출
+3. LLM 정규화 → 예상 셋리스트 → YouTube 재생목록 링크
 
-- **Phase 1**: `--flat-playlist`으로 빠르게 목록 수집
-  - 기본 검색어: `{아티스트명} 셋리스트/setlist/풀캠 페스티벌/콘서트` 등 8개
-  - 제목에서 공연명 자동 추출 → 재검색 (auto-query)
-  - 재생목록(playlist) 발견 시 내부 영상 전개
-  - 정규화 제목 기준 중복 제거
+---
 
-- **Phase 2**: 개별 영상 description 비동기 수집 (async, conc=20)
-  - `--dump-single-json`으로 상세 메타데이터 획득
+## 디렉토리
 
-- **Phase 3**: description에서 재생목록 URL 추출 → 추가 영상 수집
-
-- **필터링**:
-  - TV 방송 제외 (인기가요, 뮤직뱅크, 엠카 등)
-  - 타임스탬프 패턴 2개 이상 또는 description 200자 이상만 유지
-  - 결과 적으면 기준 완화 (TV 방송만 제외)
-
-### 수집 결과 (엔플라잉 기준)
-
-- 원본 영상: 1,767개
-- 공연 후보: 640개
-- 주요 공연: GMF(12), 그린캠프(10), 어썸뮤직(7), 서울뮤직(3) 등
-- 타임스탬프 3개 이상 기준 저장: **0개** → 기준 완화 필요
-
-### 알려진 이슈
-
-- 타임스탬프 필터링 기준이 너무 엄격함 (3개 이상 → 0개 저장)
-- description에 타임스탬프가 있는 영상이 전체의 ~15%에 불과
-- TV 방송 단일 곡 영상이 대량으로 유입됨 (필터링 필수)
-- 나무위키 셋리스트 크롤링: CSR로 인해 urllib 불가 (보류)
-
-## 향후 태스크
-
-### 단기 (다음 스프린트)
-
-1. **타임스탬프 필터링 기준 완화**
-   - 현재: 타임스탬프 2개 이상 + desc 200자
-   - 변경: 타임스탬프 1개 이상 또는 desc에 곡명 패턴 존재 시 유지
-   - 엔플라잉 재수집 → 저장 개수 확인
-
-2. **엔플라잉 셋리스트 LLM 정규화 테스트**
-   - 수집된 description → LLM에 전달
-   - 멘트/인사/퇴장 제외, 곡명만 추출
-   - 정규화 결과 품질 확인
-
-3. **공연명 추출 로직 개선**
-   - 현재: 정규식 기반 (오탐 多)
-   - 개선: 제목 리스트 → LLM이 공연명 판단
-   - 엔플라잉 640개 공연 후보 데이터 활용
-
-### 중기
-
-4. **전체 아티스트 배치 수집**
-   - 102명 아티스트 전체에 동일 파이프라인 적용
-   - 배치 실행 + 에러 재시도 로직
-
-5. **수집 데이터 구조 정리**
-   - 아티스트별 `{artistId}.json` 저장
-   - `_summary.json`으로 전체 현황 관리
-   - `_collected_ids.json`으로 중복 방지
-
-6. **collect.py 리팩토링**
-   - Phase 1~3 함수 분리
-   - 설정값(필터링 기준, 검색어 등) 외부화
-   - 로깅 개선
-
-### 장기 (보류)
-
-7. **나무위키 셋리스트 크롤링**
-   - 브라우저 자동화(Playwright) 또는 YouTube Data API v3 검토
-   - 공식 셋리스트 소스로서의 신뢰도 평가
-
-8. **YouTube Data API v3 연동**
-   - 재생목록 검색 (yt-dlp로는 불가)
-   - 공식 아티스트 채널 플레이리스트 활용
-
-## 사용법
-
-```bash
-# 단일 아티스트 수집
-python3 collect.py --artist "nflying"
-
-# 전체 아티스트 수집 (3년치, 최대 500개)
-python3 collect.py --all --years 3
-
-# 증분 업데이트 (이미 수집된 영상 스킵)
-python3 collect.py --artist "nflying" --update
+```
+collector/
+├── pipeline.py          # MVP 오케스트레이터
+├── sync_artists.py      # Step 2
+├── fetch_releases.py    # Step 3 (YouTube Music / Search API)
+├── yt_api.py            # YouTube Data API v3 공통 클라이언트
+├── requirements.txt
+├── collect.py           # [보류] 셋리스트 고도화
+├── fetch_events.py      # [보류] 공연 영상 고도화
+├── namu_crawler.py      # [보류]
+└── output/              # gitignored
+    ├── _artist_index.json
+    ├── _releases_summary.json
+    └── {artistId}/releases.json
 ```
 
 ## 의존성
 
+```bash
+pip install -r requirements.txt
+```
+
 - Python 3.10+
-- yt-dlp >= 2026.03 (2024.12에서는 description 미지원)
+- YouTube Data API v3 (`YT_API_KEY`)
+- yt-dlp: 고도화 스크립트(`collect.py` / `fetch_events.py`)에서만 필요

@@ -17,6 +17,35 @@ export interface Artist {
   genres?: string[]
 }
 
+/** YouTube Music 기반 발매곡 (MVP collector 출력) */
+export interface ReleasedSong {
+  videoId: string
+  title: string
+  songTitle: string
+  channelId: string
+  channelTitle: string
+  publishedAt?: string
+  duration?: string
+  durationSeconds?: number | null
+  viewCount?: number
+  youtubeUrl: string
+  youtubeMusicUrl?: string
+  thumbnailUrl?: string
+  source: 'topic_channel' | 'search'
+}
+
+export interface ArtistReleases {
+  artistId: string
+  artistName?: string
+  englishName?: string
+  source: 'youtube_music'
+  provider: 'youtube_data_api_v3'
+  collectedAt: string
+  topicChannel?: { id: string; title: string; score?: number } | null
+  releaseCount: number
+  releases: ReleasedSong[]
+}
+
 export interface AlbumInfo {
   albumType: AlbumType
   albumName: string
