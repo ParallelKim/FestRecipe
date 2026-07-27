@@ -119,7 +119,9 @@ export default function Home() {
                 <div className="home-fest-row__main">
                   <p className="home-fest-row__eyebrow">{stageLabel(festival)}</p>
                   <h3 className="home-fest-row__name">{festival.name}</h3>
-                  <p className="home-fest-row__desc">{festival.description}</p>
+                  <p className="home-fest-row__desc">
+                    {festival.tagline || festival.description}
+                  </p>
                 </div>
                 <div className="home-fest-row__meta">
                   <p><span>일시</span>{festival.startDate} ~ {festival.endDate}</p>

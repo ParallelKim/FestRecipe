@@ -531,21 +531,31 @@ body {
   font-size: clamp(28px, 5vw, 44px);
   font-weight: 800;
   letter-spacing: -0.03em;
-  margin: 0 0 14px;
+  margin: 0 0 12px;
   line-height: 1.1;
+}
+.festival-hero__tagline {
+  margin: 0 0 10px;
+  max-width: 28ch;
+  font-family: var(--font-display);
+  font-size: clamp(18px, 3.4vw, 24px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.35;
 }
 .festival-hero__desc {
   margin: 0 0 18px;
-  max-width: 720px;
-  font-size: 15px;
+  max-width: 40ch;
+  font-size: 14px;
   line-height: 1.65;
+  opacity: 0.9;
 }
 .festival-hero__meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px 24px;
+  gap: 12px 20px;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .festival-body {
   margin-top: 36px;
@@ -573,19 +583,20 @@ body {
 }
 
 .day-tabs {
-  border-bottom: 1px solid var(--color-hairline);
+  border-bottom: 2px solid var(--color-ink);
   display: flex;
   gap: 4px;
   margin-bottom: 20px;
   overflow-x: auto;
 }
 .day-tab {
-  padding: 12px 20px;
+  padding: 12px 18px;
   font-size: 14px;
-  font-weight: 600;
-  background: transparent;
-  color: var(--color-muted);
-  border: none;
+  font-weight: 700;
+  background: var(--color-surface-soft);
+  color: var(--color-body);
+  border: 1px solid var(--color-hairline);
+  border-bottom: none;
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   cursor: pointer;
   white-space: nowrap;
@@ -593,6 +604,7 @@ body {
 .day-tab.is-active {
   background: var(--color-ink);
   color: var(--color-canvas);
+  border-color: var(--color-ink);
 }
 
 .lineup-block {
@@ -677,6 +689,167 @@ body {
   overflow-x: auto;
   padding-bottom: 12px;
   margin-bottom: 24px;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Timetable — high visibility */
+.timetable-empty {
+  text-align: center;
+  padding: 48px 20px;
+  color: var(--color-body);
+  border: 1px dashed var(--color-border-strong);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+}
+.timetable {
+  border: 1.5px solid var(--color-ink);
+  border-radius: var(--radius-lg);
+  background: #fff;
+  overflow: hidden;
+}
+.timetable__header {
+  display: grid;
+  border-bottom: 1.5px solid var(--color-ink);
+  background: var(--color-ink);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.timetable__corner {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.75);
+  background: #11151b;
+}
+.timetable__stage {
+  padding: 14px 8px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 13px;
+  color: #fff;
+  border-right: 1px solid rgba(255, 255, 255, 0.18);
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+.timetable__body {
+  display: grid;
+  position: relative;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent 59px,
+      rgba(24, 29, 38, 0.06) 59px,
+      rgba(24, 29, 38, 0.06) 60px
+    );
+}
+.timetable__axis {
+  position: sticky;
+  left: 0;
+  width: 64px;
+  height: 100%;
+  background: #f3f4f6;
+  border-right: 1.5px solid var(--color-ink);
+  z-index: 5;
+  pointer-events: none;
+}
+.timetable__hour {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--color-ink);
+}
+.timetable__lines {
+  position: absolute;
+  top: 0;
+  left: 64px;
+  right: 0;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+.timetable__line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px solid rgba(24, 29, 38, 0.18);
+}
+.timetable__line.is-edge {
+  border-top: none;
+}
+.timetable__col {
+  position: relative;
+  height: 100%;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.55);
+}
+.timetable__col.has-border {
+  border-right: 1px solid rgba(24, 29, 38, 0.22);
+}
+.timetable__slot {
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 10px;
+  background: #fff;
+  color: var(--color-ink);
+  border: 1.5px solid var(--color-ink);
+  box-shadow: 0 2px 0 rgba(24, 29, 38, 0.08);
+  cursor: pointer;
+  text-align: left;
+  transition: transform 0.12s ease, background-color 0.12s ease;
+  overflow: hidden;
+}
+.timetable__slot:active {
+  transform: scale(0.98);
+}
+.timetable__slot.is-selected {
+  background: var(--color-ink);
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
+}
+.timetable__slot-time {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-body);
+  margin-bottom: 4px;
+}
+.timetable__slot.is-selected .timetable__slot-time {
+  color: rgba(255, 255, 255, 0.78);
+}
+.timetable__slot-name {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  word-break: keep-all;
+}
+@media (max-width: 640px) {
+  .timetable__stage {
+    font-size: 12px;
+    padding: 12px 4px;
+  }
+  .timetable__slot-name {
+    font-size: 14px;
+  }
 }
 
 /* Playlist panel */

@@ -159,6 +159,9 @@ export interface Festival {
   signatureColor: SignatureColor
   status: FestivalStatus
   lineupStage: LineupStage
+  /** 히어로·카드용 짧은 매력 문장 (스폰서/스테이지명 비권장) */
+  tagline?: string
+  /** SEO·상세용 설명. 스테이지 스폰서명은 타임테이블에만 두는 것을 권장 */
   description: string
   websiteUrl?: string
   allArtists: string[] // 1단계(all) 요일미구분 전체 라인업

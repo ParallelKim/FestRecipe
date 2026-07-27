@@ -191,9 +191,14 @@ export default function FestivalDetail() {
           >
             {festival.name}
           </motion.h1>
-          <p className="festival-hero__desc" style={{ color: sigMutedColor }}>
-            {festival.description}
+          <p className="festival-hero__tagline" style={{ color: sigTextColor }}>
+            {festival.tagline || festival.description}
           </p>
+          {festival.tagline && (
+            <p className="festival-hero__desc" style={{ color: sigMutedColor }}>
+              {festival.description}
+            </p>
+          )}
           <div className="festival-hero__meta" style={{ color: sigMutedColor }}>
             <span>{festival.location}</span>
             <span>{festival.startDate} ~ {festival.endDate}</span>
