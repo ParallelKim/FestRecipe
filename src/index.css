@@ -416,22 +416,62 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 18px;
+  gap: 14px;
+  max-width: 420px;
+}
+.home-hero__featured-label {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.62);
+}
+.home-hero__featured-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
 .home-hero__fest-mark {
   display: block;
-  width: 64px;
-  height: 64px;
+  width: 52px;
+  height: 52px;
   object-fit: contain;
+  flex-shrink: 0;
   filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.35));
+}
+.home-hero__featured-copy {
+  min-width: 0;
+}
+.home-hero__fest-name {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.35;
+  word-break: keep-all;
+  color: #fff;
+}
+.home-hero__fest-meta {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.72);
+  word-break: keep-all;
 }
 .home-hero__cta {
   background: #fff;
   color: var(--color-ink);
+  margin-top: 4px;
 }
 .home-hero__cta:hover {
   background: #f2f2f2;
   color: var(--color-ink);
+}
+.home-hero__cta-hint {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.55);
 }
 @keyframes hero-drift {
   from { transform: scale(1.04) translate3d(0, 0, 0); }
