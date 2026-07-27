@@ -1,0 +1,104 @@
+{
+  "artistId": "redoor",
+  "artistName": "리도어",
+  "englishName": "Redoor",
+  "collectedAt": "2026-07-27T00:58:44.265300+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 990,
+    "latestSlotLabel": "16:30",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.585,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCW2g2fF4OAK6412p2WVqysg",
+    "name": "Redoor",
+    "subscribers": "25.8K",
+    "channelId": "UCYVJcQTELkYJmUsHCskv94Q",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/5KGqI7W0k_HyR0KMrTprETW0dPMEHte7ibcxinNYAnynQoF3jVpaOnlQXwSXyITRrkYH2vqLXWUTdW0=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCW2g2fF4OAK6412p2WVqysg"
+  },
+  "tracks": [
+    {
+      "videoId": "E5BLkMGxDgQ",
+      "songTitle": "Forever Has Always Been",
+      "title": "Forever Has Always Been",
+      "artists": [
+        "Redoor"
+      ],
+      "albumTitle": "Forever Has Always Been",
+      "albumBrowseId": "MPREb_0P55gKcbrGl",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0tvkHmI63PToVgEk1BSL_o0CRymprunBvLBQvu92S6a5OEw7Olfb-RWPLPvldUpWHIZzoEhb6b8tVX1MMQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E5BLkMGxDgQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=E5BLkMGxDgQ",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "3VlqlntAOt8",
+      "songTitle": "Exaggerated Love",
+      "title": "Exaggerated Love",
+      "artists": [
+        "Redoor"
+      ],
+      "albumTitle": "Exaggerated Love",
+      "albumBrowseId": "MPREb_r3oGlWDKU2T",
+      "duration": "4:16",
+      "durationSeconds": 256,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Cda3ewT04f86Lsph-rlOuJVhZrgu1ygp4pPHEgeaT-S8iss0KrUyqkYEqK3RDLluYLegkZvbRTu3C238_A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3VlqlntAOt8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3VlqlntAOt8",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "aU9p-IeKAJw",
+      "songTitle": "Shadow of You",
+      "title": "Shadow of You",
+      "artists": [
+        "Redoor"
+      ],
+      "albumTitle": "Hospital",
+      "albumBrowseId": "MPREb_FrPwIu92va1",
+      "duration": "4:16",
+      "durationSeconds": 256,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KtjBbY0FpmNJOdj_a1OiyWqLns2SBrzQruqJDIJtwWSVkzNGrLUAht_jJPnGTARTyLmlkPmAYL_0Ucfw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aU9p-IeKAJw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=aU9p-IeKAJw",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "uVs0tqOck7k",
+      "songTitle": "Syringe",
+      "title": "Syringe",
+      "artists": [
+        "Redoor"
+      ],
+      "albumTitle": "Hospital",
+      "albumBrowseId": "MPREb_FrPwIu92va1",
+      "duration": "4:24",
+      "durationSeconds": 264,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KtjBbY0FpmNJOdj_a1OiyWqLns2SBrzQruqJDIJtwWSVkzNGrLUAht_jJPnGTARTyLmlkPmAYL_0Ucfw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uVs0tqOck7k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=uVs0tqOck7k",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=E5BLkMGxDgQ%2C3VlqlntAOt8%2CaU9p-IeKAJw%2CuVs0tqOck7k&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A6%AC%EB%8F%84%EC%96%B4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=E5BLkMGxDgQ&list=RDAMVME5BLkMGxDgQ",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 리도어 플레이리스트"
+}

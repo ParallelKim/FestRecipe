@@ -1,0 +1,86 @@
+{
+  "artistId": "kwon-jina",
+  "artistName": "권진아",
+  "englishName": "Kwon Jin Ah",
+  "collectedAt": "2026-07-27T00:58:36.291220+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 910,
+    "latestSlotLabel": "15:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.4,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCFYdEvtfdH08-eTRHCpyP7w",
+    "name": "챈슬러, 권진아",
+    "subscribers": "0",
+    "channelId": "UCFYdEvtfdH08-eTRHCpyP7w",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/A9DLH1l0rdhTccP3ORU0E-Z8lukaPc0VUph_lrjZriXtTc8jRQ6V4KMnrlquhBmDV6vOmku7Eur0PwGcfQ=w1400-h583-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCFYdEvtfdH08-eTRHCpyP7w"
+  },
+  "tracks": [
+    {
+      "videoId": "reIL6iILDbE",
+      "songTitle": "이맘 때면",
+      "title": "이맘 때면",
+      "artists": [
+        "챈슬러, 권진아"
+      ],
+      "albumTitle": "싱포유 - 두번째이야기 크리스마스",
+      "albumBrowseId": "MPREb_ViqWuu6OVZw",
+      "year": "2016",
+      "releaseType": "single",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/A9DLH1l0rdhTccP3ORU0E-Z8lukaPc0VUph_lrjZriXtTc8jRQ6V4KMnrlquhBmDV6vOmku7Eur0PwGcfQ=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=reIL6iILDbE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=reIL6iILDbE",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "Yxd0ULqOqvM",
+      "songTitle": "행복을 들고 (feat. Reddy)",
+      "title": "행복을 들고 (feat. Reddy)",
+      "artists": [
+        "임정희"
+      ],
+      "albumTitle": "싱포유 - 두번째이야기 크리스마스",
+      "albumBrowseId": "MPREb_ViqWuu6OVZw",
+      "year": "2016",
+      "releaseType": "single",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/A9DLH1l0rdhTccP3ORU0E-Z8lukaPc0VUph_lrjZriXtTc8jRQ6V4KMnrlquhBmDV6vOmku7Eur0PwGcfQ=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Yxd0ULqOqvM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Yxd0ULqOqvM",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "EAl_74LMelo",
+      "songTitle": "징글징글징글벨 ) (feat. 지뉴)",
+      "title": "징글징글징글벨 ) (feat. 지뉴)",
+      "artists": [
+        "레이나"
+      ],
+      "albumTitle": "싱포유 - 두번째이야기 크리스마스",
+      "albumBrowseId": "MPREb_ViqWuu6OVZw",
+      "year": "2016",
+      "releaseType": "single",
+      "duration": "3:15",
+      "durationSeconds": 195,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/A9DLH1l0rdhTccP3ORU0E-Z8lukaPc0VUph_lrjZriXtTc8jRQ6V4KMnrlquhBmDV6vOmku7Eur0PwGcfQ=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EAl_74LMelo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EAl_74LMelo",
+      "source": "releases_fallback"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=reIL6iILDbE%2CYxd0ULqOqvM%2CEAl_74LMelo&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EA%B6%8C%EC%A7%84%EC%95%84+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=reIL6iILDbE&list=RDAMVMreIL6iILDbE",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 권진아 플레이리스트"
+}

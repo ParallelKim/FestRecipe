@@ -1,0 +1,104 @@
+{
+  "artistId": "the-fix",
+  "artistName": "THE FIX",
+  "englishName": "THE FIX",
+  "collectedAt": "2026-07-27T00:58:48.923585+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1120,
+    "latestSlotLabel": "18:40",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.738,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UC2IXW8adG9JPc627IYeKXzw",
+    "name": "The Fix",
+    "subscribers": "97",
+    "channelId": "UC2IXW8adG9JPc627IYeKXzw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/UMlJhQcpoHdyw9OXmE5zgDOOFcKFk9MW_8mHaBQBnx1CT7jVZi9QZtrjMfDFN-zIlrNcCffmFoqnn3WAEw=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC2IXW8adG9JPc627IYeKXzw"
+  },
+  "tracks": [
+    {
+      "videoId": "8cMFDDEEH6M",
+      "songTitle": "Cookie Monster (feat. King)",
+      "title": "Cookie Monster (feat. King)",
+      "artists": [
+        "The Fix"
+      ],
+      "albumTitle": "CJ Pillsberry: The Candymane",
+      "albumBrowseId": "MPREb_KpLGYe6hjQF",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/CIYw6XYKbuzvjwji_JvFpIyWlog1GZ4abs704-_Lw7CZFAU6suuBqni0NdW0qARmn4myFfmsGVt69WM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8cMFDDEEH6M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8cMFDDEEH6M",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "sBWfHa_MGpE",
+      "songTitle": "Slide N Ride",
+      "title": "Slide N Ride",
+      "artists": [
+        "The Fix"
+      ],
+      "albumTitle": "Mad Man Fix",
+      "albumBrowseId": "MPREb_Md63f5oLgn6",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IyMOY40ljUbnwVATSg2_QK0cn41Xwdzu4Mq_0V_JC0CBw3e7WqKlN2mXhYtWd8X_OGHOBwkRquX7p9EB=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sBWfHa_MGpE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sBWfHa_MGpE",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "2QnrmtM02Pw",
+      "songTitle": "Another Level (feat. Young A1)",
+      "title": "Another Level (feat. Young A1)",
+      "artists": [
+        "The Fix"
+      ],
+      "albumTitle": "Foreign Made It Fix Slayed It",
+      "albumBrowseId": "MPREb_3HrOXlc7VLo",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_Z_uN2eZso56VG6g1M62nbDurFVpJeOfjD_SExf7VsaqO51yK0VikNFnT2xuDL2hrDcRhU_SVlBsmZ4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2QnrmtM02Pw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2QnrmtM02Pw",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "O1NAE-1FNTY",
+      "songTitle": "Munii Long (feat. Cashville Young T & Toni 3 Times)",
+      "title": "Munii Long (feat. Cashville Young T & Toni 3 Times)",
+      "artists": [
+        "The Fix"
+      ],
+      "albumTitle": "Munii Long",
+      "albumBrowseId": "MPREb_DWBTkByyV0s",
+      "duration": "3:10",
+      "durationSeconds": 190,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KTAdsUrGmdapcHQ6DzEYeO539PcpJgZrsjx3NyE9qbPLwkYYizhKwRbMepKkOtj8Cq3pGJowphZgDs_p=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=O1NAE-1FNTY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=O1NAE-1FNTY",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=8cMFDDEEH6M%2CsBWfHa_MGpE%2C2QnrmtM02Pw%2CO1NAE-1FNTY&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+THE+FIX+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=8cMFDDEEH6M&list=RDAMVM8cMFDDEEH6M",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 THE FIX 플레이리스트"
+}

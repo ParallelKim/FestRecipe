@@ -1,0 +1,68 @@
+{
+  "artistId": "jang-pillsoon",
+  "artistName": "장필순",
+  "englishName": "Jang Pill Soon",
+  "collectedAt": "2026-07-27T00:58:34.832051+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1130,
+    "latestSlotLabel": "18:50",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.769,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 2,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCPWrIMzqaLfsfipd5YoJ57g",
+    "name": "Jang Pill Soon",
+    "subscribers": "0",
+    "channelId": "UCPWrIMzqaLfsfipd5YoJ57g",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/jCpUtqG3gdaI5z6VSyln4R9F7N14brcrkEQfJNVEy_yiSDwXBC7G28JL5pXkZzl5CBABxxjvF-_ix4CY=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCPWrIMzqaLfsfipd5YoJ57g"
+  },
+  "tracks": [
+    {
+      "videoId": "iXMPryyzwDI",
+      "songTitle": "거기 그대",
+      "title": "거기 그대",
+      "artists": [
+        "Jang Pill Soon"
+      ],
+      "albumTitle": "Are you there",
+      "albumBrowseId": "MPREb_IPM28HMqke3",
+      "year": "2021",
+      "releaseType": "single",
+      "duration": "4:39",
+      "durationSeconds": 279,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jCpUtqG3gdaI5z6VSyln4R9F7N14brcrkEQfJNVEy_yiSDwXBC7G28JL5pXkZzl5CBABxxjvF-_ix4CY=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iXMPryyzwDI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=iXMPryyzwDI",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "5gvvcIxqB8o",
+      "songTitle": "거기 그대 (Inst.)",
+      "title": "거기 그대 (Inst.)",
+      "artists": [
+        "Jang Pill Soon"
+      ],
+      "albumTitle": "Are you there",
+      "albumBrowseId": "MPREb_IPM28HMqke3",
+      "year": "2021",
+      "releaseType": "single",
+      "duration": "4:39",
+      "durationSeconds": 279,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jCpUtqG3gdaI5z6VSyln4R9F7N14brcrkEQfJNVEy_yiSDwXBC7G28JL5pXkZzl5CBABxxjvF-_ix4CY=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5gvvcIxqB8o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5gvvcIxqB8o",
+      "source": "releases_fallback"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=iXMPryyzwDI%2C5gvvcIxqB8o&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%9E%A5%ED%95%84%EC%88%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=iXMPryyzwDI&list=RDAMVMiXMPryyzwDI",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 장필순 플레이리스트"
+}

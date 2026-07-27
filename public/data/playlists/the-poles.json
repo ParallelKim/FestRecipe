@@ -1,0 +1,100 @@
+{
+  "artistId": "the-poles",
+  "artistName": "더 폴스",
+  "englishName": "The Poles",
+  "collectedAt": "2026-07-27T00:58:51.066881+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 990,
+    "latestSlotLabel": "16:30",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.554,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCAodJxXWk1WS9Ko57bRF-ug",
+    "name": "The Poles",
+    "subscribers": "44.4K",
+    "channelId": "UCdUqvGMzYNVoYC1Wjz8-a5w",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/ytvdyWNsm99yQgBUsAAU2miYmBV_OpJSIxRPAdQ7iuASOte9UdvNt41qND6oYZOciBIGRn1z=w2000-h833-l90-rj-dcDWKOEiWoqVEB",
+    "url": "https://music.youtube.com/channel/UCAodJxXWk1WS9Ko57bRF-ug"
+  },
+  "tracks": [
+    {
+      "videoId": "QwByM5-vwlM",
+      "songTitle": "space",
+      "title": "space",
+      "artists": [
+        "The Poles"
+      ],
+      "albumTitle": "space",
+      "albumBrowseId": "MPREb_CWlQ4zHlf2r",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-HHHrH8MSnbsc3SewHPZnXLlQjrc2UgnRFxdAuNzeLdVvyy4sXlp8LiZY_UyXfQl18nd7xQNzrGqEnd8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QwByM5-vwlM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=QwByM5-vwlM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "K_x9Vn5NxQw",
+      "songTitle": "Find Me!",
+      "title": "Find Me!",
+      "artists": [
+        "The Poles"
+      ],
+      "albumTitle": "Find Me!",
+      "albumBrowseId": "MPREb_bC6Obj0nkdf",
+      "duration": "3:47",
+      "durationSeconds": 227,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/gbaq-fnjOdjBqttYVpxN5hjDRBaFOTMPV5Bse1-jLFfjCiqjw7udmJy6zOkoEYXMwZ-DbYwb_rG5ijnOZQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K_x9Vn5NxQw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=K_x9Vn5NxQw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "iN2hO2hPLoI",
+      "songTitle": "High Tide",
+      "title": "High Tide",
+      "artists": [
+        "The Poles"
+      ],
+      "albumTitle": "The High Tide Club",
+      "albumBrowseId": "MPREb_riD0xv3kpBG",
+      "duration": "4:09",
+      "durationSeconds": 249,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QwfCuUxMbNkc5tA8WxX9R8tEoO3a5ZXyGdKxAtUUJKQCvp2sD03i17P3ergZk_RCAEBRNBBFpNC7YfUf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iN2hO2hPLoI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=iN2hO2hPLoI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "X8lT0r_iEhY",
+      "songTitle": "Dancing Bird",
+      "title": "Dancing Bird",
+      "artists": [
+        "The Poles"
+      ],
+      "albumTitle": "Dancing Bird",
+      "albumBrowseId": "MPREb_EPA6oVdqRMF",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7m7GShd7Z0uKXXNttNU810CPNtOgBIwwEsi5xQLjhvm4BxXMitDrYayusInl_ppWrgVXTHTDwkQt5Yfc5A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=X8lT0r_iEhY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=X8lT0r_iEhY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=QwByM5-vwlM%2CK_x9Vn5NxQw%2CiN2hO2hPLoI%2CX8lT0r_iEhY&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%8D%94+%ED%8F%B4%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=QwByM5-vwlM&list=RDAMVMQwByM5-vwlM",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 더 폴스 플레이리스트"
+}

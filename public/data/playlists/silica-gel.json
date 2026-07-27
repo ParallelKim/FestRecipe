@@ -1,0 +1,117 @@
+{
+  "artistId": "silica-gel",
+  "artistName": "실리카겔",
+  "englishName": "Silica Gel",
+  "collectedAt": "2026-07-27T00:58:45.698239+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1200,
+    "latestSlotLabel": "20:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.892,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCWqbaWENrp5JLNzAyg_vueQ",
+    "name": "Silica Gel",
+    "subscribers": "172K",
+    "channelId": "UCXteMTpHAvyDP05G0QULuZA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/LwlbGXLL8SYeoOX9rubrP__51Phwqud_uUbXhOCmSHcZVf7R-7081K49JvaG8huquTTVksu9deOHIi-p=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCWqbaWENrp5JLNzAyg_vueQ"
+  },
+  "tracks": [
+    {
+      "videoId": "U31mUH2DnWk",
+      "songTitle": "NO PAIN",
+      "title": "NO PAIN",
+      "artists": [
+        "Silica Gel"
+      ],
+      "albumTitle": "NO PAIN",
+      "albumBrowseId": "MPREb_dZadK24ebWY",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-V2vyRArXHs-MopfpULVmDC7amR_plX0qmZUnMeXLLKNejenmiaqTzqAwB78DLHhnjwngmrfbYgaK0l8eA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=U31mUH2DnWk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=U31mUH2DnWk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "wnx_bD5kNBU",
+      "songTitle": "Tik Tak Tok (feat. So!YoON!)",
+      "title": "Tik Tak Tok (feat. So!YoON!)",
+      "artists": [
+        "Silica Gel"
+      ],
+      "albumTitle": "Tik Tak Tok",
+      "albumBrowseId": "MPREb_SYvIkMl2ek2",
+      "duration": "6:16",
+      "durationSeconds": 376,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/n_Sn6cGU3QmF9kGtig84nsXNkDHBmfqIng6FVBue5r2WLUrKdQ8BVpV1bfFpA1NkUzmDXe9E3VExAcE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wnx_bD5kNBU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wnx_bD5kNBU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WisAHyIrjvk",
+      "songTitle": "BIG VOID (Single ver.)",
+      "title": "BIG VOID (Single ver.)",
+      "artists": [
+        "Silica Gel"
+      ],
+      "albumTitle": "BIG VOID (Single ver.)",
+      "albumBrowseId": "MPREb_VQVFVwbYwJh",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FR835DQTyrPb2AVXRgUaWAwuaVeZsOQv-sa9FbWhnZlqaijbwxxFBHRm0NAJBkH5Dzkj9KrqIDQbyWmH=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WisAHyIrjvk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WisAHyIrjvk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "_g3vxL400l0",
+      "songTitle": "Desert Eagle",
+      "title": "Desert Eagle",
+      "artists": [
+        "Silica Gel"
+      ],
+      "albumTitle": "Desert Eagle",
+      "albumBrowseId": "MPREb_1eLfcUQh94S",
+      "duration": "5:10",
+      "durationSeconds": 310,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Db-sR_o7sTisq8GjCq91avgRPi-hX8PxjGBdvomlnz7pCbpOPhKHzTaC0YHEQGfTNB2aRnRbbLRlH0q7=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_g3vxL400l0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_g3vxL400l0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "jZyKcwGoQpM",
+      "songTitle": "Realize",
+      "title": "Realize",
+      "artists": [
+        "Silica Gel"
+      ],
+      "albumTitle": "Machine Boy",
+      "albumBrowseId": "MPREb_rHCZpyIEWIP",
+      "duration": "4:24",
+      "durationSeconds": 264,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/knncz51N1PN3-Sif8g9Ta4kqhgl8Jl7Cl9wKHHL3tio2fg_U4Dgm-SWHYRRn3WI4GwtEc-1YAI-X34sITQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jZyKcwGoQpM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jZyKcwGoQpM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=U31mUH2DnWk%2Cwnx_bD5kNBU%2CWisAHyIrjvk%2C_g3vxL400l0%2CjZyKcwGoQpM&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%8B%A4%EB%A6%AC%EC%B9%B4%EA%B2%94+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=U31mUH2DnWk&list=RDAMVMU31mUH2DnWk",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 실리카겔 플레이리스트"
+}

@@ -1,0 +1,118 @@
+{
+  "artistId": "pixies",
+  "artistName": "픽시즈",
+  "englishName": "PIXIES",
+  "collectedAt": "2026-07-27T00:58:43.032851+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1360,
+    "latestSlotLabel": "22:40",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 1.0,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCRt5ckI8kNVMFr-jyj1IIVg",
+    "name": "Pixies",
+    "subscribers": "491K",
+    "channelId": "UCEMVQmE2DNpGqdwJi7-o5LQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/cDJB1aPuX_Bxae616aJlZkBnrbqA2NSwQPwZq_HPYllcISp5CCfHy_fjWdTXDmCRZOw3IJ2qAr3KMEQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCRt5ckI8kNVMFr-jyj1IIVg"
+  },
+  "tracks": [
+    {
+      "videoId": "49FB9hhoO6c",
+      "songTitle": "Where Is My Mind?",
+      "title": "Where Is My Mind?",
+      "artists": [
+        "Pixies"
+      ],
+      "albumTitle": "Death to the Pixies",
+      "albumBrowseId": "MPREb_FphDKHWtHqG",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BgST9kQbcjQ2nVYfUeCPaWqKZG0AkIQQDhdmQaLBFuSSQzAAjIC_EO5DD7okgZIRQMNb_9CXGS8xOrVy=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=49FB9hhoO6c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=49FB9hhoO6c",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "iaoBBwcXYKQ",
+      "songTitle": "Que Sera Sera",
+      "title": "Que Sera Sera",
+      "artists": [
+        "Pixies"
+      ],
+      "albumTitle": "You're So Impatient",
+      "albumBrowseId": "MPREb_0WVUOe7qwQG",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JZZDnVKjg1-tABoV6oDs-S4bNcnPs68-0Jpmb56quvmtdivu-sR6fdS1NvPFakHLlKl17X5RiqBiZnQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iaoBBwcXYKQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=iaoBBwcXYKQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "XYrOmT72xZk",
+      "songTitle": "Here Comes Your Man",
+      "title": "Here Comes Your Man",
+      "artists": [
+        "Pixies"
+      ],
+      "albumTitle": "Doolittle",
+      "albumBrowseId": "MPREb_chb7xdBVmOZ",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/xiDNWIqv4mEebzY-NrENlQvdp5bK915RCWmTAzwNW6ZmBAeRd4cfzd_hKG1S0D6ELdK6N5bUuYbHN1fT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XYrOmT72xZk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XYrOmT72xZk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "tVCUAXOBF7w",
+      "songTitle": "Hey",
+      "title": "Hey",
+      "artists": [
+        "Pixies"
+      ],
+      "albumTitle": "Doolittle",
+      "albumBrowseId": "MPREb_chb7xdBVmOZ",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/xiDNWIqv4mEebzY-NrENlQvdp5bK915RCWmTAzwNW6ZmBAeRd4cfzd_hKG1S0D6ELdK6N5bUuYbHN1fT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tVCUAXOBF7w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tVCUAXOBF7w",
+      "source": "ytm_songs_popular",
+      "year": "1989",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "qr3tLhF75XQ",
+      "songTitle": "All I Think About Now",
+      "title": "All I Think About Now",
+      "artists": [
+        "Pixies"
+      ],
+      "albumTitle": "Head Carrier",
+      "albumBrowseId": "MPREb_Lc0cd19MoP3",
+      "duration": "3:08",
+      "durationSeconds": 188,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/bqpcqrskT733E7msxonNBEnYV2N9rmC0Ilq-ueGhn9I7lnLjrHsCrACNUzKNB8pqEw9jeIgBjs0Fqtgd=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qr3tLhF75XQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qr3tLhF75XQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=49FB9hhoO6c%2CiaoBBwcXYKQ%2CXYrOmT72xZk%2CtVCUAXOBF7w%2Cqr3tLhF75XQ&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%94%BD%EC%8B%9C%EC%A6%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=49FB9hhoO6c&list=RDAMVM49FB9hhoO6c",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 픽시즈 플레이리스트"
+}

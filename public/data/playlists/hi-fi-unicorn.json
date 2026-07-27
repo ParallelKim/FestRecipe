@@ -1,0 +1,84 @@
+{
+  "artistId": "hi-fi-unicorn",
+  "artistName": "하이파이유니콘",
+  "englishName": "Hi-Fi Un!corn",
+  "collectedAt": "2026-07-27T00:58:33.060291+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 720,
+    "latestSlotLabel": "12:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.015,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCNaMswhPljPOne6TwD3FfWw",
+    "name": "Hi-Fi Un!corn",
+    "subscribers": "70.7K",
+    "channelId": "UCIN1B0QaNvjhcL7yPdAJY9w",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/uOaGwOTDfvuLbRwE5-SaFG8SqH5sqq7yosoGgcl6kwwCFE-JnQD-xlcvzH7wd4MbcpMUqUE4Fg=w750-h312-l90-rj-dcHXOIjq0E",
+    "url": "https://music.youtube.com/channel/UCNaMswhPljPOne6TwD3FfWw"
+  },
+  "tracks": [
+    {
+      "videoId": "xzP_LZJlkHM",
+      "songTitle": "U&I",
+      "title": "U&I",
+      "artists": [
+        "Hi-Fi Un!corn"
+      ],
+      "albumTitle": "FANTASIA",
+      "albumBrowseId": "MPREb_LhriqAjFczH",
+      "duration": "4:22",
+      "durationSeconds": 262,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_D7_IcgqqoIzYNaqlvJMuFfATts_CIFLlnxPAngCNY89xgiI9LpUNmxCD7Sd1LGBWFvXWeJMhuzP7-5Piw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xzP_LZJlkHM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xzP_LZJlkHM",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "FG4E04hT_IY",
+      "songTitle": "SUPER DUPER",
+      "title": "SUPER DUPER",
+      "artists": [
+        "Hi-Fi Un!corn"
+      ],
+      "albumTitle": "SUPER DUPER",
+      "albumBrowseId": "MPREb_3qeyueJSFmL",
+      "duration": "2:58",
+      "durationSeconds": 178,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jX9XAiDMEvJnooUGqYVrzFGqIYPREDe5G7Z0HGOZxUbmG-90wOlwS7kgQNYmFit3ZV0jV_QCH6ODTpX8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FG4E04hT_IY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FG4E04hT_IY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "CEfyybTdtHQ",
+      "songTitle": "Why",
+      "title": "Why",
+      "artists": [
+        "Hi-Fi Un!corn"
+      ],
+      "albumTitle": "Why",
+      "albumBrowseId": "MPREb_0zR83099Yaw",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dnjxmnqmGx8vBlHp60gTG3Bp9G8UhXyxb_m0M8O3M7PVgliVzzoSLADb5NpBc3_0L94y3NNILZSr4XbE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CEfyybTdtHQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CEfyybTdtHQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=xzP_LZJlkHM%2CFG4E04hT_IY%2CCEfyybTdtHQ&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%95%98%EC%9D%B4%ED%8C%8C%EC%9D%B4%EC%9C%A0%EB%8B%88%EC%BD%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=xzP_LZJlkHM&list=RDAMVMxzP_LZJlkHM",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 하이파이유니콘 플레이리스트"
+}

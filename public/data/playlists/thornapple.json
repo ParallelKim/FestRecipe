@@ -1,0 +1,103 @@
+{
+  "artistId": "thornapple",
+  "artistName": "쏜애플",
+  "englishName": "Thornapple",
+  "collectedAt": "2026-07-27T00:58:51.882719+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1090,
+    "latestSlotLabel": "18:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.723,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCVSu2xl5e0igBhVEgjPPqdA",
+    "name": "THORNAPPLE",
+    "subscribers": "70.5K",
+    "channelId": "UCATvEjsg1zfDs7yN_MFUS7A",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/QAZG9WfelZ2-p0TAYBaPPCy6oQiEfQiXHOgzwGSu_nXSK5vhf5Ayui4sJOlEEu6RtGvM5qvrnWXomQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCVSu2xl5e0igBhVEgjPPqdA"
+  },
+  "tracks": [
+    {
+      "videoId": "5BPxhDCyHU4",
+      "songTitle": "Planetarium",
+      "title": "Planetarium",
+      "artists": [
+        "THORNAPPLE"
+      ],
+      "albumTitle": "My Century",
+      "albumBrowseId": "MPREb_5LSCW32xGgd",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_qkX97nD0wKMn-RYwTYABhtWqhoaH5biCImFl0if3gf6qQa9u4fhiNucsHXfweXRDdKPvOWqfDHT-MEX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5BPxhDCyHU4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5BPxhDCyHU4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "hJTzFxW368E",
+      "songTitle": "Luminescence",
+      "title": "Luminescence",
+      "artists": [
+        "THORNAPPLE"
+      ],
+      "albumTitle": "My Century",
+      "albumBrowseId": "MPREb_5LSCW32xGgd",
+      "duration": "4:29",
+      "durationSeconds": 269,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_qkX97nD0wKMn-RYwTYABhtWqhoaH5biCImFl0if3gf6qQa9u4fhiNucsHXfweXRDdKPvOWqfDHT-MEX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hJTzFxW368E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=hJTzFxW368E",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "8i-B1ieI_kY",
+      "songTitle": "Blue Spring",
+      "title": "Blue Spring",
+      "artists": [
+        "THORNAPPLE"
+      ],
+      "albumTitle": "Strange Weather",
+      "albumBrowseId": "MPREb_waMgnSqTsb5",
+      "duration": "4:54",
+      "durationSeconds": 294,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pslTcRgvhT4R2cNFDrrir9QEq9FezYNR2j_9vPq24mdyZWK4i5ezz_e8undNjrAjUC18b2fFmsGCjMY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8i-B1ieI_kY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8i-B1ieI_kY",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "jGw00C_a1YA",
+      "songTitle": "Good Old Days",
+      "title": "Good Old Days",
+      "artists": [
+        "THORNAPPLE"
+      ],
+      "albumTitle": "My Century",
+      "albumBrowseId": "MPREb_5LSCW32xGgd",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_qkX97nD0wKMn-RYwTYABhtWqhoaH5biCImFl0if3gf6qQa9u4fhiNucsHXfweXRDdKPvOWqfDHT-MEX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jGw00C_a1YA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jGw00C_a1YA",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5BPxhDCyHU4%2ChJTzFxW368E%2C8i-B1ieI_kY%2CjGw00C_a1YA&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%8F%9C%EC%95%A0%ED%94%8C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5BPxhDCyHU4&list=RDAMVM5BPxhDCyHU4",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 쏜애플 플레이리스트"
+}

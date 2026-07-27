@@ -1,0 +1,102 @@
+{
+  "artistId": "song-dongye",
+  "artistName": "송동야",
+  "englishName": "Song Dongye",
+  "collectedAt": "2026-07-27T00:58:47.071955+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 950,
+    "latestSlotLabel": "15:50",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.477,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCMdFDxEToxd_t62afiTNGng",
+    "name": "宋冬野 - Song Dongye",
+    "subscribers": "26.1K",
+    "channelId": "UCQwWwA3AFy_0JDvxBs6OfGg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/C0Rr5Kt_c81FCIGIEh6-_YaCdUiCFM_hYhoKHlJsS8BBSZ54NXu0B6Dj63wzSh3tmAsHw9HyyMY=w1840-h766-l90-rj-dcrSOIbpkI",
+    "url": "https://music.youtube.com/channel/UCMdFDxEToxd_t62afiTNGng"
+  },
+  "tracks": [
+    {
+      "videoId": "GJNOEdQSEeQ",
+      "songTitle": "安和桥",
+      "title": "安和桥",
+      "artists": [
+        "Song Dongye"
+      ],
+      "albumTitle": "安和桥北",
+      "albumBrowseId": "MPREb_PVI5AYvtKOY",
+      "duration": "4:11",
+      "durationSeconds": 251,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BVUlZw5zKm8ZwFXwFJWvJ2J09UgvwR02nW5lXhg2bIHZkpEGeoZyUBjmiAo4LG4h0vE7qd02Y6OpNZar=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GJNOEdQSEeQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GJNOEdQSEeQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "FZ8o_N57RYk",
+      "songTitle": "斑马，斑马",
+      "title": "斑马，斑马",
+      "artists": [
+        "Song Dongye"
+      ],
+      "albumTitle": "安和桥北",
+      "albumBrowseId": "MPREb_PVI5AYvtKOY",
+      "duration": "4:14",
+      "durationSeconds": 254,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BVUlZw5zKm8ZwFXwFJWvJ2J09UgvwR02nW5lXhg2bIHZkpEGeoZyUBjmiAo4LG4h0vE7qd02Y6OpNZar=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FZ8o_N57RYk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FZ8o_N57RYk",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "M5sEXCJ3DGU",
+      "songTitle": "郭源潮",
+      "title": "郭源潮",
+      "artists": [
+        "Song Dongye"
+      ],
+      "albumTitle": "郭源潮",
+      "albumBrowseId": "MPREb_2lWEVSdBG7v",
+      "duration": "7:27",
+      "durationSeconds": 447,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/co-sBLzZQNiTPNiWcE5k3BNPePmuYwHJTfMZt5UBZO8E8LM8xvncqJwuB0EXGCBZhlrPbmKTsYu-HWg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M5sEXCJ3DGU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=M5sEXCJ3DGU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "b9uKjCAMCIM",
+      "songTitle": "莉莉安",
+      "title": "莉莉安",
+      "artists": [
+        "Song Dongye"
+      ],
+      "albumTitle": "安和桥北",
+      "albumBrowseId": "MPREb_PVI5AYvtKOY",
+      "duration": "4:13",
+      "durationSeconds": 253,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BVUlZw5zKm8ZwFXwFJWvJ2J09UgvwR02nW5lXhg2bIHZkpEGeoZyUBjmiAo4LG4h0vE7qd02Y6OpNZar=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b9uKjCAMCIM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=b9uKjCAMCIM",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GJNOEdQSEeQ%2CFZ8o_N57RYk%2CM5sEXCJ3DGU%2Cb9uKjCAMCIM&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%86%A1%EB%8F%99%EC%95%BC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GJNOEdQSEeQ&list=RDAMVMGJNOEdQSEeQ",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 송동야 플레이리스트"
+}

@@ -39,10 +39,10 @@ export default function Home() {
       <section className="section" style={{ borderBottom: '1px solid var(--color-hairline)', backgroundColor: 'var(--color-surface-soft)', paddingBottom: '72px', paddingTop: '72px' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '800px' }}>
           <h1 className="text-display-xl" style={{ color: 'var(--color-ink)', fontWeight: 800, letterSpacing: '-1.5px', margin: '0 0 16px' }}>
-            페스티벌 라인업 &amp; 예상 셋리스트
+            페스티벌 라인업 &amp; 대표곡 플레이리스트
           </h1>
           <p className="text-display-md text-muted" style={{ margin: 0, fontSize: 'var(--text-title-md)', fontWeight: 400, lineHeight: 1.5 }}>
-            당신의 다음 페스티벌을 완성할 음악 레시피. 아티스트의 셋리스트를 미리 만나고 감상해보세요.
+            라인업 아티스트의 YouTube Music 대표곡을 모았습니다. 인지도에 따라 3~5곡 플레이리스트로 바로 들어보세요.
           </p>
         </div>
       </section>
@@ -93,6 +93,17 @@ export default function Home() {
                   border: '1px solid rgba(255,255,255,0.3)',
                   backdropFilter: 'blur(4px)'
                 }
+              } else if (festival.signatureColor === 'dark') {
+                cardClass = 'card-dark'
+                textColor = '#ffffff'
+                mutedColor = 'rgba(255,255,255,0.7)'
+                btnClass = 'btn-secondary'
+                btnStyle = {
+                  backgroundColor: 'rgba(255,255,255,0.15)',
+                  color: '#ffffff',
+                  border: '1px solid rgba(255,255,255,0.3)',
+                  backdropFilter: 'blur(4px)'
+                }
               }
 
               return (
@@ -120,9 +131,9 @@ export default function Home() {
                         fontWeight: 600
                       }}
                     >
-                      {festival.lineupStage === 'stage1_all' && '1단계: 전체 라인업'}
-                      {festival.lineupStage === 'stage2_daily' && '2단계: 일별 라인업'}
-                      {festival.lineupStage === 'stage3_timetable' && '3단계: 타임테이블'}
+                      {festival.lineupStage === 'stage1_all' && '전체 라인업'}
+                      {festival.lineupStage === 'stage2_daily' && '일별 라인업'}
+                      {festival.lineupStage === 'stage3_timetable' && '타임테이블'}
                     </span>
 
                     {/* Name */}
@@ -162,7 +173,7 @@ export default function Home() {
                       className={btnClass}
                       style={{ width: '100%', textDecoration: 'none', ...btnStyle }}
                     >
-                      {festival.lineupStage === 'stage3_timetable' ? '타임테이블 & 레시피 보기' : '라인업 & 레시피 보기'}
+                      {festival.lineupStage === 'stage3_timetable' ? '타임테이블 & 플레이리스트' : '라인업 & 플레이리스트'}
                     </Link>
                   </div>
                 </div>

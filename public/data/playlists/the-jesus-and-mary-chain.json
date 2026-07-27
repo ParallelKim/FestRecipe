@@ -1,0 +1,119 @@
+{
+  "artistId": "the-jesus-and-mary-chain",
+  "artistName": "더 지저스 앤 메리 체인",
+  "englishName": "The Jesus and Mary Chain",
+  "collectedAt": "2026-07-27T00:58:50.057125+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1260,
+    "latestSlotLabel": "21:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.938,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UC3BSmOs3GSRju0LzinlrsJA",
+    "name": "The Jesus And Mary Chain",
+    "subscribers": "49.2K",
+    "channelId": "UCAlP0LcJ_RVqLvNr78w8MmA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/bjQC6qviGebPxD6bDfMhmTy7XCqM9KT-F0HwLhybjqqRyW0Cvhj9DsPmFJK6iNx8wJhfO_PLSFM_Ew=w1181-h492-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC3BSmOs3GSRju0LzinlrsJA"
+  },
+  "tracks": [
+    {
+      "videoId": "nde7-iU4iT8",
+      "songTitle": "Just Like Honey",
+      "title": "Just Like Honey",
+      "artists": [
+        "The Jesus and Mary Chain"
+      ],
+      "albumTitle": "Just Like Honey",
+      "albumBrowseId": "MPREb_NuVABM1OG5n",
+      "duration": "3:02",
+      "durationSeconds": 182,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/duVjDVKtintv0C_WVRj21p0QvBHKr4d1g7mo5koDXPbTWP-L127MYkw8dC6F-Zze_EVi4CRQcyXh_tDYNA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nde7-iU4iT8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nde7-iU4iT8",
+      "source": "ytm_songs_popular",
+      "year": "1985",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "GAky8czvkvg",
+      "songTitle": "Head On",
+      "title": "Head On",
+      "artists": [
+        "The Jesus and Mary Chain"
+      ],
+      "albumTitle": "Automatic",
+      "albumBrowseId": "MPREb_UbyLyh9mXqK",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2HaenVRSfLnjit1SFAFbKmc9p7nUHwIwi1v7RubiULPqJBnEqwlkwV4cXaY_TXRcrq8_zekKDQ6dGAhl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GAky8czvkvg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GAky8czvkvg",
+      "source": "ytm_songs_popular",
+      "year": "1989",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "2oT4SbrP4tA",
+      "songTitle": "Sometimes Always",
+      "title": "Sometimes Always",
+      "artists": [
+        "The Jesus And Mary Chain"
+      ],
+      "albumTitle": "Stoned and Dethroned",
+      "albumBrowseId": "MPREb_xfT6yU7nwOE",
+      "duration": "2:32",
+      "durationSeconds": 152,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4eVAVNcRtNmYGwKYnvgYakv6-xfohf1Ed1_fdC0mEmrco-CUyvH2eMOoaG3cSCEiB-6pDmkm-jcsAsY=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2oT4SbrP4tA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2oT4SbrP4tA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Wfr-YfcXkK4",
+      "songTitle": "Some Candy Talking",
+      "title": "Some Candy Talking",
+      "artists": [
+        "The Jesus And Mary Chain"
+      ],
+      "albumTitle": "Modern Girls - Original Motion Picture Soundtrack",
+      "albumBrowseId": "MPREb_o8LnQz9Uqsp",
+      "duration": "3:18",
+      "durationSeconds": 198,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/98rU0ajEXLjU3R7Ij-AgHb6nvXt0Qj56D03PT5DokmqtkpCfI133cFe1_vw-jPTPfbgiJhG7aD1r82Dafg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Wfr-YfcXkK4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Wfr-YfcXkK4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EMgjC_9ttJY",
+      "songTitle": "Darklands",
+      "title": "Darklands",
+      "artists": [
+        "The Jesus and Mary Chain"
+      ],
+      "albumTitle": "Essential Alternative Hits",
+      "albumBrowseId": "MPREb_wEfCVv5ZLdx",
+      "duration": "5:30",
+      "durationSeconds": 330,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3yI6TzXiEPHGuvPr8hORjfgRAUeZW9c4vxifhjCoYEC0HHqokfXAEmvhL4jki-TIiLKTqx_Oa68ra8WB=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EMgjC_9ttJY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EMgjC_9ttJY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=nde7-iU4iT8%2CGAky8czvkvg%2C2oT4SbrP4tA%2CWfr-YfcXkK4%2CEMgjC_9ttJY&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%8D%94+%EC%A7%80%EC%A0%80%EC%8A%A4+%EC%95%A4+%EB%A9%94%EB%A6%AC+%EC%B2%B4%EC%9D%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=nde7-iU4iT8&list=RDAMVMnde7-iU4iT8",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 더 지저스 앤 메리 체인 플레이리스트"
+}

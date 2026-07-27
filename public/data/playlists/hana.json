@@ -1,0 +1,104 @@
+{
+  "artistId": "hana",
+  "artistName": "하나",
+  "englishName": "HANA",
+  "collectedAt": "2026-07-27T01:01:49.681658+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 910,
+    "latestSlotLabel": "15:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.431,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCVznsJmPM4qyjLYyORcu0Tg",
+    "name": "HANA",
+    "subscribers": null,
+    "channelId": null,
+    "thumbnailUrl": null,
+    "url": "https://music.youtube.com/channel/UCVznsJmPM4qyjLYyORcu0Tg"
+  },
+  "tracks": [
+    {
+      "videoId": "W5g3V0T-BTg",
+      "songTitle": "Drop",
+      "title": "Drop",
+      "artists": [
+        "HANA"
+      ],
+      "albumTitle": "Drop",
+      "albumBrowseId": "MPREb_OIYi0FwzJau",
+      "year": null,
+      "releaseType": "song",
+      "duration": "2:29",
+      "durationSeconds": 149,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VoTS3OI05U8fnIJKeMlTj3vZ2Iwk-BzgEooLEAouUIwwtY3HVRtM-ovEWsz5UBFFMVNriLPOZhAU0OU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W5g3V0T-BTg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=W5g3V0T-BTg",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "2C0TGqcWPbA",
+      "songTitle": "Grinch",
+      "title": "Grinch",
+      "artists": [
+        "Sukihana"
+      ],
+      "albumTitle": "Grinch",
+      "albumBrowseId": "MPREb_juHCFdQHL4t",
+      "year": null,
+      "releaseType": "song",
+      "duration": "1:54",
+      "durationSeconds": 114,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/bcaETy2lV6aTVt6e8KgP5S3E2ewi7GG9iRQbAqsQsk2L0MWcjoAZUWM5INgvScy8P63SpkZAEUdE-Vfp=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2C0TGqcWPbA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2C0TGqcWPbA",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "XgNrYNnlJ3k",
+      "songTitle": "ALL IN",
+      "title": "ALL IN",
+      "artists": [
+        "HANA"
+      ],
+      "albumTitle": "HANA",
+      "albumBrowseId": "MPREb_5HHoHjYlBPv",
+      "year": null,
+      "releaseType": "song",
+      "duration": "2:33",
+      "durationSeconds": 153,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Uj_UgU5q_TBM6pLzUKcjur0JOuu71C-QqkZK7Fh3FDNiuXuN1y9nXKxELHoQNE1oNFwguTpjBg0Yrgs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XgNrYNnlJ3k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XgNrYNnlJ3k",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "v484RXSxWjI",
+      "songTitle": "Black Orchid",
+      "title": "Black Orchid",
+      "artists": [
+        "HANA"
+      ],
+      "albumTitle": "HANADRIEL",
+      "albumBrowseId": "MPREb_T5x5TUeGHwd",
+      "year": null,
+      "releaseType": "song",
+      "duration": "4:27",
+      "durationSeconds": 267,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1gQ_yH9bBugV7X20YBkOcz4WQAofnhnTcsQdEeo_k6zzO6lcv30RinRllObrBtMGRDZ1ocipjE3_W8Ic=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v484RXSxWjI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=v484RXSxWjI",
+      "source": "releases_fallback"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=W5g3V0T-BTg%2C2C0TGqcWPbA%2CXgNrYNnlJ3k%2Cv484RXSxWjI&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%95%98%EB%82%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=W5g3V0T-BTg&list=RDAMVMW5g3V0T-BTg",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 하나 플레이리스트"
+}

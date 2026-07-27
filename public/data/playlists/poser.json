@@ -1,0 +1,86 @@
+{
+  "artistId": "poser",
+  "artistName": "포저",
+  "englishName": "POSER",
+  "collectedAt": "2026-07-27T00:58:43.386108+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 790,
+    "latestSlotLabel": "13:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.154,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC-in6R50yC_xQ1z8VdDJdSg",
+    "name": "POSER",
+    "subscribers": "1.25K",
+    "channelId": "UCALPByojGBk2ngqNeOb-nqg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/UUQiquV2B56cOHjCI9sIKt8ZOjNVBGY6MBowCLW0GNswIBEROf2ExhjIWAlqvGsot_PcVZ3GTw=w1000-h416-l90-rj-dcEZOSjT0H",
+    "url": "https://music.youtube.com/channel/UC-in6R50yC_xQ1z8VdDJdSg"
+  },
+  "tracks": [
+    {
+      "videoId": "0VVA9gd6uNc",
+      "songTitle": "S.U.N.G.I.R.L",
+      "title": "S.U.N.G.I.R.L",
+      "artists": [
+        "POSER"
+      ],
+      "albumTitle": "summer wars",
+      "albumBrowseId": "MPREb_fUero46Hbgc",
+      "duration": "3:04",
+      "durationSeconds": 184,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6CvskN8MJO0QuBKAsDklkunhexJmJ6PbBwLNeVPv2m9-utPNCpk9q5V6rKsplx7tSitwO0mdUAng8_ex=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0VVA9gd6uNc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0VVA9gd6uNc",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "cH9cKlhK9I4",
+      "songTitle": "X",
+      "title": "X",
+      "artists": [
+        "POSER"
+      ],
+      "albumTitle": "力拔山氣蓋世",
+      "albumBrowseId": "MPREb_uoMUBCTbMZR",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_-9PgNCGBYuxEX_xqrbzIbs1o0TyHfzmWD8FZ9_FSgzWZxl04_Ri09gsdnKDrNEOHg9mmQLNsPx6m281=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cH9cKlhK9I4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cH9cKlhK9I4",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "TctY7CI0PlY",
+      "songTitle": "HAPPY DANCE",
+      "title": "HAPPY DANCE",
+      "artists": [
+        "POSER"
+      ],
+      "albumTitle": "HAPPY DANCE",
+      "albumBrowseId": "MPREb_dd3T9pmxTIC",
+      "duration": "3:29",
+      "durationSeconds": 209,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VoZk7bl0ILNQzAMdi6PWhT8-H53zP_eB02gXBVgyIB0kJkDGkmdU0uz5jzYH9Kn28MfVpuVLUnXepJm4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TctY7CI0PlY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TctY7CI0PlY",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=0VVA9gd6uNc%2CcH9cKlhK9I4%2CTctY7CI0PlY&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%8F%AC%EC%A0%80+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=0VVA9gd6uNc&list=RDAMVM0VVA9gd6uNc",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 포저 플레이리스트"
+}

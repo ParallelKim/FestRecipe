@@ -1,0 +1,85 @@
+{
+  "artistId": "chorokbulkkot-sonyeondan",
+  "artistName": "초록불꽃소년단",
+  "englishName": "Green Flame Boys",
+  "collectedAt": "2026-07-27T00:58:29.261714+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 790,
+    "latestSlotLabel": "13:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.169,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC_PVB1TWlVEgIbyMRfV3RFg",
+    "name": "Green Flame Boys",
+    "subscribers": "6.99K",
+    "channelId": "UC_TaghShKu7vWx8GkK4VrxA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/TJQgqHzrrV-XDJMHnzy5S2t-3m9LI_MmyjfUy8Ak3OykFUIXgf6rdOKLXK_mmRGuBtkXoFZ6WiVvFMs=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC_PVB1TWlVEgIbyMRfV3RFg"
+  },
+  "tracks": [
+    {
+      "videoId": "5u2Ssf5OsNs",
+      "songTitle": "Tokyo Motel",
+      "title": "Tokyo Motel",
+      "artists": [
+        "Green Flame Boys"
+      ],
+      "albumTitle": "GREENBRIDGE",
+      "albumBrowseId": "MPREb_WMGuPbwj6NR",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/B8FMunRVDrdyMwidmUMnCihdE8WZ2iucSTBFC42h0XSt9NEQWTM-SL32cKRMTzBemfIm6DRxKjOozsOVug=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5u2Ssf5OsNs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5u2Ssf5OsNs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "isgmaVrP6YA",
+      "songTitle": "She Was Just A Cute Tsubomi",
+      "title": "She Was Just A Cute Tsubomi",
+      "artists": [
+        "초록불꽃소년단"
+      ],
+      "albumTitle": "Greenroom",
+      "albumBrowseId": "MPREb_EirtYlJEuWO",
+      "duration": "5:40",
+      "durationSeconds": 340,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VN0B7F7esqiA9Ca1rqpO0U92KsJq0xmRZdMJHif70p3MnOwNKj75Yzmk7nOyt6A0eVnvQfbweUE1c97V=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=isgmaVrP6YA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=isgmaVrP6YA",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "vvP6u_V3YPk",
+      "songTitle": "Suicide Boy",
+      "title": "Suicide Boy",
+      "artists": [
+        "Green Flame Boys"
+      ],
+      "albumTitle": "GREENBRIDGE",
+      "albumBrowseId": "MPREb_WMGuPbwj6NR",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/B8FMunRVDrdyMwidmUMnCihdE8WZ2iucSTBFC42h0XSt9NEQWTM-SL32cKRMTzBemfIm6DRxKjOozsOVug=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vvP6u_V3YPk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vvP6u_V3YPk",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5u2Ssf5OsNs%2CisgmaVrP6YA%2CvvP6u_V3YPk&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%B4%88%EB%A1%9D%EB%B6%88%EA%BD%83%EC%86%8C%EB%85%84%EB%8B%A8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5u2Ssf5OsNs&list=RDAMVM5u2Ssf5OsNs",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 초록불꽃소년단 플레이리스트"
+}

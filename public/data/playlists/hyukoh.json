@@ -1,0 +1,117 @@
+{
+  "artistId": "hyukoh",
+  "artistName": "혁오",
+  "englishName": "HYUKOH",
+  "collectedAt": "2026-07-27T00:58:33.952024+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1200,
+    "latestSlotLabel": "20:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.862,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCUUPndfCXVm8-srwV6dzXcg",
+    "name": "HYUKOH",
+    "subscribers": "361K",
+    "channelId": "UCuvdmRlSWAlwB_rJZgg1cmQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/pur4zAYKob4qZrVZGLyIxig9z_CXTTE_qsNyZRYg3_qExbLXqLEfGGsshnD043bCboArrjFZvNJyBrU=w2756-h1148-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCUUPndfCXVm8-srwV6dzXcg"
+  },
+  "tracks": [
+    {
+      "videoId": "zC8RrOA0spo",
+      "songTitle": "TOMBOY",
+      "title": "TOMBOY",
+      "artists": [
+        "HYUKOH"
+      ],
+      "albumTitle": "23",
+      "albumBrowseId": "MPREb_KCsZNpf9vtx",
+      "duration": "4:02",
+      "durationSeconds": 242,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RuW9pVBVHUcg2-LDS9naVRJOuPe8AEXSz4a90_7W9z4Bq85HnfGT-YFw_gSX93ueZVyQRuxYsZn0f-Pd=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zC8RrOA0spo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zC8RrOA0spo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "bVrW1eDMtL8",
+      "songTitle": "Wi Ing Wi Ing",
+      "title": "Wi Ing Wi Ing",
+      "artists": [
+        "HYUKOH"
+      ],
+      "albumTitle": "20",
+      "albumBrowseId": "MPREb_8ZCYHce8fFf",
+      "duration": "3:15",
+      "durationSeconds": 195,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/GF7zSdJi3LX5B2FC8OSdERoW5UPb5CuF_hOjzokCF5dG_ktzyacDfHB5HF08HI7lQdzcWMD_LLZGHEI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bVrW1eDMtL8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bVrW1eDMtL8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "cSAXXE7VBYo",
+      "songTitle": "Comes and Goes",
+      "title": "Comes and Goes",
+      "artists": [
+        "HYUKOH"
+      ],
+      "albumTitle": "22",
+      "albumBrowseId": "MPREb_kj4sr3sf4IQ",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IEKcOLhwh9J3ad483zd8Mb1rh3inRJ14cU_4wkds1eJy6r7MTaWBZWJ3vSgjz9_Z90Xx6a3yfHK7FBJsxg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cSAXXE7VBYo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cSAXXE7VBYo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-o7lgP1VPJk",
+      "songTitle": "LOVE YA!",
+      "title": "LOVE YA!",
+      "artists": [
+        "HYUKOH"
+      ],
+      "albumTitle": "24 : How to find true love and happiness",
+      "albumBrowseId": "MPREb_kRJhL7pJsA0",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/G5BJ35MVUR1FY1UbswJdJUZQK6WynLqI4OZTWw76vERV4V9WiPUllt4ZEz297GKqcqZsbPqzJomJfW0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-o7lgP1VPJk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-o7lgP1VPJk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "lCgcGWJHOFE",
+      "songTitle": "Gondry",
+      "title": "Gondry",
+      "artists": [
+        "HYUKOH"
+      ],
+      "albumTitle": "22",
+      "albumBrowseId": "MPREb_kj4sr3sf4IQ",
+      "duration": "5:09",
+      "durationSeconds": 309,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IEKcOLhwh9J3ad483zd8Mb1rh3inRJ14cU_4wkds1eJy6r7MTaWBZWJ3vSgjz9_Z90Xx6a3yfHK7FBJsxg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lCgcGWJHOFE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lCgcGWJHOFE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zC8RrOA0spo%2CbVrW1eDMtL8%2CcSAXXE7VBYo%2C-o7lgP1VPJk%2ClCgcGWJHOFE&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%98%81%EC%98%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zC8RrOA0spo&list=RDAMVMzC8RrOA0spo",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 혁오 플레이리스트"
+}

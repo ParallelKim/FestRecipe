@@ -1,0 +1,103 @@
+{
+  "artistId": "betcover",
+  "artistName": "betcover!!",
+  "englishName": "betcover!!",
+  "collectedAt": "2026-07-27T00:58:27.503291+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 950,
+    "latestSlotLabel": "15:50",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.492,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCxWvOdydYzzYQb77WMy7acQ",
+    "name": "betcover!!",
+    "subscribers": "36.2K",
+    "channelId": "UClPe3v3dD83lW2TBbOIPxqA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/Mo_4_Y-ffEAKjLidP58WV8VCViZY8IuUgdcbAt68KlPGT4eSGZnidmf6Gng9RX2osv7nFqN8=w2000-h833-l90-rj-dcpVWQzSEJ",
+    "url": "https://music.youtube.com/channel/UCxWvOdydYzzYQb77WMy7acQ"
+  },
+  "tracks": [
+    {
+      "videoId": "8YhxFXiBhdE",
+      "songTitle": "ゴーゴースチーム - Go Go Steam",
+      "title": "ゴーゴースチーム - Go Go Steam",
+      "artists": [
+        "betcover!!"
+      ],
+      "albumTitle": "Yuki",
+      "albumBrowseId": "MPREb_JFZHznrb4ms",
+      "duration": "6:00",
+      "durationSeconds": 360,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/shfs8yrQWDBsIR7q1MayMIG4iRrCskFIs6-JDe8-TW-m2__Ao1pxk5Pwm5ti65GkXrS94Dav0isZog9j=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8YhxFXiBhdE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8YhxFXiBhdE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "teNm5MwHf1c",
+      "songTitle": "回転・天使 - kaiten tenshi",
+      "title": "回転・天使 - kaiten tenshi",
+      "artists": [
+        "betcover!!"
+      ],
+      "albumTitle": "jikan",
+      "albumBrowseId": "MPREb_eR5KDVlyfZT",
+      "duration": "5:41",
+      "durationSeconds": 341,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6P93rSk0fEmQaR4UTCZ0LJE710F0hctGmjEPh3S0Sir5f6mRNzEOyKRPKbCci7SASv7DbXacYkB9MqLD=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=teNm5MwHf1c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=teNm5MwHf1c",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "rzCVM4WG1Wk",
+      "songTitle": "フラメンコ - Flamenco",
+      "title": "フラメンコ - Flamenco",
+      "artists": [
+        "betcover!!"
+      ],
+      "albumTitle": "uma",
+      "albumBrowseId": "MPREb_OphuhfLXYeu",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2C9fIx3gR7rO5er9qsGLYusbmFN_c4cxkwqfO9XA3SUdmDHtuU7dBohzthJTUzfzbt6NGMxpgPZ3F4E=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rzCVM4WG1Wk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rzCVM4WG1Wk",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "C_ix8WeJ9R4",
+      "songTitle": "バーチャルセックス - Virtual Sex",
+      "title": "バーチャルセックス - Virtual Sex",
+      "artists": [
+        "betcover!!"
+      ],
+      "albumTitle": "uma",
+      "albumBrowseId": "MPREb_OphuhfLXYeu",
+      "duration": "2:11",
+      "durationSeconds": 131,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2C9fIx3gR7rO5er9qsGLYusbmFN_c4cxkwqfO9XA3SUdmDHtuU7dBohzthJTUzfzbt6NGMxpgPZ3F4E=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=C_ix8WeJ9R4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=C_ix8WeJ9R4",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=8YhxFXiBhdE%2CteNm5MwHf1c%2CrzCVM4WG1Wk%2CC_ix8WeJ9R4&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+betcover%21%21+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=8YhxFXiBhdE&list=RDAMVM8YhxFXiBhdE",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 betcover!! 플레이리스트"
+}

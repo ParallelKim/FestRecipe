@@ -1,0 +1,6 @@
+# FestRecipe collector dependencies
+# MVP 발매곡 수집 (YouTube Music):
+ytmusicapi>=1.10
+# Optional: YT_API_KEY 가 있으면 videos.list 메타 보강 (stdlib urllib)
+# 셋리스트 고도화 스크립트(collect.py / fetch_events.py)용:
+yt-dlp>=2026.3

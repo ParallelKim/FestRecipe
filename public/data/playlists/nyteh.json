@@ -1,0 +1,102 @@
+{
+  "artistId": "nyteh",
+  "artistName": "나이테",
+  "englishName": "Nyteh",
+  "collectedAt": "2026-07-27T00:58:40.983035+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 980,
+    "latestSlotLabel": "16:20",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.538,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UClPaKa4bYCjcu8QK-VAMSsA",
+    "name": "Nyteh",
+    "subscribers": "77",
+    "channelId": "UClPaKa4bYCjcu8QK-VAMSsA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/AeX7xfwk_4lau4Va4LtahQv9w5cf_F62bbFscOOBsjjuRnMyeyK1uyjv3wKjg5Sa_r1z2B-FJgyzD219XQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UClPaKa4bYCjcu8QK-VAMSsA"
+  },
+  "tracks": [
+    {
+      "videoId": "wdr49dfP6xo",
+      "songTitle": "Insulin overdose",
+      "title": "Insulin overdose",
+      "artists": [
+        "Nyteh"
+      ],
+      "albumTitle": "Nyteh",
+      "albumBrowseId": "MPREb_2LBsADZgkLx",
+      "duration": "3:46",
+      "durationSeconds": 226,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AeX7xfwk_4lau4Va4LtahQv9w5cf_F62bbFscOOBsjjuRnMyeyK1uyjv3wKjg5Sa_r1z2B-FJgyzD219XQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wdr49dfP6xo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wdr49dfP6xo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WQ2ASlk1VyA",
+      "songTitle": "Funny",
+      "title": "Funny",
+      "artists": [
+        "Nyteh"
+      ],
+      "albumTitle": "Nyteh",
+      "albumBrowseId": "MPREb_2LBsADZgkLx",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AeX7xfwk_4lau4Va4LtahQv9w5cf_F62bbFscOOBsjjuRnMyeyK1uyjv3wKjg5Sa_r1z2B-FJgyzD219XQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WQ2ASlk1VyA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WQ2ASlk1VyA",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "jmBqPtQN3ow",
+      "songTitle": "Palisade",
+      "title": "Palisade",
+      "artists": [
+        "Nyteh"
+      ],
+      "albumTitle": "Nyteh",
+      "albumBrowseId": "MPREb_2LBsADZgkLx",
+      "duration": "2:26",
+      "durationSeconds": 146,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AeX7xfwk_4lau4Va4LtahQv9w5cf_F62bbFscOOBsjjuRnMyeyK1uyjv3wKjg5Sa_r1z2B-FJgyzD219XQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jmBqPtQN3ow",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jmBqPtQN3ow",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ZOR4CqGO5Vo",
+      "songTitle": "Dancing Novelist",
+      "title": "Dancing Novelist",
+      "artists": [
+        "Nyteh"
+      ],
+      "albumTitle": "Nyteh",
+      "albumBrowseId": "MPREb_2LBsADZgkLx",
+      "duration": "3:06",
+      "durationSeconds": 186,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AeX7xfwk_4lau4Va4LtahQv9w5cf_F62bbFscOOBsjjuRnMyeyK1uyjv3wKjg5Sa_r1z2B-FJgyzD219XQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZOR4CqGO5Vo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZOR4CqGO5Vo",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=wdr49dfP6xo%2CWQ2ASlk1VyA%2CjmBqPtQN3ow%2CZOR4CqGO5Vo&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%82%98%EC%9D%B4%ED%85%8C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=wdr49dfP6xo&list=RDAMVMwdr49dfP6xo",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 나이테 플레이리스트"
+}

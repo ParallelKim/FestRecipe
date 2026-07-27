@@ -1,0 +1,84 @@
+{
+  "artistId": "band-nah",
+  "artistName": "나상현씨밴드",
+  "englishName": "Band Nah",
+  "collectedAt": "2026-07-27T00:58:26.876143+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 760,
+    "latestSlotLabel": "12:40",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.092,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCEuqo6WVMyIa-xN7N85lKhA",
+    "name": "Band Nah",
+    "subscribers": "22.1K",
+    "channelId": "UCayEH46Rr_uucTJShN2hjaw",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/30IyPiYm5V4T2DIShWatBDP36ixYuGbRrgkOaJqM_n9vmNN2xpotnbO_IsFE4HWHPrfOhcMwFThM8CE=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCEuqo6WVMyIa-xN7N85lKhA"
+  },
+  "tracks": [
+    {
+      "videoId": "7SrO5NBF-js",
+      "songTitle": "Shine",
+      "title": "Shine",
+      "artists": [
+        "Band Nah"
+      ],
+      "albumTitle": "Shine",
+      "albumBrowseId": "MPREb_3qW305ZqtJU",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uioWoQYg7Zw6HUlmDj60PVgtWtMMV6L1CaW-3asCEH6URNK78PV0Qer-JnS8M_C8n3guhOBTGRy-aa7d=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7SrO5NBF-js",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7SrO5NBF-js",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "vIARWPkdHeg",
+      "songTitle": "Lily of the Valley (Original: DANIEL)",
+      "title": "Lily of the Valley (Original: DANIEL)",
+      "artists": [
+        "Band Nah"
+      ],
+      "albumTitle": "Melancholia, Pt. 3 (Original Television Soundtrack)",
+      "albumBrowseId": "MPREb_016CMDUyxAY",
+      "duration": "4:20",
+      "durationSeconds": 260,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tDNkFQtBiAz-UV65qxB_vc56PHou3fnVNSsMkG6erhNgS9_GMD7emPdHzIBihtBh-LqXLIjmT-j3bI8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vIARWPkdHeg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vIARWPkdHeg",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "X7i2V2fUjkg",
+      "songTitle": "Nights",
+      "title": "Nights",
+      "artists": [
+        "Band Nah"
+      ],
+      "albumTitle": "Nights",
+      "albumBrowseId": "MPREb_m3gCAClsR5y",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/G1055fqOyAcxTmmesRUYlUVjm8SUErQDq0SR8S2Sd0sx8GwuCwucLCyqY4mSbwUtwQRSBTJjpLP6NblQOg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=X7i2V2fUjkg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=X7i2V2fUjkg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=7SrO5NBF-js%2CvIARWPkdHeg%2CX7i2V2fUjkg&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%82%98%EC%83%81%ED%98%84%EC%94%A8%EB%B0%B4%EB%93%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=7SrO5NBF-js&list=RDAMVM7SrO5NBF-js",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 나상현씨밴드 플레이리스트"
+}

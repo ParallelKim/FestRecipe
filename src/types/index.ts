@@ -17,6 +17,94 @@ export interface Artist {
   genres?: string[]
 }
 
+/** YouTube Music 기반 발매곡 (MVP collector 출력) */
+export interface ReleasedSong {
+  videoId: string
+  title: string
+  songTitle: string
+  artists?: string[]
+  albumTitle?: string
+  albumBrowseId?: string
+  releaseType?: 'album' | 'single' | 'ep' | 'song'
+  year?: string | number | null
+  channelId?: string
+  channelTitle?: string
+  publishedAt?: string
+  duration?: string
+  durationSeconds?: number | null
+  viewCount?: number
+  youtubeUrl: string
+  youtubeMusicUrl?: string
+  thumbnailUrl?: string
+  source: 'album' | 'songs_playlist' | 'songs_top' | 'topic_channel' | 'search'
+  isLiveRelease?: boolean
+}
+
+export interface ArtistReleases {
+  artistId: string
+  artistName?: string
+  englishName?: string
+  source: 'youtube_music'
+  provider: 'ytmusicapi' | 'youtube_data_api_v3'
+  collectedAt: string
+  ytmArtist?: {
+    browseId: string
+    name: string
+    subscribers?: string
+    channelId?: string
+    thumbnailUrl?: string
+    url?: string
+  } | null
+  topicChannel?: { id: string; title: string; score?: number } | null
+  releaseGroupCount?: number
+  releaseCount: number
+  releases: ReleasedSong[]
+}
+
+/** 인지도 티어에 따른 대표곡 플레이리스트 */
+export type RecognitionTier = 'high' | 'mid' | 'low'
+
+export interface ArtistRecognition {
+  tier: RecognitionTier
+  songCount: number
+  latestSlotMinutes?: number | null
+  latestSlotLabel?: string | null
+  festivalId?: string | null
+  rank?: number | null
+  reason: 'timetable_lateness' | 'no_timetable_default' | string
+}
+
+export interface PlaylistTrack {
+  videoId: string
+  songTitle: string
+  title?: string
+  artists?: string[]
+  albumTitle?: string
+  year?: string | number | null
+  duration?: string
+  durationSeconds?: number | null
+  thumbnailUrl?: string
+  youtubeUrl: string
+  youtubeMusicUrl?: string
+  source?: string
+}
+
+export interface ArtistPlaylist {
+  artistId: string
+  artistName?: string
+  englishName?: string
+  collectedAt: string
+  source: 'youtube_music'
+  selection: string
+  recognition: ArtistRecognition
+  songCount: number
+  targetSongCount: number
+  tracks: PlaylistTrack[]
+  /** YouTube watch_videos 에 넘길 재생목록 표시명 */
+  playlistTitle?: string | null
+  youtubePlaylistUrl?: string | null
+}
+
 export interface AlbumInfo {
   albumType: AlbumType
   albumName: string

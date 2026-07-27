@@ -1,0 +1,103 @@
+{
+  "artistId": "mudd-the-student",
+  "artistName": "머드 더 스튜던트",
+  "englishName": "Mudd the student",
+  "collectedAt": "2026-07-27T00:58:39.519509+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1050,
+    "latestSlotLabel": "17:30",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.646,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UC-Pyhc-ZB4qxYnBxuscNY6w",
+    "name": "Mudd the student",
+    "subscribers": "6.05K",
+    "channelId": "UC-Pyhc-ZB4qxYnBxuscNY6w",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/fz6L5cJ3L2DFTx5mO5p0-VAiGe8RhqlELmp0sRi985tWZIyGrGrEavoDv6LFU3y-Mgm3bbZY2mitf8qT=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC-Pyhc-ZB4qxYnBxuscNY6w"
+  },
+  "tracks": [
+    {
+      "videoId": "GsRvatDunN8",
+      "songTitle": "BREATHE (Prod. GRAY) (feat. MINO & GRAY)",
+      "title": "BREATHE (Prod. GRAY) (feat. MINO & GRAY)",
+      "artists": [
+        "Anandelight",
+        "unofficialboyy",
+        "BE′O",
+        "Geegooin"
+      ],
+      "albumTitle": "Show Me The Money 10 Episode 1",
+      "albumBrowseId": "MPREb_Qcrlw5VhymM",
+      "duration": "5:28",
+      "durationSeconds": 328,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/e94YP12iSpuY8Nv7Y0yJhBSRPLZ3fTG4fMfMO35_QWSUBfFbGFzYhU7cW24fcqPLNdbHgodd9hubARdn=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GsRvatDunN8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GsRvatDunN8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "yU05gNCDeVE",
+      "songTitle": "Dissonance (Prod. GRAY) (feat. AKMU)",
+      "title": "Dissonance (Prod. GRAY) (feat. AKMU)",
+      "artists": [
+        "Mudd the student"
+      ],
+      "albumTitle": "Show Me The Money 10 Semi Final",
+      "albumBrowseId": "MPREb_yd2hGxdgZbP",
+      "duration": "4:34",
+      "durationSeconds": 274,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kGdxoFrl5jE6vmnfHMQwLUsaMQh_c80un2l-NXOD4tNAYmR30j40aORNyudoa-mxyb0Rokr7m_2RA2K2og=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yU05gNCDeVE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=yU05gNCDeVE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ttE8RjFdKsA",
+      "songTitle": "SEXY NUKIM (feat. RM of BTS)",
+      "title": "SEXY NUKIM (feat. RM of BTS)",
+      "artists": [
+        "Balming Tiger, Omega Sapien, bj wnjn, and Mudd the student"
+      ],
+      "albumTitle": "SEXY NUKIM",
+      "albumBrowseId": "MPREb_Gixy3YCuUap",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MZO4L_fFRrG9_SQ45QUBMbVKEmedOqtrlEacXm-wHBj_5Ce1dQP_S3Q582C_l8Us60y-Uv19BMKlse0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ttE8RjFdKsA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ttE8RjFdKsA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WBhzdJBP81Y",
+      "songTitle": "MOSS (Prod. MINO) (feat. MINO & BOBBY)",
+      "title": "MOSS (Prod. MINO) (feat. MINO & BOBBY)",
+      "artists": [
+        "Mudd the student"
+      ],
+      "albumTitle": "Show Me The Money 10 Episode 3",
+      "albumBrowseId": "MPREb_oRfWdLrWCKt",
+      "duration": "4:05",
+      "durationSeconds": 245,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/heCXB9equXZzHo_Z46ac4Zz03AYweBNgNyAYeHL8t3F5AtWYZb9FGHB2NimUmW839a0KE-Pc8SG9jWs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WBhzdJBP81Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WBhzdJBP81Y",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GsRvatDunN8%2CyU05gNCDeVE%2CttE8RjFdKsA%2CWBhzdJBP81Y&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A8%B8%EB%93%9C+%EB%8D%94+%EC%8A%A4%ED%8A%9C%EB%8D%98%ED%8A%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GsRvatDunN8&list=RDAMVMGsRvatDunN8",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 머드 더 스튜던트 플레이리스트"
+}

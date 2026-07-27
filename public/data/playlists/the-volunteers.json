@@ -1,0 +1,118 @@
+{
+  "artistId": "the-volunteers",
+  "artistName": "더 발룬티어스",
+  "englishName": "The Volunteers",
+  "collectedAt": "2026-07-27T00:58:51.421613+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1200,
+    "latestSlotLabel": "20:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.831,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCvUGXgPshGd_6iPJj0o8CRA",
+    "name": "The Volunteers",
+    "subscribers": "110K",
+    "channelId": "UCVlcbGb0bA8Db7DAZVuIPJw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/lpwuR8nJjzJDDTSyBZQC6z9a1NpMFQP-bCmGBMe0cMUWt-bq7Q4vkQGbgU630LIeAvdNSSbuMTk=w1250-h520-l90-rj-dcFZOISckE",
+    "url": "https://music.youtube.com/channel/UCvUGXgPshGd_6iPJj0o8CRA"
+  },
+  "tracks": [
+    {
+      "videoId": "aJRmx9DZAXQ",
+      "songTitle": "Summer",
+      "title": "Summer",
+      "artists": [
+        "The Volunteers"
+      ],
+      "albumTitle": "The Volunteers",
+      "albumBrowseId": "MPREb_qsUQjhWwV04",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YX1gHUcocnIstBVwMKRWC_s9Bgtyu9D5Ug0n_qbGOGfiIij_KAYS1SXglUYVgDEwQaew1WviUi5k87Kf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aJRmx9DZAXQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=aJRmx9DZAXQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "OY1dg2mgNw4",
+      "songTitle": "S.A.D",
+      "title": "S.A.D",
+      "artists": [
+        "The Volunteers"
+      ],
+      "albumTitle": "The Volunteers",
+      "albumBrowseId": "MPREb_qsUQjhWwV04",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YX1gHUcocnIstBVwMKRWC_s9Bgtyu9D5Ug0n_qbGOGfiIij_KAYS1SXglUYVgDEwQaew1WviUi5k87Kf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OY1dg2mgNw4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OY1dg2mgNw4",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Zi-tdPwh0Vg",
+      "songTitle": "Rules",
+      "title": "Rules",
+      "artists": [
+        "The Volunteers"
+      ],
+      "albumTitle": "Rules",
+      "albumBrowseId": "MPREb_tBRgmjO1kMc",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VBE0i68gO7yMyzYH2ZhAu1km0PdND1xwWxOWcDC59QrElzpBZcbo-RhTzABPrz7Em5EEHesfc-Gdtac=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Zi-tdPwh0Vg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Zi-tdPwh0Vg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "FsJDnrY1Cuk",
+      "songTitle": "PINKTOP",
+      "title": "PINKTOP",
+      "artists": [
+        "The Volunteers"
+      ],
+      "albumTitle": "The Volunteers",
+      "albumBrowseId": "MPREb_qsUQjhWwV04",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YX1gHUcocnIstBVwMKRWC_s9Bgtyu9D5Ug0n_qbGOGfiIij_KAYS1SXglUYVgDEwQaew1WviUi5k87Kf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FsJDnrY1Cuk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FsJDnrY1Cuk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "16tI2rU_OmA",
+      "songTitle": "\"L\"",
+      "title": "\"L\"",
+      "artists": [
+        "The Volunteers"
+      ],
+      "albumTitle": "\"L\"",
+      "albumBrowseId": "MPREb_l8bUBdWVU9G",
+      "duration": "4:21",
+      "durationSeconds": 261,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NvztfuhWcOCMAuoGvctQDVmUMl32MYJJoLaHbghyEA4R-Y9Hy7Jc-ck78Xwg9zTN8knoVSUX5BNwQnM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=16tI2rU_OmA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=16tI2rU_OmA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=aJRmx9DZAXQ%2COY1dg2mgNw4%2CZi-tdPwh0Vg%2CFsJDnrY1Cuk%2C16tI2rU_OmA&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%8D%94+%EB%B0%9C%EB%A3%AC%ED%8B%B0%EC%96%B4%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=aJRmx9DZAXQ&list=RDAMVMaJRmx9DZAXQ",
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 더 발룬티어스 플레이리스트"
+}
