@@ -36,6 +36,8 @@
   --color-info-border:   #458fff;
   --color-success:       #006400;
   --color-success-border:#39bf45;
+  /** 내 라인업 담김 — 연한 배경만으로 표시 */
+  --color-lineup-bg:     #e9f4ec;
 
   /* ── Typography ── */
   --font-display: 'Inter', 'Noto Sans KR', sans-serif;
@@ -884,8 +886,7 @@ body {
   border-color: var(--color-ink);
 }
 .artist-chip-group.is-in-lineup:not(.is-selected) {
-  border-color: #5a9e72;
-  background: #f3faf5;
+  background: var(--color-lineup-bg);
 }
 .artist-chip {
   padding: 10px 12px 10px 16px;
@@ -927,8 +928,7 @@ body {
   position: relative;
 }
 .artist-card-wrap.is-in-lineup .artist-card:not(.is-selected) {
-  border-color: #5a9e72;
-  background: #f3faf5;
+  background: var(--color-lineup-bg);
 }
 .artist-card {
   padding: 16px;
@@ -1123,9 +1123,7 @@ body {
   transition: transform 0.08s ease;
 }
 .tt-grid__slot.is-in-lineup {
-  background: #f3faf5;
-  border-color: #5a9e72;
-  box-shadow: inset 3px 0 0 #1a6b42;
+  background: var(--color-lineup-bg);
 }
 @media (hover: hover) and (pointer: fine) {
   .tt-grid__slot:hover {
@@ -1179,7 +1177,8 @@ body {
   font-size: 15px;
 }
 .lineup-pick-btn--chip.is-on {
-  color: color-mix(in srgb, var(--color-sig-forest, #2d5a4a) 90%, #000);
+  background: var(--color-lineup-bg);
+  color: #1a6b42;
 }
 .lineup-pick-btn--card {
   position: absolute;
@@ -1193,7 +1192,9 @@ body {
   z-index: 2;
 }
 .lineup-pick-btn--card.is-on {
-  background: color-mix(in srgb, var(--color-sig-forest, #2d5a4a) 12%, #fff);
+  background: var(--color-lineup-bg);
+  color: #1a6b42;
+  border-color: var(--color-hairline);
 }
 .lineup-pick-btn--tt {
   position: absolute;
@@ -1203,7 +1204,7 @@ body {
   height: 20px;
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.96);
-  border: 1px solid rgba(17, 20, 24, 0.14);
+  border: 1px solid rgba(17, 20, 24, 0.12);
   z-index: 4;
   color: #6b7280;
 }
@@ -1211,12 +1212,8 @@ body {
   font-size: 11px;
 }
 .lineup-pick-btn--tt.is-on {
-  background: #1a6b42;
-  border-color: #1a6b42;
-  color: #fff;
-}
-.tt-grid__slot.is-in-lineup .lineup-pick-btn--tt:not(.is-on) {
-  border-color: #8fc4a0;
+  background: var(--color-lineup-bg);
+  border-color: rgba(17, 20, 24, 0.12);
   color: #1a6b42;
 }
 .tt-grid__slot-name {
@@ -1612,8 +1609,7 @@ body {
   cursor: pointer;
 }
 .my-lineup-chip.is-on {
-  border-color: color-mix(in srgb, var(--color-sig-forest, #2d5a4a) 40%, var(--color-hairline));
-  background: color-mix(in srgb, var(--color-sig-forest, #2d5a4a) 12%, var(--color-surface-soft));
+  background: var(--color-lineup-bg);
 }
 .my-lineup-chip__x {
   opacity: 0.65;
@@ -1663,8 +1659,7 @@ body {
   font-size: 14px;
 }
 .my-lineup-pick.is-on {
-  border-color: color-mix(in srgb, var(--color-sig-forest, #2d5a4a) 45%, var(--color-hairline));
-  background: color-mix(in srgb, var(--color-sig-forest, #2d5a4a) 8%, var(--color-surface));
+  background: var(--color-lineup-bg);
 }
 .my-lineup-pick:disabled {
   opacity: 0.55;
@@ -1683,7 +1678,8 @@ body {
   font-weight: 700;
 }
 .my-lineup-pick.is-on .my-lineup-pick__mark {
-  background: color-mix(in srgb, var(--color-sig-forest, #2d5a4a) 25%, var(--color-surface-soft));
+  background: var(--color-lineup-bg);
+  color: #1a6b42;
 }
 .my-lineup-pick__name {
   flex: 1;
