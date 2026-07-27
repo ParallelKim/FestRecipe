@@ -2,10 +2,9 @@ import type { Artist, ArtistPlaylist, Festival, DayLineup } from '../types'
 import {
   buildWatchVideosUrl,
   playlistTitleForArtist,
-  playlistTitleForDay,
-  playlistTitleForFestival,
 } from '../lib/youtubePlaylist'
 import { officialArtistName } from '../lib/artistOfficialName'
+import PlaylistHubActions from './PlaylistHubActions'
 
 interface ArtistPlaylistPanelProps {
   festival: Festival
@@ -18,6 +17,9 @@ interface ArtistPlaylistPanelProps {
   headlinerIds?: Set<string>
   onCloseArtist?: () => void
   onOpenBundled: (kind: 'day' | 'festival', artistIds: string[], title: string) => void
+  onOpenMyPlaylist?: () => void
+  /** Hide duplicate hub when parent already renders PlaylistHubActions */
+  hideHub?: boolean
 }
 
 export default function ArtistPlaylistPanel({
@@ -31,6 +33,8 @@ export default function ArtistPlaylistPanel({
   headlinerIds,
   onCloseArtist,
   onOpenBundled,
+  onOpenMyPlaylist,
+  hideHub = false,
 }: ArtistPlaylistPanelProps) {
   const displayName = selectedArtist ? officialArtistName(selectedArtist) : ''
   const artistPlaylistTitle = selectedArtist
@@ -43,19 +47,24 @@ export default function ArtistPlaylistPanel({
       )
     : null
 
-  const dayPlaylistTitle = playlistTitleForDay(festival.name, activeDay?.dayLabel || '')
-  const festivalPlaylistTitle = playlistTitleForFestival(festival.name)
-  const dayArtistIds = activeDay?.artists?.length
-    ? activeDay.artists
-    : (activeDay?.slots || []).map((s) => s.artistId)
-  const dayReadyCount = dayArtistIds.filter((id) => playlistReady.has(id)).length
-  const festivalReadyCount = (festival.allArtists || []).filter((id) => playlistReady.has(id)).length
   const isHeadliner = !!(selectedArtist && headlinerIds?.has(selectedArtist.id))
 
   return (
     <div id="artist-playlist-panel" className="playlist-panel">
+      {!hideHub && (
+        <PlaylistHubActions
+          festival={festival}
+          activeDay={activeDay}
+          playlistReady={playlistReady}
+          bundleLoading={bundleLoading}
+          onOpenBundled={onOpenBundled}
+          onOpenMyPlaylist={onOpenMyPlaylist}
+          variant="stack"
+        />
+      )}
+
       {selectedArtist ? (
-        <div>
+        <div className="playlist-panel__artist">
           <div className="playlist-panel__header">
             <div>
               <div className="playlist-panel__title-row">
@@ -146,39 +155,16 @@ export default function ArtistPlaylistPanel({
         </div>
       ) : (
         <div className="playlist-panel__idle">
-          <h4>아티스트를 선택하세요</h4>
+          <h4>아티스트 플레이리스트</h4>
           <p>
             {festival.lineupStage === 'stage3_timetable'
-              ? '타임테이블의 무대 카드를 누르면'
-              : '라인업에서 아티스트를 누르면'}
-            <br />
-            대표곡 플레이리스트가 열립니다.
+              ? '타임테이블 카드를 누르면 해당 아티스트 대표곡이 열립니다.'
+              : '라인업에서 아티스트를 누르면 대표곡이 열립니다.'}
           </p>
-
-          {(dayReadyCount > 0 || festivalReadyCount > 0) && (
-            <div className="playlist-panel__bundles">
-              {dayReadyCount > 0 && activeDay && (
-                <button
-                  type="button"
-                  className="btn-primary"
-                  disabled={bundleLoading !== null}
-                  onClick={() => onOpenBundled('day', dayArtistIds, dayPlaylistTitle)}
-                >
-                  {bundleLoading === 'day' ? '여는 중…' : `${activeDay.dayLabel} 대표곡 듣기`}
-                </button>
-              )}
-              {festivalReadyCount > 0 && (
-                <button
-                  type="button"
-                  className="btn-secondary"
-                  disabled={bundleLoading !== null}
-                  onClick={() => onOpenBundled('festival', festival.allArtists || [], festivalPlaylistTitle)}
-                >
-                  {bundleLoading === 'festival' ? '여는 중…' : '페스티벌 전체 대표곡 듣기'}
-                </button>
-              )}
-            </div>
-          )}
+          <p className="playlist-panel__idle-hint">
+            요일·페스티벌 전체 듣기는 위 버튼에서 바로 시작할 수 있습니다.
+            나만의 플레이리스트는 아티스트를 모아 듣는 기능으로 곧 연결됩니다.
+          </p>
         </div>
       )}
     </div>

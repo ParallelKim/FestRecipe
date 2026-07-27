@@ -15,9 +15,10 @@ interface PlaylistMobileDockProps {
   headlinerIds?: Set<string>
   onCloseArtist: () => void
   onOpenBundled: (kind: 'day' | 'festival', artistIds: string[], title: string) => void
+  onOpenMyPlaylist?: () => void
 }
 
-/** Fixed playlist FAB — later doubles as entry to the user's saved playlists. */
+/** Fixed playlist FAB — opens the listen hub (day / festival / my). */
 export default function PlaylistMobileDock({
   open,
   onOpen,
@@ -33,8 +34,8 @@ export default function PlaylistMobileDock({
         onClick={() => (open ? onClose() : onOpen())}
         aria-expanded={open}
         aria-controls="playlist-sheet"
-        aria-label="플레이리스트"
-        title="플레이리스트"
+        aria-label="플레이리스트 듣기"
+        title="플레이리스트 듣기"
       >
         <svg
           className="playlist-fab__glyph"
