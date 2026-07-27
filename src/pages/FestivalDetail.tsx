@@ -470,6 +470,7 @@ export default function FestivalDetail() {
         onClose={() => {
           setPlaylistSheetOpen(false)
           setShowMyPlaylistWarning(false)
+          setBundleNotice(null)
         }}
         onCloseArtist={() => setSelectedArtist(null)}
         {...panelProps}
