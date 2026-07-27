@@ -85,6 +85,14 @@ function heroImageFor(festival: Festival): string | null {
   return festival.posterUrl || null
 }
 
+/** 카드·리스트용 페스티벌 썸네일 — 포스터가 아닌 공식 로고 */
+function festivalThumbnailUrl(festival: Festival, surface: 'on-dark' | 'on-light'): string | null {
+  if (surface === 'on-dark') {
+    return festival.logoLightUrl || festival.logoUrl || null
+  }
+  return festival.logoUrl || festival.logoLightUrl || null
+}
+
 export default function Home() {
   const [festivals, setFestivals] = useState<Festival[]>([])
   const [loading, setLoading] = useState(true)
@@ -108,7 +116,11 @@ export default function Home() {
 
   const featured = closestFestival(festivals)
   const heroImage = featured ? heroImageFor(featured) : null
+  const featuredThumb = featured ? festivalThumbnailUrl(featured, 'on-dark') : null
   const ddayLabel = featured ? festivalDdayLabel(featured) : null
+  const otherFestivals = featured
+    ? festivals.filter((f) => f.id !== featured.id)
+    : festivals
 
   return (
     <div className="home-page">
@@ -164,39 +176,44 @@ export default function Home() {
                   {ddayLabel}
                 </p>
               )}
-              <div className="home-hero__featured-brand">
-                {(featured.posterUrl || featured.logoLightUrl || featured.logoUrl) && (
-                  <img
-                    src={featured.posterUrl || featured.logoLightUrl || featured.logoUrl}
-                    alt=""
-                    className={`home-hero__fest-mark${featured.posterUrl ? ' home-hero__fest-mark--poster' : ''}`}
-                  />
-                )}
-                <div className="home-hero__featured-copy">
-                  <p className="home-hero__fest-name">{featured.name}</p>
-                  <p className="home-hero__fest-meta">
-                    {formatDateRange(featured.startDate, featured.endDate)}
-                    <span aria-hidden="true"> · </span>
-                    {featured.location}
-                  </p>
+              <div className="home-hero__featured-card">
+                <div className="home-hero__featured-brand">
+                  {featuredThumb && (
+                    <img
+                      src={featuredThumb}
+                      alt=""
+                      className="home-hero__fest-mark"
+                    />
+                  )}
+                  <div className="home-hero__featured-copy">
+                    <p className="home-hero__fest-name">{featured.name}</p>
+                    <p className="home-hero__fest-meta">
+                      {formatDateRange(featured.startDate, featured.endDate)}
+                      <span aria-hidden="true"> · </span>
+                      {featured.location}
+                    </p>
+                  </div>
                 </div>
+                <Link
+                  to={`/festival/${featured.id}`}
+                  className="btn-primary home-hero__cta"
+                >
+                  {ctaLabel(featured)}
+                </Link>
               </div>
-              <Link
-                to={`/festival/${featured.id}`}
-                className="btn-primary home-hero__cta"
-              >
-                {ctaLabel(featured)}
-              </Link>
             </motion.div>
           )}
         </div>
       </section>
 
+      {otherFestivals.length > 0 && (
       <section className="home-festivals" id="festivals">
         <div className="container">
           <h2 className="home-festivals__heading">다가오는 페스티벌</h2>
           <div className="home-festivals__list">
-            {festivals.map((festival, index) => (
+            {otherFestivals.map((festival, index) => {
+              const thumb = festivalThumbnailUrl(festival, 'on-light')
+              return (
               <motion.article
                 key={festival.id}
                 className={`home-fest-row home-fest-row--${festival.signatureColor}`}
@@ -206,12 +223,12 @@ export default function Home() {
               >
                 <div className="home-fest-row__main">
                   <p className="home-fest-row__eyebrow">{stageLabel(festival)}</p>
-                  {festival.posterUrl || festival.logoUrl ? (
+                  {thumb ? (
                     <div className="home-fest-row__brand">
                       <img
-                        src={festival.posterUrl || festival.logoUrl}
+                        src={thumb}
                         alt=""
-                        className={`home-fest-row__mark${festival.posterUrl ? ' home-fest-row__mark--poster' : ''}`}
+                        className="home-fest-row__mark"
                       />
                       <h3 className="home-fest-row__name">{festival.name}</h3>
                     </div>
@@ -231,10 +248,11 @@ export default function Home() {
                   </Link>
                 </div>
               </motion.article>
-            ))}
+            )})}
           </div>
         </div>
       </section>
+      )}
     </div>
   )
 }

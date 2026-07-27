@@ -8,13 +8,13 @@ interface PlaylistHubActionsProps {
   festival: Festival
   activeDay?: DayLineup
   playlistReady: Set<string>
-  bundleLoading: 'day' | 'festival' | null
+  bundleLoading: 'day' | 'festival' | 'custom' | null
   onOpenBundled: (kind: 'day' | 'festival', artistIds: string[], title: string) => void
   /** Compact row under day tabs (mobile-first) */
   variant?: 'bar' | 'stack'
-  /** Placeholder for future saved-playlist feature */
   showMyPlaylist?: boolean
   onOpenMyPlaylist?: () => void
+  myLineupCount?: number
 }
 
 export default function PlaylistHubActions({
@@ -26,6 +26,7 @@ export default function PlaylistHubActions({
   variant = 'stack',
   showMyPlaylist = true,
   onOpenMyPlaylist,
+  myLineupCount = 0,
 }: PlaylistHubActionsProps) {
   const dayPlaylistTitle = playlistTitleForDay(festival.name, activeDay?.dayLabel || '')
   const festivalPlaylistTitle = playlistTitleForFestival(festival.name)
@@ -73,7 +74,7 @@ export default function PlaylistHubActions({
             disabled={!onOpenMyPlaylist}
             title={onOpenMyPlaylist ? '내가 고른 플레이리스트' : '준비 중'}
           >
-            나만의 플레이리스트
+            {myLineupCount > 0 ? `나만의 (${myLineupCount})` : '나만의 플레이리스트'}
           </button>
         )}
       </div>

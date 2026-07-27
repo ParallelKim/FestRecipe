@@ -13,7 +13,6 @@ import PlaylistHubActions from '../components/PlaylistHubActions'
 import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
 import { headlinerArtistIds } from '../lib/headliners'
 import { officialArtistName } from '../lib/artistOfficialName'
-import { buildFestivalMapUrl } from '../lib/festivalLinks'
 import {
   artistInputsFromPlaylists,
   buildBundledAnonymousPlaylist,
@@ -23,6 +22,9 @@ import {
   orderArtistIdsForDayBundle,
   orderArtistIdsForFestivalBundle,
 } from '../lib/playlistBundleOrder'
+import { useMyLineup } from '../hooks/useMyLineup'
+import { downloadMyLineupImage } from '../lib/exportMyLineupImage'
+import { playlistTitleForCustom } from '../lib/youtubePlaylist'
 
 export default function FestivalDetail() {
   const { id } = useParams<{ id: string }>()
@@ -36,10 +38,12 @@ export default function FestivalDetail() {
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null)
   const [artistPlaylist, setArtistPlaylist] = useState<ArtistPlaylist | null>(null)
   const [playlistLoading, setPlaylistLoading] = useState(false)
-  const [bundleLoading, setBundleLoading] = useState<'day' | 'festival' | null>(null)
+  const [bundleLoading, setBundleLoading] = useState<'day' | 'festival' | 'custom' | null>(null)
   const [playlistSheetOpen, setPlaylistSheetOpen] = useState(false)
-  const [showMyPlaylistWarning, setShowMyPlaylistWarning] = useState(false)
+  const [showMyLineupEditor, setShowMyLineupEditor] = useState(false)
   const [bundleNotice, setBundleNotice] = useState<BundledAnonymousPlaylist | null>(null)
+
+  const myLineup = useMyLineup(id)
 
   useEffect(() => {
     let active = true
@@ -132,7 +136,6 @@ export default function FestivalDetail() {
 
   const activeDay = festival.lineup[activeDayIndex]
   const artistMap = new Map(artists.map((a) => [a.id, a]))
-  const mapUrl = buildFestivalMapUrl(festival)
 
   const stage1Artists = festival.allArtists
     .map((artistId) => artistMap.get(artistId))
@@ -146,14 +149,14 @@ export default function FestivalDetail() {
     const artist = artistMap.get(artistId)
     if (!artist) return
     setSelectedArtist(artist)
-    setShowMyPlaylistWarning(false)
+    setShowMyLineupEditor(false)
     setBundleNotice(null)
     setPlaylistSheetOpen(true)
   }
 
   const clearArtist = () => {
     setSelectedArtist(null)
-    setShowMyPlaylistWarning(false)
+    setShowMyLineupEditor(false)
     setBundleNotice(null)
     setPlaylistSheetOpen(false)
   }
@@ -161,7 +164,7 @@ export default function FestivalDetail() {
   const changeDay = (idx: number) => {
     setActiveDayIndex(idx)
     setSelectedArtist(null)
-    setShowMyPlaylistWarning(false)
+    setShowMyLineupEditor(false)
     setBundleNotice(null)
     setPlaylistSheetOpen(false)
   }
@@ -180,7 +183,7 @@ export default function FestivalDetail() {
         : orderArtistIdsForFestivalBundle(ids, festival?.lineup)
 
     setBundleLoading(kind)
-    setShowMyPlaylistWarning(false)
+    setShowMyLineupEditor(false)
     try {
       const playlists = await Promise.all(
         orderedIds.map((aid) => FestivalService.getPlaylistForArtist(aid)),
@@ -217,21 +220,66 @@ export default function FestivalDetail() {
 
   const openPlaylistHub = () => {
     setSelectedArtist(null)
-    setShowMyPlaylistWarning(false)
+    setShowMyLineupEditor(false)
     setBundleNotice(null)
     setPlaylistSheetOpen(true)
   }
 
-  const openMyPlaylistWithWarning = () => {
+  const openMyLineupEditor = () => {
     setSelectedArtist(null)
     setBundleNotice(null)
-    setShowMyPlaylistWarning(true)
+    setShowMyLineupEditor(true)
     setPlaylistSheetOpen(true)
+  }
+
+  const openMyLineupPlaylist = async () => {
+    const ids = myLineup.artistIds.filter((aid) => playlistReady.has(aid))
+    if (ids.length === 0) return
+
+    const orderedIds = orderArtistIdsForFestivalBundle(ids, festival.lineup)
+    setBundleLoading('custom')
+    setShowMyLineupEditor(true)
+    try {
+      const playlists = await Promise.all(
+        orderedIds.map((aid) => FestivalService.getPlaylistForArtist(aid)),
+      )
+      const bundle = buildBundledAnonymousPlaylist(artistInputsFromPlaylists(playlists))
+      if (!bundle) return
+
+      const title = playlistTitleForCustom(festival.name)
+      const url = buildWatchVideosUrl(bundle.videoIds, title)
+      if (!url) return
+
+      if (bundle.downgraded || bundle.truncated || bundle.thinCoverage) {
+        setBundleNotice(bundle)
+        setSelectedArtist(null)
+        setPlaylistSheetOpen(true)
+      } else {
+        setBundleNotice(null)
+      }
+
+      window.open(url, '_blank', 'noopener,noreferrer')
+    } finally {
+      setBundleLoading(null)
+    }
+  }
+
+  const exportMyLineupImage = () => {
+    const artistNames = myLineup.artistIds
+      .map((artistId) => artistMap.get(artistId))
+      .filter((a): a is Artist => !!a)
+      .map((a) => officialArtistName(a))
+    downloadMyLineupImage({
+      festivalName: festival.name,
+      dateRange: `${festival.startDate} ~ ${festival.endDate}`,
+      artistNames,
+    })
   }
 
   const panelProps = {
     festival,
     activeDay,
+    artists,
     selectedArtist,
     artistPlaylist: artistPlaylist || null,
     playlistLoading,
@@ -239,9 +287,16 @@ export default function FestivalDetail() {
     bundleLoading,
     headlinerIds: headlinerArtistIds(activeDay?.slots),
     onOpenBundled: openBundledPlaylist,
-    onOpenMyPlaylist: openMyPlaylistWithWarning,
-    showMyPlaylistWarning,
-    onDismissMyPlaylistWarning: () => setShowMyPlaylistWarning(false),
+    onOpenMyPlaylist: openMyLineupEditor,
+    myLineupCount: myLineup.count,
+    showMyLineupEditor,
+    myLineupIds: myLineup.artistIds,
+    onToggleMyLineup: myLineup.toggle,
+    onClearMyLineup: myLineup.clear,
+    onPlayMyLineup: openMyLineupPlaylist,
+    onExportMyLineupImage: exportMyLineupImage,
+    onToggleMyLineupFromArtist: myLineup.toggle,
+    isInMyLineup: myLineup.has,
     bundleNotice,
     onDismissBundleNotice: () => setBundleNotice(null),
   }
@@ -306,45 +361,20 @@ export default function FestivalDetail() {
             </p>
           )}
           <div className="festival-hero__meta" style={{ color: sigMutedColor }}>
-            {mapUrl ? (
-              <a
-                href={mapUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="festival-hero__meta-link"
-                style={{ color: sigMutedColor }}
-              >
-                {festival.location}
-              </a>
-            ) : (
-              <span>{festival.location}</span>
-            )}
+            <span>{festival.location}</span>
             <span>{festival.startDate} ~ {festival.endDate}</span>
           </div>
-          {(festival.websiteUrl || mapUrl) && (
+          {festival.websiteUrl && (
             <div className="festival-hero__links">
-              {festival.websiteUrl && (
-                <a
-                  href={festival.websiteUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="festival-hero__link"
-                  style={{ color: sigTextColor, borderColor: 'currentColor' }}
-                >
-                  공식 홈페이지
-                </a>
-              )}
-              {mapUrl && (
-                <a
-                  href={mapUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="festival-hero__link"
-                  style={{ color: sigTextColor, borderColor: 'currentColor' }}
-                >
-                  지도에서 보기
-                </a>
-              )}
+              <a
+                href={festival.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="festival-hero__link"
+                style={{ color: sigTextColor, borderColor: 'currentColor' }}
+              >
+                공식 홈페이지
+              </a>
             </div>
           )}
         </div>
@@ -362,7 +392,8 @@ export default function FestivalDetail() {
                     playlistReady={playlistReady}
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
-                    onOpenMyPlaylist={openMyPlaylistWithWarning}
+                    onOpenMyPlaylist={openMyLineupEditor}
+                    myLineupCount={myLineup.count}
                     variant="bar"
                   />
                 </div>
@@ -403,7 +434,8 @@ export default function FestivalDetail() {
                     playlistReady={playlistReady}
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
-                    onOpenMyPlaylist={openMyPlaylistWithWarning}
+                    onOpenMyPlaylist={openMyLineupEditor}
+                    myLineupCount={myLineup.count}
                     variant="bar"
                   />
                 </div>
@@ -447,7 +479,8 @@ export default function FestivalDetail() {
                     playlistReady={playlistReady}
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
-                    onOpenMyPlaylist={openMyPlaylistWithWarning}
+                    onOpenMyPlaylist={openMyLineupEditor}
+                    myLineupCount={myLineup.count}
                     variant="bar"
                   />
                 </div>
@@ -478,7 +511,7 @@ export default function FestivalDetail() {
         onOpen={openPlaylistHub}
         onClose={() => {
           setPlaylistSheetOpen(false)
-          setShowMyPlaylistWarning(false)
+          setShowMyLineupEditor(false)
           setBundleNotice(null)
         }}
         onCloseArtist={() => setSelectedArtist(null)}

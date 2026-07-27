@@ -1,6 +1,5 @@
 import type { Artist, ArtistPlaylist, Festival, DayLineup } from '../types'
 import {
-  WATCH_VIDEOS_MAX,
   buildWatchVideosUrl,
   playlistTitleForArtist,
 } from '../lib/youtubePlaylist'
@@ -10,25 +9,33 @@ import {
   type BundledAnonymousPlaylist,
 } from '../lib/bundlePlaylist'
 import PlaylistHubActions from './PlaylistHubActions'
+import MyLineupPanel from './MyLineupPanel'
 
 interface ArtistPlaylistPanelProps {
   festival: Festival
   activeDay?: DayLineup
+  artists: Artist[]
   selectedArtist: Artist | null
   artistPlaylist: ArtistPlaylist | null
   playlistLoading: boolean
   playlistReady: Set<string>
-  bundleLoading: 'day' | 'festival' | null
+  bundleLoading: 'day' | 'festival' | 'custom' | null
   headlinerIds?: Set<string>
   onCloseArtist?: () => void
   onOpenBundled: (kind: 'day' | 'festival', artistIds: string[], title: string) => void
   onOpenMyPlaylist?: () => void
+  myLineupCount?: number
   /** Hide duplicate hub when parent already renders PlaylistHubActions */
   hideHub?: boolean
-  /** Shown when user taps 「나만의 플레이리스트」 — watch_videos 50곡 캡 안내 */
-  showMyPlaylistWarning?: boolean
-  onDismissMyPlaylistWarning?: () => void
-  /** 요일/전체 번들 시 다운그레이드·잘림 안내 */
+  showMyLineupEditor?: boolean
+  myLineupIds?: string[]
+  onToggleMyLineup?: (artistId: string) => void
+  onClearMyLineup?: () => void
+  onPlayMyLineup?: () => void
+  onExportMyLineupImage?: () => void
+  onToggleMyLineupFromArtist?: (artistId: string) => void
+  isInMyLineup?: (artistId: string) => boolean
+  /** 요일/전체·나만의 번들 시 다운그레이드·잘림 안내 */
   bundleNotice?: BundledAnonymousPlaylist | null
   onDismissBundleNotice?: () => void
 }
@@ -36,6 +43,7 @@ interface ArtistPlaylistPanelProps {
 export default function ArtistPlaylistPanel({
   festival,
   activeDay,
+  artists,
   selectedArtist,
   artistPlaylist,
   playlistLoading,
@@ -45,9 +53,16 @@ export default function ArtistPlaylistPanel({
   onCloseArtist,
   onOpenBundled,
   onOpenMyPlaylist,
+  myLineupCount = 0,
   hideHub = false,
-  showMyPlaylistWarning = false,
-  onDismissMyPlaylistWarning,
+  showMyLineupEditor = false,
+  myLineupIds = [],
+  onToggleMyLineup,
+  onClearMyLineup,
+  onPlayMyLineup,
+  onExportMyLineupImage,
+  onToggleMyLineupFromArtist,
+  isInMyLineup,
   bundleNotice = null,
   onDismissBundleNotice,
 }: ArtistPlaylistPanelProps) {
@@ -63,7 +78,8 @@ export default function ArtistPlaylistPanel({
     : null
 
   const isHeadliner = !!(selectedArtist && headlinerIds?.has(selectedArtist.id))
-  const notice = bundleNotice ? bundleNoticeCopy(bundleNotice) : null
+  const notice = bundleNotice && !showMyLineupEditor ? bundleNoticeCopy(bundleNotice) : null
+  const inMyLineup = !!(selectedArtist && isInMyLineup?.(selectedArtist.id))
 
   return (
     <div id="artist-playlist-panel" className="playlist-panel">
@@ -75,6 +91,7 @@ export default function ArtistPlaylistPanel({
           bundleLoading={bundleLoading}
           onOpenBundled={onOpenBundled}
           onOpenMyPlaylist={onOpenMyPlaylist}
+          myLineupCount={myLineupCount}
           variant="stack"
         />
       )}
@@ -118,6 +135,16 @@ export default function ArtistPlaylistPanel({
               </button>
             )}
           </div>
+
+          {onToggleMyLineupFromArtist && (
+            <button
+              type="button"
+              className={`btn-secondary playlist-panel__lineup-toggle${inMyLineup ? ' is-on' : ''}`}
+              onClick={() => onToggleMyLineupFromArtist(selectedArtist.id)}
+            >
+              {inMyLineup ? '내 라인업에서 빼기' : '내 라인업에 담기'}
+            </button>
+          )}
 
           {playlistLoading ? (
             <div className="playlist-panel__empty">
@@ -188,27 +215,25 @@ export default function ArtistPlaylistPanel({
             </div>
           )}
         </div>
-      ) : showMyPlaylistWarning ? (
-        <div className="playlist-panel__idle playlist-panel__idle--warn" role="status">
-          <h4>나만의 플레이리스트 안내</h4>
-          <p>
-            YouTube 임시 재생목록은 한 번에 최대 {WATCH_VIDEOS_MAX}곡까지만 열립니다.
-            아티스트를 많이 고르면 앞 {WATCH_VIDEOS_MAX}곡만 재생되니, 나눠 듣거나
-            나중에 저장해 두는 편이 좋습니다.
-          </p>
-          <p className="playlist-panel__idle-hint">
-            아티스트를 모아 듣는 기능은 곧 연결됩니다.
-          </p>
-          {onDismissMyPlaylistWarning && (
-            <button
-              type="button"
-              className="btn-secondary playlist-panel__warn-dismiss"
-              onClick={onDismissMyPlaylistWarning}
-            >
-              확인
-            </button>
-          )}
-        </div>
+      ) : showMyLineupEditor &&
+        onToggleMyLineup &&
+        onClearMyLineup &&
+        onPlayMyLineup &&
+        onExportMyLineupImage ? (
+        <MyLineupPanel
+          festival={festival}
+          artists={artists}
+          lineup={festival.lineup}
+          myLineupIds={myLineupIds}
+          playlistReady={playlistReady}
+          bundleLoading={bundleLoading === 'custom'}
+          bundleNotice={bundleNotice}
+          onToggleArtist={onToggleMyLineup}
+          onClear={onClearMyLineup}
+          onPlayYouTube={onPlayMyLineup}
+          onExportImage={onExportMyLineupImage}
+          onDismissBundleNotice={onDismissBundleNotice}
+        />
       ) : !notice ? (
         <div className="playlist-panel__idle">
           <h4>아티스트 플레이리스트</h4>
@@ -219,7 +244,7 @@ export default function ArtistPlaylistPanel({
           </p>
           <p className="playlist-panel__idle-hint">
             요일·페스티벌 전체 듣기는 위 버튼에서 바로 시작할 수 있습니다.
-            나만의 플레이리스트는 아티스트를 모아 듣는 기능으로 곧 연결됩니다.
+            나만의 플레이리스트에서 볼 아티스트를 담아 YouTube로 듣거나 이미지로 저장할 수 있습니다.
           </p>
         </div>
       ) : null}
