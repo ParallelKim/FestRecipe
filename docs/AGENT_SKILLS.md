@@ -18,9 +18,8 @@ npx skills update -p              # 프로젝트 스킬 업데이트
 | 스킬 | 출처 | FestRecipe에서 쓰는 경우 |
 |------|------|---------------------------|
 | **find-skills** | vercel-labs/skills | 다른 스킬 검색·설치 안내 |
-| **festrecipe-ui** | (로컬) | 타임테이블·플레이리스트 시트·DESIGN.md |
 | **web-design-guidelines** | vercel-labs/agent-skills | UI/접근성/UX 감사, 베스트 프랙티스 점검 |
-| **frontend-design** | anthropics/skills | 새 UI·비주얼 방향 (DESIGN.md와 충돌 시 DESIGN.md 우선) |
+| **frontend-design** | anthropics/skills | 새 UI·비주얼 방향 |
 | **vercel-react-best-practices** | vercel-labs/agent-skills | React 컴포넌트·성능 리팩터 |
 | **vercel-composition-patterns** | vercel-labs/agent-skills | props 폭발·컴포넌트 API 설계 |
 
@@ -46,9 +45,9 @@ npx skills add coreyhaines31/marketingskills@seo-audit -y -p
 npx skills init my-skill-name   # .agents/skills/<name>/SKILL.md 생성
 ```
 
-페스티벌 도메인 전용 워크플로는 `festrecipe-ui`를 확장하거나 `docs/AGENT_SKILLS.md`에 항목을 추가하세요.
+로컬 전용 스킬은 필요할 때만 추가하고, 디자인·UX는 마켓플레이스 스킬(`frontend-design`, `web-design-guidelines`, shadcn 스킬 등)을 우선 검토하세요.
 
 ## 프론트 점검·shadcn
 
 - 점검 결과 및 shadcn 도입 순서: **`docs/FRONTEND_AUDIT.md`**
-- UI 감사 시: `/web-design-guidelines` + `/festrecipe-ui`
+- UI 감사 시: `/web-design-guidelines` (필요 시 `/frontend-design`)

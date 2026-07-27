@@ -1,6 +1,6 @@
 # 프론트엔드 점검 (2026-07)
 
-스킬: **web-design-guidelines**, **festrecipe-ui**, **vercel-react-best-practices** (요약).
+스킬: **web-design-guidelines**, **vercel-react-best-practices** (요약).
 
 ## 스택 스냅샷
 
@@ -10,7 +10,7 @@
 | Tailwind v4 (`@import "tailwindcss"`) | 설치됨, **실사용은 `index.css` 커스텀 클래스 위주** (~2k LOC) |
 | Framer Motion | 홈·페스티벌 히어로만 |
 | 라우팅 | `/`, `/festival/:id` — **일자·선택 아티스트 URL 미반영** |
-| 디자인 소스 | `DESIGN.md` + `@theme` 토큰 |
+| 디자인 소스 | `index.css` `@theme` 토큰 + 레거시 `DESIGN.md` (재정의 예정) |
 
 ---
 
@@ -49,7 +49,7 @@
 ### `src/components/TimetableGrid.tsx`
 
 - `TimetableGrid.tsx:167-168` — 슬롯 `aria-label` / `aria-current` ✓
-- `festrecipe-ui` — **`is-selected` + `is-in-lineup` 분리** ✓ (최근 PR)
+- `TimetableGrid.tsx` — 선택(`is-selected`)과 내 라인업(`is-in-lineup`) 클래스 분리 ✓
 - 성능: 슬롯 수는 페스티벌 규모상 보통 &lt;50 — 가상화 불필요; **`content-visibility`** 는 장시간 그리드 시 검토
 
 ### `src/index.css` (공통)
@@ -76,18 +76,6 @@
 
 - `index.html:6` — viewport zoom 허용 ✓
 - `index.html:2` — `lang="ko"` ✓
-
----
-
-## festrecipe-ui 체크리스트
-
-| 항목 | 상태 |
-|------|------|
-| 선택 vs 내 라인업 시각 분리 | ✓ (링 + 배경) |
-| 아티스트 시트에서 허브 숨김 | ✓ |
-| `playlist-artist-card` 정보 구조 | ✓ (개선 여지: 데스크톱 aside도 동일 카드) |
-| 일자 단위 플레이리스트/배경화면 | ✓ (`lineupDay`) |
-| 타임테이블 범례 | ✓ (`aria-hidden` — 스크린리더용 보조 문구는 별도 검토) |
 
 ---
 
@@ -129,7 +117,7 @@
    npx shadcn@latest init
    ```
    - `components.json`: `rsc: false`, alias `@/`, style **new-york** 또는 **default**
-   - `src/index.css`에 shadcn CSS variables를 **`DESIGN.md` ink/canvas/hairline/radius-lg**에 맞게 오버라이드 (primary = `#181d26`, radius = `12px`).
+   - `src/index.css`에 shadcn CSS variables를 **새 디자인 토큰**(shadcn init + `@theme` 정리)에 맞게 설정.
 
 2. **1차 컴포넌트** (가장 ROI 높음)
    | shadcn | 대체 대상 | 이유 |
@@ -151,13 +139,13 @@
 
 5. **검증**
    - `npm run build` + 수동: 모바일 시트, 타임테이블 탭, 키보드 Tab 순서.
-   - 스킬: PR 리뷰 시 `/web-design-guidelines` + `/festrecipe-ui`.
+   - 스킬: PR 리뷰 시 `/web-design-guidelines` (시각 방향은 `/frontend-design` 또는 `shadcn/ui@shadcn`).
 
 ### shadcn PR에서 하지 말 것
 
 - 전체 `index.css` Tailwind 유틸로 재작성
 - 타임테이블 그리드 shadcn화
-- `DESIGN.md` 서명 컬러 시스템 폐기 (shadcn default zinc 테마 그대로 쓰기)
+- `DESIGN.md` Airtable 규칙을 shadcn default에 그대로 얹지 말 것 — **다음 PR에서 토큰·컴포넌트 기준을 새로 잡을 것**
 
 ### 예상 PR 분할
 
@@ -175,9 +163,6 @@
 ```bash
 # UI 감사
 # Agent: /web-design-guidelines src/components/PlaylistMobileDock.tsx src/components/DayTabs.tsx
-
-# FestRecipe 도메인
-# Agent: /festrecipe-ui
 
 # 추가 스킬 검색
 npx skills find shadcn
