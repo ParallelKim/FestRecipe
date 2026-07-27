@@ -45,8 +45,8 @@ export function playlistTitleForArtist(festivalName: string, artistName: string)
 export function playlistTitleForDay(festivalName: string, dayLabel: string): string {
   const fest = (festivalName || '').trim()
   const day = (dayLabel || '').trim()
-  if (fest && day) return `${fest} · ${day}`
-  if (day) return day
+  if (fest && day) return `${fest} · ${day} 플레이리스트`
+  if (day) return `${day} 플레이리스트`
   return playlistTitleForFestival(fest)
 }
 

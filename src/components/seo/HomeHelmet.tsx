@@ -38,9 +38,9 @@ export default function HomeHelmet({ festivalCount }: HomeHelmetProps) {
           '@context': 'https://schema.org',
           '@type': 'WebSite',
           name: 'FestRecipe',
-          alternateName: '페스티벌 셋리스트',
+          alternateName: '페스티벌 대표곡 플레이리스트',
           url: BASE_URL,
-          description: 'AI가 말아주는 페스티벌 셋리스트',
+          description: '페스티벌 라인업 아티스트의 YouTube Music 대표곡 플레이리스트',
           publisher: {
             '@type': 'Organization',
             name: 'FestRecipe',
