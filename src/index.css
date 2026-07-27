@@ -1694,6 +1694,77 @@ body {
   color: var(--color-muted);
 }
 
+.playlist-sheet--lineup {
+  max-height: min(88vh, 820px);
+}
+.wallpaper-export {
+  margin: 16px 0 20px;
+  padding: 14px 14px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-hairline);
+  background: var(--color-surface-soft);
+}
+.wallpaper-export--disabled {
+  opacity: 0.92;
+}
+.wallpaper-export__title {
+  margin: 0 0 6px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.wallpaper-export__hint {
+  margin: 0 0 12px;
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--color-muted);
+}
+.wallpaper-export__field {
+  display: block;
+  margin-bottom: 12px;
+}
+.wallpaper-export__label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-body);
+}
+.wallpaper-export__label strong {
+  font-weight: 800;
+}
+.wallpaper-export__pixels {
+  display: block;
+  margin-top: 2px;
+  font-weight: 500;
+  color: var(--color-muted);
+}
+.wallpaper-export__select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-hairline);
+  font-size: 14px;
+  background: #fff;
+}
+.wallpaper-export__range {
+  width: 100%;
+  accent-color: var(--color-ink);
+}
+.wallpaper-export__btn {
+  width: 100%;
+  justify-content: center;
+}
+.wallpaper-export__status {
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: var(--color-muted);
+}
+.my-lineup-panel__browse-title {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
 @media (max-width: 900px) {
   .festival-detail {
     padding-bottom: 88px;

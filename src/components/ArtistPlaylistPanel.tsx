@@ -32,7 +32,6 @@ interface ArtistPlaylistPanelProps {
   onToggleMyLineup?: (artistId: string) => void
   onClearMyLineup?: () => void
   onPlayMyLineup?: () => void
-  onExportMyLineupImage?: () => void
   onToggleMyLineupFromArtist?: (artistId: string) => void
   isInMyLineup?: (artistId: string) => boolean
   /** 요일/전체·나만의 번들 시 다운그레이드·잘림 안내 */
@@ -60,7 +59,6 @@ export default function ArtistPlaylistPanel({
   onToggleMyLineup,
   onClearMyLineup,
   onPlayMyLineup,
-  onExportMyLineupImage,
   onToggleMyLineupFromArtist,
   isInMyLineup,
   bundleNotice = null,
@@ -215,13 +213,10 @@ export default function ArtistPlaylistPanel({
             </div>
           )}
         </div>
-      ) : showMyLineupEditor &&
-        onToggleMyLineup &&
-        onClearMyLineup &&
-        onPlayMyLineup &&
-        onExportMyLineupImage ? (
+      ) : showMyLineupEditor && onToggleMyLineup && onClearMyLineup && onPlayMyLineup ? (
         <MyLineupPanel
           festival={festival}
+          activeDay={activeDay}
           artists={artists}
           lineup={festival.lineup}
           myLineupIds={myLineupIds}
@@ -231,7 +226,6 @@ export default function ArtistPlaylistPanel({
           onToggleArtist={onToggleMyLineup}
           onClear={onClearMyLineup}
           onPlayYouTube={onPlayMyLineup}
-          onExportImage={onExportMyLineupImage}
           onDismissBundleNotice={onDismissBundleNotice}
         />
       ) : !notice ? (
@@ -244,7 +238,7 @@ export default function ArtistPlaylistPanel({
           </p>
           <p className="playlist-panel__idle-hint">
             요일·페스티벌 전체 듣기는 위 버튼에서 바로 시작할 수 있습니다.
-            나만의 플레이리스트에서 볼 아티스트를 담아 YouTube로 듣거나 이미지로 저장할 수 있습니다.
+            나만의 플레이리스트에서 볼 아티스트를 담아 YouTube로 듣거나 배경화면 타임테이블로 저장할 수 있습니다.
           </p>
         </div>
       ) : null}

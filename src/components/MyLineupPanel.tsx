@@ -2,9 +2,11 @@ import type { Artist, DayLineup, Festival } from '../types'
 import { officialArtistName } from '../lib/artistOfficialName'
 import type { BundledAnonymousPlaylist } from '../lib/bundlePlaylist'
 import { bundleNoticeCopy } from '../lib/bundlePlaylist'
+import TimetableWallpaperExport from './TimetableWallpaperExport'
 
 interface MyLineupPanelProps {
   festival: Festival
+  activeDay?: DayLineup
   artists: Artist[]
   lineup: DayLineup[]
   myLineupIds: string[]
@@ -14,7 +16,6 @@ interface MyLineupPanelProps {
   onToggleArtist: (artistId: string) => void
   onClear: () => void
   onPlayYouTube: () => void
-  onExportImage: () => void
   onDismissBundleNotice?: () => void
 }
 
@@ -33,6 +34,7 @@ function artistsForDay(day: DayLineup, artistMap: Map<string, Artist>): Artist[]
 
 export default function MyLineupPanel({
   festival,
+  activeDay,
   artists,
   lineup,
   myLineupIds,
@@ -42,7 +44,6 @@ export default function MyLineupPanel({
   onToggleArtist,
   onClear,
   onPlayYouTube,
-  onExportImage,
   onDismissBundleNotice,
 }: MyLineupPanelProps) {
   const artistMap = new Map(artists.map((a) => [a.id, a]))
@@ -75,7 +76,7 @@ export default function MyLineupPanel({
         <div>
           <h4 className="my-lineup-panel__title">나만의 플레이리스트</h4>
           <p className="my-lineup-panel__lede">
-            볼 아티스트를 눌러 담으세요. 이 기기에 저장됩니다.
+            볼 아티스트를 담고, YouTube로 듣거나 배경화면 타임테이블로 저장하세요.
           </p>
         </div>
         {myLineupIds.length > 0 && (
@@ -145,17 +146,17 @@ export default function MyLineupPanel({
         >
           {bundleLoading ? '여는 중…' : 'YouTube에서 듣기'}
         </button>
-        <button
-          type="button"
-          className="btn-secondary my-lineup-panel__btn"
-          disabled={selected.length === 0}
-          onClick={onExportImage}
-        >
-          이미지로 저장
-        </button>
       </div>
 
+      <TimetableWallpaperExport
+        festival={festival}
+        activeDay={activeDay}
+        artists={artists}
+        myLineupIds={myLineupIds}
+      />
+
       <div className="my-lineup-panel__browse">
+        <h5 className="my-lineup-panel__browse-title">아티스트 담기</h5>
         {daySections.map(({ day, artists: dayArtists }) => (
           <section key={day.dayLabel} className="my-lineup-day">
             <h5 className="my-lineup-day__label">{day.dayLabel}</h5>

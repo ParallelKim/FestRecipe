@@ -23,7 +23,6 @@ interface PlaylistMobileDockProps {
   onToggleMyLineup?: (artistId: string) => void
   onClearMyLineup?: () => void
   onPlayMyLineup?: () => void
-  onExportMyLineupImage?: () => void
   onToggleMyLineupFromArtist?: (artistId: string) => void
   isInMyLineup?: (artistId: string) => boolean
   bundleNotice?: import('../lib/bundlePlaylist').BundledAnonymousPlaylist | null
@@ -36,6 +35,7 @@ export default function PlaylistMobileDock({
   onOpen,
   onClose,
   onCloseArtist,
+  showMyLineupEditor = false,
   ...panelProps
 }: PlaylistMobileDockProps) {
   return (
@@ -79,14 +79,15 @@ export default function PlaylistMobileDock({
           />
           <div
             id="playlist-sheet"
-            className="playlist-sheet"
+            className={`playlist-sheet${showMyLineupEditor ? ' playlist-sheet--lineup' : ''}`}
             role="dialog"
             aria-modal="true"
-            aria-label="플레이리스트"
+            aria-label={showMyLineupEditor ? '나만의 플레이리스트' : '플레이리스트'}
           >
             <div className="playlist-sheet__handle" aria-hidden="true" />
             <ArtistPlaylistPanel
               {...panelProps}
+              showMyLineupEditor={showMyLineupEditor}
               onCloseArtist={() => {
                 onCloseArtist()
                 onClose()

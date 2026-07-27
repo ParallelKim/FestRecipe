@@ -27,7 +27,6 @@ import {
 import { blurAfterTap } from '../lib/blurAfterTap'
 import { festivalLineupHighlightFallback } from '../lib/stageTheme'
 import { useMyLineup } from '../hooks/useMyLineup'
-import { downloadMyLineupImage } from '../lib/exportMyLineupImage'
 import { playlistTitleForCustom } from '../lib/youtubePlaylist'
 
 export default function FestivalDetail() {
@@ -270,18 +269,6 @@ export default function FestivalDetail() {
     }
   }
 
-  const exportMyLineupImage = () => {
-    const artistNames = myLineup.artistIds
-      .map((artistId) => artistMap.get(artistId))
-      .filter((a): a is Artist => !!a)
-      .map((a) => officialArtistName(a))
-    downloadMyLineupImage({
-      festivalName: festival.name,
-      dateRange: `${festival.startDate} ~ ${festival.endDate}`,
-      artistNames,
-    })
-  }
-
   const panelProps = {
     festival,
     activeDay,
@@ -300,7 +287,6 @@ export default function FestivalDetail() {
     onToggleMyLineup: myLineup.toggle,
     onClearMyLineup: myLineup.clear,
     onPlayMyLineup: openMyLineupPlaylist,
-    onExportMyLineupImage: exportMyLineupImage,
     onToggleMyLineupFromArtist: myLineup.toggle,
     isInMyLineup: myLineup.has,
     bundleNotice,
