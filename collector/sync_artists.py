@@ -120,7 +120,12 @@ def sync(
     added = []
     if add_missing and missing:
         for aid in sorted(missing):
-            placeholder = {"id": aid, "name": aid}
+            # UI 표기명(name)은 placeholder. 검수 후 docs/ARTIST_DISPLAY_NAMES.md 기준으로 수정.
+            placeholder = {
+                "id": aid,
+                "name": aid,
+                "englishName": aid.replace("-", " "),
+            }
             artists.append(placeholder)
             by_id[aid] = placeholder
             added.append(aid)

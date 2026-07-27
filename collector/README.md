@@ -74,6 +74,8 @@ python3 sync_artists.py --add-missing       # 미등록 ID를 artists.json place
 
 - 페스티벌에 등장하는 artistId를 모아 `_artist_index.json` 에 저장
 - `artists.json` 누락 / index 불일치를 경고
+- placeholder로 추가된 항목의 **`name`은 사람이 검수**한다 → [`docs/ARTIST_DISPLAY_NAMES.md`](../docs/ARTIST_DISPLAY_NAMES.md)
+- 수집 파이프라인은 YTM 매칭용 필드를 쓰며, 큐레이션된 화면용 `name`을 덮어쓰지 않는다
 
 ### Step 3 — YouTube Music 발매곡
 
