@@ -418,12 +418,11 @@ body {
   align-items: flex-start;
   gap: 18px;
 }
-.home-hero__fest-logo {
+.home-hero__fest-mark {
   display: block;
-  width: min(100%, 280px);
-  height: auto;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
-  object-position: left center;
   filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.35));
 }
 .home-hero__cta {
@@ -472,33 +471,26 @@ body {
   text-transform: uppercase;
   color: var(--color-muted);
 }
-.home-fest-row__logo {
-  display: block;
-  width: min(100%, 320px);
-  height: auto;
-  margin: 0 0 14px;
+.home-fest-row__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px;
+}
+.home-fest-row__mark {
+  width: 44px;
+  height: 44px;
   object-fit: contain;
-  object-position: left center;
+  flex-shrink: 0;
 }
 .home-fest-row__name {
   font-family: var(--font-body);
   font-size: clamp(20px, 2.8vw, 28px);
   font-weight: 700;
   letter-spacing: -0.01em;
-  margin: 0 0 12px;
+  margin: 0;
   line-height: 1.3;
   word-break: keep-all;
-}
-.home-fest-row__name.is-sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
 .home-fest-row__desc {
   margin: 0;
@@ -561,29 +553,26 @@ body {
   margin-bottom: 20px;
   opacity: 0.8;
 }
-.festival-hero__logo {
-  display: block;
-  width: min(100%, 360px);
-  height: auto;
-  margin: 0 0 18px;
+.festival-hero__brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 14px;
+}
+.festival-hero__mark {
+  width: 56px;
+  height: 56px;
   object-fit: contain;
-  object-position: left center;
+  flex-shrink: 0;
 }
 .festival-hero__name {
   font-family: var(--font-body);
   font-size: clamp(22px, 4.5vw, 36px);
   font-weight: 800;
   letter-spacing: -0.01em;
-  margin: 0 0 12px;
+  margin: 0;
   line-height: 1.25;
   word-break: keep-all;
-}
-.festival-hero__name.is-with-logo {
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0;
-  opacity: 0.75;
-  margin-bottom: 16px;
 }
 .festival-hero__tagline {
   margin: 0 0 10px;
@@ -627,11 +616,112 @@ body {
   top: 80px;
   height: fit-content;
 }
+@media (max-width: 899px) {
+  .festival-aside--desktop {
+    display: none;
+  }
+}
 @media (max-width: 900px) {
   .festival-aside {
     position: static;
     flex: 1 1 100%;
   }
+}
+
+/* Mobile playlist FAB + sheet */
+.playlist-dock {
+  display: none;
+}
+@media (max-width: 899px) {
+  .playlist-dock {
+    display: block;
+  }
+}
+.playlist-fab {
+  position: fixed;
+  right: 16px;
+  bottom: max(16px, env(safe-area-inset-bottom));
+  z-index: 60;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 52px;
+  padding: 0 16px 0 12px;
+  border: none;
+  border-radius: 999px;
+  background: var(--color-ink);
+  color: #fff;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  font-size: 13px;
+}
+.playlist-fab.has-artist {
+  background: #aa2d00;
+}
+.playlist-fab.is-open {
+  opacity: 0;
+  pointer-events: none;
+}
+.playlist-fab__initial,
+.playlist-fab__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1;
+}
+.playlist-sheet-root {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.playlist-sheet__backdrop {
+  position: absolute;
+  inset: 0;
+  border: none;
+  padding: 0;
+  background: rgba(8, 10, 12, 0.45);
+  cursor: pointer;
+}
+.playlist-sheet {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 560px;
+  max-height: min(78vh, 720px);
+  overflow: auto;
+  background: #fff;
+  border-radius: 18px 18px 0 0;
+  padding: 8px 16px 24px;
+  box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.2);
+  animation: playlist-sheet-up 0.22s ease-out;
+}
+.playlist-sheet__handle {
+  width: 40px;
+  height: 4px;
+  border-radius: 999px;
+  background: #d5d8de;
+  margin: 4px auto 12px;
+}
+.playlist-sheet .playlist-panel {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  min-height: 0;
+}
+@keyframes playlist-sheet-up {
+  from { transform: translateY(18px); opacity: 0.6; }
+  to { transform: translateY(0); opacity: 1; }
 }
 
 .day-tabs {
@@ -1071,6 +1161,6 @@ body {
 
 @media (max-width: 900px) {
   .festival-detail {
-    padding-bottom: 24px;
+    padding-bottom: 88px;
   }
 }

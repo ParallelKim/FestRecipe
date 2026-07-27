@@ -8,6 +8,7 @@ import FestivalHelmet from '../components/seo/FestivalHelmet'
 import LoadingState from '../components/LoadingState'
 import DayTabs from '../components/DayTabs'
 import ArtistPlaylistPanel from '../components/ArtistPlaylistPanel'
+import PlaylistMobileDock from '../components/PlaylistMobileDock'
 import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
 
 export default function FestivalDetail() {
@@ -23,6 +24,7 @@ export default function FestivalDetail() {
   const [artistPlaylist, setArtistPlaylist] = useState<ArtistPlaylist | null>(null)
   const [playlistLoading, setPlaylistLoading] = useState(false)
   const [bundleLoading, setBundleLoading] = useState<'day' | 'festival' | null>(null)
+  const [playlistSheetOpen, setPlaylistSheetOpen] = useState(false)
 
   useEffect(() => {
     let active = true
@@ -66,6 +68,20 @@ export default function FestivalDetail() {
       active = false
     }
   }, [selectedArtist])
+
+  useEffect(() => {
+    if (!playlistSheetOpen) return
+    const prev = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setPlaylistSheetOpen(false)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => {
+      document.body.style.overflow = prev
+      window.removeEventListener('keydown', onKey)
+    }
+  }, [playlistSheetOpen])
 
   if (loading) {
     return <LoadingState label="페스티벌 정보를 불러오는 중..." minHeight="100vh" />
@@ -112,15 +128,20 @@ export default function FestivalDetail() {
 
   const handleArtistSelect = (artistId: string) => {
     const artist = artistMap.get(artistId)
-    if (artist) {
-      setSelectedArtist(artist)
-      requestAnimationFrame(() => {
-        document.getElementById('artist-playlist-panel')?.scrollIntoView({
-          behavior: 'smooth',
-          block: 'nearest',
-        })
-      })
-    }
+    if (!artist) return
+    setSelectedArtist(artist)
+    setPlaylistSheetOpen(true)
+  }
+
+  const clearArtist = () => {
+    setSelectedArtist(null)
+    setPlaylistSheetOpen(false)
+  }
+
+  const changeDay = (idx: number) => {
+    setActiveDayIndex(idx)
+    setSelectedArtist(null)
+    setPlaylistSheetOpen(false)
   }
 
   const openBundledPlaylist = async (
@@ -183,24 +204,21 @@ export default function FestivalDetail() {
           <Link to="/" className="festival-hero__back" style={{ color: sigTextColor }}>
             ← 페스티벌 목록
           </Link>
-          {(festival.logoLightUrl || festival.logoUrl) && (
-            <motion.img
-              src={festival.logoLightUrl || festival.logoUrl}
-              alt={festival.name}
-              className="festival-hero__logo"
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-            />
-          )}
-          <motion.h1
-            className={`festival-hero__name${(festival.logoLightUrl || festival.logoUrl) ? ' is-with-logo' : ''}`}
-            initial={{ opacity: 0, y: 12 }}
+          <motion.div
+            className="festival-hero__brand"
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: 0.05 }}
+            transition={{ duration: 0.4 }}
           >
-            {festival.name}
-          </motion.h1>
+            {festival.logoUrl && (
+              <img
+                src={festival.logoUrl}
+                alt=""
+                className="festival-hero__mark"
+              />
+            )}
+            <h1 className="festival-hero__name">{festival.name}</h1>
+          </motion.div>
           <p className="festival-hero__tagline" style={{ color: sigTextColor }}>
             {festival.tagline || festival.description}
           </p>
@@ -249,10 +267,7 @@ export default function FestivalDetail() {
                 <DayTabs
                   days={festival.lineup}
                   activeIndex={activeDayIndex}
-                  onChange={(idx) => {
-                    setActiveDayIndex(idx)
-                    setSelectedArtist(null)
-                  }}
+                  onChange={changeDay}
                 />
                 <h3 className="lineup-block__subhead">일별 라인업 아티스트</h3>
                 <div className="artist-card-grid">
@@ -285,10 +300,7 @@ export default function FestivalDetail() {
                 <DayTabs
                   days={festival.lineup}
                   activeIndex={activeDayIndex}
-                  onChange={(idx) => {
-                    setActiveDayIndex(idx)
-                    setSelectedArtist(null)
-                  }}
+                  onChange={changeDay}
                 />
                 <div className="timetable-scroll">
                   <TimetableGrid
@@ -303,14 +315,22 @@ export default function FestivalDetail() {
             )}
           </div>
 
-          <aside className="festival-aside">
+          <aside className="festival-aside festival-aside--desktop">
             <ArtistPlaylistPanel
               {...panelProps}
-              onCloseArtist={selectedArtist ? () => setSelectedArtist(null) : undefined}
+              onCloseArtist={selectedArtist ? clearArtist : undefined}
             />
           </aside>
         </div>
       </section>
+
+      <PlaylistMobileDock
+        open={playlistSheetOpen}
+        onOpen={() => setPlaylistSheetOpen(true)}
+        onClose={() => setPlaylistSheetOpen(false)}
+        onCloseArtist={clearArtist}
+        {...panelProps}
+      />
     </div>
   )
 }

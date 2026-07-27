@@ -100,8 +100,8 @@ export default function Home() {
               {(featured.logoLightUrl || featured.logoUrl) && (
                 <img
                   src={featured.logoLightUrl || featured.logoUrl}
-                  alt={featured.name}
-                  className="home-hero__fest-logo"
+                  alt=""
+                  className="home-hero__fest-mark"
                 />
               )}
               <Link to={`/festival/${featured.id}`} className="btn-primary home-hero__cta">
@@ -127,14 +127,14 @@ export default function Home() {
                 <div className="home-fest-row__main">
                   <p className="home-fest-row__eyebrow">{stageLabel(festival)}</p>
                   {festival.logoUrl ? (
-                    <>
+                    <div className="home-fest-row__brand">
                       <img
                         src={festival.logoUrl}
-                        alt={festival.name}
-                        className="home-fest-row__logo"
+                        alt=""
+                        className="home-fest-row__mark"
                       />
-                      <h3 className="home-fest-row__name is-sr-only">{festival.name}</h3>
-                    </>
+                      <h3 className="home-fest-row__name">{festival.name}</h3>
+                    </div>
                   ) : (
                     <h3 className="home-fest-row__name">{festival.name}</h3>
                   )}
