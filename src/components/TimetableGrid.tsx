@@ -70,7 +70,8 @@ export default function TimetableGrid({
   const startLimit = earliestStart
   const endLimit = latestEnd
   const totalMinutes = Math.max(endLimit - startLimit, 30)
-  const pxPerMin = 2.8
+  // Duration-proportional but dense enough that 40min ≈ ~60px (not half-empty)
+  const pxPerMin = 1.55
   const totalHeight = totalMinutes * pxPerMin
 
   const firstHour = Math.ceil(startLimit / 60)
@@ -159,7 +160,7 @@ export default function TimetableGrid({
                       className={`tt-grid__slot${isSelected ? ' is-selected' : ''}`}
                       style={{
                         top: `${topPos + 1}px`,
-                        height: `${Math.max(heightPos - 2, 36)}px`,
+                        height: `${Math.max(heightPos - 2, 28)}px`,
                         borderColor: theme.accent,
                         backgroundColor: isSelected ? theme.bg : '#ffffff',
                         color: isSelected ? theme.fg : '#111418',
