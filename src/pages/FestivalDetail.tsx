@@ -14,6 +14,7 @@ import PlaylistHubActions from '../components/PlaylistHubActions'
 import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
 import { headlinerArtistIds } from '../lib/headliners'
 import { officialArtistName } from '../lib/artistOfficialName'
+import { buildFestivalMapUrl } from '../lib/festivalLinks'
 import {
   artistInputsFromPlaylists,
   buildBundledAnonymousPlaylist,
@@ -139,6 +140,7 @@ export default function FestivalDetail() {
 
   const activeDay = festival.lineup[activeDayIndex]
   const artistMap = new Map(artists.map((a) => [a.id, a]))
+  const mapUrl = buildFestivalMapUrl(festival)
 
   const stage1Artists = festival.allArtists
     .map((artistId) => artistMap.get(artistId))
@@ -373,7 +375,19 @@ export default function FestivalDetail() {
             </p>
           )}
           <div className="festival-hero__meta" style={{ color: sigMutedColor }}>
-            <span>{festival.location}</span>
+            {mapUrl ? (
+              <a
+                href={mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="festival-hero__meta-link"
+                style={{ color: sigMutedColor }}
+              >
+                {festival.location}
+              </a>
+            ) : (
+              <span>{festival.location}</span>
+            )}
             <span>{festival.startDate} ~ {festival.endDate}</span>
           </div>
           {festival.websiteUrl && (
