@@ -1,0 +1,83 @@
+{
+  "artistId": "dragon-pony",
+  "artistName": "드래곤포니",
+  "englishName": "Dragon Pony",
+  "collectedAt": "2026-07-27T00:58:30.493243+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 760,
+    "latestSlotLabel": "12:40",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.123,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC2Nj2epFKSlbIdkUtviiv3g",
+    "name": "Dragon Pony",
+    "subscribers": "42.1K",
+    "channelId": "UC8h8waPH2sQRRbvRqOfv0Bg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/Xme_Fazxsmb6Rrss-jkyeCnS1jh3xyFVGq_tc-jIB601CgaEIQMYMSOTYl5LJ0_1YjR0NBgWyw=w2880-h1200-l90-rj-dcDZKU5jQH",
+    "url": "https://music.youtube.com/channel/UC2Nj2epFKSlbIdkUtviiv3g"
+  },
+  "tracks": [
+    {
+      "videoId": "LfOegd5LDN0",
+      "songTitle": "Radio Silence (지구소년)",
+      "title": "Radio Silence (지구소년)",
+      "artists": [
+        "Dragon Pony"
+      ],
+      "albumTitle": "Radio Silence (지구소년)",
+      "albumBrowseId": "MPREb_WgKwvVEWJKY",
+      "duration": "4:05",
+      "durationSeconds": 245,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rVopJ_CD26aqbqZ5pFBkRRN9odHBaa7IFzCpIIhrnw24pOuxMOpcWJnEswBokx3_7BNg1zW0OZvod_QBrw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LfOegd5LDN0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LfOegd5LDN0",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "7ObZk03flxs",
+      "songTitle": "Not Out",
+      "title": "Not Out",
+      "artists": [
+        "Dragon Pony"
+      ],
+      "albumTitle": "Not Out",
+      "albumBrowseId": "MPREb_c1BhG7uxO0r",
+      "duration": "3:14",
+      "durationSeconds": 194,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UqdZEcLfQfO_azLw-O1fPZLdlkZYQCoVhIrOa0ueV8OQaasrjrTtpe8lmlkpFGUNM5tIsBhGvmuqlFc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7ObZk03flxs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7ObZk03flxs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "yc-eNqLjDMA",
+      "songTitle": "POP UP",
+      "title": "POP UP",
+      "artists": [
+        "Dragon Pony"
+      ],
+      "albumTitle": "POP UP",
+      "albumBrowseId": "MPREb_vGyIQSdh2WZ",
+      "duration": "3:18",
+      "durationSeconds": 198,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vppG7vJQHSKxkg6bXHEjzu1oMoyQ3r92kTz3J00mVPyZ9ew8XMr1rkE822cQcqSlMsDkVuELR7GSN_Jt=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yc-eNqLjDMA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=yc-eNqLjDMA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=LfOegd5LDN0,7ObZk03flxs,yc-eNqLjDMA",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=LfOegd5LDN0&list=RDAMVMLfOegd5LDN0"
+}

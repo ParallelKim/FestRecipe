@@ -1,0 +1,84 @@
+{
+  "artistId": "cheong-yoil",
+  "artistName": "청요일",
+  "englishName": "CHUNGYOILE",
+  "collectedAt": "2026-07-27T00:58:28.852892+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 790,
+    "latestSlotLabel": "13:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.185,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC_IG7QG_1lMz9sxro-wg2RA",
+    "name": "CHUNGYOILE",
+    "subscribers": "268",
+    "channelId": "UC_IG7QG_1lMz9sxro-wg2RA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/eVQq3Ka6Uh6Ae3i5CofhwMU0rrM7LXbZo1sH_w5fJsnRtHk09OZyBwivwoTTi-X6OwYJyoQQTI3Nwv0=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC_IG7QG_1lMz9sxro-wg2RA"
+  },
+  "tracks": [
+    {
+      "videoId": "_MokQRzsCpw",
+      "songTitle": "I dream of seeing green in my room window",
+      "title": "I dream of seeing green in my room window",
+      "artists": [
+        "청요일"
+      ],
+      "albumTitle": "We Bear Our Blueness into the Deepest Darkness",
+      "albumBrowseId": "MPREb_FYOocTo7JRP",
+      "duration": "4:06",
+      "durationSeconds": 246,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y6dLle96wK53TXvsLDixBT-VneCq4Cl771V6lUm7a6XQW57cp-sysNlAgWMsj4sK98SlkK4H4hp3Ur0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_MokQRzsCpw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_MokQRzsCpw",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "8Njzmk_fIEU",
+      "songTitle": "SAKURA TOYSHOP",
+      "title": "SAKURA TOYSHOP",
+      "artists": [
+        "청요일"
+      ],
+      "albumTitle": "SAKURA TOYSHOP",
+      "albumBrowseId": "MPREb_nuVAplgKDKZ",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VIt9DPVlnqYIwpBZ6bH5YGU-pK1WUo1HGofFtz6ChnKcONoiWNsHlThIqyGwViRp0R9_7ljI8NyEL4_x=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8Njzmk_fIEU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8Njzmk_fIEU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ZH9AZEXHdA8",
+      "songTitle": "dreamreading",
+      "title": "dreamreading",
+      "artists": [
+        "청요일"
+      ],
+      "albumTitle": "dreamreading",
+      "albumBrowseId": "MPREb_OKR8V3xYBXO",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kJc6IlV9EFBT6BUofGwjvmYOGt5G3GFDiorTOuFamXzvhAdRBuR7Gr1WUmXmQASkM32eFgP4g4n3EpaBcQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZH9AZEXHdA8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZH9AZEXHdA8",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "single"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=_MokQRzsCpw,8Njzmk_fIEU,ZH9AZEXHdA8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=_MokQRzsCpw&list=RDAMVM_MokQRzsCpw"
+}

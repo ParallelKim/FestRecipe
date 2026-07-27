@@ -1,0 +1,82 @@
+{
+  "artistId": "bongjeingan",
+  "artistName": "봉제인간",
+  "englishName": "Bongjeingan",
+  "collectedAt": "2026-07-27T00:58:27.855270+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 830,
+    "latestSlotLabel": "13:50",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.262,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCFKrozT5XifxsBfJBEI-RFg",
+    "name": "bongjeingan",
+    "subscribers": "6.12K",
+    "channelId": "UCWC2wCSd6J1yEdldgg6Ea2w",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/sia29a16T4M2dmCYKN3Npmh585J5Maq9Gy99hMKbef07Y4YZKaDUpOp8zJS_xp8qnjbmcBxxuw=w1080-h450-l90-rj-dcFWOOzqEI",
+    "url": "https://music.youtube.com/channel/UCFKrozT5XifxsBfJBEI-RFg"
+  },
+  "tracks": [
+    {
+      "videoId": "kDBBLRVT9Sw",
+      "songTitle": "GAEKKUM",
+      "title": "GAEKKUM",
+      "artists": [
+        "bongjeingan"
+      ],
+      "albumTitle": "GAEKKUM / GOOD",
+      "albumBrowseId": "MPREb_aseMP85RrFW",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Uye2u4w-Llpk1dbijbFPoc_buGJQzb2CdpQn95rOrJIQ6NUCP2fD1hZhc9r_su4krqu5_HZpOxB-vwFY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kDBBLRVT9Sw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kDBBLRVT9Sw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "g0rUwHR0J04",
+      "songTitle": "BABY",
+      "title": "BABY",
+      "artists": [
+        "bongjeingan"
+      ],
+      "albumTitle": "12 Languages",
+      "albumBrowseId": "MPREb_5qpSADhHMvj",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nfBGW0F9focG7nJf0GzsQpqtWt6XQFmndJLDqaXmyyDU1vavfVr7ZUoIO6cgyEgAEZFzjcpFydTp_VU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g0rUwHR0J04",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=g0rUwHR0J04",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "2b1HphNCLTA",
+      "songTitle": "12 Languages",
+      "title": "12 Languages",
+      "artists": [
+        "bongjeingan"
+      ],
+      "albumTitle": "12 Languages",
+      "albumBrowseId": "MPREb_5qpSADhHMvj",
+      "duration": "3:47",
+      "durationSeconds": 227,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nfBGW0F9focG7nJf0GzsQpqtWt6XQFmndJLDqaXmyyDU1vavfVr7ZUoIO6cgyEgAEZFzjcpFydTp_VU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2b1HphNCLTA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2b1HphNCLTA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=kDBBLRVT9Sw,g0rUwHR0J04,2b1HphNCLTA",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=kDBBLRVT9Sw&list=RDAMVMkDBBLRVT9Sw"
+}

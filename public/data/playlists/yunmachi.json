@@ -1,0 +1,101 @@
+{
+  "artistId": "yunmachi",
+  "artistName": "윤마치",
+  "englishName": "MRCH",
+  "collectedAt": "2026-07-27T00:58:54.800955+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 950,
+    "latestSlotLabel": "15:50",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.462,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCRaBisCw9HzGk0cTbvAF-FQ",
+    "name": "MRCH",
+    "subscribers": "180K",
+    "channelId": "UCLy5V0-5Rf4jiELQzQFUXHg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/fOWXEvqJAMjN3xWMLc-CJHscqtZe2HStvm-XNhdWTtuinMtrD5JuoIFLbhET71Gp2RtAm5xn2tJjq3lG=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCRaBisCw9HzGk0cTbvAF-FQ"
+  },
+  "tracks": [
+    {
+      "videoId": "x9IHD81Cm9g",
+      "songTitle": "Green we shared",
+      "title": "Green we shared",
+      "artists": [
+        "MRCH"
+      ],
+      "albumTitle": "Green we shared",
+      "albumBrowseId": "MPREb_mDwSbGMpckq",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FVIOnJCBiGb_L0qOtEzsC0YW-Os70SYv3n8IJZvdCQ-uLMuWcDETmcSaCDSff9vF16SwlITDCYmqrNrY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x9IHD81Cm9g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=x9IHD81Cm9g",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "zSs8fTx5egs",
+      "songTitle": "documentary",
+      "title": "documentary",
+      "artists": [
+        "MRCH"
+      ],
+      "albumTitle": "Mutualism",
+      "albumBrowseId": "MPREb_fOEPTr4CS1D",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_Eqo0mOm_siXg-unYclc1OU_jt04j8ZvKnlFiJ7Kr0PnyL-mecm_l7_f3eE2vxalfusrXLP23-Tb7M3x=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zSs8fTx5egs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zSs8fTx5egs",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "3UJKjYIrmpk",
+      "songTitle": "항복",
+      "title": "항복",
+      "artists": [
+        "MRCH"
+      ],
+      "albumTitle": "Oh, Life",
+      "albumBrowseId": "MPREb_rW1G6gUz7Cv",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/clCGF6ye4ny1tKSk9uBaVr98bw4_gLfKbq7aYxt22mBH2kVjW-R6hVXnLVQbfA2pLQS7Y3aPUQvthfPfwA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3UJKjYIrmpk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3UJKjYIrmpk",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "0DuHUASEK7I",
+      "songTitle": "seesaw",
+      "title": "seesaw",
+      "artists": [
+        "MRCH"
+      ],
+      "albumTitle": "Mutualism",
+      "albumBrowseId": "MPREb_fOEPTr4CS1D",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_Eqo0mOm_siXg-unYclc1OU_jt04j8ZvKnlFiJ7Kr0PnyL-mecm_l7_f3eE2vxalfusrXLP23-Tb7M3x=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0DuHUASEK7I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0DuHUASEK7I",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=x9IHD81Cm9g,zSs8fTx5egs,3UJKjYIrmpk,0DuHUASEK7I",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=x9IHD81Cm9g&list=RDAMVMx9IHD81Cm9g"
+}

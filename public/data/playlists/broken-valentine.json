@@ -1,0 +1,83 @@
+{
+  "artistId": "broken-valentine",
+  "artistName": "브로큰 발렌타인",
+  "englishName": "Broken Valentine",
+  "collectedAt": "2026-07-27T00:58:28.365927+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 910,
+    "latestSlotLabel": "15:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.369,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCrNP86xe_TTQaUrKR7XXB1A",
+    "name": "Broken Valentine",
+    "subscribers": "8.2K",
+    "channelId": "UCcaU6fOWsWQHg6wnW6HyG4Q",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/WXdQoR1Advyed4sK1EmqiJoqlc8NvdQjIwuN3zFbmzCwIoYScn4VaD-6es8KxV6dWp7NRRs8z9jpKfxh=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCrNP86xe_TTQaUrKR7XXB1A"
+  },
+  "tracks": [
+    {
+      "videoId": "CnL10_X0hv0",
+      "songTitle": "알루미늄",
+      "title": "알루미늄",
+      "artists": [
+        "Broken Valentine"
+      ],
+      "albumTitle": "Aluminium",
+      "albumBrowseId": "MPREb_agUYjHLh96b",
+      "duration": "5:43",
+      "durationSeconds": 343,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p4mPxILvVNRgq53fr9o6_8E_J07C2Q1fPsHVW-G46aWrtIfxPtpGu6DJt3XBB4chjPh9ZatHoGg3o18=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CnL10_X0hv0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CnL10_X0hv0",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "XChNCAjsQF4",
+      "songTitle": "As time goes by",
+      "title": "As time goes by",
+      "artists": [
+        "Broken Valentine"
+      ],
+      "albumTitle": "3",
+      "albumBrowseId": "MPREb_ThXgMOX1NIC",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Px1-y_ueQ4bFM6QjPw2v-Ibzz-KEvVn2F-qDFe2I5Q9XdgD9Ash9Gw6wOlCx8HlTVMZWe3Cj-KhRCZyOLg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XChNCAjsQF4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XChNCAjsQF4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "a5LXPA93cOI",
+      "songTitle": "Quasimodo",
+      "title": "Quasimodo",
+      "artists": [
+        "Broken Valentine"
+      ],
+      "albumTitle": "3",
+      "albumBrowseId": "MPREb_ThXgMOX1NIC",
+      "duration": "4:40",
+      "durationSeconds": 280,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Px1-y_ueQ4bFM6QjPw2v-Ibzz-KEvVn2F-qDFe2I5Q9XdgD9Ash9Gw6wOlCx8HlTVMZWe3Cj-KhRCZyOLg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=a5LXPA93cOI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=a5LXPA93cOI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=CnL10_X0hv0,XChNCAjsQF4,a5LXPA93cOI",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=CnL10_X0hv0&list=RDAMVMCnL10_X0hv0"
+}

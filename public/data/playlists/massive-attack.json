@@ -1,0 +1,118 @@
+{
+  "artistId": "massive-attack",
+  "artistName": "매시브 어택",
+  "englishName": "MASSIVE ATTACK",
+  "collectedAt": "2026-07-27T00:58:38.607887+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1360,
+    "latestSlotLabel": "22:40",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.985,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCr1uxon7aFztw_dnrau0TDA",
+    "name": "Massive Attack",
+    "subscribers": "842K",
+    "channelId": "UCLqMjQtlnOkknN-FvrtQ0WQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/Kj7CLWDEEI1Myhh2z0g3Bere2p5TF5ML_wP3sbEsY_qcS2aIHG7hC5tvYqkZD3hRutEwzLzPK6dQ6A=w1080-h450-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCr1uxon7aFztw_dnrau0TDA"
+  },
+  "tracks": [
+    {
+      "videoId": "HLrqNhgdiC0",
+      "songTitle": "Angel (feat. Horace Andy)",
+      "title": "Angel (feat. Horace Andy)",
+      "artists": [
+        "Massive Attack"
+      ],
+      "albumTitle": "Mezzanine",
+      "albumBrowseId": "MPREb_Ibts2W4TjGD",
+      "duration": "6:20",
+      "durationSeconds": 380,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LkEUtV7e8rXEF8cYVWYWwiqeL5mMiZy4jCbGw8pbmYIrUmQWe-_3sZCinbMHP-031C6RH-B8YbhP3elm=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HLrqNhgdiC0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HLrqNhgdiC0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Tb0MC0jFv6M",
+      "songTitle": "Teardrop (feat. Elizabeth Fraser)",
+      "title": "Teardrop (feat. Elizabeth Fraser)",
+      "artists": [
+        "Massive Attack"
+      ],
+      "albumTitle": "Mezzanine (Deluxe)",
+      "albumBrowseId": "MPREb_CA6gpEcQntH",
+      "duration": "5:31",
+      "durationSeconds": 331,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eIwxQmmZOei9XmijUXzWsD9UIIPqW4xlzIHSyDq4hsB2KvAHC5vBQzg7Q-nnCdxKog3-5EZUyPsvzJkwMA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Tb0MC0jFv6M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Tb0MC0jFv6M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "VLRa4nvkTy4",
+      "songTitle": "Unfinished Sympathy (2012 Mix/Master) (feat. Shara Nelson)",
+      "title": "Unfinished Sympathy (2012 Mix/Master) (feat. Shara Nelson)",
+      "artists": [
+        "Massive Attack"
+      ],
+      "albumTitle": "Blue Lines (2012 Mix/Master)",
+      "albumBrowseId": "MPREb_wT1mZHKgy6D",
+      "duration": "5:09",
+      "durationSeconds": 309,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/404Cm9Szlq6MCPaoZvTrAHnSxtZ-S94ZHM1TdkyZEXa0Ploie1hKYDqcGw-eDEVji75Cb5DLzB20iIJm=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VLRa4nvkTy4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VLRa4nvkTy4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3h-JYx76QNM",
+      "songTitle": "Teardrop (feat. Elizabeth Fraser)",
+      "title": "Teardrop (feat. Elizabeth Fraser)",
+      "artists": [
+        "Massive Attack"
+      ],
+      "albumTitle": "Mezzanine",
+      "albumBrowseId": "MPREb_Ibts2W4TjGD",
+      "duration": "5:31",
+      "durationSeconds": 331,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LkEUtV7e8rXEF8cYVWYWwiqeL5mMiZy4jCbGw8pbmYIrUmQWe-_3sZCinbMHP-031C6RH-B8YbhP3elm=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3h-JYx76QNM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3h-JYx76QNM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "P2aBhU6pLCg",
+      "songTitle": "I Against I",
+      "title": "I Against I",
+      "artists": [
+        "Massive Attack",
+        "Mos Def"
+      ],
+      "albumTitle": "I Against I",
+      "albumBrowseId": "MPREb_SbDWUWR87zS",
+      "duration": "5:44",
+      "durationSeconds": 344,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZZ84xRJDsg8qUH6PIQZq4EJbpc6UeRq0D4afMQ6uGWgH6AHlvCU2tsrhpYw231aLJGO1Ns1SehH5NxlYqQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=P2aBhU6pLCg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=P2aBhU6pLCg",
+      "source": "ytm_songs_popular",
+      "year": "2002",
+      "releaseType": "single"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=HLrqNhgdiC0,Tb0MC0jFv6M,VLRa4nvkTy4,3h-JYx76QNM,P2aBhU6pLCg",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=HLrqNhgdiC0&list=RDAMVMHLrqNhgdiC0"
+}

@@ -1,0 +1,82 @@
+{
+  "artistId": "far-east-asian-tigers",
+  "artistName": "극동아시아타이거즈",
+  "englishName": "Far East Asian Tigers",
+  "collectedAt": "2026-07-27T00:58:31.299547+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 830,
+    "latestSlotLabel": "13:50",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.246,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCo8kdibcwTN0DXUAF_ecFfA",
+    "name": "Far East Asian Tigers",
+    "subscribers": "12.8K",
+    "channelId": "UCMbwvl6PdEqGmzUmGgKnuHg",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/z6PZV2yZCYKpq1egoeCLbZl1e3zBdbrjLy_LHCkf2N87tvzExkwaz5wd4-NFJm_n5ttdBYsVAtKtlQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCo8kdibcwTN0DXUAF_ecFfA"
+  },
+  "tracks": [
+    {
+      "videoId": "WK_yZR3EkJI",
+      "songTitle": "흔들리는 시간 속에",
+      "title": "흔들리는 시간 속에",
+      "artists": [
+        "극동아시아타이거즈"
+      ],
+      "albumTitle": "흔들리는 시간 속에",
+      "albumBrowseId": "MPREb_TaurKiCsqOA",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uyrlH4ZmjrEZD1HpbIwjyIQCfdRolDtMxskqr9lHFQUSRBWS4Zk2fNBgenEm7I0ddLb98wWLPFqzIBLv5Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WK_yZR3EkJI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WK_yZR3EkJI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "BsUgVEhWIqU",
+      "songTitle": "When we meet again",
+      "title": "When we meet again",
+      "artists": [
+        "극동아시아타이거즈"
+      ],
+      "albumTitle": "When we meet again",
+      "albumBrowseId": "MPREb_4CHg4r8ItBv",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yS_X3dvoXRgKX6dHwHg0Njj39397tgN2vN8qRM_aHyRkB-XPQVR4zVZC66aU0xs2dGDs6ZEflir8iCs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BsUgVEhWIqU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BsUgVEhWIqU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "34WTF1gGwBs",
+      "songTitle": "비냄새",
+      "title": "비냄새",
+      "artists": [
+        "극동아시아타이거즈"
+      ],
+      "albumTitle": "몽유호원",
+      "albumBrowseId": "MPREb_v6oMlCJX6Bs",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PR_859Vsj6hwpbtsUbBbXe1THipqHKOHtsGVI0DwBc9-SE2nVmGvMpfpt1KL2ck3nJzmncW_hdTfBdk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=34WTF1gGwBs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=34WTF1gGwBs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=WK_yZR3EkJI,BsUgVEhWIqU,34WTF1gGwBs",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=WK_yZR3EkJI&list=RDAMVMWK_yZR3EkJI"
+}

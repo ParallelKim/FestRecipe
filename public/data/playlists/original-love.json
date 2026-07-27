@@ -1,0 +1,119 @@
+{
+  "artistId": "original-love",
+  "artistName": "오리지널 러브",
+  "englishName": "Original Love",
+  "collectedAt": "2026-07-27T00:58:41.832164+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1130,
+    "latestSlotLabel": "18:50",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.8,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCIq07DAzeAZlG6nAIBQIWxw",
+    "name": "Original Love",
+    "subscribers": "64.8K",
+    "channelId": "UCyFo-ai_spUBHlFH7guVy2w",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/GIqhg6dNTJwu_LbAkKvayDKd_4r_lgaGTyyuB0q2CcHev80YvvyW4s-_MuaBs0cXY4HvYgjEsKGM3w=w1568-h653-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCIq07DAzeAZlG6nAIBQIWxw"
+  },
+  "tracks": [
+    {
+      "videoId": "RLwB-upkOyo",
+      "songTitle": "接吻 (Single Version) - Seppun -Kiss- (Single Version)",
+      "title": "接吻 (Single Version) - Seppun -Kiss- (Single Version)",
+      "artists": [
+        "ORIGINAL LOVE"
+      ],
+      "albumTitle": "Free Soul Original Love 90s - EMI Years",
+      "albumBrowseId": "MPREb_7R87JjQnmh3",
+      "duration": "5:02",
+      "durationSeconds": 302,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3TJAVEUa-3Tgsm-Q6YQ15ECpVcJfWe7KEPNHav5J4Ii9cuapWP13Us2tezSE6t7ZHsryZKOiaqYv4tFX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RLwB-upkOyo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RLwB-upkOyo",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "K3mb1xzG_H0",
+      "songTitle": "接吻",
+      "title": "接吻",
+      "artists": [
+        "Original Love & Ovall"
+      ],
+      "albumTitle": "What a Wonderful World with Original Love?",
+      "albumBrowseId": "MPREb_CehlIHF1hS5",
+      "duration": "4:41",
+      "durationSeconds": 281,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QQkow9EcJJQNUPCaTyx5E7KULg3g61UcXvPYHG8qmw6c9fbZQpNxz6v009OMCuMUez9YmYLlOl92hn8IxA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K3mb1xzG_H0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=K3mb1xzG_H0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "21869h2B_RE",
+      "songTitle": "プライマル - puraimaru",
+      "title": "プライマル - puraimaru",
+      "artists": [
+        "Original Love"
+      ],
+      "albumTitle": "Puraimaru",
+      "albumBrowseId": "MPREb_9xP8yCQ0XEN",
+      "duration": "4:53",
+      "durationSeconds": 293,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/19EiD_2iQqmTlndRMAUPoLPVcZ84i1lnHaJLIEgNXLIv7XUn8-aNkvCUCn8eCuNxjkAiY29wEe2AIJ0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=21869h2B_RE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=21869h2B_RE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "4rI6_734vy4",
+      "songTitle": "朝日のあたる道 - As Time Goes By",
+      "title": "朝日のあたる道 - As Time Goes By",
+      "artists": [
+        "Original Love"
+      ],
+      "albumTitle": "Kaze No Uta Wo Kike",
+      "albumBrowseId": "MPREb_QlEBuOWwLwP",
+      "duration": "5:15",
+      "durationSeconds": 315,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iYZr5cjETZnfclGq4lLFDXTkGcT2tTHmasFiAxqWvrEOCDPxp6bLoyeVY89XUwFo2kI61ekvb02qZn4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4rI6_734vy4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4rI6_734vy4",
+      "source": "ytm_songs_popular",
+      "year": "2007",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "jm2G5K71BoE",
+      "songTitle": "サンシャイン・ロマンス - Sunshine Romance (Eyes Version)",
+      "title": "サンシャイン・ロマンス - Sunshine Romance (Eyes Version)",
+      "artists": [
+        "ORIGINAL LOVE"
+      ],
+      "albumTitle": "Eyes",
+      "albumBrowseId": "MPREb_cl07QZYZucy",
+      "duration": "5:38",
+      "durationSeconds": 338,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KE8Kbz_SJQsim7KFYz5X86I_-hr17Ngs2nQBBJAP4yUbqhqiSUFV8iubEg3e7onND2KNl81VcZID866t=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jm2G5K71BoE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jm2G5K71BoE",
+      "source": "ytm_songs_popular",
+      "year": "2007",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=RLwB-upkOyo,K3mb1xzG_H0,21869h2B_RE,4rI6_734vy4,jm2G5K71BoE",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=RLwB-upkOyo&list=RDAMVMRLwB-upkOyo"
+}

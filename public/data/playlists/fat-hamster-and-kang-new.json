@@ -1,0 +1,131 @@
+{
+  "artistId": "fat-hamster-and-kang-new",
+  "artistName": "팻햄스터 & 캉뉴",
+  "englishName": "Fat Hamster & Kang New",
+  "collectedAt": "2026-07-27T00:58:31.586900+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1120,
+    "latestSlotLabel": "18:40",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.754,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCfHC69BgeJemnsqTDa3zezQ",
+    "name": "Fat Hamster",
+    "subscribers": "120",
+    "channelId": "UCfHC69BgeJemnsqTDa3zezQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/6DzHRa3LCI_Kzp5p5Qp_t4Wz5ZZ4N6sbN3Egx9rNHvCUXyWusJs2bZdRW7SyW4szNuHPFirdIBE9ang=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCfHC69BgeJemnsqTDa3zezQ"
+  },
+  "tracks": [
+    {
+      "videoId": "eDEtluMgKc4",
+      "songTitle": "I Have More",
+      "title": "I Have More",
+      "artists": [
+        "Fat Hamster and KANG New",
+        "Fat Hamster",
+        "KANG New"
+      ],
+      "albumTitle": "Brains in a Vat",
+      "albumBrowseId": "MPREb_LWEP9YBBdku",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/o9PjaFoleQ_rPLsyT7mVqTb8fWjqHQzSMeAm-BsR_jssq_t4CCV-NSaHHZcFo-hj-NkffWQDPOR-CyE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eDEtluMgKc4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=eDEtluMgKc4",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Oa9-JSsuigY",
+      "songTitle": "The Sun from Mars",
+      "title": "The Sun from Mars",
+      "artists": [
+        "Fat Hamster and KANG New",
+        "Fat Hamster",
+        "KANG New"
+      ],
+      "albumTitle": "Brains in a Vat",
+      "albumBrowseId": "MPREb_LWEP9YBBdku",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/o9PjaFoleQ_rPLsyT7mVqTb8fWjqHQzSMeAm-BsR_jssq_t4CCV-NSaHHZcFo-hj-NkffWQDPOR-CyE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Oa9-JSsuigY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Oa9-JSsuigY",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "fPN402Iq0i0",
+      "songTitle": "A Gentleman's Agreement",
+      "title": "A Gentleman's Agreement",
+      "artists": [
+        "Fat Hamster and KANG New",
+        "Fat Hamster",
+        "KANG New"
+      ],
+      "albumTitle": "Brains in a Vat",
+      "albumBrowseId": "MPREb_LWEP9YBBdku",
+      "duration": "2:44",
+      "durationSeconds": 164,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/o9PjaFoleQ_rPLsyT7mVqTb8fWjqHQzSMeAm-BsR_jssq_t4CCV-NSaHHZcFo-hj-NkffWQDPOR-CyE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fPN402Iq0i0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fPN402Iq0i0",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Lk2HSNNd11o",
+      "songTitle": "\"OPINION\"",
+      "title": "\"OPINION\"",
+      "artists": [
+        "Fat Hamster and KANG New",
+        "Fat Hamster",
+        "KANG New"
+      ],
+      "albumTitle": "\"OPINION\"",
+      "albumBrowseId": "MPREb_dSIWexS90yo",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uyZvLANuA-dzeDLJK5nndg1osINgLvcJPvo7R99uaNeRiPxLnowo3qkng3a7cLySO6Ww8SU_MQTceKfU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Lk2HSNNd11o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Lk2HSNNd11o",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "8g5vyFxUJA8",
+      "songTitle": "Micro-Macro",
+      "title": "Micro-Macro",
+      "artists": [
+        "Fat Hamster and KANG New",
+        "Fat Hamster",
+        "KANG New"
+      ],
+      "albumTitle": "Brains in a Vat",
+      "albumBrowseId": "MPREb_LWEP9YBBdku",
+      "duration": "2:36",
+      "durationSeconds": 156,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/o9PjaFoleQ_rPLsyT7mVqTb8fWjqHQzSMeAm-BsR_jssq_t4CCV-NSaHHZcFo-hj-NkffWQDPOR-CyE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8g5vyFxUJA8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8g5vyFxUJA8",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=eDEtluMgKc4,Oa9-JSsuigY,fPN402Iq0i0,Lk2HSNNd11o,8g5vyFxUJA8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=eDEtluMgKc4&list=RDAMVMeDEtluMgKc4"
+}

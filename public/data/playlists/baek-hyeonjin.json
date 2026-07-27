@@ -1,0 +1,82 @@
+{
+  "artistId": "baek-hyeonjin",
+  "artistName": "백현진",
+  "englishName": "Bek Hyunjin",
+  "collectedAt": "2026-07-27T00:58:25.957544+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 870,
+    "latestSlotLabel": "14:30",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.354,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCmAIH_mytd67RxC8OAgLjqQ",
+    "name": "Bek Hyunjin",
+    "subscribers": "25.4K",
+    "channelId": "UCcPMLpLxS117_Ey4eZ4jhBQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/emUPE6GA0NKgQtR7CwdrdFRDEHtDLJ_aEXJyNUMBBacSBDj5Hxt7LrIRB69pyMtlek4SiU7u434=w1165-h485-l90-rj-dcpWSOra0G",
+    "url": "https://music.youtube.com/channel/UCmAIH_mytd67RxC8OAgLjqQ"
+  },
+  "tracks": [
+    {
+      "videoId": "o8-Zyp2Zyc0",
+      "songTitle": "Mogwa",
+      "title": "Mogwa",
+      "artists": [
+        "Bek Hyunjin"
+      ],
+      "albumTitle": "Mogwa",
+      "albumBrowseId": "MPREb_Wx6DHgFNA57",
+      "duration": "5:38",
+      "durationSeconds": 338,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/gojuqGbWMRHlnZdvcaTXKdX-vXFMy6PEOI0AqIbjGE8XZ2xxjgZFkAPrV0nVgb5zUICvNUmB2V6HbxZJ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o8-Zyp2Zyc0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=o8-Zyp2Zyc0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "0lHQxEKQUzE",
+      "songTitle": "Light",
+      "title": "Light",
+      "artists": [
+        "Bek Hyunjin"
+      ],
+      "albumTitle": "Light, Many",
+      "albumBrowseId": "MPREb_mq8wnW9RZYK",
+      "duration": "5:33",
+      "durationSeconds": 333,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NUr5t-qrwr1BkZdUS824QtrBzMYRxfqyDXwpMGORc5oOUkvOLDoGpAHv_-LMNxqjGSqT14yiotDLVJ4e=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0lHQxEKQUzE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0lHQxEKQUzE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Or6ubGxMZp0",
+      "songTitle": "Light23",
+      "title": "Light23",
+      "artists": [
+        "Bek Hyunjin"
+      ],
+      "albumTitle": "Light",
+      "albumBrowseId": "MPREb_kX1uvY0xBrb",
+      "duration": "6:25",
+      "durationSeconds": 385,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/E1EMfXSfJ-h-Isz_mezXWWwk-98h1oZKyJez-F3d5GZjZiiSFskvfzjVsC0NA98YiYzFE16vnsHHxRoN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Or6ubGxMZp0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Or6ubGxMZp0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=o8-Zyp2Zyc0,0lHQxEKQUzE,Or6ubGxMZp0",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=o8-Zyp2Zyc0&list=RDAMVMo8-Zyp2Zyc0"
+}

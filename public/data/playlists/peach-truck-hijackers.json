@@ -1,0 +1,84 @@
+{
+  "artistId": "peach-truck-hijackers",
+  "artistName": "피치트럭하이재커스",
+  "englishName": "Peach Truck Hijackers",
+  "collectedAt": "2026-07-27T00:58:42.138074+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 850,
+    "latestSlotLabel": "14:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.277,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCaHWa1HLOm_gK2B7Gqz1QtQ",
+    "name": "Peach Truck Hijackers",
+    "subscribers": "747",
+    "channelId": "UCm6XYHbbqnfUu-BRQ1cfAFQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/jFBqPkdDr685YCUiO9ICj0aLjFhC4jYUk_mq74N2gicDExW8SXFBh00td3yVWAY7B03bzRFU=w786-h327-l90-rj-dcnYSUzDEH",
+    "url": "https://music.youtube.com/channel/UCaHWa1HLOm_gK2B7Gqz1QtQ"
+  },
+  "tracks": [
+    {
+      "videoId": "6SLfoy1DNn0",
+      "songTitle": "Compressed Annoyance",
+      "title": "Compressed Annoyance",
+      "artists": [
+        "Peach Truck Hijackers"
+      ],
+      "albumTitle": "Peach Truck Hijackers",
+      "albumBrowseId": "MPREb_kaX07RVCZ0C",
+      "duration": "2:57",
+      "durationSeconds": 177,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/di2dU-Xf90lBGZg-bN84ENfYDCsDwMtY_vQJnS9JBF2u33qRBmwn2X2NeCEqJnoQusFWnIBgWOLljMYLWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6SLfoy1DNn0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6SLfoy1DNn0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dLffrkqY6yo",
+      "songTitle": "Twisted Lips",
+      "title": "Twisted Lips",
+      "artists": [
+        "Peach Truck Hijackers"
+      ],
+      "albumTitle": "Peach Truck Hijackers",
+      "albumBrowseId": "MPREb_kaX07RVCZ0C",
+      "duration": "2:56",
+      "durationSeconds": 176,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/di2dU-Xf90lBGZg-bN84ENfYDCsDwMtY_vQJnS9JBF2u33qRBmwn2X2NeCEqJnoQusFWnIBgWOLljMYLWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dLffrkqY6yo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dLffrkqY6yo",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "WxVYSOSBl8I",
+      "songTitle": "Radio Radio",
+      "title": "Radio Radio",
+      "artists": [
+        "Peach Truck Hijackers"
+      ],
+      "albumTitle": "Peach Truck Hijackers",
+      "albumBrowseId": "MPREb_kaX07RVCZ0C",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/di2dU-Xf90lBGZg-bN84ENfYDCsDwMtY_vQJnS9JBF2u33qRBmwn2X2NeCEqJnoQusFWnIBgWOLljMYLWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WxVYSOSBl8I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WxVYSOSBl8I",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=6SLfoy1DNn0,dLffrkqY6yo,WxVYSOSBl8I",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=6SLfoy1DNn0&list=RDAMVM6SLfoy1DNn0"
+}

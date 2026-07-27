@@ -1,0 +1,99 @@
+{
+  "artistId": "touched",
+  "artistName": "터치드",
+  "englishName": "TOUCHED",
+  "collectedAt": "2026-07-27T00:58:52.487099+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1080,
+    "latestSlotLabel": "18:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.708,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCDFHGLpoQ5SotTGUnzm2HFQ",
+    "name": "TOUCHED",
+    "subscribers": "76.5K",
+    "channelId": "UC1VarYVKLPA6DL8rLclYxBg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/qr2fgVfMdxEn5X_Nx6NklGNzgAckqMmnuX0ARvZ0fG5HAsd7gspmv9B8pSdpmNfjf1MDTeqDEQ=w2880-h1200-l90-rj-dcmYOMbS0F",
+    "url": "https://music.youtube.com/channel/UCDFHGLpoQ5SotTGUnzm2HFQ"
+  },
+  "tracks": [
+    {
+      "videoId": "zEDWt602kgo",
+      "songTitle": "Night View",
+      "title": "Night View",
+      "artists": [
+        "TOUCHED"
+      ],
+      "albumTitle": "Yellow Supernova Remnant",
+      "albumBrowseId": "MPREb_XEE1Pv1r3ze",
+      "duration": "3:52",
+      "durationSeconds": 232,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NIxnbkp6HWCehRaFb9u19eeDzAy5EXHigZqmIwSut1wVhxX8q4KhA7f28EarKRtw5pXvHmrrtlrl3QY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zEDWt602kgo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zEDWt602kgo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "L5Ba-pp3Qw0",
+      "songTitle": "Highlight",
+      "title": "Highlight",
+      "artists": [
+        "TOUCHED"
+      ],
+      "albumTitle": "GREAT SEOUL INVASION Section 2",
+      "albumBrowseId": "MPREb_xnNttZK62rL",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/w4oO2E9xPcIjOa0JqlfOuwlHhjWMrkkiT4uutW4iBp12eNc6_LNMneY2RxeVzKlD_MF_WAF6RtKoDPs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=L5Ba-pp3Qw0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=L5Ba-pp3Qw0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7BcyVANDWP4",
+      "songTitle": "Hi Bully",
+      "title": "Hi Bully",
+      "artists": [
+        "TOUCHED"
+      ],
+      "albumTitle": "Purple",
+      "albumBrowseId": "MPREb_PQu6i9ImR45",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/hdYqHkA90u7YLy9njomWLTuUwaErFqgC3JlIzIeq2tpbbsRFNkXfPDjRP4u5bjCmXgdEZMXmJogyPPI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7BcyVANDWP4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7BcyVANDWP4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ojE5ah4_p9c",
+      "songTitle": "Last Day",
+      "title": "Last Day",
+      "artists": [
+        "TOUCHED"
+      ],
+      "albumTitle": "Last Day",
+      "albumBrowseId": "MPREb_e4A3TUNVkaH",
+      "duration": "5:37",
+      "durationSeconds": 337,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KgJ0Cf1ifGuZwLNePZeHHs4ubYXIjAfdOVO8mNLmU_FtLwq0Zu_T0QcAd0NyhweSjYYJvNm4u08XKYW5sw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ojE5ah4_p9c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ojE5ah4_p9c",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zEDWt602kgo,L5Ba-pp3Qw0,7BcyVANDWP4,ojE5ah4_p9c",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zEDWt602kgo&list=RDAMVMzEDWt602kgo"
+}

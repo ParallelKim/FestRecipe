@@ -1,0 +1,101 @@
+{
+  "artistId": "isyana-sarasvati",
+  "artistName": "이샤나 사라스바티",
+  "englishName": "Isyana Sarasvati",
+  "collectedAt": "2026-07-27T00:58:34.731988+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1030,
+    "latestSlotLabel": "17:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.6,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCbQDCZPk4_r-4_tIxTHyGVQ",
+    "name": "Isyana Sarasvati",
+    "subscribers": "1.2M",
+    "channelId": "UCsNmCa9ubwale8yTpHXJSGA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/7I3_K1K2bhxulLIhjhgmZS8nAaJ41iHb5Mv_HsyXFH9XZHIkNCUi49YNYqll0PBiUBrTnqK-2zRF2A=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCbQDCZPk4_r-4_tIxTHyGVQ"
+  },
+  "tracks": [
+    {
+      "videoId": "aE0r5AVrRG0",
+      "songTitle": "Tetap Dalam Jiwa",
+      "title": "Tetap Dalam Jiwa",
+      "artists": [
+        "Isyana Sarasvati"
+      ],
+      "albumTitle": "EXPLORE! (Special Edition)",
+      "albumBrowseId": "MPREb_Wwi5tE5l3q8",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4maO0FUJ6aMLPrxHxYdCVPBnCyZrwKoaPrjAEf6n8IrBvuTzDu-edwk6EPgZqwIyC0V2DeR_61zMFRze=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aE0r5AVrRG0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=aE0r5AVrRG0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7XkrplA8hvc",
+      "songTitle": "Kau Adalah (feat. Rayi Putra)",
+      "title": "Kau Adalah (feat. Rayi Putra)",
+      "artists": [
+        "Isyana Sarasvati"
+      ],
+      "albumTitle": "EXPLORE!",
+      "albumBrowseId": "MPREb_f8iRS86J2Rh",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9nECR7ePMEzO8rry_VOwTKB2McUPWCKUQ3Q7Nh1Hp8d7_-E0BnCUcTfM2CoHHagDfDRCIzRHf6bqzezr=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7XkrplA8hvc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7XkrplA8hvc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7FfL3CmxryE",
+      "songTitle": "Anganku Anganmu (With Raisa)",
+      "title": "Anganku Anganmu (With Raisa)",
+      "artists": [
+        "Isyana Sarasvati"
+      ],
+      "albumTitle": "Paradox",
+      "albumBrowseId": "MPREb_hJCrHIeBDzr",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Xz-Aj3mYK46taic5DaAr270ToYWEVCS6JgTQpuLcSupdnSxNNjKFedCiwCWP5rjcud7V2s8p5Iv4j6tp=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7FfL3CmxryE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7FfL3CmxryE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "5C4BalQcWbs",
+      "songTitle": "Heaven",
+      "title": "Heaven",
+      "artists": [
+        "Isyana Sarasvati",
+        "Afgan",
+        "Rendy Pandugo"
+      ],
+      "albumTitle": "Heaven",
+      "albumBrowseId": "MPREb_3ggEu6ul4h0",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fgCiSJBwYAtuHzOgjb3Avl2WjEfrcFuaSOe5fgsfgf0PUOlx4geP-moTM1MdFVuoKOU21QlIgbiPb1E=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5C4BalQcWbs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5C4BalQcWbs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=aE0r5AVrRG0,7XkrplA8hvc,7FfL3CmxryE,5C4BalQcWbs",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=aE0r5AVrRG0&list=RDAMVMaE0r5AVrRG0"
+}

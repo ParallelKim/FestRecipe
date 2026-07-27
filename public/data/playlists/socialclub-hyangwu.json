@@ -1,0 +1,85 @@
+{
+  "artistId": "socialclub-hyangwu",
+  "artistName": "소셜클럽향우",
+  "englishName": "SOCIALCLUB HYANGWU",
+  "collectedAt": "2026-07-27T00:58:46.723736+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 910,
+    "latestSlotLabel": "15:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.385,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC919MPiXSycX7_zp1l6GNBw",
+    "name": "Socialclub Hyangwu",
+    "subscribers": "106",
+    "channelId": "UC919MPiXSycX7_zp1l6GNBw",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/9jf3gQ-O21ti2ghQOC-u-_Ores_UnOUQMeiEXWIxn97VjC-YSAmddvqxOdGRj-1eN7oSsFIaHrzef41b=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC919MPiXSycX7_zp1l6GNBw"
+  },
+  "tracks": [
+    {
+      "videoId": "-6Pu4-nOvr8",
+      "songTitle": "Stranger",
+      "title": "Stranger",
+      "artists": [
+        "향우회"
+      ],
+      "albumTitle": "The Panic Tool",
+      "albumBrowseId": "MPREb_urYohkKoHfU",
+      "duration": "2:43",
+      "durationSeconds": 163,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Izv9QjOLCZU4bPovOZwE8EdWfuUimLWQe3d9t8iYp0ub81GPUPh9Au74_U1S5Nf88Fof_49bTcFJgC0Z=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-6Pu4-nOvr8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-6Pu4-nOvr8",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "CR3AjV9E8Fk",
+      "songTitle": "My Little Baby",
+      "title": "My Little Baby",
+      "artists": [
+        "향우회"
+      ],
+      "albumTitle": "For everything that burns",
+      "albumBrowseId": "MPREb_zL9m0OliP1d",
+      "duration": "2:19",
+      "durationSeconds": 139,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/i1x6aFD0fp0elWtM1tufe1xPUm3SR6ZI-J3ifD87IkHVGUHjFuiYMktvn2PZ6cKoRz0O_X0Nmw-_CkefyA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CR3AjV9E8Fk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CR3AjV9E8Fk",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "oCWxdDdzkmU",
+      "songTitle": "Home Sweet Home",
+      "title": "Home Sweet Home",
+      "artists": [
+        "향우회"
+      ],
+      "albumTitle": "The Panic Tool",
+      "albumBrowseId": "MPREb_urYohkKoHfU",
+      "duration": "1:54",
+      "durationSeconds": 114,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Izv9QjOLCZU4bPovOZwE8EdWfuUimLWQe3d9t8iYp0ub81GPUPh9Au74_U1S5Nf88Fof_49bTcFJgC0Z=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oCWxdDdzkmU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=oCWxdDdzkmU",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-6Pu4-nOvr8,CR3AjV9E8Fk,oCWxdDdzkmU",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-6Pu4-nOvr8&list=RDAMVM-6Pu4-nOvr8"
+}

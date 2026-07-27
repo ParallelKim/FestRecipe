@@ -1,0 +1,85 @@
+{
+  "artistId": "casually-connected",
+  "artistName": "캐주얼리 커넥티드",
+  "englishName": "casually connected",
+  "collectedAt": "2026-07-27T00:58:28.477647+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 790,
+    "latestSlotLabel": "13:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.215,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCuS8mc3U-nFgZyng5B_HcyQ",
+    "name": "CASUALLY CONNECTED",
+    "subscribers": "28",
+    "channelId": "UCuS8mc3U-nFgZyng5B_HcyQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/Mmmp6jCi8AwuR7vadRmJ3o9yFs1iAX-T3zDPowc_ymJ940PndXYFh16aMAW6ezEPgBHt9SR-de7yJlE=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCuS8mc3U-nFgZyng5B_HcyQ"
+  },
+  "tracks": [
+    {
+      "videoId": "TsOQx-2FSK8",
+      "songTitle": "30 (feat. JungMato)",
+      "title": "30 (feat. JungMato)",
+      "artists": [
+        "CASUALLY CONNECTED"
+      ],
+      "albumTitle": "Away From",
+      "albumBrowseId": "MPREb_SDtdbMYGFDU",
+      "duration": "4:11",
+      "durationSeconds": 251,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p0AtenerciD1dpf3N9Ai5lZBqQdSPdkhpA_KjDQTrdi0JI1k8cNw-RoLbjFFkTIqGpnftEzdlQCAQxKzVw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TsOQx-2FSK8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TsOQx-2FSK8",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "gaHo3kPRU68",
+      "songTitle": "Heavy Rain",
+      "title": "Heavy Rain",
+      "artists": [
+        "CASUALLY CONNECTED"
+      ],
+      "albumTitle": "Heavy Rain",
+      "albumBrowseId": "MPREb_09CzT3WY5AO",
+      "duration": "4:08",
+      "durationSeconds": 248,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tAkdy8cQteFqsxqNvChXcfJhns_Qm-WLGM9d8Dban1bc37iUdtlXMjIXSU74xAsSi8z9FOsEJ6tfpBw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gaHo3kPRU68",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gaHo3kPRU68",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "ir1GU7FXhnQ",
+      "songTitle": "Primacy Effect",
+      "title": "Primacy Effect",
+      "artists": [
+        "CASUALLY CONNECTED"
+      ],
+      "albumTitle": "Away From",
+      "albumBrowseId": "MPREb_SDtdbMYGFDU",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p0AtenerciD1dpf3N9Ai5lZBqQdSPdkhpA_KjDQTrdi0JI1k8cNw-RoLbjFFkTIqGpnftEzdlQCAQxKzVw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ir1GU7FXhnQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ir1GU7FXhnQ",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=TsOQx-2FSK8,gaHo3kPRU68,ir1GU7FXhnQ",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=TsOQx-2FSK8&list=RDAMVMTsOQx-2FSK8"
+}

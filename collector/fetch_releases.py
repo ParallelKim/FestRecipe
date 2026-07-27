@@ -84,6 +84,14 @@ def artist_query_names(artist: dict) -> list[str]:
         val = (artist.get(key) or "").strip()
         if val and val not in names:
             names.append(val)
+    for alias in artist.get("aliases") or []:
+        val = (alias or "").strip()
+        if val and val not in names:
+            names.append(val)
+    # kebab-id → spaced token (peach-truck-hijackers → peach truck hijackers)
+    id_as_name = artist["id"].replace("-", " ").strip()
+    if id_as_name and id_as_name not in names:
+        names.append(id_as_name)
     return names or [artist["id"]]
 
 
@@ -103,11 +111,28 @@ def _parse_subscribers(text: str | None) -> int:
 
 def resolve_ytm_artist(yt: YTMusic, artist: dict) -> dict | None:
     """YouTube Music 아티스트 browseId 확정."""
+    # 수동 큐레이션 override (한글명 ≠ YTM 표기인 경우)
+    override = (artist.get("ytmBrowseId") or "").strip()
+    if override:
+        return {
+            "browseId": override,
+            "name": artist.get("englishName") or artist.get("name") or artist["id"],
+            "subscribers": None,
+            "thumbnails": [],
+            "score": 1000,
+            "query": "ytmBrowseId",
+        }
+
     names = artist_query_names(artist)
     candidates: list[dict] = []
 
     for q in names:
-        for item in yt.search(q, filter="artists", limit=8) or []:
+        try:
+            results = yt.search(q, filter="artists", limit=8) or []
+        except Exception as e:
+            print(f"    [warn] artist search '{q}': {e}")
+            continue
+        for rank, item in enumerate(results):
             name = item.get("artist") or item.get("name") or ""
             browse_id = item.get("browseId")
             if not browse_id:
@@ -118,6 +143,12 @@ def resolve_ytm_artist(yt: YTMusic, artist: dict) -> dict | None:
                     score += 100
                 elif n.lower() in name.lower() or name.lower() in n.lower():
                     score += 40
+            # 한글 쿼리로 검색했는데 영문 채널명만 나오는 경우(피치트럭→Peach Truck 등)
+            # 상위 결과는 신뢰하고 통과시킨다.
+            if score == 0 and rank == 0:
+                score += 50
+            elif score == 0 and rank == 1:
+                score += 30
             score += min(_parse_subscribers(item.get("subscribers")), 1_000_000) // 10_000
             candidates.append({
                 "browseId": browse_id,
@@ -141,6 +172,52 @@ def resolve_ytm_artist(yt: YTMusic, artist: dict) -> dict | None:
     if top["score"] < 40:
         return None
     return top
+
+
+def tracks_from_song_search(yt: YTMusic, artist: dict, browse_id: str, *, limit: int = 40) -> list[dict]:
+    """get_artist 실패 시 검색으로 Songs 플레이리스트 대체 수집."""
+    tracks: list[dict] = []
+    seen: set[str] = set()
+    for q in artist_query_names(artist):
+        try:
+            results = yt.search(q, filter="songs", limit=limit) or []
+        except Exception as e:
+            print(f"    [warn] song search '{q}': {e}")
+            continue
+        for t in results:
+            artists = t.get("artists") or []
+            ids = {a.get("id") for a in artists if a.get("id")}
+            names = {(a.get("name") or "").lower() for a in artists}
+            if browse_id not in ids and not any(
+                n and (n in names or any(n in x for x in names))
+                for n in (x.lower() for x in artist_query_names(artist))
+            ):
+                continue
+            vid = t.get("videoId")
+            if not vid or vid in seen:
+                continue
+            seen.add(vid)
+            album = t.get("album") or {}
+            tracks.append({
+                "videoId": vid,
+                "songTitle": t.get("title") or "",
+                "title": t.get("title") or "",
+                "artists": [a.get("name") for a in artists if a.get("name")],
+                "albumTitle": album.get("name"),
+                "albumBrowseId": album.get("id"),
+                "releaseType": "song",
+                "year": None,
+                "duration": t.get("duration"),
+                "durationSeconds": t.get("duration_seconds"),
+                "isExplicit": t.get("isExplicit"),
+                "trackNumber": None,
+                "thumbnailUrl": ((t.get("thumbnails") or [{}])[-1] or {}).get("url"),
+                "source": "songs_search",
+                "isLiveRelease": False,
+            })
+        if tracks:
+            break
+    return tracks
 
 
 def _release_type(meta: dict) -> str:
@@ -352,8 +429,14 @@ def fetch_releases_for_artist(yt: YTMusic, artist: dict, *, max_results: int = 0
         raise RuntimeError("YouTube Music artist not found")
     print(f"  ytm artist: {ytm['name']} ({ytm['browseId']}) score={ytm['score']}")
 
-    info = yt.get_artist(ytm["browseId"])
-    groups = collect_release_groups(yt, info)
+    info: dict = {}
+    try:
+        info = yt.get_artist(ytm["browseId"]) or {}
+    except Exception as e:
+        print(f"  [warn] get_artist failed, falling back to song search: {e}")
+        info = {"name": ytm["name"], "thumbnails": ytm.get("thumbnails") or []}
+
+    groups = collect_release_groups(yt, info) if info.get("albums") or info.get("singles") else []
     print(f"  release groups: {len(groups)}")
 
     album_tracks: list[dict] = []
@@ -361,7 +444,10 @@ def fetch_releases_for_artist(yt: YTMusic, artist: dict, *, max_results: int = 0
         print(f"  [{i}/{len(groups)}] {group['releaseType']}: {group['title']} ({group.get('year') or '?'})")
         album_tracks.extend(tracks_from_album(yt, group))
 
-    playlist_tracks = tracks_from_songs_playlist(yt, info)
+    playlist_tracks = tracks_from_songs_playlist(yt, info) if info.get("songs") else []
+    if not playlist_tracks and not album_tracks:
+        playlist_tracks = tracks_from_song_search(yt, artist, ytm["browseId"])
+        print(f"  song-search fallback tracks: {len(playlist_tracks)}")
     print(f"  album tracks: {len(album_tracks)}, playlist tracks: {len(playlist_tracks)}")
 
     releases = merge_tracks(album_tracks, playlist_tracks)

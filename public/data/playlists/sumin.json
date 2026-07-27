@@ -1,0 +1,107 @@
+{
+  "artistId": "sumin",
+  "artistName": "수민",
+  "englishName": "SUMIN",
+  "collectedAt": "2026-07-27T00:58:48.187881+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 980,
+    "latestSlotLabel": "16:20",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.508,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCv8rpx0WIvniH3jkyDakPyg",
+    "name": "SUMIN",
+    "subscribers": "30.7K",
+    "channelId": "UCqln5Z-S6L46Fj9t4D8LcMw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/tzyWRgcs1omVQ3NayN43xj7DRW739faW9vgJS6uTJMjBItyDyC6AXaLzgrVuZPd0mRFV74IiaQty3rzL=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCv8rpx0WIvniH3jkyDakPyg"
+  },
+  "tracks": [
+    {
+      "videoId": "Qo2VFR6DAhY",
+      "songTitle": "WHY, WHY, WHY",
+      "title": "WHY, WHY, WHY",
+      "artists": [
+        "SUMIN",
+        "Slom"
+      ],
+      "albumTitle": "MINISERIES 2",
+      "albumBrowseId": "MPREb_ex3e9RpKFHt",
+      "duration": "2:42",
+      "durationSeconds": 162,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oCDu6h1a8yTIsZeFdBNkyurSclg6jOeOPsjTqDyYSzFDJOxKhkleCV8J-IsGYTcYOSB7H5qyxxrb05CbsQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Qo2VFR6DAhY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Qo2VFR6DAhY",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "pGvRfsQHImA",
+      "songTitle": "Her (feat. Zion.T)",
+      "title": "Her (feat. Zion.T)",
+      "artists": [
+        "SUMIN",
+        "Slom"
+      ],
+      "albumTitle": "City View / Her",
+      "albumBrowseId": "MPREb_1j0jCOxkjf6",
+      "duration": "2:57",
+      "durationSeconds": 177,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/noNl3wxO5YrQpyUSDDRDZJ5KRu3fQ7MzGynhcufNdBPNNvI1opW-B_L48M_hZmCnZK_L36lmG14UDLRE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pGvRfsQHImA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pGvRfsQHImA",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "fCXpMJAcbNQ",
+      "songTitle": "ENDLESS NIGHT",
+      "title": "ENDLESS NIGHT",
+      "artists": [
+        "SUMIN",
+        "Slom"
+      ],
+      "albumTitle": "MINISERIES 2",
+      "albumBrowseId": "MPREb_ex3e9RpKFHt",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oCDu6h1a8yTIsZeFdBNkyurSclg6jOeOPsjTqDyYSzFDJOxKhkleCV8J-IsGYTcYOSB7H5qyxxrb05CbsQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fCXpMJAcbNQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fCXpMJAcbNQ",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "KOKI30YeKeA",
+      "songTitle": "THE GONLAN SONG",
+      "title": "THE GONLAN SONG",
+      "artists": [
+        "SUMIN",
+        "Slom"
+      ],
+      "albumTitle": "MINISERIES",
+      "albumBrowseId": "MPREb_eMzck2apgaG",
+      "duration": "2:53",
+      "durationSeconds": 173,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YOCLj2U9tav25hGNPc8mw9wbFhxJxokP87ZmN8-aBQKNMImsMeJXOi1Ed2rb3M6T8dOMovj0RF2IzD0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KOKI30YeKeA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KOKI30YeKeA",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Qo2VFR6DAhY,pGvRfsQHImA,fCXpMJAcbNQ,KOKI30YeKeA",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Qo2VFR6DAhY&list=RDAMVMQo2VFR6DAhY"
+}

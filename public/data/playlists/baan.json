@@ -1,0 +1,102 @@
+{
+  "artistId": "baan",
+  "artistName": "baan",
+  "englishName": "baan",
+  "collectedAt": "2026-07-27T00:58:25.211575+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 980,
+    "latestSlotLabel": "16:20",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.523,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UC8Iw-WJTyYMWr_Cg0aDyfGA",
+    "name": "baan",
+    "subscribers": "445",
+    "channelId": "UCc9S1Gt6lsMTF7ijJrOYwzA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/k5R10-NnD4ZuwU1gXx64bJzm88GbFqNGf5a5dEb4_Entng62h_DzfXnn97KaGeRpYV6ABrawn1TXTw=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC8Iw-WJTyYMWr_Cg0aDyfGA"
+  },
+  "tracks": [
+    {
+      "videoId": "NvIp9Drd_oo",
+      "songTitle": "Early Bird Dies Fast",
+      "title": "Early Bird Dies Fast",
+      "artists": [
+        "baan"
+      ],
+      "albumTitle": "neumann",
+      "albumBrowseId": "MPREb_TV8vEDmTJUv",
+      "duration": "7:23",
+      "durationSeconds": 443,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MrrqmWDakV_iVklu_tgGoYliz_V5dkaIYe60zwgL5GeM-AhIhGKV33IFjqmp4I1rVYYzmli6vhpOExjaYQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NvIp9Drd_oo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NvIp9Drd_oo",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "ykMfy6XYXIY",
+      "songTitle": "Birdperson 새사람",
+      "title": "Birdperson 새사람",
+      "artists": [
+        "baan"
+      ],
+      "albumTitle": "neumann",
+      "albumBrowseId": "MPREb_TV8vEDmTJUv",
+      "duration": "5:07",
+      "durationSeconds": 307,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MrrqmWDakV_iVklu_tgGoYliz_V5dkaIYe60zwgL5GeM-AhIhGKV33IFjqmp4I1rVYYzmli6vhpOExjaYQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ykMfy6XYXIY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ykMfy6XYXIY",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "VomyqymIggo",
+      "songTitle": "Reversal of a Man",
+      "title": "Reversal of a Man",
+      "artists": [
+        "baan"
+      ],
+      "albumTitle": "neumann",
+      "albumBrowseId": "MPREb_TV8vEDmTJUv",
+      "duration": "6:28",
+      "durationSeconds": 388,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MrrqmWDakV_iVklu_tgGoYliz_V5dkaIYe60zwgL5GeM-AhIhGKV33IFjqmp4I1rVYYzmli6vhpOExjaYQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VomyqymIggo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VomyqymIggo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "V1tkS87WFIs",
+      "songTitle": "Sing a Brave Song 1 씩씩한 노래를 불러라 1",
+      "title": "Sing a Brave Song 1 씩씩한 노래를 불러라 1",
+      "artists": [
+        "baan"
+      ],
+      "albumTitle": "neumann",
+      "albumBrowseId": "MPREb_TV8vEDmTJUv",
+      "duration": "6:35",
+      "durationSeconds": 395,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MrrqmWDakV_iVklu_tgGoYliz_V5dkaIYe60zwgL5GeM-AhIhGKV33IFjqmp4I1rVYYzmli6vhpOExjaYQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V1tkS87WFIs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=V1tkS87WFIs",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=NvIp9Drd_oo,ykMfy6XYXIY,VomyqymIggo,V1tkS87WFIs",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=NvIp9Drd_oo&list=RDAMVMNvIp9Drd_oo"
+}

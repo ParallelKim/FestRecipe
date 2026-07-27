@@ -1,0 +1,84 @@
+{
+  "artistId": "eddie-and-the-bricks",
+  "artistName": "에디 앤 더 브릭스",
+  "englishName": "Eddie and the Bricks",
+  "collectedAt": "2026-07-27T00:58:30.796840+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 730,
+    "latestSlotLabel": "12:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.077,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCifeWgd6U6Y8FTQ5Xwd3GmQ",
+    "name": "Eddie and the Bricks",
+    "subscribers": "1.12K",
+    "channelId": "UCifeWgd6U6Y8FTQ5Xwd3GmQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/b68t7HvccEuTPo80VN9emg4xbGgAF7WJcrX8j4_jBRvMPHxDswUfG5j3wdK4v0I30_57JNgOpuhwk1U=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCifeWgd6U6Y8FTQ5Xwd3GmQ"
+  },
+  "tracks": [
+    {
+      "videoId": "GfGDZUURka4",
+      "songTitle": "Pause",
+      "title": "Pause",
+      "artists": [
+        "Eddie and the Bricks"
+      ],
+      "albumTitle": "EXchange3, Pt. 3 (Original Soundtrack)",
+      "albumBrowseId": "MPREb_btL3rF1URUV",
+      "duration": "2:50",
+      "durationSeconds": 170,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/m0dG_mwrmgq1pkC_MnXi6Xbs5PSVTXLv8pVgcAgMkJo06b6UJZC3UxrXuPdQWcXaqzCJGd-dk9vPuy27=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GfGDZUURka4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GfGDZUURka4",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "ZLSlsY4k0NU",
+      "songTitle": "Ms. Summer",
+      "title": "Ms. Summer",
+      "artists": [
+        "Eddie and the Bricks"
+      ],
+      "albumTitle": "Ms. Summer",
+      "albumBrowseId": "MPREb_kPom8J8Ciso",
+      "duration": "4:08",
+      "durationSeconds": 248,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZSVnzXA12GzyUnr6jE3x4kFpmQgdgCrwNZViPoS8LVH-Jyom58e1cjuZ10p6TPq23crrYlrwGVQlWOm9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZLSlsY4k0NU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZLSlsY4k0NU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "neGfCcqVLHA",
+      "songTitle": "Pure",
+      "title": "Pure",
+      "artists": [
+        "Eddie and the Bricks"
+      ],
+      "albumTitle": "Pure",
+      "albumBrowseId": "MPREb_xLWdRP9PbCC",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/H-RKtCoozmfC6dCvJIbFLCO_SCcEbi_21YCspVoFGpnDa0QQK6InqfVBVdSfr3GPYsS9XbBzsHjNR4kh=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=neGfCcqVLHA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=neGfCcqVLHA",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GfGDZUURka4,ZLSlsY4k0NU,neGfCcqVLHA",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GfGDZUURka4&list=RDAMVMGfGDZUURka4"
+}

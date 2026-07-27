@@ -1,0 +1,100 @@
+{
+  "artistId": "asian-spice-house",
+  "artistName": "아시안 스파이스 하우스",
+  "englishName": "Asian Spice House",
+  "collectedAt": "2026-07-27T00:58:24.923383+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1050,
+    "latestSlotLabel": "17:30",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.662,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCG_JNJ2XMfmf2wl4iv8ayUg",
+    "name": "Asian Spice House (아시안 스파이스 하우스)",
+    "subscribers": "283",
+    "channelId": "UChxXtKtTPornIXNweYzITuw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/U3sFvrolxS7Q06inJ7WW5iY6_OknXpxuPDKL9fUkJI3X69PxHYS_ypko6hVxLDoJrUVPKl7anWS4bUA=w1000-h416-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCG_JNJ2XMfmf2wl4iv8ayUg"
+  },
+  "tracks": [
+    {
+      "videoId": "N01QdcBFEJo",
+      "songTitle": "Cosmic Rowers",
+      "title": "Cosmic Rowers",
+      "artists": [
+        "Asian Spice House (아시안 스파이스 하우스)"
+      ],
+      "albumTitle": "Cosmic Rowers",
+      "albumBrowseId": "MPREb_O6xGj0k67qE",
+      "duration": "6:10",
+      "durationSeconds": 370,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/U3sFvrolxS7Q06inJ7WW5iY6_OknXpxuPDKL9fUkJI3X69PxHYS_ypko6hVxLDoJrUVPKl7anWS4bUA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=N01QdcBFEJo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=N01QdcBFEJo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Ny0CmXrGm68",
+      "songTitle": "Chungking Dream Forest (중경몽림)",
+      "title": "Chungking Dream Forest (중경몽림)",
+      "artists": [
+        "Asian Spice House"
+      ],
+      "albumTitle": "Chungking Dream Forest (중경몽림)",
+      "albumBrowseId": "MPREb_bUsVDwQGUOM",
+      "duration": "4:17",
+      "durationSeconds": 257,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pUpJw1evzpu3IP_piU-RkTAdbv-Bl99zO_nR5FgVByYNU-1zEmCyVDfaaJViz290dYTye1cQdhzvKOgy=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ny0CmXrGm68",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Ny0CmXrGm68",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "a7cy3boS58s",
+      "songTitle": "품바룸바 Poomba Roomba",
+      "title": "품바룸바 Poomba Roomba",
+      "artists": [
+        "Asian Spice House"
+      ],
+      "albumTitle": "품바룸바 Poomba Roomba",
+      "albumBrowseId": "MPREb_v5CPeUKh5cK",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dGPs6wnuk-JP1B18pYPrUZtDA562_mXATBpkSAkvP4YPhWs8i1Maw13G57i0SrWrS8VsIQ6BFOX5qTw_=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=a7cy3boS58s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=a7cy3boS58s",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Hpesuka9VKU",
+      "songTitle": "Echoes",
+      "title": "Echoes",
+      "artists": [
+        "Asian Spice House (아시안 스파이스 하우스)"
+      ],
+      "albumTitle": "Cosmic Rowers",
+      "albumBrowseId": "MPREb_O6xGj0k67qE",
+      "duration": "5:18",
+      "durationSeconds": 318,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/U3sFvrolxS7Q06inJ7WW5iY6_OknXpxuPDKL9fUkJI3X69PxHYS_ypko6hVxLDoJrUVPKl7anWS4bUA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hpesuka9VKU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Hpesuka9VKU",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=N01QdcBFEJo,Ny0CmXrGm68,a7cy3boS58s,Hpesuka9VKU",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=N01QdcBFEJo&list=RDAMVMN01QdcBFEJo"
+}

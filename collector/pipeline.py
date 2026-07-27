@@ -26,11 +26,14 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).parent
 
 
-def run(cmd: list[str]) -> None:
+def run(cmd: list[str], *, allow_fail: bool = False) -> int:
     print(f"\n$ {' '.join(cmd)}")
     r = subprocess.run(cmd, cwd=SCRIPT_DIR)
-    if r.returncode != 0:
+    if r.returncode != 0 and not allow_fail:
         raise SystemExit(r.returncode)
+    if r.returncode != 0:
+        print(f"[warn] command exited {r.returncode}; continuing pipeline")
+    return r.returncode
 
 
 def main():
@@ -66,7 +69,8 @@ def main():
             release_cmd.append("--from-index")
             if args.limit:
                 release_cmd += ["--limit", str(args.limit)]
-        run(release_cmd)
+        # 일부 아티스트 검색 실패(exit 2)여도 플레이리스트 단계는 진행
+        run(release_cmd, allow_fail=True)
         ran_releases = True
 
     if args.playlists:

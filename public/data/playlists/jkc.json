@@ -1,0 +1,84 @@
+{
+  "artistId": "jkc",
+  "artistName": "잭킹콩",
+  "englishName": "JKC",
+  "collectedAt": "2026-07-27T00:58:35.110397+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 760,
+    "latestSlotLabel": "12:40",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.108,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCBULfpow-_EXKi7gm5484bA",
+    "name": "JKC",
+    "subscribers": "218",
+    "channelId": "UCBULfpow-_EXKi7gm5484bA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/T3vPHjvsdb0F35HEVWXKDkAGmp0e-Y7Rt2_X1i7zJ3NGtFGpARfb2oDWvi5eSlxSXf0JcIlrgewJi8irOA=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCBULfpow-_EXKi7gm5484bA"
+  },
+  "tracks": [
+    {
+      "videoId": "eBc8wR3bl0M",
+      "songTitle": "Allah Allah",
+      "title": "Allah Allah",
+      "artists": [
+        "JKC"
+      ],
+      "albumTitle": "Allah Allah",
+      "albumBrowseId": "MPREb_cJHVRbbE7D1",
+      "duration": "3:10",
+      "durationSeconds": 190,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/thwRVZiohRbBu0Eds7N7S0KHmAfzjagSMLPZn7p4cpoII_bPTb16bKpfU9sqiczLfeSbSNLWDg0-qV-C=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eBc8wR3bl0M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=eBc8wR3bl0M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "XP9Pb9V0QKc",
+      "songTitle": "Pary pary",
+      "title": "Pary pary",
+      "artists": [
+        "JKC"
+      ],
+      "albumTitle": "Pary pary",
+      "albumBrowseId": "MPREb_7ODkakHkMsV",
+      "duration": "4:08",
+      "durationSeconds": 248,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LQbwqPpXA0Ly0nEkXpAOqbv3DbSI9rVG3XFZBtDy2ZgXKtnBLGMg8OW1CdNmFLqjrxoX6IeicjDU1W9n=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XP9Pb9V0QKc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XP9Pb9V0QKc",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "H-JiId2pQwo",
+      "songTitle": "Yedaaneh (feat. Habib Meftah)",
+      "title": "Yedaaneh (feat. Habib Meftah)",
+      "artists": [
+        "JKC"
+      ],
+      "albumTitle": "Yedaaneh",
+      "albumBrowseId": "MPREb_oxImigdyOhk",
+      "duration": "5:56",
+      "durationSeconds": 356,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/xH1nJw3dFqfO7ssSxXQlYMOeaKeg0KknjCCrTxhbozyqaOk4eUIJl6z6wdbgXuwOqBabiK5y8rCKz4Efhg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H-JiId2pQwo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=H-JiId2pQwo",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=eBc8wR3bl0M,XP9Pb9V0QKc,H-JiId2pQwo",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=eBc8wR3bl0M&list=RDAMVMeBc8wR3bl0M"
+}

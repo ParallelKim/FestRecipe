@@ -1,0 +1,85 @@
+{
+  "artistId": "lilly-eat-machine",
+  "artistName": "릴리 잇 머신",
+  "englishName": "Lilly Eat Machine",
+  "collectedAt": "2026-07-27T00:58:37.703650+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 730,
+    "latestSlotLabel": "12:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.062,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCH41qfbOd2AOzbETVMGnjaw",
+    "name": "Lilly Eat Machine",
+    "subscribers": "167",
+    "channelId": "UCH41qfbOd2AOzbETVMGnjaw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/VFF1Z2TsahVDjKeYEqQncc7iWw8Ev5rHVtVpRwRnfS5DUtzHpz--GAwIwVm6OpmoR7UArsYPPrDZLfMPsA=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCH41qfbOd2AOzbETVMGnjaw"
+  },
+  "tracks": [
+    {
+      "videoId": "g2uJWwQ1uUg",
+      "songTitle": "Bubblegum Disorder",
+      "title": "Bubblegum Disorder",
+      "artists": [
+        "릴리 잇 머신"
+      ],
+      "albumTitle": "Bubblegum Disorder",
+      "albumBrowseId": "MPREb_3OFtL6QzfE3",
+      "duration": "3:10",
+      "durationSeconds": 190,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SCmoterbduEHB37ZoqMrkoKLZvqkqM_zA9W7DBPbFjVsLgUeSNHnr-W_W4N3Wr7uH1JY8jqlRzKFpMhG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g2uJWwQ1uUg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=g2uJWwQ1uUg",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "8iHVd4eiDDY",
+      "songTitle": "Peach Sand",
+      "title": "Peach Sand",
+      "artists": [
+        "릴리 잇 머신"
+      ],
+      "albumTitle": "Eternal Amnesia and Cursed Doomers",
+      "albumBrowseId": "MPREb_mavHagNdhMQ",
+      "duration": "5:02",
+      "durationSeconds": 302,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VFF1Z2TsahVDjKeYEqQncc7iWw8Ev5rHVtVpRwRnfS5DUtzHpz--GAwIwVm6OpmoR7UArsYPPrDZLfMPsA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8iHVd4eiDDY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8iHVd4eiDDY",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "wbYKb9RglSM",
+      "songTitle": "Stone Taped in Summer",
+      "title": "Stone Taped in Summer",
+      "artists": [
+        "릴리 잇 머신"
+      ],
+      "albumTitle": "Eternal Amnesia and Cursed Doomers",
+      "albumBrowseId": "MPREb_mavHagNdhMQ",
+      "duration": "3:00",
+      "durationSeconds": 180,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VFF1Z2TsahVDjKeYEqQncc7iWw8Ev5rHVtVpRwRnfS5DUtzHpz--GAwIwVm6OpmoR7UArsYPPrDZLfMPsA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wbYKb9RglSM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wbYKb9RglSM",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=g2uJWwQ1uUg,8iHVd4eiDDY,wbYKb9RglSM",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=g2uJWwQ1uUg&list=RDAMVMg2uJWwQ1uUg"
+}

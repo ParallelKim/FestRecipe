@@ -1,0 +1,85 @@
+{
+  "artistId": "neu",
+  "artistName": "노이",
+  "englishName": "neu",
+  "collectedAt": "2026-07-27T00:58:39.767655+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 730,
+    "latestSlotLabel": "12:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.046,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCoXXwsH9Ai7GecYluplJLvg",
+    "name": "nEu",
+    "subscribers": "317",
+    "channelId": "UCoXXwsH9Ai7GecYluplJLvg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/u_XSlgVzoA_GD9Uo0XSqgexo9izcPA9mW_AIH6HobRXYT0MCThxmR5QdbjkCvca_CQ57ACqjC2BROc4=w1600-h666-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCoXXwsH9Ai7GecYluplJLvg"
+  },
+  "tracks": [
+    {
+      "videoId": "f9BswzyG1TY",
+      "songTitle": "ピンクマーブル",
+      "title": "ピンクマーブル",
+      "artists": [
+        "ν[NEU]"
+      ],
+      "albumTitle": "LIMIT",
+      "albumBrowseId": "MPREb_BRX2AxN2Tbs",
+      "duration": "4:14",
+      "durationSeconds": 254,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ApfEzaYiC9D_rt1eLctB9bJ0kU0jRC39PRMHUMa_PKvUEf1bgxP2UNMsTI8bv5zERijGyuzn_Tje2dN6Ow=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=f9BswzyG1TY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=f9BswzyG1TY",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "NXGjgGH_BKY",
+      "songTitle": "LIMIT",
+      "title": "LIMIT",
+      "artists": [
+        "ν[NEU]"
+      ],
+      "albumTitle": "LIMIT",
+      "albumBrowseId": "MPREb_BRX2AxN2Tbs",
+      "duration": "4:57",
+      "durationSeconds": 297,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ApfEzaYiC9D_rt1eLctB9bJ0kU0jRC39PRMHUMa_PKvUEf1bgxP2UNMsTI8bv5zERijGyuzn_Tje2dN6Ow=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NXGjgGH_BKY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NXGjgGH_BKY",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "7-wzqChHmHo",
+      "songTitle": "ReaL XXX",
+      "title": "ReaL XXX",
+      "artists": [
+        "ν[NEU]"
+      ],
+      "albumTitle": "LIMIT",
+      "albumBrowseId": "MPREb_BRX2AxN2Tbs",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ApfEzaYiC9D_rt1eLctB9bJ0kU0jRC39PRMHUMa_PKvUEf1bgxP2UNMsTI8bv5zERijGyuzn_Tje2dN6Ow=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7-wzqChHmHo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7-wzqChHmHo",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=f9BswzyG1TY,NXGjgGH_BKY,7-wzqChHmHo",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=f9BswzyG1TY&list=RDAMVMf9BswzyG1TY"
+}

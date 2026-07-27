@@ -1,0 +1,103 @@
+{
+  "artistId": "kirara",
+  "artistName": "키라라",
+  "englishName": "Kirara",
+  "collectedAt": "2026-07-27T00:58:36.183574+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1040,
+    "latestSlotLabel": "17:20",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.631,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCFkM4zj4S76iVYHVjAvXdvQ",
+    "name": "KIRARA",
+    "subscribers": "253",
+    "channelId": "UCFkM4zj4S76iVYHVjAvXdvQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/oPSHG8ltAOjoXyNzhLeV5shUR0u7WrZVZcBBrpvsAzuyaci8jD2NlYIJ3KF_DdIzmVIlkuFOe9YMFlaZ=w1400-h583-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCFkM4zj4S76iVYHVjAvXdvQ"
+  },
+  "tracks": [
+    {
+      "videoId": "jt4nAYgJ7WA",
+      "songTitle": "未成年 - The Minor",
+      "title": "未成年 - The Minor",
+      "artists": [
+        "kirara"
+      ],
+      "albumTitle": "The Minor",
+      "albumBrowseId": "MPREb_Q7e8pECTh2t",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/gQbkJweEJ9g6RamoOGLhXXKRtakjMjOWKUz2SoyXebJpAjfxIlcz6NDEwLc_y1aYZgfi-TChUBJV3v5o=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jt4nAYgJ7WA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jt4nAYgJ7WA",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "OHfuhCXdzCI",
+      "songTitle": "何者 - NANIMONO",
+      "title": "何者 - NANIMONO",
+      "artists": [
+        "kirara"
+      ],
+      "albumTitle": "NANIMONO",
+      "albumBrowseId": "MPREb_B07WF2bBNyc",
+      "duration": "2:44",
+      "durationSeconds": 164,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/GvdtfZFZcT1wlBPBDdHpQowLAX0Hjm9W6UGb57K0SjJRlehxopzinu6FMo5J_b5RFWRAdE5nJG8IR9aj=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OHfuhCXdzCI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OHfuhCXdzCI",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "qn2PKrwHipE",
+      "songTitle": "REVIVE",
+      "title": "REVIVE",
+      "artists": [
+        "kirara"
+      ],
+      "albumTitle": "REVIVE",
+      "albumBrowseId": "MPREb_7ZALK9zPbLW",
+      "duration": "3:23",
+      "durationSeconds": 203,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/J0uiZ0gtFmnQlaOugwtt9soyu9Vent-CyPxdu3PORPOY29rOR9PcDxSa0SVB0D0eH1UpGuj4LIrcABl0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qn2PKrwHipE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qn2PKrwHipE",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "8dLiCVlXVfQ",
+      "songTitle": "Flyaway",
+      "title": "Flyaway",
+      "artists": [
+        "kirara"
+      ],
+      "albumTitle": "Flyaway",
+      "albumBrowseId": "MPREb_BDJIHc20iPQ",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ah2seDaDaiS5qwhd0VsfrCcz-WcdDIS8PrkV_ila4JYcbT-FL_zVBo_00NnyXdWhwMok0Gxsd-DpYGM9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8dLiCVlXVfQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8dLiCVlXVfQ",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=jt4nAYgJ7WA,OHfuhCXdzCI,qn2PKrwHipE,8dLiCVlXVfQ",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=jt4nAYgJ7WA&list=RDAMVMjt4nAYgJ7WA"
+}

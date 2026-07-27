@@ -11,7 +11,14 @@
   },
   {
     "id": "baek-hyeonjin",
-    "name": "백현진"
+    "name": "백현진",
+    "englishName": "Bek Hyunjin",
+    "aliases": [
+      "백현진",
+      "Bek Hyunjin",
+      "Baek Hyeonjin"
+    ],
+    "ytmBrowseId": "UCmAIH_mytd67RxC8OAgLjqQ"
   },
   {
     "id": "band-nah",
@@ -41,12 +48,24 @@
   },
   {
     "id": "cheong-yoil",
-    "name": "청요일"
+    "name": "청요일",
+    "englishName": "CHUNGYOILE",
+    "aliases": [
+      "청요일",
+      "CHUNGYOILE"
+    ],
+    "ytmBrowseId": "UC_IG7QG_1lMz9sxro-wg2RA"
   },
   {
     "id": "chorokbulkkot-sonyeondan",
     "name": "초록불꽃소년단",
-    "englishName": "Chorokbulkkot Sonyeondan"
+    "englishName": "Green Flame Boys",
+    "aliases": [
+      "초록불꽃소년단",
+      "Green Flame Boys",
+      "Chorokbulkkot Sonyeondan"
+    ],
+    "ytmBrowseId": "UC_PVB1TWlVEgIbyMRfV3RFg"
   },
   {
     "id": "confined-white",
@@ -88,7 +107,13 @@
     "id": "hana",
     "name": "하나",
     "englishName": "HANA",
-    "country": "JP"
+    "country": "JP",
+    "aliases": [
+      "하나",
+      "HANA",
+      "ハナ"
+    ],
+    "ytmBrowseId": "UCVznsJmPM4qyjLYyORcu0Tg"
   },
   {
     "id": "hi-fi-unicorn",
@@ -199,7 +224,13 @@
   },
   {
     "id": "peach-truck-hijackers",
-    "name": "피치트럭하이재커스"
+    "name": "피치트럭하이재커스",
+    "englishName": "Peach Truck Hijackers",
+    "aliases": [
+      "피치트럭하이재커스",
+      "Peach Truck Hijackers"
+    ],
+    "ytmBrowseId": "UCaHWa1HLOm_gK2B7Gqz1QtQ"
   },
   {
     "id": "pixies",
@@ -230,7 +261,13 @@
   {
     "id": "seisumi",
     "name": "세이수미",
-    "englishName": "SEISUMI"
+    "englishName": "Say Sue Me",
+    "aliases": [
+      "세이수미",
+      "SEISUMI",
+      "Say Sue Me"
+    ],
+    "ytmBrowseId": "UCnmRY2xwlBPN2zbk1CspmhA"
   },
   {
     "id": "silica-gel",
@@ -244,7 +281,13 @@
   },
   {
     "id": "sinin-ryu",
-    "name": "신인류"
+    "name": "신인류",
+    "englishName": "Shin In Ryu",
+    "aliases": [
+      "신인류",
+      "Shin In Ryu"
+    ],
+    "ytmBrowseId": "UC9S53vzOhZLu2aO_aPTagjQ"
   },
   {
     "id": "socialclub-hyangwu",
@@ -323,7 +366,13 @@
   {
     "id": "we-steal-oranges",
     "name": "감귤서리단",
-    "englishName": "WE STEAL ORANGES"
+    "englishName": "westealoranges",
+    "aliases": [
+      "감귤서리단",
+      "WE STEAL ORANGES",
+      "westealoranges"
+    ],
+    "ytmBrowseId": "UCJ0h_BBoEGOg0Yr6WmUK-fA"
   },
   {
     "id": "xdinary-heroes",
@@ -338,6 +387,13 @@
   {
     "id": "yunmachi",
     "name": "윤마치",
-    "englishName": "Yunmachi"
+    "englishName": "MRCH",
+    "aliases": [
+      "윤마치",
+      "Yunmachi",
+      "MRCH",
+      "윤마치 (MRCH)"
+    ],
+    "ytmBrowseId": "UCRaBisCw9HzGk0cTbvAF-FQ"
   }
 ]

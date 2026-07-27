@@ -1,0 +1,82 @@
+{
+  "artistId": "simile-land",
+  "artistName": "심아일랜드",
+  "englishName": "SIMILE LAND",
+  "collectedAt": "2026-07-27T00:58:46.050652+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 720,
+    "latestSlotLabel": "12:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.0,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCl5rb_wxAFKn9h73NIxH-Dg",
+    "name": "SIMILE LAND",
+    "subscribers": "2.74K",
+    "channelId": "UCZOOOLMT3HID0YEpG2L8C8g",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/37DNI-7rPKRpXppXI06LcRZAvGoHIl-9GWxYxo3dL7bHMZ1-wk0wMzsXXfkDx0cWjIO0-aZtinwPs0Vm=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCl5rb_wxAFKn9h73NIxH-Dg"
+  },
+  "tracks": [
+    {
+      "videoId": "6WJNzHjReVQ",
+      "songTitle": "Do Re Mi Fa Sol",
+      "title": "Do Re Mi Fa Sol",
+      "artists": [
+        "SIMILE LAND"
+      ],
+      "albumTitle": "Cheol-Su",
+      "albumBrowseId": "MPREb_SFPfFm0GJ6d",
+      "duration": "5:19",
+      "durationSeconds": 319,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EwXAK7Z4mYMqJ67ReO7zw2i8K3HO0EuMjoaXgQfVz8PK1wn7DU8gs7Y-oAZLOXWtaiTNtNWdTfxoCDUg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6WJNzHjReVQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6WJNzHjReVQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "uBhH31k06Bk",
+      "songTitle": "나락",
+      "title": "나락",
+      "artists": [
+        "SIMILE LAND"
+      ],
+      "albumTitle": "Young-Hee",
+      "albumBrowseId": "MPREb_B1wAqQrKwg3",
+      "duration": "4:22",
+      "durationSeconds": 262,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FnuBAjxPoK6G6ZfIfX2aU1E8PPaOFukepoXEr-tInveBTdhTVWzYxFTbN9OOrtnzwFHpwBVlAHWJqPohWQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uBhH31k06Bk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=uBhH31k06Bk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "d0AipfDB5GE",
+      "songTitle": "Find my kid",
+      "title": "Find my kid",
+      "artists": [
+        "SIMILE LAND"
+      ],
+      "albumTitle": "Find my kid",
+      "albumBrowseId": "MPREb_ONxaX2InOIa",
+      "duration": "4:44",
+      "durationSeconds": 284,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7rVeh2II6zTHgfigz5hVs9CKZsUkqApqsqhR6tqlmwHa_3e9TAKtpe2DjbSBnr_tnmdTpwaxNUTBdIrAbA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=d0AipfDB5GE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=d0AipfDB5GE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=6WJNzHjReVQ,uBhH31k06Bk,d0AipfDB5GE",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=6WJNzHjReVQ&list=RDAMVM6WJNzHjReVQ"
+}

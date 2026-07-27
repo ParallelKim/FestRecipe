@@ -1,0 +1,83 @@
+{
+  "artistId": "mono-no-aware",
+  "artistName": "모노 노 아와레",
+  "englishName": "MONO NO AWARE",
+  "collectedAt": "2026-07-27T00:58:39.104986+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 870,
+    "latestSlotLabel": "14:30",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.323,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC-D_OF-GxVFM0kk4EuCX7cw",
+    "name": "MONO NO AWARE",
+    "subscribers": "39.2K",
+    "channelId": "UCJVX3fQv1hP_nGXaYBwUl3Q",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/3jOayImGXrkVNk70ghD3rOLHFvRL7xE9ugMeRcsmsefcgnNeukxBh7uSjbsceFgz-1Kysv3Sp2R7CCU=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC-D_OF-GxVFM0kk4EuCX7cw"
+  },
+  "tracks": [
+    {
+      "videoId": "4RDmQ4kQOSM",
+      "songTitle": "もうけもん - Mokemon",
+      "title": "もうけもん - Mokemon",
+      "artists": [
+        "MONO NO AWARE"
+      ],
+      "albumTitle": "Mokemon",
+      "albumBrowseId": "MPREb_XJmikbZQ6pQ",
+      "duration": "1:59",
+      "durationSeconds": 119,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rtxJr_FXLtDYIS1HyFvItSaEHTM2c4w6h-xISUEgSgPguOwZ--S7xv7fIZXoaUsjzOX-kVPMofDRdPgP=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4RDmQ4kQOSM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4RDmQ4kQOSM",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "miSG7qXS4QA",
+      "songTitle": "かむかもしかもにどもかも！ - Kamukamo-Shikamo-Nidomokamo!!",
+      "title": "かむかもしかもにどもかも！ - Kamukamo-Shikamo-Nidomokamo!!",
+      "artists": [
+        "MONO NO AWARE"
+      ],
+      "albumTitle": "The Irreplaceable",
+      "albumBrowseId": "MPREb_pHpUVjk6HwE",
+      "duration": "2:17",
+      "durationSeconds": 137,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WxHSxWU6e-bT3MZ0TyX2QfpiujF2zSM6IGgq93zbkL1R36Rk4F9cIrD3N9NLaI6MV4cJyVX0BlWZ_bg7=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=miSG7qXS4QA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=miSG7qXS4QA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "pNKZI2yJCqM",
+      "songTitle": "ゾッコン - Zokkon",
+      "title": "ゾッコン - Zokkon",
+      "artists": [
+        "MONO NO AWARE"
+      ],
+      "albumTitle": "Ark with a Line",
+      "albumBrowseId": "MPREb_9N8pGRrxrlr",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/upNQbUZEEIcot2DrgWjCHrAbg7SPZXZdEHKwcmkk1ucNTKFICaaAo6zosTOtwjMfe29hAs_rJvcAb8bC=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pNKZI2yJCqM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pNKZI2yJCqM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=4RDmQ4kQOSM,miSG7qXS4QA,pNKZI2yJCqM",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=4RDmQ4kQOSM&list=RDAMVM4RDmQ4kQOSM"
+}

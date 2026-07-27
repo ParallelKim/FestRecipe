@@ -1,0 +1,103 @@
+{
+  "artistId": "turtle-island",
+  "artistName": "터틀 아일랜드",
+  "englishName": "TURTLE ISLAND",
+  "collectedAt": "2026-07-27T00:58:52.780423+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1060,
+    "latestSlotLabel": "17:40",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.677,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCefWl1F1ZBfx1JVRtvNg15A",
+    "name": "TURTLE ISLAND",
+    "subscribers": "525",
+    "channelId": "UCefWl1F1ZBfx1JVRtvNg15A",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/NCDS3P-MHDLBaJ4ewlowOvKyzdQzGEEwL5uYFqNDgvB3up5KR7SkyQMaBX-veJb4gcLWiBQ0Pg600RRr5g=w1400-h583-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCefWl1F1ZBfx1JVRtvNg15A"
+  },
+  "tracks": [
+    {
+      "videoId": "EGoXdRjlFzg",
+      "songTitle": "地獄極楽 - HELL PARADISE",
+      "title": "地獄極楽 - HELL PARADISE",
+      "artists": [
+        "TURTLE ISLAND"
+      ],
+      "albumTitle": "HELL PARADISE",
+      "albumBrowseId": "MPREb_QP8EXxZnMFm",
+      "duration": "6:57",
+      "durationSeconds": 417,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NCDS3P-MHDLBaJ4ewlowOvKyzdQzGEEwL5uYFqNDgvB3up5KR7SkyQMaBX-veJb4gcLWiBQ0Pg600RRr5g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EGoXdRjlFzg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EGoXdRjlFzg",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "YFSugwTpQxw",
+      "songTitle": "この世讃歌 - HYMN OF THE PRESENT LIFE",
+      "title": "この世讃歌 - HYMN OF THE PRESENT LIFE",
+      "artists": [
+        "TURTLE ISLAND"
+      ],
+      "albumTitle": "KALAKALA KANKAN",
+      "albumBrowseId": "MPREb_fGRMOSRiiH2",
+      "duration": "5:05",
+      "durationSeconds": 305,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2KmC1-ufLuDe3k3RdXczQ6pVnVleOs6SlpAyZM7YGxu5tupJ9ueomJl9LP0wX_RX-O0meJB7sy10xeLG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YFSugwTpQxw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YFSugwTpQxw",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "AFfWjZlgCas",
+      "songTitle": "Enter The Dragon",
+      "title": "Enter The Dragon",
+      "artists": [
+        "TURTLE ISLAND"
+      ],
+      "albumTitle": "Enter The Dragon",
+      "albumBrowseId": "MPREb_QLLGeSuBjG0",
+      "duration": "6:09",
+      "durationSeconds": 369,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QvFWAM30bBbv6mTQZYXESCIyYmGHWyHa6aign_fH9xX8DIanmuzq5VTUiH0-A3LGGNfBrcfv3y8U63Jz=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AFfWjZlgCas",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=AFfWjZlgCas",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "uacdR-2Mo1Y",
+      "songTitle": "宇宙の真ん中 - The center of the universe",
+      "title": "宇宙の真ん中 - The center of the universe",
+      "artists": [
+        "TURTLE ISLAND"
+      ],
+      "albumTitle": "KALAKALA KANKAN",
+      "albumBrowseId": "MPREb_fGRMOSRiiH2",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2KmC1-ufLuDe3k3RdXczQ6pVnVleOs6SlpAyZM7YGxu5tupJ9ueomJl9LP0wX_RX-O0meJB7sy10xeLG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uacdR-2Mo1Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=uacdR-2Mo1Y",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=EGoXdRjlFzg,YFSugwTpQxw,AFfWjZlgCas,uacdR-2Mo1Y",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=EGoXdRjlFzg&list=RDAMVMEGoXdRjlFzg"
+}

@@ -1,0 +1,102 @@
+{
+  "artistId": "we-steal-oranges",
+  "artistName": "감귤서리단",
+  "englishName": "westealoranges",
+  "collectedAt": "2026-07-27T00:58:53.059449+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 920,
+    "latestSlotLabel": "15:20",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.446,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCJ0h_BBoEGOg0Yr6WmUK-fA",
+    "name": "westealoranges",
+    "subscribers": "210",
+    "channelId": "UCJ0h_BBoEGOg0Yr6WmUK-fA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/6d5xVR-kXtdx14aIHylJChHcI8aLwey75_xgHWW8Z2RwWbc4y7ArUEwy9VemqDv71cvi3cHmLkvTzh8=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCJ0h_BBoEGOg0Yr6WmUK-fA"
+  },
+  "tracks": [
+    {
+      "videoId": "2_GIpjEovng",
+      "songTitle": "Paches",
+      "title": "Paches",
+      "artists": [
+        "감귤서리단"
+      ],
+      "albumTitle": "Paches",
+      "albumBrowseId": "MPREb_t0JAIEr6dvH",
+      "duration": "3:48",
+      "durationSeconds": 228,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HVD-4GeeTDDcEt4ohMfZ6RflYAxbqrWZIQ-H3MHdz8CQ3Nfxp3z6pUlM_1nXZWmIPn2VokgBt8jc4xWr4Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2_GIpjEovng",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2_GIpjEovng",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "FAFd4-qz8v8",
+      "songTitle": "Orange Savage",
+      "title": "Orange Savage",
+      "artists": [
+        "감귤서리단"
+      ],
+      "albumTitle": "Orange Savage",
+      "albumBrowseId": "MPREb_Q7v8i9ZUQSQ",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uWjBlQTuGULNx2L03L6dE5c92M1C-jomYQp6axCC2gAQfMMH08k6v4YIJq6PmZw_t2HM82cm9uOHK9E=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FAFd4-qz8v8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FAFd4-qz8v8",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "LGOnxle76PQ",
+      "songTitle": "Wet Together",
+      "title": "Wet Together",
+      "artists": [
+        "감귤서리단"
+      ],
+      "albumTitle": "Wet Together",
+      "albumBrowseId": "MPREb_mBKKiRAW1Gj",
+      "duration": "4:34",
+      "durationSeconds": 274,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lRT7Ph5_qdxRhgNBl9NGAgrLbbKBJ13tjhoUCCTFWdrituwDntKy4t2tnPZ7RCSV0j7_t1bhWQlEXW39kQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LGOnxle76PQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LGOnxle76PQ",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "mGRheNKA3YM",
+      "songTitle": "M.K. EXPRESS",
+      "title": "M.K. EXPRESS",
+      "artists": [
+        "westealoranges"
+      ],
+      "albumTitle": "AoB Compilation Album Vol.2 : BREAKOUT",
+      "albumBrowseId": "MPREb_uZrzWmkhThs",
+      "duration": null,
+      "durationSeconds": null,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Dm1qyHMFhatWuCnm52QnIyie7c_akg0ywbcAa71smLOwiPob-iNFCpr4HBXrUdaR0BJ0fjQJ9TKuYe_Y=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mGRheNKA3YM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mGRheNKA3YM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=2_GIpjEovng,FAFd4-qz8v8,LGOnxle76PQ,mGRheNKA3YM",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=2_GIpjEovng&list=RDAMVM2_GIpjEovng"
+}

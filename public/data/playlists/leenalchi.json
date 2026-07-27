@@ -1,0 +1,118 @@
+{
+  "artistId": "leenalchi",
+  "artistName": "이날치",
+  "englishName": "LEENALCHI",
+  "collectedAt": "2026-07-27T00:58:37.515861+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1200,
+    "latestSlotLabel": "20:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.908,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCNyk_yTGZz7h59MzKVO5Xjw",
+    "name": "LEENALCHI",
+    "subscribers": "78.2K",
+    "channelId": "UCat--P6c-FHwYHRXWZCzclA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/ULRjWZP3mnsHlizfMD3xPPpcmYauu1_CsuKpL9xApphW13Gnznp5jMeCQTq69dBMo9rnkhgCiC0hhGA=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCNyk_yTGZz7h59MzKVO5Xjw"
+  },
+  "tracks": [
+    {
+      "videoId": "Nrsfo6vZrjA",
+      "songTitle": "Bird",
+      "title": "Bird",
+      "artists": [
+        "LEENALCHI"
+      ],
+      "albumTitle": "Jeongnyeon: The Star is Born, Pt. 1 : Bird (Original Soundtrack)",
+      "albumBrowseId": "MPREb_txaCODEKGW6",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8ABKT3zBrU9qS5BKAuJyTMcb2ch_4RVi3iTpBfYYchPXsSio7FCXONIvaZ3duEn_rm2uz6HeCmTyb-3T=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Nrsfo6vZrjA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Nrsfo6vZrjA",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "Zt9tof7mARU",
+      "songTitle": "Look At Me Look At Me",
+      "title": "Look At Me Look At Me",
+      "artists": [
+        "LEENALCHI"
+      ],
+      "albumTitle": "Here Comes That Crow",
+      "albumBrowseId": "MPREb_eNp3IbznZgu",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3LUZQ-BF5MKZSrxpwcW0zIukW8TMELazhT3hsZCpa-9LfaLY6R2PcHRqtwx4KK_TD6adJFSwH9qPPRsxMQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Zt9tof7mARU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Zt9tof7mARU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "1WoDW9PBP3Q",
+      "songTitle": "Here Comes That Crow",
+      "title": "Here Comes That Crow",
+      "artists": [
+        "LEENALCHI"
+      ],
+      "albumTitle": "Here Comes That Crow",
+      "albumBrowseId": "MPREb_jhc9mezdcjb",
+      "duration": "2:49",
+      "durationSeconds": 169,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fEY4c_e9F4zaDCvfN0RvJr7I2RE9oUqiPZDxIRqUu6AIg_wJdhAjhbKafMcr6xSOA_d7P5EpGF70raMI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1WoDW9PBP3Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1WoDW9PBP3Q",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "5ap4xDCxcQA",
+      "songTitle": "Bird",
+      "title": "Bird",
+      "artists": [
+        "LEENALCHI"
+      ],
+      "albumTitle": "Bird",
+      "albumBrowseId": "MPREb_plZNOtIs3tx",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/CXIyjTpOpeEvVFpUukfuPr5KYLQipY0juB4g7VRNrmaW5m_7uRKju1xFDaGtrG-REXvFZqM3tG5TNWJj=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5ap4xDCxcQA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5ap4xDCxcQA",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "sHN3BJbESeU",
+      "songTitle": "Hihi Haha",
+      "title": "Hihi Haha",
+      "artists": [
+        "LEENALCHI"
+      ],
+      "albumTitle": "Here Comes That Crow",
+      "albumBrowseId": "MPREb_eNp3IbznZgu",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3LUZQ-BF5MKZSrxpwcW0zIukW8TMELazhT3hsZCpa-9LfaLY6R2PcHRqtwx4KK_TD6adJFSwH9qPPRsxMQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sHN3BJbESeU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sHN3BJbESeU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Nrsfo6vZrjA,Zt9tof7mARU,1WoDW9PBP3Q,5ap4xDCxcQA,sHN3BJbESeU",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Nrsfo6vZrjA&list=RDAMVMNrsfo6vZrjA"
+}

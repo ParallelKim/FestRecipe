@@ -150,7 +150,11 @@ def default_recognition() -> dict:
 
 
 def popular_tracks_from_ytm(yt: YTMusic, browse_id: str, limit: int = 30) -> list[dict]:
-    info = yt.get_artist(browse_id)
+    try:
+        info = yt.get_artist(browse_id) or {}
+    except Exception as e:
+        print(f"    [warn] get_artist({browse_id}): {e}")
+        return []
     songs = info.get("songs") or {}
     browse = songs.get("browseId")
     raw = []
@@ -232,15 +236,22 @@ def build_playlist_for_artist(
     if len(selected) < song_count:
         # fallback: releases.json order preferring songs_playlist then year
         have = {t["videoId"] for t in selected}
+        have_titles = {(t.get("songTitle") or t.get("title") or "").strip().lower() for t in selected}
+        # songs_playlist / songs_search first (인기순에 가까움), 그다음 나머지
+        releases = list(releases_doc.get("releases") or [])
+        releases.sort(key=lambda r: 0 if r.get("source") in {"songs_playlist", "songs_search", "songs_top"} else 1)
         fallback = [
-            r for r in releases_doc.get("releases") or []
+            r for r in releases
             if r.get("videoId") and r["videoId"] not in have and not r.get("isLiveRelease")
         ]
         for r in fallback:
+            title = (r.get("songTitle") or r.get("title") or "").strip()
+            if title.lower() in have_titles:
+                continue
             selected.append({
                 "videoId": r["videoId"],
-                "songTitle": r.get("songTitle") or r.get("title"),
-                "title": r.get("title") or r.get("songTitle"),
+                "songTitle": title,
+                "title": r.get("title") or title,
                 "artists": r.get("artists"),
                 "albumTitle": r.get("albumTitle"),
                 "albumBrowseId": r.get("albumBrowseId"),
@@ -253,6 +264,8 @@ def build_playlist_for_artist(
                 "youtubeMusicUrl": r.get("youtubeMusicUrl") or f"https://music.youtube.com/watch?v={r['videoId']}",
                 "source": "releases_fallback",
             })
+            have.add(r["videoId"])
+            have_titles.add(title.lower())
             if len(selected) >= song_count:
                 break
 
@@ -329,10 +342,14 @@ def main():
             print(f"  [ERR] {e}")
             failed.append({"artistId": aid, "error": str(e)})
 
+    # --artist-id 부분 실행이어도 public playlists 전체를 기준으로 index 유지
+    all_ids = sorted(
+        p.stem for p in PUBLIC_PLAYLISTS.glob("*.json") if p.name != "index.json"
+    )
     index = {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
-        "count": len(built),
-        "artists": [b["artistId"] for b in built],
+        "count": len(all_ids),
+        "artists": all_ids,
         "tierSongCounts": TIER_SONG_COUNTS,
         "recognitionRule": {
             "withTimetable": "later slot => higher tier (high=5, mid=4, low=3)",

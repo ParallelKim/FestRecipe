@@ -1,0 +1,116 @@
+{
+  "artistId": "xdinary-heroes",
+  "artistName": "엑스디너리 히어로즈",
+  "englishName": "Xdinary Heroes",
+  "collectedAt": "2026-07-27T00:58:53.773200+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1260,
+    "latestSlotLabel": "21:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.923,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCbDGasyPNqfy4EIr1HhUuOg",
+    "name": "Xdinary Heroes",
+    "subscribers": "1.25M",
+    "channelId": "UCO9GhtdQcCRf67GIdSQ0HNQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/IT6GO4cxUp6uJX-qAamtXI29NVimQBX3yH6FAgoRSZ-RuriaEB_P7hpMZA7Uw6Kl8jz20ODeJevrMFVp=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCbDGasyPNqfy4EIr1HhUuOg"
+  },
+  "tracks": [
+    {
+      "videoId": "Tf0-4tzskLA",
+      "songTitle": "Voyager",
+      "title": "Voyager",
+      "artists": [
+        "Xdinary Heroes"
+      ],
+      "albumTitle": "DEAD AND",
+      "albumBrowseId": "MPREb_eCUMsijxm0U",
+      "duration": "3:55",
+      "durationSeconds": 235,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/70h8cef6K1EtNGQq9arRv3u9Jx4rhs97t2HTrDdQDkGt2AORVupFM248lzrBRnxdhDPl_-v4X8fOqOpMdw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Tf0-4tzskLA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Tf0-4tzskLA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "YFFW0PZFUfY",
+      "songTitle": "Save me",
+      "title": "Save me",
+      "artists": [
+        "Xdinary Heroes"
+      ],
+      "albumTitle": "Open ♭eta v6.3",
+      "albumBrowseId": "MPREb_iESgpyGXm1s",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/sS7ypjp2Rpg2z2Rbg75W7VExXWdoessbcht82jvsvmENeKPWdzmYniN2D4xOzr5iCpfseonjTb7KyYiwDA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YFFW0PZFUfY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YFFW0PZFUfY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dyuTQ2yHDaE",
+      "songTitle": "Strawberry Cake",
+      "title": "Strawberry Cake",
+      "artists": [
+        "Xdinary Heroes"
+      ],
+      "albumTitle": "Hello, world!",
+      "albumBrowseId": "MPREb_MBSx5AePFoE",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/c7GcAQANMoK-8YgKarxrZ9jY-2BnwItfsBE-icuxW2067OvULTt5yMgh6iuC-X7yBhcDJuYCyhWVaSK9GA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dyuTQ2yHDaE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dyuTQ2yHDaE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3PafVS5HZeg",
+      "songTitle": "X room",
+      "title": "X room",
+      "artists": [
+        "Xdinary Heroes"
+      ],
+      "albumTitle": "X room",
+      "albumBrowseId": "MPREb_NbJ5Qk0JANR",
+      "duration": "3:36",
+      "durationSeconds": 216,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vlL4DRtESMvJ12YZdVBLnDh1QVIyjXawERDahAqatdc8Oh3rbyQZuZAkG8CL7f_ODXJgOkeeEe15u4eb=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3PafVS5HZeg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3PafVS5HZeg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "f_Fb0MHpsoI",
+      "songTitle": "Lost and Found",
+      "title": "Lost and Found",
+      "artists": [
+        "Xdinary Heroes"
+      ],
+      "albumTitle": "LXVE to DEATH",
+      "albumBrowseId": "MPREb_sNQIU26mmvb",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Plb5EYtYPF2voZB5naJ2kkNgREfR9h6-FyWydETu_GRqe8yM26bFn4m0EPQIS0wTEUYegr73G_V-5tBU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=f_Fb0MHpsoI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=f_Fb0MHpsoI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Tf0-4tzskLA,YFFW0PZFUfY,dyuTQ2yHDaE,3PafVS5HZeg,f_Fb0MHpsoI",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Tf0-4tzskLA&list=RDAMVMTf0-4tzskLA"
+}

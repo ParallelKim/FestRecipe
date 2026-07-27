@@ -1,0 +1,120 @@
+{
+  "artistId": "flesh-juicer",
+  "artistName": "플레쉬 쥬서",
+  "englishName": "Flesh Juicer",
+  "collectedAt": "2026-07-27T00:58:32.368469+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1200,
+    "latestSlotLabel": "20:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.846,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCrogQiCc0y6ePY_m4VcY0mA",
+    "name": "Flesh Juicer",
+    "subscribers": "47.1K",
+    "channelId": "UC4edyYvPDUPx3mlIrBUSZ0A",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/bWrDZdUA1D-Za15WRSEiwfhbi5QKnNdxdxbqN-aviBfcVvJdoC7S0DZ6oOI83IhJc70MVDzaBQ=w1235-h514-l90-rj-dckWKMay0F",
+    "url": "https://music.youtube.com/channel/UCrogQiCc0y6ePY_m4VcY0mA"
+  },
+  "tracks": [
+    {
+      "videoId": "VBftbcR3PP0",
+      "songTitle": "愛你 (超深情版)",
+      "title": "愛你 (超深情版)",
+      "artists": [
+        "陳芳語",
+        "血肉果汁機"
+      ],
+      "albumTitle": "歡迎美女來到野獸脫口秀",
+      "albumBrowseId": "MPREb_KcHjFUwziCF",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/h1T7LNj0q-WmXXk15n0CBKoa04nhGJ8BcEXZzG2Jtb1AjoN4-2cT97shtfEYrBHaUASieyAgrcm1BOrU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VBftbcR3PP0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VBftbcR3PP0",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "EHtSLHK9p6Y",
+      "songTitle": "Turn on the Sun",
+      "title": "Turn on the Sun",
+      "artists": [
+        "Flesh Juicer"
+      ],
+      "albumTitle": "THE FJ's horror story:The door of old mansion",
+      "albumBrowseId": "MPREb_iZ16rJYT8RG",
+      "duration": "3:09",
+      "durationSeconds": 189,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tb_E3aWB1yJaYg0ny4NMqLohzxvSL3cjx1OeFo1bW1m6nMNQEFP-3BleunssrZq-OxKzDYfmFke8KRnX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EHtSLHK9p6Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EHtSLHK9p6Y",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "91DtS828ouQ",
+      "songTitle": "打開太陽 (美聲版)",
+      "title": "打開太陽 (美聲版)",
+      "artists": [
+        "陳芳語",
+        "血肉果汁機"
+      ],
+      "albumTitle": "打開太陽 (美聲版)",
+      "albumBrowseId": "MPREb_ojAoakjNWce",
+      "duration": "4:08",
+      "durationSeconds": 248,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RuFPeqcGJ21ofpzMZZA8tmFiiG0_jYEBTaYutB4ZVn7lWd-gcwZmUD9Mvi6wUtmSAMAmm2j1GaPteVc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=91DtS828ouQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=91DtS828ouQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "y4d3ZypWgLA",
+      "songTitle": "Turn the sun Off",
+      "title": "Turn the sun Off",
+      "artists": [
+        "Flesh Juicer"
+      ],
+      "albumTitle": "Fairy Tales of the Ocean Deep",
+      "albumBrowseId": "MPREb_6AGJtV7lZcL",
+      "duration": "5:41",
+      "durationSeconds": 341,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mwDblhhHPtq1h4KVg3tcxzt0fYrON8o5go1hFM2NtHbZi40p16QZrEQTlkuYt9u12jzQNFhxv7jFVFEx=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=y4d3ZypWgLA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=y4d3ZypWgLA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "SigQvWyi3Nc",
+      "songTitle": "Tiger Lord",
+      "title": "Tiger Lord",
+      "artists": [
+        "Flesh Juicer"
+      ],
+      "albumTitle": "GOLDEN TAIZI BRO",
+      "albumBrowseId": "MPREb_IHGk1KDGchV",
+      "duration": "3:06",
+      "durationSeconds": 186,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iGDUk31aXPMnz8LLkpclkgukO4mIcTF6vljYve00mte49ZAFCy3msHEpHsbuOWrrmLLtBPo9dqkhCJwM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SigQvWyi3Nc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SigQvWyi3Nc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VBftbcR3PP0,EHtSLHK9p6Y,91DtS828ouQ,y4d3ZypWgLA,SigQvWyi3Nc",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VBftbcR3PP0&list=RDAMVMVBftbcR3PP0"
+}

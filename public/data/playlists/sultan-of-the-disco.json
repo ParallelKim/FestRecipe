@@ -1,0 +1,118 @@
+{
+  "artistId": "sultan-of-the-disco",
+  "artistName": "술탄오브더디스코",
+  "englishName": "Sultan Of The Disco",
+  "collectedAt": "2026-07-27T00:58:47.605445+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1260,
+    "latestSlotLabel": "21:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.954,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCfY9T6xD-ZNscDnZDEmJQWA",
+    "name": "Sultan Of The Disco",
+    "subscribers": "35.9K",
+    "channelId": "UC39XOM4Dhzv8teAR9E7IJUA",
+    "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_k0UXjBGotk18EoNp9hbtsdZhGvTmfp6L21dYUPrcPkiuU=w921-h383-l90-rj-dclWOMaqUG",
+    "url": "https://music.youtube.com/channel/UCfY9T6xD-ZNscDnZDEmJQWA"
+  },
+  "tracks": [
+    {
+      "videoId": "0JrApoTU4xY",
+      "songTitle": "Shining Road",
+      "title": "Shining Road",
+      "artists": [
+        "Sultan Of The Disco"
+      ],
+      "albumTitle": "Easy Listening For Love",
+      "albumBrowseId": "MPREb_zUKkWh8Z49h",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WMF-K9qw_PJvP0dcVZkB0buRsQtHOi9DfkYY81GeLqtnzZO6jol0Typ9s5w4DqdKcoCAd0_9Trv64TZ_=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0JrApoTU4xY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0JrApoTU4xY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7C806FAyPR4",
+      "songTitle": "Countless Nights",
+      "title": "Countless Nights",
+      "artists": [
+        "Sultan Of The Disco"
+      ],
+      "albumTitle": "Groove Official",
+      "albumBrowseId": "MPREb_l7uRaiiO8pe",
+      "duration": "6:55",
+      "durationSeconds": 415,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ySzbC7IhF0YV3F4JC9ta5ZwNlcBynQCwW4YAHg8H4UEHwrpVnC3MKc-s3-bRIOJMmO325Cz26oRsvfQs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7C806FAyPR4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7C806FAyPR4",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "G0T88Vp4LYM",
+      "songTitle": "Caravan",
+      "title": "Caravan",
+      "artists": [
+        "Sultan Of The Disco"
+      ],
+      "albumTitle": "The Golden Age",
+      "albumBrowseId": "MPREb_BBBNn0qEg4n",
+      "duration": "4:45",
+      "durationSeconds": 285,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mRGpcSDUGjOf4L6SsUetgpX6VwQyowx1yKy2WgzQtbtdP-uFiZO_txUCQUd-rM-Znpoph53dZ4FTjR1u=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=G0T88Vp4LYM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=G0T88Vp4LYM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "2NTYplgNwvI",
+      "songTitle": "Hide Out",
+      "title": "Hide Out",
+      "artists": [
+        "Sultan Of The Disco"
+      ],
+      "albumTitle": "Aliens",
+      "albumBrowseId": "MPREb_NL6CvMjS6hX",
+      "duration": "4:18",
+      "durationSeconds": 258,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ze0BPg1DtwYJaG2t_UZNwcVYmmgUbKb_mlqPrdCwYOcjjCQmwNxbmqDn5EAsxPDKvef3FQPRSGNfQ55r=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2NTYplgNwvI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2NTYplgNwvI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "llCAbqg8flc",
+      "songTitle": "Oriental Disco Express",
+      "title": "Oriental Disco Express",
+      "artists": [
+        "Sultan Of The Disco"
+      ],
+      "albumTitle": "Oriental Disco Express",
+      "albumBrowseId": "MPREb_y4j4JkeZO9w",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/e2eTlJpMPudzLdOB-dEM-hNrGR_5uqaPSl3XFy5ztxlXHguXG3ncs-ihQ43LWLBCEyASH-5nPX2t0A9x=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=llCAbqg8flc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=llCAbqg8flc",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "single"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=0JrApoTU4xY,7C806FAyPR4,G0T88Vp4LYM,2NTYplgNwvI,llCAbqg8flc",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=0JrApoTU4xY&list=RDAMVM0JrApoTU4xY"
+}

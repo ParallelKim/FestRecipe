@@ -1,0 +1,83 @@
+{
+  "artistId": "confined-white",
+  "artistName": "컨파인드 화이트",
+  "englishName": "Confined White",
+  "collectedAt": "2026-07-27T00:58:29.590920+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 720,
+    "latestSlotLabel": "12:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.031,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC8jlsVo44OrIpeRGstFUFyA",
+    "name": "Confined White",
+    "subscribers": "17.2K",
+    "channelId": "UCrTSlzWXgMpcifh_7_qzZfA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/sfvpSiIIWIUXbRZikyY5Ci6gdlMEFFSGNMDZPIYAF8rdWkU18_CnlnTYLwyJ-rUTyzr8_tHaEwgvOQ=w1000-h416-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC8jlsVo44OrIpeRGstFUFyA"
+  },
+  "tracks": [
+    {
+      "videoId": "YhfwjoR2Zs8",
+      "songTitle": "Spark",
+      "title": "Spark",
+      "artists": [
+        "Confined White"
+      ],
+      "albumTitle": "Spark / We are",
+      "albumBrowseId": "MPREb_BmzGK54VkCf",
+      "duration": "4:30",
+      "durationSeconds": 270,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8ZC9X-K1bieYmQ5jj2DhYWou8qp7u0tKvITgGqP1XURG8pkyLbrHJ3XZA3OnHvp5qbh8JwtK2bJVPZcUYA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YhfwjoR2Zs8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YhfwjoR2Zs8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "rPeOForNWmw",
+      "songTitle": "When You See Me Shine",
+      "title": "When You See Me Shine",
+      "artists": [
+        "Confined White"
+      ],
+      "albumTitle": "pool vol. 7 - When You See Me Shine",
+      "albumBrowseId": "MPREb_zgZKyI4DaJt",
+      "duration": "4:45",
+      "durationSeconds": 285,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/T7xtCgQPKWmnuIQdeD2B3MTHZZJiAJ1FkTO_iW246ZedW930IHICj9fxVx9tNZDbhzI184t5nlazeHsZ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rPeOForNWmw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rPeOForNWmw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Kw-kk3ygFNM",
+      "songTitle": "Setlist",
+      "title": "Setlist",
+      "artists": [
+        "Confined White"
+      ],
+      "albumTitle": "Setlist",
+      "albumBrowseId": "MPREb_C7TsEnn4kbH",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/el_oHU174lgYqNjI54-hkQUbiXppLnw0j-_jNFwinoh0lToW_ycPUjOVvf_DUi_7UgLn6BEWxfIt6L8UqQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Kw-kk3ygFNM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Kw-kk3ygFNM",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=YhfwjoR2Zs8,rPeOForNWmw,Kw-kk3ygFNM",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=YhfwjoR2Zs8&list=RDAMVMYhfwjoR2Zs8"
+}

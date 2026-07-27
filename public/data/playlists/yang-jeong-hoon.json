@@ -1,0 +1,85 @@
+{
+  "artistId": "yang-jeong-hoon",
+  "artistName": "양정훈",
+  "englishName": "YANG JEONG HOON",
+  "collectedAt": "2026-07-27T00:58:54.208258+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 850,
+    "latestSlotLabel": "14:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.308,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCYOoZe9eBXaGA3M4hmqkpDg",
+    "name": "Yang Jeong Hoon",
+    "subscribers": "21.9K",
+    "channelId": "UCvqUTbzaRS3p3XrF0XH1Zkw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/H8xLbTjwy-lTxLmsLiel0PEc2jhmP69QLx4Ei0Y7YlzRlAbgjeFWq0M5oHO5Up1Hb8yvqXT8=w1760-h733-l90-rj-dcnWCSji0H",
+    "url": "https://music.youtube.com/channel/UCYOoZe9eBXaGA3M4hmqkpDg"
+  },
+  "tracks": [
+    {
+      "videoId": "KPt3dP8TnU4",
+      "songTitle": "Can I Be Me",
+      "title": "Can I Be Me",
+      "artists": [
+        "훈정양"
+      ],
+      "albumTitle": "Destined with You OST Part.2",
+      "albumBrowseId": "MPREb_1ErXopE9gFU",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RLP7i0XB6g3aGiAlDQC0BoCXox6o4hRqovnGroN9jSnnwYWy2X2QnB1zK64tWwUxqt5LaGzah7gYEkI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KPt3dP8TnU4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KPt3dP8TnU4",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "qlkWZHc8mW4",
+      "songTitle": "Your Trace Remains",
+      "title": "Your Trace Remains",
+      "artists": [
+        "양정훈"
+      ],
+      "albumTitle": "Scars Into Stars",
+      "albumBrowseId": "MPREb_8mhDAN4h5Me",
+      "duration": "3:11",
+      "durationSeconds": 191,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nTfROTDCtdk-lk8Mb0p9YmLmPqhfFkaONlKpq2U25lWedQdHropCpPFyoEJkoy0P0vtcZUTk9VT0AEuG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qlkWZHc8mW4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qlkWZHc8mW4",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "aotykwCbqPc",
+      "songTitle": "Like A Star",
+      "title": "Like A Star",
+      "artists": [
+        "양정훈"
+      ],
+      "albumTitle": "Like A Star",
+      "albumBrowseId": "MPREb_JJupJ8zG2nv",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LmCv2h7R-CPgObp9GRampSoiV_FQiWC7vwyziA_9xMQ0law4sBy8uo1NOUiuHVtE067XilOw_PZinV33Kw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aotykwCbqPc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=aotykwCbqPc",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=KPt3dP8TnU4,qlkWZHc8mW4,aotykwCbqPc",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=KPt3dP8TnU4&list=RDAMVMKPt3dP8TnU4"
+}

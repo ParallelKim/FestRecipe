@@ -1,0 +1,82 @@
+{
+  "artistId": "seisumi",
+  "artistName": "세이수미",
+  "englishName": "Say Sue Me",
+  "collectedAt": "2026-07-27T00:58:45.230597+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 870,
+    "latestSlotLabel": "14:30",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.338,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCnmRY2xwlBPN2zbk1CspmhA",
+    "name": "Say Sue Me",
+    "subscribers": "9.7K",
+    "channelId": "UC6T58HHVsuQdcjFf-2tgnDQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/we5zyTE3vWlsPxIAFX3yY-ZeUblqLyO_l26v3TvCmUbm1a4WjhavXSSe6PxLYJWobcvUia6A7hR07uI=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCnmRY2xwlBPN2zbk1CspmhA"
+  },
+  "tracks": [
+    {
+      "videoId": "-tEcPtR2uKY",
+      "songTitle": "So Tender",
+      "title": "So Tender",
+      "artists": [
+        "Say Sue Me"
+      ],
+      "albumTitle": "Nevertheless, (Original Television Soundtrack, Pt. 8)",
+      "albumBrowseId": "MPREb_Kj8AuMNfLvt",
+      "duration": "4:29",
+      "durationSeconds": 269,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UhlGt9Da62cx3jX0rpYNalrFM07UmyFPB91Pgz3B2lWSVFFWaAG59gQDYbDgcHG7XCbhD3rzxt8pMBCq=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-tEcPtR2uKY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-tEcPtR2uKY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "YTLaD_uZdUA",
+      "songTitle": "To Dream",
+      "title": "To Dream",
+      "artists": [
+        "Say Sue Me"
+      ],
+      "albumTitle": "The Last Thing Left",
+      "albumBrowseId": "MPREb_A4da7KoaybI",
+      "duration": "4:33",
+      "durationSeconds": 273,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XF6jRih4HSh3H0gFL4keLO1GurCD1BqcGayZjsTKk0R_Ijcpx3vJBu1oU8DJ2vin7GSVIPHfJeB3qC_YCQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YTLaD_uZdUA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YTLaD_uZdUA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "HkHnjg1GvvY",
+      "songTitle": "Vacation (feat. Kim Hanjoo)",
+      "title": "Vacation (feat. Kim Hanjoo)",
+      "artists": [
+        "Say Sue Me"
+      ],
+      "albumTitle": "Vacation (feat. Kim Hanjoo)",
+      "albumBrowseId": "MPREb_WJlGNoVutvj",
+      "duration": "4:18",
+      "durationSeconds": 258,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/xjWtZ0nZicebuushin8s_bDJkjzX93ij_qAUVBtI6s6Yve93TO2FTMVa84Ec1Z62gbjB20eXzpZdDS9Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HkHnjg1GvvY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HkHnjg1GvvY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-tEcPtR2uKY,YTLaD_uZdUA,HkHnjg1GvvY",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-tEcPtR2uKY&list=RDAMVM-tEcPtR2uKY"
+}

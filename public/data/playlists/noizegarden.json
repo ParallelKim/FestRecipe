@@ -1,0 +1,103 @@
+{
+  "artistId": "noizegarden",
+  "artistName": "노이즈가든",
+  "englishName": "Noizegarden",
+  "collectedAt": "2026-07-27T00:58:40.627274+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1030,
+    "latestSlotLabel": "17:10",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.615,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCpCZuiWm5B63DITJ7P3WHug",
+    "name": "노이즈가든",
+    "subscribers": "268",
+    "channelId": "UCpCZuiWm5B63DITJ7P3WHug",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/89maoXGhacGBdSLoL5OGQBY0RuAeI1agHjh6O-IWayyWHF7Tq2imLIWcePzNyHNtAOu8mCcGbQBKKg=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCpCZuiWm5B63DITJ7P3WHug"
+  },
+  "tracks": [
+    {
+      "videoId": "Og3SqH8m3kc",
+      "songTitle": "기다려",
+      "title": "기다려",
+      "artists": [
+        "노이즈가든"
+      ],
+      "albumTitle": "1992-1999 2020 Remastered Version",
+      "albumBrowseId": "MPREb_UgrrbT0jeVG",
+      "duration": "5:46",
+      "durationSeconds": 346,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IPoEN4UPp_lIxg6tWC1cd_171IK5qJ-pNgzIpSI6x8S8JjY4H48Qfzctx5vgjvPTOS7x_BlBUQTI9jsyfg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Og3SqH8m3kc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Og3SqH8m3kc",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "idXUddmRJCc",
+      "songTitle": "The Wave",
+      "title": "The Wave",
+      "artists": [
+        "노이즈가든"
+      ],
+      "albumTitle": "The Wave",
+      "albumBrowseId": "MPREb_3WXCm4bWCVj",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/f2b1vIwY2m2DVo1rZ9qAOFQ1TXoGS485QsNKRRQBqWuNqwlbR5RjnJcEQloBEvmCgcA1ftTriGYqCfMK9w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=idXUddmRJCc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=idXUddmRJCc",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "dL_ddpfBco0",
+      "songTitle": "우주꽃사슴",
+      "title": "우주꽃사슴",
+      "artists": [
+        "노이즈가든"
+      ],
+      "albumTitle": "1992-1999 2020 Remastered Version",
+      "albumBrowseId": "MPREb_UgrrbT0jeVG",
+      "duration": "2:25",
+      "durationSeconds": 145,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IPoEN4UPp_lIxg6tWC1cd_171IK5qJ-pNgzIpSI6x8S8JjY4H48Qfzctx5vgjvPTOS7x_BlBUQTI9jsyfg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dL_ddpfBco0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dL_ddpfBco0",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "i6x6s3K6U5o",
+      "songTitle": "여명의시간",
+      "title": "여명의시간",
+      "artists": [
+        "노이즈가든"
+      ],
+      "albumTitle": "1992-1999 2020 Remastered Version",
+      "albumBrowseId": "MPREb_UgrrbT0jeVG",
+      "duration": "6:21",
+      "durationSeconds": 381,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IPoEN4UPp_lIxg6tWC1cd_171IK5qJ-pNgzIpSI6x8S8JjY4H48Qfzctx5vgjvPTOS7x_BlBUQTI9jsyfg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=i6x6s3K6U5o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=i6x6s3K6U5o",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Og3SqH8m3kc,idXUddmRJCc,dL_ddpfBco0,i6x6s3K6U5o",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Og3SqH8m3kc&list=RDAMVMOg3SqH8m3kc"
+}

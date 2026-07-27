@@ -1,0 +1,117 @@
+{
+  "artistId": "the-lemon-twigs",
+  "artistName": "더 레몬 트윅스",
+  "englishName": "The Lemon Twigs",
+  "collectedAt": "2026-07-27T00:58:50.651584+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1140,
+    "latestSlotLabel": "19:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.815,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UC-kQ5nT06yHT5PmCLgE6c7A",
+    "name": "The Lemon Twigs",
+    "subscribers": "70.2K",
+    "channelId": "UCm74Mp584ldjaTO02dqQG9Q",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/aSR43c0FnW7P0UR5t2l5s6wWGEsbdep6xnt2nMs-yXJQ7GATTvA2-NDa5eOILTsY5uYd-JWU0B47ojWK=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC-kQ5nT06yHT5PmCLgE6c7A"
+  },
+  "tracks": [
+    {
+      "videoId": "-LilrG8cyH0",
+      "songTitle": "I Just Can't Get Over Losing You",
+      "title": "I Just Can't Get Over Losing You",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "I Just Can't Get Over Losing You",
+      "albumBrowseId": "MPREb_VayV0HJgudF",
+      "duration": "2:08",
+      "durationSeconds": 128,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YQaOCgm3vx2B74vP40t_bmPJFdRiZFFWfsO6U2trRJoEHzNVg2M6zTVISdcxotroLQdY0aHbokmCYluXQQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-LilrG8cyH0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-LilrG8cyH0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "27a6ngkc4WM",
+      "songTitle": "My Golden Years",
+      "title": "My Golden Years",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "A Dream Is All We Know",
+      "albumBrowseId": "MPREb_xhpSrFgeWhe",
+      "duration": "3:14",
+      "durationSeconds": 194,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jGPY--8Vw4f5JavBHI63KGsMI86Dfb7ZP8UDlWbU77eDZd3sW1t-I7pB_yN6Lg3O9AaHKKdqjsy6BZg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=27a6ngkc4WM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=27a6ngkc4WM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "olYjOrYWY7c",
+      "songTitle": "2 or 3",
+      "title": "2 or 3",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "2 or 3",
+      "albumBrowseId": "MPREb_RdlTEYvfPNT",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p8j0M315tEAEjV8Fc1dyVGJu1YcuQjBkIqBJjEvEDAgxX8VyU01nP8UCj3mtiCHYeELImzKXqo2nIMU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=olYjOrYWY7c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=olYjOrYWY7c",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "kElemlWjHUs",
+      "songTitle": "Any Time Of Day",
+      "title": "Any Time Of Day",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "Everything Harmony",
+      "albumBrowseId": "MPREb_YAfbKGiYOaY",
+      "duration": "2:52",
+      "durationSeconds": 172,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5FWIuNF6xURj_2GyU8SdLmPaO6rdxoOnbO0fY0CV5qo39lkz8T6njGRKG4kKKt5mopCkLnSP2aPb4B0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kElemlWjHUs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kElemlWjHUs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "8H7lNUdr-CQ",
+      "songTitle": "Look For Your Mind",
+      "title": "Look For Your Mind",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "Look For Your Mind!",
+      "albumBrowseId": "MPREb_Hs4Nn6GryxH",
+      "duration": "2:19",
+      "durationSeconds": 139,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HAfxYiRHhhI7Q1MQmTkNRgX_RAXyUDD06rHfcU5U8EMqfB3sdUZ4YVM0tGIoDYe84T2jdO3KcM-5h3pwbA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8H7lNUdr-CQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8H7lNUdr-CQ",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-LilrG8cyH0,27a6ngkc4WM,olYjOrYWY7c,kElemlWjHUs,8H7lNUdr-CQ",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-LilrG8cyH0&list=RDAMVM-LilrG8cyH0"
+}

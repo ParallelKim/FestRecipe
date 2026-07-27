@@ -1,0 +1,99 @@
+{
+  "artistId": "lee-seung-yoon",
+  "artistName": "이승윤",
+  "englishName": "LEE SEUNG YOON",
+  "collectedAt": "2026-07-27T00:58:37.198581+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1080,
+    "latestSlotLabel": "18:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.692,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 4,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCojd7amrMolpt71QH9HaqRg",
+    "name": "LEE SEUNG YOON",
+    "subscribers": "134K",
+    "channelId": "UC2KmG_o7JZcPr052P87GdsQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/MG3g6A_Cx4AtfyHhvIO0O_xlCm3RAG68aySO4lLCELieFxuLkq-6DGqvxysruCIteEcGShw4dLnf3UUk=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCojd7amrMolpt71QH9HaqRg"
+  },
+  "tracks": [
+    {
+      "videoId": "mXuzFnL0OJ4",
+      "songTitle": "What Do I Steal? (무얼 훔치지)",
+      "title": "What Do I Steal? (무얼 훔치지)",
+      "artists": [
+        "LEE SEUNG YOON"
+      ],
+      "albumTitle": "Album 0 (0집)",
+      "albumBrowseId": "MPREb_wipP5a9gi3m",
+      "duration": "4:35",
+      "durationSeconds": 275,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RwgU3LBX926tJTaKdYZpQZBX4cD-Jd1pSrOq_lAefQ3TV1Z5nl-MKuIZzxmB5JETl51O2tMrznoUPmpN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mXuzFnL0OJ4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mXuzFnL0OJ4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ooLxH4wI4LI",
+      "songTitle": "The Giving Tree",
+      "title": "The Giving Tree",
+      "artists": [
+        "LEE SEUNG YOON"
+      ],
+      "albumTitle": "Our Beloved Summer OST Part.7",
+      "albumBrowseId": "MPREb_FdBVqwB2JHB",
+      "duration": "4:11",
+      "durationSeconds": 251,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0Z7aiBuQV3oNOeWF5BAufBcAgzloGw--aykVm-HPKDooo4jAX4lTJEjyPOvjZs2Nd1UJxAKrwNyqplg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ooLxH4wI4LI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ooLxH4wI4LI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "x92xRJTeEcA",
+      "songTitle": "Warped Exterior (뒤척이는 허울)",
+      "title": "Warped Exterior (뒤척이는 허울)",
+      "artists": [
+        "LEE SEUNG YOON"
+      ],
+      "albumTitle": "Album 0 (0집)",
+      "albumBrowseId": "MPREb_wipP5a9gi3m",
+      "duration": "3:55",
+      "durationSeconds": 235,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RwgU3LBX926tJTaKdYZpQZBX4cD-Jd1pSrOq_lAefQ3TV1Z5nl-MKuIZzxmB5JETl51O2tMrznoUPmpN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x92xRJTeEcA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=x92xRJTeEcA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Xg_nikDA0BE",
+      "songTitle": "Anthems of Defiance (역성)",
+      "title": "Anthems of Defiance (역성)",
+      "artists": [
+        "LEE SEUNG YOON"
+      ],
+      "albumTitle": "YEOK SEONG (역성)",
+      "albumBrowseId": "MPREb_IGmWKQe01Q6",
+      "duration": "5:07",
+      "durationSeconds": 307,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wMqW7YzvAiGASyM2o7uEAv0BlSz7Oul-oBq74RT2gxdiuXcQNH5sC8XOP8yRSFzhe71VbnDOrjKv9Ro=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Xg_nikDA0BE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Xg_nikDA0BE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mXuzFnL0OJ4,ooLxH4wI4LI,x92xRJTeEcA,Xg_nikDA0BE",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mXuzFnL0OJ4&list=RDAMVMmXuzFnL0OJ4"
+}

@@ -1,0 +1,121 @@
+{
+  "artistId": "the-geeks",
+  "artistName": "더 긱스",
+  "englishName": "The Geeks",
+  "collectedAt": "2026-07-27T00:58:49.398121+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1200,
+    "latestSlotLabel": "20:00",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.877,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCxjgAS3OOXGsfZNqYO0sFgw",
+    "name": "The Geeks",
+    "subscribers": "335",
+    "channelId": "UCxjgAS3OOXGsfZNqYO0sFgw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/L_WVoGsih597XVYIQm7dony8jI0gpVxaJ4cs_-_Gx47SG26PhtKmMyg2srqoAdvAIoWHGBdJoaRWP-W-=w1400-h583-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCxjgAS3OOXGsfZNqYO0sFgw"
+  },
+  "tracks": [
+    {
+      "videoId": "47UGyKfacKs",
+      "songTitle": "Defining Moments: These 6 Strings Through Our Lives",
+      "title": "Defining Moments: These 6 Strings Through Our Lives",
+      "artists": [
+        "The Geeks"
+      ],
+      "albumTitle": "Still Not in This Alone",
+      "albumBrowseId": "MPREb_uuOqrFE1AWU",
+      "duration": "2:50",
+      "durationSeconds": 170,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ci_Jg6vXIBTRCSCDi7tkSEK30kE-TSJ7uSD9A0enYb4tBdGZS_Z8joQD0vfB-rb7dOIYpdoY8Ngc7Wyn=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=47UGyKfacKs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=47UGyKfacKs",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "FKlQj6AZ8rA",
+      "songTitle": "A Light in the Dark",
+      "title": "A Light in the Dark",
+      "artists": [
+        "The Geeks"
+      ],
+      "albumTitle": "Still Not in This Alone",
+      "albumBrowseId": "MPREb_uuOqrFE1AWU",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ci_Jg6vXIBTRCSCDi7tkSEK30kE-TSJ7uSD9A0enYb4tBdGZS_Z8joQD0vfB-rb7dOIYpdoY8Ngc7Wyn=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FKlQj6AZ8rA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FKlQj6AZ8rA",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "n3gb9ZKz6a4",
+      "songTitle": "Every Time We Fall",
+      "title": "Every Time We Fall",
+      "artists": [
+        "The Geeks"
+      ],
+      "albumTitle": "Every Time We Fall",
+      "albumBrowseId": "MPREb_HRZ786zX9xG",
+      "duration": "2:57",
+      "durationSeconds": 177,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QJZGjmxIUI7O1xgkMKQ-ToL-k55CZ0eyxIQcU3XjOMcbDacySQ8DYaOYuFmA2ntwVOEXXxpodl7YxTqaxg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=n3gb9ZKz6a4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=n3gb9ZKz6a4",
+      "source": "ytm_songs_popular",
+      "year": "2007",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Boeij7W-LE0",
+      "songTitle": "Staring into the Sun",
+      "title": "Staring into the Sun",
+      "artists": [
+        "The Geeks"
+      ],
+      "albumTitle": "Still Not in This Alone",
+      "albumBrowseId": "MPREb_uuOqrFE1AWU",
+      "duration": "3:04",
+      "durationSeconds": 184,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ci_Jg6vXIBTRCSCDi7tkSEK30kE-TSJ7uSD9A0enYb4tBdGZS_Z8joQD0vfB-rb7dOIYpdoY8Ngc7Wyn=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Boeij7W-LE0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Boeij7W-LE0",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "tiCKGIycmJ8",
+      "songTitle": "What We Believe",
+      "title": "What We Believe",
+      "artists": [
+        "The Geeks"
+      ],
+      "albumTitle": "Every Time We Fall",
+      "albumBrowseId": "MPREb_HRZ786zX9xG",
+      "duration": "1:11",
+      "durationSeconds": 71,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QJZGjmxIUI7O1xgkMKQ-ToL-k55CZ0eyxIQcU3XjOMcbDacySQ8DYaOYuFmA2ntwVOEXXxpodl7YxTqaxg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tiCKGIycmJ8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tiCKGIycmJ8",
+      "source": "ytm_songs_popular",
+      "year": "2007",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=47UGyKfacKs,FKlQj6AZ8rA,n3gb9ZKz6a4,Boeij7W-LE0,tiCKGIycmJ8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=47UGyKfacKs&list=RDAMVM47UGyKfacKs"
+}

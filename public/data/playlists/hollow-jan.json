@@ -1,0 +1,121 @@
+{
+  "artistId": "hollow-jan",
+  "artistName": "할로우 잰",
+  "englishName": "Hollow Jan",
+  "collectedAt": "2026-07-27T00:58:33.252332+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1130,
+    "latestSlotLabel": "18:50",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.785,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 5,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UC2vg22f29EKXWIVLl-hpQ1Q",
+    "name": "HOLLOW JAN",
+    "subscribers": "253",
+    "channelId": "UC2vg22f29EKXWIVLl-hpQ1Q",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/oNnAuTikvgfSpA0tH7vSTL8bPKjZA8ICGUXBhTGB25Y86apOS86hAHsOiJxmxnXtf78Yw5nlMApHSLvcFQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC2vg22f29EKXWIVLl-hpQ1Q"
+  },
+  "tracks": [
+    {
+      "videoId": "79triPn_Lxw",
+      "songTitle": "Empty",
+      "title": "Empty",
+      "artists": [
+        "HOLLOW JAN"
+      ],
+      "albumTitle": "Rough Draft in Progress",
+      "albumBrowseId": "MPREb_nnhQEDn0YSe",
+      "duration": "5:44",
+      "durationSeconds": 344,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tdOja6QD6EsggZC-VJ8D2R22JAVdgt3k17wLaxoN0HKZDgNqzEakeocVUfUSuEFQV9sPqga-6SzS6qpszQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=79triPn_Lxw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=79triPn_Lxw",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "T3I2xJQau3I",
+      "songTitle": "Spotless",
+      "title": "Spotless",
+      "artists": [
+        "HOLLOW JAN"
+      ],
+      "albumTitle": "Rough Draft in Progress",
+      "albumBrowseId": "MPREb_nnhQEDn0YSe",
+      "duration": "6:35",
+      "durationSeconds": 395,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tdOja6QD6EsggZC-VJ8D2R22JAVdgt3k17wLaxoN0HKZDgNqzEakeocVUfUSuEFQV9sPqga-6SzS6qpszQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T3I2xJQau3I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=T3I2xJQau3I",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "1vhRI5HtDgw",
+      "songTitle": "Dvaita",
+      "title": "Dvaita",
+      "artists": [
+        "HOLLOW JAN"
+      ],
+      "albumTitle": "Rough Draft in Progress",
+      "albumBrowseId": "MPREb_nnhQEDn0YSe",
+      "duration": "2:29",
+      "durationSeconds": 149,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tdOja6QD6EsggZC-VJ8D2R22JAVdgt3k17wLaxoN0HKZDgNqzEakeocVUfUSuEFQV9sPqga-6SzS6qpszQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1vhRI5HtDgw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1vhRI5HtDgw",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "jC3K-aTXG3o",
+      "songTitle": "Blaze the Trail",
+      "title": "Blaze the Trail",
+      "artists": [
+        "HOLLOW JAN"
+      ],
+      "albumTitle": "Rough Draft in Progress",
+      "albumBrowseId": "MPREb_nnhQEDn0YSe",
+      "duration": "9:30",
+      "durationSeconds": 570,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tdOja6QD6EsggZC-VJ8D2R22JAVdgt3k17wLaxoN0HKZDgNqzEakeocVUfUSuEFQV9sPqga-6SzS6qpszQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jC3K-aTXG3o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jC3K-aTXG3o",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "UlDKdz1wDig",
+      "songTitle": "Water from the Same Source",
+      "title": "Water from the Same Source",
+      "artists": [
+        "HOLLOW JAN"
+      ],
+      "albumTitle": "Rough Draft in Progress",
+      "albumBrowseId": "MPREb_nnhQEDn0YSe",
+      "duration": "6:30",
+      "durationSeconds": 390,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tdOja6QD6EsggZC-VJ8D2R22JAVdgt3k17wLaxoN0HKZDgNqzEakeocVUfUSuEFQV9sPqga-6SzS6qpszQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UlDKdz1wDig",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UlDKdz1wDig",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=79triPn_Lxw,T3I2xJQau3I,1vhRI5HtDgw,jC3K-aTXG3o,UlDKdz1wDig",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=79triPn_Lxw&list=RDAMVM79triPn_Lxw"
+}

@@ -1,0 +1,82 @@
+{
+  "artistId": "qwer",
+  "artistName": "큐더블유이알",
+  "englishName": "QWER",
+  "collectedAt": "2026-07-27T00:58:43.789457+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 830,
+    "latestSlotLabel": "13:50",
+    "festivalId": "incheon-pentaport-2026",
+    "rank": 0.231,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCoJ1_QPtY3wMIv4R4ezCYRA",
+    "name": "QWER",
+    "subscribers": "1.34M",
+    "channelId": "UCgD0APk2x9uBlLM0UsmhQjw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/os2FMvkCsKKDjxdPVkFLJaJvm5hs4r5ABlsjFZf6hwPDTP-_0EMzTLbmaOkLViojBx0yyFgSPLinhkg=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCoJ1_QPtY3wMIv4R4ezCYRA"
+  },
+  "tracks": [
+    {
+      "videoId": "pbELDkeLdho",
+      "songTitle": "T.B.H (고민중독)",
+      "title": "T.B.H (고민중독)",
+      "artists": [
+        "QWER"
+      ],
+      "albumTitle": "1st Mini Album 'MANITO'",
+      "albumBrowseId": "MPREb_XFwFPhx1lkz",
+      "duration": "2:56",
+      "durationSeconds": 176,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/CSoziUkkEKh5-wM2PFXXhJJzpalvskD2Lrv9GZ9PWFbePzvEGBqX1gjntXCnbHem0F4OHEbs9LY2d2He-A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pbELDkeLdho",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pbELDkeLdho",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "9yfrVqCcrS0",
+      "songTitle": "My Name is Malguem (내 이름 맑음)",
+      "title": "My Name is Malguem (내 이름 맑음)",
+      "artists": [
+        "QWER"
+      ],
+      "albumTitle": "2nd Mini Album 'Algorithm's Blossom'",
+      "albumBrowseId": "MPREb_EAWlISlgVn9",
+      "duration": "3:09",
+      "durationSeconds": 189,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EbZnLj93uNiOKYGnec3Bm9djowOOhIUtpJKdLO10aNUNOgBBGhfhfQlUDAwYtI-54fEVNQz4Aoq6oXE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9yfrVqCcrS0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9yfrVqCcrS0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "SUx0-btw2nQ",
+      "songTitle": "Dear (눈물참기)",
+      "title": "Dear (눈물참기)",
+      "artists": [
+        "QWER"
+      ],
+      "albumTitle": "3rd Mini Album 'In a million noises, I'll be your harmony' (3rd Mini Album '난 네 편이야, 온 세상이 불협일지라도')",
+      "albumBrowseId": "MPREb_rW2KhzAQYGp",
+      "duration": "3:23",
+      "durationSeconds": 203,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/bZVim_apOCGAquXHz7yNRn_IY_v4z0CRyxjfvR_y_fhUBomJ851_cwF1ATET9Z95bOka88eXzjkxqW8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SUx0-btw2nQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SUx0-btw2nQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=pbELDkeLdho,9yfrVqCcrS0,SUx0-btw2nQ",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=pbELDkeLdho&list=RDAMVMpbELDkeLdho"
+}
