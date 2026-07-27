@@ -140,22 +140,19 @@ export default function TimetableGrid({
                   const heightPos = slot.durationMinutes * pxPerMin
                   const isSelected = selectedArtistId === slot.artistId
                   const inLineup = lineupSet.has(slot.artistId) || (isInMyLineup?.(slot.artistId) ?? false)
-                  const slotShellStyle = inLineup
-                    ? ({
-                        top: `${topPos + 1}px`,
-                        height: `${Math.max(heightPos - 2, 28)}px`,
-                        ['--slot-lineup-bg' as string]: theme.lineupBg,
-                        ['--stage-accent' as string]: theme.accent,
-                      } as CSSProperties)
-                    : {
-                        top: `${topPos + 1}px`,
-                        height: `${Math.max(heightPos - 2, 28)}px`,
-                      }
+                  const slotShellStyle = {
+                    top: `${topPos + 1}px`,
+                    height: `${Math.max(heightPos - 2, 28)}px`,
+                    ['--stage-accent' as string]: theme.accent,
+                    ...(inLineup
+                      ? { ['--slot-lineup-bg' as string]: theme.lineupBg }
+                      : {}),
+                  } as CSSProperties
 
                   return (
                     <div
                       key={`${slot.artistId}-${index}`}
-                      className={`tt-grid__slot-shell${inLineup ? ' is-in-lineup' : ''}`}
+                      className={`tt-grid__slot-shell${inLineup ? ' is-in-lineup' : ''}${isSelected ? ' is-selected' : ''}`}
                       style={slotShellStyle}
                     >
                       <button
@@ -165,7 +162,7 @@ export default function TimetableGrid({
                           onSlotClick(slot.artistId)
                           blurAfterTap(e.currentTarget)
                         }}
-                        className={`tt-grid__slot${inLineup ? ' is-in-lineup' : ''}`}
+                        className={`tt-grid__slot${inLineup ? ' is-in-lineup' : ''}${isSelected ? ' is-selected' : ''}`}
                         style={{ borderColor: theme.accent }}
                         aria-label={`${artistName}, ${stageName}, ${slot.startTime}부터 ${slot.endTime}까지`}
                         aria-current={isSelected ? 'true' : undefined}

@@ -1,5 +1,6 @@
 import type { Artist, ArtistPlaylist, Festival, DayLineup } from '../types'
 import ArtistPlaylistPanel from './ArtistPlaylistPanel'
+import { officialArtistName } from '../lib/artistOfficialName'
 
 interface PlaylistMobileDockProps {
   open: boolean
@@ -79,19 +80,22 @@ export default function PlaylistMobileDock({
           />
           <div
             id="playlist-sheet"
-            className={`playlist-sheet${showMyLineupEditor ? ' playlist-sheet--lineup' : ''}`}
+            className={`playlist-sheet${showMyLineupEditor ? ' playlist-sheet--lineup' : ''}${panelProps.selectedArtist ? ' playlist-sheet--artist' : ''}`}
             role="dialog"
             aria-modal="true"
-            aria-label={showMyLineupEditor ? '나만의 플레이리스트' : '플레이리스트'}
+            aria-label={
+              showMyLineupEditor
+                ? '나만의 플레이리스트'
+                : panelProps.selectedArtist
+                  ? `${officialArtistName(panelProps.selectedArtist)} 플레이리스트`
+                  : '플레이리스트'
+            }
           >
             <div className="playlist-sheet__handle" aria-hidden="true" />
             <ArtistPlaylistPanel
               {...panelProps}
               showMyLineupEditor={showMyLineupEditor}
-              onCloseArtist={() => {
-                onCloseArtist()
-                onClose()
-              }}
+              onCloseArtist={onCloseArtist}
             />
           </div>
         </div>

@@ -80,8 +80,8 @@ export default function ArtistPlaylistPanel({
   const inMyLineup = !!(selectedArtist && isInMyLineup?.(selectedArtist.id))
 
   return (
-    <div id="artist-playlist-panel" className="playlist-panel">
-      {!hideHub && (
+    <div id="artist-playlist-panel" className={`playlist-panel${selectedArtist ? ' playlist-panel--artist' : ''}`}>
+      {!hideHub && !selectedArtist && (
         <PlaylistHubActions
           festival={festival}
           activeDay={activeDay}
@@ -114,56 +114,68 @@ export default function ArtistPlaylistPanel({
       )}
 
       {selectedArtist ? (
-        <div className="playlist-panel__artist">
-          <div className="playlist-panel__header">
-            <div>
-              <div className="playlist-panel__title-row">
-                <h3 className="playlist-panel__title">{displayName}</h3>
-                {isHeadliner && <span className="headliner-badge">헤드라이너</span>}
-              </div>
-              <p className="playlist-panel__meta">
-                {artistPlaylist
-                  ? `대표곡 ${artistPlaylist.songCount}곡 · YouTube Music`
-                  : 'YouTube Music 인기곡 기반 대표 플레이리스트'}
-              </p>
+        <div className="playlist-panel__artist-view">
+          <div className="playlist-artist-card" role="region" aria-label={`${displayName} 플레이리스트`}>
+            <div className="playlist-artist-card__bar">
+              <span className="playlist-artist-card__eyebrow">지금 선택</span>
+              {onCloseArtist && (
+                <button
+                  type="button"
+                  className="playlist-artist-card__close"
+                  onClick={onCloseArtist}
+                  aria-label="아티스트 닫기"
+                >
+                  닫기
+                </button>
+              )}
             </div>
-            {onCloseArtist && (
-              <button type="button" className="playlist-panel__close" onClick={onCloseArtist} aria-label="닫기">
-                닫기
-              </button>
-            )}
-          </div>
-
-          {onToggleMyLineupFromArtist && (
-            <button
-              type="button"
-              className={`btn-secondary playlist-panel__lineup-toggle${inMyLineup ? ' is-on' : ''}`}
-              onClick={() => onToggleMyLineupFromArtist(selectedArtist.id)}
-            >
-              {inMyLineup ? '내 라인업에서 빼기' : '내 라인업에 담기'}
-            </button>
-          )}
-
-          {playlistLoading ? (
-            <div className="playlist-panel__empty">
-              <span className="loading-spinner loading-spinner--sm" aria-hidden="true" />
-              <p>플레이리스트 불러오는 중...</p>
+            <div className="playlist-artist-card__head">
+              <h3 className="playlist-artist-card__name">{displayName}</h3>
+              {isHeadliner && <span className="headliner-badge">헤드라이너</span>}
             </div>
-          ) : artistPlaylist && artistPlaylist.tracks.length > 0 ? (
-            <div className="playlist-panel__body">
-              {artistPlaylistUrl && (
+            <p className="playlist-artist-card__meta">
+              {artistPlaylist
+                ? `대표곡 ${artistPlaylist.songCount}곡 · YouTube Music`
+                : 'YouTube Music 인기곡 기반 대표 플레이리스트'}
+            </p>
+
+            <div className="playlist-artist-card__actions">
+              {playlistLoading ? (
+                <div className="playlist-artist-card__loading" aria-live="polite">
+                  <span className="loading-spinner loading-spinner--sm" aria-hidden="true" />
+                  불러오는 중…
+                </div>
+              ) : artistPlaylist && artistPlaylist.tracks.length > 0 && artistPlaylistUrl ? (
                 <a
                   href={artistPlaylistUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-primary playlist-panel__play"
+                  className="btn-primary playlist-artist-card__play"
                 >
                   대표곡 {artistPlaylist.songCount}곡 연속 재생
                 </a>
+              ) : (
+                <p className="playlist-artist-card__pending">플레이리스트 준비 중입니다.</p>
               )}
+              {onToggleMyLineupFromArtist && (
+                <button
+                  type="button"
+                  className={`playlist-artist-card__lineup${inMyLineup ? ' is-on' : ''}`}
+                  onClick={() => onToggleMyLineupFromArtist(selectedArtist.id)}
+                  aria-pressed={inMyLineup}
+                >
+                  <span className="playlist-artist-card__lineup-icon" aria-hidden="true">
+                    {inMyLineup ? '★' : '☆'}
+                  </span>
+                  {inMyLineup ? '내 라인업 담김' : '내 라인업에 담기'}
+                </button>
+              )}
+            </div>
+          </div>
 
-              <p className="playlist-panel__list-label">대표곡</p>
-
+          {!playlistLoading && artistPlaylist && artistPlaylist.tracks.length > 0 ? (
+            <div className="playlist-panel__body">
+              <p className="playlist-panel__list-label">대표곡 목록</p>
               <div className="playlist-panel__tracks">
                 {artistPlaylist.tracks.map((track, idx) => {
                   const startIds = [
@@ -179,7 +191,8 @@ export default function ArtistPlaylistPanel({
                         <div className="playlist-track__title">{track.songTitle}</div>
                         {track.albumTitle && (
                           <div className="playlist-track__album">
-                            {track.albumTitle}{track.year ? ` · ${track.year}` : ''}
+                            {track.albumTitle}
+                            {track.year ? ` · ${track.year}` : ''}
                           </div>
                         )}
                       </div>
@@ -206,12 +219,11 @@ export default function ArtistPlaylistPanel({
                 })}
               </div>
             </div>
-          ) : (
-            <div className="playlist-panel__empty">
-              <h4>플레이리스트 준비 중</h4>
+          ) : !playlistLoading && (!artistPlaylist || artistPlaylist.tracks.length === 0) ? (
+            <div className="playlist-panel__empty playlist-panel__empty--compact">
               <p>{displayName}의 YouTube Music 대표곡을 모으고 있습니다.</p>
             </div>
-          )}
+          ) : null}
         </div>
       ) : showMyLineupEditor && onToggleMyLineup && onClearMyLineup && onPlayMyLineup ? (
         <MyLineupPanel
