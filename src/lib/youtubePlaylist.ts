@@ -31,9 +31,14 @@ export function uniqueVideoIds(videoIds: Array<string | null | undefined>): stri
   return out
 }
 
-/** 아티스트 대표곡 재생목록 */
-export function playlistTitleForArtist(artistName: string): string {
-  return (artistName || '').trim() || '아티스트 플레이리스트'
+/** 아티스트 대표곡 재생목록: "{페스티벌명} {아티스트명} 플레이리스트" */
+export function playlistTitleForArtist(festivalName: string, artistName: string): string {
+  const fest = (festivalName || '').trim()
+  const artist = (artistName || '').trim()
+  if (fest && artist) return `${fest} ${artist} 플레이리스트`
+  if (artist) return `${artist} 플레이리스트`
+  if (fest) return `${fest} 아티스트 플레이리스트`
+  return '아티스트 플레이리스트'
 }
 
 /** 요일(일별) 재생목록 */
@@ -63,7 +68,7 @@ export function playlistTitle(
 ): string {
   switch (kind) {
     case 'artist':
-      return playlistTitleForArtist(opts.artistName || '')
+      return playlistTitleForArtist(opts.festivalName || '', opts.artistName || '')
     case 'day':
       return playlistTitleForDay(opts.festivalName || '', opts.dayLabel || '')
     case 'festival':

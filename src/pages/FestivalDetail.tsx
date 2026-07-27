@@ -156,7 +156,7 @@ export default function FestivalDetail() {
   }
 
   const artistPlaylistTitle = selectedArtist
-    ? playlistTitleForArtist(selectedArtist.name)
+    ? playlistTitleForArtist(festival.name, selectedArtist.name)
     : ''
   const artistPlaylistUrl = artistPlaylist
     ? buildWatchVideosUrl(

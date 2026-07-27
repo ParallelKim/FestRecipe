@@ -216,6 +216,8 @@ def build_playlist_for_artist(
     yt: YTMusic,
     artist: dict,
     recognition: dict,
+    *,
+    festival_name: str | None = None,
 ) -> dict | None:
     releases_path = OUTPUT_DIR / artist["id"] / "releases.json"
     if not releases_path.exists():
@@ -271,8 +273,15 @@ def build_playlist_for_artist(
                 break
 
     video_ids = [t["videoId"] for t in selected]
-    # watch_videos 의 title 파라미터로 Untitled List 대신 아티스트명 표시
-    playlist_title = (artist.get("name") or artist.get("englishName") or artist["id"]).strip()
+    # watch_videos title: "{페스티벌명} {아티스트명} 플레이리스트"
+    artist_name = (artist.get("name") or artist.get("englishName") or artist["id"]).strip()
+    fest_name = (festival_name or "").strip()
+    if fest_name and artist_name:
+        playlist_title = f"{fest_name} {artist_name} 플레이리스트"
+    elif artist_name:
+        playlist_title = f"{artist_name} 플레이리스트"
+    else:
+        playlist_title = "아티스트 플레이리스트"
     youtube_playlist_url = None
     if video_ids:
         youtube_playlist_url = "https://www.youtube.com/watch_videos?" + urlencode(
@@ -312,6 +321,7 @@ def main():
     by_id = {a["id"]: a for a in artists}
     festivals = [load_json(p) for p in festival_files(args.festival)]
     recognition_map = build_recognition_map(festivals)
+    festival_names = {f.get("id"): f.get("name") for f in festivals if f.get("id")}
     print(f"[recognition] timetable artists={len(recognition_map)} festivals={len(festivals)}")
 
     if args.artist_id:
@@ -329,10 +339,15 @@ def main():
     for aid in target_ids:
         artist = by_id.get(aid) or {"id": aid, "name": aid}
         recognition = recognition_map.get(aid) or default_recognition()
+        fest_name = festival_names.get(recognition.get("festivalId")) or (
+            next(iter(festival_names.values()), None) if len(festival_names) == 1 else None
+        )
         # if festival filter and artist not on that fest timetable, still allow default
         print(f"\n=== {artist.get('name')} ({aid}) tier={recognition['tier']} songs={recognition['songCount']} ({recognition['reason']}) ===")
         try:
-            payload = build_playlist_for_artist(yt, artist, recognition)
+            payload = build_playlist_for_artist(
+                yt, artist, recognition, festival_name=fest_name,
+            )
             if not payload:
                 failed.append({"artistId": aid, "error": "no_payload"})
                 continue
