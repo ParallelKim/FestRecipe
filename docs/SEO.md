@@ -45,12 +45,14 @@ node scripts/generate-sitemap.js  ← festival 목록 읽어서 sitemap.xml 생�
 - BASE_URL: `https://festrecipe.com` (커스텀 도메인 연결 시 해당 값 변경 필요)
 - 변경 파일: `src/components/seo/HomeHelmet.tsx`, `src/components/seo/FestivalHelmet.tsx`, `scripts/prerender.js`
 
-## OG 태그 현황
+## OG 태그 현황 (MVP — 대표곡 플레이리스트)
 
 | 페이지 | og:title | og:description | Schema |
 |--------|----------|---------------|--------|
-| 홈 | FestRecipe — AI가 말아주는 페스티벌 셋리스트 | 페스티벌 수 포함 동적 | WebSite |
-| 페스티벌 | {페스티벌명} — 예상 셋리스트 \| FestRecipe | 날짜/장소/아티스트 수 포함 | MusicEvent + BreadcrumbList |
+| 홈 | FestRecipe — 페스티벌 라인업 & 대표곡 플레이리스트 | 페스티벌 수 포함 동적 | WebSite |
+| 페스티벌 | {페스티벌명} — 대표곡 플레이리스트 \| FestRecipe | 날짜/장소/아티스트 수 포함 | MusicEvent + BreadcrumbList |
+
+> **예상 셋리스트 시절 카피**는 [`docs/SETLIST_RECIPE.md`](./SETLIST_RECIPE.md) §1·§6에 보관. 고도화 복원 시 해당 표를 되돌린다.
 
 ## artistCount 계산 로직
 
