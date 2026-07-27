@@ -118,6 +118,9 @@ export default function Home() {
   const heroImage = featured ? heroImageFor(featured) : null
   const featuredThumb = featured ? festivalThumbnailUrl(featured, 'on-dark') : null
   const ddayLabel = featured ? festivalDdayLabel(featured) : null
+  const otherFestivals = featured
+    ? festivals.filter((f) => f.id !== featured.id)
+    : festivals
 
   return (
     <div className="home-page">
@@ -184,31 +187,31 @@ export default function Home() {
                   )}
                   <div className="home-hero__featured-copy">
                     <p className="home-hero__fest-name">{featured.name}</p>
-                    <p className="home-hero__fest-date">
+                    <p className="home-hero__fest-meta">
                       {formatDateRange(featured.startDate, featured.endDate)}
+                      <span aria-hidden="true"> · </span>
+                      {featured.location}
                     </p>
                   </div>
                 </div>
-                <div className="home-hero__featured-foot">
-                  <p className="home-hero__fest-place">{featured.location}</p>
-                  <Link
-                    to={`/festival/${featured.id}`}
-                    className="btn-primary home-hero__cta"
-                  >
-                    {ctaLabel(featured)}
-                  </Link>
-                </div>
+                <Link
+                  to={`/festival/${featured.id}`}
+                  className="btn-primary home-hero__cta"
+                >
+                  {ctaLabel(featured)}
+                </Link>
               </div>
             </motion.div>
           )}
         </div>
       </section>
 
+      {otherFestivals.length > 0 && (
       <section className="home-festivals" id="festivals">
         <div className="container">
           <h2 className="home-festivals__heading">다가오는 페스티벌</h2>
           <div className="home-festivals__list">
-            {festivals.map((festival, index) => {
+            {otherFestivals.map((festival, index) => {
               const thumb = festivalThumbnailUrl(festival, 'on-light')
               return (
               <motion.article
@@ -236,23 +239,20 @@ export default function Home() {
                     {festival.tagline || festival.description}
                   </p>
                 </div>
-                <div className="home-fest-row__aside">
-                  <div className="home-fest-row__meta">
-                    <p><span>일시</span>{festival.startDate} ~ {festival.endDate}</p>
-                    <p><span>출연</span>{artistCount(festival)}팀</p>
-                  </div>
-                  <div className="home-fest-row__foot">
-                    <p className="home-fest-row__place">{festival.location}</p>
-                    <Link to={`/festival/${festival.id}`} className="btn-secondary home-fest-row__link">
-                      {ctaLabel(festival)}
-                    </Link>
-                  </div>
+                <div className="home-fest-row__meta">
+                  <p><span>일시</span>{festival.startDate} ~ {festival.endDate}</p>
+                  <p><span>장소</span>{festival.location}</p>
+                  <p><span>출연</span>{artistCount(festival)}팀</p>
+                  <Link to={`/festival/${festival.id}`} className="btn-secondary home-fest-row__link">
+                    {ctaLabel(festival)}
+                  </Link>
                 </div>
               </motion.article>
             )})}
           </div>
         </div>
       </section>
+      )}
     </div>
   )
 }
