@@ -47,3 +47,8 @@ npx skills init my-skill-name   # .agents/skills/<name>/SKILL.md 생성
 ```
 
 페스티벌 도메인 전용 워크플로는 `festrecipe-ui`를 확장하거나 `docs/AGENT_SKILLS.md`에 항목을 추가하세요.
+
+## 프론트 점검·shadcn
+
+- 점검 결과 및 shadcn 도입 순서: **`docs/FRONTEND_AUDIT.md`**
+- UI 감사 시: `/web-design-guidelines` + `/festrecipe-ui`
