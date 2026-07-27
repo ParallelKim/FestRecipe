@@ -1133,24 +1133,22 @@ body {
   touch-action: manipulation;
   transition: transform 0.08s ease, box-shadow 0.12s ease, background-color 0.12s ease;
 }
-.tt-grid__slot.is-in-lineup {
+.tt-grid__slot.is-in-lineup:not(.is-selected) {
   background: var(--slot-lineup-bg, var(--color-lineup-bg));
 }
 .tt-grid__slot.is-selected {
-  background: color-mix(in srgb, var(--stage-accent, #41454d) 10%, #ffffff);
+  background: #ffffff;
   box-shadow:
-    inset 3px 0 0 var(--stage-accent, #41454d),
-    0 0 0 2px color-mix(in srgb, var(--stage-accent, #41454d) 55%, transparent);
+    0 0 0 2px var(--stage-accent, #41454d),
+    0 0 0 4px color-mix(in srgb, var(--stage-accent, #41454d) 22%, transparent),
+    0 2px 8px rgba(17, 20, 24, 0.1);
 }
 .tt-grid__slot.is-in-lineup.is-selected {
-  background: color-mix(
-    in srgb,
-    var(--slot-lineup-bg, var(--color-lineup-bg)) 82%,
-    var(--stage-accent, #41454d) 18%
-  );
+  background: #ffffff;
   box-shadow:
-    inset 3px 0 0 var(--stage-accent, #41454d),
-    0 0 0 2px color-mix(in srgb, var(--stage-accent, #41454d) 55%, transparent);
+    0 0 0 2.5px var(--stage-accent, #41454d),
+    0 0 0 5px color-mix(in srgb, var(--stage-accent, #41454d) 30%, transparent),
+    0 2px 10px rgba(17, 20, 24, 0.12);
 }
 .tt-grid__slot.is-selected .tt-grid__slot-name {
   color: #111418;
@@ -1181,10 +1179,18 @@ body {
 }
 .tt-grid__slot.is-selected:focus-visible {
   box-shadow:
-    inset 3px 0 0 var(--stage-accent, #41454d),
-    0 0 0 2px color-mix(in srgb, var(--stage-accent, #41454d) 55%, transparent),
+    0 0 0 2px var(--stage-accent, #41454d),
     0 0 0 4px var(--color-canvas),
-    0 0 0 6px var(--stage-accent, var(--color-info-border));
+    0 0 0 6px var(--stage-accent, var(--color-info-border)),
+    0 2px 8px rgba(17, 20, 24, 0.1);
+}
+.tt-grid__slot.is-in-lineup.is-selected:focus-visible {
+  box-shadow:
+    0 0 0 2.5px var(--stage-accent, #41454d),
+    0 0 0 5px color-mix(in srgb, var(--stage-accent, #41454d) 30%, transparent),
+    0 0 0 7px var(--color-canvas),
+    0 0 0 9px var(--stage-accent, var(--color-info-border)),
+    0 2px 10px rgba(17, 20, 24, 0.12);
 }
 .lineup-pick-btn {
   display: inline-flex;
@@ -1488,11 +1494,11 @@ body {
   border-color: rgba(17, 20, 24, 0.12);
 }
 .timetable-legend__swatch--selected {
-  border: 1.5px solid color-mix(in srgb, var(--color-sig-mustard) 70%, var(--color-hairline));
-  background: color-mix(in srgb, var(--color-sig-mustard) 12%, #fff);
+  border: 1.5px solid color-mix(in srgb, var(--color-sig-mustard) 55%, var(--color-hairline));
+  background: #fff;
   box-shadow:
-    inset 3px 0 0 var(--color-sig-mustard),
-    0 0 0 2px color-mix(in srgb, var(--color-sig-mustard) 45%, transparent);
+    0 0 0 2px var(--color-sig-mustard),
+    0 0 0 4px color-mix(in srgb, var(--color-sig-mustard) 25%, transparent);
 }
 .playlist-panel__header {
   display: flex;
