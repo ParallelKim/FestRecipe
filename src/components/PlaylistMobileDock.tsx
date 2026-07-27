@@ -11,13 +11,21 @@ interface PlaylistMobileDockProps {
   artistPlaylist: ArtistPlaylist | null
   playlistLoading: boolean
   playlistReady: Set<string>
-  bundleLoading: 'day' | 'festival' | null
+  bundleLoading: 'day' | 'festival' | 'custom' | null
   headlinerIds?: Set<string>
   onCloseArtist: () => void
   onOpenBundled: (kind: 'day' | 'festival', artistIds: string[], title: string) => void
   onOpenMyPlaylist?: () => void
-  showMyPlaylistWarning?: boolean
-  onDismissMyPlaylistWarning?: () => void
+  myLineupCount?: number
+  artists: import('../types').Artist[]
+  showMyLineupEditor?: boolean
+  myLineupIds?: string[]
+  onToggleMyLineup?: (artistId: string) => void
+  onClearMyLineup?: () => void
+  onPlayMyLineup?: () => void
+  onExportMyLineupImage?: () => void
+  onToggleMyLineupFromArtist?: (artistId: string) => void
+  isInMyLineup?: (artistId: string) => boolean
   bundleNotice?: import('../lib/bundlePlaylist').BundledAnonymousPlaylist | null
   onDismissBundleNotice?: () => void
 }
