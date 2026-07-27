@@ -1,5 +1,6 @@
 import type { TimetableSlot, Artist } from '../types'
 import { officialArtistName } from '../lib/artistOfficialName'
+import MyLineupPickButton from './MyLineupPickButton'
 
 interface TimetableGridProps {
   stages: string[]
@@ -7,6 +8,8 @@ interface TimetableGridProps {
   artists: Artist[]
   selectedArtistId?: string
   onSlotClick: (artistId: string) => void
+  isInMyLineup?: (artistId: string) => boolean
+  onToggleMyLineup?: (artistId: string) => void
 }
 
 type StageTheme = {
@@ -50,6 +53,8 @@ export default function TimetableGrid({
   artists,
   selectedArtistId,
   onSlotClick,
+  isInMyLineup,
+  onToggleMyLineup,
 }: TimetableGridProps) {
   if (!slots || slots.length === 0 || !stages || stages.length === 0) {
     return (
@@ -152,27 +157,41 @@ export default function TimetableGrid({
                   const topPos = (slot.startMin - startLimit) * pxPerMin
                   const heightPos = slot.durationMinutes * pxPerMin
                   const isSelected = selectedArtistId === slot.artistId
+                  const inLineup = isInMyLineup?.(slot.artistId) ?? false
 
                   return (
-                    <button
+                    <div
                       key={`${slot.artistId}-${index}`}
-                      type="button"
-                      onClick={() => onSlotClick(slot.artistId)}
-                      className={`tt-grid__slot${isSelected ? ' is-selected' : ''}`}
+                      className={`tt-grid__slot-shell${isSelected ? ' is-selected' : ''}${inLineup ? ' is-in-lineup' : ''}`}
                       style={{
                         top: `${topPos + 1}px`,
                         height: `${Math.max(heightPos - 2, 28)}px`,
-                        borderColor: theme.accent,
-                        backgroundColor: isSelected ? theme.bg : '#ffffff',
-                        color: isSelected ? theme.fg : '#111418',
                       }}
-                      aria-label={`${artistName}, ${stageName}, ${slot.startTime}부터 ${slot.endTime}까지`}
                     >
-                      <span className="tt-grid__slot-name">{artistName}</span>
-                      <span className="tt-grid__slot-time">
-                        {slot.startTime}–{slot.endTime}
-                      </span>
-                    </button>
+                      <button
+                        type="button"
+                        onClick={() => onSlotClick(slot.artistId)}
+                        className={`tt-grid__slot${isSelected ? ' is-selected' : ''}`}
+                        style={{
+                          borderColor: theme.accent,
+                          backgroundColor: isSelected ? theme.bg : '#ffffff',
+                          color: isSelected ? theme.fg : '#111418',
+                        }}
+                        aria-label={`${artistName}, ${stageName}, ${slot.startTime}부터 ${slot.endTime}까지`}
+                      >
+                        <span className="tt-grid__slot-name">{artistName}</span>
+                        <span className="tt-grid__slot-time">
+                          {slot.startTime}–{slot.endTime}
+                        </span>
+                      </button>
+                      {onToggleMyLineup && (
+                        <MyLineupPickButton
+                          active={inLineup}
+                          className="lineup-pick-btn--tt"
+                          onToggle={() => onToggleMyLineup(slot.artistId)}
+                        />
+                      )}
+                    </div>
                   )
                 })}
               </div>

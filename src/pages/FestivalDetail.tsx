@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { FestivalService } from '../services/festivals'
 import type { Festival, Artist, ArtistPlaylist } from '../types'
 import TimetableGrid from '../components/TimetableGrid'
+import MyLineupPickButton from '../components/MyLineupPickButton'
 import FestivalHelmet from '../components/seo/FestivalHelmet'
 import LoadingState from '../components/LoadingState'
 import DayTabs from '../components/DayTabs'
@@ -398,22 +399,32 @@ export default function FestivalDetail() {
                   />
                 </div>
                 <h3>공개된 아티스트 라인업 ({stage1Artists.length}팀)</h3>
-                <p>아티스트를 선택하면 YouTube Music 인기 기반 대표곡 플레이리스트를 들을 수 있습니다.</p>
+                <p>아티스트를 선택하면 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
                 <div className="artist-chip-row">
                   {stage1Artists.map((artist) => {
                     const isSelected = selectedArtist?.id === artist.id
                     const ready = playlistReady.has(artist.id)
+                    const inLineup = myLineup.has(artist.id)
                     return (
-                      <button
+                      <div
                         key={artist.id}
-                        type="button"
-                        onClick={() => handleArtistSelect(artist.id)}
-                        className={`artist-chip${isSelected ? ' is-selected' : ''}`}
-                        style={{ opacity: ready ? 1 : 0.7 }}
-                        title={ready ? '플레이리스트 준비됨' : '플레이리스트 준비 중'}
+                        className={`artist-chip-group${isSelected ? ' is-selected' : ''}${inLineup ? ' is-in-lineup' : ''}`}
                       >
-                        {officialArtistName(artist)}
-                      </button>
+                        <button
+                          type="button"
+                          onClick={() => handleArtistSelect(artist.id)}
+                          className={`artist-chip${isSelected ? ' is-selected' : ''}`}
+                          style={{ opacity: ready ? 1 : 0.7 }}
+                          title={ready ? '플레이리스트 준비됨' : '플레이리스트 준비 중'}
+                        >
+                          {officialArtistName(artist)}
+                        </button>
+                        <MyLineupPickButton
+                          active={inLineup}
+                          className="lineup-pick-btn--chip"
+                          onToggle={() => myLineup.toggle(artist.id)}
+                        />
+                      </div>
                     )
                   })}
                 </div>
@@ -440,25 +451,36 @@ export default function FestivalDetail() {
                   />
                 </div>
                 <h3 className="lineup-block__subhead">일별 라인업 아티스트</h3>
+                <p className="lineup-block__hint">카드를 눌러 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
                 <div className="artist-card-grid">
                   {activeDayArtists.map((artist) => {
                     const isSelected = selectedArtist?.id === artist.id
                     const ready = playlistReady.has(artist.id)
+                    const inLineup = myLineup.has(artist.id)
                     return (
-                      <button
+                      <div
                         key={artist.id}
-                        type="button"
-                        onClick={() => handleArtistSelect(artist.id)}
-                        className={`artist-card${isSelected ? ' is-selected' : ''}`}
+                        className={`artist-card-wrap${isSelected ? ' is-selected' : ''}${inLineup ? ' is-in-lineup' : ''}`}
                       >
-                        <span className="artist-card__name">{officialArtistName(artist)}</span>
-                        {artist.country && (
-                          <span className="artist-card__country">{artist.country}</span>
-                        )}
-                        <span className={`artist-card__status${ready ? ' is-ready' : ''}`}>
-                          {ready ? '플레이리스트 준비됨' : '준비 중'}
-                        </span>
-                      </button>
+                        <button
+                          type="button"
+                          onClick={() => handleArtistSelect(artist.id)}
+                          className={`artist-card${isSelected ? ' is-selected' : ''}`}
+                        >
+                          <span className="artist-card__name">{officialArtistName(artist)}</span>
+                          {artist.country && (
+                            <span className="artist-card__country">{artist.country}</span>
+                          )}
+                          <span className={`artist-card__status${ready ? ' is-ready' : ''}`}>
+                            {ready ? '플레이리스트 준비됨' : '준비 중'}
+                          </span>
+                        </button>
+                        <MyLineupPickButton
+                          active={inLineup}
+                          className="lineup-pick-btn--card"
+                          onToggle={() => myLineup.toggle(artist.id)}
+                        />
+                      </div>
                     )
                   })}
                 </div>
@@ -484,6 +506,7 @@ export default function FestivalDetail() {
                     variant="bar"
                   />
                 </div>
+                <p className="lineup-block__hint">슬롯을 눌러 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
                 <div className="timetable-scroll">
                   <TimetableGrid
                     stages={activeDay?.stages || []}
@@ -491,6 +514,8 @@ export default function FestivalDetail() {
                     artists={artists}
                     selectedArtistId={selectedArtist?.id}
                     onSlotClick={handleArtistSelect}
+                    isInMyLineup={myLineup.has}
+                    onToggleMyLineup={myLineup.toggle}
                   />
                 </div>
               </div>
