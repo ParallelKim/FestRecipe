@@ -11,7 +11,7 @@ export type AlbumType = 'single' | 'ep' | 'lp'
 export interface Artist {
   id: string
   /**
-   * UI 공식 표기명 (사람이 큐레이션).
+   * UI 공식 표기명 (공식 TT 등 출처 기준 사람 큐레이션).
    * 가이드: docs/ARTIST_DISPLAY_NAMES.md
    */
   name: string

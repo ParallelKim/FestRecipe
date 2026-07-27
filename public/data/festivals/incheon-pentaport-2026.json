@@ -648,9 +648,16 @@
     }
   ],
   "timetableSource": {
-    "note": "공식 타임테이블 이미지 기준으로 정리 (입장 10:30, 개막행사/펜타로빅 등 비전시 프로그램 제외)",
+    "note": "공식 타임테이블 이미지 기준으로 슬롯·아티스트 표기명 정리 (입장 10:30, 개막행사/펜타로빅 등 비전시 프로그램 제외). 표기명은 일자별 TT 리스트 철자를 우선하고, 라인업 포스터와 충돌 시 TT를 따른다.",
     "referencedAt": "2026-07-12",
-    "referenceUrl": "https://songdo.life/guides/songdo-pentaport-rock-festival-2026-guide"
+    "referenceUrl": "https://songdo.life/guides/songdo-pentaport-rock-festival-2026-guide",
+    "localAssets": [
+      "sample/pentaport-timetable/pentaport-2026-july31-timetable.png",
+      "sample/pentaport-timetable/pentaport-2026-august1-timetable.png",
+      "sample/pentaport-timetable/pentaport-2026-august2-timetable.png",
+      "sample/pentaport-timetable/pentaport-2026-final-lineup-poster.png"
+    ],
+    "displayNamePolicy": "docs/ARTIST_DISPLAY_NAMES.md"
   },
   "tagline": "송도에서 사흘, 록의 밤을 미리 듣다"
 }

@@ -1,7 +1,7 @@
 [
   {
     "id": "asian-spice-house",
-    "name": "Asian Spice House",
+    "name": "아시안 스파이스 하우스",
     "englishName": "Asian Spice House",
     "ytmName": "Asian Spice House (아시안 스파이스 하우스)"
   },
@@ -44,7 +44,7 @@
   },
   {
     "id": "broken-valentine",
-    "name": "Broken Valentine",
+    "name": "브로큰 발렌타인",
     "englishName": "Broken Valentine",
     "ytmName": "Broken Valentine"
   },
@@ -79,7 +79,7 @@
   },
   {
     "id": "confined-white",
-    "name": "Confined White",
+    "name": "컨파인드 화이트",
     "englishName": "Confined White",
     "ytmName": "Confined White"
   },
@@ -92,7 +92,7 @@
   },
   {
     "id": "dragon-pony",
-    "name": "Dragon Pony",
+    "name": "드래곤포니",
     "englishName": "Dragon Pony",
     "ytmName": "Dragon Pony"
   },
@@ -110,13 +110,13 @@
   },
   {
     "id": "fat-hamster-and-kang-new",
-    "name": "Fat Hamster & Kang New",
+    "name": "팻햄스터 & 캉뉴",
     "englishName": "Fat Hamster & Kang New",
     "ytmName": "Fat Hamster"
   },
   {
     "id": "flesh-juicer",
-    "name": "Flesh Juicer",
+    "name": "Flesh Juicer 血肉果汁機",
     "englishName": "Flesh Juicer",
     "country": "TW",
     "ytmName": "Flesh Juicer"
@@ -136,20 +136,20 @@
   },
   {
     "id": "hi-fi-unicorn",
-    "name": "Hi-Fi Un!corn",
+    "name": "하이파이유니콘",
     "englishName": "Hi-Fi Un!corn",
     "country": "JP",
     "ytmName": "Hi-Fi Un!corn"
   },
   {
     "id": "hollow-jan",
-    "name": "HOLLOW JAN",
+    "name": "할로우 잰",
     "englishName": "Hollow Jan",
     "ytmName": "HOLLOW JAN"
   },
   {
     "id": "hyukoh",
-    "name": "HYUKOH",
+    "name": "혁오",
     "englishName": "HYUKOH",
     "ytmName": "HYUKOH"
   },
@@ -168,20 +168,20 @@
   },
   {
     "id": "jkc",
-    "name": "JKC",
+    "name": "잭킹콩",
     "englishName": "JKC",
     "ytmName": "JKC"
   },
   {
     "id": "khruangbin",
-    "name": "Khruangbin",
+    "name": "KHRUANGBIN",
     "englishName": "Khruangbin",
     "country": "US",
     "ytmName": "Khruangbin"
   },
   {
     "id": "kirara",
-    "name": "KIRARA",
+    "name": "키라라",
     "englishName": "Kirara",
     "ytmName": "KIRARA"
   },
@@ -200,19 +200,19 @@
   },
   {
     "id": "leenalchi",
-    "name": "LEENALCHI",
+    "name": "이날치",
     "englishName": "LEENALCHI",
     "ytmName": "LEENALCHI"
   },
   {
     "id": "lilly-eat-machine",
-    "name": "Lilly Eat Machine",
+    "name": "릴리 잇 머신",
     "englishName": "Lilly Eat Machine",
     "ytmName": "Lilly Eat Machine"
   },
   {
     "id": "massive-attack",
-    "name": "Massive Attack",
+    "name": "MASSIVE ATTACK",
     "englishName": "MASSIVE ATTACK",
     "country": "GB",
     "ytmName": "Massive Attack"
@@ -226,13 +226,13 @@
   },
   {
     "id": "mudd-the-student",
-    "name": "Mudd the student",
+    "name": "머드 더 스튜던트",
     "englishName": "Mudd the student",
     "ytmName": "Mudd the student"
   },
   {
     "id": "neu",
-    "name": "nEu",
+    "name": "노이",
     "englishName": "neu",
     "ytmName": "nEu"
   },
@@ -265,7 +265,7 @@
   },
   {
     "id": "peach-truck-hijackers",
-    "name": "Peach Truck Hijackers",
+    "name": "피치트럭하이재커스",
     "englishName": "Peach Truck Hijackers",
     "aliases": [
       "피치트럭하이재커스",
@@ -276,14 +276,14 @@
   },
   {
     "id": "pixies",
-    "name": "Pixies",
+    "name": "PIXIES",
     "englishName": "PIXIES",
     "country": "US",
     "ytmName": "Pixies"
   },
   {
     "id": "poser",
-    "name": "POSER",
+    "name": "포저군단",
     "englishName": "POSER",
     "ytmName": "POSER"
   },
@@ -295,19 +295,19 @@
   },
   {
     "id": "redoor",
-    "name": "Redoor",
+    "name": "리도어",
     "englishName": "Redoor",
     "ytmName": "Redoor"
   },
   {
     "id": "sanbo",
-    "name": "Sanbo",
+    "name": "산보",
     "englishName": "Sanbo",
     "ytmName": "Sanbo"
   },
   {
     "id": "seisumi",
-    "name": "Say Sue Me",
+    "name": "세이수미",
     "englishName": "Say Sue Me",
     "aliases": [
       "세이수미",
@@ -319,13 +319,13 @@
   },
   {
     "id": "silica-gel",
-    "name": "Silica Gel",
+    "name": "실리카겔",
     "englishName": "Silica Gel",
     "ytmName": "Silica Gel"
   },
   {
     "id": "simile-land",
-    "name": "SIMILE LAND",
+    "name": "심아일랜드",
     "englishName": "SIMILE LAND",
     "ytmName": "SIMILE LAND"
   },
@@ -349,14 +349,14 @@
   },
   {
     "id": "song-dongye",
-    "name": "宋冬野",
+    "name": "Song Dongye 宋冬野",
     "englishName": "Song Dongye",
     "country": "CN",
     "ytmName": "宋冬野 - Song Dongye"
   },
   {
     "id": "sultan-of-the-disco",
-    "name": "Sultan Of The Disco",
+    "name": "술탄오브더디스코",
     "englishName": "Sultan Of The Disco",
     "ytmName": "Sultan Of The Disco"
   },
@@ -368,13 +368,13 @@
   },
   {
     "id": "the-fix",
-    "name": "The Fix",
+    "name": "더 픽스",
     "englishName": "THE FIX",
     "ytmName": "The Fix"
   },
   {
     "id": "the-geeks",
-    "name": "The Geeks",
+    "name": "the geeks",
     "englishName": "The Geeks",
     "ytmName": "The Geeks"
   },
@@ -400,7 +400,7 @@
   },
   {
     "id": "the-volunteers",
-    "name": "The Volunteers",
+    "name": "더 발룬티어스",
     "englishName": "The Volunteers",
     "ytmName": "The Volunteers"
   },
@@ -412,7 +412,7 @@
   },
   {
     "id": "touched",
-    "name": "TOUCHED",
+    "name": "터치드",
     "englishName": "TOUCHED",
     "ytmName": "TOUCHED"
   },
@@ -456,7 +456,7 @@
   },
   {
     "id": "yunmachi",
-    "name": "MRCH",
+    "name": "윤마치",
     "englishName": "MRCH",
     "aliases": [
       "윤마치",
