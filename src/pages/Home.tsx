@@ -82,8 +82,7 @@ function festivalDdayLabel(festival: Festival, today = todayIso()): string {
 }
 
 function heroImageFor(festival: Festival): string | null {
-  if (festival.id === 'incheon-pentaport-2026') return '/images/pentaport-2026-hero.png'
-  return null
+  return festival.posterUrl || null
 }
 
 export default function Home() {
@@ -166,11 +165,11 @@ export default function Home() {
                 </p>
               )}
               <div className="home-hero__featured-brand">
-                {(featured.logoLightUrl || featured.logoUrl) && (
+                {(featured.posterUrl || featured.logoLightUrl || featured.logoUrl) && (
                   <img
-                    src={featured.logoLightUrl || featured.logoUrl}
+                    src={featured.posterUrl || featured.logoLightUrl || featured.logoUrl}
                     alt=""
-                    className="home-hero__fest-mark"
+                    className={`home-hero__fest-mark${featured.posterUrl ? ' home-hero__fest-mark--poster' : ''}`}
                   />
                 )}
                 <div className="home-hero__featured-copy">
@@ -207,12 +206,12 @@ export default function Home() {
               >
                 <div className="home-fest-row__main">
                   <p className="home-fest-row__eyebrow">{stageLabel(festival)}</p>
-                  {festival.logoUrl ? (
+                  {festival.posterUrl || festival.logoUrl ? (
                     <div className="home-fest-row__brand">
                       <img
-                        src={festival.logoUrl}
+                        src={festival.posterUrl || festival.logoUrl}
                         alt=""
-                        className="home-fest-row__mark"
+                        className={`home-fest-row__mark${festival.posterUrl ? ' home-fest-row__mark--poster' : ''}`}
                       />
                       <h3 className="home-fest-row__name">{festival.name}</h3>
                     </div>

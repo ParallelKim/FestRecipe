@@ -1,5 +1,4 @@
 import type { TimetableSlot, Artist } from '../types'
-import { headlinerArtistIds } from '../lib/headliners'
 import { officialArtistName } from '../lib/artistOfficialName'
 
 interface TimetableGridProps {
@@ -83,7 +82,6 @@ export default function TimetableGrid({
 
   const artistMap = new Map(artists.map((a) => [a.id, a]))
   const colTemplate = `var(--tt-axis) repeat(${stages.length}, minmax(0, 1fr))`
-  const headliners = headlinerArtistIds(slots)
 
   return (
     <div
@@ -154,14 +152,13 @@ export default function TimetableGrid({
                   const topPos = (slot.startMin - startLimit) * pxPerMin
                   const heightPos = slot.durationMinutes * pxPerMin
                   const isSelected = selectedArtistId === slot.artistId
-                  const isHeadliner = headliners.has(slot.artistId)
 
                   return (
                     <button
                       key={`${slot.artistId}-${index}`}
                       type="button"
                       onClick={() => onSlotClick(slot.artistId)}
-                      className={`tt-grid__slot${isSelected ? ' is-selected' : ''}${isHeadliner ? ' is-headliner' : ''}`}
+                      className={`tt-grid__slot${isSelected ? ' is-selected' : ''}`}
                       style={{
                         top: `${topPos + 1}px`,
                         height: `${Math.max(heightPos - 2, 28)}px`,
@@ -169,11 +166,8 @@ export default function TimetableGrid({
                         backgroundColor: isSelected ? theme.bg : '#ffffff',
                         color: isSelected ? theme.fg : '#111418',
                       }}
-                      aria-label={`${artistName}${isHeadliner ? ', 헤드라이너' : ''}, ${stageName}, ${slot.startTime}부터 ${slot.endTime}까지`}
+                      aria-label={`${artistName}, ${stageName}, ${slot.startTime}부터 ${slot.endTime}까지`}
                     >
-                      {isHeadliner && (
-                        <span className="headliner-badge headliner-badge--slot">HL</span>
-                      )}
                       <span className="tt-grid__slot-name">{artistName}</span>
                       <span className="tt-grid__slot-time">
                         {slot.startTime}–{slot.endTime}

@@ -10,6 +10,8 @@
   "description": "인천광역시가 주최하는 대한민국 대표 록 페스티벌. 2026년 21회에는 Massive Attack, Pixies, Khruangbin을 비롯한 국내외 라인업이 송도달빛축제공원에 오른다.",
   "websiteUrl": "https://www.pentaport.co.kr",
   "logoUrl": "/images/pentaport-mark.png",
+  "posterUrl": "/images/pentaport-2026-hero.png",
+  "mapUrl": "https://map.naver.com/p/search/%EC%9D%B8%EC%B2%9C%20%EC%86%A1%EB%8F%84%EB%8B%AC%EB%B9%9B%EC%B6%95%EC%A0%9C%EA%B3%B5%EC%9B%90",
   "allArtists": [
     "band-nah",
     "qwer",

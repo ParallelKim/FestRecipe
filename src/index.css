@@ -441,6 +441,10 @@ body {
   flex-shrink: 0;
   filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.35));
 }
+.home-hero__fest-mark--poster {
+  object-fit: cover;
+  border-radius: 4px;
+}
 .home-hero__featured-copy {
   min-width: 0;
 }
@@ -518,6 +522,10 @@ body {
   object-fit: contain;
   flex-shrink: 0;
 }
+.home-fest-row__mark--poster {
+  object-fit: cover;
+  border-radius: 4px;
+}
 .home-fest-row__name {
   font-family: var(--font-body);
   font-size: clamp(20px, 2.8vw, 28px);
@@ -588,6 +596,16 @@ body {
   margin-bottom: 20px;
   opacity: 0.8;
 }
+.festival-hero__poster-wrap {
+  margin: 0 0 22px;
+  max-width: min(420px, 100%);
+}
+.festival-hero__poster {
+  display: block;
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
 .festival-hero__brand {
   display: flex;
   align-items: center;
@@ -632,6 +650,32 @@ body {
   gap: 12px 20px;
   font-size: 13px;
   font-weight: 700;
+}
+.festival-hero__meta-link {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+.festival-hero__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+.festival-hero__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  opacity: 0.92;
+}
+.festival-hero__link:hover {
+  opacity: 1;
 }
 .festival-body {
   margin-top: 36px;
@@ -1092,20 +1136,6 @@ body {
   letter-spacing: -0.01em;
   line-height: 1.2;
   white-space: nowrap;
-}
-.headliner-badge--slot {
-  align-self: flex-start;
-  padding: 2px 5px;
-  font-size: 9px;
-  letter-spacing: 0.04em;
-  margin-bottom: 1px;
-}
-.tt-grid__slot.is-headliner {
-  border-width: 2px;
-}
-.tt-grid__slot.is-selected .headliner-badge--slot {
-  background: rgba(0, 0, 0, 0.35);
-  color: inherit;
 }
 .playlist-panel__meta {
   margin: 0;

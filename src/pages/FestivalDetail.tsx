@@ -13,6 +13,7 @@ import PlaylistHubActions from '../components/PlaylistHubActions'
 import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
 import { headlinerArtistIds } from '../lib/headliners'
 import { officialArtistName } from '../lib/artistOfficialName'
+import { buildFestivalMapUrl } from '../lib/festivalLinks'
 
 export default function FestivalDetail() {
   const { id } = useParams<{ id: string }>()
@@ -121,6 +122,7 @@ export default function FestivalDetail() {
 
   const activeDay = festival.lineup[activeDayIndex]
   const artistMap = new Map(artists.map((a) => [a.id, a]))
+  const mapUrl = buildFestivalMapUrl(festival)
 
   const stage1Artists = festival.allArtists
     .map((artistId) => artistMap.get(artistId))
@@ -230,13 +232,29 @@ export default function FestivalDetail() {
           <Link to="/" className="festival-hero__back" style={{ color: sigTextColor }}>
             ← 페스티벌 목록
           </Link>
+
+          {festival.posterUrl && (
+            <motion.div
+              className="festival-hero__poster-wrap"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+            >
+              <img
+                src={festival.posterUrl}
+                alt={`${festival.name} 공식 포스터`}
+                className="festival-hero__poster"
+              />
+            </motion.div>
+          )}
+
           <motion.div
             className="festival-hero__brand"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.4, delay: 0.04 }}
           >
-            {festival.logoUrl && (
+            {!festival.posterUrl && festival.logoUrl && (
               <img
                 src={festival.logoUrl}
                 alt=""
@@ -254,9 +272,47 @@ export default function FestivalDetail() {
             </p>
           )}
           <div className="festival-hero__meta" style={{ color: sigMutedColor }}>
-            <span>{festival.location}</span>
+            {mapUrl ? (
+              <a
+                href={mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="festival-hero__meta-link"
+                style={{ color: sigMutedColor }}
+              >
+                {festival.location}
+              </a>
+            ) : (
+              <span>{festival.location}</span>
+            )}
             <span>{festival.startDate} ~ {festival.endDate}</span>
           </div>
+          {(festival.websiteUrl || mapUrl) && (
+            <div className="festival-hero__links">
+              {festival.websiteUrl && (
+                <a
+                  href={festival.websiteUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="festival-hero__link"
+                  style={{ color: sigTextColor, borderColor: 'currentColor' }}
+                >
+                  공식 홈페이지
+                </a>
+              )}
+              {mapUrl && (
+                <a
+                  href={mapUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="festival-hero__link"
+                  style={{ color: sigTextColor, borderColor: 'currentColor' }}
+                >
+                  지도에서 보기
+                </a>
+              )}
+            </div>
+          )}
         </div>
       </section>
 

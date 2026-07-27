@@ -179,6 +179,10 @@ export interface Festival {
   logoUrl?: string
   /** 다크/컬러 히어로용 밝은 로고 */
   logoLightUrl?: string
+  /** 메인 라인업 포스터 (상세·대표 비주얼) */
+  posterUrl?: string
+  /** 지도 딥링크. 없으면 location 검색으로 생성 */
+  mapUrl?: string
   allArtists: string[] // 1단계(all) 요일미구분 전체 라인업
   lineup: DayLineup[]
 }
