@@ -16,6 +16,8 @@ interface PlaylistMobileDockProps {
   onCloseArtist: () => void
   onOpenBundled: (kind: 'day' | 'festival', artistIds: string[], title: string) => void
   onOpenMyPlaylist?: () => void
+  showMyPlaylistWarning?: boolean
+  onDismissMyPlaylistWarning?: () => void
 }
 
 /** Fixed playlist FAB — opens the listen hub (day / festival / my). */

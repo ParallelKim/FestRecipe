@@ -1,5 +1,6 @@
 import type { Artist, ArtistPlaylist, Festival, DayLineup } from '../types'
 import {
+  WATCH_VIDEOS_MAX,
   buildWatchVideosUrl,
   playlistTitleForArtist,
 } from '../lib/youtubePlaylist'
@@ -20,6 +21,9 @@ interface ArtistPlaylistPanelProps {
   onOpenMyPlaylist?: () => void
   /** Hide duplicate hub when parent already renders PlaylistHubActions */
   hideHub?: boolean
+  /** Shown when user taps 「나만의 플레이리스트」 — watch_videos 50곡 캡 안내 */
+  showMyPlaylistWarning?: boolean
+  onDismissMyPlaylistWarning?: () => void
 }
 
 export default function ArtistPlaylistPanel({
@@ -35,6 +39,8 @@ export default function ArtistPlaylistPanel({
   onOpenBundled,
   onOpenMyPlaylist,
   hideHub = false,
+  showMyPlaylistWarning = false,
+  onDismissMyPlaylistWarning,
 }: ArtistPlaylistPanelProps) {
   const displayName = selectedArtist ? officialArtistName(selectedArtist) : ''
   const artistPlaylistTitle = selectedArtist
@@ -151,6 +157,27 @@ export default function ArtistPlaylistPanel({
               <h4>플레이리스트 준비 중</h4>
               <p>{displayName}의 YouTube Music 대표곡을 모으고 있습니다.</p>
             </div>
+          )}
+        </div>
+      ) : showMyPlaylistWarning ? (
+        <div className="playlist-panel__idle playlist-panel__idle--warn" role="status">
+          <h4>나만의 플레이리스트 안내</h4>
+          <p>
+            YouTube 임시 재생목록은 한 번에 최대 {WATCH_VIDEOS_MAX}곡까지만 열립니다.
+            아티스트를 많이 고르면 앞 {WATCH_VIDEOS_MAX}곡만 재생되니, 나눠 듣거나
+            나중에 저장해 두는 편이 좋습니다.
+          </p>
+          <p className="playlist-panel__idle-hint">
+            아티스트를 모아 듣는 기능은 곧 연결됩니다.
+          </p>
+          {onDismissMyPlaylistWarning && (
+            <button
+              type="button"
+              className="btn-secondary playlist-panel__warn-dismiss"
+              onClick={onDismissMyPlaylistWarning}
+            >
+              확인
+            </button>
           )}
         </div>
       ) : (

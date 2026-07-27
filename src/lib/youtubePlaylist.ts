@@ -1,6 +1,14 @@
 /** YouTube 임시 재생목록(watch_videos) URL + 제목 헬퍼 */
 
-const WATCH_VIDEOS_MAX = 50
+/**
+ * YouTube `watch_videos` 딥링크 하드 캡 (서버 제한, URL 길이 이슈 아님).
+ * @see https://github.com/TeamNewPipe/NewPipe/issues/11930
+ *
+ * TODO(day-playlist): 요일/페스티벌 묶음이 50곡을 넘기므로, 현행 딥링크(앞 50곡만)
+ * 대신 대표(운영) YouTube 계정 + Data API로 고정 플레이리스트를 발행하는 방안을 검토.
+ * 나만의 플레이리스트는 유저 OAuth 또는 분할 딥링크 + 경고로 다루는 편이 맞음.
+ */
+export const WATCH_VIDEOS_MAX = 50
 
 export type PlaylistTitleKind = 'artist' | 'day' | 'festival' | 'custom'
 
@@ -9,7 +17,8 @@ export function buildWatchVideosUrl(
   videoIds: string[],
   title?: string | null,
 ): string | null {
-  const ids = uniqueVideoIds(videoIds).slice(0, WATCH_VIDEOS_MAX)
+  const unique = uniqueVideoIds(videoIds)
+  const ids = unique.slice(0, WATCH_VIDEOS_MAX)
   if (ids.length === 0) return null
 
   const params = new URLSearchParams()
@@ -17,6 +26,11 @@ export function buildWatchVideosUrl(
   const trimmed = (title || '').trim()
   if (trimmed) params.set('title', trimmed)
   return `https://www.youtube.com/watch_videos?${params.toString()}`
+}
+
+/** 딥링크로 열 때 잘리는 곡이 있으면 true (UI 경고용) */
+export function watchVideosWouldTruncate(videoIds: string[]): boolean {
+  return uniqueVideoIds(videoIds).length > WATCH_VIDEOS_MAX
 }
 
 export function uniqueVideoIds(videoIds: Array<string | null | undefined>): string[] {

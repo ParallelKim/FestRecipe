@@ -28,6 +28,7 @@ export default function FestivalDetail() {
   const [playlistLoading, setPlaylistLoading] = useState(false)
   const [bundleLoading, setBundleLoading] = useState<'day' | 'festival' | null>(null)
   const [playlistSheetOpen, setPlaylistSheetOpen] = useState(false)
+  const [showMyPlaylistWarning, setShowMyPlaylistWarning] = useState(false)
 
   useEffect(() => {
     let active = true
@@ -133,17 +134,20 @@ export default function FestivalDetail() {
     const artist = artistMap.get(artistId)
     if (!artist) return
     setSelectedArtist(artist)
+    setShowMyPlaylistWarning(false)
     setPlaylistSheetOpen(true)
   }
 
   const clearArtist = () => {
     setSelectedArtist(null)
+    setShowMyPlaylistWarning(false)
     setPlaylistSheetOpen(false)
   }
 
   const changeDay = (idx: number) => {
     setActiveDayIndex(idx)
     setSelectedArtist(null)
+    setShowMyPlaylistWarning(false)
     setPlaylistSheetOpen(false)
   }
 
@@ -161,6 +165,9 @@ export default function FestivalDetail() {
         ids.map((aid) => FestivalService.getPlaylistForArtist(aid)),
       )
       const videoIds = playlists.flatMap((pl) => (pl?.tracks || []).map((t) => t.videoId))
+      // TODO(day-playlist): 요일/전체는 watch_videos 50곡 캡에 걸린다.
+      // 대표 YouTube 계정으로 Data API 플레이리스트를 미리 만들어 링크하는 방식으로 교체 예정.
+      // 당분간 딥링크 현행 유지(앞 50곡만 재생).
       const url = buildWatchVideosUrl(videoIds, title)
       if (url) window.open(url, '_blank', 'noopener,noreferrer')
     } finally {
@@ -177,8 +184,14 @@ export default function FestivalDetail() {
       }, 0)
 
   const openPlaylistHub = () => {
-    // Hub entry: show day/festival/my actions (not stuck on a single artist)
     setSelectedArtist(null)
+    setShowMyPlaylistWarning(false)
+    setPlaylistSheetOpen(true)
+  }
+
+  const openMyPlaylistWithWarning = () => {
+    setSelectedArtist(null)
+    setShowMyPlaylistWarning(true)
     setPlaylistSheetOpen(true)
   }
 
@@ -192,7 +205,9 @@ export default function FestivalDetail() {
     bundleLoading,
     headlinerIds: headlinerArtistIds(activeDay?.slots),
     onOpenBundled: openBundledPlaylist,
-    onOpenMyPlaylist: openPlaylistHub,
+    onOpenMyPlaylist: openMyPlaylistWithWarning,
+    showMyPlaylistWarning,
+    onDismissMyPlaylistWarning: () => setShowMyPlaylistWarning(false),
   }
 
   return (
@@ -257,7 +272,7 @@ export default function FestivalDetail() {
                     playlistReady={playlistReady}
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
-                    onOpenMyPlaylist={openPlaylistHub}
+                    onOpenMyPlaylist={openMyPlaylistWithWarning}
                     variant="bar"
                   />
                 </div>
@@ -298,7 +313,7 @@ export default function FestivalDetail() {
                     playlistReady={playlistReady}
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
-                    onOpenMyPlaylist={openPlaylistHub}
+                    onOpenMyPlaylist={openMyPlaylistWithWarning}
                     variant="bar"
                   />
                 </div>
@@ -342,7 +357,7 @@ export default function FestivalDetail() {
                     playlistReady={playlistReady}
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
-                    onOpenMyPlaylist={openPlaylistHub}
+                    onOpenMyPlaylist={openMyPlaylistWithWarning}
                     variant="bar"
                   />
                 </div>
@@ -371,7 +386,10 @@ export default function FestivalDetail() {
       <PlaylistMobileDock
         open={playlistSheetOpen}
         onOpen={openPlaylistHub}
-        onClose={() => setPlaylistSheetOpen(false)}
+        onClose={() => {
+          setPlaylistSheetOpen(false)
+          setShowMyPlaylistWarning(false)
+        }}
         onCloseArtist={() => setSelectedArtist(null)}
         {...panelProps}
       />
