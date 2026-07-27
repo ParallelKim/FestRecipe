@@ -884,8 +884,8 @@ body {
   border-color: var(--color-ink);
 }
 .artist-chip-group.is-in-lineup:not(.is-selected) {
-  border-color: color-mix(in srgb, var(--color-sig-forest, #2d5a4a) 55%, var(--color-hairline));
-  background: color-mix(in srgb, var(--color-sig-mint) 28%, var(--color-canvas));
+  border-color: #5a9e72;
+  background: #f3faf5;
 }
 .artist-chip {
   padding: 10px 12px 10px 16px;
@@ -927,8 +927,8 @@ body {
   position: relative;
 }
 .artist-card-wrap.is-in-lineup .artist-card:not(.is-selected) {
-  border-color: color-mix(in srgb, var(--color-sig-forest, #2d5a4a) 50%, var(--color-hairline));
-  background: color-mix(in srgb, var(--color-sig-mint) 30%, var(--color-canvas));
+  border-color: #5a9e72;
+  background: #f3faf5;
 }
 .artist-card {
   padding: 16px;
@@ -1098,11 +1098,8 @@ body {
   right: 2px;
   z-index: 2;
 }
-.tt-grid__slot-shell.is-panel-selected {
+.tt-grid__slot-shell.is-in-lineup {
   z-index: 3;
-}
-.tt-grid__slot-shell.is-in-lineup .lineup-pick-btn--tt {
-  opacity: 1;
 }
 .tt-grid__slot {
   position: absolute;
@@ -1120,41 +1117,30 @@ body {
   text-align: left;
   overflow: hidden;
   min-width: 0;
+  box-shadow: none;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
-  transition: transform 0.1s ease, box-shadow 0.12s ease, background-color 0.12s ease;
+  transition: transform 0.08s ease;
 }
 .tt-grid__slot.is-in-lineup {
-  background: color-mix(in srgb, var(--color-sig-mint) 42%, #ffffff);
-  box-shadow: inset 3px 0 0 var(--color-sig-forest);
-}
-.tt-grid__slot.is-panel-selected {
-  box-shadow: 0 0 0 2px var(--color-ink), 0 2px 8px rgba(0, 0, 0, 0.14);
-}
-.tt-grid__slot.is-in-lineup.is-panel-selected {
-  box-shadow:
-    inset 3px 0 0 var(--color-sig-forest),
-    0 0 0 2px var(--color-ink),
-    0 2px 8px rgba(0, 0, 0, 0.12);
+  background: #f3faf5;
+  border-color: #5a9e72;
+  box-shadow: inset 3px 0 0 #1a6b42;
 }
 @media (hover: hover) and (pointer: fine) {
   .tt-grid__slot:hover {
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  }
-  .tt-grid__slot.is-in-lineup:hover {
-    box-shadow:
-      inset 3px 0 0 var(--color-sig-forest),
-      0 2px 6px rgba(0, 0, 0, 0.1);
+    filter: brightness(0.98);
   }
 }
 .tt-grid__slot:active {
-  transform: scale(0.98);
+  transform: scale(0.99);
 }
 .tt-grid__slot:focus {
   outline: none;
 }
 .tt-grid__slot:focus-visible {
-  box-shadow: 0 0 0 2px var(--color-info-border);
+  outline: 2px solid var(--color-info-border);
+  outline-offset: 1px;
 }
 .lineup-pick-btn {
   display: inline-flex;
@@ -1211,27 +1197,27 @@ body {
 }
 .lineup-pick-btn--tt {
   position: absolute;
-  top: 2px;
-  right: 2px;
-  width: 24px;
-  height: 22px;
+  top: 3px;
+  right: 3px;
+  width: 22px;
+  height: 20px;
   border-radius: 4px;
-  background: rgba(255, 255, 255, 0.95);
-  border: 1px solid rgba(17, 20, 24, 0.16);
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(17, 20, 24, 0.14);
   z-index: 4;
-  opacity: 0.92;
+  color: #6b7280;
 }
 .lineup-pick-btn--tt .lineup-pick-btn__icon {
-  font-size: 12px;
+  font-size: 11px;
 }
 .lineup-pick-btn--tt.is-on {
-  background: var(--color-sig-forest);
-  border-color: var(--color-sig-forest);
+  background: #1a6b42;
+  border-color: #1a6b42;
   color: #fff;
-  opacity: 1;
 }
-.tt-grid__slot-shell.is-in-lineup .lineup-pick-btn--tt:not(.is-on) {
-  border-color: color-mix(in srgb, var(--color-sig-forest) 35%, rgba(17, 20, 24, 0.16));
+.tt-grid__slot.is-in-lineup .lineup-pick-btn--tt:not(.is-on) {
+  border-color: #8fc4a0;
+  color: #1a6b42;
 }
 .tt-grid__slot-name {
   display: block;

@@ -168,7 +168,7 @@ export default function TimetableGrid({
                   return (
                     <div
                       key={`${slot.artistId}-${index}`}
-                      className={`tt-grid__slot-shell${isSelected ? ' is-panel-selected' : ''}${inLineup ? ' is-in-lineup' : ''}`}
+                      className={`tt-grid__slot-shell${inLineup ? ' is-in-lineup' : ''}`}
                       style={{
                         top: `${topPos + 1}px`,
                         height: `${Math.max(heightPos - 2, 28)}px`,
@@ -180,7 +180,7 @@ export default function TimetableGrid({
                           onSlotClick(slot.artistId)
                           blurAfterTap(e.currentTarget)
                         }}
-                        className={`tt-grid__slot${isSelected ? ' is-panel-selected' : ''}${inLineup ? ' is-in-lineup' : ''}`}
+                        className={`tt-grid__slot${inLineup ? ' is-in-lineup' : ''}`}
                         style={{ borderColor: theme.accent }}
                         aria-label={`${artistName}, ${stageName}, ${slot.startTime}부터 ${slot.endTime}까지`}
                         aria-current={isSelected ? 'true' : undefined}
