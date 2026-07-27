@@ -36,6 +36,51 @@ function formatDateRange(start: string, end: string): string {
   return `${fmt(start)} – ${fmt(end)}`
 }
 
+/** Local calendar day as YYYY-MM-DD (no timezone shift surprises). */
+function todayIso(now = new Date()): string {
+  const y = now.getFullYear()
+  const m = String(now.getMonth() + 1).padStart(2, '0')
+  const d = String(now.getDate()).padStart(2, '0')
+  return `${y}-${m}-${d}`
+}
+
+function daysBetween(fromIso: string, toIso: string): number {
+  const from = Date.parse(`${fromIso}T12:00:00`)
+  const to = Date.parse(`${toIso}T12:00:00`)
+  return Math.round((to - from) / 86_400_000)
+}
+
+/** Nearest upcoming (or currently on) festival for the hero. */
+function closestFestival(festivals: Festival[], today = todayIso()): Festival | null {
+  if (festivals.length === 0) return null
+  const ranked = [...festivals].sort((a, b) => {
+    const aOngoing = a.startDate <= today && today <= a.endDate
+    const bOngoing = b.startDate <= today && today <= b.endDate
+    if (aOngoing !== bOngoing) return aOngoing ? -1 : 1
+    const aFuture = a.startDate >= today
+    const bFuture = b.startDate >= today
+    if (aFuture !== bFuture) return aFuture ? -1 : 1
+    if (aFuture) return a.startDate.localeCompare(b.startDate)
+    // past: nearest end date first
+    return b.endDate.localeCompare(a.endDate)
+  })
+  return ranked[0] ?? null
+}
+
+/** Hero eyebrow: D-day style countdown to festival start / during / after. */
+function festivalDdayLabel(festival: Festival, today = todayIso()): string {
+  if (today < festival.startDate) {
+    const n = daysBetween(today, festival.startDate)
+    return n === 0 ? 'D-DAY' : `D-${n}`
+  }
+  if (today <= festival.endDate) {
+    const day = daysBetween(festival.startDate, today) + 1
+    return `DAY ${day}`
+  }
+  const ago = daysBetween(festival.endDate, today)
+  return ago <= 0 ? '종료' : `${ago}일 전 종료`
+}
+
 function heroImageFor(festival: Festival): string | null {
   if (festival.id === 'incheon-pentaport-2026') return '/images/pentaport-2026-hero.png'
   return null
@@ -62,8 +107,9 @@ export default function Home() {
     return <LoadingState label="페스티벌 정보를 불러오는 중..." />
   }
 
-  const featured = festivals[0]
+  const featured = closestFestival(festivals)
   const heroImage = featured ? heroImageFor(featured) : null
+  const ddayLabel = featured ? festivalDdayLabel(featured) : null
 
   return (
     <div className="home-page">
@@ -114,7 +160,11 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.24, ease: 'easeOut' }}
             >
-              <p className="home-hero__featured-label">지금 준비된 페스티벌</p>
+              {ddayLabel && (
+                <p className="home-hero__featured-label" aria-label={`디데이 ${ddayLabel}`}>
+                  {ddayLabel}
+                </p>
+              )}
               <div className="home-hero__featured-brand">
                 {(featured.logoLightUrl || featured.logoUrl) && (
                   <img
@@ -138,9 +188,6 @@ export default function Home() {
               >
                 {ctaLabel(featured)}
               </Link>
-              <p className="home-hero__cta-hint">
-                이 페스티벌 페이지로 이동합니다.
-              </p>
             </motion.div>
           )}
         </div>
