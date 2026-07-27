@@ -1131,30 +1131,32 @@ body {
   box-shadow: none;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
-  transition: transform 0.08s ease;
+  transition: transform 0.08s ease, box-shadow 0.12s ease, background-color 0.12s ease;
 }
 .tt-grid__slot.is-in-lineup {
   background: var(--slot-lineup-bg, var(--color-lineup-bg));
 }
 .tt-grid__slot.is-selected {
-  border-color: var(--stage-accent, var(--color-ink));
-  border-width: 2px;
+  background: color-mix(in srgb, var(--stage-accent, #41454d) 10%, #ffffff);
   box-shadow:
-    0 0 0 2px var(--color-ink),
-    0 2px 8px rgba(17, 20, 24, 0.14);
-  z-index: 1;
+    inset 3px 0 0 var(--stage-accent, #41454d),
+    0 0 0 2px color-mix(in srgb, var(--stage-accent, #41454d) 55%, transparent);
 }
 .tt-grid__slot.is-in-lineup.is-selected {
-  background: var(--slot-lineup-bg, var(--color-lineup-bg));
+  background: color-mix(
+    in srgb,
+    var(--slot-lineup-bg, var(--color-lineup-bg)) 82%,
+    var(--stage-accent, #41454d) 18%
+  );
   box-shadow:
-    0 0 0 2px var(--color-ink),
-    inset 0 0 0 1px color-mix(in srgb, var(--stage-accent, var(--color-ink)) 35%, transparent);
+    inset 3px 0 0 var(--stage-accent, #41454d),
+    0 0 0 2px color-mix(in srgb, var(--stage-accent, #41454d) 55%, transparent);
 }
 .tt-grid__slot.is-selected .tt-grid__slot-name {
-  color: var(--color-ink);
+  color: #111418;
 }
 .tt-grid__slot.is-selected .tt-grid__slot-time {
-  opacity: 0.85;
+  opacity: 0.8;
 }
 .tt-grid__slot-shell.is-in-lineup .lineup-pick-btn--tt.is-on {
   background: var(--slot-lineup-bg, var(--color-lineup-bg));
@@ -1172,8 +1174,17 @@ body {
   outline: none;
 }
 .tt-grid__slot:focus-visible {
-  outline: 2px solid var(--color-info-border);
-  outline-offset: 1px;
+  outline: none;
+  box-shadow:
+    0 0 0 2px var(--color-canvas),
+    0 0 0 4px var(--stage-accent, var(--color-info-border));
+}
+.tt-grid__slot.is-selected:focus-visible {
+  box-shadow:
+    inset 3px 0 0 var(--stage-accent, #41454d),
+    0 0 0 2px color-mix(in srgb, var(--stage-accent, #41454d) 55%, transparent),
+    0 0 0 4px var(--color-canvas),
+    0 0 0 6px var(--stage-accent, var(--color-info-border));
 }
 .lineup-pick-btn {
   display: inline-flex;
@@ -1477,8 +1488,11 @@ body {
   border-color: rgba(17, 20, 24, 0.12);
 }
 .timetable-legend__swatch--selected {
-  border: 2px solid var(--color-ink);
-  box-shadow: 0 0 0 1px #fff;
+  border: 1.5px solid color-mix(in srgb, var(--color-sig-mustard) 70%, var(--color-hairline));
+  background: color-mix(in srgb, var(--color-sig-mustard) 12%, #fff);
+  box-shadow:
+    inset 3px 0 0 var(--color-sig-mustard),
+    0 0 0 2px color-mix(in srgb, var(--color-sig-mustard) 45%, transparent);
 }
 .playlist-panel__header {
   display: flex;
