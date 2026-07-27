@@ -4,6 +4,9 @@
  * 아티스트 인지도 티어 기본 곡 수: high=5 / mid=4 / low=3.
  * 합계가 50을 넘으면 2/3/4 → 1/2/3 으로 다운그레이드하고,
  * 그래도 넘치면 라운드로빈으로 50곡까지 채운다.
+ *
+ * 아티스트 순서는 프론트 조합 시 `playlistBundleOrder.ts` (슬롯 종료 시각).
+ * collector/JSON 빌드 순서와 무관하며, 슬롯이 없으면 순서를 알 수 없어 뒤로 둔다.
  */
 
 import type { ArtistPlaylist, RecognitionTier } from '../types'

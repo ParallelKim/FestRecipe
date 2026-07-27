@@ -19,6 +19,10 @@ import {
   buildBundledAnonymousPlaylist,
   type BundledAnonymousPlaylist,
 } from '../lib/bundlePlaylist'
+import {
+  orderArtistIdsForDayBundle,
+  orderArtistIdsForFestivalBundle,
+} from '../lib/playlistBundleOrder'
 
 export default function FestivalDetail() {
   const { id } = useParams<{ id: string }>()
@@ -170,11 +174,16 @@ export default function FestivalDetail() {
     const ids = artistIds.filter((aid) => playlistReady.has(aid))
     if (ids.length === 0) return
 
+    const orderedIds =
+      kind === 'day'
+        ? orderArtistIdsForDayBundle(ids, activeDay?.slots)
+        : orderArtistIdsForFestivalBundle(ids, festival?.lineup)
+
     setBundleLoading(kind)
     setShowMyPlaylistWarning(false)
     try {
       const playlists = await Promise.all(
-        ids.map((aid) => FestivalService.getPlaylistForArtist(aid)),
+        orderedIds.map((aid) => FestivalService.getPlaylistForArtist(aid)),
       )
       // TODO(day-playlist): 장기적으로는 대표 YouTube 계정 + Data API 고정 PL로 교체.
       // 단기: 티어 곡 수(5/4/3 → 4/3/2 → 3/2/1) 다운그레이드로 50곡 캡에 맞춤.
