@@ -24,6 +24,7 @@ import {
   orderArtistIdsForFestivalBundle,
 } from '../lib/playlistBundleOrder'
 import { blurAfterTap } from '../lib/blurAfterTap'
+import { festivalLineupHighlightFallback } from '../lib/stageTheme'
 import { useMyLineup } from '../hooks/useMyLineup'
 import { downloadMyLineupImage } from '../lib/exportMyLineupImage'
 import { playlistTitleForCustom } from '../lib/youtubePlaylist'
@@ -304,8 +305,16 @@ export default function FestivalDetail() {
     onDismissBundleNotice: () => setBundleNotice(null),
   }
 
+  const festivalLineupBg = festivalLineupHighlightFallback(
+    festival.stageStyles,
+    festival.lineupHighlightColor,
+  )
+
   return (
-    <div className="festival-detail">
+    <div
+      className="festival-detail"
+      style={{ ['--festival-lineup-bg' as string]: festivalLineupBg }}
+    >
       <FestivalHelmet
         festivalId={festival.id}
         festivalName={festival.name}
@@ -519,6 +528,7 @@ export default function FestivalDetail() {
                     stages={activeDay?.stages || []}
                     slots={activeDay?.slots || []}
                     artists={artists}
+                    stageStyles={festival.stageStyles}
                     selectedArtistId={selectedArtist?.id}
                     onSlotClick={handleArtistSelect}
                     myLineupArtistIds={myLineup.artistIds}

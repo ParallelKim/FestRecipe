@@ -153,6 +153,20 @@ export interface TimetableSlot {
   durationMinutes: number
 }
 
+/** 타임테이블 스테이지 색 — 페스티벌 JSON `stageStyles` 로 정의 */
+export interface FestivalStageStyle {
+  /** `slots[].stageName` · `day.stages[]` 와 동일 */
+  stageName: string
+  shortLabel?: string
+  bg: string
+  fg: string
+  accent: string
+  /** 무대 열 배경 */
+  soft: string
+  /** 내 라인업 담김 슬롯 연한 배경 — 생략 시 `soft` */
+  lineupBg?: string
+}
+
 export interface DayLineup {
   date: string         // ISO date e.g. "2026-06-12"
   dayLabel: string     // e.g. "6.12 FRI (전야제)"
@@ -183,6 +197,10 @@ export interface Festival {
   posterUrl?: string
   /** 지도 딥링크. 없으면 location 검색으로 생성 */
   mapUrl?: string
+  /** 타임테이블 스테이지별 색 (페스티벌마다 다르게 지정) */
+  stageStyles?: FestivalStageStyle[]
+  /** 스테이지 없는 라인업(칩·카드) 내 라인업 하이라이트 배경 */
+  lineupHighlightColor?: string
   allArtists: string[] // 1단계(all) 요일미구분 전체 라인업
   lineup: DayLineup[]
 }

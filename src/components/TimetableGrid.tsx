@@ -1,6 +1,8 @@
 import { useMemo } from 'react'
-import type { TimetableSlot, Artist } from '../types'
+import type { CSSProperties } from 'react'
+import type { FestivalStageStyle, TimetableSlot, Artist } from '../types'
 import { officialArtistName } from '../lib/artistOfficialName'
+import { stageThemeMap } from '../lib/stageTheme'
 import MyLineupPickButton from './MyLineupPickButton'
 import { blurAfterTap } from '../lib/blurAfterTap'
 
@@ -8,19 +10,12 @@ interface TimetableGridProps {
   stages: string[]
   slots: TimetableSlot[]
   artists: Artist[]
+  stageStyles?: FestivalStageStyle[]
   selectedArtistId?: string
   onSlotClick: (artistId: string) => void
   isInMyLineup?: (artistId: string) => boolean
-  /** 내 라인업 담긴 아티스트 id (UI 동기화용) */
   myLineupArtistIds?: string[]
   onToggleMyLineup?: (artistId: string) => void
-}
-
-type StageTheme = {
-  bg: string
-  fg: string
-  accent: string
-  soft: string
 }
 
 function timeToMinutes(time: string): number {
@@ -28,33 +23,11 @@ function timeToMinutes(time: string): number {
   return hours * 60 + minutes
 }
 
-/** Official Pentaport timetable color coding */
-function stageTheme(stageName: string): StageTheme {
-  const n = stageName.replace(/\s+/g, '').toLowerCase()
-  if (n.includes('kb') || n.includes('국민')) {
-    return { bg: '#f5d000', fg: '#141414', accent: '#c9a800', soft: '#fff6b8' }
-  }
-  if (n.includes('monster') || n.includes('몬스터')) {
-    return { bg: '#7ac143', fg: '#141414', accent: '#5a9a2e', soft: '#dff5c8' }
-  }
-  if (n.includes('stanley') || n.includes('스탠리')) {
-    return { bg: '#1a1a1a', fg: '#ffffff', accent: '#1a1a1a', soft: '#ececec' }
-  }
-  return { bg: '#181d26', fg: '#ffffff', accent: '#41454d', soft: '#f3f4f6' }
-}
-
-function shortStageLabel(stageName: string): string {
-  const n = stageName.replace(/\s+/g, '').toLowerCase()
-  if (n.includes('kb') || n.includes('국민')) return 'KB'
-  if (n.includes('monster') || n.includes('몬스터')) return '몬스터'
-  if (n.includes('stanley') || n.includes('스탠리')) return '스탠리'
-  return stageName.length > 6 ? `${stageName.slice(0, 6)}…` : stageName
-}
-
 export default function TimetableGrid({
   stages,
   slots,
   artists,
+  stageStyles,
   selectedArtistId,
   onSlotClick,
   isInMyLineup,
@@ -62,6 +35,8 @@ export default function TimetableGrid({
   onToggleMyLineup,
 }: TimetableGridProps) {
   const lineupSet = useMemo(() => new Set(myLineupArtistIds), [myLineupArtistIds])
+  const themes = useMemo(() => stageThemeMap(stages, stageStyles), [stages, stageStyles])
+
   if (!slots || slots.length === 0 || !stages || stages.length === 0) {
     return (
       <div className="timetable-empty">
@@ -78,11 +53,9 @@ export default function TimetableGrid({
 
   const earliestStart = Math.min(...slotMinutes.map((s) => s.startMin))
   const latestEnd = Math.max(...slotMinutes.map((s) => s.endMin))
-  // Align to content — avoid empty hour padding above the first set
   const startLimit = earliestStart
   const endLimit = latestEnd
   const totalMinutes = Math.max(endLimit - startLimit, 30)
-  // Duration-proportional but dense enough that 40min ≈ ~60px (not half-empty)
   const pxPerMin = 1.55
   const totalHeight = totalMinutes * pxPerMin
 
@@ -106,7 +79,7 @@ export default function TimetableGrid({
             시간
           </div>
           {stages.map((stage) => {
-            const theme = stageTheme(stage)
+            const theme = themes.get(stage)!
             return (
               <div
                 key={stage}
@@ -114,7 +87,7 @@ export default function TimetableGrid({
                 style={{ backgroundColor: theme.bg, color: theme.fg }}
                 title={stage}
               >
-                <span className="tt-grid__stage-short">{shortStageLabel(stage)}</span>
+                <span className="tt-grid__stage-short">{theme.shortLabel}</span>
                 <span className="tt-grid__stage-full">{stage}</span>
               </div>
             )
@@ -149,7 +122,7 @@ export default function TimetableGrid({
           </div>
 
           {stages.map((stageName, stageIdx) => {
-            const theme = stageTheme(stageName)
+            const theme = themes.get(stageName)!
             const stageSlots = slotMinutes.filter((s) => s.stageName === stageName)
             return (
               <div
@@ -164,15 +137,23 @@ export default function TimetableGrid({
                   const heightPos = slot.durationMinutes * pxPerMin
                   const isSelected = selectedArtistId === slot.artistId
                   const inLineup = lineupSet.has(slot.artistId) || (isInMyLineup?.(slot.artistId) ?? false)
+                  const slotShellStyle = inLineup
+                    ? ({
+                        top: `${topPos + 1}px`,
+                        height: `${Math.max(heightPos - 2, 28)}px`,
+                        ['--slot-lineup-bg' as string]: theme.lineupBg,
+                        ['--stage-accent' as string]: theme.accent,
+                      } as CSSProperties)
+                    : {
+                        top: `${topPos + 1}px`,
+                        height: `${Math.max(heightPos - 2, 28)}px`,
+                      }
 
                   return (
                     <div
                       key={`${slot.artistId}-${index}`}
                       className={`tt-grid__slot-shell${inLineup ? ' is-in-lineup' : ''}`}
-                      style={{
-                        top: `${topPos + 1}px`,
-                        height: `${Math.max(heightPos - 2, 28)}px`,
-                      }}
+                      style={slotShellStyle}
                     >
                       <button
                         type="button"

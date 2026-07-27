@@ -12,6 +12,35 @@
   "logoUrl": "/images/pentaport-mark.png",
   "posterUrl": "/images/pentaport-2026-hero.png",
   "mapUrl": "https://map.naver.com/p/search/%EC%9D%B8%EC%B2%9C%20%EC%86%A1%EB%8F%84%EB%8B%AC%EB%B9%9B%EC%B6%95%EC%A0%9C%EA%B3%B5%EC%9B%90",
+  "stageStyles": [
+    {
+      "stageName": "KB국민카드",
+      "shortLabel": "KB",
+      "bg": "#f5d000",
+      "fg": "#141414",
+      "accent": "#c9a800",
+      "soft": "#fff6b8",
+      "lineupBg": "#fff9dc"
+    },
+    {
+      "stageName": "몬스터에너지",
+      "shortLabel": "몬스터",
+      "bg": "#7ac143",
+      "fg": "#141414",
+      "accent": "#5a9a2e",
+      "soft": "#dff5c8",
+      "lineupBg": "#ecf8e0"
+    },
+    {
+      "stageName": "스탠리 1913",
+      "shortLabel": "스탠리",
+      "bg": "#1a1a1a",
+      "fg": "#ffffff",
+      "accent": "#1a1a1a",
+      "soft": "#ececec",
+      "lineupBg": "#f0f0f0"
+    }
+  ],
   "allArtists": [
     "band-nah",
     "qwer",
