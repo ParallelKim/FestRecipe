@@ -1,3 +1,5 @@
+import { blurAfterTap } from '../lib/blurAfterTap'
+
 interface MyLineupPickButtonProps {
   active: boolean
   onToggle: () => void
@@ -23,6 +25,7 @@ export default function MyLineupPickButton({
       onClick={(e) => {
         e.stopPropagation()
         onToggle()
+        blurAfterTap(e.currentTarget)
       }}
     >
       <span className="lineup-pick-btn__icon" aria-hidden="true">

@@ -23,6 +23,7 @@ import {
   orderArtistIdsForDayBundle,
   orderArtistIdsForFestivalBundle,
 } from '../lib/playlistBundleOrder'
+import { blurAfterTap } from '../lib/blurAfterTap'
 import { useMyLineup } from '../hooks/useMyLineup'
 import { downloadMyLineupImage } from '../lib/exportMyLineupImage'
 import { playlistTitleForCustom } from '../lib/youtubePlaylist'
@@ -153,6 +154,7 @@ export default function FestivalDetail() {
     setShowMyLineupEditor(false)
     setBundleNotice(null)
     setPlaylistSheetOpen(true)
+    blurAfterTap(document.activeElement)
   }
 
   const clearArtist = () => {
@@ -506,6 +508,11 @@ export default function FestivalDetail() {
                     variant="bar"
                   />
                 </div>
+                {myLineup.count > 0 && (
+                  <p className="lineup-block__lineup-status" role="status">
+                    내 라인업 <strong>{myLineup.count}</strong>팀 · 타임테이블 ★ 표시
+                  </p>
+                )}
                 <p className="lineup-block__hint">슬롯을 눌러 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
                 <div className="timetable-scroll">
                   <TimetableGrid
@@ -514,6 +521,7 @@ export default function FestivalDetail() {
                     artists={artists}
                     selectedArtistId={selectedArtist?.id}
                     onSlotClick={handleArtistSelect}
+                    myLineupArtistIds={myLineup.artistIds}
                     isInMyLineup={myLineup.has}
                     onToggleMyLineup={myLineup.toggle}
                   />

@@ -1,6 +1,8 @@
+import { useMemo } from 'react'
 import type { TimetableSlot, Artist } from '../types'
 import { officialArtistName } from '../lib/artistOfficialName'
 import MyLineupPickButton from './MyLineupPickButton'
+import { blurAfterTap } from '../lib/blurAfterTap'
 
 interface TimetableGridProps {
   stages: string[]
@@ -9,6 +11,8 @@ interface TimetableGridProps {
   selectedArtistId?: string
   onSlotClick: (artistId: string) => void
   isInMyLineup?: (artistId: string) => boolean
+  /** 내 라인업 담긴 아티스트 id (UI 동기화용) */
+  myLineupArtistIds?: string[]
   onToggleMyLineup?: (artistId: string) => void
 }
 
@@ -54,8 +58,10 @@ export default function TimetableGrid({
   selectedArtistId,
   onSlotClick,
   isInMyLineup,
+  myLineupArtistIds = [],
   onToggleMyLineup,
 }: TimetableGridProps) {
+  const lineupSet = useMemo(() => new Set(myLineupArtistIds), [myLineupArtistIds])
   if (!slots || slots.length === 0 || !stages || stages.length === 0) {
     return (
       <div className="timetable-empty">
@@ -157,12 +163,12 @@ export default function TimetableGrid({
                   const topPos = (slot.startMin - startLimit) * pxPerMin
                   const heightPos = slot.durationMinutes * pxPerMin
                   const isSelected = selectedArtistId === slot.artistId
-                  const inLineup = isInMyLineup?.(slot.artistId) ?? false
+                  const inLineup = lineupSet.has(slot.artistId) || (isInMyLineup?.(slot.artistId) ?? false)
 
                   return (
                     <div
                       key={`${slot.artistId}-${index}`}
-                      className={`tt-grid__slot-shell${isSelected ? ' is-selected' : ''}${inLineup ? ' is-in-lineup' : ''}`}
+                      className={`tt-grid__slot-shell${isSelected ? ' is-panel-selected' : ''}${inLineup ? ' is-in-lineup' : ''}`}
                       style={{
                         top: `${topPos + 1}px`,
                         height: `${Math.max(heightPos - 2, 28)}px`,
@@ -170,14 +176,14 @@ export default function TimetableGrid({
                     >
                       <button
                         type="button"
-                        onClick={() => onSlotClick(slot.artistId)}
-                        className={`tt-grid__slot${isSelected ? ' is-selected' : ''}`}
-                        style={{
-                          borderColor: theme.accent,
-                          backgroundColor: isSelected ? theme.bg : '#ffffff',
-                          color: isSelected ? theme.fg : '#111418',
+                        onClick={(e) => {
+                          onSlotClick(slot.artistId)
+                          blurAfterTap(e.currentTarget)
                         }}
+                        className={`tt-grid__slot${isSelected ? ' is-panel-selected' : ''}${inLineup ? ' is-in-lineup' : ''}`}
+                        style={{ borderColor: theme.accent }}
                         aria-label={`${artistName}, ${stageName}, ${slot.startTime}부터 ${slot.endTime}까지`}
+                        aria-current={isSelected ? 'true' : undefined}
                       >
                         <span className="tt-grid__slot-name">{artistName}</span>
                         <span className="tt-grid__slot-time">
