@@ -1,16 +1,10 @@
-import type { Artist, ArtistPlaylist, Festival, DayLineup, RecognitionTier } from '../types'
+import type { Artist, ArtistPlaylist, Festival, DayLineup } from '../types'
 import {
   buildWatchVideosUrl,
   playlistTitleForArtist,
   playlistTitleForDay,
   playlistTitleForFestival,
 } from '../lib/youtubePlaylist'
-
-function tierLabel(tier: RecognitionTier): string {
-  if (tier === 'high') return '헤드라이너급 · 대표곡 5'
-  if (tier === 'mid') return '메인 타임 · 대표곡 4'
-  return '라인업 · 대표곡 3'
-}
 
 interface ArtistPlaylistPanelProps {
   festival: Festival
@@ -20,6 +14,7 @@ interface ArtistPlaylistPanelProps {
   playlistLoading: boolean
   playlistReady: Set<string>
   bundleLoading: 'day' | 'festival' | null
+  headlinerIds?: Set<string>
   onCloseArtist?: () => void
   onOpenBundled: (kind: 'day' | 'festival', artistIds: string[], title: string) => void
 }
@@ -32,6 +27,7 @@ export default function ArtistPlaylistPanel({
   playlistLoading,
   playlistReady,
   bundleLoading,
+  headlinerIds,
   onCloseArtist,
   onOpenBundled,
 }: ArtistPlaylistPanelProps) {
@@ -52,6 +48,7 @@ export default function ArtistPlaylistPanel({
     : (activeDay?.slots || []).map((s) => s.artistId)
   const dayReadyCount = dayArtistIds.filter((id) => playlistReady.has(id)).length
   const festivalReadyCount = (festival.allArtists || []).filter((id) => playlistReady.has(id)).length
+  const isHeadliner = !!(selectedArtist && headlinerIds?.has(selectedArtist.id))
 
   return (
     <div id="artist-playlist-panel" className="playlist-panel">
@@ -59,15 +56,15 @@ export default function ArtistPlaylistPanel({
         <div>
           <div className="playlist-panel__header">
             <div>
-              <h3 className="playlist-panel__title">{selectedArtist.name}</h3>
+              <div className="playlist-panel__title-row">
+                <h3 className="playlist-panel__title">{selectedArtist.name}</h3>
+                {isHeadliner && <span className="headliner-badge">헤드라이너</span>}
+              </div>
               <p className="playlist-panel__meta">
                 {artistPlaylist
-                  ? tierLabel(artistPlaylist.recognition.tier)
+                  ? `대표곡 ${artistPlaylist.songCount}곡 · YouTube Music`
                   : 'YouTube Music 인기곡 기반 대표 플레이리스트'}
               </p>
-              {artistPlaylist?.recognition.latestSlotLabel && (
-                <p className="playlist-panel__meta">기준 슬롯 {artistPlaylist.recognition.latestSlotLabel}</p>
-              )}
             </div>
             {onCloseArtist && (
               <button type="button" className="playlist-panel__close" onClick={onCloseArtist} aria-label="닫기">
@@ -153,7 +150,7 @@ export default function ArtistPlaylistPanel({
               ? '타임테이블의 무대 카드를 누르면'
               : '라인업에서 아티스트를 누르면'}
             <br />
-            인지도에 맞는 대표곡 플레이리스트가 열립니다.
+            대표곡 플레이리스트가 열립니다.
           </p>
 
           {(dayReadyCount > 0 || festivalReadyCount > 0) && (

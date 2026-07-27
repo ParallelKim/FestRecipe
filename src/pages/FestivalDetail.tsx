@@ -10,6 +10,7 @@ import DayTabs from '../components/DayTabs'
 import ArtistPlaylistPanel from '../components/ArtistPlaylistPanel'
 import PlaylistMobileDock from '../components/PlaylistMobileDock'
 import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
+import { headlinerArtistIds } from '../lib/headliners'
 
 export default function FestivalDetail() {
   const { id } = useParams<{ id: string }>()
@@ -181,6 +182,7 @@ export default function FestivalDetail() {
     playlistLoading,
     playlistReady,
     bundleLoading,
+    headlinerIds: headlinerArtistIds(activeDay?.slots),
     onOpenBundled: openBundledPlaylist,
   }
 

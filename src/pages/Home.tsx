@@ -88,7 +88,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.16, ease: 'easeOut' }}
           >
-            라인업 아티스트의 YouTube Music 인기곡을 인지도에 맞춰 3~5곡으로 묶었습니다.
+            라인업 아티스트의 YouTube Music 인기곡을 모아 바로 들을 수 있습니다.
           </motion.p>
           {featured && (
             <motion.div
