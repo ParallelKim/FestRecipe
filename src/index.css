@@ -1697,48 +1697,180 @@ body {
 .playlist-sheet--lineup {
   max-height: min(88vh, 820px);
 }
-.wallpaper-export {
-  margin: 16px 0 20px;
+.tt--export .lineup-pick-btn--tt {
+  display: none;
+}
+.tt--export .tt-grid__slot {
+  cursor: default;
+}
+
+.wallpaper-entry {
+  margin: 16px 0 0;
   padding: 14px 14px 16px;
   border-radius: var(--radius-md);
   border: 1px solid var(--color-hairline);
   background: var(--color-surface-soft);
 }
-.wallpaper-export--disabled {
+.wallpaper-entry--disabled {
   opacity: 0.92;
 }
-.wallpaper-export__title {
+.wallpaper-entry__title {
   margin: 0 0 6px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
 }
-.wallpaper-export__hint {
+.wallpaper-entry__hint {
   margin: 0 0 12px;
   font-size: 12px;
   line-height: 1.55;
   color: var(--color-muted);
 }
-.wallpaper-export__field {
-  display: block;
-  margin-bottom: 12px;
+.wallpaper-entry__hint strong {
+  font-weight: 800;
+  color: var(--color-body);
 }
-.wallpaper-export__label {
+.wallpaper-entry__btn {
+  width: 100%;
+  justify-content: center;
+}
+
+.wallpaper-studio {
+  position: fixed;
+  inset: 0;
+  z-index: 2500;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: max(10px, env(safe-area-inset-top)) 14px max(14px, env(safe-area-inset-bottom));
+  background: var(--color-bg, #f4f3f0);
+  overflow: auto;
+}
+.wallpaper-studio__bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.wallpaper-studio__back {
+  flex-shrink: 0;
+  padding: 8px 10px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--color-surface-soft);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.wallpaper-studio__title {
+  flex: 1;
+  min-width: 0;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wallpaper-studio__save {
+  flex-shrink: 0;
+  padding: 8px 14px;
+  font-size: 13px;
+}
+.wallpaper-studio__hint {
+  margin: 0;
+  flex-shrink: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--color-muted);
+  text-align: center;
+}
+.wallpaper-studio__stage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  padding: 4px 0;
+}
+.wallpaper-studio__frame {
+  width: min(100%, 360px);
+  max-height: min(62vh, 720px);
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.08),
+    0 12px 40px rgba(0, 0, 0, 0.18);
+  background: #fff;
+  touch-action: none;
+  cursor: grab;
+}
+.wallpaper-studio__frame:active {
+  cursor: grabbing;
+}
+.wallpaper-studio__content {
+  transform-origin: top center;
+  padding: 14px 12px 10px;
+  min-height: 100%;
+  background: #fff;
+}
+.wallpaper-studio__meta {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.wallpaper-studio__fest {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--color-muted);
+}
+.wallpaper-studio__day {
+  margin: 2px 0 0;
+  font-size: 15px;
+  font-weight: 800;
+}
+.wallpaper-studio__lineup {
+  margin: 4px 0 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-muted);
+}
+.wallpaper-studio__grid {
+  pointer-events: none;
+  user-select: none;
+}
+.wallpaper-studio__grid .tt {
+  --tt-axis: 36px;
+}
+.wallpaper-studio__brand {
+  margin: 10px 0 0;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  opacity: 0.75;
+}
+.wallpaper-studio__controls {
+  flex-shrink: 0;
+  display: grid;
+  gap: 12px;
+  padding: 12px 14px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-hairline);
+  background: var(--color-surface-soft);
+}
+.wallpaper-studio__control {
+  display: block;
+}
+.wallpaper-studio__control > span {
   display: block;
   margin-bottom: 6px;
   font-size: 12px;
   font-weight: 600;
-  color: var(--color-body);
 }
-.wallpaper-export__label strong {
-  font-weight: 800;
-}
-.wallpaper-export__pixels {
-  display: block;
-  margin-top: 2px;
-  font-weight: 500;
-  color: var(--color-muted);
-}
-.wallpaper-export__select {
+.wallpaper-studio__select {
   width: 100%;
   padding: 10px 12px;
   border-radius: var(--radius-md);
@@ -1746,18 +1878,9 @@ body {
   font-size: 14px;
   background: #fff;
 }
-.wallpaper-export__range {
+.wallpaper-studio__range {
   width: 100%;
   accent-color: var(--color-ink);
-}
-.wallpaper-export__btn {
-  width: 100%;
-  justify-content: center;
-}
-.wallpaper-export__status {
-  margin: 10px 0 0;
-  font-size: 12px;
-  color: var(--color-muted);
 }
 .my-lineup-panel__browse-title {
   margin: 0 0 12px;

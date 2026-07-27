@@ -218,7 +218,6 @@ export default function ArtistPlaylistPanel({
           festival={festival}
           activeDay={activeDay}
           artists={artists}
-          lineup={festival.lineup}
           myLineupIds={myLineupIds}
           playlistReady={playlistReady}
           bundleLoading={bundleLoading === 'custom'}

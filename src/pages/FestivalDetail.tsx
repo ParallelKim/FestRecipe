@@ -26,6 +26,7 @@ import {
 } from '../lib/playlistBundleOrder'
 import { blurAfterTap } from '../lib/blurAfterTap'
 import { festivalLineupHighlightFallback } from '../lib/stageTheme'
+import { filterMyLineupForDay, artistIdsOnDay } from '../lib/lineupDay'
 import { useMyLineup } from '../hooks/useMyLineup'
 import { playlistTitleForCustom } from '../lib/youtubePlaylist'
 
@@ -138,6 +139,7 @@ export default function FestivalDetail() {
   }
 
   const activeDay = festival.lineup[activeDayIndex]
+  const myLineupOnDayCount = filterMyLineupForDay(myLineup.artistIds, activeDay).length
   const artistMap = new Map(artists.map((a) => [a.id, a]))
   const mapUrl = buildFestivalMapUrl(festival)
 
@@ -238,10 +240,14 @@ export default function FestivalDetail() {
   }
 
   const openMyLineupPlaylist = async () => {
-    const ids = myLineup.artistIds.filter((aid) => playlistReady.has(aid))
+    const onDayIds = filterMyLineupForDay(myLineup.artistIds, activeDay)
+    const ids = onDayIds.filter((aid) => playlistReady.has(aid))
     if (ids.length === 0) return
 
-    const orderedIds = orderArtistIdsForFestivalBundle(ids, festival.lineup)
+    const orderedIds =
+      festival.lineupStage === 'stage3_timetable' && activeDay?.slots?.length
+        ? orderArtistIdsForDayBundle(ids, activeDay.slots)
+        : orderArtistIdsForFestivalBundle(ids, festival.lineup)
     setBundleLoading('custom')
     setShowMyLineupEditor(true)
     try {
@@ -281,11 +287,15 @@ export default function FestivalDetail() {
     headlinerIds: headlinerArtistIds(activeDay?.slots),
     onOpenBundled: openBundledPlaylist,
     onOpenMyPlaylist: openMyLineupEditor,
-    myLineupCount: myLineup.count,
+    myLineupCount: myLineupOnDayCount,
     showMyLineupEditor,
     myLineupIds: myLineup.artistIds,
     onToggleMyLineup: myLineup.toggle,
-    onClearMyLineup: myLineup.clear,
+    onClearMyLineup: () => {
+      const onDay = artistIdsOnDay(activeDay)
+      if (onDay.size === 0) return
+      myLineup.setArtistIds(myLineup.artistIds.filter((id) => !onDay.has(id)))
+    },
     onPlayMyLineup: openMyLineupPlaylist,
     onToggleMyLineupFromArtist: myLineup.toggle,
     isInMyLineup: myLineup.has,
@@ -405,7 +415,7 @@ export default function FestivalDetail() {
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
                     onOpenMyPlaylist={openMyLineupEditor}
-                    myLineupCount={myLineup.count}
+                    myLineupCount={myLineupOnDayCount}
                     variant="bar"
                   />
                 </div>
@@ -457,7 +467,7 @@ export default function FestivalDetail() {
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
                     onOpenMyPlaylist={openMyLineupEditor}
-                    myLineupCount={myLineup.count}
+                    myLineupCount={myLineupOnDayCount}
                     variant="bar"
                   />
                 </div>
@@ -513,13 +523,13 @@ export default function FestivalDetail() {
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
                     onOpenMyPlaylist={openMyLineupEditor}
-                    myLineupCount={myLineup.count}
+                    myLineupCount={myLineupOnDayCount}
                     variant="bar"
                   />
                 </div>
-                {myLineup.count > 0 && (
+                {myLineupOnDayCount > 0 && (
                   <p className="lineup-block__lineup-status" role="status">
-                    내 라인업 <strong>{myLineup.count}</strong>팀 · 타임테이블 ★ 표시
+                    {activeDay?.dayLabel} 내 라인업 <strong>{myLineupOnDayCount}</strong>팀 · 타임테이블 ☆ 강조
                   </p>
                 )}
                 <p className="lineup-block__hint">슬롯을 눌러 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
@@ -531,7 +541,7 @@ export default function FestivalDetail() {
                     stageStyles={festival.stageStyles}
                     selectedArtistId={selectedArtist?.id}
                     onSlotClick={handleArtistSelect}
-                    myLineupArtistIds={myLineup.artistIds}
+                    myLineupArtistIds={filterMyLineupForDay(myLineup.artistIds, activeDay)}
                     isInMyLineup={myLineup.has}
                     onToggleMyLineup={myLineup.toggle}
                   />

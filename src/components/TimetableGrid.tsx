@@ -16,6 +16,8 @@ interface TimetableGridProps {
   isInMyLineup?: (artistId: string) => boolean
   myLineupArtistIds?: string[]
   onToggleMyLineup?: (artistId: string) => void
+  /** 배경화면 캡처용 — 슬롯 탭·☆ 버튼 비활성 */
+  exportMode?: boolean
 }
 
 function timeToMinutes(time: string): number {
@@ -33,6 +35,7 @@ export default function TimetableGrid({
   isInMyLineup,
   myLineupArtistIds = [],
   onToggleMyLineup,
+  exportMode = false,
 }: TimetableGridProps) {
   const lineupSet = useMemo(() => new Set(myLineupArtistIds), [myLineupArtistIds])
   const themes = useMemo(() => stageThemeMap(stages, stageStyles), [stages, stageStyles])
@@ -69,7 +72,7 @@ export default function TimetableGrid({
 
   return (
     <div
-      className="tt"
+      className={`tt${exportMode ? ' tt--export' : ''}`}
       aria-label="타임테이블"
       style={{ ['--tt-px-per-min' as string]: String(pxPerMin) }}
     >
@@ -158,6 +161,7 @@ export default function TimetableGrid({
                       <button
                         type="button"
                         onClick={(e) => {
+                          if (exportMode) return
                           onSlotClick(slot.artistId)
                           blurAfterTap(e.currentTarget)
                         }}
@@ -165,13 +169,14 @@ export default function TimetableGrid({
                         style={{ borderColor: theme.accent }}
                         aria-label={`${artistName}, ${stageName}, ${slot.startTime}부터 ${slot.endTime}까지`}
                         aria-current={isSelected ? 'true' : undefined}
+                        tabIndex={exportMode ? -1 : undefined}
                       >
                         <span className="tt-grid__slot-name">{artistName}</span>
                         <span className="tt-grid__slot-time">
                           {slot.startTime}–{slot.endTime}
                         </span>
                       </button>
-                      {onToggleMyLineup && (
+                      {onToggleMyLineup && !exportMode && (
                         <MyLineupPickButton
                           active={inLineup}
                           className="lineup-pick-btn--tt"
