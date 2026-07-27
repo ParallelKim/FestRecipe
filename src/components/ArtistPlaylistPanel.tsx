@@ -5,6 +5,10 @@ import {
   playlistTitleForArtist,
 } from '../lib/youtubePlaylist'
 import { officialArtistName } from '../lib/artistOfficialName'
+import {
+  bundleNoticeCopy,
+  type BundledAnonymousPlaylist,
+} from '../lib/bundlePlaylist'
 import PlaylistHubActions from './PlaylistHubActions'
 
 interface ArtistPlaylistPanelProps {
@@ -24,6 +28,9 @@ interface ArtistPlaylistPanelProps {
   /** Shown when user taps 「나만의 플레이리스트」 — watch_videos 50곡 캡 안내 */
   showMyPlaylistWarning?: boolean
   onDismissMyPlaylistWarning?: () => void
+  /** 요일/전체 번들 시 다운그레이드·잘림 안내 */
+  bundleNotice?: BundledAnonymousPlaylist | null
+  onDismissBundleNotice?: () => void
 }
 
 export default function ArtistPlaylistPanel({
@@ -41,6 +48,8 @@ export default function ArtistPlaylistPanel({
   hideHub = false,
   showMyPlaylistWarning = false,
   onDismissMyPlaylistWarning,
+  bundleNotice = null,
+  onDismissBundleNotice,
 }: ArtistPlaylistPanelProps) {
   const displayName = selectedArtist ? officialArtistName(selectedArtist) : ''
   const artistPlaylistTitle = selectedArtist
@@ -54,6 +63,7 @@ export default function ArtistPlaylistPanel({
     : null
 
   const isHeadliner = !!(selectedArtist && headlinerIds?.has(selectedArtist.id))
+  const notice = bundleNotice ? bundleNoticeCopy(bundleNotice) : null
 
   return (
     <div id="artist-playlist-panel" className="playlist-panel">
@@ -67,6 +77,25 @@ export default function ArtistPlaylistPanel({
           onOpenMyPlaylist={onOpenMyPlaylist}
           variant="stack"
         />
+      )}
+
+      {notice && (
+        <div
+          className={`playlist-bundle-notice${bundleNotice?.truncated || bundleNotice?.thinCoverage ? ' is-warn' : ''}`}
+          role="status"
+        >
+          <h4 className="playlist-bundle-notice__title">{notice.title}</h4>
+          <p className="playlist-bundle-notice__body">{notice.body}</p>
+          {onDismissBundleNotice && (
+            <button
+              type="button"
+              className="btn-secondary playlist-bundle-notice__dismiss"
+              onClick={onDismissBundleNotice}
+            >
+              확인
+            </button>
+          )}
+        </div>
       )}
 
       {selectedArtist ? (
@@ -180,7 +209,7 @@ export default function ArtistPlaylistPanel({
             </button>
           )}
         </div>
-      ) : (
+      ) : !notice ? (
         <div className="playlist-panel__idle">
           <h4>아티스트 플레이리스트</h4>
           <p>
@@ -193,7 +222,7 @@ export default function ArtistPlaylistPanel({
             나만의 플레이리스트는 아티스트를 모아 듣는 기능으로 곧 연결됩니다.
           </p>
         </div>
-      )}
+      ) : null}
     </div>
   )
 }

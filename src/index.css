@@ -1316,6 +1316,34 @@ body {
   width: 100%;
   justify-content: center;
 }
+.playlist-bundle-notice {
+  margin-top: 14px;
+  padding: 14px;
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-soft);
+}
+.playlist-bundle-notice.is-warn {
+  background: color-mix(in srgb, var(--color-sig-coral, #c45c4a) 8%, var(--color-surface-soft));
+  border-color: color-mix(in srgb, var(--color-sig-coral, #c45c4a) 28%, var(--color-hairline));
+}
+.playlist-bundle-notice__title {
+  margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.playlist-bundle-notice__body {
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--color-muted);
+  word-break: keep-all;
+}
+.playlist-bundle-notice__dismiss {
+  width: 100%;
+  justify-content: center;
+}
 
 @media (max-width: 900px) {
   .festival-detail {

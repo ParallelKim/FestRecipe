@@ -14,6 +14,11 @@ import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
 import { headlinerArtistIds } from '../lib/headliners'
 import { officialArtistName } from '../lib/artistOfficialName'
 import { buildFestivalMapUrl } from '../lib/festivalLinks'
+import {
+  artistInputsFromPlaylists,
+  buildBundledAnonymousPlaylist,
+  type BundledAnonymousPlaylist,
+} from '../lib/bundlePlaylist'
 
 export default function FestivalDetail() {
   const { id } = useParams<{ id: string }>()
@@ -30,6 +35,7 @@ export default function FestivalDetail() {
   const [bundleLoading, setBundleLoading] = useState<'day' | 'festival' | null>(null)
   const [playlistSheetOpen, setPlaylistSheetOpen] = useState(false)
   const [showMyPlaylistWarning, setShowMyPlaylistWarning] = useState(false)
+  const [bundleNotice, setBundleNotice] = useState<BundledAnonymousPlaylist | null>(null)
 
   useEffect(() => {
     let active = true
@@ -137,12 +143,14 @@ export default function FestivalDetail() {
     if (!artist) return
     setSelectedArtist(artist)
     setShowMyPlaylistWarning(false)
+    setBundleNotice(null)
     setPlaylistSheetOpen(true)
   }
 
   const clearArtist = () => {
     setSelectedArtist(null)
     setShowMyPlaylistWarning(false)
+    setBundleNotice(null)
     setPlaylistSheetOpen(false)
   }
 
@@ -150,6 +158,7 @@ export default function FestivalDetail() {
     setActiveDayIndex(idx)
     setSelectedArtist(null)
     setShowMyPlaylistWarning(false)
+    setBundleNotice(null)
     setPlaylistSheetOpen(false)
   }
 
@@ -162,16 +171,28 @@ export default function FestivalDetail() {
     if (ids.length === 0) return
 
     setBundleLoading(kind)
+    setShowMyPlaylistWarning(false)
     try {
       const playlists = await Promise.all(
         ids.map((aid) => FestivalService.getPlaylistForArtist(aid)),
       )
-      const videoIds = playlists.flatMap((pl) => (pl?.tracks || []).map((t) => t.videoId))
-      // TODO(day-playlist): 요일/전체는 watch_videos 50곡 캡에 걸린다.
-      // 대표 YouTube 계정으로 Data API 플레이리스트를 미리 만들어 링크하는 방식으로 교체 예정.
-      // 당분간 딥링크 현행 유지(앞 50곡만 재생).
-      const url = buildWatchVideosUrl(videoIds, title)
-      if (url) window.open(url, '_blank', 'noopener,noreferrer')
+      // TODO(day-playlist): 장기적으로는 대표 YouTube 계정 + Data API 고정 PL로 교체.
+      // 단기: 티어 곡 수(5/4/3 → 4/3/2 → 3/2/1) 다운그레이드로 50곡 캡에 맞춤.
+      const bundle = buildBundledAnonymousPlaylist(artistInputsFromPlaylists(playlists))
+      if (!bundle) return
+
+      const url = buildWatchVideosUrl(bundle.videoIds, title)
+      if (!url) return
+
+      if (bundle.downgraded || bundle.truncated || bundle.thinCoverage) {
+        setBundleNotice(bundle)
+        setSelectedArtist(null)
+        setPlaylistSheetOpen(true)
+      } else {
+        setBundleNotice(null)
+      }
+
+      window.open(url, '_blank', 'noopener,noreferrer')
     } finally {
       setBundleLoading(null)
     }
@@ -188,11 +209,13 @@ export default function FestivalDetail() {
   const openPlaylistHub = () => {
     setSelectedArtist(null)
     setShowMyPlaylistWarning(false)
+    setBundleNotice(null)
     setPlaylistSheetOpen(true)
   }
 
   const openMyPlaylistWithWarning = () => {
     setSelectedArtist(null)
+    setBundleNotice(null)
     setShowMyPlaylistWarning(true)
     setPlaylistSheetOpen(true)
   }
@@ -210,6 +233,8 @@ export default function FestivalDetail() {
     onOpenMyPlaylist: openMyPlaylistWithWarning,
     showMyPlaylistWarning,
     onDismissMyPlaylistWarning: () => setShowMyPlaylistWarning(false),
+    bundleNotice,
+    onDismissBundleNotice: () => setBundleNotice(null),
   }
 
   return (

@@ -4,9 +4,8 @@
  * YouTube `watch_videos` 딥링크 하드 캡 (서버 제한, URL 길이 이슈 아님).
  * @see https://github.com/TeamNewPipe/NewPipe/issues/11930
  *
- * TODO(day-playlist): 요일/페스티벌 묶음이 50곡을 넘기므로, 현행 딥링크(앞 50곡만)
- * 대신 대표(운영) YouTube 계정 + Data API로 고정 플레이리스트를 발행하는 방안을 검토.
- * 나만의 플레이리스트는 유저 OAuth 또는 분할 딥링크 + 경고로 다루는 편이 맞음.
+ * TODO(day-playlist): 장기적으로는 대표 YouTube 계정 + Data API 고정 PL.
+ * 단기 번들: `bundlePlaylist.ts` 에서 티어 곡 수 5/4/3 → 4/3/2 → 3/2/1 다운그레이드.
  *
  * ---
  * TODO(investigate-embed-playlist): Reddit 우회법 — 나중에 수동 검증해볼 가치 있음

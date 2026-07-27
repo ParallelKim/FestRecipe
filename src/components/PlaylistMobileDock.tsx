@@ -18,6 +18,8 @@ interface PlaylistMobileDockProps {
   onOpenMyPlaylist?: () => void
   showMyPlaylistWarning?: boolean
   onDismissMyPlaylistWarning?: () => void
+  bundleNotice?: import('../lib/bundlePlaylist').BundledAnonymousPlaylist | null
+  onDismissBundleNotice?: () => void
 }
 
 /** Fixed playlist FAB — opens the listen hub (day / festival / my). */
