@@ -10,11 +10,22 @@ export type AlbumType = 'single' | 'ep' | 'lp'
 
 export interface Artist {
   id: string
+  /**
+   * UI 공식 표기명 (공식 TT 등 출처 기준 사람 큐레이션).
+   * 가이드: docs/ARTIST_DISPLAY_NAMES.md
+   */
   name: string
+  /** 로마자/영문 표기 (검색·YTM 매칭) */
   englishName?: string
+  /** 한글 통용명 참고 (선택) */
+  koreanName?: string
+  /** 수집 당시 YTM 아티스트명 원문 — 검수 참고용 */
+  ytmName?: string
   country?: string // KR, US, UK, JP etc (외국 아티스트만)
   imageUrl?: string
   genres?: string[]
+  aliases?: string[]
+  ytmBrowseId?: string
 }
 
 /** YouTube Music 기반 발매곡 (MVP collector 출력) */
@@ -159,8 +170,19 @@ export interface Festival {
   signatureColor: SignatureColor
   status: FestivalStatus
   lineupStage: LineupStage
+  /** 히어로·카드용 짧은 매력 문장 (스폰서/스테이지명 비권장) */
+  tagline?: string
+  /** SEO·상세용 설명. 스테이지 스폰서명은 타임테이블에만 두는 것을 권장 */
   description: string
   websiteUrl?: string
+  /** 공식 로고 (라이트 배경용) */
+  logoUrl?: string
+  /** 다크/컬러 히어로용 밝은 로고 */
+  logoLightUrl?: string
+  /** 메인 라인업 포스터 (상세·대표 비주얼) */
+  posterUrl?: string
+  /** 지도 딥링크. 없으면 location 검색으로 생성 */
+  mapUrl?: string
   allArtists: string[] // 1단계(all) 요일미구분 전체 라인업
   lineup: DayLineup[]
 }

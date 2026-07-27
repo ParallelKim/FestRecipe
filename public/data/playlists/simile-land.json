@@ -11,7 +11,7 @@
     "latestSlotMinutes": 720,
     "latestSlotLabel": "12:00",
     "festivalId": "incheon-pentaport-2026",
-    "rank": 0.0,
+    "rank": 0,
     "reason": "timetable_lateness"
   },
   "songCount": 3,

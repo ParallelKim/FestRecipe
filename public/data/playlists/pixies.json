@@ -1,6 +1,6 @@
 {
   "artistId": "pixies",
-  "artistName": "픽시즈",
+  "artistName": "PIXIES",
   "englishName": "PIXIES",
   "collectedAt": "2026-07-27T00:58:43.032851+00:00",
   "source": "youtube_music",
@@ -11,7 +11,7 @@
     "latestSlotMinutes": 1360,
     "latestSlotLabel": "22:40",
     "festivalId": "incheon-pentaport-2026",
-    "rank": 1.0,
+    "rank": 1,
     "reason": "timetable_lateness"
   },
   "songCount": 5,

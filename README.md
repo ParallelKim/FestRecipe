@@ -4,7 +4,8 @@
 FestRecipe는 인디/대중음악 페스티벌의 타임테이블을 시각화하고, 라인업 아티스트의 **발매곡 정보(YouTube Music)** 를 모아 바로 들을 수 있게 돕는 웹 애플리케이션입니다.
 
 > **MVP 범위:** `페스티벌 정보 → 아티스트 리스트업 → YouTube Music 발매곡 수집`  
-> 예상 셋리스트/풀캠 타임스탬프/지능형 재생목록은 **향후 고도화**로 미룹니다. 상세는 [`collector/README.md`](./collector/README.md).
+> 예상 셋리스트/풀캠 타임스탬프/지능형 재생목록은 **향후 고도화**로 미룹니다.  
+> 복원용 문서: [`docs/SETLIST_RECIPE.md`](./docs/SETLIST_RECIPE.md) (예상 셋리스트) · [`docs/LINEUP_STAGE_AND_DDAY.md`](./docs/LINEUP_STAGE_AND_DDAY.md) (공개 단계·D-day) · [`docs/ARTIST_DISPLAY_NAMES.md`](./docs/ARTIST_DISPLAY_NAMES.md) (아티스트 표기 검수) · [`collector/README.md`](./collector/README.md)
 
 ---
 
