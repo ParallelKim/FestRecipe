@@ -131,9 +131,9 @@ export default function Home() {
                         fontWeight: 600
                       }}
                     >
-                      {festival.lineupStage === 'stage1_all' && '1단계: 전체 라인업'}
-                      {festival.lineupStage === 'stage2_daily' && '2단계: 일별 라인업'}
-                      {festival.lineupStage === 'stage3_timetable' && '3단계: 타임테이블'}
+                      {festival.lineupStage === 'stage1_all' && '전체 라인업'}
+                      {festival.lineupStage === 'stage2_daily' && '일별 라인업'}
+                      {festival.lineupStage === 'stage3_timetable' && '타임테이블'}
                     </span>
 
                     {/* Name */}

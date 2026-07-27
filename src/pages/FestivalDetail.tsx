@@ -99,23 +99,19 @@ export default function FestivalDetail() {
   let sigColor = 'var(--color-sig-cream)'
   let sigTextColor = 'var(--color-ink)'
   let sigMutedColor = 'var(--color-muted)'
-  let progressActiveColor = 'var(--color-ink)'
 
   if (festival.signatureColor === 'forest') {
     sigColor = 'var(--color-sig-forest)'
     sigTextColor = '#ffffff'
     sigMutedColor = 'rgba(255,255,255,0.7)'
-    progressActiveColor = 'var(--color-sig-mint)'
   } else if (festival.signatureColor === 'coral') {
     sigColor = 'var(--color-sig-coral)'
     sigTextColor = '#ffffff'
     sigMutedColor = 'rgba(255,255,255,0.7)'
-    progressActiveColor = 'var(--color-sig-peach)'
   } else if (festival.signatureColor === 'dark') {
     sigColor = 'var(--color-surface-dark)'
     sigTextColor = '#ffffff'
     sigMutedColor = 'rgba(255,255,255,0.7)'
-    progressActiveColor = 'var(--color-sig-mint)'
   }
 
   const activeDay = festival.lineup[activeDayIndex]
@@ -230,41 +226,6 @@ export default function FestivalDetail() {
           <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', fontSize: '14px', fontWeight: 600 }}>
             <span>📍 {festival.location}</span>
             <span>📅 {festival.startDate} ~ {festival.endDate}</span>
-          </div>
-        </div>
-      </section>
-
-      <section style={{ backgroundColor: 'var(--color-surface-soft)', borderBottom: '1px solid var(--color-hairline)', padding: '16px 0' }}>
-        <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <span style={{ fontSize: '18px' }}>📢</span>
-            <span style={{ fontWeight: 700, fontSize: '14px', color: 'var(--color-ink)' }}>공개 진행 상황</span>
-          </div>
-
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', fontSize: '13px', fontWeight: 600 }}>
-            <span style={{
-              color: festival.lineupStage === 'stage1_all' ? progressActiveColor : 'var(--color-muted)',
-              borderBottom: festival.lineupStage === 'stage1_all' ? `2px solid ${progressActiveColor}` : 'none',
-              paddingBottom: '2px',
-            }}>
-              1단계 전체 라인업 {festival.lineupStage === 'stage1_all' && '✓'}
-            </span>
-            <span style={{ color: 'var(--color-hairline)' }}>&rarr;</span>
-            <span style={{
-              color: festival.lineupStage === 'stage2_daily' ? progressActiveColor : 'var(--color-muted)',
-              borderBottom: festival.lineupStage === 'stage2_daily' ? `2px solid ${progressActiveColor}` : 'none',
-              paddingBottom: '2px',
-            }}>
-              2단계 일별 라인업 {festival.lineupStage === 'stage2_daily' && '✓'}
-            </span>
-            <span style={{ color: 'var(--color-hairline)' }}>&rarr;</span>
-            <span style={{
-              color: festival.lineupStage === 'stage3_timetable' ? progressActiveColor : 'var(--color-muted)',
-              borderBottom: festival.lineupStage === 'stage3_timetable' ? `2px solid ${progressActiveColor}` : 'none',
-              paddingBottom: '2px',
-            }}>
-              3단계 타임테이블 {festival.lineupStage === 'stage3_timetable' && '✨'}
-            </span>
           </div>
         </div>
       </section>
