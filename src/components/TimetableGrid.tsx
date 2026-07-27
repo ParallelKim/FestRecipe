@@ -66,23 +66,27 @@ export default function TimetableGrid({
 
   const earliestStart = Math.min(...slotMinutes.map((s) => s.startMin))
   const latestEnd = Math.max(...slotMinutes.map((s) => s.endMin))
-  const startHour = Math.floor(earliestStart / 60)
-  const endHour = Math.ceil(latestEnd / 60)
-  const startLimit = startHour * 60
-  const endLimit = endHour * 60
-  const totalMinutes = Math.max(endLimit - startLimit, 60)
-  // Tall enough that 40min sets are readable with large artist names
-  const pxPerMin = 4.5
+  // Align to content — avoid empty hour padding above the first set
+  const startLimit = earliestStart
+  const endLimit = latestEnd
+  const totalMinutes = Math.max(endLimit - startLimit, 30)
+  const pxPerMin = 2.8
   const totalHeight = totalMinutes * pxPerMin
 
+  const firstHour = Math.ceil(startLimit / 60)
+  const lastHour = Math.floor(endLimit / 60)
   const hours: number[] = []
-  for (let h = startHour; h <= endHour; h++) hours.push(h)
+  for (let h = firstHour; h <= lastHour; h++) hours.push(h)
 
   const artistMap = new Map(artists.map((a) => [a.id, a]))
   const colTemplate = `var(--tt-axis) repeat(${stages.length}, minmax(0, 1fr))`
 
   return (
-    <div className="tt" aria-label="타임테이블">
+    <div
+      className="tt"
+      aria-label="타임테이블"
+      style={{ ['--tt-px-per-min' as string]: String(pxPerMin) }}
+    >
       <div className="tt-grid">
         <div className="tt-grid__header" style={{ gridTemplateColumns: colTemplate }}>
           <div className="tt-grid__corner" aria-hidden="true">
@@ -126,11 +130,7 @@ export default function TimetableGrid({
             {hours.map((h) => {
               const topPos = (h * 60 - startLimit) * pxPerMin
               return (
-                <div
-                  key={h}
-                  className={`tt-grid__line${h === startHour ? ' is-edge' : ''}`}
-                  style={{ top: `${topPos}px` }}
-                />
+                <div key={h} className="tt-grid__line" style={{ top: `${topPos}px` }} />
               )
             })}
           </div>
@@ -150,23 +150,16 @@ export default function TimetableGrid({
                   const topPos = (slot.startMin - startLimit) * pxPerMin
                   const heightPos = slot.durationMinutes * pxPerMin
                   const isSelected = selectedArtistId === slot.artistId
-                  const isCompact = slot.durationMinutes < 35
 
                   return (
                     <button
                       key={`${slot.artistId}-${index}`}
                       type="button"
                       onClick={() => onSlotClick(slot.artistId)}
-                      className={[
-                        'tt-grid__slot',
-                        isSelected ? 'is-selected' : '',
-                        isCompact ? 'is-compact' : '',
-                      ]
-                        .filter(Boolean)
-                        .join(' ')}
+                      className={`tt-grid__slot${isSelected ? ' is-selected' : ''}`}
                       style={{
-                        top: `${topPos + 2}px`,
-                        height: `${Math.max(heightPos - 4, 52)}px`,
+                        top: `${topPos + 1}px`,
+                        height: `${Math.max(heightPos - 2, 36)}px`,
                         borderColor: theme.accent,
                         backgroundColor: isSelected ? theme.bg : '#ffffff',
                         color: isSelected ? theme.fg : '#111418',
@@ -175,10 +168,7 @@ export default function TimetableGrid({
                     >
                       <span className="tt-grid__slot-name">{artistName}</span>
                       <span className="tt-grid__slot-time">
-                        <span className="tt-grid__slot-start">{slot.startTime}</span>
-                        <span className="tt-grid__slot-range">
-                          –{slot.endTime}
-                        </span>
+                        {slot.startTime}–{slot.endTime}
                       </span>
                     </button>
                   )

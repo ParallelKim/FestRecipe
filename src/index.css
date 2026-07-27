@@ -638,7 +638,7 @@ body {
   border-bottom: 2px solid var(--color-ink);
   display: flex;
   gap: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   overflow-x: auto;
 }
 .day-tab {
@@ -739,8 +739,8 @@ body {
 }
 .timetable-scroll {
   overflow: visible;
-  margin: 0 -4px 24px;
-  padding: 0 4px;
+  margin: 0 0 24px;
+  padding: 0;
 }
 
 /* Timetable grid — mobile-first, 3 stages always visible */
@@ -753,7 +753,8 @@ body {
   font-weight: 600;
 }
 .tt {
-  --tt-axis: 36px;
+  --tt-axis: 32px;
+  --tt-px-per-min: 2.8;
   width: 100%;
   min-width: 0;
 }
@@ -765,7 +766,6 @@ body {
   overflow: hidden;
   width: 100%;
   min-width: 0;
-  box-shadow: 0 1px 0 rgba(17, 20, 24, 0.06);
 }
 .tt-grid__header {
   display: grid;
@@ -778,16 +778,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 800;
   color: #fff;
   background: #111418;
 }
 .tt-grid__stage {
-  padding: 12px 4px;
+  padding: 10px 4px;
   text-align: center;
   font-weight: 800;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.15;
   word-break: keep-all;
   min-width: 0;
@@ -810,9 +810,9 @@ body {
     repeating-linear-gradient(
       to bottom,
       transparent,
-      transparent calc(4.5px * 60 - 1px),
-      rgba(17, 20, 24, 0.08) calc(4.5px * 60 - 1px),
-      rgba(17, 20, 24, 0.08) calc(4.5px * 60)
+      transparent calc(var(--tt-px-per-min) * 60 * 1px - 1px),
+      rgba(17, 20, 24, 0.08) calc(var(--tt-px-per-min) * 60 * 1px - 1px),
+      rgba(17, 20, 24, 0.08) calc(var(--tt-px-per-min) * 60 * 1px)
     );
 }
 .tt-grid__axis {
@@ -828,7 +828,7 @@ body {
   width: 100%;
   transform: translateY(-50%);
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 800;
   color: #fff;
   line-height: 1;
@@ -848,9 +848,6 @@ body {
   right: 0;
   border-top: 1px solid rgba(17, 20, 24, 0.16);
 }
-.tt-grid__line.is-edge {
-  border-top: none;
-}
 .tt-grid__col {
   position: relative;
   height: 100%;
@@ -862,69 +859,55 @@ body {
 }
 .tt-grid__slot {
   position: absolute;
-  left: 3px;
-  right: 3px;
-  padding: 8px 7px 6px;
+  left: 2px;
+  right: 2px;
+  padding: 5px 5px 4px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 4px;
-  border-radius: 8px;
-  border: 2px solid;
+  gap: 2px;
+  border-radius: 6px;
+  border: 1.5px solid;
   cursor: pointer;
   text-align: left;
   overflow: hidden;
   min-width: 0;
-  box-shadow: 0 1px 0 rgba(17, 20, 24, 0.08);
   transition: transform 0.1s ease, box-shadow 0.12s ease;
 }
 .tt-grid__slot:active {
   transform: scale(0.98);
 }
 .tt-grid__slot.is-selected {
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   z-index: 3;
 }
 .tt-grid__slot-name {
   display: block;
   font-weight: 800;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.2;
   letter-spacing: -0.01em;
   word-break: keep-all;
   overflow-wrap: anywhere;
 }
 .tt-grid__slot-time {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0;
-  font-weight: 800;
-  line-height: 1.1;
-  opacity: 0.88;
-}
-.tt-grid__slot-start {
-  font-size: 13px;
-}
-.tt-grid__slot-range {
-  font-size: 12px;
-  font-weight: 700;
-  opacity: 0.75;
-}
-.tt-grid__slot.is-compact .tt-grid__slot-name {
-  font-size: 14px;
-}
-.tt-grid__slot.is-compact .tt-grid__slot-range {
-  display: none;
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.15;
+  opacity: 0.72;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media (min-width: 640px) {
   .tt {
-    --tt-axis: 48px;
+    --tt-axis: 44px;
   }
   .tt-grid__stage {
-    font-size: 13px;
-    padding: 14px 8px;
+    font-size: 12px;
+    padding: 12px 8px;
   }
   .tt-grid__stage-short {
     display: none;
@@ -933,33 +916,30 @@ body {
     display: inline;
   }
   .tt-grid__hour {
-    font-size: 13px;
+    font-size: 12px;
   }
   .tt-grid__hour::after {
     content: ':00';
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
     opacity: 0.75;
   }
   .tt-grid__slot {
-    left: 5px;
-    right: 5px;
-    padding: 10px 10px 8px;
+    left: 4px;
+    right: 4px;
+    padding: 7px 8px 5px;
   }
   .tt-grid__slot-name {
-    font-size: 17px;
+    font-size: 15px;
   }
-  .tt-grid__slot-start {
-    font-size: 14px;
-  }
-  .tt-grid__slot.is-compact .tt-grid__slot-range {
-    display: inline;
+  .tt-grid__slot-time {
+    font-size: 11px;
   }
 }
 
 @media (min-width: 900px) {
   .tt-grid__slot-name {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
