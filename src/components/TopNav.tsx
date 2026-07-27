@@ -40,7 +40,7 @@ export default function TopNav() {
         </Link>
 
         <Link
-          to="/"
+          to="/#festivals"
           style={{
             color: 'var(--color-muted)',
             textDecoration: 'none',
