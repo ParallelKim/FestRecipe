@@ -92,12 +92,20 @@ export default function Home() {
           </motion.p>
           {featured && (
             <motion.div
+              className="home-hero__featured"
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.24, ease: 'easeOut' }}
             >
+              {(featured.logoLightUrl || featured.logoUrl) && (
+                <img
+                  src={featured.logoLightUrl || featured.logoUrl}
+                  alt={featured.name}
+                  className="home-hero__fest-logo"
+                />
+              )}
               <Link to={`/festival/${featured.id}`} className="btn-primary home-hero__cta">
-                {featured.name} 보기
+                타임테이블 · 플레이리스트 열기
               </Link>
             </motion.div>
           )}
@@ -118,7 +126,18 @@ export default function Home() {
               >
                 <div className="home-fest-row__main">
                   <p className="home-fest-row__eyebrow">{stageLabel(festival)}</p>
-                  <h3 className="home-fest-row__name">{festival.name}</h3>
+                  {festival.logoUrl ? (
+                    <>
+                      <img
+                        src={festival.logoUrl}
+                        alt={festival.name}
+                        className="home-fest-row__logo"
+                      />
+                      <h3 className="home-fest-row__name is-sr-only">{festival.name}</h3>
+                    </>
+                  ) : (
+                    <h3 className="home-fest-row__name">{festival.name}</h3>
+                  )}
                   <p className="home-fest-row__desc">
                     {festival.tagline || festival.description}
                   </p>

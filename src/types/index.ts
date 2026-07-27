@@ -164,6 +164,10 @@ export interface Festival {
   /** SEO·상세용 설명. 스테이지 스폰서명은 타임테이블에만 두는 것을 권장 */
   description: string
   websiteUrl?: string
+  /** 공식 로고 (라이트 배경용) */
+  logoUrl?: string
+  /** 다크/컬러 히어로용 밝은 로고 */
+  logoLightUrl?: string
   allArtists: string[] // 1단계(all) 요일미구분 전체 라인업
   lineup: DayLineup[]
 }

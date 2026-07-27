@@ -12,7 +12,7 @@ export default function TopNav() {
             fontWeight: 700,
             color: 'var(--color-ink)',
             textDecoration: 'none',
-            letterSpacing: '-0.03em',
+            letterSpacing: '-0.015em',
             display: 'flex',
             alignItems: 'center',
             gap: '10px',
@@ -31,6 +31,7 @@ export default function TopNav() {
               fontWeight: 800,
               fontSize: '14px',
               fontFamily: 'var(--font-display)',
+              letterSpacing: 0,
             }}
           >
             F

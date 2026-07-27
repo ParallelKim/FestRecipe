@@ -183,11 +183,21 @@ export default function FestivalDetail() {
           <Link to="/" className="festival-hero__back" style={{ color: sigTextColor }}>
             ← 페스티벌 목록
           </Link>
+          {(festival.logoLightUrl || festival.logoUrl) && (
+            <motion.img
+              src={festival.logoLightUrl || festival.logoUrl}
+              alt={festival.name}
+              className="festival-hero__logo"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+            />
+          )}
           <motion.h1
-            className="festival-hero__name"
+            className={`festival-hero__name${(festival.logoLightUrl || festival.logoUrl) ? ' is-with-logo' : ''}`}
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.4, delay: 0.05 }}
           >
             {festival.name}
           </motion.h1>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&family=Syne:wght@500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap");
 @import "tailwindcss";
 
 /* ─────────────────────────────────────────────────────
@@ -38,8 +38,8 @@
   --color-success-border:#39bf45;
 
   /* ── Typography ── */
-  --font-display: 'Syne', 'Noto Sans KR', sans-serif;
-  --font-body:    'Noto Sans KR', sans-serif;
+  --font-display: 'Inter', 'Noto Sans KR', sans-serif;
+  --font-body:    'Inter', 'Noto Sans KR', sans-serif;
   --font-mono:    'Geist Mono', 'Menlo', monospace;
 
   /* ── Font Sizes (Airtable scale) ── */
@@ -258,10 +258,10 @@ body {
 .text-display-md {
   font-family: var(--font-display);
 }
-.text-display-xl { font-size: var(--text-display-xl); font-weight: 700; line-height: 1.1; letter-spacing: -0.03em; }
-.text-display-lg { font-size: var(--text-display-lg); font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; }
-.text-display-md { font-size: var(--text-display-md); font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; }
-.text-title-lg   { font-size: var(--text-title-lg);   font-weight: 600; line-height: 1.35; letter-spacing: -0.01em; }
+.text-display-xl { font-size: var(--text-display-xl); font-weight: 700; line-height: 1.15; letter-spacing: -0.015em; }
+.text-display-lg { font-size: var(--text-display-lg); font-weight: 700; line-height: 1.2; letter-spacing: -0.01em; }
+.text-display-md { font-size: var(--text-display-md); font-weight: 600; line-height: 1.25; letter-spacing: -0.01em; }
+.text-title-lg   { font-size: var(--text-title-lg);   font-weight: 600; line-height: 1.35; letter-spacing: -0.005em; }
 .text-title-sm   { font-size: var(--text-title-sm);   font-weight: 600; line-height: 1.4; }
 .text-label-md   { font-size: var(--text-label-md);   font-weight: 500; line-height: 1.4; }
 .text-body       { font-size: var(--text-body);        font-weight: 400; line-height: 1.6; }
@@ -389,20 +389,21 @@ body {
 }
 .home-hero__brand {
   font-family: var(--font-display);
-  font-size: clamp(40px, 8vw, 72px);
+  font-size: clamp(36px, 7.5vw, 64px);
   font-weight: 800;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   margin: 0 0 20px;
-  line-height: 0.95;
+  line-height: 1.05;
 }
 .home-hero__title {
-  font-family: var(--font-display);
-  font-size: clamp(22px, 4vw, 34px);
+  font-family: var(--font-body);
+  font-size: clamp(20px, 4vw, 30px);
   font-weight: 600;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   margin: 0 0 14px;
-  line-height: 1.25;
-  max-width: 16ch;
+  line-height: 1.35;
+  max-width: 18ch;
+  word-break: keep-all;
 }
 .home-hero__lede {
   margin: 0 0 28px;
@@ -410,6 +411,20 @@ body {
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.78);
   max-width: 36ch;
+}
+.home-hero__featured {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+.home-hero__fest-logo {
+  display: block;
+  width: min(100%, 280px);
+  height: auto;
+  object-fit: contain;
+  object-position: left center;
+  filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.35));
 }
 .home-hero__cta {
   background: #fff;
@@ -428,10 +443,10 @@ body {
   padding: 64px 0 96px;
 }
 .home-festivals__heading {
-  font-family: var(--font-display);
-  font-size: 28px;
+  font-family: var(--font-body);
+  font-size: 24px;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   margin: 0 0 28px;
 }
 .home-festivals__list {
@@ -457,13 +472,33 @@ body {
   text-transform: uppercase;
   color: var(--color-muted);
 }
+.home-fest-row__logo {
+  display: block;
+  width: min(100%, 320px);
+  height: auto;
+  margin: 0 0 14px;
+  object-fit: contain;
+  object-position: left center;
+}
 .home-fest-row__name {
-  font-family: var(--font-display);
-  font-size: clamp(24px, 3vw, 34px);
+  font-family: var(--font-body);
+  font-size: clamp(20px, 2.8vw, 28px);
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   margin: 0 0 12px;
-  line-height: 1.15;
+  line-height: 1.3;
+  word-break: keep-all;
+}
+.home-fest-row__name.is-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 .home-fest-row__desc {
   margin: 0;
@@ -526,22 +561,39 @@ body {
   margin-bottom: 20px;
   opacity: 0.8;
 }
+.festival-hero__logo {
+  display: block;
+  width: min(100%, 360px);
+  height: auto;
+  margin: 0 0 18px;
+  object-fit: contain;
+  object-position: left center;
+}
 .festival-hero__name {
-  font-family: var(--font-display);
-  font-size: clamp(28px, 5vw, 44px);
+  font-family: var(--font-body);
+  font-size: clamp(22px, 4.5vw, 36px);
   font-weight: 800;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.01em;
   margin: 0 0 12px;
-  line-height: 1.1;
+  line-height: 1.25;
+  word-break: keep-all;
+}
+.festival-hero__name.is-with-logo {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  opacity: 0.75;
+  margin-bottom: 16px;
 }
 .festival-hero__tagline {
   margin: 0 0 10px;
   max-width: 28ch;
-  font-family: var(--font-display);
-  font-size: clamp(18px, 3.4vw, 24px);
+  font-family: var(--font-body);
+  font-size: clamp(16px, 3.2vw, 22px);
   font-weight: 600;
-  letter-spacing: -0.02em;
-  line-height: 1.35;
+  letter-spacing: -0.005em;
+  line-height: 1.4;
+  word-break: keep-all;
 }
 .festival-hero__desc {
   margin: 0 0 18px;
@@ -686,13 +738,11 @@ body {
   color: #064e3b;
 }
 .timetable-scroll {
-  overflow-x: auto;
-  padding-bottom: 12px;
+  overflow-x: visible;
   margin-bottom: 24px;
-  -webkit-overflow-scrolling: touch;
 }
 
-/* Timetable — high visibility */
+/* Timetable — mobile-first (official Pentaport reference) */
 .timetable-empty {
   text-align: center;
   padding: 48px 20px;
@@ -701,154 +751,200 @@ body {
   border-radius: var(--radius-md);
   font-weight: 600;
 }
-.timetable {
+.tt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  min-width: 0;
+}
+.tt-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+.tt-list__stage {
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: #fff;
+}
+.tt-list__head {
+  padding: 12px 14px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  word-break: keep-all;
+}
+.tt-list__rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tt-list__row {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border: none;
+  border-bottom: 1px solid var(--color-hairline);
+  border-left: 4px solid transparent;
+  background: #fff;
+  color: var(--color-ink);
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  transition: background-color 0.12s ease;
+}
+.tt-list__rows li:last-child .tt-list__row {
+  border-bottom: none;
+}
+.tt-list__row:active {
+  transform: scale(0.995);
+}
+.tt-list__artist {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.35;
+  word-break: keep-all;
+  min-width: 0;
+}
+.tt-list__time {
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-body);
+  text-align: right;
+  white-space: nowrap;
+}
+.tt-list__row.is-selected .tt-list__time {
+  color: inherit;
+  opacity: 0.85;
+}
+.tt-list__dur {
+  margin-left: 4px;
+  font-weight: 600;
+  opacity: 0.75;
+}
+
+/* Visual grid: desktop only, fits container (no horizontal scroll) */
+.tt-grid {
+  display: none;
   border: 1.5px solid var(--color-ink);
   border-radius: var(--radius-lg);
   background: #fff;
   overflow: hidden;
+  width: 100%;
+  min-width: 0;
 }
-.timetable__header {
+.tt-grid__header {
   display: grid;
   border-bottom: 1.5px solid var(--color-ink);
-  background: var(--color-ink);
-  position: sticky;
-  top: 0;
-  z-index: 10;
 }
-.timetable__corner {
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+.tt-grid__corner {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 800;
   letter-spacing: 0.06em;
   color: rgba(255, 255, 255, 0.75);
   background: #11151b;
 }
-.timetable__stage {
-  padding: 14px 8px;
+.tt-grid__stage {
+  padding: 12px 6px;
   text-align: center;
   font-weight: 800;
-  font-size: 13px;
-  color: #fff;
-  border-right: 1px solid rgba(255, 255, 255, 0.18);
-  letter-spacing: -0.02em;
+  font-size: 12px;
   line-height: 1.25;
+  word-break: keep-all;
+  min-width: 0;
 }
-.timetable__body {
+.tt-grid__body {
   display: grid;
   position: relative;
-  background:
-    repeating-linear-gradient(
-      to bottom,
-      transparent,
-      transparent 59px,
-      rgba(24, 29, 38, 0.06) 59px,
-      rgba(24, 29, 38, 0.06) 60px
-    );
+  min-width: 0;
 }
-.timetable__axis {
-  position: sticky;
-  left: 0;
-  width: 64px;
+.tt-grid__axis {
+  position: relative;
   height: 100%;
   background: #f3f4f6;
-  border-right: 1.5px solid var(--color-ink);
-  z-index: 5;
+  border-right: 1px solid var(--color-ink);
   pointer-events: none;
 }
-.timetable__hour {
+.tt-grid__hour {
   position: absolute;
   left: 0;
   width: 100%;
   transform: translateY(-50%);
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 800;
   color: var(--color-ink);
 }
-.timetable__lines {
+.tt-grid__lines {
   position: absolute;
   top: 0;
-  left: 64px;
+  left: 48px;
   right: 0;
   height: 100%;
   pointer-events: none;
   z-index: 1;
 }
-.timetable__line {
+.tt-grid__line {
   position: absolute;
   left: 0;
   right: 0;
-  border-top: 1px solid rgba(24, 29, 38, 0.18);
+  border-top: 1px solid rgba(24, 29, 38, 0.14);
 }
-.timetable__line.is-edge {
+.tt-grid__line.is-edge {
   border-top: none;
 }
-.timetable__col {
+.tt-grid__col {
   position: relative;
   height: 100%;
   z-index: 2;
-  background: rgba(255, 255, 255, 0.55);
+  min-width: 0;
 }
-.timetable__col.has-border {
-  border-right: 1px solid rgba(24, 29, 38, 0.22);
+.tt-grid__col.has-border {
+  border-right: 1px solid rgba(24, 29, 38, 0.16);
 }
-.timetable__slot {
+.tt-grid__slot {
   position: absolute;
-  left: 6px;
-  right: 6px;
-  padding: 10px;
+  left: 3px;
+  right: 3px;
+  padding: 6px 7px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  border-radius: 10px;
-  background: #fff;
-  color: var(--color-ink);
-  border: 1.5px solid var(--color-ink);
-  box-shadow: 0 2px 0 rgba(24, 29, 38, 0.08);
+  justify-content: flex-start;
+  gap: 2px;
+  border-radius: 8px;
+  border: 1.5px solid;
   cursor: pointer;
   text-align: left;
-  transition: transform 0.12s ease, background-color 0.12s ease;
   overflow: hidden;
+  min-width: 0;
 }
-.timetable__slot:active {
-  transform: scale(0.98);
-}
-.timetable__slot.is-selected {
-  background: var(--color-ink);
-  color: #fff;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
-}
-.timetable__slot-time {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  gap: 6px;
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--color-body);
-  margin-bottom: 4px;
-}
-.timetable__slot.is-selected .timetable__slot-time {
-  color: rgba(255, 255, 255, 0.78);
-}
-.timetable__slot-name {
+.tt-grid__slot-name {
   font-weight: 800;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.2;
-  letter-spacing: -0.02em;
   word-break: keep-all;
 }
-@media (max-width: 640px) {
-  .timetable__stage {
-    font-size: 12px;
-    padding: 12px 4px;
-  }
-  .timetable__slot-name {
-    font-size: 14px;
+.tt-grid__slot-time {
+  font-size: 10px;
+  font-weight: 700;
+  opacity: 0.8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (min-width: 900px) {
+  .tt-grid {
+    display: block;
   }
 }
 
