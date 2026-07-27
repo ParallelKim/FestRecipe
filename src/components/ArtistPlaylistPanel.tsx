@@ -5,6 +5,7 @@ import {
   playlistTitleForDay,
   playlistTitleForFestival,
 } from '../lib/youtubePlaylist'
+import { officialArtistName } from '../lib/artistOfficialName'
 
 interface ArtistPlaylistPanelProps {
   festival: Festival
@@ -31,8 +32,9 @@ export default function ArtistPlaylistPanel({
   onCloseArtist,
   onOpenBundled,
 }: ArtistPlaylistPanelProps) {
+  const displayName = selectedArtist ? officialArtistName(selectedArtist) : ''
   const artistPlaylistTitle = selectedArtist
-    ? playlistTitleForArtist(festival.name, selectedArtist.name)
+    ? playlistTitleForArtist(festival.name, displayName)
     : ''
   const artistPlaylistUrl = artistPlaylist
     ? buildWatchVideosUrl(
@@ -57,7 +59,7 @@ export default function ArtistPlaylistPanel({
           <div className="playlist-panel__header">
             <div>
               <div className="playlist-panel__title-row">
-                <h3 className="playlist-panel__title">{selectedArtist.name}</h3>
+                <h3 className="playlist-panel__title">{displayName}</h3>
                 {isHeadliner && <span className="headliner-badge">헤드라이너</span>}
               </div>
               <p className="playlist-panel__meta">
@@ -138,7 +140,7 @@ export default function ArtistPlaylistPanel({
           ) : (
             <div className="playlist-panel__empty">
               <h4>플레이리스트 준비 중</h4>
-              <p>{selectedArtist.name}의 YouTube Music 대표곡을 모으고 있습니다.</p>
+              <p>{displayName}의 YouTube Music 대표곡을 모으고 있습니다.</p>
             </div>
           )}
         </div>

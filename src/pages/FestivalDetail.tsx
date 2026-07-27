@@ -11,6 +11,7 @@ import ArtistPlaylistPanel from '../components/ArtistPlaylistPanel'
 import PlaylistMobileDock from '../components/PlaylistMobileDock'
 import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
 import { headlinerArtistIds } from '../lib/headliners'
+import { officialArtistName } from '../lib/artistOfficialName'
 
 export default function FestivalDetail() {
   const { id } = useParams<{ id: string }>()
@@ -256,7 +257,7 @@ export default function FestivalDetail() {
                         style={{ opacity: ready ? 1 : 0.7 }}
                         title={ready ? '플레이리스트 준비됨' : '플레이리스트 준비 중'}
                       >
-                        {artist.name}
+                        {officialArtistName(artist)}
                       </button>
                     )
                   })}
@@ -283,7 +284,7 @@ export default function FestivalDetail() {
                         onClick={() => handleArtistSelect(artist.id)}
                         className={`artist-card${isSelected ? ' is-selected' : ''}`}
                       >
-                        <span className="artist-card__name">{artist.name}</span>
+                        <span className="artist-card__name">{officialArtistName(artist)}</span>
                         {artist.country && (
                           <span className="artist-card__country">{artist.country}</span>
                         )}

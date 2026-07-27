@@ -1,5 +1,6 @@
 import type { TimetableSlot, Artist } from '../types'
 import { headlinerArtistIds } from '../lib/headliners'
+import { officialArtistName } from '../lib/artistOfficialName'
 
 interface TimetableGridProps {
   stages: string[]
@@ -149,7 +150,7 @@ export default function TimetableGrid({
               >
                 {stageSlots.map((slot, index) => {
                   const artist = artistMap.get(slot.artistId)
-                  const artistName = artist ? artist.name : slot.artistId
+                  const artistName = artist ? officialArtistName(artist) : slot.artistId
                   const topPos = (slot.startMin - startLimit) * pxPerMin
                   const heightPos = slot.durationMinutes * pxPerMin
                   const isSelected = selectedArtistId === slot.artistId

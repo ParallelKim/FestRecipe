@@ -10,11 +10,21 @@ export type AlbumType = 'single' | 'ep' | 'lp'
 
 export interface Artist {
   id: string
+  /** UI 공식 표기명 — artistOfficialName 정책으로 동기화 */
   name: string
+  /** 로마자/영문 표기 (검색·매칭) */
   englishName?: string
+  /** 한글 통용명 (있을 때 병기·검색용) */
+  koreanName?: string
+  /** YouTube Music 아티스트명 원문 */
+  ytmName?: string
+  /** name 선정 근거 */
+  nameSource?: 'override' | 'ytm' | 'english' | 'legacy'
   country?: string // KR, US, UK, JP etc (외국 아티스트만)
   imageUrl?: string
   genres?: string[]
+  aliases?: string[]
+  ytmBrowseId?: string
 }
 
 /** YouTube Music 기반 발매곡 (MVP collector 출력) */

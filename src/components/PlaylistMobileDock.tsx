@@ -39,18 +39,19 @@ export default function PlaylistMobileDock({
         <svg
           className="playlist-fab__glyph"
           viewBox="0 0 24 24"
-          width="22"
-          height="22"
+          width="24"
+          height="24"
           aria-hidden="true"
           focusable="false"
         >
+          <rect x="2.5" y="5.5" width="11" height="2.2" rx="1.1" fill="currentColor" />
+          <rect x="2.5" y="10.9" width="11" height="2.2" rx="1.1" fill="currentColor" />
+          <rect x="2.5" y="16.3" width="8" height="2.2" rx="1.1" fill="currentColor" />
+          <circle cx="17.2" cy="17" r="2.6" fill="currentColor" />
+          <rect x="19" y="5" width="1.7" height="12.2" rx="0.6" fill="currentColor" />
           <path
             fill="currentColor"
-            d="M4 6.5h11a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2Zm0 4.5h11a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2Zm0 4.5h7a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2Z"
-          />
-          <path
-            fill="currentColor"
-            d="M17.25 13.2v-5.1a1 1 0 0 1 1.35-.94l2.2.82a1 1 0 0 1 .65.94v5.48a2.25 2.25 0 1 1-1.5-2.12v3.07a.75.75 0 0 0 1.5 0v-1.15a.75.75 0 0 0-.75-.75h-.7a.75.75 0 0 0-.75.75Z"
+            d="M20.7 5c.1 2.4 1.6 3.6 3.1 4v1.9c-2-.6-3.8-2.1-4.6-4.4V5h1.5z"
           />
         </svg>
       </button>
