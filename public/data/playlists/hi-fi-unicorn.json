@@ -78,6 +78,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=xzP_LZJlkHM,FG4E04hT_IY,CEfyybTdtHQ",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=xzP_LZJlkHM&list=RDAMVMxzP_LZJlkHM"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=xzP_LZJlkHM%2CFG4E04hT_IY%2CCEfyybTdtHQ&title=%ED%95%98%EC%9D%B4%ED%8C%8C%EC%9D%B4%EC%9C%A0%EB%8B%88%EC%BD%98",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=xzP_LZJlkHM&list=RDAMVMxzP_LZJlkHM",
+  "playlistTitle": "하이파이유니콘"
 }

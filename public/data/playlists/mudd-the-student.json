@@ -97,6 +97,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GsRvatDunN8,yU05gNCDeVE,ttE8RjFdKsA,WBhzdJBP81Y",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GsRvatDunN8&list=RDAMVMGsRvatDunN8"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GsRvatDunN8%2CyU05gNCDeVE%2CttE8RjFdKsA%2CWBhzdJBP81Y&title=%EB%A8%B8%EB%93%9C+%EB%8D%94+%EC%8A%A4%ED%8A%9C%EB%8D%98%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GsRvatDunN8&list=RDAMVMGsRvatDunN8",
+  "playlistTitle": "머드 더 스튜던트"
 }

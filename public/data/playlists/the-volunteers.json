@@ -112,6 +112,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=aJRmx9DZAXQ,OY1dg2mgNw4,Zi-tdPwh0Vg,FsJDnrY1Cuk,16tI2rU_OmA",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=aJRmx9DZAXQ&list=RDAMVMaJRmx9DZAXQ"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=aJRmx9DZAXQ%2COY1dg2mgNw4%2CZi-tdPwh0Vg%2CFsJDnrY1Cuk%2C16tI2rU_OmA&title=%EB%8D%94+%EB%B0%9C%EB%A3%AC%ED%8B%B0%EC%96%B4%EC%8A%A4",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=aJRmx9DZAXQ&list=RDAMVMaJRmx9DZAXQ",
+  "playlistTitle": "더 발룬티어스"
 }

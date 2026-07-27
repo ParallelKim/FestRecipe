@@ -94,6 +94,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=QwByM5-vwlM,K_x9Vn5NxQw,iN2hO2hPLoI,X8lT0r_iEhY",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=QwByM5-vwlM&list=RDAMVMQwByM5-vwlM"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=QwByM5-vwlM%2CK_x9Vn5NxQw%2CiN2hO2hPLoI%2CX8lT0r_iEhY&title=%EB%8D%94+%ED%8F%B4%EC%8A%A4",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=QwByM5-vwlM&list=RDAMVMQwByM5-vwlM",
+  "playlistTitle": "더 폴스"
 }

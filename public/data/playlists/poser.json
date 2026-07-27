@@ -80,6 +80,7 @@
       "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=0VVA9gd6uNc,cH9cKlhK9I4,TctY7CI0PlY",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=0VVA9gd6uNc&list=RDAMVM0VVA9gd6uNc"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=0VVA9gd6uNc%2CcH9cKlhK9I4%2CTctY7CI0PlY&title=%ED%8F%AC%EC%A0%80",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=0VVA9gd6uNc&list=RDAMVM0VVA9gd6uNc",
+  "playlistTitle": "포저"
 }

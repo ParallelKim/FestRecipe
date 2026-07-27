@@ -96,6 +96,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=aE0r5AVrRG0,7XkrplA8hvc,7FfL3CmxryE,5C4BalQcWbs",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=aE0r5AVrRG0&list=RDAMVMaE0r5AVrRG0"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=aE0r5AVrRG0%2C7XkrplA8hvc%2C7FfL3CmxryE%2C5C4BalQcWbs&title=%EC%9D%B4%EC%83%A4%EB%82%98+%EC%82%AC%EB%9D%BC%EC%8A%A4%EB%B0%94%ED%8B%B0",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=aE0r5AVrRG0&list=RDAMVMaE0r5AVrRG0",
+  "playlistTitle": "이샤나 사라스바티"
 }

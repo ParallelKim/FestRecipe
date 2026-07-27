@@ -80,6 +80,7 @@
       "releaseType": "ep"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=TsOQx-2FSK8,gaHo3kPRU68,ir1GU7FXhnQ",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=TsOQx-2FSK8&list=RDAMVMTsOQx-2FSK8"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=TsOQx-2FSK8%2CgaHo3kPRU68%2Cir1GU7FXhnQ&title=%EC%BA%90%EC%A3%BC%EC%96%BC%EB%A6%AC+%EC%BB%A4%EB%84%A5%ED%8B%B0%EB%93%9C",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=TsOQx-2FSK8&list=RDAMVMTsOQx-2FSK8",
+  "playlistTitle": "캐주얼리 커넥티드"
 }

@@ -78,6 +78,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=4RDmQ4kQOSM,miSG7qXS4QA,pNKZI2yJCqM",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=4RDmQ4kQOSM&list=RDAMVM4RDmQ4kQOSM"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=4RDmQ4kQOSM%2CmiSG7qXS4QA%2CpNKZI2yJCqM&title=%EB%AA%A8%EB%85%B8+%EB%85%B8+%EC%95%84%EC%99%80%EB%A0%88",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=4RDmQ4kQOSM&list=RDAMVM4RDmQ4kQOSM",
+  "playlistTitle": "모노 노 아와레"
 }

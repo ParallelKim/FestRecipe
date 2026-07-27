@@ -97,6 +97,7 @@
       "releaseType": "ep"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5BPxhDCyHU4,hJTzFxW368E,8i-B1ieI_kY,jGw00C_a1YA",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5BPxhDCyHU4&list=RDAMVM5BPxhDCyHU4"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5BPxhDCyHU4%2ChJTzFxW368E%2C8i-B1ieI_kY%2CjGw00C_a1YA&title=%EC%8F%9C%EC%95%A0%ED%94%8C",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5BPxhDCyHU4&list=RDAMVM5BPxhDCyHU4",
+  "playlistTitle": "쏜애플"
 }

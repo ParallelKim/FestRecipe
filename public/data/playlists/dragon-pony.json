@@ -78,6 +78,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=LfOegd5LDN0,7ObZk03flxs,yc-eNqLjDMA",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=LfOegd5LDN0&list=RDAMVMLfOegd5LDN0"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=LfOegd5LDN0%2C7ObZk03flxs%2Cyc-eNqLjDMA&title=%EB%93%9C%EB%9E%98%EA%B3%A4%ED%8F%AC%EB%8B%88",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=LfOegd5LDN0&list=RDAMVMLfOegd5LDN0",
+  "playlistTitle": "드래곤포니"
 }

@@ -100,6 +100,8 @@ export interface ArtistPlaylist {
   songCount: number
   targetSongCount: number
   tracks: PlaylistTrack[]
+  /** YouTube watch_videos 에 넘길 재생목록 표시명 */
+  playlistTitle?: string | null
   youtubePlaylistUrl?: string | null
 }
 

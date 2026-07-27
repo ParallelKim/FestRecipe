@@ -98,6 +98,7 @@
       "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Og3SqH8m3kc,idXUddmRJCc,dL_ddpfBco0,i6x6s3K6U5o",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Og3SqH8m3kc&list=RDAMVMOg3SqH8m3kc"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Og3SqH8m3kc%2CidXUddmRJCc%2CdL_ddpfBco0%2Ci6x6s3K6U5o&title=%EB%85%B8%EC%9D%B4%EC%A6%88%EA%B0%80%EB%93%A0",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Og3SqH8m3kc&list=RDAMVMOg3SqH8m3kc",
+  "playlistTitle": "노이즈가든"
 }

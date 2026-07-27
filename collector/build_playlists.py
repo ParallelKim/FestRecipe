@@ -30,6 +30,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlencode
 
 from ytmusicapi import YTMusic
 
@@ -270,6 +271,14 @@ def build_playlist_for_artist(
                 break
 
     video_ids = [t["videoId"] for t in selected]
+    # watch_videos 의 title 파라미터로 Untitled List 대신 아티스트명 표시
+    playlist_title = (artist.get("name") or artist.get("englishName") or artist["id"]).strip()
+    youtube_playlist_url = None
+    if video_ids:
+        youtube_playlist_url = "https://www.youtube.com/watch_videos?" + urlencode(
+            {"video_ids": ",".join(video_ids), "title": playlist_title}
+        )
+
     payload = {
         "artistId": artist["id"],
         "artistName": artist.get("name"),
@@ -282,10 +291,8 @@ def build_playlist_for_artist(
         "targetSongCount": song_count,
         "ytmArtist": ytm,
         "tracks": selected,
-        "youtubePlaylistUrl": (
-            f"https://www.youtube.com/watch_videos?video_ids={','.join(video_ids)}"
-            if video_ids else None
-        ),
+        "playlistTitle": playlist_title,
+        "youtubePlaylistUrl": youtube_playlist_url,
         "youtubeMusicPlaylistUrl": (
             f"https://music.youtube.com/watch?v={video_ids[0]}&list=RDAMVM{video_ids[0]}"
             if video_ids else None

@@ -4,6 +4,12 @@ import { FestivalService } from '../services/festivals'
 import type { Festival, Artist, ArtistPlaylist, RecognitionTier } from '../types'
 import TimetableGrid from '../components/TimetableGrid'
 import FestivalHelmet from '../components/seo/FestivalHelmet'
+import {
+  buildWatchVideosUrl,
+  playlistTitleForArtist,
+  playlistTitleForDay,
+  playlistTitleForFestival,
+} from '../lib/youtubePlaylist'
 
 function tierLabel(tier: RecognitionTier): string {
   if (tier === 'high') return '헤드라이너급 · 대표곡 5'
@@ -23,6 +29,7 @@ export default function FestivalDetail() {
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null)
   const [artistPlaylist, setArtistPlaylist] = useState<ArtistPlaylist | null>(null)
   const [playlistLoading, setPlaylistLoading] = useState(false)
+  const [bundleLoading, setBundleLoading] = useState<'day' | 'festival' | null>(null)
 
   useEffect(() => {
     let active = true
@@ -130,6 +137,44 @@ export default function FestivalDetail() {
       if (panel) panel.scrollIntoView({ behavior: 'smooth' })
     }
   }
+
+  const openBundledPlaylist = async (
+    kind: 'day' | 'festival',
+    artistIds: string[],
+    title: string,
+  ) => {
+    const ids = artistIds.filter((id) => playlistReady.has(id))
+    if (ids.length === 0) return
+
+    setBundleLoading(kind)
+    try {
+      const playlists = await Promise.all(
+        ids.map((id) => FestivalService.getPlaylistForArtist(id)),
+      )
+      const videoIds = playlists.flatMap((pl) => (pl?.tracks || []).map((t) => t.videoId))
+      const url = buildWatchVideosUrl(videoIds, title)
+      if (url) window.open(url, '_blank', 'noopener,noreferrer')
+    } finally {
+      setBundleLoading(null)
+    }
+  }
+
+  const artistPlaylistTitle = selectedArtist
+    ? playlistTitleForArtist(selectedArtist.name)
+    : ''
+  const artistPlaylistUrl = artistPlaylist
+    ? buildWatchVideosUrl(
+        artistPlaylist.tracks.map((t) => t.videoId),
+        artistPlaylistTitle,
+      )
+    : null
+  const dayPlaylistTitle = playlistTitleForDay(festival.name, activeDay?.dayLabel || '')
+  const festivalPlaylistTitle = playlistTitleForFestival(festival.name)
+  const dayArtistIds = activeDay?.artists?.length
+    ? activeDay.artists
+    : (activeDay?.slots || []).map((s) => s.artistId)
+  const dayReadyCount = dayArtistIds.filter((id) => playlistReady.has(id)).length
+  const festivalReadyCount = (festival.allArtists || []).filter((id) => playlistReady.has(id)).length
 
   const artistCount = festival.lineupStage === 'stage1_all'
     ? (festival.allArtists?.length || 0)
@@ -432,9 +477,9 @@ export default function FestivalDetail() {
                       </div>
                     ) : artistPlaylist && artistPlaylist.tracks.length > 0 ? (
                       <div style={{ marginTop: '16px' }}>
-                        {artistPlaylist.youtubePlaylistUrl && (
+                        {artistPlaylistUrl && (
                           <a
-                            href={artistPlaylist.youtubePlaylistUrl}
+                            href={artistPlaylistUrl}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn-primary"
@@ -453,7 +498,7 @@ export default function FestivalDetail() {
                         )}
 
                         <p style={{ fontSize: '11px', fontWeight: 700, color: 'var(--color-muted)', textTransform: 'uppercase', letterSpacing: '0.5px', margin: '0 0 10px' }}>
-                          대표곡
+                          대표곡 · {artistPlaylistTitle}
                         </p>
 
                         <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -462,7 +507,7 @@ export default function FestivalDetail() {
                               ...artistPlaylist.tracks.slice(idx).map(t => t.videoId),
                               ...artistPlaylist.tracks.slice(0, idx).map(t => t.videoId),
                             ]
-                            const fromHereUrl = `https://www.youtube.com/watch_videos?video_ids=${startIds.join(',')}`
+                            const fromHereUrl = buildWatchVideosUrl(startIds, artistPlaylistTitle) || '#'
 
                             return (
                               <div key={track.videoId} style={{ borderBottom: '1px solid var(--color-hairline)', padding: '12px 0', display: 'grid', gridTemplateColumns: '28px 1fr auto', gap: '10px', alignItems: 'center' }}>
@@ -527,16 +572,64 @@ export default function FestivalDetail() {
                     )}
                   </div>
                 ) : (
-                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', padding: '48px 0', color: 'var(--color-muted)', textAlign: 'center' }}>
-                    <span style={{ fontSize: '48px', display: 'block', marginBottom: '16px' }}>🎸</span>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'stretch', justifyContent: 'center', height: '100%', padding: '28px 0', color: 'var(--color-muted)', textAlign: 'center' }}>
+                    <span style={{ fontSize: '40px', display: 'block', marginBottom: '12px' }}>🎸</span>
                     <h4 style={{ fontWeight: 700, color: 'var(--color-ink)', margin: '0 0 8px', fontSize: '16px' }}>아티스트를 선택하세요</h4>
-                    <p style={{ margin: 0, fontSize: '13px', lineHeight: 1.6 }}>
+                    <p style={{ margin: '0 0 20px', fontSize: '13px', lineHeight: 1.6 }}>
                       {festival.lineupStage === 'stage3_timetable'
                         ? '타임테이블의 무대 카드를 클릭하면'
                         : '라인업에서 아티스트를 클릭하면'}
                       <br />
                       인지도에 맞는 대표곡 플레이리스트가 표시됩니다.
                     </p>
+
+                    {(dayReadyCount > 0 || festivalReadyCount > 0) && (
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', textAlign: 'left' }}>
+                        {dayReadyCount > 0 && activeDay && (
+                          <button
+                            type="button"
+                            className="btn-primary"
+                            disabled={bundleLoading !== null}
+                            onClick={() => openBundledPlaylist('day', dayArtistIds, dayPlaylistTitle)}
+                            style={{
+                              fontSize: '12px',
+                              fontWeight: 700,
+                              padding: '10px 12px',
+                              border: 'none',
+                              cursor: bundleLoading ? 'wait' : 'pointer',
+                              opacity: bundleLoading && bundleLoading !== 'day' ? 0.6 : 1,
+                            }}
+                          >
+                            {bundleLoading === 'day' ? '여는 중…' : `▶ ${activeDay.dayLabel} 대표곡 듣기`}
+                          </button>
+                        )}
+                        {festivalReadyCount > 0 && (
+                          <button
+                            type="button"
+                            disabled={bundleLoading !== null}
+                            onClick={() => openBundledPlaylist('festival', festival.allArtists || [], festivalPlaylistTitle)}
+                            style={{
+                              fontSize: '12px',
+                              fontWeight: 700,
+                              padding: '10px 12px',
+                              borderRadius: 'var(--radius-pill)',
+                              border: '1px solid var(--color-hairline)',
+                              backgroundColor: 'var(--color-canvas)',
+                              color: 'var(--color-ink)',
+                              cursor: bundleLoading ? 'wait' : 'pointer',
+                              opacity: bundleLoading && bundleLoading !== 'festival' ? 0.6 : 1,
+                            }}
+                          >
+                            {bundleLoading === 'festival' ? '여는 중…' : '▶ 페스티벌 전체 대표곡 듣기'}
+                          </button>
+                        )}
+                        <p style={{ margin: '4px 0 0', fontSize: '11px', color: 'var(--color-muted)', lineHeight: 1.5 }}>
+                          YouTube에서 재생목록 이름으로 표시됩니다.
+                          {dayReadyCount > 0 && activeDay ? ` · 요일: ${dayPlaylistTitle}` : ''}
+                          {festivalReadyCount > 0 ? ` · 전체: ${festivalPlaylistTitle}` : ''}
+                        </p>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>

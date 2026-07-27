@@ -97,6 +97,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=2_GIpjEovng,FAFd4-qz8v8,LGOnxle76PQ,mGRheNKA3YM",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=2_GIpjEovng&list=RDAMVM2_GIpjEovng"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=2_GIpjEovng%2CFAFd4-qz8v8%2CLGOnxle76PQ%2CmGRheNKA3YM&title=%EA%B0%90%EA%B7%A4%EC%84%9C%EB%A6%AC%EB%8B%A8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=2_GIpjEovng&list=RDAMVM2_GIpjEovng",
+  "playlistTitle": "감귤서리단"
 }

@@ -80,6 +80,7 @@
       "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=f9BswzyG1TY,NXGjgGH_BKY,7-wzqChHmHo",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=f9BswzyG1TY&list=RDAMVMf9BswzyG1TY"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=f9BswzyG1TY%2CNXGjgGH_BKY%2C7-wzqChHmHo&title=%EB%85%B8%EC%9D%B4",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=f9BswzyG1TY&list=RDAMVMf9BswzyG1TY",
+  "playlistTitle": "노이"
 }

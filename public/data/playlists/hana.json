@@ -98,6 +98,7 @@
       "source": "releases_fallback"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=W5g3V0T-BTg,2C0TGqcWPbA,XgNrYNnlJ3k,v484RXSxWjI",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=W5g3V0T-BTg&list=RDAMVMW5g3V0T-BTg"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=W5g3V0T-BTg%2C2C0TGqcWPbA%2CXgNrYNnlJ3k%2Cv484RXSxWjI&title=%ED%95%98%EB%82%98",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=W5g3V0T-BTg&list=RDAMVMW5g3V0T-BTg",
+  "playlistTitle": "하나"
 }

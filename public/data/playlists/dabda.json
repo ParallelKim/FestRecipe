@@ -78,6 +78,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=w-4CfmxDWO4,UfBPfOliX7g,FrcP2JUtr8Y",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=w-4CfmxDWO4&list=RDAMVMw-4CfmxDWO4"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=w-4CfmxDWO4%2CUfBPfOliX7g%2CFrcP2JUtr8Y&title=%EB%8B%A4%EB%B8%8C%EB%8B%A4",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=w-4CfmxDWO4&list=RDAMVMw-4CfmxDWO4",
+  "playlistTitle": "다브다"
 }

@@ -94,6 +94,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mXuzFnL0OJ4,ooLxH4wI4LI,x92xRJTeEcA,Xg_nikDA0BE",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mXuzFnL0OJ4&list=RDAMVMmXuzFnL0OJ4"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mXuzFnL0OJ4%2CooLxH4wI4LI%2Cx92xRJTeEcA%2CXg_nikDA0BE&title=%EC%9D%B4%EC%8A%B9%EC%9C%A4",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mXuzFnL0OJ4&list=RDAMVMmXuzFnL0OJ4",
+  "playlistTitle": "이승윤"
 }

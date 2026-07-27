@@ -96,6 +96,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=x9IHD81Cm9g,zSs8fTx5egs,3UJKjYIrmpk,0DuHUASEK7I",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=x9IHD81Cm9g&list=RDAMVMx9IHD81Cm9g"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=x9IHD81Cm9g%2CzSs8fTx5egs%2C3UJKjYIrmpk%2C0DuHUASEK7I&title=%EC%9C%A4%EB%A7%88%EC%B9%98",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=x9IHD81Cm9g&list=RDAMVMx9IHD81Cm9g",
+  "playlistTitle": "윤마치"
 }

@@ -80,6 +80,7 @@
       "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=g2uJWwQ1uUg,8iHVd4eiDDY,wbYKb9RglSM",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=g2uJWwQ1uUg&list=RDAMVMg2uJWwQ1uUg"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=g2uJWwQ1uUg%2C8iHVd4eiDDY%2CwbYKb9RglSM&title=%EB%A6%B4%EB%A6%AC+%EC%9E%87+%EB%A8%B8%EC%8B%A0",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=g2uJWwQ1uUg&list=RDAMVMg2uJWwQ1uUg",
+  "playlistTitle": "릴리 잇 머신"
 }

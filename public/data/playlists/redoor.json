@@ -98,6 +98,7 @@
       "releaseType": "ep"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=E5BLkMGxDgQ,3VlqlntAOt8,aU9p-IeKAJw,uVs0tqOck7k",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=E5BLkMGxDgQ&list=RDAMVME5BLkMGxDgQ"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=E5BLkMGxDgQ%2C3VlqlntAOt8%2CaU9p-IeKAJw%2CuVs0tqOck7k&title=%EB%A6%AC%EB%8F%84%EC%96%B4",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=E5BLkMGxDgQ&list=RDAMVME5BLkMGxDgQ",
+  "playlistTitle": "리도어"
 }

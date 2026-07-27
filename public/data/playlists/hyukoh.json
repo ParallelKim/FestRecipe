@@ -111,6 +111,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zC8RrOA0spo,bVrW1eDMtL8,cSAXXE7VBYo,-o7lgP1VPJk,lCgcGWJHOFE",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zC8RrOA0spo&list=RDAMVMzC8RrOA0spo"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zC8RrOA0spo%2CbVrW1eDMtL8%2CcSAXXE7VBYo%2C-o7lgP1VPJk%2ClCgcGWJHOFE&title=%ED%98%81%EC%98%A4",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zC8RrOA0spo&list=RDAMVMzC8RrOA0spo",
+  "playlistTitle": "혁오"
 }

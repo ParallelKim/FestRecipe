@@ -102,6 +102,7 @@
       "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Qo2VFR6DAhY,pGvRfsQHImA,fCXpMJAcbNQ,KOKI30YeKeA",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Qo2VFR6DAhY&list=RDAMVMQo2VFR6DAhY"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Qo2VFR6DAhY%2CpGvRfsQHImA%2CfCXpMJAcbNQ%2CKOKI30YeKeA&title=%EC%88%98%EB%AF%BC",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Qo2VFR6DAhY&list=RDAMVMQo2VFR6DAhY",
+  "playlistTitle": "수민"
 }

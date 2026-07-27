@@ -111,6 +111,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=U31mUH2DnWk,wnx_bD5kNBU,WisAHyIrjvk,_g3vxL400l0,jZyKcwGoQpM",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=U31mUH2DnWk&list=RDAMVMU31mUH2DnWk"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=U31mUH2DnWk%2Cwnx_bD5kNBU%2CWisAHyIrjvk%2C_g3vxL400l0%2CjZyKcwGoQpM&title=%EC%8B%A4%EB%A6%AC%EC%B9%B4%EA%B2%94",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=U31mUH2DnWk&list=RDAMVMU31mUH2DnWk",
+  "playlistTitle": "실리카겔"
 }

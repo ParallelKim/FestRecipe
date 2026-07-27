@@ -80,6 +80,7 @@
       "releaseType": "ep"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-6Pu4-nOvr8,CR3AjV9E8Fk,oCWxdDdzkmU",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-6Pu4-nOvr8&list=RDAMVM-6Pu4-nOvr8"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-6Pu4-nOvr8%2CCR3AjV9E8Fk%2CoCWxdDdzkmU&title=%EC%86%8C%EC%85%9C%ED%81%B4%EB%9F%BD%ED%96%A5%EC%9A%B0",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-6Pu4-nOvr8&list=RDAMVM-6Pu4-nOvr8",
+  "playlistTitle": "소셜클럽향우"
 }

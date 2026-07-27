@@ -98,6 +98,7 @@
       "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=8cMFDDEEH6M,sBWfHa_MGpE,2QnrmtM02Pw,O1NAE-1FNTY",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=8cMFDDEEH6M&list=RDAMVM8cMFDDEEH6M"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=8cMFDDEEH6M%2CsBWfHa_MGpE%2C2QnrmtM02Pw%2CO1NAE-1FNTY&title=THE+FIX",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=8cMFDDEEH6M&list=RDAMVM8cMFDDEEH6M",
+  "playlistTitle": "THE FIX"
 }

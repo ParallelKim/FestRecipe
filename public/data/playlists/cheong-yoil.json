@@ -79,6 +79,7 @@
       "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=_MokQRzsCpw,8Njzmk_fIEU,ZH9AZEXHdA8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=_MokQRzsCpw&list=RDAMVM_MokQRzsCpw"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=_MokQRzsCpw%2C8Njzmk_fIEU%2CZH9AZEXHdA8&title=%EC%B2%AD%EC%9A%94%EC%9D%BC",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=_MokQRzsCpw&list=RDAMVM_MokQRzsCpw",
+  "playlistTitle": "청요일"
 }

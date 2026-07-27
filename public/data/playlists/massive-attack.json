@@ -113,6 +113,7 @@
       "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=HLrqNhgdiC0,Tb0MC0jFv6M,VLRa4nvkTy4,3h-JYx76QNM,P2aBhU6pLCg",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=HLrqNhgdiC0&list=RDAMVMHLrqNhgdiC0"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=HLrqNhgdiC0%2CTb0MC0jFv6M%2CVLRa4nvkTy4%2C3h-JYx76QNM%2CP2aBhU6pLCg&title=%EB%A7%A4%EC%8B%9C%EB%B8%8C+%EC%96%B4%ED%83%9D",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=HLrqNhgdiC0&list=RDAMVMHLrqNhgdiC0",
+  "playlistTitle": "매시브 어택"
 }

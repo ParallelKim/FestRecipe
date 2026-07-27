@@ -78,6 +78,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=7SrO5NBF-js,vIARWPkdHeg,X7i2V2fUjkg",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=7SrO5NBF-js&list=RDAMVM7SrO5NBF-js"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=7SrO5NBF-js%2CvIARWPkdHeg%2CX7i2V2fUjkg&title=%EB%82%98%EC%83%81%ED%98%84%EC%94%A8%EB%B0%B4%EB%93%9C",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=7SrO5NBF-js&list=RDAMVM7SrO5NBF-js",
+  "playlistTitle": "나상현씨밴드"
 }

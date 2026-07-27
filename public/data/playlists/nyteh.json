@@ -96,6 +96,7 @@
       "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=wdr49dfP6xo,WQ2ASlk1VyA,jmBqPtQN3ow,ZOR4CqGO5Vo",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=wdr49dfP6xo&list=RDAMVMwdr49dfP6xo"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=wdr49dfP6xo%2CWQ2ASlk1VyA%2CjmBqPtQN3ow%2CZOR4CqGO5Vo&title=%EB%82%98%EC%9D%B4%ED%85%8C",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=wdr49dfP6xo&list=RDAMVMwdr49dfP6xo",
+  "playlistTitle": "나이테"
 }

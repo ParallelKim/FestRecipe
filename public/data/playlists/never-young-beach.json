@@ -95,6 +95,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=TxqOtEPzuBM,lILzKiiCEOM,OuxVZV-CRJY,MnN7tTBFbMU",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=TxqOtEPzuBM&list=RDAMVMTxqOtEPzuBM"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=TxqOtEPzuBM%2ClILzKiiCEOM%2COuxVZV-CRJY%2CMnN7tTBFbMU&title=%EB%84%A4%EB%B2%84+%EC%98%81+%EB%B9%84%EC%B9%98",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=TxqOtEPzuBM&list=RDAMVMTxqOtEPzuBM",
+  "playlistTitle": "네버 영 비치"
 }

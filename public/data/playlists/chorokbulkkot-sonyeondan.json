@@ -79,6 +79,7 @@
       "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5u2Ssf5OsNs,isgmaVrP6YA,vvP6u_V3YPk",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5u2Ssf5OsNs&list=RDAMVM5u2Ssf5OsNs"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5u2Ssf5OsNs%2CisgmaVrP6YA%2CvvP6u_V3YPk&title=%EC%B4%88%EB%A1%9D%EB%B6%88%EA%BD%83%EC%86%8C%EB%85%84%EB%8B%A8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5u2Ssf5OsNs&list=RDAMVM5u2Ssf5OsNs",
+  "playlistTitle": "초록불꽃소년단"
 }

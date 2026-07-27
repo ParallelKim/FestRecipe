@@ -113,6 +113,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Nrsfo6vZrjA,Zt9tof7mARU,1WoDW9PBP3Q,5ap4xDCxcQA,sHN3BJbESeU",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Nrsfo6vZrjA&list=RDAMVMNrsfo6vZrjA"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Nrsfo6vZrjA%2CZt9tof7mARU%2C1WoDW9PBP3Q%2C5ap4xDCxcQA%2CsHN3BJbESeU&title=%EC%9D%B4%EB%82%A0%EC%B9%98",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Nrsfo6vZrjA&list=RDAMVMNrsfo6vZrjA",
+  "playlistTitle": "이날치"
 }

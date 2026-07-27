@@ -96,6 +96,7 @@
       "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GJNOEdQSEeQ,FZ8o_N57RYk,M5sEXCJ3DGU,b9uKjCAMCIM",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GJNOEdQSEeQ&list=RDAMVMGJNOEdQSEeQ"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GJNOEdQSEeQ%2CFZ8o_N57RYk%2CM5sEXCJ3DGU%2Cb9uKjCAMCIM&title=%EC%86%A1%EB%8F%99%EC%95%BC",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GJNOEdQSEeQ&list=RDAMVMGJNOEdQSEeQ",
+  "playlistTitle": "송동야"
 }

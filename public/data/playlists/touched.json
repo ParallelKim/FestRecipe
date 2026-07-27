@@ -94,6 +94,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zEDWt602kgo,L5Ba-pp3Qw0,7BcyVANDWP4,ojE5ah4_p9c",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zEDWt602kgo&list=RDAMVMzEDWt602kgo"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zEDWt602kgo%2CL5Ba-pp3Qw0%2C7BcyVANDWP4%2CojE5ah4_p9c&title=%ED%84%B0%EC%B9%98%EB%93%9C",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zEDWt602kgo&list=RDAMVMzEDWt602kgo",
+  "playlistTitle": "터치드"
 }

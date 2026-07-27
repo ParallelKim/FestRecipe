@@ -77,6 +77,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mLXG8gWXV_E,BeoYmEITZxI,0HjW_rqQ6Dw",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mLXG8gWXV_E&list=RDAMVMmLXG8gWXV_E"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mLXG8gWXV_E%2CBeoYmEITZxI%2C0HjW_rqQ6Dw&title=%EC%82%B0%EB%B3%B4",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mLXG8gWXV_E&list=RDAMVMmLXG8gWXV_E",
+  "playlistTitle": "산보"
 }

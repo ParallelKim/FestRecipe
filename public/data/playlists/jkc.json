@@ -79,6 +79,7 @@
       "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=eBc8wR3bl0M,XP9Pb9V0QKc,H-JiId2pQwo",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=eBc8wR3bl0M&list=RDAMVMeBc8wR3bl0M"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=eBc8wR3bl0M%2CXP9Pb9V0QKc%2CH-JiId2pQwo&title=%EC%9E%AD%ED%82%B9%EC%BD%A9",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=eBc8wR3bl0M&list=RDAMVMeBc8wR3bl0M",
+  "playlistTitle": "잭킹콩"
 }

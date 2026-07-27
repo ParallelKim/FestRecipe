@@ -98,6 +98,7 @@
       "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=jt4nAYgJ7WA,OHfuhCXdzCI,qn2PKrwHipE,8dLiCVlXVfQ",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=jt4nAYgJ7WA&list=RDAMVMjt4nAYgJ7WA"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=jt4nAYgJ7WA%2COHfuhCXdzCI%2Cqn2PKrwHipE%2C8dLiCVlXVfQ&title=%ED%82%A4%EB%9D%BC%EB%9D%BC",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=jt4nAYgJ7WA&list=RDAMVMjt4nAYgJ7WA",
+  "playlistTitle": "키라라"
 }

@@ -112,6 +112,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=49FB9hhoO6c,iaoBBwcXYKQ,XYrOmT72xZk,tVCUAXOBF7w,qr3tLhF75XQ",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=49FB9hhoO6c&list=RDAMVM49FB9hhoO6c"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=49FB9hhoO6c%2CiaoBBwcXYKQ%2CXYrOmT72xZk%2CtVCUAXOBF7w%2Cqr3tLhF75XQ&title=%ED%94%BD%EC%8B%9C%EC%A6%88",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=49FB9hhoO6c&list=RDAMVM49FB9hhoO6c",
+  "playlistTitle": "픽시즈"
 }

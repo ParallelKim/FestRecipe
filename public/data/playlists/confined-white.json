@@ -78,6 +78,7 @@
       "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=YhfwjoR2Zs8,rPeOForNWmw,Kw-kk3ygFNM",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=YhfwjoR2Zs8&list=RDAMVMYhfwjoR2Zs8"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=YhfwjoR2Zs8%2CrPeOForNWmw%2CKw-kk3ygFNM&title=%EC%BB%A8%ED%8C%8C%EC%9D%B8%EB%93%9C+%ED%99%94%EC%9D%B4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=YhfwjoR2Zs8&list=RDAMVMYhfwjoR2Zs8",
+  "playlistTitle": "컨파인드 화이트"
 }

@@ -77,6 +77,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-tEcPtR2uKY,YTLaD_uZdUA,HkHnjg1GvvY",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-tEcPtR2uKY&list=RDAMVM-tEcPtR2uKY"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-tEcPtR2uKY%2CYTLaD_uZdUA%2CHkHnjg1GvvY&title=%EC%84%B8%EC%9D%B4%EC%88%98%EB%AF%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-tEcPtR2uKY&list=RDAMVM-tEcPtR2uKY",
+  "playlistTitle": "세이수미"
 }

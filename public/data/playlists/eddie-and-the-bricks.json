@@ -79,6 +79,7 @@
       "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GfGDZUURka4,ZLSlsY4k0NU,neGfCcqVLHA",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GfGDZUURka4&list=RDAMVMGfGDZUURka4"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GfGDZUURka4%2CZLSlsY4k0NU%2CneGfCcqVLHA&title=%EC%97%90%EB%94%94+%EC%95%A4+%EB%8D%94+%EB%B8%8C%EB%A6%AD%EC%8A%A4",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GfGDZUURka4&list=RDAMVMGfGDZUURka4",
+  "playlistTitle": "에디 앤 더 브릭스"
 }

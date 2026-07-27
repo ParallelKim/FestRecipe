@@ -115,6 +115,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VBftbcR3PP0,EHtSLHK9p6Y,91DtS828ouQ,y4d3ZypWgLA,SigQvWyi3Nc",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VBftbcR3PP0&list=RDAMVMVBftbcR3PP0"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VBftbcR3PP0%2CEHtSLHK9p6Y%2C91DtS828ouQ%2Cy4d3ZypWgLA%2CSigQvWyi3Nc&title=%ED%94%8C%EB%A0%88%EC%89%AC+%EC%A5%AC%EC%84%9C",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VBftbcR3PP0&list=RDAMVMVBftbcR3PP0",
+  "playlistTitle": "플레쉬 쥬서"
 }

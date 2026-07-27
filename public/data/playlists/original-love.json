@@ -114,6 +114,7 @@
       "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=RLwB-upkOyo,K3mb1xzG_H0,21869h2B_RE,4rI6_734vy4,jm2G5K71BoE",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=RLwB-upkOyo&list=RDAMVMRLwB-upkOyo"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=RLwB-upkOyo%2CK3mb1xzG_H0%2C21869h2B_RE%2C4rI6_734vy4%2Cjm2G5K71BoE&title=%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90+%EB%9F%AC%EB%B8%8C",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=RLwB-upkOyo&list=RDAMVMRLwB-upkOyo",
+  "playlistTitle": "오리지널 러브"
 }

@@ -114,6 +114,7 @@
       "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VFXR6pUMjUU,NA48_XQcuwc,qtz8L-gICzA,XBrglpStGbI,mAUmQgP-ARs",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VFXR6pUMjUU&list=RDAMVMVFXR6pUMjUU"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VFXR6pUMjUU%2CNA48_XQcuwc%2Cqtz8L-gICzA%2CXBrglpStGbI%2CmAUmQgP-ARs&title=%ED%81%AC%EB%A3%A8%EC%95%99%EB%B9%88",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VFXR6pUMjUU&list=RDAMVMVFXR6pUMjUU",
+  "playlistTitle": "크루앙빈"
 }

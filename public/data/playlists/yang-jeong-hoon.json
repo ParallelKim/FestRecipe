@@ -80,6 +80,7 @@
       "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=KPt3dP8TnU4,qlkWZHc8mW4,aotykwCbqPc",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=KPt3dP8TnU4&list=RDAMVMKPt3dP8TnU4"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=KPt3dP8TnU4%2CqlkWZHc8mW4%2CaotykwCbqPc&title=%EC%96%91%EC%A0%95%ED%9B%88",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=KPt3dP8TnU4&list=RDAMVMKPt3dP8TnU4",
+  "playlistTitle": "양정훈"
 }

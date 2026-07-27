@@ -97,6 +97,7 @@
       "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=NvIp9Drd_oo,ykMfy6XYXIY,VomyqymIggo,V1tkS87WFIs",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=NvIp9Drd_oo&list=RDAMVMNvIp9Drd_oo"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=NvIp9Drd_oo%2CykMfy6XYXIY%2CVomyqymIggo%2CV1tkS87WFIs&title=baan",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=NvIp9Drd_oo&list=RDAMVMNvIp9Drd_oo",
+  "playlistTitle": "baan"
 }

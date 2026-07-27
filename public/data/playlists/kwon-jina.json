@@ -80,6 +80,7 @@
       "source": "releases_fallback"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=reIL6iILDbE,Yxd0ULqOqvM,EAl_74LMelo",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=reIL6iILDbE&list=RDAMVMreIL6iILDbE"
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=reIL6iILDbE%2CYxd0ULqOqvM%2CEAl_74LMelo&title=%EA%B6%8C%EC%A7%84%EC%95%84",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=reIL6iILDbE&list=RDAMVMreIL6iILDbE",
+  "playlistTitle": "권진아"
 }
