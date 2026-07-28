@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { FestivalService } from '../services/festivals'
 import type { Festival, Artist, ArtistPlaylist } from '../types'
 import TimetableGrid from '../components/TimetableGrid'
+import MyLineupPickButton from '../components/MyLineupPickButton'
 import FestivalHelmet from '../components/seo/FestivalHelmet'
 import LoadingState from '../components/LoadingState'
 import DayTabs from '../components/DayTabs'
@@ -13,6 +14,7 @@ import PlaylistHubActions from '../components/PlaylistHubActions'
 import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
 import { headlinerArtistIds } from '../lib/headliners'
 import { officialArtistName } from '../lib/artistOfficialName'
+import { buildFestivalMapUrl } from '../lib/festivalLinks'
 import {
   artistInputsFromPlaylists,
   buildBundledAnonymousPlaylist,
@@ -22,8 +24,10 @@ import {
   orderArtistIdsForDayBundle,
   orderArtistIdsForFestivalBundle,
 } from '../lib/playlistBundleOrder'
+import { blurAfterTap } from '../lib/blurAfterTap'
+import { festivalLineupHighlightFallback } from '../lib/stageTheme'
+import { filterMyLineupForDay, artistIdsOnDay } from '../lib/lineupDay'
 import { useMyLineup } from '../hooks/useMyLineup'
-import { downloadMyLineupImage } from '../lib/exportMyLineupImage'
 import { playlistTitleForCustom } from '../lib/youtubePlaylist'
 
 export default function FestivalDetail() {
@@ -135,7 +139,9 @@ export default function FestivalDetail() {
   }
 
   const activeDay = festival.lineup[activeDayIndex]
+  const myLineupOnDayCount = filterMyLineupForDay(myLineup.artistIds, activeDay).length
   const artistMap = new Map(artists.map((a) => [a.id, a]))
+  const mapUrl = buildFestivalMapUrl(festival)
 
   const stage1Artists = festival.allArtists
     .map((artistId) => artistMap.get(artistId))
@@ -152,6 +158,7 @@ export default function FestivalDetail() {
     setShowMyLineupEditor(false)
     setBundleNotice(null)
     setPlaylistSheetOpen(true)
+    blurAfterTap(document.activeElement)
   }
 
   const clearArtist = () => {
@@ -233,10 +240,14 @@ export default function FestivalDetail() {
   }
 
   const openMyLineupPlaylist = async () => {
-    const ids = myLineup.artistIds.filter((aid) => playlistReady.has(aid))
+    const onDayIds = filterMyLineupForDay(myLineup.artistIds, activeDay)
+    const ids = onDayIds.filter((aid) => playlistReady.has(aid))
     if (ids.length === 0) return
 
-    const orderedIds = orderArtistIdsForFestivalBundle(ids, festival.lineup)
+    const orderedIds =
+      festival.lineupStage === 'stage3_timetable' && activeDay?.slots?.length
+        ? orderArtistIdsForDayBundle(ids, activeDay.slots)
+        : orderArtistIdsForFestivalBundle(ids, festival.lineup)
     setBundleLoading('custom')
     setShowMyLineupEditor(true)
     try {
@@ -264,18 +275,6 @@ export default function FestivalDetail() {
     }
   }
 
-  const exportMyLineupImage = () => {
-    const artistNames = myLineup.artistIds
-      .map((artistId) => artistMap.get(artistId))
-      .filter((a): a is Artist => !!a)
-      .map((a) => officialArtistName(a))
-    downloadMyLineupImage({
-      festivalName: festival.name,
-      dateRange: `${festival.startDate} ~ ${festival.endDate}`,
-      artistNames,
-    })
-  }
-
   const panelProps = {
     festival,
     activeDay,
@@ -288,21 +287,32 @@ export default function FestivalDetail() {
     headlinerIds: headlinerArtistIds(activeDay?.slots),
     onOpenBundled: openBundledPlaylist,
     onOpenMyPlaylist: openMyLineupEditor,
-    myLineupCount: myLineup.count,
+    myLineupCount: myLineupOnDayCount,
     showMyLineupEditor,
     myLineupIds: myLineup.artistIds,
     onToggleMyLineup: myLineup.toggle,
-    onClearMyLineup: myLineup.clear,
+    onClearMyLineup: () => {
+      const onDay = artistIdsOnDay(activeDay)
+      if (onDay.size === 0) return
+      myLineup.setArtistIds(myLineup.artistIds.filter((id) => !onDay.has(id)))
+    },
     onPlayMyLineup: openMyLineupPlaylist,
-    onExportMyLineupImage: exportMyLineupImage,
     onToggleMyLineupFromArtist: myLineup.toggle,
     isInMyLineup: myLineup.has,
     bundleNotice,
     onDismissBundleNotice: () => setBundleNotice(null),
   }
 
+  const festivalLineupBg = festivalLineupHighlightFallback(
+    festival.stageStyles,
+    festival.lineupHighlightColor,
+  )
+
   return (
-    <div className="festival-detail">
+    <div
+      className="festival-detail"
+      style={{ ['--festival-lineup-bg' as string]: festivalLineupBg }}
+    >
       <FestivalHelmet
         festivalId={festival.id}
         festivalName={festival.name}
@@ -361,7 +371,19 @@ export default function FestivalDetail() {
             </p>
           )}
           <div className="festival-hero__meta" style={{ color: sigMutedColor }}>
-            <span>{festival.location}</span>
+            {mapUrl ? (
+              <a
+                href={mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="festival-hero__meta-link"
+                style={{ color: sigMutedColor }}
+              >
+                {festival.location}
+              </a>
+            ) : (
+              <span>{festival.location}</span>
+            )}
             <span>{festival.startDate} ~ {festival.endDate}</span>
           </div>
           {festival.websiteUrl && (
@@ -393,27 +415,37 @@ export default function FestivalDetail() {
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
                     onOpenMyPlaylist={openMyLineupEditor}
-                    myLineupCount={myLineup.count}
+                    myLineupCount={myLineupOnDayCount}
                     variant="bar"
                   />
                 </div>
                 <h3>공개된 아티스트 라인업 ({stage1Artists.length}팀)</h3>
-                <p>아티스트를 선택하면 YouTube Music 인기 기반 대표곡 플레이리스트를 들을 수 있습니다.</p>
+                <p>아티스트를 선택하면 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
                 <div className="artist-chip-row">
                   {stage1Artists.map((artist) => {
                     const isSelected = selectedArtist?.id === artist.id
                     const ready = playlistReady.has(artist.id)
+                    const inLineup = myLineup.has(artist.id)
                     return (
-                      <button
+                      <div
                         key={artist.id}
-                        type="button"
-                        onClick={() => handleArtistSelect(artist.id)}
-                        className={`artist-chip${isSelected ? ' is-selected' : ''}`}
-                        style={{ opacity: ready ? 1 : 0.7 }}
-                        title={ready ? '플레이리스트 준비됨' : '플레이리스트 준비 중'}
+                        className={`artist-chip-group${isSelected ? ' is-selected' : ''}${inLineup ? ' is-in-lineup' : ''}`}
                       >
-                        {officialArtistName(artist)}
-                      </button>
+                        <button
+                          type="button"
+                          onClick={() => handleArtistSelect(artist.id)}
+                          className={`artist-chip${isSelected ? ' is-selected' : ''}`}
+                          style={{ opacity: ready ? 1 : 0.7 }}
+                          title={ready ? '플레이리스트 준비됨' : '플레이리스트 준비 중'}
+                        >
+                          {officialArtistName(artist)}
+                        </button>
+                        <MyLineupPickButton
+                          active={inLineup}
+                          className="lineup-pick-btn--chip"
+                          onToggle={() => myLineup.toggle(artist.id)}
+                        />
+                      </div>
                     )
                   })}
                 </div>
@@ -435,30 +467,41 @@ export default function FestivalDetail() {
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
                     onOpenMyPlaylist={openMyLineupEditor}
-                    myLineupCount={myLineup.count}
+                    myLineupCount={myLineupOnDayCount}
                     variant="bar"
                   />
                 </div>
                 <h3 className="lineup-block__subhead">일별 라인업 아티스트</h3>
+                <p className="lineup-block__hint">카드를 눌러 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
                 <div className="artist-card-grid">
                   {activeDayArtists.map((artist) => {
                     const isSelected = selectedArtist?.id === artist.id
                     const ready = playlistReady.has(artist.id)
+                    const inLineup = myLineup.has(artist.id)
                     return (
-                      <button
+                      <div
                         key={artist.id}
-                        type="button"
-                        onClick={() => handleArtistSelect(artist.id)}
-                        className={`artist-card${isSelected ? ' is-selected' : ''}`}
+                        className={`artist-card-wrap${isSelected ? ' is-selected' : ''}${inLineup ? ' is-in-lineup' : ''}`}
                       >
-                        <span className="artist-card__name">{officialArtistName(artist)}</span>
-                        {artist.country && (
-                          <span className="artist-card__country">{artist.country}</span>
-                        )}
-                        <span className={`artist-card__status${ready ? ' is-ready' : ''}`}>
-                          {ready ? '플레이리스트 준비됨' : '준비 중'}
-                        </span>
-                      </button>
+                        <button
+                          type="button"
+                          onClick={() => handleArtistSelect(artist.id)}
+                          className={`artist-card${isSelected ? ' is-selected' : ''}`}
+                        >
+                          <span className="artist-card__name">{officialArtistName(artist)}</span>
+                          {artist.country && (
+                            <span className="artist-card__country">{artist.country}</span>
+                          )}
+                          <span className={`artist-card__status${ready ? ' is-ready' : ''}`}>
+                            {ready ? '플레이리스트 준비됨' : '준비 중'}
+                          </span>
+                        </button>
+                        <MyLineupPickButton
+                          active={inLineup}
+                          className="lineup-pick-btn--card"
+                          onToggle={() => myLineup.toggle(artist.id)}
+                        />
+                      </div>
                     )
                   })}
                 </div>
@@ -480,17 +523,27 @@ export default function FestivalDetail() {
                     bundleLoading={bundleLoading}
                     onOpenBundled={openBundledPlaylist}
                     onOpenMyPlaylist={openMyLineupEditor}
-                    myLineupCount={myLineup.count}
+                    myLineupCount={myLineupOnDayCount}
                     variant="bar"
                   />
                 </div>
+                {myLineupOnDayCount > 0 && (
+                  <p className="lineup-block__lineup-status" role="status">
+                    {activeDay?.dayLabel} 내 라인업 <strong>{myLineupOnDayCount}</strong>팀 · 타임테이블 ☆ 강조
+                  </p>
+                )}
+                <p className="lineup-block__hint">슬롯을 눌러 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
                 <div className="timetable-scroll">
                   <TimetableGrid
                     stages={activeDay?.stages || []}
                     slots={activeDay?.slots || []}
                     artists={artists}
+                    stageStyles={festival.stageStyles}
                     selectedArtistId={selectedArtist?.id}
                     onSlotClick={handleArtistSelect}
+                    myLineupArtistIds={filterMyLineupForDay(myLineup.artistIds, activeDay)}
+                    isInMyLineup={myLineup.has}
+                    onToggleMyLineup={myLineup.toggle}
                   />
                 </div>
               </div>

@@ -108,7 +108,9 @@ export interface ArtistPlaylist {
   source: 'youtube_music'
   selection: string
   recognition: ArtistRecognition
+  /** 아티스트 단독 듣기·목록에 노출되는 곡 수 (YTM 인기순, 보통 ≥10) */
   songCount: number
+  /** 요일·페스티벌·나만의 번들에 넣을 곡 수 (티어 3~5) */
   targetSongCount: number
   tracks: PlaylistTrack[]
   /** YouTube watch_videos 에 넘길 재생목록 표시명 */
@@ -153,6 +155,20 @@ export interface TimetableSlot {
   durationMinutes: number
 }
 
+/** 타임테이블 스테이지 색 — 페스티벌 JSON `stageStyles` 로 정의 */
+export interface FestivalStageStyle {
+  /** `slots[].stageName` · `day.stages[]` 와 동일 */
+  stageName: string
+  shortLabel?: string
+  bg: string
+  fg: string
+  accent: string
+  /** 무대 열 배경 */
+  soft: string
+  /** 내 라인업 담김 슬롯 연한 배경 — 생략 시 `soft` */
+  lineupBg?: string
+}
+
 export interface DayLineup {
   date: string         // ISO date e.g. "2026-06-12"
   dayLabel: string     // e.g. "6.12 FRI (전야제)"
@@ -164,6 +180,11 @@ export interface DayLineup {
 export interface Festival {
   id: string
   name: string
+  /**
+   * 연도·개최지 없이 통하는 짧은 이름 (배경화면 캡션 등).
+   * 예: "PENTAPORT" — 영문 대문자 권장
+   */
+  shortName?: string
   startDate: string
   endDate: string
   location: string
@@ -183,6 +204,10 @@ export interface Festival {
   posterUrl?: string
   /** 지도 딥링크. 없으면 location 검색으로 생성 */
   mapUrl?: string
+  /** 타임테이블 스테이지별 색 (페스티벌마다 다르게 지정) */
+  stageStyles?: FestivalStageStyle[]
+  /** 스테이지 없는 라인업(칩·카드) 내 라인업 하이라이트 배경 */
+  lineupHighlightColor?: string
   allArtists: string[] // 1단계(all) 요일미구분 전체 라인업
   lineup: DayLineup[]
 }

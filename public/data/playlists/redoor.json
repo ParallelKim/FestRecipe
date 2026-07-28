@@ -2,7 +2,7 @@
   "artistId": "redoor",
   "artistName": "리도어",
   "englishName": "Redoor",
-  "collectedAt": "2026-07-27T00:58:44.265300+00:00",
+  "collectedAt": "2026-07-28T00:18:39.032574+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.585,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCW2g2fF4OAK6412p2WVqysg",
@@ -96,9 +96,115 @@
       "source": "ytm_songs_popular",
       "year": "2025",
       "releaseType": "ep"
+    },
+    {
+      "videoId": "avo8_7QSXrQ",
+      "songTitle": "Still in Love with You",
+      "title": "Still in Love with You",
+      "artists": [
+        "Redoor"
+      ],
+      "albumTitle": "Wanna be",
+      "albumBrowseId": "MPREb_6QlzlAHZo85",
+      "duration": "5:07",
+      "durationSeconds": 307,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VwjSQkj2ztaiyn1s30eR-qsV2z3-wvQ-1tNlxyOGPakN0X7w3Arf27GZCXlX_3ZWBijEgtd_hHXGMFhR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=avo8_7QSXrQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=avo8_7QSXrQ",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "3xMgCJt_oBQ",
+      "songTitle": "Blue rain",
+      "title": "Blue rain",
+      "artists": [
+        "Redoor"
+      ],
+      "albumTitle": "My blue wavy room",
+      "albumBrowseId": "MPREb_gKcoHlNLrxX",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PdUYjRbwDXddpQwtO6o5MniOkZ85dzJcTtq439fu2gpWlq7lk5_FSOadkw8dIfgT3KlSdvFpDQWk8Fs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3xMgCJt_oBQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3xMgCJt_oBQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "l3AmjZ7ZQGM",
+      "songTitle": "World:Noise",
+      "title": "World:Noise",
+      "artists": [
+        "Redoor"
+      ],
+      "albumTitle": "World:Noise",
+      "albumBrowseId": "MPREb_ELVZjzMvQJz",
+      "duration": "6:08",
+      "durationSeconds": 368,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NHqXTmX2RShD41UiwmOcyvLTze86qQ5DWS1ajfCdVkbm6g_dPfh0Hun68djRHll440ep2nv-fudsFfLj=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=l3AmjZ7ZQGM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=l3AmjZ7ZQGM",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "tL3kIdwRxgc",
+      "songTitle": "Under the Black Sky",
+      "title": "Under the Black Sky",
+      "artists": [
+        "Redoor"
+      ],
+      "albumTitle": "Wanna be",
+      "albumBrowseId": "MPREb_6QlzlAHZo85",
+      "duration": "4:08",
+      "durationSeconds": 248,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VwjSQkj2ztaiyn1s30eR-qsV2z3-wvQ-1tNlxyOGPakN0X7w3Arf27GZCXlX_3ZWBijEgtd_hHXGMFhR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tL3kIdwRxgc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tL3kIdwRxgc",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "c2u0_qdLY0c",
+      "songTitle": "snow8",
+      "title": "snow8",
+      "artists": [
+        "Redoor"
+      ],
+      "albumTitle": "snow8",
+      "albumBrowseId": "MPREb_n871hssT338",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/m7Syh7RnwA56nvwoOTjIe8uUkL03o6Lg6SBgS0VGBDO7kLrBZNId1mn1SLFCVMsk-oMvvG1oY3nqNikZ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c2u0_qdLY0c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=c2u0_qdLY0c",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "X34PO1QZxA8",
+      "songTitle": "What can I do? That′s what my heart says",
+      "title": "What can I do? That′s what my heart says",
+      "artists": [
+        "Redoor"
+      ],
+      "albumTitle": "My blue wavy room",
+      "albumBrowseId": "MPREb_gKcoHlNLrxX",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PdUYjRbwDXddpQwtO6o5MniOkZ85dzJcTtq439fu2gpWlq7lk5_FSOadkw8dIfgT3KlSdvFpDQWk8Fs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=X34PO1QZxA8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=X34PO1QZxA8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=E5BLkMGxDgQ%2C3VlqlntAOt8%2CaU9p-IeKAJw%2CuVs0tqOck7k&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A6%AC%EB%8F%84%EC%96%B4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=E5BLkMGxDgQ&list=RDAMVME5BLkMGxDgQ",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 리도어 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 리도어 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=E5BLkMGxDgQ%2C3VlqlntAOt8%2CaU9p-IeKAJw%2CuVs0tqOck7k%2Cavo8_7QSXrQ%2C3xMgCJt_oBQ%2Cl3AmjZ7ZQGM%2CtL3kIdwRxgc%2Cc2u0_qdLY0c%2CX34PO1QZxA8&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A6%AC%EB%8F%84%EC%96%B4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=E5BLkMGxDgQ&list=RDAMVME5BLkMGxDgQ"
 }

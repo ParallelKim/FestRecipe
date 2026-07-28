@@ -2,7 +2,7 @@
   "artistId": "peach-truck-hijackers",
   "artistName": "피치트럭하이재커스",
   "englishName": "Peach Truck Hijackers",
-  "collectedAt": "2026-07-27T00:58:42.138074+00:00",
+  "collectedAt": "2026-07-28T00:18:36.508293+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.277,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCaHWa1HLOm_gK2B7Gqz1QtQ",
@@ -77,9 +77,134 @@
       "source": "ytm_songs_popular",
       "year": "2025",
       "releaseType": "album"
+    },
+    {
+      "videoId": "t4CTw5nNnFI",
+      "songTitle": "Fuck You",
+      "title": "Fuck You",
+      "artists": [
+        "Peach Truck Hijackers"
+      ],
+      "albumTitle": "Peach Truck Hijackers",
+      "albumBrowseId": "MPREb_kaX07RVCZ0C",
+      "duration": "3:34",
+      "durationSeconds": 214,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/di2dU-Xf90lBGZg-bN84ENfYDCsDwMtY_vQJnS9JBF2u33qRBmwn2X2NeCEqJnoQusFWnIBgWOLljMYLWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=t4CTw5nNnFI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=t4CTw5nNnFI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "f8IhM-nuaKk",
+      "songTitle": "Rubbish",
+      "title": "Rubbish",
+      "artists": [
+        "Peach Truck Hijackers"
+      ],
+      "albumTitle": "Peach Truck Hijackers",
+      "albumBrowseId": "MPREb_kaX07RVCZ0C",
+      "duration": "2:49",
+      "durationSeconds": 169,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/di2dU-Xf90lBGZg-bN84ENfYDCsDwMtY_vQJnS9JBF2u33qRBmwn2X2NeCEqJnoQusFWnIBgWOLljMYLWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=f8IhM-nuaKk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=f8IhM-nuaKk",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "EGMHNBJRhQ4",
+      "songTitle": "What Am I To Do",
+      "title": "What Am I To Do",
+      "artists": [
+        "Peach Truck Hijackers"
+      ],
+      "albumTitle": "Peach Truck Hijackers",
+      "albumBrowseId": "MPREb_kaX07RVCZ0C",
+      "duration": "3:46",
+      "durationSeconds": 226,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/di2dU-Xf90lBGZg-bN84ENfYDCsDwMtY_vQJnS9JBF2u33qRBmwn2X2NeCEqJnoQusFWnIBgWOLljMYLWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EGMHNBJRhQ4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EGMHNBJRhQ4",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "2OXEAUc51SM",
+      "songTitle": "Wrong Bus Adventure",
+      "title": "Wrong Bus Adventure",
+      "artists": [
+        "Peach Truck Hijackers"
+      ],
+      "albumTitle": "Peach Truck Hijackers",
+      "albumBrowseId": "MPREb_kaX07RVCZ0C",
+      "duration": "4:59",
+      "durationSeconds": 299,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/di2dU-Xf90lBGZg-bN84ENfYDCsDwMtY_vQJnS9JBF2u33qRBmwn2X2NeCEqJnoQusFWnIBgWOLljMYLWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2OXEAUc51SM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2OXEAUc51SM",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "esr_afYURbE",
+      "songTitle": "Dreamgazi",
+      "title": "Dreamgazi",
+      "artists": [
+        "Peach Truck Hijackers"
+      ],
+      "albumTitle": "Peach Truck Hijackers",
+      "albumBrowseId": "MPREb_kaX07RVCZ0C",
+      "duration": "3:29",
+      "durationSeconds": 209,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/di2dU-Xf90lBGZg-bN84ENfYDCsDwMtY_vQJnS9JBF2u33qRBmwn2X2NeCEqJnoQusFWnIBgWOLljMYLWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=esr_afYURbE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=esr_afYURbE",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "UoA5rV-6t9Y",
+      "songTitle": "From Your Dead Body",
+      "title": "From Your Dead Body",
+      "artists": [
+        "Peach Truck Hijackers"
+      ],
+      "albumTitle": "Peach Truck Hijackers",
+      "albumBrowseId": "MPREb_kaX07RVCZ0C",
+      "duration": "4:46",
+      "durationSeconds": 286,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/di2dU-Xf90lBGZg-bN84ENfYDCsDwMtY_vQJnS9JBF2u33qRBmwn2X2NeCEqJnoQusFWnIBgWOLljMYLWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UoA5rV-6t9Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UoA5rV-6t9Y",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "a9NM9VoCUAE",
+      "songTitle": "Two Songs",
+      "title": "Two Songs",
+      "artists": [
+        "Peach Truck Hijackers"
+      ],
+      "albumTitle": "Peach Truck Hijackers",
+      "albumBrowseId": "MPREb_kaX07RVCZ0C",
+      "duration": "6:03",
+      "durationSeconds": 363,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/di2dU-Xf90lBGZg-bN84ENfYDCsDwMtY_vQJnS9JBF2u33qRBmwn2X2NeCEqJnoQusFWnIBgWOLljMYLWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=a9NM9VoCUAE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=a9NM9VoCUAE",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=6SLfoy1DNn0%2CdLffrkqY6yo%2CWxVYSOSBl8I&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%94%BC%EC%B9%98%ED%8A%B8%EB%9F%AD%ED%95%98%EC%9D%B4%EC%9E%AC%EC%BB%A4%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=6SLfoy1DNn0&list=RDAMVM6SLfoy1DNn0",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 피치트럭하이재커스 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 피치트럭하이재커스 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=6SLfoy1DNn0%2CdLffrkqY6yo%2CWxVYSOSBl8I%2Ct4CTw5nNnFI%2Cf8IhM-nuaKk%2CEGMHNBJRhQ4%2C2OXEAUc51SM%2Cesr_afYURbE%2CUoA5rV-6t9Y%2Ca9NM9VoCUAE&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%94%BC%EC%B9%98%ED%8A%B8%EB%9F%AD%ED%95%98%EC%9D%B4%EC%9E%AC%EC%BB%A4%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=6SLfoy1DNn0&list=RDAMVM6SLfoy1DNn0"
 }

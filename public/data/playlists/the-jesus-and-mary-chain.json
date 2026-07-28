@@ -2,7 +2,7 @@
   "artistId": "the-jesus-and-mary-chain",
   "artistName": "The Jesus and Mary Chain",
   "englishName": "The Jesus and Mary Chain",
-  "collectedAt": "2026-07-27T00:58:50.057125+00:00",
+  "collectedAt": "2026-07-28T00:18:47.871421+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.938,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UC3BSmOs3GSRju0LzinlrsJA",
@@ -111,9 +111,98 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=EMgjC_9ttJY",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "Zom02daG5XY",
+      "songTitle": "Far Gone and Out",
+      "title": "Far Gone and Out",
+      "artists": [
+        "The Jesus and Mary Chain"
+      ],
+      "albumTitle": "Honey's Dead",
+      "albumBrowseId": "MPREb_HDg6LJUNnzJ",
+      "duration": "2:52",
+      "durationSeconds": 172,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Wcsfgulf9hbwUV3ld-EeGfyiDjqoVVUNVKuIMxw9-HO1rUZ_OPri6AfKOChhI2txc0DoQ1j0BZmcJB-0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Zom02daG5XY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Zom02daG5XY",
+      "source": "ytm_songs_popular",
+      "year": "1992",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "d2KD_Ljc5nE",
+      "songTitle": "Snakedriver",
+      "title": "Snakedriver",
+      "artists": [
+        "The Jesus And Mary Chain"
+      ],
+      "albumTitle": "The Crow Original Motion Picture Soundtrack",
+      "albumBrowseId": "MPREb_NdQr5cRNurp",
+      "duration": "3:43",
+      "durationSeconds": 223,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HhSgUx3IL4JnGa_o4TA4DyEriidaoPgr6DiY-Go5N5G0ID_c9DgqQNH-skXNdWrZYfoJMJNFSWBXmPMI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=d2KD_Ljc5nE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=d2KD_Ljc5nE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "80CPPweVADs",
+      "songTitle": "Blues From a Gun",
+      "title": "Blues From a Gun",
+      "artists": [
+        "The Jesus and Mary Chain"
+      ],
+      "albumTitle": "Automatic",
+      "albumBrowseId": "MPREb_UbyLyh9mXqK",
+      "duration": "4:45",
+      "durationSeconds": 285,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2HaenVRSfLnjit1SFAFbKmc9p7nUHwIwi1v7RubiULPqJBnEqwlkwV4cXaY_TXRcrq8_zekKDQ6dGAhl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=80CPPweVADs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=80CPPweVADs",
+      "source": "ytm_songs_popular",
+      "year": "1989",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "gRVnNuvkc7c",
+      "songTitle": "Hole",
+      "title": "Hole",
+      "artists": [
+        "The Jesus And Mary Chain"
+      ],
+      "albumTitle": "Stoned and Dethroned",
+      "albumBrowseId": "MPREb_xfT6yU7nwOE",
+      "duration": "2:17",
+      "durationSeconds": 137,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4eVAVNcRtNmYGwKYnvgYakv6-xfohf1Ed1_fdC0mEmrco-CUyvH2eMOoaG3cSCEiB-6pDmkm-jcsAsY=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gRVnNuvkc7c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gRVnNuvkc7c",
+      "source": "ytm_songs_popular",
+      "year": "1994",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "OMfIE2HQ85c",
+      "songTitle": "Between Planets",
+      "title": "Between Planets",
+      "artists": [
+        "The Jesus and Mary Chain"
+      ],
+      "albumTitle": "Automatic",
+      "albumBrowseId": "MPREb_UbyLyh9mXqK",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2HaenVRSfLnjit1SFAFbKmc9p7nUHwIwi1v7RubiULPqJBnEqwlkwV4cXaY_TXRcrq8_zekKDQ6dGAhl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OMfIE2HQ85c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OMfIE2HQ85c",
+      "source": "ytm_songs_popular",
+      "year": "1989",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=nde7-iU4iT8%2CGAky8czvkvg%2C2oT4SbrP4tA%2CWfr-YfcXkK4%2CEMgjC_9ttJY&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%8D%94+%EC%A7%80%EC%A0%80%EC%8A%A4+%EC%95%A4+%EB%A9%94%EB%A6%AC+%EC%B2%B4%EC%9D%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=nde7-iU4iT8&list=RDAMVMnde7-iU4iT8",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 더 지저스 앤 메리 체인 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 The Jesus and Mary Chain 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=nde7-iU4iT8%2CGAky8czvkvg%2C2oT4SbrP4tA%2CWfr-YfcXkK4%2CEMgjC_9ttJY%2CZom02daG5XY%2Cd2KD_Ljc5nE%2C80CPPweVADs%2CgRVnNuvkc7c%2COMfIE2HQ85c&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+The+Jesus+and+Mary+Chain+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=nde7-iU4iT8&list=RDAMVMnde7-iU4iT8"
 }

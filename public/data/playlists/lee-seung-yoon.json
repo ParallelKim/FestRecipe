@@ -2,7 +2,7 @@
   "artistId": "lee-seung-yoon",
   "artistName": "이승윤",
   "englishName": "LEE SEUNG YOON",
-  "collectedAt": "2026-07-27T00:58:37.198581+00:00",
+  "collectedAt": "2026-07-28T00:18:28.730805+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.692,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCojd7amrMolpt71QH9HaqRg",
@@ -92,9 +92,114 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=Xg_nikDA0BE",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "KTJ9RFkGMgs",
+      "songTitle": "Uhbububu (어버버버)",
+      "title": "Uhbububu (어버버버)",
+      "artists": [
+        "LEE SEUNG YOON"
+      ],
+      "albumTitle": "Album 0 (0집)",
+      "albumBrowseId": "MPREb_wipP5a9gi3m",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RwgU3LBX926tJTaKdYZpQZBX4cD-Jd1pSrOq_lAefQ3TV1Z5nl-MKuIZzxmB5JETl51O2tMrznoUPmpN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KTJ9RFkGMgs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KTJ9RFkGMgs",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "S6Lw-jCRSHM",
+      "songTitle": "Waterfall (폭포)",
+      "title": "Waterfall (폭포)",
+      "artists": [
+        "LEE SEUNG YOON"
+      ],
+      "albumTitle": "PRE-RELEASE 3RD ALBUM [YEOK SEONG]",
+      "albumBrowseId": "MPREb_M1WQjaZ5tEW",
+      "duration": "6:04",
+      "durationSeconds": 364,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9jtk_kLpmjDy0hbe-R3Uc5xNqUGi4xdh8PWuiQr_UdXU1koBUN0EoPyuI1CWhwNjhiTDl4aWRcbhlOJWlg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=S6Lw-jCRSHM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=S6Lw-jCRSHM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "TehTBrBH_qs",
+      "songTitle": "Unspoken (들려주고 싶었던)",
+      "title": "Unspoken (들려주고 싶었던)",
+      "artists": [
+        "LEE SEUNG YOON"
+      ],
+      "albumTitle": "Album 0 (0집)",
+      "albumBrowseId": "MPREb_wipP5a9gi3m",
+      "duration": "4:52",
+      "durationSeconds": 292,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RwgU3LBX926tJTaKdYZpQZBX4cD-Jd1pSrOq_lAefQ3TV1Z5nl-MKuIZzxmB5JETl51O2tMrznoUPmpN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TehTBrBH_qs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TehTBrBH_qs",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Ian9HuUzWHo",
+      "songTitle": "A Story of a Life in a Shadow (그림자 위로)",
+      "title": "A Story of a Life in a Shadow (그림자 위로)",
+      "artists": [
+        "LEE SEUNG YOON"
+      ],
+      "albumTitle": "Album 0 (0집)",
+      "albumBrowseId": "MPREb_wipP5a9gi3m",
+      "duration": "4:02",
+      "durationSeconds": 242,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RwgU3LBX926tJTaKdYZpQZBX4cD-Jd1pSrOq_lAefQ3TV1Z5nl-MKuIZzxmB5JETl51O2tMrznoUPmpN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ian9HuUzWHo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Ian9HuUzWHo",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "WcRhfZh6SWI",
+      "songTitle": "POKZOOK TIME (폭죽타임)",
+      "title": "POKZOOK TIME (폭죽타임)",
+      "artists": [
+        "LEE SEUNG YOON"
+      ],
+      "albumTitle": "PRE-RELEASE 3RD ALBUM [YEOK SEONG]",
+      "albumBrowseId": "MPREb_M1WQjaZ5tEW",
+      "duration": "3:19",
+      "durationSeconds": 199,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9jtk_kLpmjDy0hbe-R3Uc5xNqUGi4xdh8PWuiQr_UdXU1koBUN0EoPyuI1CWhwNjhiTDl4aWRcbhlOJWlg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WcRhfZh6SWI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WcRhfZh6SWI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "rnQaNLNjNLQ",
+      "songTitle": "PunKanon",
+      "title": "PunKanon",
+      "artists": [
+        "Lee Seung Yoon"
+      ],
+      "albumTitle": "PunKanon",
+      "albumBrowseId": "MPREb_wIY8dGanWCW",
+      "duration": "4:43",
+      "durationSeconds": 283,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/65b9oBWXDmXnJTOIdjVAF4yYg2wzxm8OeDcr1P73V3IxMsClE2a3c4B2cvfKgDnTCnQYQ5HmwMyAeTXn=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rnQaNLNjNLQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rnQaNLNjNLQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mXuzFnL0OJ4%2CooLxH4wI4LI%2Cx92xRJTeEcA%2CXg_nikDA0BE&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%9D%B4%EC%8A%B9%EC%9C%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mXuzFnL0OJ4&list=RDAMVMmXuzFnL0OJ4",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 이승윤 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 이승윤 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mXuzFnL0OJ4%2CooLxH4wI4LI%2Cx92xRJTeEcA%2CXg_nikDA0BE%2CKTJ9RFkGMgs%2CS6Lw-jCRSHM%2CTehTBrBH_qs%2CIan9HuUzWHo%2CWcRhfZh6SWI%2CrnQaNLNjNLQ&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%9D%B4%EC%8A%B9%EC%9C%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mXuzFnL0OJ4&list=RDAMVMmXuzFnL0OJ4"
 }

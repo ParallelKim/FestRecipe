@@ -2,7 +2,7 @@
   "artistId": "broken-valentine",
   "artistName": "브로큰 발렌타인",
   "englishName": "Broken Valentine",
-  "collectedAt": "2026-07-27T00:58:28.365927+00:00",
+  "collectedAt": "2026-07-28T00:18:14.835071+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.369,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCrNP86xe_TTQaUrKR7XXB1A",
@@ -76,9 +76,134 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=a5LXPA93cOI",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "SfZMsmH_jNE",
+      "songTitle": "난 여기 이곳에 있겠지",
+      "title": "난 여기 이곳에 있겠지",
+      "artists": [
+        "Broken Valentine"
+      ],
+      "albumTitle": "Aluminium",
+      "albumBrowseId": "MPREb_agUYjHLh96b",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p4mPxILvVNRgq53fr9o6_8E_J07C2Q1fPsHVW-G46aWrtIfxPtpGu6DJt3XBB4chjPh9ZatHoGg3o18=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SfZMsmH_jNE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SfZMsmH_jNE",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "ivGGYil1yR8",
+      "songTitle": "Please Don't Fall",
+      "title": "Please Don't Fall",
+      "artists": [
+        "Broken Valentine"
+      ],
+      "albumTitle": "Please Don't Fall",
+      "albumBrowseId": "MPREb_BH2lWxZ24wP",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/F_eWuhwhLMgqyetuIvQag7GTxFVvQq1FmDv7wDI5Bx3uo_6Z8mP0QGiCtZEHNxR3g0kSoGfZEzDMOLuR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ivGGYil1yR8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ivGGYil1yR8",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "ZHs0LiQ4VO8",
+      "songTitle": "Everything",
+      "title": "Everything",
+      "artists": [
+        "Broken Valentine"
+      ],
+      "albumTitle": "Aluminium",
+      "albumBrowseId": "MPREb_agUYjHLh96b",
+      "duration": "4:27",
+      "durationSeconds": 267,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p4mPxILvVNRgq53fr9o6_8E_J07C2Q1fPsHVW-G46aWrtIfxPtpGu6DJt3XBB4chjPh9ZatHoGg3o18=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZHs0LiQ4VO8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZHs0LiQ4VO8",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "FO50fafE92w",
+      "songTitle": "Get Your Gun",
+      "title": "Get Your Gun",
+      "artists": [
+        "Broken Valentine"
+      ],
+      "albumTitle": "Aluminium",
+      "albumBrowseId": "MPREb_agUYjHLh96b",
+      "duration": "3:38",
+      "durationSeconds": 218,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p4mPxILvVNRgq53fr9o6_8E_J07C2Q1fPsHVW-G46aWrtIfxPtpGu6DJt3XBB4chjPh9ZatHoGg3o18=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FO50fafE92w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FO50fafE92w",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "aYZ9fScxb4E",
+      "songTitle": "Epit.",
+      "title": "Epit.",
+      "artists": [
+        "Broken Valentine"
+      ],
+      "albumTitle": "Aluminium",
+      "albumBrowseId": "MPREb_agUYjHLh96b",
+      "duration": "3:29",
+      "durationSeconds": 209,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p4mPxILvVNRgq53fr9o6_8E_J07C2Q1fPsHVW-G46aWrtIfxPtpGu6DJt3XBB4chjPh9ZatHoGg3o18=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aYZ9fScxb4E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=aYZ9fScxb4E",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "dNl7RNLPRPM",
+      "songTitle": "Every single day",
+      "title": "Every single day",
+      "artists": [
+        "Broken Valentine"
+      ],
+      "albumTitle": "3",
+      "albumBrowseId": "MPREb_ThXgMOX1NIC",
+      "duration": "4:27",
+      "durationSeconds": 267,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Px1-y_ueQ4bFM6QjPw2v-Ibzz-KEvVn2F-qDFe2I5Q9XdgD9Ash9Gw6wOlCx8HlTVMZWe3Cj-KhRCZyOLg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dNl7RNLPRPM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dNl7RNLPRPM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WPg0rLNoytw",
+      "songTitle": "Answer me Album Version",
+      "title": "Answer me Album Version",
+      "artists": [
+        "Broken Valentine"
+      ],
+      "albumTitle": "Shade",
+      "albumBrowseId": "MPREb_ylHxUOxfAla",
+      "duration": "4:40",
+      "durationSeconds": 280,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/g6MV2sTAeCW4OVlfZXuZMj4C8Of8lXweujGRUORfdBfmeyCIM0TGdufAMxVJCz2krNKiyGHqJxxqv4yDLw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WPg0rLNoytw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WPg0rLNoytw",
+      "source": "ytm_songs_popular",
+      "year": "2012",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=CnL10_X0hv0%2CXChNCAjsQF4%2Ca5LXPA93cOI&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%B8%8C%EB%A1%9C%ED%81%B0+%EB%B0%9C%EB%A0%8C%ED%83%80%EC%9D%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=CnL10_X0hv0&list=RDAMVMCnL10_X0hv0",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 브로큰 발렌타인 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 브로큰 발렌타인 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=CnL10_X0hv0%2CXChNCAjsQF4%2Ca5LXPA93cOI%2CSfZMsmH_jNE%2CivGGYil1yR8%2CZHs0LiQ4VO8%2CFO50fafE92w%2CaYZ9fScxb4E%2CdNl7RNLPRPM%2CWPg0rLNoytw&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%B8%8C%EB%A1%9C%ED%81%B0+%EB%B0%9C%EB%A0%8C%ED%83%80%EC%9D%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=CnL10_X0hv0&list=RDAMVMCnL10_X0hv0"
 }

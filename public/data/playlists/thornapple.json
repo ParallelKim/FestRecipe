@@ -2,7 +2,7 @@
   "artistId": "thornapple",
   "artistName": "쏜애플",
   "englishName": "Thornapple",
-  "collectedAt": "2026-07-27T00:58:51.882719+00:00",
+  "collectedAt": "2026-07-28T00:18:50.023873+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.723,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCVSu2xl5e0igBhVEgjPPqdA",
@@ -95,9 +95,113 @@
       "source": "ytm_songs_popular",
       "year": "2026",
       "releaseType": "ep"
+    },
+    {
+      "videoId": "SofLeIX-xro",
+      "songTitle": "Extinction",
+      "title": "Extinction",
+      "artists": [
+        "THORNAPPLE"
+      ],
+      "albumTitle": "Animal",
+      "albumBrowseId": "MPREb_4W9JpImPAbu",
+      "duration": "4:44",
+      "durationSeconds": 284,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ayn8-JR3y0NrmWNbwH1B9GRFIwERSKATLx4q0bOwVbLgXvR1u_Nb6o_j1b8PxTxk1VbQk8Zax6mG0X0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SofLeIX-xro",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SofLeIX-xro",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "tv7k_bFwjTA",
+      "songTitle": "Acacia",
+      "title": "Acacia",
+      "artists": [
+        "THORNAPPLE"
+      ],
+      "albumTitle": "My Century",
+      "albumBrowseId": "MPREb_5LSCW32xGgd",
+      "duration": "4:28",
+      "durationSeconds": 268,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_qkX97nD0wKMn-RYwTYABhtWqhoaH5biCImFl0if3gf6qQa9u4fhiNucsHXfweXRDdKPvOWqfDHT-MEX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tv7k_bFwjTA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tv7k_bFwjTA",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "csSsMPbPnq4",
+      "songTitle": "Sea, Cloud and Stage",
+      "title": "Sea, Cloud and Stage",
+      "artists": [
+        "THORNAPPLE"
+      ],
+      "albumTitle": "My Century",
+      "albumBrowseId": "MPREb_5LSCW32xGgd",
+      "duration": "5:19",
+      "durationSeconds": 319,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_qkX97nD0wKMn-RYwTYABhtWqhoaH5biCImFl0if3gf6qQa9u4fhiNucsHXfweXRDdKPvOWqfDHT-MEX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=csSsMPbPnq4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=csSsMPbPnq4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "eV7n0w_Oybs",
+      "songTitle": "Romanesque",
+      "title": "Romanesque",
+      "artists": [
+        "THORNAPPLE"
+      ],
+      "albumTitle": "Enlightenment",
+      "albumBrowseId": "MPREb_s7H1fRl9hjq",
+      "duration": "4:29",
+      "durationSeconds": 269,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fBr0cY9C30lJaHRCiy0I3lbtp1LmPUtQdyaSx--DkdR4nS-2BZlwm3Hc6FfHOXAzua-Dvh25jSBeSi-I=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eV7n0w_Oybs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=eV7n0w_Oybs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Inun1s5YEag",
+      "songTitle": "Shimmer",
+      "title": "Shimmer",
+      "artists": [
+        "THORNAPPLE"
+      ],
+      "albumTitle": "Strange Weather",
+      "albumBrowseId": "MPREb_waMgnSqTsb5",
+      "duration": "4:58",
+      "durationSeconds": 298,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pslTcRgvhT4R2cNFDrrir9QEq9FezYNR2j_9vPq24mdyZWK4i5ezz_e8undNjrAjUC18b2fFmsGCjMY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Inun1s5YEag",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Inun1s5YEag",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "BpArSC-1KGc",
+      "songTitle": "Seoul",
+      "title": "Seoul",
+      "artists": [
+        "THORNAPPLE"
+      ],
+      "albumTitle": "Capital Disease",
+      "albumBrowseId": "MPREb_J5ppUOvjEff",
+      "duration": "6:48",
+      "durationSeconds": 408,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Bk1vymlc2p2BYj0DoJTV1Fb0Hv0W7cetltDpVDmq8387IQ4gTOjsRyHuCPoNJtkSnxEGY-C4QPAaxBTt=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BpArSC-1KGc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BpArSC-1KGc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5BPxhDCyHU4%2ChJTzFxW368E%2C8i-B1ieI_kY%2CjGw00C_a1YA&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%8F%9C%EC%95%A0%ED%94%8C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5BPxhDCyHU4&list=RDAMVM5BPxhDCyHU4",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 쏜애플 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 쏜애플 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5BPxhDCyHU4%2ChJTzFxW368E%2C8i-B1ieI_kY%2CjGw00C_a1YA%2CSofLeIX-xro%2Ctv7k_bFwjTA%2CcsSsMPbPnq4%2CeV7n0w_Oybs%2CInun1s5YEag%2CBpArSC-1KGc&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%8F%9C%EC%95%A0%ED%94%8C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5BPxhDCyHU4&list=RDAMVM5BPxhDCyHU4"
 }

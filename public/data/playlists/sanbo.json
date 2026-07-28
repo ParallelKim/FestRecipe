@@ -2,7 +2,7 @@
   "artistId": "sanbo",
   "artistName": "산보",
   "englishName": "Sanbo",
-  "collectedAt": "2026-07-27T00:58:44.723023+00:00",
+  "collectedAt": "2026-07-28T00:18:39.682047+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.292,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCEghjrDBFPyAWKZQFjv8aGw",
@@ -75,9 +75,128 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=0HjW_rqQ6Dw",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "vRiw_alq4z0",
+      "songTitle": "Getawayfromme",
+      "title": "Getawayfromme",
+      "artists": [
+        "Sanbo"
+      ],
+      "albumTitle": "Lumpen",
+      "albumBrowseId": "MPREb_ZVMa3tZEYdi",
+      "duration": "4:33",
+      "durationSeconds": 273,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7ZfhAXjq21-luOmsEeFs6QnE1eXkHYZ7DH3io8hu3UIdIuT174VayI2hYF0AJCa_6Uh56PKfR99s7fQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vRiw_alq4z0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vRiw_alq4z0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "2pcOKBKVVJ4",
+      "songTitle": "Wabuwabu",
+      "title": "Wabuwabu",
+      "artists": [
+        "Sanbo"
+      ],
+      "albumTitle": "Lumpen",
+      "albumBrowseId": "MPREb_ZVMa3tZEYdi",
+      "duration": "4:39",
+      "durationSeconds": 279,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7ZfhAXjq21-luOmsEeFs6QnE1eXkHYZ7DH3io8hu3UIdIuT174VayI2hYF0AJCa_6Uh56PKfR99s7fQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2pcOKBKVVJ4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2pcOKBKVVJ4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "xtE3Wf6E8No",
+      "songTitle": "hey",
+      "title": "hey",
+      "artists": [
+        "Sanbo"
+      ],
+      "albumTitle": "hey",
+      "albumBrowseId": "MPREb_tuATZu4KdMw",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1k5vm2AQEazR6rGtWVOJhb-WW4EnsqIM4MHaqYkFxzMjqByxsl_Dhj_cAYsLCrHulJLKUkgm-yqH8WJC=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xtE3Wf6E8No",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xtE3Wf6E8No",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ZxYTqWsv_oc",
+      "songTitle": "Weak heart",
+      "title": "Weak heart",
+      "artists": [
+        "Sanbo"
+      ],
+      "albumTitle": "Weak heart",
+      "albumBrowseId": "MPREb_kyCVRL5D1kW",
+      "duration": "4:34",
+      "durationSeconds": 274,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_Wt31h3XvFXIdXo-3MhyJI-9Scl-JtYFI_4XrFNBtWjmK6YM65s1mecDBSr6_6E4rcFR1X4ycKRedNV4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZxYTqWsv_oc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZxYTqWsv_oc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "mPVJhWZZSUE",
+      "songTitle": "709",
+      "title": "709",
+      "artists": [
+        "Sanbo"
+      ],
+      "albumTitle": "Arnica",
+      "albumBrowseId": "MPREb_m7pfhaZy7OD",
+      "duration": "3:24",
+      "durationSeconds": 204,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IE3NJ_0bJf0hAa3eyeAUhb7uHXcKflS4FoXNe9_hYsrTrctpci6IUswIkdxFgJk2Vu25SkGod5XkE6U=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mPVJhWZZSUE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mPVJhWZZSUE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7ZrfuXU5sbA",
+      "songTitle": "Sanmaru",
+      "title": "Sanmaru",
+      "artists": [
+        "Sanbo"
+      ],
+      "albumTitle": "Arnica",
+      "albumBrowseId": "MPREb_m7pfhaZy7OD",
+      "duration": "4:34",
+      "durationSeconds": 274,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IE3NJ_0bJf0hAa3eyeAUhb7uHXcKflS4FoXNe9_hYsrTrctpci6IUswIkdxFgJk2Vu25SkGod5XkE6U=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7ZrfuXU5sbA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7ZrfuXU5sbA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "6Hroe9Okotk",
+      "songTitle": "Rumble2",
+      "title": "Rumble2",
+      "artists": [
+        "Sanbo"
+      ],
+      "albumTitle": "Arnica",
+      "albumBrowseId": "MPREb_m7pfhaZy7OD",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IE3NJ_0bJf0hAa3eyeAUhb7uHXcKflS4FoXNe9_hYsrTrctpci6IUswIkdxFgJk2Vu25SkGod5XkE6U=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6Hroe9Okotk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6Hroe9Okotk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mLXG8gWXV_E%2CBeoYmEITZxI%2C0HjW_rqQ6Dw&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%82%B0%EB%B3%B4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mLXG8gWXV_E&list=RDAMVMmLXG8gWXV_E",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 산보 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 산보 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mLXG8gWXV_E%2CBeoYmEITZxI%2C0HjW_rqQ6Dw%2CvRiw_alq4z0%2C2pcOKBKVVJ4%2CxtE3Wf6E8No%2CZxYTqWsv_oc%2CmPVJhWZZSUE%2C7ZrfuXU5sbA%2C6Hroe9Okotk&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%82%B0%EB%B3%B4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mLXG8gWXV_E&list=RDAMVMmLXG8gWXV_E"
 }

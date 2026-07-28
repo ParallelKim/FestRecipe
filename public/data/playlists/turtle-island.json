@@ -2,7 +2,7 @@
   "artistId": "turtle-island",
   "artistName": "TURTLE ISLAND",
   "englishName": "TURTLE ISLAND",
-  "collectedAt": "2026-07-27T00:58:52.780423+00:00",
+  "collectedAt": "2026-07-28T00:18:51.400489+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.677,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCefWl1F1ZBfx1JVRtvNg15A",
@@ -96,9 +96,117 @@
       "source": "ytm_songs_popular",
       "year": "2013",
       "releaseType": "album"
+    },
+    {
+      "videoId": "Jc2MfQGXvg8",
+      "songTitle": "岩戸唄 - IWATO UTA",
+      "title": "岩戸唄 - IWATO UTA",
+      "artists": [
+        "TURTLE ISLAND"
+      ],
+      "albumTitle": "KALAKALA KANKAN",
+      "albumBrowseId": "MPREb_fGRMOSRiiH2",
+      "duration": "3:00",
+      "durationSeconds": 180,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2KmC1-ufLuDe3k3RdXczQ6pVnVleOs6SlpAyZM7YGxu5tupJ9ueomJl9LP0wX_RX-O0meJB7sy10xeLG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Jc2MfQGXvg8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Jc2MfQGXvg8",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "GqlFWGiDkY8",
+      "songTitle": "空空神々 - KALAKALA KANKAN",
+      "title": "空空神々 - KALAKALA KANKAN",
+      "artists": [
+        "TURTLE ISLAND"
+      ],
+      "albumTitle": "KALAKALA KANKAN",
+      "albumBrowseId": "MPREb_fGRMOSRiiH2",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2KmC1-ufLuDe3k3RdXczQ6pVnVleOs6SlpAyZM7YGxu5tupJ9ueomJl9LP0wX_RX-O0meJB7sy10xeLG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GqlFWGiDkY8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GqlFWGiDkY8",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "mDwAa5bMTGY",
+      "songTitle": "聖者と悪人 - The Saint and the Villain",
+      "title": "聖者と悪人 - The Saint and the Villain",
+      "artists": [
+        "TURTLE ISLAND"
+      ],
+      "albumTitle": "KALAKALA KANKAN",
+      "albumBrowseId": "MPREb_fGRMOSRiiH2",
+      "duration": "5:26",
+      "durationSeconds": 326,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2KmC1-ufLuDe3k3RdXczQ6pVnVleOs6SlpAyZM7YGxu5tupJ9ueomJl9LP0wX_RX-O0meJB7sy10xeLG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mDwAa5bMTGY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mDwAa5bMTGY",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "73PxRu0s_zw",
+      "songTitle": "サバイバー - SURVIVOR",
+      "title": "サバイバー - SURVIVOR",
+      "artists": [
+        "TURTLE ISLAND"
+      ],
+      "albumTitle": "KALAKALA KANKAN",
+      "albumBrowseId": "MPREb_fGRMOSRiiH2",
+      "duration": "5:20",
+      "durationSeconds": 320,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2KmC1-ufLuDe3k3RdXczQ6pVnVleOs6SlpAyZM7YGxu5tupJ9ueomJl9LP0wX_RX-O0meJB7sy10xeLG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=73PxRu0s_zw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=73PxRu0s_zw",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "-XVJ1wxcANA",
+      "songTitle": "時代頂舞 - JIDAI CHOUBU",
+      "title": "時代頂舞 - JIDAI CHOUBU",
+      "artists": [
+        "TURTLE ISLAND"
+      ],
+      "albumTitle": "KALAKALA KANKAN",
+      "albumBrowseId": "MPREb_fGRMOSRiiH2",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2KmC1-ufLuDe3k3RdXczQ6pVnVleOs6SlpAyZM7YGxu5tupJ9ueomJl9LP0wX_RX-O0meJB7sy10xeLG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-XVJ1wxcANA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-XVJ1wxcANA",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "FsmzR2Ow4oE",
+      "songTitle": "ぬアリラン - NU ARIRANG",
+      "title": "ぬアリラン - NU ARIRANG",
+      "artists": [
+        "TURTLE ISLAND"
+      ],
+      "albumTitle": "KALAKALA KANKAN",
+      "albumBrowseId": "MPREb_fGRMOSRiiH2",
+      "duration": "5:36",
+      "durationSeconds": 336,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2KmC1-ufLuDe3k3RdXczQ6pVnVleOs6SlpAyZM7YGxu5tupJ9ueomJl9LP0wX_RX-O0meJB7sy10xeLG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FsmzR2Ow4oE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FsmzR2Ow4oE",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=EGoXdRjlFzg%2CYFSugwTpQxw%2CAFfWjZlgCas%2CuacdR-2Mo1Y&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%84%B0%ED%8B%80+%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=EGoXdRjlFzg&list=RDAMVMEGoXdRjlFzg",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 터틀 아일랜드 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 TURTLE ISLAND 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=EGoXdRjlFzg%2CYFSugwTpQxw%2CAFfWjZlgCas%2CuacdR-2Mo1Y%2CJc2MfQGXvg8%2CGqlFWGiDkY8%2CmDwAa5bMTGY%2C73PxRu0s_zw%2C-XVJ1wxcANA%2CFsmzR2Ow4oE&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+TURTLE+ISLAND+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=EGoXdRjlFzg&list=RDAMVMEGoXdRjlFzg"
 }

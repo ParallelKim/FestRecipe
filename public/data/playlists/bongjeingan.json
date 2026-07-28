@@ -2,7 +2,7 @@
   "artistId": "bongjeingan",
   "artistName": "봉제인간",
   "englishName": "Bongjeingan",
-  "collectedAt": "2026-07-27T00:58:27.855270+00:00",
+  "collectedAt": "2026-07-28T00:18:14.026399+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.262,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCFKrozT5XifxsBfJBEI-RFg",
@@ -75,9 +75,129 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=2b1HphNCLTA",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "1hRZXQQOrG8",
+      "songTitle": "Guitar Hero : Dreams Come True",
+      "title": "Guitar Hero : Dreams Come True",
+      "artists": [
+        "bongjeingan"
+      ],
+      "albumTitle": "12 Languages",
+      "albumBrowseId": "MPREb_5qpSADhHMvj",
+      "duration": "3:32",
+      "durationSeconds": 212,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nfBGW0F9focG7nJf0GzsQpqtWt6XQFmndJLDqaXmyyDU1vavfVr7ZUoIO6cgyEgAEZFzjcpFydTp_VU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1hRZXQQOrG8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1hRZXQQOrG8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qe3VM3smGwc",
+      "songTitle": "Know You Did",
+      "title": "Know You Did",
+      "artists": [
+        "bongjeingan"
+      ],
+      "albumTitle": "Know You Did / Say Yes",
+      "albumBrowseId": "MPREb_4jyDqeBPu5P",
+      "duration": "4:46",
+      "durationSeconds": 286,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LXo5bsH3Jo7sHNra5pNvBYm5m8fNhgVBwtOF9wNcxeQPHBRf4PiJY1FKJtyRsAXrGnZO8eJsjolrsCPBAQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qe3VM3smGwc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qe3VM3smGwc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "zlCTlikCpPQ",
+      "songTitle": "BAT",
+      "title": "BAT",
+      "artists": [
+        "bongjeingan"
+      ],
+      "albumTitle": "12 Languages",
+      "albumBrowseId": "MPREb_5qpSADhHMvj",
+      "duration": "1:22",
+      "durationSeconds": 82,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nfBGW0F9focG7nJf0GzsQpqtWt6XQFmndJLDqaXmyyDU1vavfVr7ZUoIO6cgyEgAEZFzjcpFydTp_VU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zlCTlikCpPQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zlCTlikCpPQ",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "zMn9ebuwIPs",
+      "songTitle": "KISS",
+      "title": "KISS",
+      "artists": [
+        "bongjeingan"
+      ],
+      "albumTitle": "12 Languages",
+      "albumBrowseId": "MPREb_5qpSADhHMvj",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nfBGW0F9focG7nJf0GzsQpqtWt6XQFmndJLDqaXmyyDU1vavfVr7ZUoIO6cgyEgAEZFzjcpFydTp_VU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zMn9ebuwIPs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zMn9ebuwIPs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "FJ3isMVDq0M",
+      "songTitle": "Night Running",
+      "title": "Night Running",
+      "artists": [
+        "bongjeingan"
+      ],
+      "albumTitle": "12 Languages",
+      "albumBrowseId": "MPREb_5qpSADhHMvj",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nfBGW0F9focG7nJf0GzsQpqtWt6XQFmndJLDqaXmyyDU1vavfVr7ZUoIO6cgyEgAEZFzjcpFydTp_VU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FJ3isMVDq0M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FJ3isMVDq0M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "4-9Gjd87Qu0",
+      "songTitle": "Kkubureong Granny",
+      "title": "Kkubureong Granny",
+      "artists": [
+        "bongjeingan"
+      ],
+      "albumTitle": "12 Languages",
+      "albumBrowseId": "MPREb_5qpSADhHMvj",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nfBGW0F9focG7nJf0GzsQpqtWt6XQFmndJLDqaXmyyDU1vavfVr7ZUoIO6cgyEgAEZFzjcpFydTp_VU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4-9Gjd87Qu0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4-9Gjd87Qu0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "iPVUed0cX0k",
+      "songTitle": "GOOD",
+      "title": "GOOD",
+      "artists": [
+        "bongjeingan"
+      ],
+      "albumTitle": "GAEKKUM / GOOD",
+      "albumBrowseId": "MPREb_aseMP85RrFW",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Uye2u4w-Llpk1dbijbFPoc_buGJQzb2CdpQn95rOrJIQ6NUCP2fD1hZhc9r_su4krqu5_HZpOxB-vwFY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iPVUed0cX0k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=iPVUed0cX0k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=kDBBLRVT9Sw%2Cg0rUwHR0J04%2C2b1HphNCLTA&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%B4%89%EC%A0%9C%EC%9D%B8%EA%B0%84+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=kDBBLRVT9Sw&list=RDAMVMkDBBLRVT9Sw",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 봉제인간 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 봉제인간 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=kDBBLRVT9Sw%2Cg0rUwHR0J04%2C2b1HphNCLTA%2C1hRZXQQOrG8%2Cqe3VM3smGwc%2CzlCTlikCpPQ%2CzMn9ebuwIPs%2CFJ3isMVDq0M%2C4-9Gjd87Qu0%2CiPVUed0cX0k&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%B4%89%EC%A0%9C%EC%9D%B8%EA%B0%84+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=kDBBLRVT9Sw&list=RDAMVMkDBBLRVT9Sw"
 }

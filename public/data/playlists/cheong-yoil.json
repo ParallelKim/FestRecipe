@@ -2,7 +2,7 @@
   "artistId": "cheong-yoil",
   "artistName": "청요일",
   "englishName": "CHUNGYOILE",
-  "collectedAt": "2026-07-27T00:58:28.852892+00:00",
+  "collectedAt": "2026-07-28T00:18:15.768179+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.185,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UC_IG7QG_1lMz9sxro-wg2RA",
@@ -77,9 +77,135 @@
       "source": "ytm_songs_popular",
       "year": "2022",
       "releaseType": "single"
+    },
+    {
+      "videoId": "JkBaUZlBXhE",
+      "songTitle": "Deep-sea",
+      "title": "Deep-sea",
+      "artists": [
+        "청요일"
+      ],
+      "albumTitle": "We Bear Our Blueness into the Deepest Darkness",
+      "albumBrowseId": "MPREb_FYOocTo7JRP",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y6dLle96wK53TXvsLDixBT-VneCq4Cl771V6lUm7a6XQW57cp-sysNlAgWMsj4sK98SlkK4H4hp3Ur0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JkBaUZlBXhE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JkBaUZlBXhE",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "PqerOOUludQ",
+      "songTitle": "Eschatology",
+      "title": "Eschatology",
+      "artists": [
+        "청요일"
+      ],
+      "albumTitle": "We Bear Our Blueness into the Deepest Darkness",
+      "albumBrowseId": "MPREb_FYOocTo7JRP",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y6dLle96wK53TXvsLDixBT-VneCq4Cl771V6lUm7a6XQW57cp-sysNlAgWMsj4sK98SlkK4H4hp3Ur0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PqerOOUludQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PqerOOUludQ",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "OaBp9BARjFE",
+      "songTitle": "Hope",
+      "title": "Hope",
+      "artists": [
+        "청요일"
+      ],
+      "albumTitle": "We Bear Our Blueness into the Deepest Darkness",
+      "albumBrowseId": "MPREb_FYOocTo7JRP",
+      "duration": "7:07",
+      "durationSeconds": 427,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y6dLle96wK53TXvsLDixBT-VneCq4Cl771V6lUm7a6XQW57cp-sysNlAgWMsj4sK98SlkK4H4hp3Ur0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OaBp9BARjFE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OaBp9BARjFE",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "E2-lHqARbzY",
+      "songTitle": "Sunbath",
+      "title": "Sunbath",
+      "artists": [
+        "청요일"
+      ],
+      "albumTitle": "We Bear Our Blueness into the Deepest Darkness",
+      "albumBrowseId": "MPREb_FYOocTo7JRP",
+      "duration": "5:00",
+      "durationSeconds": 300,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y6dLle96wK53TXvsLDixBT-VneCq4Cl771V6lUm7a6XQW57cp-sysNlAgWMsj4sK98SlkK4H4hp3Ur0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E2-lHqARbzY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=E2-lHqARbzY",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "tnEmeujy7I8",
+      "songTitle": "Our map",
+      "title": "Our map",
+      "artists": [
+        "청요일"
+      ],
+      "albumTitle": "We Bear Our Blueness into the Deepest Darkness",
+      "albumBrowseId": "MPREb_FYOocTo7JRP",
+      "duration": "4:23",
+      "durationSeconds": 263,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y6dLle96wK53TXvsLDixBT-VneCq4Cl771V6lUm7a6XQW57cp-sysNlAgWMsj4sK98SlkK4H4hp3Ur0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tnEmeujy7I8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tnEmeujy7I8",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "ck5Irw6IooI",
+      "songTitle": "Forest bath",
+      "title": "Forest bath",
+      "artists": [
+        "청요일"
+      ],
+      "albumTitle": "We Bear Our Blueness into the Deepest Darkness",
+      "albumBrowseId": "MPREb_FYOocTo7JRP",
+      "duration": "5:29",
+      "durationSeconds": 329,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y6dLle96wK53TXvsLDixBT-VneCq4Cl771V6lUm7a6XQW57cp-sysNlAgWMsj4sK98SlkK4H4hp3Ur0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ck5Irw6IooI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ck5Irw6IooI",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "zOexdrtWUp0",
+      "songTitle": "Vinyl",
+      "title": "Vinyl",
+      "artists": [
+        "청요일"
+      ],
+      "albumTitle": "We Bear Our Blueness into the Deepest Darkness",
+      "albumBrowseId": "MPREb_FYOocTo7JRP",
+      "duration": "5:13",
+      "durationSeconds": 313,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y6dLle96wK53TXvsLDixBT-VneCq4Cl771V6lUm7a6XQW57cp-sysNlAgWMsj4sK98SlkK4H4hp3Ur0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zOexdrtWUp0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zOexdrtWUp0",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=_MokQRzsCpw%2C8Njzmk_fIEU%2CZH9AZEXHdA8&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%B2%AD%EC%9A%94%EC%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=_MokQRzsCpw&list=RDAMVM_MokQRzsCpw",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 청요일 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 청요일 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=_MokQRzsCpw%2C8Njzmk_fIEU%2CZH9AZEXHdA8%2CJkBaUZlBXhE%2CPqerOOUludQ%2COaBp9BARjFE%2CE2-lHqARbzY%2CtnEmeujy7I8%2Cck5Irw6IooI%2CzOexdrtWUp0&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%B2%AD%EC%9A%94%EC%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=_MokQRzsCpw&list=RDAMVM_MokQRzsCpw"
 }

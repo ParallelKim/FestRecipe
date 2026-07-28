@@ -2,7 +2,7 @@
   "artistId": "baek-hyeonjin",
   "artistName": "백현진",
   "englishName": "Bek Hyunjin",
-  "collectedAt": "2026-07-27T00:58:25.957544+00:00",
+  "collectedAt": "2026-07-28T00:18:11.200280+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.354,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCmAIH_mytd67RxC8OAgLjqQ",
@@ -75,9 +75,132 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=Or6ubGxMZp0",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "GAmSOKphRHw",
+      "songTitle": "Into the Woods",
+      "title": "Into the Woods",
+      "artists": [
+        "Bek Hyunjin"
+      ],
+      "albumTitle": "Seoul Syntax: Daytime",
+      "albumBrowseId": "MPREb_erPWljyU6bk",
+      "duration": "5:28",
+      "durationSeconds": 328,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uaHtpGtVTEcvttigAajGUYWuwbmQ7kKv3dBYJkS3Ji63tTcbswrSOrA-6uUS6jsTNntZQphLX1CBpEOB=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GAmSOKphRHw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GAmSOKphRHw",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "XOhPzlRcvuk",
+      "songTitle": "The Day I Long-awaited",
+      "title": "The Day I Long-awaited",
+      "artists": [
+        "Bek Hyunjin"
+      ],
+      "albumTitle": "Time Of Reflection (Remastered 2024)",
+      "albumBrowseId": "MPREb_thxPAS14lyL",
+      "duration": "6:42",
+      "durationSeconds": 402,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iShTIlrsR7vK1gRngXTxwuHv317jm5VWRFxScxJyis0PEioxZRR9-WG8CrwG_An3ivEMchiPFFOg6YU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XOhPzlRcvuk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XOhPzlRcvuk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "evFMJwT4S8M",
+      "songTitle": "Promise",
+      "title": "Promise",
+      "artists": [
+        "bahngbek, Bang Jun seok, & Bek Hyunjin"
+      ],
+      "albumTitle": "Your Hands",
+      "albumBrowseId": "MPREb_DcSlivUzQPS",
+      "duration": "5:17",
+      "durationSeconds": 317,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uv2jNGCfIj4Q9y2tn2RH1VWnjDgvL7zK3NKwN7bqE6hki_QTwg48p_uAsVqrGYExOtJwYyWScxTskN9I=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=evFMJwT4S8M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=evFMJwT4S8M",
+      "source": "ytm_songs_popular",
+      "year": "2015",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "96P1_OAjrS0",
+      "songTitle": "사랑밖엔 난 몰라 (With 백현진) (심수봉)",
+      "title": "사랑밖엔 난 몰라 (With 백현진) (심수봉)",
+      "artists": [
+        "Jaurim & Baik Hyun Jhin"
+      ],
+      "albumTitle": "나는 가수다 경연 10-1. 듀엣곡 부르기",
+      "albumBrowseId": "MPREb_tkyODMnNnOd",
+      "duration": "6:07",
+      "durationSeconds": 367,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qqquUKs7mzT_1VyTLooK-3ei897LSMozp9jTfHtYs2keKil6oKGCADS_N7EaDr6Z2zZT0TSJQOAFtGl7=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=96P1_OAjrS0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=96P1_OAjrS0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "C3BbSL_hjKE",
+      "songTitle": "Han-River",
+      "title": "Han-River",
+      "artists": [
+        "bahngbek, Bang Jun seok, & Bek Hyunjin"
+      ],
+      "albumTitle": "Your Hands",
+      "albumBrowseId": "MPREb_DcSlivUzQPS",
+      "duration": "5:11",
+      "durationSeconds": 311,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uv2jNGCfIj4Q9y2tn2RH1VWnjDgvL7zK3NKwN7bqE6hki_QTwg48p_uAsVqrGYExOtJwYyWScxTskN9I=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=C3BbSL_hjKE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=C3BbSL_hjKE",
+      "source": "ytm_songs_popular",
+      "year": "2015",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "up_gp2vxxd0",
+      "songTitle": "Time",
+      "title": "Time",
+      "artists": [
+        "Bek Hyunjin"
+      ],
+      "albumTitle": "Seoul Syntax: Daytime",
+      "albumBrowseId": "MPREb_erPWljyU6bk",
+      "duration": "6:42",
+      "durationSeconds": 402,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uaHtpGtVTEcvttigAajGUYWuwbmQ7kKv3dBYJkS3Ji63tTcbswrSOrA-6uUS6jsTNntZQphLX1CBpEOB=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=up_gp2vxxd0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=up_gp2vxxd0",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Ey_x8utv-Z4",
+      "songTitle": "The Rest of My Rice Roll",
+      "title": "The Rest of My Rice Roll",
+      "artists": [
+        "Bek Hyunjin"
+      ],
+      "albumTitle": "Light, Many",
+      "albumBrowseId": "MPREb_mq8wnW9RZYK",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NUr5t-qrwr1BkZdUS824QtrBzMYRxfqyDXwpMGORc5oOUkvOLDoGpAHv_-LMNxqjGSqT14yiotDLVJ4e=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ey_x8utv-Z4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Ey_x8utv-Z4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=o8-Zyp2Zyc0%2C0lHQxEKQUzE%2COr6ubGxMZp0&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%B0%B1%ED%98%84%EC%A7%84+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=o8-Zyp2Zyc0&list=RDAMVMo8-Zyp2Zyc0",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 백현진 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 백현진 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=o8-Zyp2Zyc0%2C0lHQxEKQUzE%2COr6ubGxMZp0%2CGAmSOKphRHw%2CXOhPzlRcvuk%2CevFMJwT4S8M%2C96P1_OAjrS0%2CC3BbSL_hjKE%2Cup_gp2vxxd0%2CEy_x8utv-Z4&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%B0%B1%ED%98%84%EC%A7%84+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=o8-Zyp2Zyc0&list=RDAMVMo8-Zyp2Zyc0"
 }

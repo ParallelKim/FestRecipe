@@ -1,19 +1,27 @@
-import type { TimetableSlot, Artist } from '../types'
+import { useMemo } from 'react'
+import type { CSSProperties } from 'react'
+import type { FestivalStageStyle, TimetableSlot, Artist } from '../types'
 import { officialArtistName } from '../lib/artistOfficialName'
+import { stageThemeMap } from '../lib/stageTheme'
+import MyLineupPickButton from './MyLineupPickButton'
+import { blurAfterTap } from '../lib/blurAfterTap'
 
 interface TimetableGridProps {
   stages: string[]
   slots: TimetableSlot[]
   artists: Artist[]
+  stageStyles?: FestivalStageStyle[]
   selectedArtistId?: string
   onSlotClick: (artistId: string) => void
-}
-
-type StageTheme = {
-  bg: string
-  fg: string
-  accent: string
-  soft: string
+  isInMyLineup?: (artistId: string) => boolean
+  myLineupArtistIds?: string[]
+  onToggleMyLineup?: (artistId: string) => void
+  /** 배경화면 캡처용 — 슬롯 탭·☆ 버튼 비활성 */
+  exportMode?: boolean
+  /** 배경화면 프레임에 맞추기 위한 세로 압축 (pxPerMin 미지정 시) */
+  wallpaperCompact?: boolean
+  /** 배경화면 등 — 분당 픽셀 높이 직접 지정 */
+  pxPerMin?: number
 }
 
 function timeToMinutes(time: string): number {
@@ -21,36 +29,23 @@ function timeToMinutes(time: string): number {
   return hours * 60 + minutes
 }
 
-/** Official Pentaport timetable color coding */
-function stageTheme(stageName: string): StageTheme {
-  const n = stageName.replace(/\s+/g, '').toLowerCase()
-  if (n.includes('kb') || n.includes('국민')) {
-    return { bg: '#f5d000', fg: '#141414', accent: '#c9a800', soft: '#fff6b8' }
-  }
-  if (n.includes('monster') || n.includes('몬스터')) {
-    return { bg: '#7ac143', fg: '#141414', accent: '#5a9a2e', soft: '#dff5c8' }
-  }
-  if (n.includes('stanley') || n.includes('스탠리')) {
-    return { bg: '#1a1a1a', fg: '#ffffff', accent: '#1a1a1a', soft: '#ececec' }
-  }
-  return { bg: '#181d26', fg: '#ffffff', accent: '#41454d', soft: '#f3f4f6' }
-}
-
-function shortStageLabel(stageName: string): string {
-  const n = stageName.replace(/\s+/g, '').toLowerCase()
-  if (n.includes('kb') || n.includes('국민')) return 'KB'
-  if (n.includes('monster') || n.includes('몬스터')) return '몬스터'
-  if (n.includes('stanley') || n.includes('스탠리')) return '스탠리'
-  return stageName.length > 6 ? `${stageName.slice(0, 6)}…` : stageName
-}
-
 export default function TimetableGrid({
   stages,
   slots,
   artists,
+  stageStyles,
   selectedArtistId,
   onSlotClick,
+  isInMyLineup,
+  myLineupArtistIds = [],
+  onToggleMyLineup,
+  exportMode = false,
+  wallpaperCompact = false,
+  pxPerMin: pxPerMinProp,
 }: TimetableGridProps) {
+  const lineupSet = useMemo(() => new Set(myLineupArtistIds), [myLineupArtistIds])
+  const themes = useMemo(() => stageThemeMap(stages, stageStyles), [stages, stageStyles])
+
   if (!slots || slots.length === 0 || !stages || stages.length === 0) {
     return (
       <div className="timetable-empty">
@@ -67,12 +62,10 @@ export default function TimetableGrid({
 
   const earliestStart = Math.min(...slotMinutes.map((s) => s.startMin))
   const latestEnd = Math.max(...slotMinutes.map((s) => s.endMin))
-  // Align to content — avoid empty hour padding above the first set
   const startLimit = earliestStart
   const endLimit = latestEnd
   const totalMinutes = Math.max(endLimit - startLimit, 30)
-  // Duration-proportional but dense enough that 40min ≈ ~60px (not half-empty)
-  const pxPerMin = 1.55
+  const pxPerMin = pxPerMinProp ?? (wallpaperCompact ? 1.12 : 1.55)
   const totalHeight = totalMinutes * pxPerMin
 
   const firstHour = Math.ceil(startLimit / 60)
@@ -85,7 +78,7 @@ export default function TimetableGrid({
 
   return (
     <div
-      className="tt"
+      className={`tt${exportMode ? ' tt--export' : ''}`}
       aria-label="타임테이블"
       style={{ ['--tt-px-per-min' as string]: String(pxPerMin) }}
     >
@@ -95,7 +88,7 @@ export default function TimetableGrid({
             시간
           </div>
           {stages.map((stage) => {
-            const theme = stageTheme(stage)
+            const theme = themes.get(stage)!
             return (
               <div
                 key={stage}
@@ -103,7 +96,7 @@ export default function TimetableGrid({
                 style={{ backgroundColor: theme.bg, color: theme.fg }}
                 title={stage}
               >
-                <span className="tt-grid__stage-short">{shortStageLabel(stage)}</span>
+                <span className="tt-grid__stage-short">{theme.shortLabel}</span>
                 <span className="tt-grid__stage-full">{stage}</span>
               </div>
             )
@@ -138,13 +131,17 @@ export default function TimetableGrid({
           </div>
 
           {stages.map((stageName, stageIdx) => {
-            const theme = stageTheme(stageName)
+            const theme = themes.get(stageName)!
             const stageSlots = slotMinutes.filter((s) => s.stageName === stageName)
             return (
               <div
                 key={stageName}
                 className={`tt-grid__col${stageIdx < stages.length - 1 ? ' has-border' : ''}`}
-                style={{ backgroundColor: theme.soft }}
+                style={
+                  {
+                    ['--tt-col-accent' as string]: theme.accent,
+                  } as CSSProperties
+                }
               >
                 {stageSlots.map((slot, index) => {
                   const artist = artistMap.get(slot.artistId)
@@ -152,27 +149,48 @@ export default function TimetableGrid({
                   const topPos = (slot.startMin - startLimit) * pxPerMin
                   const heightPos = slot.durationMinutes * pxPerMin
                   const isSelected = selectedArtistId === slot.artistId
+                  const inLineup = lineupSet.has(slot.artistId) || (isInMyLineup?.(slot.artistId) ?? false)
+                  const slotShellStyle = {
+                    top: `${topPos + 1}px`,
+                    height: `${Math.max(heightPos - 2, 28)}px`,
+                    ['--stage-accent' as string]: theme.accent,
+                    ...(inLineup
+                      ? { ['--slot-lineup-bg' as string]: theme.lineupBg }
+                      : {}),
+                  } as CSSProperties
 
                   return (
-                    <button
+                    <div
                       key={`${slot.artistId}-${index}`}
-                      type="button"
-                      onClick={() => onSlotClick(slot.artistId)}
-                      className={`tt-grid__slot${isSelected ? ' is-selected' : ''}`}
-                      style={{
-                        top: `${topPos + 1}px`,
-                        height: `${Math.max(heightPos - 2, 28)}px`,
-                        borderColor: theme.accent,
-                        backgroundColor: isSelected ? theme.bg : '#ffffff',
-                        color: isSelected ? theme.fg : '#111418',
-                      }}
-                      aria-label={`${artistName}, ${stageName}, ${slot.startTime}부터 ${slot.endTime}까지`}
+                      className={`tt-grid__slot-shell${inLineup ? ' is-in-lineup' : ''}`}
+                      style={slotShellStyle}
                     >
-                      <span className="tt-grid__slot-name">{artistName}</span>
-                      <span className="tt-grid__slot-time">
-                        {slot.startTime}–{slot.endTime}
-                      </span>
-                    </button>
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          if (exportMode) return
+                          onSlotClick(slot.artistId)
+                          blurAfterTap(e.currentTarget)
+                        }}
+                        className={`tt-grid__slot${inLineup ? ' is-in-lineup' : ''}`}
+                        style={{ borderColor: theme.accent }}
+                        aria-label={`${artistName}, ${stageName}, ${slot.startTime}부터 ${slot.endTime}까지`}
+                        aria-current={isSelected ? 'true' : undefined}
+                        tabIndex={exportMode ? -1 : undefined}
+                      >
+                        <span className="tt-grid__slot-name">{artistName}</span>
+                        <span className="tt-grid__slot-time">
+                          {slot.startTime}–{slot.endTime}
+                        </span>
+                      </button>
+                      {onToggleMyLineup && !exportMode && (
+                        <MyLineupPickButton
+                          active={inLineup}
+                          className="lineup-pick-btn--tt"
+                          onToggle={() => onToggleMyLineup(slot.artistId)}
+                        />
+                      )}
+                    </div>
                   )
                 })}
               </div>

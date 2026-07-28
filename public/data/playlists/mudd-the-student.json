@@ -2,7 +2,7 @@
   "artistId": "mudd-the-student",
   "artistName": "머드 더 스튜던트",
   "englishName": "Mudd the student",
-  "collectedAt": "2026-07-27T00:58:39.519509+00:00",
+  "collectedAt": "2026-07-28T00:18:31.913824+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.646,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UC-Pyhc-ZB4qxYnBxuscNY6w",
@@ -95,9 +95,117 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=WBhzdJBP81Y",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "oEksY9bHTgI",
+      "songTitle": "A Long Day (Prod. Fisherman) (feat. Zion.T & Fisherman)",
+      "title": "A Long Day (Prod. Fisherman) (feat. Zion.T & Fisherman)",
+      "artists": [
+        "Basick",
+        "Anandelight",
+        "Mudd the student",
+        "sokodomo"
+      ],
+      "albumTitle": "Show Me The Money 10 Final",
+      "albumBrowseId": "MPREb_Xwe6TM4qerY",
+      "duration": "5:25",
+      "durationSeconds": 325,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RC-TGCE4meeq229qJa9OYcXuPloY03xtnYkunRMUYEa4qU1OcV7IsE_RtYmF7xZbpjel22ES1cI7vL0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oEksY9bHTgI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=oEksY9bHTgI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "k8bYMVlqZOY",
+      "songTitle": "LOOP?",
+      "title": "LOOP?",
+      "artists": [
+        "Balming Tiger",
+        "Omega Sapien",
+        "sogumm",
+        "Mudd the student"
+      ],
+      "albumTitle": "JUST FUN! / LOOP?",
+      "albumBrowseId": "MPREb_17lQDohYBRC",
+      "duration": "2:23",
+      "durationSeconds": 143,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/M6tMNyva8Qj8qG2SyJgaL05eXK9IcuewXLDVXh60DmPMAL-mdw-5bBNsnONUFt5qw_PN15uMOC08ycKq=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k8bYMVlqZOY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=k8bYMVlqZOY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "RIKc9B2dZm8",
+      "songTitle": "Pseudoscience (feat. Chang Kiha)",
+      "title": "Pseudoscience (feat. Chang Kiha)",
+      "artists": [
+        "Mudd the student"
+      ],
+      "albumTitle": "Pseudoscience",
+      "albumBrowseId": "MPREb_F0QaULnYHHb",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ub7V0ieIzR2y4MlQ0ltKPEg4XrLrLmmjkyiVjWJxxNc6tSufq3HVcc8MaezrIXWrNs47JjwMIvvnjT3Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RIKc9B2dZm8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RIKc9B2dZm8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ln8aGTYiBn8",
+      "songTitle": "Undertaker",
+      "title": "Undertaker",
+      "artists": [
+        "Mudd the student"
+      ],
+      "albumTitle": "LAGEON",
+      "albumBrowseId": "MPREb_e5rL1abX2a1",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ALS8jzD1hxa50DPVvBAfEEw-S2H3e3f8UlxKKAdkpdjbiF-KWly53bKuFAiv9uf2Jg30wLwesnL5gdyMhA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ln8aGTYiBn8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ln8aGTYiBn8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "PIbGyLqgvCA",
+      "songTitle": "Best Thing",
+      "title": "Best Thing",
+      "artists": [
+        "Mudd the student"
+      ],
+      "albumTitle": "LAGEON",
+      "albumBrowseId": "MPREb_e5rL1abX2a1",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ALS8jzD1hxa50DPVvBAfEEw-S2H3e3f8UlxKKAdkpdjbiF-KWly53bKuFAiv9uf2Jg30wLwesnL5gdyMhA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PIbGyLqgvCA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PIbGyLqgvCA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "1CDY0XnY3aw",
+      "songTitle": "G-LOC",
+      "title": "G-LOC",
+      "artists": [
+        "Mudd the student"
+      ],
+      "albumTitle": "Field Trip",
+      "albumBrowseId": "MPREb_i00OktFxfGJ",
+      "duration": "2:44",
+      "durationSeconds": 164,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uDer4Tph_0Ofa2IvXSwoaXtWV3O6_4dfWg-HZsYBwNx3F1NY38msGKfNmBx5tRxTQiS9oTc86VX_2xVR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1CDY0XnY3aw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1CDY0XnY3aw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GsRvatDunN8%2CyU05gNCDeVE%2CttE8RjFdKsA%2CWBhzdJBP81Y&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A8%B8%EB%93%9C+%EB%8D%94+%EC%8A%A4%ED%8A%9C%EB%8D%98%ED%8A%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GsRvatDunN8&list=RDAMVMGsRvatDunN8",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 머드 더 스튜던트 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 머드 더 스튜던트 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GsRvatDunN8%2CyU05gNCDeVE%2CttE8RjFdKsA%2CWBhzdJBP81Y%2CoEksY9bHTgI%2Ck8bYMVlqZOY%2CRIKc9B2dZm8%2Cln8aGTYiBn8%2CPIbGyLqgvCA%2C1CDY0XnY3aw&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A8%B8%EB%93%9C+%EB%8D%94+%EC%8A%A4%ED%8A%9C%EB%8D%98%ED%8A%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GsRvatDunN8&list=RDAMVMGsRvatDunN8"
 }

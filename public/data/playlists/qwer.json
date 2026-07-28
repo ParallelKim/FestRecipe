@@ -2,7 +2,7 @@
   "artistId": "qwer",
   "artistName": "QWER",
   "englishName": "QWER",
-  "collectedAt": "2026-07-27T00:58:43.789457+00:00",
+  "collectedAt": "2026-07-28T00:18:38.675466+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.231,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCoJ1_QPtY3wMIv4R4ezCYRA",
@@ -75,9 +75,128 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=SUx0-btw2nQ",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "3ZZxM2iCe60",
+      "songTitle": "Our Voyage",
+      "title": "Our Voyage",
+      "artists": [
+        "QWER"
+      ],
+      "albumTitle": "4th Mini Album 'CEREMONY'",
+      "albumBrowseId": "MPREb_Ut4wLvb1bKc",
+      "duration": "3:08",
+      "durationSeconds": 188,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_utUTSpT7oWdjCma4VSy5vcLt7qW0_1hw85HIsSrtoMNykISQYbZuyMDAT8xw9FEqRuhwSdWYtVqs7E=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3ZZxM2iCe60",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3ZZxM2iCe60",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-kcZNuFYnns",
+      "songTitle": "Discord",
+      "title": "Discord",
+      "artists": [
+        "QWER"
+      ],
+      "albumTitle": "1st Single Album 'Harmony from Discord'",
+      "albumBrowseId": "MPREb_qmWbiycbkPO",
+      "duration": "2:48",
+      "durationSeconds": 168,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SSorroIBWlUYL9GPtSfIiKm94b-IJdUUawDaS1sL4IIuI82jt3b7wyGxcVie1aQnKnH5MG6f2l0G2q7j=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-kcZNuFYnns",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-kcZNuFYnns",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ml72JoVeP6w",
+      "songTitle": "SHOW DOWN",
+      "title": "SHOW DOWN",
+      "artists": [
+        "QWER"
+      ],
+      "albumTitle": "SHOW DOWN",
+      "albumBrowseId": "MPREb_lG7zibTPfUp",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oHRd1DMgwWKtaM8fUjq143HNgZjZ8h6lQkvce-rcyUIY1WZZc7vzrZTJI49ZO7zyhMIYoB60sEY4OIPWiw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ml72JoVeP6w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ml72JoVeP6w",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "1BTTbopyDWw",
+      "songTitle": "Harmony of Stars (별의 하모니)",
+      "title": "Harmony of Stars (별의 하모니)",
+      "artists": [
+        "QWER"
+      ],
+      "albumTitle": "1st Single Album 'Harmony from Discord'",
+      "albumBrowseId": "MPREb_qmWbiycbkPO",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SSorroIBWlUYL9GPtSfIiKm94b-IJdUUawDaS1sL4IIuI82jt3b7wyGxcVie1aQnKnH5MG6f2l0G2q7j=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1BTTbopyDWw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1BTTbopyDWw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "uXgk1YLRIN0",
+      "songTitle": "CEREMONY",
+      "title": "CEREMONY",
+      "artists": [
+        "QWER"
+      ],
+      "albumTitle": "4th Mini Album 'CEREMONY'",
+      "albumBrowseId": "MPREb_Ut4wLvb1bKc",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_utUTSpT7oWdjCma4VSy5vcLt7qW0_1hw85HIsSrtoMNykISQYbZuyMDAT8xw9FEqRuhwSdWYtVqs7E=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uXgk1YLRIN0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=uXgk1YLRIN0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "8ShYRkhBD2s",
+      "songTitle": "Goodbye My Sadness (안녕, 나의 슬픔)",
+      "title": "Goodbye My Sadness (안녕, 나의 슬픔)",
+      "artists": [
+        "QWER"
+      ],
+      "albumTitle": "2nd Mini Album 'Algorithm's Blossom'",
+      "albumBrowseId": "MPREb_EAWlISlgVn9",
+      "duration": "4:32",
+      "durationSeconds": 272,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EbZnLj93uNiOKYGnec3Bm9djowOOhIUtpJKdLO10aNUNOgBBGhfhfQlUDAwYtI-54fEVNQz4Aoq6oXE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8ShYRkhBD2s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8ShYRkhBD2s",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "UTc81pAAEsc",
+      "songTitle": "FAKE IDOL (가짜 아이돌)",
+      "title": "FAKE IDOL (가짜 아이돌)",
+      "artists": [
+        "QWER"
+      ],
+      "albumTitle": "FAKE IDOL (가짜 아이돌)",
+      "albumBrowseId": "MPREb_L6o7Qb9zq1I",
+      "duration": "2:40",
+      "durationSeconds": 160,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/snOnQOyB6XZTmShcyA3ze9ZwQH8kQ3gG2AM4B7bmT_tlJo3W_Wtok14F0p1DQKcS_D7fOsHHy42hdx38=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UTc81pAAEsc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UTc81pAAEsc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=pbELDkeLdho%2C9yfrVqCcrS0%2CSUx0-btw2nQ&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%81%90%EB%8D%94%EB%B8%94%EC%9C%A0%EC%9D%B4%EC%95%8C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=pbELDkeLdho&list=RDAMVMpbELDkeLdho",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 큐더블유이알 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 QWER 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=pbELDkeLdho%2C9yfrVqCcrS0%2CSUx0-btw2nQ%2C3ZZxM2iCe60%2C-kcZNuFYnns%2Cml72JoVeP6w%2C1BTTbopyDWw%2CuXgk1YLRIN0%2C8ShYRkhBD2s%2CUTc81pAAEsc&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+QWER+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=pbELDkeLdho&list=RDAMVMpbELDkeLdho"
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T01:02:00.224506+00:00",
+  "updatedAt": "2026-07-28T00:18:54.038959+00:00",
   "count": 66,
   "artists": [
     "asian-spice-house",
@@ -75,7 +75,8 @@
     "low": 3
   },
   "recognitionRule": {
-    "withTimetable": "later slot => higher tier (high=5, mid=4, low=3)",
-    "withoutTimetable": "default low=3"
+    "withTimetable": "later slot => higher tier bundle (high=5, mid=4, low=3)",
+    "withoutTimetable": "default low=3 bundle",
+    "artistListen": "ytm songs popular min=10 max=20"
   }
 }

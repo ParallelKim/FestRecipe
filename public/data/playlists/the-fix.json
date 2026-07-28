@@ -2,7 +2,7 @@
   "artistId": "the-fix",
   "artistName": "더 픽스",
   "englishName": "THE FIX",
-  "collectedAt": "2026-07-27T00:58:48.923585+00:00",
+  "collectedAt": "2026-07-28T00:18:46.284129+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.738,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UC2IXW8adG9JPc627IYeKXzw",
@@ -96,9 +96,117 @@
       "source": "ytm_songs_popular",
       "year": "2026",
       "releaseType": "single"
+    },
+    {
+      "videoId": "Fv8TuAQ3ciM",
+      "songTitle": "What The Fiends Need",
+      "title": "What The Fiends Need",
+      "artists": [
+        "The Fix"
+      ],
+      "albumTitle": "Wut Da Fiends Need",
+      "albumBrowseId": "MPREb_nT3L4l39Ayq",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UMlJhQcpoHdyw9OXmE5zgDOOFcKFk9MW_8mHaBQBnx1CT7jVZi9QZtrjMfDFN-zIlrNcCffmFoqnn3WAEw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Fv8TuAQ3ciM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Fv8TuAQ3ciM",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "-6P5gIbj9g4",
+      "songTitle": "Stickx (feat. CrackaJack & FatBoi)",
+      "title": "Stickx (feat. CrackaJack & FatBoi)",
+      "artists": [
+        "The Fix"
+      ],
+      "albumTitle": "#STG3:Summa Time Grind",
+      "albumBrowseId": "MPREb_qz0JCOrABd5",
+      "duration": "4:28",
+      "durationSeconds": 268,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ne5rRZueMOTE62PO5c6wjt_CNCWKUuAJxhGlXH9-RkTEUn-UaOxWV84UhJBgO3SnKtfn4oiiFb33uC2T=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-6P5gIbj9g4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-6P5gIbj9g4",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "plm2qovJsHY",
+      "songTitle": "WDFN (Fix)",
+      "title": "WDFN (Fix)",
+      "artists": [
+        "The Fix"
+      ],
+      "albumTitle": "WDFN (Fix)",
+      "albumBrowseId": "MPREb_hFQKR4ppK3O",
+      "duration": "2:55",
+      "durationSeconds": 175,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/X_b8AVWvLKplwOEmYacZ1rkI_AfhSR-4hX6-d_ewRgG2QdzXyXdcBuaYMWlJTHN8fJWO3DvOKrG5RPF0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=plm2qovJsHY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=plm2qovJsHY",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "OHamGdpIQiQ",
+      "songTitle": "MANE",
+      "title": "MANE",
+      "artists": [
+        "The Fix"
+      ],
+      "albumTitle": "MANE",
+      "albumBrowseId": "MPREb_ySj6ykKIu1B",
+      "duration": "2:32",
+      "durationSeconds": 152,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6tyzDdRfl98aV_lsGitRzqNuoKx8vnsNWKMyfAb8VdF_NNdBb-wuug9x6JURDmeP1vQCYOyi91dSB2BJ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OHamGdpIQiQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OHamGdpIQiQ",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "W9opGX91jtY",
+      "songTitle": "Whole New Crew (feat. HollyWood & Chris Casino)",
+      "title": "Whole New Crew (feat. HollyWood & Chris Casino)",
+      "artists": [
+        "The Fix"
+      ],
+      "albumTitle": "#STG3:Summa Time Grind",
+      "albumBrowseId": "MPREb_qz0JCOrABd5",
+      "duration": "3:15",
+      "durationSeconds": 195,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ne5rRZueMOTE62PO5c6wjt_CNCWKUuAJxhGlXH9-RkTEUn-UaOxWV84UhJBgO3SnKtfn4oiiFb33uC2T=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W9opGX91jtY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=W9opGX91jtY",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "inzvRO2k6Zc",
+      "songTitle": "BRA (Best Rapper Alive)",
+      "title": "BRA (Best Rapper Alive)",
+      "artists": [
+        "The Fix"
+      ],
+      "albumTitle": "Wut Da Fiends Need",
+      "albumBrowseId": "MPREb_nT3L4l39Ayq",
+      "duration": "2:15",
+      "durationSeconds": 135,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UMlJhQcpoHdyw9OXmE5zgDOOFcKFk9MW_8mHaBQBnx1CT7jVZi9QZtrjMfDFN-zIlrNcCffmFoqnn3WAEw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=inzvRO2k6Zc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=inzvRO2k6Zc",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=8cMFDDEEH6M%2CsBWfHa_MGpE%2C2QnrmtM02Pw%2CO1NAE-1FNTY&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+THE+FIX+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=8cMFDDEEH6M&list=RDAMVM8cMFDDEEH6M",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 THE FIX 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 더 픽스 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=8cMFDDEEH6M%2CsBWfHa_MGpE%2C2QnrmtM02Pw%2CO1NAE-1FNTY%2CFv8TuAQ3ciM%2C-6P5gIbj9g4%2Cplm2qovJsHY%2COHamGdpIQiQ%2CW9opGX91jtY%2CinzvRO2k6Zc&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%8D%94+%ED%94%BD%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=8cMFDDEEH6M&list=RDAMVM8cMFDDEEH6M"
 }

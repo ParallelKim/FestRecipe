@@ -2,7 +2,7 @@
   "artistId": "betcover",
   "artistName": "betcover!!",
   "englishName": "betcover!!",
-  "collectedAt": "2026-07-27T00:58:27.503291+00:00",
+  "collectedAt": "2026-07-28T00:18:13.343739+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.492,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCxWvOdydYzzYQb77WMy7acQ",
@@ -95,9 +95,117 @@
       "source": "ytm_songs_popular",
       "year": "2023",
       "releaseType": "album"
+    },
+    {
+      "videoId": "4IMsI0R5qPw",
+      "songTitle": "忘れる女 - Wasureru Onna",
+      "title": "忘れる女 - Wasureru Onna",
+      "artists": [
+        "betcover!!"
+      ],
+      "albumTitle": "Yuki",
+      "albumBrowseId": "MPREb_JFZHznrb4ms",
+      "duration": "4:43",
+      "durationSeconds": 283,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/shfs8yrQWDBsIR7q1MayMIG4iRrCskFIs6-JDe8-TW-m2__Ao1pxk5Pwm5ti65GkXrS94Dav0isZog9j=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4IMsI0R5qPw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4IMsI0R5qPw",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "F2h2Cnsl934",
+      "songTitle": "島 - shima",
+      "title": "島 - shima",
+      "artists": [
+        "betcover!!"
+      ],
+      "albumTitle": "jikan",
+      "albumBrowseId": "MPREb_eR5KDVlyfZT",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6P93rSk0fEmQaR4UTCZ0LJE710F0hctGmjEPh3S0Sir5f6mRNzEOyKRPKbCci7SASv7DbXacYkB9MqLD=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=F2h2Cnsl934",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=F2h2Cnsl934",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "MjtQ9Gp_aUE",
+      "songTitle": "幽霊 - yurei",
+      "title": "幽霊 - yurei",
+      "artists": [
+        "betcover!!"
+      ],
+      "albumTitle": "jikan",
+      "albumBrowseId": "MPREb_eR5KDVlyfZT",
+      "duration": "5:07",
+      "durationSeconds": 307,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6P93rSk0fEmQaR4UTCZ0LJE710F0hctGmjEPh3S0Sir5f6mRNzEOyKRPKbCci7SASv7DbXacYkB9MqLD=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MjtQ9Gp_aUE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=MjtQ9Gp_aUE",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "WAV6VsmflMM",
+      "songTitle": "母船 - bosen",
+      "title": "母船 - bosen",
+      "artists": [
+        "betcover!!"
+      ],
+      "albumTitle": "Tamago",
+      "albumBrowseId": "MPREb_CeEYwyjb8Dg",
+      "duration": "4:02",
+      "durationSeconds": 242,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YfKSaFah-VRtkLrHvlrSb00IfKx8UoUOPdfoebWssFWboNwVKDtcf1ewksIjWJBBC3pBbUEoKdccKHE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WAV6VsmflMM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WAV6VsmflMM",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "NlP32xTveGg",
+      "songTitle": "ミー子のコンサート - Miko No Concert",
+      "title": "ミー子のコンサート - Miko No Concert",
+      "artists": [
+        "betcover!!"
+      ],
+      "albumTitle": "Yuki",
+      "albumBrowseId": "MPREb_JFZHznrb4ms",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/shfs8yrQWDBsIR7q1MayMIG4iRrCskFIs6-JDe8-TW-m2__Ao1pxk5Pwm5ti65GkXrS94Dav0isZog9j=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NlP32xTveGg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NlP32xTveGg",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "KF1_Q-jnFkk",
+      "songTitle": "piano",
+      "title": "piano",
+      "artists": [
+        "betcover!!"
+      ],
+      "albumTitle": "jikan",
+      "albumBrowseId": "MPREb_eR5KDVlyfZT",
+      "duration": "4:35",
+      "durationSeconds": 275,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6P93rSk0fEmQaR4UTCZ0LJE710F0hctGmjEPh3S0Sir5f6mRNzEOyKRPKbCci7SASv7DbXacYkB9MqLD=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KF1_Q-jnFkk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KF1_Q-jnFkk",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=8YhxFXiBhdE%2CteNm5MwHf1c%2CrzCVM4WG1Wk%2CC_ix8WeJ9R4&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+betcover%21%21+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=8YhxFXiBhdE&list=RDAMVM8YhxFXiBhdE",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 betcover!! 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 betcover!! 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=8YhxFXiBhdE%2CteNm5MwHf1c%2CrzCVM4WG1Wk%2CC_ix8WeJ9R4%2C4IMsI0R5qPw%2CF2h2Cnsl934%2CMjtQ9Gp_aUE%2CWAV6VsmflMM%2CNlP32xTveGg%2CKF1_Q-jnFkk&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+betcover%21%21+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=8YhxFXiBhdE&list=RDAMVM8YhxFXiBhdE"
 }

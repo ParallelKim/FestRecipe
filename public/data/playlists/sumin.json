@@ -2,7 +2,7 @@
   "artistId": "sumin",
   "artistName": "SUMIN",
   "englishName": "SUMIN",
-  "collectedAt": "2026-07-27T00:58:48.187881+00:00",
+  "collectedAt": "2026-07-28T00:18:44.894703+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.508,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCv8rpx0WIvniH3jkyDakPyg",
@@ -100,9 +100,120 @@
       "source": "ytm_songs_popular",
       "year": "2021",
       "releaseType": "album"
+    },
+    {
+      "videoId": "gywJbNge6F0",
+      "songTitle": "Take care (Prod. L-like)",
+      "title": "Take care (Prod. L-like)",
+      "artists": [
+        "george",
+        "Sumin"
+      ],
+      "albumTitle": "TAKE CARE with KozyPop",
+      "albumBrowseId": "MPREb_KmJD2etBp6k",
+      "duration": "3:47",
+      "durationSeconds": 227,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5_A-jbVO1rxIKHBZsvoS5ht_LAW9s1L6cajzQ5otWtJ3EI1D5TT_nYcMEDZ17Ed5so6aVulUAoS2HR0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gywJbNge6F0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gywJbNge6F0",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "xiZuUZXiNf0",
+      "songTitle": "Human Theater (feat. 선우정아)",
+      "title": "Human Theater (feat. 선우정아)",
+      "artists": [
+        "SUMIN"
+      ],
+      "albumTitle": "SICHIMI",
+      "albumBrowseId": "MPREb_RTPPlug7LjH",
+      "duration": "3:19",
+      "durationSeconds": 199,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/E2l_a8i11aVpyMOHYr37lkJ_Ya-wW0co48EtnNF2iYQZWx1CoQ0qNccxO_6oRVggJ3lFgHXlCZmFRfCyQw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xiZuUZXiNf0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xiZuUZXiNf0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "mxkdYb5Nsw4",
+      "songTitle": "SORRY",
+      "title": "SORRY",
+      "artists": [
+        "SUMIN",
+        "Slom"
+      ],
+      "albumTitle": "MINISERIES 2",
+      "albumBrowseId": "MPREb_ex3e9RpKFHt",
+      "duration": "1:41",
+      "durationSeconds": 101,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oCDu6h1a8yTIsZeFdBNkyurSclg6jOeOPsjTqDyYSzFDJOxKhkleCV8J-IsGYTcYOSB7H5qyxxrb05CbsQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mxkdYb5Nsw4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mxkdYb5Nsw4",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "HRXN7wUvRgY",
+      "songTitle": "CRAZY OUT THERE (Prod. Czaer)",
+      "title": "CRAZY OUT THERE (Prod. Czaer)",
+      "artists": [
+        "Kid Milli",
+        "SUMIN"
+      ],
+      "albumTitle": "Street Woman Fighter2 (SWF2) Crew Songs",
+      "albumBrowseId": "MPREb_5xMTYxWvV9w",
+      "duration": "3:20",
+      "durationSeconds": 200,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/GVkyXN1viE4pd1f5a_J5uJjidi-dtWDepd7Sj2X-ytbdGX4XzTmWIONEZ8vC-5Iq-vMOlQNxto-aO7h2=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HRXN7wUvRgY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HRXN7wUvRgY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "RuRGmSpSUpI",
+      "songTitle": "TIC TOC TIC TOC",
+      "title": "TIC TOC TIC TOC",
+      "artists": [
+        "SUMIN",
+        "Slom"
+      ],
+      "albumTitle": "MINISERIES 2",
+      "albumBrowseId": "MPREb_ex3e9RpKFHt",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oCDu6h1a8yTIsZeFdBNkyurSclg6jOeOPsjTqDyYSzFDJOxKhkleCV8J-IsGYTcYOSB7H5qyxxrb05CbsQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RuRGmSpSUpI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RuRGmSpSUpI",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "l57a1vUVW0Q",
+      "songTitle": "NONE OF YOUR BUSINESS",
+      "title": "NONE OF YOUR BUSINESS",
+      "artists": [
+        "SUMIN",
+        "Slom"
+      ],
+      "albumTitle": "MINISERIES 2",
+      "albumBrowseId": "MPREb_ex3e9RpKFHt",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oCDu6h1a8yTIsZeFdBNkyurSclg6jOeOPsjTqDyYSzFDJOxKhkleCV8J-IsGYTcYOSB7H5qyxxrb05CbsQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=l57a1vUVW0Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=l57a1vUVW0Q",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Qo2VFR6DAhY%2CpGvRfsQHImA%2CfCXpMJAcbNQ%2CKOKI30YeKeA&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%88%98%EB%AF%BC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Qo2VFR6DAhY&list=RDAMVMQo2VFR6DAhY",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 수민 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 SUMIN 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Qo2VFR6DAhY%2CpGvRfsQHImA%2CfCXpMJAcbNQ%2CKOKI30YeKeA%2CgywJbNge6F0%2CxiZuUZXiNf0%2CmxkdYb5Nsw4%2CHRXN7wUvRgY%2CRuRGmSpSUpI%2Cl57a1vUVW0Q&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+SUMIN+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Qo2VFR6DAhY&list=RDAMVMQo2VFR6DAhY"
 }

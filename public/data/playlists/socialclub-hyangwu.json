@@ -2,7 +2,7 @@
   "artistId": "socialclub-hyangwu",
   "artistName": "향우회",
   "englishName": "SOCIALCLUB HYANGWU",
-  "collectedAt": "2026-07-27T00:58:46.723736+00:00",
+  "collectedAt": "2026-07-28T00:18:43.012887+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.385,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UC919MPiXSycX7_zp1l6GNBw",
@@ -78,9 +78,134 @@
       "source": "ytm_songs_popular",
       "year": "2025",
       "releaseType": "ep"
+    },
+    {
+      "videoId": "t9-K0BQxtno",
+      "songTitle": "RIOT",
+      "title": "RIOT",
+      "artists": [
+        "향우회"
+      ],
+      "albumTitle": "The Panic Tool",
+      "albumBrowseId": "MPREb_urYohkKoHfU",
+      "duration": "2:48",
+      "durationSeconds": 168,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Izv9QjOLCZU4bPovOZwE8EdWfuUimLWQe3d9t8iYp0ub81GPUPh9Au74_U1S5Nf88Fof_49bTcFJgC0Z=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=t9-K0BQxtno",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=t9-K0BQxtno",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "N8tPfObMq6Y",
+      "songTitle": "Ophelia",
+      "title": "Ophelia",
+      "artists": [
+        "향우회"
+      ],
+      "albumTitle": "The Panic Tool",
+      "albumBrowseId": "MPREb_urYohkKoHfU",
+      "duration": "4:01",
+      "durationSeconds": 241,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Izv9QjOLCZU4bPovOZwE8EdWfuUimLWQe3d9t8iYp0ub81GPUPh9Au74_U1S5Nf88Fof_49bTcFJgC0Z=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=N8tPfObMq6Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=N8tPfObMq6Y",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "c02ZMLhjz_c",
+      "songTitle": "Bleeding Cherry",
+      "title": "Bleeding Cherry",
+      "artists": [
+        "향우회"
+      ],
+      "albumTitle": "Bleeding Cherry",
+      "albumBrowseId": "MPREb_9pIDowqzJbj",
+      "duration": "2:10",
+      "durationSeconds": 130,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Hvi4PKVTtaJoeXCYGhAqk1px5V-kUZmTRGbdq6C7XYE-B0ZuxlvfRRoVpSam3ozJcoaRm2pOpbNkzC4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c02ZMLhjz_c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=c02ZMLhjz_c",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "CdZyRtLV-dQ",
+      "songTitle": "MAD MAN",
+      "title": "MAD MAN",
+      "artists": [
+        "향우회"
+      ],
+      "albumTitle": "For everything that burns",
+      "albumBrowseId": "MPREb_zL9m0OliP1d",
+      "duration": "2:45",
+      "durationSeconds": 165,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/i1x6aFD0fp0elWtM1tufe1xPUm3SR6ZI-J3ifD87IkHVGUHjFuiYMktvn2PZ6cKoRz0O_X0Nmw-_CkefyA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CdZyRtLV-dQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CdZyRtLV-dQ",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "yHWCa-nW1-8",
+      "songTitle": "Dusties",
+      "title": "Dusties",
+      "artists": [
+        "향우회"
+      ],
+      "albumTitle": "The Panic Tool",
+      "albumBrowseId": "MPREb_urYohkKoHfU",
+      "duration": "2:14",
+      "durationSeconds": 134,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Izv9QjOLCZU4bPovOZwE8EdWfuUimLWQe3d9t8iYp0ub81GPUPh9Au74_U1S5Nf88Fof_49bTcFJgC0Z=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yHWCa-nW1-8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=yHWCa-nW1-8",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "QNnxfzmhFBI",
+      "songTitle": "Bleeding Cherry Ahn Maru Remix Version",
+      "title": "Bleeding Cherry Ahn Maru Remix Version",
+      "artists": [
+        "향우회"
+      ],
+      "albumTitle": "Bleeding Cherry",
+      "albumBrowseId": "MPREb_9pIDowqzJbj",
+      "duration": "2:45",
+      "durationSeconds": 165,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Hvi4PKVTtaJoeXCYGhAqk1px5V-kUZmTRGbdq6C7XYE-B0ZuxlvfRRoVpSam3ozJcoaRm2pOpbNkzC4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QNnxfzmhFBI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=QNnxfzmhFBI",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "gMse79quHhk",
+      "songTitle": "Beachrider",
+      "title": "Beachrider",
+      "artists": [
+        "향우회"
+      ],
+      "albumTitle": "Blue Christmas",
+      "albumBrowseId": "MPREb_0ExzNA4MRlH",
+      "duration": "4:42",
+      "durationSeconds": 282,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fhCyp-U1eM7bfKwGMQJXNpEPW03QlSgcc9lmTA3bHNEa6QiiUYzpMnjb0FzeTu3yK6boMppO6wum2FT9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gMse79quHhk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gMse79quHhk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-6Pu4-nOvr8%2CCR3AjV9E8Fk%2CoCWxdDdzkmU&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%86%8C%EC%85%9C%ED%81%B4%EB%9F%BD%ED%96%A5%EC%9A%B0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-6Pu4-nOvr8&list=RDAMVM-6Pu4-nOvr8",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 소셜클럽향우 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 향우회 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-6Pu4-nOvr8%2CCR3AjV9E8Fk%2CoCWxdDdzkmU%2Ct9-K0BQxtno%2CN8tPfObMq6Y%2Cc02ZMLhjz_c%2CCdZyRtLV-dQ%2CyHWCa-nW1-8%2CQNnxfzmhFBI%2CgMse79quHhk&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%96%A5%EC%9A%B0%ED%9A%8C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-6Pu4-nOvr8&list=RDAMVM-6Pu4-nOvr8"
 }

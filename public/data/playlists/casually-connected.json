@@ -2,7 +2,7 @@
   "artistId": "casually-connected",
   "artistName": "CASUALLY CONNECTED",
   "englishName": "casually connected",
-  "collectedAt": "2026-07-27T00:58:28.477647+00:00",
+  "collectedAt": "2026-07-28T00:18:15.093359+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.215,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 5,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCuS8mc3U-nFgZyng5B_HcyQ",
@@ -78,9 +78,45 @@
       "source": "ytm_songs_popular",
       "year": "2025",
       "releaseType": "ep"
+    },
+    {
+      "videoId": "y2Kkk74q4rQ",
+      "songTitle": "Tunnel Vision",
+      "title": "Tunnel Vision",
+      "artists": [
+        "CASUALLY CONNECTED"
+      ],
+      "albumTitle": "Away From",
+      "albumBrowseId": "MPREb_SDtdbMYGFDU",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p0AtenerciD1dpf3N9Ai5lZBqQdSPdkhpA_KjDQTrdi0JI1k8cNw-RoLbjFFkTIqGpnftEzdlQCAQxKzVw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=y2Kkk74q4rQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=y2Kkk74q4rQ",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "PD_odkE-0CA",
+      "songTitle": "Morpheus",
+      "title": "Morpheus",
+      "artists": [
+        "CASUALLY CONNECTED"
+      ],
+      "albumTitle": "Away From",
+      "albumBrowseId": "MPREb_SDtdbMYGFDU",
+      "duration": "4:27",
+      "durationSeconds": 267,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p0AtenerciD1dpf3N9Ai5lZBqQdSPdkhpA_KjDQTrdi0JI1k8cNw-RoLbjFFkTIqGpnftEzdlQCAQxKzVw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PD_odkE-0CA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PD_odkE-0CA",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=TsOQx-2FSK8%2CgaHo3kPRU68%2Cir1GU7FXhnQ&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%BA%90%EC%A3%BC%EC%96%BC%EB%A6%AC+%EC%BB%A4%EB%84%A5%ED%8B%B0%EB%93%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=TsOQx-2FSK8&list=RDAMVMTsOQx-2FSK8",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 캐주얼리 커넥티드 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 CASUALLY CONNECTED 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=TsOQx-2FSK8%2CgaHo3kPRU68%2Cir1GU7FXhnQ%2Cy2Kkk74q4rQ%2CPD_odkE-0CA&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+CASUALLY+CONNECTED+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=TsOQx-2FSK8&list=RDAMVMTsOQx-2FSK8"
 }

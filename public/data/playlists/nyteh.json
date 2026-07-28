@@ -2,7 +2,7 @@
   "artistId": "nyteh",
   "artistName": "Nyteh",
   "englishName": "Nyteh",
-  "collectedAt": "2026-07-27T00:58:40.983035+00:00",
+  "collectedAt": "2026-07-28T00:18:34.693297+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.538,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UClPaKa4bYCjcu8QK-VAMSsA",
@@ -94,9 +94,117 @@
       "source": "ytm_songs_popular",
       "year": "2025",
       "releaseType": "album"
+    },
+    {
+      "videoId": "DOQLLb6Od0o",
+      "songTitle": "BENNY",
+      "title": "BENNY",
+      "artists": [
+        "Nyteh"
+      ],
+      "albumTitle": "Nyteh",
+      "albumBrowseId": "MPREb_2LBsADZgkLx",
+      "duration": "3:05",
+      "durationSeconds": 185,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AeX7xfwk_4lau4Va4LtahQv9w5cf_F62bbFscOOBsjjuRnMyeyK1uyjv3wKjg5Sa_r1z2B-FJgyzD219XQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DOQLLb6Od0o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DOQLLb6Od0o",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "EOOh7PkBQuA",
+      "songTitle": "Nakta",
+      "title": "Nakta",
+      "artists": [
+        "Nyteh"
+      ],
+      "albumTitle": "Nyteh",
+      "albumBrowseId": "MPREb_2LBsADZgkLx",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AeX7xfwk_4lau4Va4LtahQv9w5cf_F62bbFscOOBsjjuRnMyeyK1uyjv3wKjg5Sa_r1z2B-FJgyzD219XQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EOOh7PkBQuA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EOOh7PkBQuA",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "MiCQ7OyvOtM",
+      "songTitle": "Finn",
+      "title": "Finn",
+      "artists": [
+        "Nyteh"
+      ],
+      "albumTitle": "Nyteh",
+      "albumBrowseId": "MPREb_2LBsADZgkLx",
+      "duration": "3:15",
+      "durationSeconds": 195,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AeX7xfwk_4lau4Va4LtahQv9w5cf_F62bbFscOOBsjjuRnMyeyK1uyjv3wKjg5Sa_r1z2B-FJgyzD219XQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MiCQ7OyvOtM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=MiCQ7OyvOtM",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "PUVM6Y0AzYw",
+      "songTitle": "Intro",
+      "title": "Intro",
+      "artists": [
+        "Nyteh"
+      ],
+      "albumTitle": "Nyteh",
+      "albumBrowseId": "MPREb_2LBsADZgkLx",
+      "duration": "1:16",
+      "durationSeconds": 76,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AeX7xfwk_4lau4Va4LtahQv9w5cf_F62bbFscOOBsjjuRnMyeyK1uyjv3wKjg5Sa_r1z2B-FJgyzD219XQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PUVM6Y0AzYw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PUVM6Y0AzYw",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "tw4WUmjOjQY",
+      "songTitle": "Bloom",
+      "title": "Bloom",
+      "artists": [
+        "Nyteh"
+      ],
+      "albumTitle": "Nyteh",
+      "albumBrowseId": "MPREb_2LBsADZgkLx",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AeX7xfwk_4lau4Va4LtahQv9w5cf_F62bbFscOOBsjjuRnMyeyK1uyjv3wKjg5Sa_r1z2B-FJgyzD219XQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tw4WUmjOjQY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tw4WUmjOjQY",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "fugcR7Zn7I8",
+      "songTitle": "Mushroom",
+      "title": "Mushroom",
+      "artists": [
+        "Nyteh"
+      ],
+      "albumTitle": "Nyteh",
+      "albumBrowseId": "MPREb_2LBsADZgkLx",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AeX7xfwk_4lau4Va4LtahQv9w5cf_F62bbFscOOBsjjuRnMyeyK1uyjv3wKjg5Sa_r1z2B-FJgyzD219XQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fugcR7Zn7I8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fugcR7Zn7I8",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=wdr49dfP6xo%2CWQ2ASlk1VyA%2CjmBqPtQN3ow%2CZOR4CqGO5Vo&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%82%98%EC%9D%B4%ED%85%8C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=wdr49dfP6xo&list=RDAMVMwdr49dfP6xo",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 나이테 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 Nyteh 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=wdr49dfP6xo%2CWQ2ASlk1VyA%2CjmBqPtQN3ow%2CZOR4CqGO5Vo%2CDOQLLb6Od0o%2CEOOh7PkBQuA%2CMiCQ7OyvOtM%2CPUVM6Y0AzYw%2Ctw4WUmjOjQY%2CfugcR7Zn7I8&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+Nyteh+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=wdr49dfP6xo&list=RDAMVMwdr49dfP6xo"
 }

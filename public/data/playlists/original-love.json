@@ -2,7 +2,7 @@
   "artistId": "original-love",
   "artistName": "Original Love",
   "englishName": "Original Love",
-  "collectedAt": "2026-07-27T00:58:41.832164+00:00",
+  "collectedAt": "2026-07-28T00:18:35.909156+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.8,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCIq07DAzeAZlG6nAIBQIWxw",
@@ -112,9 +112,97 @@
       "source": "ytm_songs_popular",
       "year": "2007",
       "releaseType": "album"
+    },
+    {
+      "videoId": "32WyAlge4RM",
+      "songTitle": "夢を見る人 - yume Wo Miru Hito",
+      "title": "夢を見る人 - yume Wo Miru Hito",
+      "artists": [
+        "Original Love"
+      ],
+      "albumTitle": "Yume Wo Miru Hito",
+      "albumBrowseId": "MPREb_chxCn6eEC67",
+      "duration": "5:21",
+      "durationSeconds": 321,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/65Jced9TmE7JA1NiT-NxAwvosajyvasIykbh6THjGzvp4jEpPfldP6ZoIIbFzWga_CrVUCBMSGz14Kbc=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=32WyAlge4RM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=32WyAlge4RM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "zZYB0eFIy-M",
+      "songTitle": "愛はアカリ - Love is a Torch",
+      "title": "愛はアカリ - Love is a Torch",
+      "artists": [
+        "Original Love"
+      ],
+      "albumTitle": "Love is a Torch",
+      "albumBrowseId": "MPREb_fIva4dctvL4",
+      "duration": "5:08",
+      "durationSeconds": 308,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/THkkPk608-kYls9uLVA4mMBTt_NC3BGu1jZ5zLbe2EsFMl-R3l_5_LXk2n5t3I2_9BPcll1J9RS45a4N=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zZYB0eFIy-M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zZYB0eFIy-M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "tXDbv6bpfnE",
+      "songTitle": "月の裏で会いましょう (結晶 -SOUL LIBERATION- Version) - Let's Go To The Darkside Of The Moon (Soul Liberation Version)",
+      "title": "月の裏で会いましょう (結晶 -SOUL LIBERATION- Version) - Let's Go To The Darkside Of The Moon (Soul Liberation Version)",
+      "artists": [
+        "ORIGINAL LOVE"
+      ],
+      "albumTitle": "Soul Liberation",
+      "albumBrowseId": "MPREb_fAonhoo2UTf",
+      "duration": "4:58",
+      "durationSeconds": 298,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/b5vT4DASZAyEGFDL3x96okxaxLXnMysMl7G46xqKV3vNIXrW_3vrwxJENQIOVJi6gMSkErP2Y4Kc2-Ed=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tXDbv6bpfnE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tXDbv6bpfnE",
+      "source": "ytm_songs_popular",
+      "year": "2007",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "WT3Wp4hqIVs",
+      "songTitle": "Itsuka Miageta Sora Ni",
+      "title": "Itsuka Miageta Sora Ni",
+      "artists": [
+        "657K plays"
+      ],
+      "albumTitle": "Eyes",
+      "albumBrowseId": "MPREb_cl07QZYZucy",
+      "duration": "6:10",
+      "durationSeconds": 370,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KE8Kbz_SJQsim7KFYz5X86I_-hr17Ngs2nQBBJAP4yUbqhqiSUFV8iubEg3e7onND2KNl81VcZID866t=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WT3Wp4hqIVs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WT3Wp4hqIVs",
+      "source": "ytm_songs_popular",
+      "year": "2007",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "_gch7kRMD5U",
+      "songTitle": "夜をぶっとばせ - Let's Spend The Night Together",
+      "title": "夜をぶっとばせ - Let's Spend The Night Together",
+      "artists": [
+        "ORIGINAL LOVE"
+      ],
+      "albumTitle": "Love! Love! & Love!",
+      "albumBrowseId": "MPREb_B9s2tNX8zgJ",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NaQBkpC6oIK1ekBJ9wesYOpbwaj5eRV2_cR-fKF3dGxcx3Pyx-hZ6FMcbnAggxm5KhAiat5V_rb4V5ZY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_gch7kRMD5U",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_gch7kRMD5U",
+      "source": "ytm_songs_popular",
+      "year": "2007",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=RLwB-upkOyo%2CK3mb1xzG_H0%2C21869h2B_RE%2C4rI6_734vy4%2Cjm2G5K71BoE&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90+%EB%9F%AC%EB%B8%8C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=RLwB-upkOyo&list=RDAMVMRLwB-upkOyo",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 오리지널 러브 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 Original Love 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=RLwB-upkOyo%2CK3mb1xzG_H0%2C21869h2B_RE%2C4rI6_734vy4%2Cjm2G5K71BoE%2C32WyAlge4RM%2CzZYB0eFIy-M%2CtXDbv6bpfnE%2CWT3Wp4hqIVs%2C_gch7kRMD5U&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+Original+Love+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=RLwB-upkOyo&list=RDAMVMRLwB-upkOyo"
 }

@@ -2,7 +2,7 @@
   "artistId": "hyukoh",
   "artistName": "혁오",
   "englishName": "HYUKOH",
-  "collectedAt": "2026-07-27T00:58:33.952024+00:00",
+  "collectedAt": "2026-07-28T00:18:24.380721+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.862,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCUUPndfCXVm8-srwV6dzXcg",
@@ -81,7 +81,7 @@
       "songTitle": "LOVE YA!",
       "title": "LOVE YA!",
       "artists": [
-        "HYUKOH"
+        "27M plays"
       ],
       "albumTitle": "24 : How to find true love and happiness",
       "albumBrowseId": "MPREb_kRJhL7pJsA0",
@@ -109,9 +109,95 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=lCgcGWJHOFE",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "6HHy5YyWmvc",
+      "songTitle": "Ohio",
+      "title": "Ohio",
+      "artists": [
+        "HYUKOH"
+      ],
+      "albumTitle": "20",
+      "albumBrowseId": "MPREb_8ZCYHce8fFf",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/GF7zSdJi3LX5B2FC8OSdERoW5UPb5CuF_hOjzokCF5dG_ktzyacDfHB5HF08HI7lQdzcWMD_LLZGHEI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6HHy5YyWmvc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6HHy5YyWmvc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "bH6ZvLhUx5o",
+      "songTitle": "Paul",
+      "title": "Paul",
+      "artists": [
+        "HYUKOH"
+      ],
+      "albumTitle": "23",
+      "albumBrowseId": "MPREb_KCsZNpf9vtx",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RuW9pVBVHUcg2-LDS9naVRJOuPe8AEXSz4a90_7W9z4Bq85HnfGT-YFw_gSX93ueZVyQRuxYsZn0f-Pd=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bH6ZvLhUx5o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bH6ZvLhUx5o",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "jsjQPoZw7SA",
+      "songTitle": "Young Man",
+      "title": "Young Man",
+      "artists": [
+        "HYUKOH",
+        "落日飛車 Sunset Rollercoaster"
+      ],
+      "albumTitle": "Young Man",
+      "albumBrowseId": "MPREb_eAKeiupoEHZ",
+      "duration": "4:18",
+      "durationSeconds": 258,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XbGnm23rXU38DsCIEeeOEzIcYVXnSrcDv5fkZ0B2w2x2_oUqJeFlI4UjHIFwu-JM4mhMHVSKP4CP2ikw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jsjQPoZw7SA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jsjQPoZw7SA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "DE4WWnK7wg0",
+      "songTitle": "Hooka",
+      "title": "Hooka",
+      "artists": [
+        "HYUKOH"
+      ],
+      "albumTitle": "22",
+      "albumBrowseId": "MPREb_kj4sr3sf4IQ",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IEKcOLhwh9J3ad483zd8Mb1rh3inRJ14cU_4wkds1eJy6r7MTaWBZWJ3vSgjz9_Z90Xx6a3yfHK7FBJsxg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DE4WWnK7wg0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DE4WWnK7wg0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "yEoD23XfHWs",
+      "songTitle": "Big Bird",
+      "title": "Big Bird",
+      "artists": [
+        "HYUKOH"
+      ],
+      "albumTitle": "22",
+      "albumBrowseId": "MPREb_kj4sr3sf4IQ",
+      "duration": "3:10",
+      "durationSeconds": 190,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IEKcOLhwh9J3ad483zd8Mb1rh3inRJ14cU_4wkds1eJy6r7MTaWBZWJ3vSgjz9_Z90Xx6a3yfHK7FBJsxg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yEoD23XfHWs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=yEoD23XfHWs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zC8RrOA0spo%2CbVrW1eDMtL8%2CcSAXXE7VBYo%2C-o7lgP1VPJk%2ClCgcGWJHOFE&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%98%81%EC%98%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zC8RrOA0spo&list=RDAMVMzC8RrOA0spo",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 혁오 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 혁오 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zC8RrOA0spo%2CbVrW1eDMtL8%2CcSAXXE7VBYo%2C-o7lgP1VPJk%2ClCgcGWJHOFE%2C6HHy5YyWmvc%2CbH6ZvLhUx5o%2CjsjQPoZw7SA%2CDE4WWnK7wg0%2CyEoD23XfHWs&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%98%81%EC%98%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zC8RrOA0spo&list=RDAMVMzC8RrOA0spo"
 }

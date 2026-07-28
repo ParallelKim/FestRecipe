@@ -2,7 +2,7 @@
   "artistId": "leenalchi",
   "artistName": "이날치",
   "englishName": "LEENALCHI",
-  "collectedAt": "2026-07-27T00:58:37.515861+00:00",
+  "collectedAt": "2026-07-28T00:18:29.296396+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.908,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCNyk_yTGZz7h59MzKVO5Xjw",
@@ -111,9 +111,98 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=sHN3BJbESeU",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "7l2PhZOhutw",
+      "songTitle": "Ultimate Prescription",
+      "title": "Ultimate Prescription",
+      "artists": [
+        "LEENALCHI"
+      ],
+      "albumTitle": "Here Comes That Crow",
+      "albumBrowseId": "MPREb_eNp3IbznZgu",
+      "duration": "7:00",
+      "durationSeconds": 420,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3LUZQ-BF5MKZSrxpwcW0zIukW8TMELazhT3hsZCpa-9LfaLY6R2PcHRqtwx4KK_TD6adJFSwH9qPPRsxMQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7l2PhZOhutw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7l2PhZOhutw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "VXEv9WyEMpg",
+      "songTitle": "의심",
+      "title": "의심",
+      "artists": [
+        "LEENALCHI"
+      ],
+      "albumTitle": "오케이 광자매 OST Part 2",
+      "albumBrowseId": "MPREb_fw2NF40XSSx",
+      "duration": "3:08",
+      "durationSeconds": 188,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7i8TPL5n_hu2xXNicZ8ScpqdIkC4uTugZ2ksiyPf3lRytla89FMDnq6T_aDMeMAG-vFblCgl04mIBEQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VXEv9WyEMpg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VXEv9WyEMpg",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "Ej_voVniMRI",
+      "songTitle": "광자매 납신다",
+      "title": "광자매 납신다",
+      "artists": [
+        "LEENALCHI"
+      ],
+      "albumTitle": "오케이 광자매 OST Part 1",
+      "albumBrowseId": "MPREb_bcBkUW0TR6H",
+      "duration": "2:13",
+      "durationSeconds": 133,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/g2Qx0_wG1i8BNcsmtk3fLx1523KW5OWMRQZCd-zKdSVV8WARKyCAPQDE3gk-pWx7xvnVQ9wXkrPRimP_=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ej_voVniMRI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Ej_voVniMRI",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "NNoSPAoP1z4",
+      "songTitle": "Bird (Instrumental)",
+      "title": "Bird (Instrumental)",
+      "artists": [
+        "LEENALCHI"
+      ],
+      "albumTitle": "Jeongnyeon: The Star is Born, Pt. 1 : Bird (Original Soundtrack)",
+      "albumBrowseId": "MPREb_txaCODEKGW6",
+      "duration": "3:00",
+      "durationSeconds": 180,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8ABKT3zBrU9qS5BKAuJyTMcb2ch_4RVi3iTpBfYYchPXsSio7FCXONIvaZ3duEn_rm2uz6HeCmTyb-3T=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NNoSPAoP1z4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NNoSPAoP1z4",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "E7bRBSJUHwo",
+      "songTitle": "Let’s Live for Today",
+      "title": "Let’s Live for Today",
+      "artists": [
+        "LEENALCHI"
+      ],
+      "albumTitle": "Here Comes That Crow",
+      "albumBrowseId": "MPREb_eNp3IbznZgu",
+      "year": "2026",
+      "releaseType": "ep",
+      "duration": "2:08",
+      "durationSeconds": 128,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3LUZQ-BF5MKZSrxpwcW0zIukW8TMELazhT3hsZCpa-9LfaLY6R2PcHRqtwx4KK_TD6adJFSwH9qPPRsxMQ=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E7bRBSJUHwo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=E7bRBSJUHwo",
+      "source": "releases_fallback"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Nrsfo6vZrjA%2CZt9tof7mARU%2C1WoDW9PBP3Q%2C5ap4xDCxcQA%2CsHN3BJbESeU&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%9D%B4%EB%82%A0%EC%B9%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Nrsfo6vZrjA&list=RDAMVMNrsfo6vZrjA",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 이날치 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 이날치 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Nrsfo6vZrjA%2CZt9tof7mARU%2C1WoDW9PBP3Q%2C5ap4xDCxcQA%2CsHN3BJbESeU%2C7l2PhZOhutw%2CVXEv9WyEMpg%2CEj_voVniMRI%2CNNoSPAoP1z4%2CE7bRBSJUHwo&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%9D%B4%EB%82%A0%EC%B9%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Nrsfo6vZrjA&list=RDAMVMNrsfo6vZrjA"
 }

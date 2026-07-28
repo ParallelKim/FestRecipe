@@ -2,7 +2,7 @@
   "artistId": "flesh-juicer",
   "artistName": "Flesh Juicer 血肉果汁機",
   "englishName": "Flesh Juicer",
-  "collectedAt": "2026-07-27T00:58:32.368469+00:00",
+  "collectedAt": "2026-07-28T00:18:21.880165+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.846,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCrogQiCc0y6ePY_m4VcY0mA",
@@ -85,7 +85,7 @@
       "songTitle": "Turn the sun Off",
       "title": "Turn the sun Off",
       "artists": [
-        "Flesh Juicer"
+        "1.5M plays"
       ],
       "albumTitle": "Fairy Tales of the Ocean Deep",
       "albumBrowseId": "MPREb_6AGJtV7lZcL",
@@ -113,9 +113,95 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=SigQvWyi3Nc",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "oKmKKPylPtU",
+      "songTitle": "GOLDEN TAIZI BRO",
+      "title": "GOLDEN TAIZI BRO",
+      "artists": [
+        "Flesh Juicer"
+      ],
+      "albumTitle": "GOLDEN TAIZI BRO",
+      "albumBrowseId": "MPREb_IHGk1KDGchV",
+      "duration": "3:11",
+      "durationSeconds": 191,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iGDUk31aXPMnz8LLkpclkgukO4mIcTF6vljYve00mte49ZAFCy3msHEpHsbuOWrrmLLtBPo9dqkhCJwM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oKmKKPylPtU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=oKmKKPylPtU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "2UQXkVlaGUE",
+      "songTitle": "Sincere Gratitude",
+      "title": "Sincere Gratitude",
+      "artists": [
+        "Flesh Juicer"
+      ],
+      "albumTitle": "GOLDEN TAIZI BRO",
+      "albumBrowseId": "MPREb_IHGk1KDGchV",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iGDUk31aXPMnz8LLkpclkgukO4mIcTF6vljYve00mte49ZAFCy3msHEpHsbuOWrrmLLtBPo9dqkhCJwM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2UQXkVlaGUE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2UQXkVlaGUE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "A8y_Ic2X42M",
+      "songTitle": "LOVE U 99",
+      "title": "LOVE U 99",
+      "artists": [
+        "Flesh Juicer"
+      ],
+      "albumTitle": "GOLDEN TAIZI BRO",
+      "albumBrowseId": "MPREb_IHGk1KDGchV",
+      "duration": "4:20",
+      "durationSeconds": 260,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iGDUk31aXPMnz8LLkpclkgukO4mIcTF6vljYve00mte49ZAFCy3msHEpHsbuOWrrmLLtBPo9dqkhCJwM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=A8y_Ic2X42M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=A8y_Ic2X42M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "DOyRbBPnv-k",
+      "songTitle": "雲煙",
+      "title": "雲煙",
+      "artists": [
+        "陳芳語",
+        "血肉果汁機"
+      ],
+      "albumTitle": "雲煙",
+      "albumBrowseId": "MPREb_1jCywh90T4L",
+      "duration": "3:08",
+      "durationSeconds": 188,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ddacD26wWKexWtpVHjZRr0TO-VOg3NXHK8hdK6y0i7uStY4W2sgmZzfRyGTUMxyl7qoV1IxuKDqNueUbmw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DOyRbBPnv-k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DOyRbBPnv-k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "6JUZbyA_MC0",
+      "songTitle": "Modern Siren (feat. Julia Wu)",
+      "title": "Modern Siren (feat. Julia Wu)",
+      "artists": [
+        "Flesh Juicer"
+      ],
+      "albumTitle": "Modern Siren",
+      "albumBrowseId": "MPREb_Oi4iYGN1Zof",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/57UtE4xcRzHWeOv9Xiw-iuMJm_zzlfNcZY_pgErLLGkd91SZX8ZRDboepsIaSYzYM2P-M9R-ZV_KkMc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6JUZbyA_MC0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6JUZbyA_MC0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VBftbcR3PP0%2CEHtSLHK9p6Y%2C91DtS828ouQ%2Cy4d3ZypWgLA%2CSigQvWyi3Nc&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%94%8C%EB%A0%88%EC%89%AC+%EC%A5%AC%EC%84%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VBftbcR3PP0&list=RDAMVMVBftbcR3PP0",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 플레쉬 쥬서 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 Flesh Juicer 血肉果汁機 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VBftbcR3PP0%2CEHtSLHK9p6Y%2C91DtS828ouQ%2Cy4d3ZypWgLA%2CSigQvWyi3Nc%2CoKmKKPylPtU%2C2UQXkVlaGUE%2CA8y_Ic2X42M%2CDOyRbBPnv-k%2C6JUZbyA_MC0&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+Flesh+Juicer+%E8%A1%80%E8%82%89%E6%9E%9C%E6%B1%81%E6%A9%9F+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VBftbcR3PP0&list=RDAMVMVBftbcR3PP0"
 }

@@ -2,7 +2,7 @@
   "artistId": "confined-white",
   "artistName": "컨파인드 화이트",
   "englishName": "Confined White",
-  "collectedAt": "2026-07-27T00:58:29.590920+00:00",
+  "collectedAt": "2026-07-28T00:18:17.431522+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.031,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UC8jlsVo44OrIpeRGstFUFyA",
@@ -76,9 +76,134 @@
       "source": "ytm_songs_popular",
       "year": "2024",
       "releaseType": "single"
+    },
+    {
+      "videoId": "RU9EAx7qZo0",
+      "songTitle": "Good Night",
+      "title": "Good Night",
+      "artists": [
+        "Confined White"
+      ],
+      "albumTitle": "bright #14",
+      "albumBrowseId": "MPREb_2FErty3LKhX",
+      "duration": "2:16",
+      "durationSeconds": 136,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/E--kXfYVoWgHvtpnBp0-ffTK2EbwaQB8ZHzLvfMbxDlCN-DMGRX5dXsBL0AmnPJok_2vkCH9okQBfZ6ZHg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RU9EAx7qZo0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RU9EAx7qZo0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "9_QAV0gocys",
+      "songTitle": "I'll be right back",
+      "title": "I'll be right back",
+      "artists": [
+        "Confined White"
+      ],
+      "albumTitle": "HOME / I'll be right back",
+      "albumBrowseId": "MPREb_84zb3WIM3pl",
+      "duration": "2:59",
+      "durationSeconds": 179,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/l-kzNxHRBjhFUm3xk-U0Vp2C2QkrDiz_4tmmGU_Hd1i5P0g1ZKXzNtpQaAVUsUOE123teD7XkpbznoF1=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9_QAV0gocys",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9_QAV0gocys",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "m5uC-JIMul4",
+      "songTitle": "Pieces of You",
+      "title": "Pieces of You",
+      "artists": [
+        "Confined White"
+      ],
+      "albumTitle": "Pieces of You",
+      "albumBrowseId": "MPREb_oOxl0q2ZBuz",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HVQcIy62lIGPZ222g0eLEGcdaZf9cKcJW7stS76zYVHTOgSZvxGSRFJVm9MK978o3NE99MV2WuMicaWZTA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=m5uC-JIMul4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=m5uC-JIMul4",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "5gpD1WgVGY8",
+      "songTitle": "Boy",
+      "title": "Boy",
+      "artists": [
+        "Confined White"
+      ],
+      "albumTitle": "Confined White",
+      "albumBrowseId": "MPREb_OsPKlcS25m8",
+      "duration": "3:10",
+      "durationSeconds": 190,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-pgVxQIYGS02eUpOBnukz0k4pC7zM4e-YKP7df3ji-1wfTeMlU5sw8yUWv0D9YZ8DALBV948-NNo293u=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5gpD1WgVGY8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5gpD1WgVGY8",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "AbOpEXLDnCA",
+      "songTitle": "Hello, dear",
+      "title": "Hello, dear",
+      "artists": [
+        "Confined White"
+      ],
+      "albumTitle": "Hello, dear",
+      "albumBrowseId": "MPREb_dTyblxBeK8A",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LUpsxf6v4IOPAB_clUw5198M1UCapOR35_9ytbcCDn4pp5DImnRFv6OYOX5lmRfFDBAlN0hK6BLCVhNZ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AbOpEXLDnCA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=AbOpEXLDnCA",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "dv6Ex1of3nE",
+      "songTitle": "Won't you?",
+      "title": "Won't you?",
+      "artists": [
+        "Confined White"
+      ],
+      "albumTitle": "Won't you?",
+      "albumBrowseId": "MPREb_dMaQaWTAyW1",
+      "duration": "3:38",
+      "durationSeconds": 218,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/bkfe78zG5FQ0Tvc1cKb5kng3yV5Cm_UVpLNX6aOPcjMOPNRbYZaAF2iwLd50bk9EC3B1hYQ-fCPFQrOu=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dv6Ex1of3nE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dv6Ex1of3nE",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "Fu401KsezqI",
+      "songTitle": "meteor shower",
+      "title": "meteor shower",
+      "artists": [
+        "Confined White"
+      ],
+      "albumTitle": "Confined White",
+      "albumBrowseId": "MPREb_OsPKlcS25m8",
+      "duration": "4:28",
+      "durationSeconds": 268,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-pgVxQIYGS02eUpOBnukz0k4pC7zM4e-YKP7df3ji-1wfTeMlU5sw8yUWv0D9YZ8DALBV948-NNo293u=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Fu401KsezqI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Fu401KsezqI",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=YhfwjoR2Zs8%2CrPeOForNWmw%2CKw-kk3ygFNM&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%BB%A8%ED%8C%8C%EC%9D%B8%EB%93%9C+%ED%99%94%EC%9D%B4%ED%8A%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=YhfwjoR2Zs8&list=RDAMVMYhfwjoR2Zs8",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 컨파인드 화이트 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 컨파인드 화이트 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=YhfwjoR2Zs8%2CrPeOForNWmw%2CKw-kk3ygFNM%2CRU9EAx7qZo0%2C9_QAV0gocys%2Cm5uC-JIMul4%2C5gpD1WgVGY8%2CAbOpEXLDnCA%2Cdv6Ex1of3nE%2CFu401KsezqI&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%BB%A8%ED%8C%8C%EC%9D%B8%EB%93%9C+%ED%99%94%EC%9D%B4%ED%8A%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=YhfwjoR2Zs8&list=RDAMVMYhfwjoR2Zs8"
 }

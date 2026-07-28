@@ -2,7 +2,7 @@
   "artistId": "isyana-sarasvati",
   "artistName": "Isyana Sarasvati",
   "englishName": "Isyana Sarasvati",
-  "collectedAt": "2026-07-27T00:58:34.731988+00:00",
+  "collectedAt": "2026-07-28T00:18:25.228809+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.6,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCbQDCZPk4_r-4_tIxTHyGVQ",
@@ -94,9 +94,113 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=5C4BalQcWbs",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "gtLct_3eLco",
+      "songTitle": "Keep Being You",
+      "title": "Keep Being You",
+      "artists": [
+        "Isyana Sarasvati"
+      ],
+      "albumTitle": "EXPLORE!",
+      "albumBrowseId": "MPREb_f8iRS86J2Rh",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9nECR7ePMEzO8rry_VOwTKB2McUPWCKUQ3Q7Nh1Hp8d7_-E0BnCUcTfM2CoHHagDfDRCIzRHf6bqzezr=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gtLct_3eLco",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gtLct_3eLco",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "QxuPFGhuajY",
+      "songTitle": "IL SOGNO (feat. DeadSquad)",
+      "title": "IL SOGNO (feat. DeadSquad)",
+      "artists": [
+        "Isyana Sarasvati",
+        "DeadSquad"
+      ],
+      "albumTitle": "IL SOGNO (feat. DeadSquad)",
+      "albumBrowseId": "MPREb_ALknSXOHaVL",
+      "duration": "3:38",
+      "durationSeconds": 218,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tzUFDP2b5KfgTtBevuxiI-JMZb3fAEboaiBra5ehWSq9jKQxjjSbDB5WpE6qzaM5xixbCK3CsddeZHUn=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QxuPFGhuajY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=QxuPFGhuajY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "9UO8Xlrl5pY",
+      "songTitle": "Sekali Lagi (from \"Critical Eleven\")",
+      "title": "Sekali Lagi (from \"Critical Eleven\")",
+      "artists": [
+        "Isyana Sarasvati"
+      ],
+      "albumTitle": "Paradox",
+      "albumBrowseId": "MPREb_hJCrHIeBDzr",
+      "duration": "4:38",
+      "durationSeconds": 278,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Xz-Aj3mYK46taic5DaAr270ToYWEVCS6JgTQpuLcSupdnSxNNjKFedCiwCWP5rjcud7V2s8p5Iv4j6tp=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9UO8Xlrl5pY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9UO8Xlrl5pY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "tV3bOlwLRMQ",
+      "songTitle": "Cinta Pertama",
+      "title": "Cinta Pertama",
+      "artists": [
+        "Isyana Sarasvati"
+      ],
+      "albumTitle": "EXPLORE! (Special Edition)",
+      "albumBrowseId": "MPREb_Wwi5tE5l3q8",
+      "duration": "3:02",
+      "durationSeconds": 182,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4maO0FUJ6aMLPrxHxYdCVPBnCyZrwKoaPrjAEf6n8IrBvuTzDu-edwk6EPgZqwIyC0V2DeR_61zMFRze=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tV3bOlwLRMQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tV3bOlwLRMQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "4NaTr8nbdPo",
+      "songTitle": "Ada-Ada Aja (with ISYANATION)",
+      "title": "Ada-Ada Aja (with ISYANATION)",
+      "artists": [
+        "Isyana Sarasvati"
+      ],
+      "albumTitle": "EKLEKTIKO",
+      "albumBrowseId": "MPREb_JsfuqUnbJsj",
+      "duration": "2:09",
+      "durationSeconds": 129,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fSq3uLI4YNueNNI5_0xzH3VO4IR0MWUB-s9oF867rkSJ1TnDP3HANfD1YcUubFPtEh7G5fgOsmugzCc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4NaTr8nbdPo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4NaTr8nbdPo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Kb0Xl3huqUo",
+      "songTitle": "BURN",
+      "title": "BURN",
+      "artists": [
+        "Isyana Sarasvati",
+        "Agt.Widi"
+      ],
+      "albumTitle": "EKLEKTIKO",
+      "albumBrowseId": "MPREb_JsfuqUnbJsj",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fSq3uLI4YNueNNI5_0xzH3VO4IR0MWUB-s9oF867rkSJ1TnDP3HANfD1YcUubFPtEh7G5fgOsmugzCc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Kb0Xl3huqUo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Kb0Xl3huqUo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=aE0r5AVrRG0%2C7XkrplA8hvc%2C7FfL3CmxryE%2C5C4BalQcWbs&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%9D%B4%EC%83%A4%EB%82%98+%EC%82%AC%EB%9D%BC%EC%8A%A4%EB%B0%94%ED%8B%B0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=aE0r5AVrRG0&list=RDAMVMaE0r5AVrRG0",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 이샤나 사라스바티 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 Isyana Sarasvati 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=aE0r5AVrRG0%2C7XkrplA8hvc%2C7FfL3CmxryE%2C5C4BalQcWbs%2CgtLct_3eLco%2CQxuPFGhuajY%2C9UO8Xlrl5pY%2CtV3bOlwLRMQ%2C4NaTr8nbdPo%2CKb0Xl3huqUo&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+Isyana+Sarasvati+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=aE0r5AVrRG0&list=RDAMVMaE0r5AVrRG0"
 }
