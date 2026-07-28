@@ -69,7 +69,6 @@ export default function TimetableWallpaperStudio({
   const frameRef = useRef<HTMLDivElement>(null)
   const sourceRef = useRef<HTMLDivElement>(null)
   const metaRef = useRef<HTMLDivElement>(null)
-  const brandRef = useRef<HTMLParagraphElement>(null)
   const [profileId, setProfileId] = useState<ProfileOptionId>('device')
   const [profile, setProfile] = useState<WallpaperProfile>(() =>
     resolveWallpaperProfile('device'),
@@ -79,6 +78,8 @@ export default function TimetableWallpaperStudio({
   const [showSafeZones, setShowSafeZones] = useState(true)
   const [busy, setBusy] = useState(false)
   const [hexCustomOpen, setHexCustomOpen] = useState(false)
+  const [showFestName, setShowFestName] = useState(false)
+  const [showDayLabel, setShowDayLabel] = useState(false)
   const [scale, setScale] = useState(0.5)
   const [sourceHeight, setSourceHeight] = useState(600)
 
@@ -106,16 +107,13 @@ export default function TimetableWallpaperStudio({
     const frameW = frame.clientWidth
     const frameH = frame.clientHeight
     const metaH = metaRef.current?.offsetHeight ?? 0
-    const brandH = brandRef.current?.offsetHeight ?? 0
-    const padX = 14
-    const gap = 10
-    const safeTop = frameH * profile.safeTopRatio
-    const safeBottom = frameH * profile.safeBottomRatio
+    const padX = 10
+    const padY = 8
     const maxW = frameW - padX * 2
-    const maxH = Math.max(80, frameH - safeTop - safeBottom - metaH - brandH - gap)
+    const maxH = Math.max(80, frameH - padY * 2 - metaH)
 
     setScale(computeWallpaperScale(sw, sh, maxW, maxH))
-  }, [profile])
+  }, [])
 
   const refreshProfileAndPreview = useCallback(() => {
     const nextProfile = resolveWallpaperProfile(profileId)
@@ -158,6 +156,8 @@ export default function TimetableWallpaperStudio({
     profile,
     activeDay?.dayLabel,
     lineupOnDay.length,
+    showFestName,
+    showDayLabel,
     remeasureScale,
   ])
 
@@ -219,11 +219,6 @@ export default function TimetableWallpaperStudio({
         </button>
       </header>
 
-      <p className="wallpaper-studio__hint">
-        메인 화면과 같은 타임테이블을 축소해 가운데 둡니다. 해상도와 배경 톤만 고르면{' '}
-        <strong>{profile.width}×{profile.height}px</strong> PNG로 저장됩니다.
-      </p>
-
       <div ref={stageRef} className="wallpaper-studio__stage">
         <div
           className="wallpaper-studio__preview"
@@ -234,7 +229,7 @@ export default function TimetableWallpaperStudio({
         >
           <div
             ref={frameRef}
-            className={`wallpaper-studio__frame${onDarkBg ? ' wallpaper-studio__frame--on-dark' : ''}`}
+            className={`wallpaper-studio__canvas${onDarkBg ? ' wallpaper-studio__canvas--on-dark' : ''}`}
             style={{
               width: '100%',
               height: '100%',
@@ -242,13 +237,16 @@ export default function TimetableWallpaperStudio({
             }}
           >
             <div className="wallpaper-studio__stack">
-              <div ref={metaRef} className="wallpaper-studio__meta">
-                <p className="wallpaper-studio__fest">{festival.name}</p>
-                <p className="wallpaper-studio__day">{activeDay.dayLabel}</p>
-                {lineupOnDay.length > 0 && (
-                  <p className="wallpaper-studio__lineup">내 라인업 {lineupOnDay.length}팀 강조</p>
-                )}
-              </div>
+              {(showFestName || showDayLabel) && (
+                <div ref={metaRef} className="wallpaper-studio__meta">
+                  {showFestName && (
+                    <p className="wallpaper-studio__fest">{festival.name}</p>
+                  )}
+                  {showDayLabel && (
+                    <p className="wallpaper-studio__day">{activeDay.dayLabel}</p>
+                  )}
+                </div>
+              )}
 
               <div className="wallpaper-studio__fit">
                 <div
@@ -277,10 +275,6 @@ export default function TimetableWallpaperStudio({
                   </div>
                 </div>
               </div>
-
-              <p ref={brandRef} className="wallpaper-studio__brand">
-                FestRecipe
-              </p>
             </div>
           </div>
           {showSafeZones && (
@@ -299,6 +293,27 @@ export default function TimetableWallpaperStudio({
       </div>
 
       <div className="wallpaper-studio__controls">
+        <div className="wallpaper-studio__control">
+          <span className="wallpaper-studio__label">표시 (선택)</span>
+          <div className="wallpaper-studio__toggles" role="group" aria-label="배경화면에 표시할 텍스트">
+            <button
+              type="button"
+              className={`wallpaper-studio__toggle${showFestName ? ' is-on' : ''}`}
+              aria-pressed={showFestName}
+              onClick={() => setShowFestName((v) => !v)}
+            >
+              페스티벌명
+            </button>
+            <button
+              type="button"
+              className={`wallpaper-studio__toggle${showDayLabel ? ' is-on' : ''}`}
+              aria-pressed={showDayLabel}
+              onClick={() => setShowDayLabel((v) => !v)}
+            >
+              날짜
+            </button>
+          </div>
+        </div>
         <div className="wallpaper-studio__control">
           <span className="wallpaper-studio__label">저장 해상도</span>
           <select
@@ -425,10 +440,8 @@ export function TimetableWallpaperEntry({
     <div className="wallpaper-entry">
       <h5 className="wallpaper-entry__title">배경화면 타임테이블</h5>
       <p className="wallpaper-entry__hint">
-        <strong>{activeDay?.dayLabel}</strong> 메인 타임테이블을 그대로 축소해 배경화면으로 저장합니다.
-        {lineupOnDay.length > 0
-          ? ` 내 라인업 ${lineupOnDay.length}팀이 강조됩니다.`
-          : ' ☆로 담은 아티스트가 슬롯에 강조됩니다.'}
+        배경색과 해상도를 고른 뒤 타임테이블만 저장합니다. 페스티벌명·날짜는 편집 화면에서 켤 수 있습니다.
+        {lineupOnDay.length > 0 ? ' 내 라인업 강조는 타임테이블에 반영됩니다.' : ''}
       </p>
       <button type="button" className="btn-secondary wallpaper-entry__btn" onClick={onOpenStudio}>
         배경화면 편집
