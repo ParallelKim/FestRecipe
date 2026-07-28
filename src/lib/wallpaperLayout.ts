@@ -1,31 +1,18 @@
-import type { TimetableSlot } from '../types'
-
-function timeToMinutes(time: string): number {
-  const [hours, minutes] = time.split(':').map(Number)
-  return hours * 60 + minutes
-}
-
-export function timetableMinutesSpan(slots: TimetableSlot[]): number {
-  if (!slots.length) return 60
-  const starts = slots.map((s) => timeToMinutes(s.startTime))
-  const ends = slots.map((s) => timeToMinutes(s.endTime))
-  const start = Math.min(...starts)
-  const end = Math.max(...ends)
-  return Math.max(end - start, 30)
-}
+/** 메인 페스티벌 화면 타임테이블과 동일한 렌더 너비(CSS px). */
+export const MAIN_TIMETABLE_REF_WIDTH = 390
 
 /**
- * 배경화면 프레임 안에서 그리드가 차지할 높이에 맞춘 px/분.
- * 높이를 넘기지 않도록 min 상한을 두지 않고, 하루 전체가 들어가게 한다.
+ * 메인 타임테이블을 배경화면 안에 맞추기 위한 균등 축소 비율.
  */
-export function computeWallpaperPxPerMin(
-  slots: TimetableSlot[],
-  gridAreaHeightPx: number,
-  opts?: { max?: number },
+export function computeWallpaperScale(
+  sourceWidth: number,
+  sourceHeight: number,
+  maxWidth: number,
+  maxHeight: number,
 ): number {
-  const max = opts?.max ?? 1.28
-  const span = timetableMinutesSpan(slots)
-  if (gridAreaHeightPx <= 0 || span <= 0) return 0.65
-  const raw = gridAreaHeightPx / span
-  return Math.min(max, Math.max(0.45, raw))
+  if (sourceWidth <= 0 || sourceHeight <= 0 || maxWidth <= 0 || maxHeight <= 0) {
+    return 1
+  }
+  const s = Math.min(maxWidth / sourceWidth, maxHeight / sourceHeight)
+  return Math.min(1, Math.max(0.18, s))
 }

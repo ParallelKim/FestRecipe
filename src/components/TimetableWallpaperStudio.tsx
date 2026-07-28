@@ -11,11 +11,10 @@ import {
   WALLPAPER_PRESET_PROFILES,
   type WallpaperProfile,
 } from '../lib/wallpaperDevice'
-import { computeWallpaperPxPerMin } from '../lib/wallpaperLayout'
-
-const META_TEXT_PX = 52
-const BRAND_BLOCK_PX = 28
-const FRAME_PADDING_Y = 16
+import {
+  computeWallpaperScale,
+  MAIN_TIMETABLE_REF_WIDTH,
+} from '../lib/wallpaperLayout'
 
 type ProfileOptionId = 'device' | (typeof WALLPAPER_PRESET_PROFILES)[number]['id']
 
@@ -62,6 +61,9 @@ export default function TimetableWallpaperStudio({
 }: TimetableWallpaperStudioProps) {
   const stageRef = useRef<HTMLDivElement>(null)
   const frameRef = useRef<HTMLDivElement>(null)
+  const sourceRef = useRef<HTMLDivElement>(null)
+  const metaRef = useRef<HTMLDivElement>(null)
+  const brandRef = useRef<HTMLParagraphElement>(null)
   const [profileId, setProfileId] = useState<ProfileOptionId>('device')
   const [profile, setProfile] = useState<WallpaperProfile>(() =>
     resolveWallpaperProfile('device'),
@@ -70,6 +72,8 @@ export default function TimetableWallpaperStudio({
   const [bgColor, setBgColor] = useState<string>(WALLPAPER_BG_PRESETS[1].value)
   const [showSafeZones, setShowSafeZones] = useState(true)
   const [busy, setBusy] = useState(false)
+  const [scale, setScale] = useState(0.5)
+  const [sourceHeight, setSourceHeight] = useState(600)
 
   const lineupOnDay = useMemo(
     () => filterMyLineupForDay(myLineupIds, activeDay),
@@ -83,23 +87,28 @@ export default function TimetableWallpaperStudio({
 
   const onDarkBg = isDarkWallpaperBg(bgColor)
 
-  const layout = useMemo(() => {
-    const frameH = previewSize.height
+  const remeasureScale = useCallback(() => {
+    const frame = frameRef.current
+    const source = sourceRef.current
+    if (!frame || !source) return
+
+    const sh = source.scrollHeight
+    const sw = MAIN_TIMETABLE_REF_WIDTH
+    setSourceHeight(sh)
+
+    const frameW = frame.clientWidth
+    const frameH = frame.clientHeight
+    const metaH = metaRef.current?.offsetHeight ?? 0
+    const brandH = brandRef.current?.offsetHeight ?? 0
+    const padX = 14
+    const gap = 10
     const safeTop = frameH * profile.safeTopRatio
     const safeBottom = frameH * profile.safeBottomRatio
-    const gridAreaHeight =
-      frameH -
-      safeTop -
-      safeBottom -
-      META_TEXT_PX -
-      BRAND_BLOCK_PX -
-      FRAME_PADDING_Y
-    const slots = activeDay?.slots ?? []
-    const pxPerMin = computeWallpaperPxPerMin(slots, Math.max(100, gridAreaHeight), {
-      max: 1.15,
-    })
-    return { pxPerMin, safeTop, safeBottom }
-  }, [previewSize.height, profile, activeDay?.slots])
+    const maxW = frameW - padX * 2
+    const maxH = Math.max(80, frameH - safeTop - safeBottom - metaH - brandH - gap)
+
+    setScale(computeWallpaperScale(sw, sh, maxW, maxH))
+  }, [profile])
 
   const refreshProfileAndPreview = useCallback(() => {
     const nextProfile = resolveWallpaperProfile(profileId)
@@ -131,14 +140,33 @@ export default function TimetableWallpaperStudio({
     return () => cancelAnimationFrame(raf)
   }, [open, profileId, activeDay?.dayLabel, refreshProfileAndPreview])
 
+  useLayoutEffect(() => {
+    if (!open) return
+    remeasureScale()
+    const raf = requestAnimationFrame(remeasureScale)
+    return () => cancelAnimationFrame(raf)
+  }, [
+    open,
+    previewSize,
+    profile,
+    activeDay?.dayLabel,
+    lineupOnDay.length,
+    remeasureScale,
+  ])
+
   useEffect(() => {
     if (!open) return
     const stage = stageRef.current
     if (!stage || typeof ResizeObserver === 'undefined') return
-    const ro = new ResizeObserver(() => refreshProfileAndPreview())
+    const ro = new ResizeObserver(() => {
+      refreshProfileAndPreview()
+      remeasureScale()
+    })
     ro.observe(stage)
+    const frame = frameRef.current
+    if (frame) ro.observe(frame)
     return () => ro.disconnect()
-  }, [open, refreshProfileAndPreview])
+  }, [open, refreshProfileAndPreview, remeasureScale])
 
   const handleSave = async () => {
     if (!frameRef.current || !activeDay) return
@@ -160,6 +188,9 @@ export default function TimetableWallpaperStudio({
   const activePresetId =
     WALLPAPER_BG_PRESETS.find((p) => normalizeHex(p.value) === bgNorm)?.id ?? null
 
+  const scaledW = MAIN_TIMETABLE_REF_WIDTH * scale
+  const scaledH = sourceHeight * scale
+
   if (!open || !canUse) return null
 
   return createPortal(
@@ -180,7 +211,7 @@ export default function TimetableWallpaperStudio({
       </header>
 
       <p className="wallpaper-studio__hint">
-        타임테이블은 항상 가운데에 배치됩니다. 해상도와 배경색만 고르면{' '}
+        메인 화면과 같은 타임테이블을 축소해 가운데 둡니다. 해상도와 배경 톤만 고르면{' '}
         <strong>{profile.width}×{profile.height}px</strong> PNG로 저장됩니다.
       </p>
 
@@ -199,31 +230,48 @@ export default function TimetableWallpaperStudio({
               width: '100%',
               height: '100%',
               backgroundColor: bgColor,
-              paddingTop: layout.safeTop,
-              paddingBottom: layout.safeBottom,
             }}
           >
             <div className="wallpaper-studio__stack">
-              <div className="wallpaper-studio__meta">
+              <div ref={metaRef} className="wallpaper-studio__meta">
                 <p className="wallpaper-studio__fest">{festival.name}</p>
                 <p className="wallpaper-studio__day">{activeDay.dayLabel}</p>
                 {lineupOnDay.length > 0 && (
                   <p className="wallpaper-studio__lineup">내 라인업 {lineupOnDay.length}팀 강조</p>
                 )}
               </div>
-              <div className="wallpaper-studio__card">
-                <TimetableGrid
-                  stages={activeDay.stages!}
-                  slots={activeDay.slots!}
-                  artists={artists}
-                  stageStyles={festival.stageStyles}
-                  exportMode
-                  pxPerMin={layout.pxPerMin}
-                  onSlotClick={() => {}}
-                  myLineupArtistIds={lineupOnDay}
-                />
+
+              <div className="wallpaper-studio__fit">
+                <div
+                  className="wallpaper-studio__scale-box"
+                  style={{ width: scaledW, height: scaledH }}
+                >
+                  <div
+                    ref={sourceRef}
+                    className="wallpaper-studio__source"
+                    style={{
+                      width: MAIN_TIMETABLE_REF_WIDTH,
+                      transform: `scale(${scale})`,
+                    }}
+                  >
+                    <div className="timetable-scroll">
+                      <TimetableGrid
+                        stages={activeDay.stages!}
+                        slots={activeDay.slots!}
+                        artists={artists}
+                        stageStyles={festival.stageStyles}
+                        exportMode
+                        onSlotClick={() => {}}
+                        myLineupArtistIds={lineupOnDay}
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
-              <p className="wallpaper-studio__brand">FestRecipe</p>
+
+              <p ref={brandRef} className="wallpaper-studio__brand">
+                FestRecipe
+              </p>
             </div>
           </div>
           {showSafeZones && (
@@ -342,7 +390,7 @@ export function TimetableWallpaperEntry({
     <div className="wallpaper-entry">
       <h5 className="wallpaper-entry__title">배경화면 타임테이블</h5>
       <p className="wallpaper-entry__hint">
-        <strong>{activeDay?.dayLabel}</strong> 타임테이블을 세로 해상도·배경색에 맞춰 가운데 배치해 저장합니다.
+        <strong>{activeDay?.dayLabel}</strong> 메인 타임테이블을 그대로 축소해 배경화면으로 저장합니다.
         {lineupOnDay.length > 0
           ? ` 내 라인업 ${lineupOnDay.length}팀이 강조됩니다.`
           : ' ☆로 담은 아티스트가 슬롯에 강조됩니다.'}
