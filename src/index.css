@@ -101,60 +101,8 @@ body {
 
 /* ─────────────────────────────────────────────────────
    COMPONENT STYLES — Airtable Design System
+   (버튼은 shadcn Button으로 이전됨: src/components/ui/button.tsx)
 ───────────────────────────────────────────────────── */
-
-/* Primary Button (Airtable: button-primary) */
-.btn-primary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  background-color: var(--color-ink);
-  color: var(--color-canvas);
-  font-family: var(--font-body);
-  font-size: var(--text-label-md);
-  font-weight: 500;
-  line-height: 1.4;
-  padding: 14px 24px;
-  border-radius: var(--radius-lg);
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.12s ease, transform 0.1s ease;
-  white-space: nowrap;
-}
-.btn-primary:hover {
-  background-color: var(--color-ink-active);
-}
-.btn-primary:active {
-  transform: scale(0.98);
-  background-color: var(--color-ink-active);
-}
-
-/* Secondary Button (Airtable: button-secondary) */
-.btn-secondary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  background-color: var(--color-canvas);
-  color: var(--color-ink);
-  font-family: var(--font-body);
-  font-size: var(--text-label-md);
-  font-weight: 500;
-  line-height: 1.4;
-  padding: 14px 24px;
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--color-hairline);
-  cursor: pointer;
-  text-decoration: none;
-  transition: border-color 0.12s ease, background-color 0.12s ease;
-  white-space: nowrap;
-}
-.btn-secondary:hover {
-  border-color: var(--color-border-strong);
-  background-color: var(--color-surface-soft);
-}
 
 /* Signature Card — Coral (영희 페스티벌 / 락) */
 .card-coral {

@@ -5,6 +5,7 @@ import type { BundledAnonymousPlaylist } from '../lib/bundlePlaylist'
 import { bundleNoticeCopy } from '../lib/bundlePlaylist'
 import { filterMyLineupForDay } from '../lib/lineupDay'
 import TimetableWallpaperStudio, { TimetableWallpaperEntry } from './TimetableWallpaperStudio'
+import { Button } from '@/components/ui/button'
 
 interface MyLineupPanelProps {
   festival: Festival
@@ -81,13 +82,13 @@ export default function MyLineupPanel({
           <h4 className="playlist-bundle-notice__title">{notice.title}</h4>
           <p className="playlist-bundle-notice__body">{notice.body}</p>
           {onDismissBundleNotice && (
-            <button
-              type="button"
-              className="btn-secondary playlist-bundle-notice__dismiss"
+            <Button
+              variant="outline"
+              className="playlist-bundle-notice__dismiss"
               onClick={onDismissBundleNotice}
             >
               확인
-            </button>
+            </Button>
           )}
         </div>
       )}
@@ -127,14 +128,13 @@ export default function MyLineupPanel({
       </div>
 
       <div className="my-lineup-panel__actions">
-        <button
-          type="button"
-          className="btn-primary my-lineup-panel__btn"
+        <Button
+          className="my-lineup-panel__btn"
           disabled={readyCount === 0 || bundleLoading}
           onClick={onPlayYouTube}
         >
           {bundleLoading ? '여는 중…' : `${dayLabel} YouTube 듣기`}
-        </button>
+        </Button>
       </div>
 
       <TimetableWallpaperEntry

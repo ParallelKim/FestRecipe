@@ -10,6 +10,7 @@ import {
 } from '../lib/bundlePlaylist'
 import PlaylistHubActions from './PlaylistHubActions'
 import MyLineupPanel from './MyLineupPanel'
+import { Button } from '@/components/ui/button'
 
 interface ArtistPlaylistPanelProps {
   festival: Festival
@@ -102,13 +103,13 @@ export default function ArtistPlaylistPanel({
           <h4 className="playlist-bundle-notice__title">{notice.title}</h4>
           <p className="playlist-bundle-notice__body">{notice.body}</p>
           {onDismissBundleNotice && (
-            <button
-              type="button"
-              className="btn-secondary playlist-bundle-notice__dismiss"
+            <Button
+              variant="outline"
+              className="playlist-bundle-notice__dismiss"
               onClick={onDismissBundleNotice}
             >
               확인
-            </button>
+            </Button>
           )}
         </div>
       )}
@@ -146,14 +147,19 @@ export default function ArtistPlaylistPanel({
                   불러오는 중…
                 </div>
               ) : artistPlaylist && artistPlaylist.tracks.length > 0 && artistPlaylistUrl ? (
-                <a
-                  href={artistPlaylistUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary playlist-artist-card__play"
+                <Button
+                  render={
+                    <a
+                      href={artistPlaylistUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    />
+                  }
+                  nativeButton={false}
+                  className="playlist-artist-card__play"
                 >
                   대표곡 {artistPlaylist.songCount}곡 YouTube에서 연속 재생
-                </a>
+                </Button>
               ) : (
                 <p className="playlist-artist-card__pending">플레이리스트 준비 중입니다.</p>
               )}

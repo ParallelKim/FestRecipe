@@ -17,6 +17,7 @@ import {
   MAIN_TIMETABLE_REF_WIDTH,
 } from '../lib/wallpaperLayout'
 import { festivalShortLabel } from '../lib/festivalShortLabel'
+import { Button } from '@/components/ui/button'
 
 type ProfileOptionId = 'device' | (typeof WALLPAPER_PRESET_PROFILES)[number]['id']
 
@@ -211,14 +212,13 @@ export default function TimetableWallpaperStudio({
           닫기
         </button>
         <span className="wallpaper-studio__title">{activeDay.dayLabel} 배경화면</span>
-        <button
-          type="button"
-          className="btn-primary wallpaper-studio__save"
+        <Button
+          className="wallpaper-studio__save"
           disabled={busy}
           onClick={handleSave}
         >
           {busy ? '저장 중…' : 'PNG 저장'}
-        </button>
+        </Button>
       </header>
 
       <div ref={stageRef} className="wallpaper-studio__stage">
@@ -445,9 +445,9 @@ export function TimetableWallpaperEntry({
         배경색과 해상도를 고른 뒤 타임테이블만 저장합니다. 페스티벌명·날짜는 편집 화면에서 켤 수 있습니다.
         {lineupOnDay.length > 0 ? ' 내 라인업 강조는 타임테이블에 반영됩니다.' : ''}
       </p>
-      <button type="button" className="btn-secondary wallpaper-entry__btn" onClick={onOpenStudio}>
+      <Button variant="outline" className="wallpaper-entry__btn" onClick={onOpenStudio}>
         배경화면 편집
-      </button>
+      </Button>
     </div>
   )
 }

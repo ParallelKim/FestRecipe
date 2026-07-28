@@ -3,6 +3,7 @@ import {
   playlistTitleForDay,
   playlistTitleForFestival,
 } from '../lib/youtubePlaylist'
+import { Button } from '@/components/ui/button'
 
 interface PlaylistHubActionsProps {
   festival: Festival
@@ -45,37 +46,36 @@ export default function PlaylistHubActions({
       <p className="playlist-hub__label">플레이리스트 듣기</p>
       <div className="playlist-hub__actions">
         {dayReadyCount > 0 && activeDay && (
-          <button
-            type="button"
-            className="btn-primary playlist-hub__btn"
+          <Button
+            className="playlist-hub__btn"
             disabled={bundleLoading !== null}
             onClick={() => onOpenBundled('day', dayArtistIds, dayPlaylistTitle)}
           >
             {bundleLoading === 'day'
               ? '여는 중…'
               : `${activeDay.dayLabel} 대표곡`}
-          </button>
+          </Button>
         )}
         {festivalReadyCount > 0 && (
-          <button
-            type="button"
-            className="btn-secondary playlist-hub__btn"
+          <Button
+            variant="outline"
+            className="playlist-hub__btn"
             disabled={bundleLoading !== null}
             onClick={() => onOpenBundled('festival', festival.allArtists || [], festivalPlaylistTitle)}
           >
             {bundleLoading === 'festival' ? '여는 중…' : '페스티벌 전체'}
-          </button>
+          </Button>
         )}
         {showMyPlaylist && (
-          <button
-            type="button"
-            className="btn-secondary playlist-hub__btn playlist-hub__btn--mine"
+          <Button
+            variant="outline"
+            className="playlist-hub__btn playlist-hub__btn--mine"
             onClick={onOpenMyPlaylist}
             disabled={!onOpenMyPlaylist}
             title={onOpenMyPlaylist ? '내가 고른 플레이리스트' : '준비 중'}
           >
             {myLineupCount > 0 ? `나만의 (${myLineupCount})` : '나만의 플레이리스트'}
-          </button>
+          </Button>
         )}
       </div>
     </div>
