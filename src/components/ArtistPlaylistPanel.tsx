@@ -177,46 +177,30 @@ export default function ArtistPlaylistPanel({
             <div className="playlist-panel__body">
               <p className="playlist-panel__list-label">대표곡 목록</p>
               <div className="playlist-panel__tracks">
-                {artistPlaylist.tracks.map((track, idx) => {
-                  const startIds = [
-                    ...artistPlaylist.tracks.slice(idx).map((t) => t.videoId),
-                    ...artistPlaylist.tracks.slice(0, idx).map((t) => t.videoId),
-                  ]
-                  const fromHereUrl = buildWatchVideosUrl(startIds, artistPlaylistTitle) || '#'
-
-                  return (
-                    <div key={track.videoId} className="playlist-track">
-                      <span className="playlist-track__num">{idx + 1}</span>
-                      <div className="playlist-track__info">
-                        <div className="playlist-track__title">{track.songTitle}</div>
-                        {track.albumTitle && (
-                          <div className="playlist-track__album">
-                            {track.albumTitle}
-                            {track.year ? ` · ${track.year}` : ''}
-                          </div>
-                        )}
-                      </div>
-                      <div className="playlist-track__actions">
-                        <a
-                          href={track.youtubeUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="playlist-track__btn"
-                        >
-                          YouTube
-                        </a>
-                        <a
-                          href={fromHereUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="playlist-track__btn playlist-track__btn--primary"
-                        >
-                          여기부터
-                        </a>
-                      </div>
+                {artistPlaylist.tracks.map((track, idx) => (
+                  <div key={track.videoId} className="playlist-track">
+                    <span className="playlist-track__num">{idx + 1}</span>
+                    <div className="playlist-track__info">
+                      <div className="playlist-track__title">{track.songTitle}</div>
+                      {track.albumTitle && (
+                        <div className="playlist-track__album">
+                          {track.albumTitle}
+                          {track.year ? ` · ${track.year}` : ''}
+                        </div>
+                      )}
                     </div>
-                  )
-                })}
+                    <div className="playlist-track__actions">
+                      <a
+                        href={track.youtubeUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="playlist-track__btn playlist-track__btn--primary"
+                      >
+                        YouTube
+                      </a>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           ) : !playlistLoading && (!artistPlaylist || artistPlaylist.tracks.length === 0) ? (
