@@ -20,12 +20,17 @@ const FRAME_PADDING_Y = 16
 type ProfileOptionId = 'device' | (typeof WALLPAPER_PRESET_PROFILES)[number]['id']
 
 const WALLPAPER_BG_PRESETS = [
-  { id: 'white', label: '화이트', value: '#ffffff' },
-  { id: 'cream', label: '크림', value: '#f4f3f0' },
-  { id: 'mint', label: '민트', value: '#e8f5f0' },
-  { id: 'ink', label: '다크', value: '#181d26' },
-  { id: 'coral', label: '코랄', value: '#aa2d00' },
+  { id: 'paper', label: '페이퍼', value: '#ffffff' },
+  { id: 'linen', label: '리넨', value: '#f4f3f0' },
+  { id: 'cream', label: '크림', value: '#f5e9d4' },
+  { id: 'fog', label: '포그', value: '#eef1f4' },
+  { id: 'night', label: '나이트', value: '#181d26' },
 ] as const
+
+function normalizeHex(hex: string): string {
+  const m = /^#?([0-9a-f]{6})$/i.exec(hex.trim())
+  return m ? `#${m[1].toLowerCase()}` : hex.toLowerCase()
+}
 
 function isDarkWallpaperBg(hex: string): boolean {
   const m = /^#?([0-9a-f]{6})$/i.exec(hex.trim())
@@ -62,7 +67,7 @@ export default function TimetableWallpaperStudio({
     resolveWallpaperProfile('device'),
   )
   const [previewSize, setPreviewSize] = useState({ width: 320, height: 693 })
-  const [bgColor, setBgColor] = useState<string>(WALLPAPER_BG_PRESETS[0].value)
+  const [bgColor, setBgColor] = useState<string>(WALLPAPER_BG_PRESETS[1].value)
   const [showSafeZones, setShowSafeZones] = useState(true)
   const [busy, setBusy] = useState(false)
 
@@ -90,7 +95,9 @@ export default function TimetableWallpaperStudio({
       BRAND_BLOCK_PX -
       FRAME_PADDING_Y
     const slots = activeDay?.slots ?? []
-    const pxPerMin = computeWallpaperPxPerMin(slots, Math.max(120, gridAreaHeight))
+    const pxPerMin = computeWallpaperPxPerMin(slots, Math.max(100, gridAreaHeight), {
+      max: 1.15,
+    })
     return { pxPerMin, safeTop, safeBottom }
   }, [previewSize.height, profile, activeDay?.slots])
 
@@ -149,6 +156,10 @@ export default function TimetableWallpaperStudio({
     }
   }
 
+  const bgNorm = normalizeHex(bgColor)
+  const activePresetId =
+    WALLPAPER_BG_PRESETS.find((p) => normalizeHex(p.value) === bgNorm)?.id ?? null
+
   if (!open || !canUse) return null
 
   return createPortal(
@@ -200,7 +211,7 @@ export default function TimetableWallpaperStudio({
                   <p className="wallpaper-studio__lineup">내 라인업 {lineupOnDay.length}팀 강조</p>
                 )}
               </div>
-              <div className="wallpaper-studio__grid">
+              <div className="wallpaper-studio__card">
                 <TimetableGrid
                   stages={activeDay.stages!}
                   slots={activeDay.slots!}
@@ -231,8 +242,8 @@ export default function TimetableWallpaperStudio({
       </div>
 
       <div className="wallpaper-studio__controls">
-        <label className="wallpaper-studio__control">
-          <span>저장 해상도</span>
+        <div className="wallpaper-studio__control">
+          <span className="wallpaper-studio__label">저장 해상도</span>
           <select
             className="wallpaper-studio__select"
             value={profileId}
@@ -245,38 +256,52 @@ export default function TimetableWallpaperStudio({
               </option>
             ))}
           </select>
-        </label>
-        <fieldset className="wallpaper-studio__bg-field">
-          <legend className="wallpaper-studio__bg-legend">배경색</legend>
-          <div className="wallpaper-studio__bg-swatches">
+        </div>
+        <div className="wallpaper-studio__control">
+          <span className="wallpaper-studio__label">배경 톤</span>
+          <div className="wallpaper-studio__tones" role="group" aria-label="배경 톤">
             {WALLPAPER_BG_PRESETS.map((preset) => (
               <button
                 key={preset.id}
                 type="button"
-                className={`wallpaper-studio__swatch${bgColor.toLowerCase() === preset.value ? ' is-active' : ''}`}
-                style={{ backgroundColor: preset.value }}
-                aria-label={preset.label}
-                aria-pressed={bgColor.toLowerCase() === preset.value}
+                className={`wallpaper-studio__tone${activePresetId === preset.id ? ' is-active' : ''}`}
+                aria-pressed={activePresetId === preset.id}
                 onClick={() => setBgColor(preset.value)}
-              />
+              >
+                <span
+                  className="wallpaper-studio__tone-swatch"
+                  style={{ backgroundColor: preset.value }}
+                  aria-hidden="true"
+                />
+                {preset.label}
+              </button>
             ))}
-            <label className="wallpaper-studio__color-picker" aria-label="배경색 직접 선택">
+            <label
+              className={`wallpaper-studio__tone wallpaper-studio__tone--custom${!activePresetId ? ' is-active' : ''}`}
+            >
+              <span
+                className="wallpaper-studio__tone-swatch wallpaper-studio__tone-swatch--custom"
+                style={{ backgroundColor: bgColor }}
+                aria-hidden="true"
+              />
+              직접 지정
               <input
                 type="color"
-                value={bgColor}
+                className="wallpaper-studio__tone-color"
+                value={bgNorm.length === 7 ? bgNorm : '#f4f3f0'}
                 onChange={(e) => setBgColor(e.target.value)}
               />
             </label>
           </div>
-        </fieldset>
-        <label className="wallpaper-studio__control wallpaper-studio__control--row">
-          <input
-            type="checkbox"
-            checked={showSafeZones}
-            onChange={(e) => setShowSafeZones(e.target.checked)}
-          />
-          <span>잠금화면 안전 영역 표시</span>
-        </label>
+        </div>
+        <button
+          type="button"
+          className={`wallpaper-studio__safe-toggle${showSafeZones ? ' is-on' : ''}`}
+          aria-pressed={showSafeZones}
+          onClick={() => setShowSafeZones((v) => !v)}
+        >
+          잠금화면 안전 영역 {showSafeZones ? '숨기기' : '보기'}
+        </button>
       </div>
     </div>,
     document.body,

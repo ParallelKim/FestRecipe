@@ -16,15 +16,16 @@ export function timetableMinutesSpan(slots: TimetableSlot[]): number {
 
 /**
  * 배경화면 프레임 안에서 그리드가 차지할 높이에 맞춘 px/분.
+ * 높이를 넘기지 않도록 min 상한을 두지 않고, 하루 전체가 들어가게 한다.
  */
 export function computeWallpaperPxPerMin(
   slots: TimetableSlot[],
   gridAreaHeightPx: number,
-  opts?: { min?: number; max?: number },
+  opts?: { max?: number },
 ): number {
-  const min = opts?.min ?? 0.9
-  const max = opts?.max ?? 2.4
+  const max = opts?.max ?? 1.28
   const span = timetableMinutesSpan(slots)
+  if (gridAreaHeightPx <= 0 || span <= 0) return 0.65
   const raw = gridAreaHeightPx / span
-  return Math.min(max, Math.max(min, raw))
+  return Math.min(max, Math.max(0.45, raw))
 }
