@@ -569,7 +569,7 @@ export default function FestivalDetail() {
           setShowMyLineupEditor(false)
           setBundleNotice(null)
         }}
-        onCloseArtist={() => setSelectedArtist(null)}
+        onCloseArtist={clearArtist}
         {...panelProps}
       />
     </div>
