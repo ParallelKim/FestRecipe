@@ -535,10 +535,6 @@ export default function FestivalDetail() {
                 <p className="lineup-block__hint">슬롯을 눌러 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
                 <div className="timetable-legend" aria-hidden="true">
                   <span className="timetable-legend__item">
-                    <span className="timetable-legend__swatch timetable-legend__swatch--selected" />
-                    지금 선택
-                  </span>
-                  <span className="timetable-legend__item">
                     <span className="timetable-legend__swatch timetable-legend__swatch--lineup" />
                     내 라인업
                   </span>
