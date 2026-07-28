@@ -180,6 +180,11 @@ export interface DayLineup {
 export interface Festival {
   id: string
   name: string
+  /**
+   * 연도·개최지 없이 통하는 짧은 이름 (배경화면 캡션 등).
+   * 예: "펜타포트", "Pentaport"
+   */
+  shortName?: string
   startDate: string
   endDate: string
   location: string

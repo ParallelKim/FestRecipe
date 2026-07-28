@@ -16,6 +16,7 @@ import {
   computeWallpaperScale,
   MAIN_TIMETABLE_REF_WIDTH,
 } from '../lib/wallpaperLayout'
+import { festivalShortLabel } from '../lib/festivalShortLabel'
 
 type ProfileOptionId = 'device' | (typeof WALLPAPER_PRESET_PROFILES)[number]['id']
 
@@ -196,6 +197,7 @@ export default function TimetableWallpaperStudio({
     WALLPAPER_BG_PRESETS.find((p) => normalizeHex(p.value) === bgNorm)?.id ?? null
 
   const pickerHex = useMemo(() => pickerSafeHex(bgColor), [bgColor])
+  const festCaption = festivalShortLabel(festival)
 
   const scaledW = MAIN_TIMETABLE_REF_WIDTH * scale
   const scaledH = sourceHeight * scale
@@ -240,7 +242,7 @@ export default function TimetableWallpaperStudio({
               {(showFestName || showDayLabel) && (
                 <div ref={metaRef} className="wallpaper-studio__meta">
                   {showFestName && (
-                    <p className="wallpaper-studio__fest">{festival.name}</p>
+                    <p className="wallpaper-studio__fest">{festCaption}</p>
                   )}
                   {showDayLabel && (
                     <p className="wallpaper-studio__day">{activeDay.dayLabel}</p>
