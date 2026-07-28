@@ -182,7 +182,7 @@ export interface Festival {
   name: string
   /**
    * 연도·개최지 없이 통하는 짧은 이름 (배경화면 캡션 등).
-   * 예: "펜타포트", "Pentaport"
+   * 예: "PENTAPORT" — 영문 대문자 권장
    */
   shortName?: string
   startDate: string
