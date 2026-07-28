@@ -796,10 +796,14 @@ body {
   cursor: pointer;
   white-space: nowrap;
 }
-.day-tab.is-active {
+.day-tab[data-active] {
   background: var(--color-ink);
   color: var(--color-canvas);
   border-color: var(--color-ink);
+}
+/* shadcn line variant 인디케이터는 FestRecipe 폴더 탭 디자인과 중복 — 숨김 */
+.day-tab::after {
+  display: none;
 }
 
 .lineup-block {
