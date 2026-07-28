@@ -2089,6 +2089,38 @@ body {
   border: 1px solid var(--color-hairline);
   background: var(--color-canvas);
 }
+.wallpaper-studio__picker {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-hairline);
+  background: var(--color-canvas);
+}
+.wallpaper-studio__picker-surface {
+  width: 100% !important;
+  height: 148px !important;
+  border-radius: 12px;
+}
+.wallpaper-studio__picker-surface .react-colorful__saturation {
+  border-radius: 10px 10px 0 0;
+}
+.wallpaper-studio__picker-surface .react-colorful__hue {
+  height: 12px;
+  margin-top: 10px;
+  border-radius: 999px;
+}
+.wallpaper-studio__picker-surface .react-colorful__pointer {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 6px rgba(17, 20, 24, 0.28);
+}
+.wallpaper-studio__picker-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
 .wallpaper-studio__hex-preview {
   width: 32px;
   height: 32px;
@@ -2098,28 +2130,14 @@ body {
 }
 .wallpaper-studio__hex-input {
   flex: 1;
-  min-width: 120px;
+  min-width: 0;
   padding: 9px 11px;
   border-radius: var(--radius-md);
   border: 1px solid var(--color-hairline);
   font-size: 14px;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   background: #fff;
-}
-.wallpaper-studio__hex-apply {
-  flex-shrink: 0;
-  padding: 9px 14px;
-  font-size: 13px;
-}
-.wallpaper-studio__hex-hint {
-  flex: 1 1 100%;
-  margin: 0;
-  font-size: 11px;
-  line-height: 1.45;
-  color: var(--color-muted);
-}
-.wallpaper-studio__hex-hint code {
-  font-size: 10px;
+  color: var(--color-body);
 }
 .wallpaper-studio__safe-toggle {
   width: 100%;

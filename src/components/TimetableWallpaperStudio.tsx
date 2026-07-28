@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
+import { HexColorInput, HexColorPicker } from 'react-colorful'
 import type { Artist, DayLineup, Festival } from '../types'
 import TimetableGrid from './TimetableGrid'
 import { downloadElementPng } from '../lib/captureElementPng'
@@ -31,11 +32,9 @@ function normalizeHex(hex: string): string {
   return m ? `#${m[1].toLowerCase()}` : hex.toLowerCase()
 }
 
-function tryParseHexInput(raw: string): string | null {
-  const t = raw.trim()
-  if (/^#[0-9a-f]{6}$/i.test(t)) return normalizeHex(t)
-  if (/^[0-9a-f]{6}$/i.test(t)) return normalizeHex(`#${t}`)
-  return null
+function pickerSafeHex(hex: string, fallback = '#f4f3f0'): string {
+  const n = normalizeHex(hex)
+  return /^#[0-9a-f]{6}$/.test(n) ? n : fallback
 }
 
 function isDarkWallpaperBg(hex: string): boolean {
@@ -80,7 +79,6 @@ export default function TimetableWallpaperStudio({
   const [showSafeZones, setShowSafeZones] = useState(true)
   const [busy, setBusy] = useState(false)
   const [hexCustomOpen, setHexCustomOpen] = useState(false)
-  const [hexDraft, setHexDraft] = useState('')
   const [scale, setScale] = useState(0.5)
   const [sourceHeight, setSourceHeight] = useState(600)
 
@@ -197,10 +195,7 @@ export default function TimetableWallpaperStudio({
   const activePresetId =
     WALLPAPER_BG_PRESETS.find((p) => normalizeHex(p.value) === bgNorm)?.id ?? null
 
-  const applyHexDraft = () => {
-    const parsed = tryParseHexInput(hexDraft)
-    if (parsed) setBgColor(parsed)
-  }
+  const pickerHex = useMemo(() => pickerSafeHex(bgColor), [bgColor])
 
   const scaledW = MAIN_TIMETABLE_REF_WIDTH * scale
   const scaledH = sourceHeight * scale
@@ -346,11 +341,7 @@ export default function TimetableWallpaperStudio({
               className={`wallpaper-studio__tone${!activePresetId ? ' is-active' : ''}`}
               aria-pressed={!activePresetId}
               onClick={() => {
-                setHexCustomOpen((open) => {
-                  const next = !open
-                  if (next) setHexDraft(activePresetId ? '' : bgNorm)
-                  return next
-                })
+                setHexCustomOpen((open) => !open)
               }}
             >
               <span
@@ -362,37 +353,27 @@ export default function TimetableWallpaperStudio({
             </button>
           </div>
           {hexCustomOpen && (
-            <div className="wallpaper-studio__hex" role="group" aria-label="배경색 HEX">
-              <span
-                className="wallpaper-studio__hex-preview"
-                style={{ backgroundColor: tryParseHexInput(hexDraft) ?? bgColor }}
-                aria-hidden="true"
+            <div className="wallpaper-studio__picker" role="group" aria-label="배경색 선택">
+              <HexColorPicker
+                color={pickerHex}
+                onChange={setBgColor}
+                className="wallpaper-studio__picker-surface"
               />
-              <input
-                type="text"
-                className="wallpaper-studio__hex-input"
-                inputMode="text"
-                autoCapitalize="off"
-                autoCorrect="off"
-                spellCheck={false}
-                placeholder="#f4f3f0"
-                aria-label="HEX 색상 코드"
-                value={hexDraft}
-                onChange={(e) => setHexDraft(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter') applyHexDraft()
-                }}
-              />
-              <button
-                type="button"
-                className="btn-secondary wallpaper-studio__hex-apply"
-                onClick={applyHexDraft}
-              >
-                적용
-              </button>
-              <p className="wallpaper-studio__hex-hint">
-                브라우저 기본 색상 창 없이 HEX만 입력합니다. 예: <code>#181d26</code>
-              </p>
+              <div className="wallpaper-studio__picker-meta">
+                <span
+                  className="wallpaper-studio__hex-preview"
+                  style={{ backgroundColor: pickerHex }}
+                  aria-hidden="true"
+                />
+                <HexColorInput
+                  color={pickerHex}
+                  prefixed
+                  alpha={false}
+                  className="wallpaper-studio__hex-input"
+                  onChange={setBgColor}
+                  aria-label="HEX 색상 코드"
+                />
+              </div>
             </div>
           )}
         </div>
