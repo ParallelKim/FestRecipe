@@ -50,10 +50,9 @@ function daysBetween(fromIso: string, toIso: string): number {
   return Math.round((to - from) / 86_400_000)
 }
 
-/** Nearest upcoming (or currently on) festival for the hero. */
-function closestFestival(festivals: Festival[], today = todayIso()): Festival | null {
-  if (festivals.length === 0) return null
-  const ranked = [...festivals].sort((a, b) => {
+/** List order: ongoing → upcoming (by start) → past (recent first). */
+function sortFestivalsForList(festivals: Festival[], today = todayIso()): Festival[] {
+  return [...festivals].sort((a, b) => {
     const aOngoing = a.startDate <= today && today <= a.endDate
     const bOngoing = b.startDate <= today && today <= b.endDate
     if (aOngoing !== bOngoing) return aOngoing ? -1 : 1
@@ -61,10 +60,14 @@ function closestFestival(festivals: Festival[], today = todayIso()): Festival | 
     const bFuture = b.startDate >= today
     if (aFuture !== bFuture) return aFuture ? -1 : 1
     if (aFuture) return a.startDate.localeCompare(b.startDate)
-    // past: nearest end date first
     return b.endDate.localeCompare(a.endDate)
   })
-  return ranked[0] ?? null
+}
+
+/** Nearest upcoming (or currently on) festival for the hero. */
+function closestFestival(festivals: Festival[], today = todayIso()): Festival | null {
+  const sorted = sortFestivalsForList(festivals, today)
+  return sorted[0] ?? null
 }
 
 /** Hero eyebrow: D-day style countdown to festival start / during / after. */
@@ -118,9 +121,7 @@ export default function Home() {
   const heroImage = featured ? heroImageFor(featured) : null
   const featuredThumb = featured ? festivalThumbnailUrl(featured, 'on-dark') : null
   const ddayLabel = featured ? festivalDdayLabel(featured) : null
-  const otherFestivals = featured
-    ? festivals.filter((f) => f.id !== featured.id)
-    : festivals
+  const allFestivals = sortFestivalsForList(festivals)
 
   return (
     <div className="home-page">
@@ -206,13 +207,17 @@ export default function Home() {
         </div>
       </section>
 
-      {otherFestivals.length > 0 && (
+      {allFestivals.length > 0 && (
       <section className="home-festivals" id="festivals">
         <div className="container">
-          <h2 className="home-festivals__heading">다가오는 페스티벌</h2>
+          <h2 className="home-festivals__heading">페스티벌 목록</h2>
+          <p className="home-festivals__lede">
+            조회 가능한 페스티벌 <strong>{allFestivals.length}</strong>개
+          </p>
           <div className="home-festivals__list">
-            {otherFestivals.map((festival, index) => {
+            {allFestivals.map((festival, index) => {
               const thumb = festivalThumbnailUrl(festival, 'on-light')
+              const listDday = festivalDdayLabel(festival)
               return (
               <motion.article
                 key={festival.id}
@@ -222,7 +227,12 @@ export default function Home() {
                 transition={{ duration: 0.4, delay: 0.08 * index, ease: 'easeOut' }}
               >
                 <div className="home-fest-row__main">
-                  <p className="home-fest-row__eyebrow">{stageLabel(festival)}</p>
+                  <p className="home-fest-row__eyebrow">
+                    {stageLabel(festival)}
+                    <span className="home-fest-row__dday" aria-label={`일정 ${listDday}`}>
+                      {listDday}
+                    </span>
+                  </p>
                   {thumb ? (
                     <div className="home-fest-row__brand">
                       <img
