@@ -131,7 +131,11 @@ export default function TimetableGrid({
               <div
                 key={stageName}
                 className={`tt-grid__col${stageIdx < stages.length - 1 ? ' has-border' : ''}`}
-                style={{ backgroundColor: theme.soft }}
+                style={
+                  {
+                    ['--tt-col-accent' as string]: theme.accent,
+                  } as CSSProperties
+                }
               >
                 {stageSlots.map((slot, index) => {
                   const artist = artistMap.get(slot.artistId)
