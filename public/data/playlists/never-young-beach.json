@@ -2,7 +2,7 @@
   "artistId": "never-young-beach",
   "artistName": "never young beach",
   "englishName": "never young beach",
-  "collectedAt": "2026-07-27T00:58:40.349842+00:00",
+  "collectedAt": "2026-07-28T00:18:33.360985+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.569,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCImTGwk5yoErdqd0T-6OMoQ",
@@ -93,9 +93,114 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=MnN7tTBFbMU",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "T9sXWDVNaAA",
+      "songTitle": "お別れの歌",
+      "title": "お別れの歌",
+      "artists": [
+        "never young beach"
+      ],
+      "albumTitle": "fam fam",
+      "albumBrowseId": "MPREb_D5leYTKkI2J",
+      "duration": "3:14",
+      "durationSeconds": 194,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/J8fm5i4PSibKhHsNtDitv_odc1hHK9BcZbSkKeObackCRZwgvjJe2RmMhcQLVe-8-bUx2Ikt4V82Ug=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T9sXWDVNaAA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=T9sXWDVNaAA",
+      "source": "ytm_songs_popular",
+      "year": "2016",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "LcTWBnFMsCk",
+      "songTitle": "サイダーのように言葉が湧き上がる - Words Bubble Up Like Soda Pop",
+      "title": "サイダーのように言葉が湧き上がる - Words Bubble Up Like Soda Pop",
+      "artists": [
+        "never young beach"
+      ],
+      "albumTitle": "Words Bubble Up Like Soda Pop",
+      "albumBrowseId": "MPREb_NT7uMoJPOT5",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Fu681CTJSs6SxKtBI9AP-mh0dI2EgN-Kd6DUyFX3RhS5rTmfOuDjsibUcYOdVqz_GaS7TLEUIAwstis=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LcTWBnFMsCk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LcTWBnFMsCk",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "-ACoM0JucMk",
+      "songTitle": "らりらりらん - Rarirariran",
+      "title": "らりらりらん - Rarirariran",
+      "artists": [
+        "never young beach"
+      ],
+      "albumTitle": "ARIGATO",
+      "albumBrowseId": "MPREb_xCtekwklKtz",
+      "duration": "2:40",
+      "durationSeconds": 160,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QcfAW7fXrHhDxvjWcfGQMeEaAc85XorzVzta4A0jBBji7D9-xDif4w3-F8w46Fzxt_38fLIwudUzplhGoQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-ACoM0JucMk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-ACoM0JucMk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "nmbBznM4TFc",
+      "songTitle": "帰ろう - Kaerou",
+      "title": "帰ろう - Kaerou",
+      "artists": [
+        "never young beach"
+      ],
+      "albumTitle": "ARIGATO",
+      "albumBrowseId": "MPREb_xCtekwklKtz",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QcfAW7fXrHhDxvjWcfGQMeEaAc85XorzVzta4A0jBBji7D9-xDif4w3-F8w46Fzxt_38fLIwudUzplhGoQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nmbBznM4TFc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nmbBznM4TFc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "BODK9tk5uJU",
+      "songTitle": "どうでもいいけど",
+      "title": "どうでもいいけど",
+      "artists": [
+        "never young beach"
+      ],
+      "albumTitle": "YASHINOKI HOUSE",
+      "albumBrowseId": "MPREb_wwnY4gA4HbZ",
+      "duration": "4:13",
+      "durationSeconds": 253,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4iKyc6LRnD9iXKE6s-COAxLqcI5nELaXlqbOvvaLWw-GU-r73QFChJ3VzYoEoR83FKaLpFXeVFuOtgNl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BODK9tk5uJU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BODK9tk5uJU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "eWGlFyU2Dew",
+      "songTitle": "いつも雨 - Itsumoame",
+      "title": "いつも雨 - Itsumoame",
+      "artists": [
+        "never young beach"
+      ],
+      "albumTitle": "Itsumoame",
+      "albumBrowseId": "MPREb_I8fbub7ghXA",
+      "duration": "4:13",
+      "durationSeconds": 253,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5KaGDEO5PGqKmf1g8OK0uQhAMbVmh2wyWcIW8t_vrHAWm5dykF-qbRCA34bM04p328MYTJI-MxVP_zI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eWGlFyU2Dew",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=eWGlFyU2Dew",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=TxqOtEPzuBM%2ClILzKiiCEOM%2COuxVZV-CRJY%2CMnN7tTBFbMU&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%84%A4%EB%B2%84+%EC%98%81+%EB%B9%84%EC%B9%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=TxqOtEPzuBM&list=RDAMVMTxqOtEPzuBM",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 네버 영 비치 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 never young beach 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=TxqOtEPzuBM%2ClILzKiiCEOM%2COuxVZV-CRJY%2CMnN7tTBFbMU%2CT9sXWDVNaAA%2CLcTWBnFMsCk%2C-ACoM0JucMk%2CnmbBznM4TFc%2CBODK9tk5uJU%2CeWGlFyU2Dew&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+never+young+beach+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=TxqOtEPzuBM&list=RDAMVMTxqOtEPzuBM"
 }

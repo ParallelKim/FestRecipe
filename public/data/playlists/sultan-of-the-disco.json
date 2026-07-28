@@ -2,7 +2,7 @@
   "artistId": "sultan-of-the-disco",
   "artistName": "술탄오브더디스코",
   "englishName": "Sultan Of The Disco",
-  "collectedAt": "2026-07-27T00:58:47.605445+00:00",
+  "collectedAt": "2026-07-28T00:18:44.294086+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.954,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCfY9T6xD-ZNscDnZDEmJQWA",
@@ -111,9 +111,95 @@
       "source": "ytm_songs_popular",
       "year": "2013",
       "releaseType": "single"
+    },
+    {
+      "videoId": "_Z24i2S8tiA",
+      "songTitle": "Magic Prince",
+      "title": "Magic Prince",
+      "artists": [
+        "Sultan Of The Disco"
+      ],
+      "albumTitle": "The Golden Age",
+      "albumBrowseId": "MPREb_BBBNn0qEg4n",
+      "duration": "4:13",
+      "durationSeconds": 253,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mRGpcSDUGjOf4L6SsUetgpX6VwQyowx1yKy2WgzQtbtdP-uFiZO_txUCQUd-rM-Znpoph53dZ4FTjR1u=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_Z24i2S8tiA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_Z24i2S8tiA",
+      "source": "ytm_songs_popular",
+      "year": "2013",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "u11CTv0rdxo",
+      "songTitle": "Suspicious",
+      "title": "Suspicious",
+      "artists": [
+        "Sultan Of The Disco"
+      ],
+      "albumTitle": "The Golden Age",
+      "albumBrowseId": "MPREb_BBBNn0qEg4n",
+      "duration": "3:36",
+      "durationSeconds": 216,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mRGpcSDUGjOf4L6SsUetgpX6VwQyowx1yKy2WgzQtbtdP-uFiZO_txUCQUd-rM-Znpoph53dZ4FTjR1u=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u11CTv0rdxo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=u11CTv0rdxo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "0ViP8yGlq-4",
+      "songTitle": "Tong Bei Quan (feat. Bassagong) (feat. 뱃사공)",
+      "title": "Tong Bei Quan (feat. Bassagong) (feat. 뱃사공)",
+      "artists": [
+        "Sultan Of The Disco"
+      ],
+      "albumTitle": "Aliens",
+      "albumBrowseId": "MPREb_NL6CvMjS6hX",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ze0BPg1DtwYJaG2t_UZNwcVYmmgUbKb_mlqPrdCwYOcjjCQmwNxbmqDn5EAsxPDKvef3FQPRSGNfQ55r=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0ViP8yGlq-4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0ViP8yGlq-4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "UnO1KiPrtIU",
+      "songTitle": "Waiting For Your Calling Back",
+      "title": "Waiting For Your Calling Back",
+      "artists": [
+        "Sultan Of The Disco"
+      ],
+      "albumTitle": "Waiting For Your Calling Back",
+      "albumBrowseId": "MPREb_v9fMmLGXtNc",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mLvpEbljyVZNzXoWr-aamsjtBuQs88XZ-R9kRm_D4rMk6OXNMZUM8pLWXk5TUGR2up48QoJ069sw1-VJ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UnO1KiPrtIU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UnO1KiPrtIU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EhqvnJKm0W8",
+      "songTitle": "Tang Tang Ball",
+      "title": "Tang Tang Ball",
+      "artists": [
+        "Sultan Of The Disco"
+      ],
+      "albumTitle": "Tang Tang Ball",
+      "albumBrowseId": "MPREb_MM6Gbf3S1Ts",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JWOfbKL71hb3I43cMbHMjICuox-LZ5I558RnJvE30fgK8Gt2MK2Lm1S-SPZ0pkASzwc-H5uM89QjQX_6cQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EhqvnJKm0W8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EhqvnJKm0W8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=0JrApoTU4xY%2C7C806FAyPR4%2CG0T88Vp4LYM%2C2NTYplgNwvI%2CllCAbqg8flc&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%88%A0%ED%83%84%EC%98%A4%EB%B8%8C%EB%8D%94%EB%94%94%EC%8A%A4%EC%BD%94+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=0JrApoTU4xY&list=RDAMVM0JrApoTU4xY",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 술탄오브더디스코 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 술탄오브더디스코 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=0JrApoTU4xY%2C7C806FAyPR4%2CG0T88Vp4LYM%2C2NTYplgNwvI%2CllCAbqg8flc%2C_Z24i2S8tiA%2Cu11CTv0rdxo%2C0ViP8yGlq-4%2CUnO1KiPrtIU%2CEhqvnJKm0W8&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%88%A0%ED%83%84%EC%98%A4%EB%B8%8C%EB%8D%94%EB%94%94%EC%8A%A4%EC%BD%94+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=0JrApoTU4xY&list=RDAMVM0JrApoTU4xY"
 }

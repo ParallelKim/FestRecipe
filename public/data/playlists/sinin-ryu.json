@@ -2,7 +2,7 @@
   "artistId": "sinin-ryu",
   "artistName": "신인류",
   "englishName": "Shin In Ryu",
-  "collectedAt": "2026-07-27T00:58:46.501712+00:00",
+  "collectedAt": "2026-07-28T00:18:42.493348+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.138,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UC9S53vzOhZLu2aO_aPTagjQ",
@@ -75,9 +75,130 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=Jb8A4CVG5q8",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "US9WVXktfFE",
+      "songTitle": "Strange and Beautiful",
+      "title": "Strange and Beautiful",
+      "artists": [
+        "Shin In Ryu"
+      ],
+      "albumTitle": "Shining Strike",
+      "albumBrowseId": "MPREb_GbAReI0SL90",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uJ_aB6qYNrpe3c_6cMahjZ_VwcFL543JfCQiUgd79e02rY3j6prRpaAde_XeKZiT0nRtw5WvYSEdfCn5=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=US9WVXktfFE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=US9WVXktfFE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "2q52WPV_kYQ",
+      "songTitle": "Your word",
+      "title": "Your word",
+      "artists": [
+        "Shin In Ryu"
+      ],
+      "albumTitle": "Your word",
+      "albumBrowseId": "MPREb_hXMMR0sD3oC",
+      "duration": "4:15",
+      "durationSeconds": 255,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VnbTC3sNzGEhtedBwRMJjSqpuRhQnfOZdQTMH58bF_BK_uax4UeMUiMwfGm2UKmFTnP_LeL37yshMGlx=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2q52WPV_kYQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2q52WPV_kYQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "PImD_YaR-Jk",
+      "songTitle": "Spotlight (2026 Ver.)",
+      "title": "Spotlight (2026 Ver.)",
+      "artists": [
+        "Shin In Ryu"
+      ],
+      "albumTitle": "Yumi's Cells 3, Pt. 2 (Original Soundtrack)",
+      "albumBrowseId": "MPREb_5bND4QGxvRj",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0Dz2R2YUO04tbsrt9rR_NVxjOhs9Xa6VRlVgtE_txpc4IJV-FKEhhFLlclLK5Ya9qqx2hpwsgtCM23sf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PImD_YaR-Jk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PImD_YaR-Jk",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "lM5rod6YKv0",
+      "songTitle": "작가미정 Undecided",
+      "title": "작가미정 Undecided",
+      "artists": [
+        "신인류 SHIN IN RYU"
+      ],
+      "albumTitle": "멜로가 체질 Be melodramatic OST Part 2",
+      "albumBrowseId": "MPREb_hK7Du9y61Wp",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5xA60Qr3uXBVBq1zqtq3g3eFVyue8M7-uQPXXyte0MnakBhS1Oq6d9laarbCqfVdeb_V_f0G1wCmQQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lM5rod6YKv0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lM5rod6YKv0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "v6We7zutqv8",
+      "songTitle": "Teeth of My Baby",
+      "title": "Teeth of My Baby",
+      "artists": [
+        "Shin In Ryu"
+      ],
+      "albumTitle": "Teeth of My Baby",
+      "albumBrowseId": "MPREb_ONayypPEjdW",
+      "duration": "3:20",
+      "durationSeconds": 200,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6CgBZeDcilYI8SeHZC5LeqKAODShZBaeynJ0yDv7jBC-wzdvyRpW16IA0axofD6b6B2dj83I3C2PfOk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v6We7zutqv8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=v6We7zutqv8",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "g0Fh4bqnPcs",
+      "songTitle": "Fairy Castor (Rainbow ver.)",
+      "title": "Fairy Castor (Rainbow ver.)",
+      "artists": [
+        "Shin In Ryu"
+      ],
+      "albumTitle": "Fairy Castor X Viking",
+      "albumBrowseId": "MPREb_SOMWr8yYp97",
+      "duration": "3:20",
+      "durationSeconds": 200,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/GI51VXqQmZFda5hEDbbd18jHvWK19UwO5beroXT47PKwwFJZKjNGmvJYw7rDPzx1ThRrO6eIblR6YuS9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g0Fh4bqnPcs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=g0Fh4bqnPcs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "TzSUGDraTc4",
+      "songTitle": "Chouchou",
+      "title": "Chouchou",
+      "artists": [
+        "Shin In Ryu"
+      ],
+      "albumTitle": "Chouchou",
+      "albumBrowseId": "MPREb_cDSZV2mYt0o",
+      "duration": "4:11",
+      "durationSeconds": 251,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eyKUDXr1rGHRzRCISAMcZ6ZDw45nya1r6KaMhPmMxj7ooSVmO3z2Pn8xsv4KiF55Ksuy1oarvGJeTQk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TzSUGDraTc4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TzSUGDraTc4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=LF8c7PsLFhQ%2CCNBBZRVF208%2CJb8A4CVG5q8&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%8B%A0%EC%9D%B8%EB%A5%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=LF8c7PsLFhQ&list=RDAMVMLF8c7PsLFhQ",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 신인류 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 신인류 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=LF8c7PsLFhQ%2CCNBBZRVF208%2CJb8A4CVG5q8%2CUS9WVXktfFE%2C2q52WPV_kYQ%2CPImD_YaR-Jk%2ClM5rod6YKv0%2Cv6We7zutqv8%2Cg0Fh4bqnPcs%2CTzSUGDraTc4&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%8B%A0%EC%9D%B8%EB%A5%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=LF8c7PsLFhQ&list=RDAMVMLF8c7PsLFhQ"
 }

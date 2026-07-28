@@ -2,7 +2,7 @@
   "artistId": "noizegarden",
   "artistName": "노이즈가든",
   "englishName": "Noizegarden",
-  "collectedAt": "2026-07-27T00:58:40.627274+00:00",
+  "collectedAt": "2026-07-28T00:18:34.085279+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.615,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCpCZuiWm5B63DITJ7P3WHug",
@@ -96,9 +96,117 @@
       "source": "ytm_songs_popular",
       "year": "2014",
       "releaseType": "album"
+    },
+    {
+      "videoId": "hpmurqEv3yk",
+      "songTitle": "Negative",
+      "title": "Negative",
+      "artists": [
+        "노이즈가든"
+      ],
+      "albumTitle": "'26 demo",
+      "albumBrowseId": "MPREb_fzTDNq4mbyF",
+      "duration": "5:01",
+      "durationSeconds": 301,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_7PATkogG8UP0Q8JW5jLJ_H6FktwHg0fNDRKvUgEd-GcLrrL47EmdhKxKNWe8HfHg9IMupOp8sg_1yeytQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hpmurqEv3yk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=hpmurqEv3yk",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "bYxHW2AhUQU",
+      "songTitle": "Silicon",
+      "title": "Silicon",
+      "artists": [
+        "노이즈가든"
+      ],
+      "albumTitle": "'26 demo",
+      "albumBrowseId": "MPREb_fzTDNq4mbyF",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_7PATkogG8UP0Q8JW5jLJ_H6FktwHg0fNDRKvUgEd-GcLrrL47EmdhKxKNWe8HfHg9IMupOp8sg_1yeytQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bYxHW2AhUQU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bYxHW2AhUQU",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "aRvZ1rkg7J0",
+      "songTitle": "The Beautiful Place",
+      "title": "The Beautiful Place",
+      "artists": [
+        "노이즈가든"
+      ],
+      "albumTitle": "'26 demo",
+      "albumBrowseId": "MPREb_fzTDNq4mbyF",
+      "duration": "5:35",
+      "durationSeconds": 335,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_7PATkogG8UP0Q8JW5jLJ_H6FktwHg0fNDRKvUgEd-GcLrrL47EmdhKxKNWe8HfHg9IMupOp8sg_1yeytQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aRvZ1rkg7J0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=aRvZ1rkg7J0",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "5hQnxgDi1z8",
+      "songTitle": "그렇게말하지않았어",
+      "title": "그렇게말하지않았어",
+      "artists": [
+        "노이즈가든"
+      ],
+      "albumTitle": "1992-1999 2020 Remastered Version",
+      "albumBrowseId": "MPREb_UgrrbT0jeVG",
+      "duration": "4:08",
+      "durationSeconds": 248,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IPoEN4UPp_lIxg6tWC1cd_171IK5qJ-pNgzIpSI6x8S8JjY4H48Qfzctx5vgjvPTOS7x_BlBUQTI9jsyfg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5hQnxgDi1z8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5hQnxgDi1z8",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "8fXHvPUMSeM",
+      "songTitle": "쇼생크탈출",
+      "title": "쇼생크탈출",
+      "artists": [
+        "노이즈가든"
+      ],
+      "albumTitle": "1992-1999 2020 Remastered Version",
+      "albumBrowseId": "MPREb_UgrrbT0jeVG",
+      "duration": "4:41",
+      "durationSeconds": 281,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IPoEN4UPp_lIxg6tWC1cd_171IK5qJ-pNgzIpSI6x8S8JjY4H48Qfzctx5vgjvPTOS7x_BlBUQTI9jsyfg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8fXHvPUMSeM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8fXHvPUMSeM",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "IGU1HVEIRz0",
+      "songTitle": "동정",
+      "title": "동정",
+      "artists": [
+        "노이즈가든"
+      ],
+      "albumTitle": "1992-1999 2020 Remastered Version",
+      "albumBrowseId": "MPREb_UgrrbT0jeVG",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IPoEN4UPp_lIxg6tWC1cd_171IK5qJ-pNgzIpSI6x8S8JjY4H48Qfzctx5vgjvPTOS7x_BlBUQTI9jsyfg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IGU1HVEIRz0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=IGU1HVEIRz0",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Og3SqH8m3kc%2CidXUddmRJCc%2CdL_ddpfBco0%2Ci6x6s3K6U5o&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%85%B8%EC%9D%B4%EC%A6%88%EA%B0%80%EB%93%A0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Og3SqH8m3kc&list=RDAMVMOg3SqH8m3kc",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 노이즈가든 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 노이즈가든 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Og3SqH8m3kc%2CidXUddmRJCc%2CdL_ddpfBco0%2Ci6x6s3K6U5o%2ChpmurqEv3yk%2CbYxHW2AhUQU%2CaRvZ1rkg7J0%2C5hQnxgDi1z8%2C8fXHvPUMSeM%2CIGU1HVEIRz0&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%85%B8%EC%9D%B4%EC%A6%88%EA%B0%80%EB%93%A0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Og3SqH8m3kc&list=RDAMVMOg3SqH8m3kc"
 }

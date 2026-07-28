@@ -2,7 +2,7 @@
   "artistId": "khruangbin",
   "artistName": "KHRUANGBIN",
   "englishName": "Khruangbin",
-  "collectedAt": "2026-07-27T00:58:35.922156+00:00",
+  "collectedAt": "2026-07-28T00:18:27.025009+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.969,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCW2SLxltqPa553qretr4KzQ",
@@ -112,9 +112,95 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=mAUmQgP-ARs",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "H3Mv_A8szqk",
+      "songTitle": "So We Won't Forget",
+      "title": "So We Won't Forget",
+      "artists": [
+        "Khruangbin"
+      ],
+      "albumTitle": "Mordechai",
+      "albumBrowseId": "MPREb_FmGuTRuIC4I",
+      "duration": "4:59",
+      "durationSeconds": 299,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1vjbDZxiM593_U68C9aa2E4uEdapL4TZIB-yzCjL1wo4jAlS62VwCyamvlS2VOJxcGE27pUEM3L_WIFz=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H3Mv_A8szqk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=H3Mv_A8szqk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "GuC8LxULrdQ",
+      "songTitle": "Dearest Alfred",
+      "title": "Dearest Alfred",
+      "artists": [
+        "Khruangbin"
+      ],
+      "albumTitle": "Mordechai",
+      "albumBrowseId": "MPREb_FmGuTRuIC4I",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1vjbDZxiM593_U68C9aa2E4uEdapL4TZIB-yzCjL1wo4jAlS62VwCyamvlS2VOJxcGE27pUEM3L_WIFz=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GuC8LxULrdQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GuC8LxULrdQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "upo8_2NdmRI",
+      "songTitle": "May Ninth",
+      "title": "May Ninth",
+      "artists": [
+        "Khruangbin"
+      ],
+      "albumTitle": "A LA SALA",
+      "albumBrowseId": "MPREb_M0gnOSIbJ3a",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eyxL6gNj3RUjjEyJoWHTejVNU55KNaRWt_Wmiuozik7mSvxhck3uvrn2I5v510GBQoUon_Ga_zRmY2uSmg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=upo8_2NdmRI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=upo8_2NdmRI",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "H_kvg5fV6mw",
+      "songTitle": "Maria También",
+      "title": "Maria También",
+      "artists": [
+        "Khruangbin"
+      ],
+      "albumTitle": "Con Todo El Mundo",
+      "albumBrowseId": "MPREb_eMtJ0gI8aoT",
+      "duration": "3:11",
+      "durationSeconds": 191,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jcz_STQ7XTHffl4PfRY85_rX84g3zeyMiJJb0SGz0uA97_MtpD38l1VXTY9LVDz_22rBfzsoO9tane4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H_kvg5fV6mw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=H_kvg5fV6mw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "5Y0da_fSK8I",
+      "songTitle": "Time (You and I)",
+      "title": "Time (You and I)",
+      "artists": [
+        "Khruangbin"
+      ],
+      "albumTitle": "Mordechai",
+      "albumBrowseId": "MPREb_FmGuTRuIC4I",
+      "duration": "5:43",
+      "durationSeconds": 343,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1vjbDZxiM593_U68C9aa2E4uEdapL4TZIB-yzCjL1wo4jAlS62VwCyamvlS2VOJxcGE27pUEM3L_WIFz=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5Y0da_fSK8I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5Y0da_fSK8I",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VFXR6pUMjUU%2CNA48_XQcuwc%2Cqtz8L-gICzA%2CXBrglpStGbI%2CmAUmQgP-ARs&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%81%AC%EB%A3%A8%EC%95%99%EB%B9%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VFXR6pUMjUU&list=RDAMVMVFXR6pUMjUU",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 크루앙빈 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 KHRUANGBIN 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VFXR6pUMjUU%2CNA48_XQcuwc%2Cqtz8L-gICzA%2CXBrglpStGbI%2CmAUmQgP-ARs%2CH3Mv_A8szqk%2CGuC8LxULrdQ%2Cupo8_2NdmRI%2CH_kvg5fV6mw%2C5Y0da_fSK8I&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+KHRUANGBIN+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VFXR6pUMjUU&list=RDAMVMVFXR6pUMjUU"
 }

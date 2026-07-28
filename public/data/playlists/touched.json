@@ -2,7 +2,7 @@
   "artistId": "touched",
   "artistName": "터치드",
   "englishName": "TOUCHED",
-  "collectedAt": "2026-07-27T00:58:52.487099+00:00",
+  "collectedAt": "2026-07-28T00:18:50.638280+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.708,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCDFHGLpoQ5SotTGUnzm2HFQ",
@@ -92,9 +92,115 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=ojE5ah4_p9c",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "ZlfBhlKXNn4",
+      "songTitle": "Moondance",
+      "title": "Moondance",
+      "artists": [
+        "TOUCHED"
+      ],
+      "albumTitle": "Moondance",
+      "albumBrowseId": "MPREb_G5g5d5vDwUx",
+      "duration": "3:46",
+      "durationSeconds": 226,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/F65h2qRZrKit6sknj3NZP1AW92Gcg10eCvJGaER2ygfZlbz9a5YXPY-T_j6AjWZG361qKiDIeHKvGKBq=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZlfBhlKXNn4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZlfBhlKXNn4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "x3IcrWIcZVM",
+      "songTitle": "Love is Dangerous",
+      "title": "Love is Dangerous",
+      "artists": [
+        "TOUCHED"
+      ],
+      "albumTitle": "Love is Dangerous",
+      "albumBrowseId": "MPREb_GNAy4hfleIh",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7JYrYSc7pTZ-iPx_lWIaaKTlswFQfJ6_j3ymJ1C3_6ggrhlBIr9ywPpfNcm9LLWSocYpVf_WN85CAg8h=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x3IcrWIcZVM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=x3IcrWIcZVM",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "pgEwGdCuw6I",
+      "songTitle": "Shut Down",
+      "title": "Shut Down",
+      "artists": [
+        "TOUCHED"
+      ],
+      "albumTitle": "Yellow Supernova Remnant",
+      "albumBrowseId": "MPREb_XEE1Pv1r3ze",
+      "duration": "4:44",
+      "durationSeconds": 284,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NIxnbkp6HWCehRaFb9u19eeDzAy5EXHigZqmIwSut1wVhxX8q4KhA7f28EarKRtw5pXvHmrrtlrl3QY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pgEwGdCuw6I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pgEwGdCuw6I",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "_PqM-cFJy7Y",
+      "songTitle": "The Dawn Star",
+      "title": "The Dawn Star",
+      "artists": [
+        "TOUCHED"
+      ],
+      "albumTitle": "The Dawn Star",
+      "albumBrowseId": "MPREb_psBNkKLH3A1",
+      "duration": "4:28",
+      "durationSeconds": 268,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WPe9Cjss-cGa97mOyYvZAxC3OZG0a1YzCOgjUDi7SDcHUe3jA-Vcl39psV22NpGdAiyn-rl0HY5egvydPQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_PqM-cFJy7Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_PqM-cFJy7Y",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "xOoXPTId5NQ",
+      "songTitle": "Stand Up!",
+      "title": "Stand Up!",
+      "artists": [
+        "TOUCHED"
+      ],
+      "albumTitle": "Yellow Supernova Remnant",
+      "albumBrowseId": "MPREb_XEE1Pv1r3ze",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NIxnbkp6HWCehRaFb9u19eeDzAy5EXHigZqmIwSut1wVhxX8q4KhA7f28EarKRtw5pXvHmrrtlrl3QY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xOoXPTId5NQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xOoXPTId5NQ",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "oPaZXbUjZVA",
+      "songTitle": "Fireflies",
+      "title": "Fireflies",
+      "artists": [
+        "TOUCHED"
+      ],
+      "albumTitle": "Yellow Supernova Remnant",
+      "albumBrowseId": "MPREb_XEE1Pv1r3ze",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NIxnbkp6HWCehRaFb9u19eeDzAy5EXHigZqmIwSut1wVhxX8q4KhA7f28EarKRtw5pXvHmrrtlrl3QY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oPaZXbUjZVA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=oPaZXbUjZVA",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zEDWt602kgo%2CL5Ba-pp3Qw0%2C7BcyVANDWP4%2CojE5ah4_p9c&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%84%B0%EC%B9%98%EB%93%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zEDWt602kgo&list=RDAMVMzEDWt602kgo",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 터치드 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 터치드 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zEDWt602kgo%2CL5Ba-pp3Qw0%2C7BcyVANDWP4%2CojE5ah4_p9c%2CZlfBhlKXNn4%2Cx3IcrWIcZVM%2CpgEwGdCuw6I%2C_PqM-cFJy7Y%2CxOoXPTId5NQ%2CoPaZXbUjZVA&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%84%B0%EC%B9%98%EB%93%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zEDWt602kgo&list=RDAMVMzEDWt602kgo"
 }

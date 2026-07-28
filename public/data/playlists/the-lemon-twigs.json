@@ -2,7 +2,7 @@
   "artistId": "the-lemon-twigs",
   "artistName": "The Lemon Twigs",
   "englishName": "The Lemon Twigs",
-  "collectedAt": "2026-07-27T00:58:50.651584+00:00",
+  "collectedAt": "2026-07-28T00:18:48.323594+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.815,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UC-kQ5nT06yHT5PmCLgE6c7A",
@@ -26,93 +26,180 @@
   },
   "tracks": [
     {
-      "videoId": "-LilrG8cyH0",
-      "songTitle": "I Just Can't Get Over Losing You",
-      "title": "I Just Can't Get Over Losing You",
+      "videoId": "nOAmaomP83M",
+      "songTitle": "The One",
+      "title": "The One",
       "artists": [
         "The Lemon Twigs"
       ],
-      "albumTitle": "I Just Can't Get Over Losing You",
-      "albumBrowseId": "MPREb_VayV0HJgudF",
-      "duration": "2:08",
-      "durationSeconds": 128,
-      "thumbnailUrl": "https://yt3.googleusercontent.com/YQaOCgm3vx2B74vP40t_bmPJFdRiZFFWfsO6U2trRJoEHzNVg2M6zTVISdcxotroLQdY0aHbokmCYluXQQ=w120-h120-l90-rj",
-      "youtubeUrl": "https://www.youtube.com/watch?v=-LilrG8cyH0",
-      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-LilrG8cyH0",
+      "albumTitle": "Songs for the General Public",
+      "albumBrowseId": "MPREb_B6D5ifwrOTx",
+      "duration": "2:27",
+      "durationSeconds": 147,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/P52u21KpEa92sUk7XdNclgFQFjt7kg4HvpHlugh5T8808qPsdj3vqWFbGt1FuXIw3Y4lp7zEo84z4rY_Hw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nOAmaomP83M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nOAmaomP83M",
       "source": "ytm_songs_popular",
       "releaseType": "song"
     },
     {
-      "videoId": "27a6ngkc4WM",
-      "songTitle": "My Golden Years",
-      "title": "My Golden Years",
+      "videoId": "cRBxe_J1Osk",
+      "songTitle": "I Wanna Prove to You",
+      "title": "I Wanna Prove to You",
       "artists": [
         "The Lemon Twigs"
       ],
-      "albumTitle": "A Dream Is All We Know",
-      "albumBrowseId": "MPREb_xhpSrFgeWhe",
+      "albumTitle": "Do Hollywood",
+      "albumBrowseId": "MPREb_XUgBKYHqvfa",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YY115LRP6Sm-Z24JAFBcVG4q36BUjUh3mpktfFkadaOs1Acy9SPxdn2AYDFnV9QLic9xJzrhGg092eQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cRBxe_J1Osk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cRBxe_J1Osk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "8fRPoI-CDPo",
+      "songTitle": "As Long As We're Together",
+      "title": "As Long As We're Together",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "Do Hollywood",
+      "albumBrowseId": "MPREb_XUgBKYHqvfa",
+      "duration": "5:04",
+      "durationSeconds": 304,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YY115LRP6Sm-Z24JAFBcVG4q36BUjUh3mpktfFkadaOs1Acy9SPxdn2AYDFnV9QLic9xJzrhGg092eQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8fRPoI-CDPo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8fRPoI-CDPo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "rwd-M5CVy-4",
+      "songTitle": "These Words",
+      "title": "These Words",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "Do Hollywood",
+      "albumBrowseId": "MPREb_XUgBKYHqvfa",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YY115LRP6Sm-Z24JAFBcVG4q36BUjUh3mpktfFkadaOs1Acy9SPxdn2AYDFnV9QLic9xJzrhGg092eQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rwd-M5CVy-4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rwd-M5CVy-4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "0KNkYtvAE2k",
+      "songTitle": "No One Holds You (Closer Than The One You Haven't Met)",
+      "title": "No One Holds You (Closer Than The One You Haven't Met)",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "Songs for the General Public",
+      "albumBrowseId": "MPREb_B6D5ifwrOTx",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/P52u21KpEa92sUk7XdNclgFQFjt7kg4HvpHlugh5T8808qPsdj3vqWFbGt1FuXIw3Y4lp7zEo84z4rY_Hw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0KNkYtvAE2k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0KNkYtvAE2k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "OcwXdWPJl1M",
+      "songTitle": "Home of a Heart (The Woods)",
+      "title": "Home of a Heart (The Woods)",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "Go To School",
+      "albumBrowseId": "MPREb_lrZ9BZqPdPS",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/55rw_9u9DfkN1TKwZX1sMP09mViVKi4BeQ-1uP7Suk2iExXsMYZYCeeB_8tmTvtBUpWbt4nD-LJV33M=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OcwXdWPJl1M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OcwXdWPJl1M",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "0uR8-jkY1-E",
+      "songTitle": "Baby, Baby",
+      "title": "Baby, Baby",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "Do Hollywood",
+      "albumBrowseId": "MPREb_XUgBKYHqvfa",
+      "duration": "4:57",
+      "durationSeconds": 297,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YY115LRP6Sm-Z24JAFBcVG4q36BUjUh3mpktfFkadaOs1Acy9SPxdn2AYDFnV9QLic9xJzrhGg092eQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0uR8-jkY1-E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0uR8-jkY1-E",
+      "source": "ytm_songs_popular",
+      "year": "2016",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "hKPtoQwJQ2A",
+      "songTitle": "Small Victories",
+      "title": "Small Victories",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "Go To School",
+      "albumBrowseId": "MPREb_lrZ9BZqPdPS",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/55rw_9u9DfkN1TKwZX1sMP09mViVKi4BeQ-1uP7Suk2iExXsMYZYCeeB_8tmTvtBUpWbt4nD-LJV33M=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hKPtoQwJQ2A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=hKPtoQwJQ2A",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "lm8fw0cp-FU",
+      "songTitle": "The Lesson",
+      "title": "The Lesson",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "Go To School",
+      "albumBrowseId": "MPREb_lrZ9BZqPdPS",
       "duration": "3:14",
       "durationSeconds": 194,
-      "thumbnailUrl": "https://yt3.googleusercontent.com/jGPY--8Vw4f5JavBHI63KGsMI86Dfb7ZP8UDlWbU77eDZd3sW1t-I7pB_yN6Lg3O9AaHKKdqjsy6BZg=w120-h120-l90-rj",
-      "youtubeUrl": "https://www.youtube.com/watch?v=27a6ngkc4WM",
-      "youtubeMusicUrl": "https://music.youtube.com/watch?v=27a6ngkc4WM",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/55rw_9u9DfkN1TKwZX1sMP09mViVKi4BeQ-1uP7Suk2iExXsMYZYCeeB_8tmTvtBUpWbt4nD-LJV33M=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lm8fw0cp-FU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lm8fw0cp-FU",
       "source": "ytm_songs_popular",
-      "releaseType": "song"
-    },
-    {
-      "videoId": "olYjOrYWY7c",
-      "songTitle": "2 or 3",
-      "title": "2 or 3",
-      "artists": [
-        "The Lemon Twigs"
-      ],
-      "albumTitle": "2 or 3",
-      "albumBrowseId": "MPREb_RdlTEYvfPNT",
-      "duration": "3:28",
-      "durationSeconds": 208,
-      "thumbnailUrl": "https://yt3.googleusercontent.com/p8j0M315tEAEjV8Fc1dyVGJu1YcuQjBkIqBJjEvEDAgxX8VyU01nP8UCj3mtiCHYeELImzKXqo2nIMU=w120-h120-l90-rj",
-      "youtubeUrl": "https://www.youtube.com/watch?v=olYjOrYWY7c",
-      "youtubeMusicUrl": "https://music.youtube.com/watch?v=olYjOrYWY7c",
-      "source": "ytm_songs_popular",
-      "releaseType": "song"
-    },
-    {
-      "videoId": "kElemlWjHUs",
-      "songTitle": "Any Time Of Day",
-      "title": "Any Time Of Day",
-      "artists": [
-        "The Lemon Twigs"
-      ],
-      "albumTitle": "Everything Harmony",
-      "albumBrowseId": "MPREb_YAfbKGiYOaY",
-      "duration": "2:52",
-      "durationSeconds": 172,
-      "thumbnailUrl": "https://yt3.googleusercontent.com/5FWIuNF6xURj_2GyU8SdLmPaO6rdxoOnbO0fY0CV5qo39lkz8T6njGRKG4kKKt5mopCkLnSP2aPb4B0=w120-h120-l90-rj",
-      "youtubeUrl": "https://www.youtube.com/watch?v=kElemlWjHUs",
-      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kElemlWjHUs",
-      "source": "ytm_songs_popular",
-      "releaseType": "song"
-    },
-    {
-      "videoId": "8H7lNUdr-CQ",
-      "songTitle": "Look For Your Mind",
-      "title": "Look For Your Mind",
-      "artists": [
-        "The Lemon Twigs"
-      ],
-      "albumTitle": "Look For Your Mind!",
-      "albumBrowseId": "MPREb_Hs4Nn6GryxH",
-      "duration": "2:19",
-      "durationSeconds": 139,
-      "thumbnailUrl": "https://yt3.googleusercontent.com/HAfxYiRHhhI7Q1MQmTkNRgX_RAXyUDD06rHfcU5U8EMqfB3sdUZ4YVM0tGIoDYe84T2jdO3KcM-5h3pwbA=w120-h120-l90-rj",
-      "youtubeUrl": "https://www.youtube.com/watch?v=8H7lNUdr-CQ",
-      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8H7lNUdr-CQ",
-      "source": "ytm_songs_popular",
-      "year": "2026",
+      "year": "2018",
       "releaseType": "album"
+    },
+    {
+      "videoId": "lqWHNUwVDd8",
+      "songTitle": "Foolin' Around",
+      "title": "Foolin' Around",
+      "artists": [
+        "The Lemon Twigs"
+      ],
+      "albumTitle": "Foolin' Around / Tailor Made",
+      "albumBrowseId": "MPREb_3zmiSfEZLDQ",
+      "duration": "2:49",
+      "durationSeconds": 169,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6NsB6QNyXKUUxVhyosaKFzcCVy3Q-ConTak3SfAI9QM8hmU4ZDxzx07hs-jTzE89toJh0Hwyc2kGkUM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lqWHNUwVDd8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lqWHNUwVDd8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-LilrG8cyH0%2C27a6ngkc4WM%2ColYjOrYWY7c%2CkElemlWjHUs%2C8H7lNUdr-CQ&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%8D%94+%EB%A0%88%EB%AA%AC+%ED%8A%B8%EC%9C%85%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-LilrG8cyH0&list=RDAMVM-LilrG8cyH0",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 더 레몬 트윅스 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 The Lemon Twigs 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=nOAmaomP83M%2CcRBxe_J1Osk%2C8fRPoI-CDPo%2Crwd-M5CVy-4%2C0KNkYtvAE2k%2COcwXdWPJl1M%2C0uR8-jkY1-E%2ChKPtoQwJQ2A%2Clm8fw0cp-FU%2ClqWHNUwVDd8&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+The+Lemon+Twigs+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=nOAmaomP83M&list=RDAMVMnOAmaomP83M"
 }

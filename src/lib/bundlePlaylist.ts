@@ -1,5 +1,8 @@
 /**
- * 요일/페스티벌 익명 재생목록(watch_videos) 번들 로직.
+ * 요일/페스티벌/나만의 익명 재생목록(watch_videos) 번들 로직.
+ *
+ * 아티스트 단독 듣기는 playlist JSON의 전체 tracks(보통 YTM 10~20곡).
+ * 번들은 targetSongCount(티어)만큼만 각 아티스트에서 가져온다.
  *
  * 아티스트 인지도 티어 기본 곡 수: high=5 / mid=4 / low=3.
  * 합계가 50을 넘으면 2/3/4 → 1/2/3 으로 다운그레이드하고,
@@ -59,7 +62,13 @@ export function artistInputsFromPlaylists(
   const out: BundleArtistInput[] = []
   for (const pl of playlists) {
     if (!pl?.artistId) continue
-    const videoIds = uniqueVideoIds((pl.tracks || []).map((t) => t.videoId))
+    const bundleLimit =
+      pl.targetSongCount > 0
+        ? pl.targetSongCount
+        : pl.recognition?.songCount ?? pl.tracks?.length ?? 0
+    const videoIds = uniqueVideoIds(
+      (pl.tracks || []).slice(0, bundleLimit).map((t) => t.videoId),
+    )
     if (videoIds.length === 0) continue
     out.push({
       artistId: pl.artistId,

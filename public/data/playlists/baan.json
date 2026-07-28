@@ -2,7 +2,7 @@
   "artistId": "baan",
   "artistName": "baan",
   "englishName": "baan",
-  "collectedAt": "2026-07-27T00:58:25.211575+00:00",
+  "collectedAt": "2026-07-28T00:18:10.142843+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.523,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UC8Iw-WJTyYMWr_Cg0aDyfGA",
@@ -95,9 +95,117 @@
       "source": "ytm_songs_popular",
       "year": "2025",
       "releaseType": "album"
+    },
+    {
+      "videoId": "0XRu6RxsGRI",
+      "songTitle": "Histrionic",
+      "title": "Histrionic",
+      "artists": [
+        "baan"
+      ],
+      "albumTitle": "neumann",
+      "albumBrowseId": "MPREb_TV8vEDmTJUv",
+      "duration": "6:44",
+      "durationSeconds": 404,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MrrqmWDakV_iVklu_tgGoYliz_V5dkaIYe60zwgL5GeM-AhIhGKV33IFjqmp4I1rVYYzmli6vhpOExjaYQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0XRu6RxsGRI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0XRu6RxsGRI",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "rrDEB32O-LE",
+      "songTitle": "Sing a Brave Song 3 씩씩한 노래를 불러라 3",
+      "title": "Sing a Brave Song 3 씩씩한 노래를 불러라 3",
+      "artists": [
+        "baan"
+      ],
+      "albumTitle": "neumann",
+      "albumBrowseId": "MPREb_TV8vEDmTJUv",
+      "duration": "8:27",
+      "durationSeconds": 507,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MrrqmWDakV_iVklu_tgGoYliz_V5dkaIYe60zwgL5GeM-AhIhGKV33IFjqmp4I1rVYYzmli6vhpOExjaYQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rrDEB32O-LE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rrDEB32O-LE",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "K_Oy6fnotr0",
+      "songTitle": "Not Yet",
+      "title": "Not Yet",
+      "artists": [
+        "baan"
+      ],
+      "albumTitle": "neumann",
+      "albumBrowseId": "MPREb_TV8vEDmTJUv",
+      "duration": "6:02",
+      "durationSeconds": 362,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MrrqmWDakV_iVklu_tgGoYliz_V5dkaIYe60zwgL5GeM-AhIhGKV33IFjqmp4I1rVYYzmli6vhpOExjaYQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K_Oy6fnotr0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=K_Oy6fnotr0",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "bCRJ3T2ZWJQ",
+      "songTitle": "Oldman 헌사람 (feat. Asian Glow)",
+      "title": "Oldman 헌사람 (feat. Asian Glow)",
+      "artists": [
+        "baan"
+      ],
+      "albumTitle": "neumann",
+      "albumBrowseId": "MPREb_TV8vEDmTJUv",
+      "duration": "8:30",
+      "durationSeconds": 510,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MrrqmWDakV_iVklu_tgGoYliz_V5dkaIYe60zwgL5GeM-AhIhGKV33IFjqmp4I1rVYYzmli6vhpOExjaYQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bCRJ3T2ZWJQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bCRJ3T2ZWJQ",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "ZHEcBZd5HVU",
+      "songTitle": "Sing a Brave Song 2 씩씩한 노래를 불러라 2",
+      "title": "Sing a Brave Song 2 씩씩한 노래를 불러라 2",
+      "artists": [
+        "baan"
+      ],
+      "albumTitle": "neumann",
+      "albumBrowseId": "MPREb_TV8vEDmTJUv",
+      "duration": "4:47",
+      "durationSeconds": 287,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MrrqmWDakV_iVklu_tgGoYliz_V5dkaIYe60zwgL5GeM-AhIhGKV33IFjqmp4I1rVYYzmli6vhpOExjaYQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZHEcBZd5HVU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZHEcBZd5HVU",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "YV4RUPW1Was",
+      "songTitle": "Naive Dance",
+      "title": "Naive Dance",
+      "artists": [
+        "baan"
+      ],
+      "albumTitle": "to telescope",
+      "albumBrowseId": "MPREb_peckxpbQUF8",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pUtGrDLQb9TzwQJwbGfZaZN-kem8beaBp0su0vfPF6VuNeFHagZdpUcTGuWh3FS_on-bAe_vco1bFtY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YV4RUPW1Was",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YV4RUPW1Was",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=NvIp9Drd_oo%2CykMfy6XYXIY%2CVomyqymIggo%2CV1tkS87WFIs&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+baan+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=NvIp9Drd_oo&list=RDAMVMNvIp9Drd_oo",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 baan 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 baan 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=NvIp9Drd_oo%2CykMfy6XYXIY%2CVomyqymIggo%2CV1tkS87WFIs%2C0XRu6RxsGRI%2CrrDEB32O-LE%2CK_Oy6fnotr0%2CbCRJ3T2ZWJQ%2CZHEcBZd5HVU%2CYV4RUPW1Was&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+baan+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=NvIp9Drd_oo&list=RDAMVMNvIp9Drd_oo"
 }

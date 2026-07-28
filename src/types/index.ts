@@ -108,7 +108,9 @@ export interface ArtistPlaylist {
   source: 'youtube_music'
   selection: string
   recognition: ArtistRecognition
+  /** 아티스트 단독 듣기·목록에 노출되는 곡 수 (YTM 인기순, 보통 ≥10) */
   songCount: number
+  /** 요일·페스티벌·나만의 번들에 넣을 곡 수 (티어 3~5) */
   targetSongCount: number
   tracks: PlaylistTrack[]
   /** YouTube watch_videos 에 넘길 재생목록 표시명 */

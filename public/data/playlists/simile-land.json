@@ -2,7 +2,7 @@
   "artistId": "simile-land",
   "artistName": "심아일랜드",
   "englishName": "SIMILE LAND",
-  "collectedAt": "2026-07-27T00:58:46.050652+00:00",
+  "collectedAt": "2026-07-28T00:18:41.818628+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -11,10 +11,10 @@
     "latestSlotMinutes": 720,
     "latestSlotLabel": "12:00",
     "festivalId": "incheon-pentaport-2026",
-    "rank": 0,
+    "rank": 0.0,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCl5rb_wxAFKn9h73NIxH-Dg",
@@ -75,9 +75,130 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=d0AipfDB5GE",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "stauneiv2Xc",
+      "songTitle": "Hoo! ha..",
+      "title": "Hoo! ha..",
+      "artists": [
+        "SIMILE LAND"
+      ],
+      "albumTitle": "Cheol-Su",
+      "albumBrowseId": "MPREb_SFPfFm0GJ6d",
+      "duration": "4:34",
+      "durationSeconds": 274,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EwXAK7Z4mYMqJ67ReO7zw2i8K3HO0EuMjoaXgQfVz8PK1wn7DU8gs7Y-oAZLOXWtaiTNtNWdTfxoCDUg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=stauneiv2Xc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=stauneiv2Xc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "N8v7AdGjf5k",
+      "songTitle": "quit smoking",
+      "title": "quit smoking",
+      "artists": [
+        "SIMILE LAND"
+      ],
+      "albumTitle": "quit smoking",
+      "albumBrowseId": "MPREb_duOHoyGlUw8",
+      "duration": "3:04",
+      "durationSeconds": 184,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kwTmtj7oOgMCgQJynGy1lnBWIvNu7H_FvQstxgfMftJNqTFuudMO9NsPw3IseKFAksAX3unEtlYgzQzK=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=N8v7AdGjf5k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=N8v7AdGjf5k",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "l9SZYQ_OQWM",
+      "songTitle": "Universe Party",
+      "title": "Universe Party",
+      "artists": [
+        "SIMILE LAND"
+      ],
+      "albumTitle": "Cheol-Su",
+      "albumBrowseId": "MPREb_SFPfFm0GJ6d",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EwXAK7Z4mYMqJ67ReO7zw2i8K3HO0EuMjoaXgQfVz8PK1wn7DU8gs7Y-oAZLOXWtaiTNtNWdTfxoCDUg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=l9SZYQ_OQWM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=l9SZYQ_OQWM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "l83eFWdbfcg",
+      "songTitle": "OhWah!",
+      "title": "OhWah!",
+      "artists": [
+        "SIMILE LAND"
+      ],
+      "albumTitle": "OhWah!",
+      "albumBrowseId": "MPREb_UTesX3mv65B",
+      "duration": "2:47",
+      "durationSeconds": 167,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/sqpRftBOnmsozr0P2iMhCgNFDkAgHXzyI2Ms7JQuVyfppxApe1mp-bHIix0LQvfLYavzK6Nkaghkje9N=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=l83eFWdbfcg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=l83eFWdbfcg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "tcKcETAtbLI",
+      "songTitle": "밑 빠진 독",
+      "title": "밑 빠진 독",
+      "artists": [
+        "SIMILE LAND"
+      ],
+      "albumTitle": "밑 빠진 독",
+      "albumBrowseId": "MPREb_TxhbqFAxj1M",
+      "duration": "4:58",
+      "durationSeconds": 298,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/gnoUpfyjojOm02tNeDyGA8EswiRx1gtUOPM19C3dgiA7FLu5dFhUMlGiBTOSxF1Oju0ORST61wrsYxE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tcKcETAtbLI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tcKcETAtbLI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "YYbLtcq9vuM",
+      "songTitle": "GoGo",
+      "title": "GoGo",
+      "artists": [
+        "SIMILE LAND"
+      ],
+      "albumTitle": "Cheol-Su",
+      "albumBrowseId": "MPREb_SFPfFm0GJ6d",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EwXAK7Z4mYMqJ67ReO7zw2i8K3HO0EuMjoaXgQfVz8PK1wn7DU8gs7Y-oAZLOXWtaiTNtNWdTfxoCDUg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YYbLtcq9vuM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YYbLtcq9vuM",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "8O9UK182VUc",
+      "songTitle": "정신과에 가볼까",
+      "title": "정신과에 가볼까",
+      "artists": [
+        "SIMILE LAND"
+      ],
+      "albumTitle": "Young-Hee",
+      "albumBrowseId": "MPREb_B1wAqQrKwg3",
+      "duration": "3:55",
+      "durationSeconds": 235,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FnuBAjxPoK6G6ZfIfX2aU1E8PPaOFukepoXEr-tInveBTdhTVWzYxFTbN9OOrtnzwFHpwBVlAHWJqPohWQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8O9UK182VUc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8O9UK182VUc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=6WJNzHjReVQ%2CuBhH31k06Bk%2Cd0AipfDB5GE&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%8B%AC%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=6WJNzHjReVQ&list=RDAMVM6WJNzHjReVQ",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 심아일랜드 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 심아일랜드 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=6WJNzHjReVQ%2CuBhH31k06Bk%2Cd0AipfDB5GE%2Cstauneiv2Xc%2CN8v7AdGjf5k%2Cl9SZYQ_OQWM%2Cl83eFWdbfcg%2CtcKcETAtbLI%2CYYbLtcq9vuM%2C8O9UK182VUc&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%8B%AC%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=6WJNzHjReVQ&list=RDAMVM6WJNzHjReVQ"
 }

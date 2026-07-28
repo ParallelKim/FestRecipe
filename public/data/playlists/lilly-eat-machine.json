@@ -2,7 +2,7 @@
   "artistId": "lilly-eat-machine",
   "artistName": "릴리 잇 머신",
   "englishName": "Lilly Eat Machine",
-  "collectedAt": "2026-07-27T00:58:37.703650+00:00",
+  "collectedAt": "2026-07-28T00:18:29.704507+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.062,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 9,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCH41qfbOd2AOzbETVMGnjaw",
@@ -78,9 +78,117 @@
       "source": "ytm_songs_popular",
       "year": "2023",
       "releaseType": "album"
+    },
+    {
+      "videoId": "dDgQPQ0KzNk",
+      "songTitle": "Slumber",
+      "title": "Slumber",
+      "artists": [
+        "릴리 잇 머신"
+      ],
+      "albumTitle": "Eternal Amnesia and Cursed Doomers",
+      "albumBrowseId": "MPREb_mavHagNdhMQ",
+      "duration": "4:09",
+      "durationSeconds": 249,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VFF1Z2TsahVDjKeYEqQncc7iWw8Ev5rHVtVpRwRnfS5DUtzHpz--GAwIwVm6OpmoR7UArsYPPrDZLfMPsA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dDgQPQ0KzNk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dDgQPQ0KzNk",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "CcwXhEPqRWk",
+      "songTitle": "Manchester Destroyed",
+      "title": "Manchester Destroyed",
+      "artists": [
+        "릴리 잇 머신"
+      ],
+      "albumTitle": "Eternal Amnesia and Cursed Doomers",
+      "albumBrowseId": "MPREb_mavHagNdhMQ",
+      "duration": "4:15",
+      "durationSeconds": 255,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VFF1Z2TsahVDjKeYEqQncc7iWw8Ev5rHVtVpRwRnfS5DUtzHpz--GAwIwVm6OpmoR7UArsYPPrDZLfMPsA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CcwXhEPqRWk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CcwXhEPqRWk",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "9mQIW1t_fPs",
+      "songTitle": "God is Love, Love is dead",
+      "title": "God is Love, Love is dead",
+      "artists": [
+        "릴리 잇 머신"
+      ],
+      "albumTitle": "Eternal Amnesia and Cursed Doomers",
+      "albumBrowseId": "MPREb_mavHagNdhMQ",
+      "duration": "3:23",
+      "durationSeconds": 203,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VFF1Z2TsahVDjKeYEqQncc7iWw8Ev5rHVtVpRwRnfS5DUtzHpz--GAwIwVm6OpmoR7UArsYPPrDZLfMPsA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9mQIW1t_fPs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9mQIW1t_fPs",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "p0mWqIECnnA",
+      "songTitle": "Dopamine Boulevard",
+      "title": "Dopamine Boulevard",
+      "artists": [
+        "릴리 잇 머신"
+      ],
+      "albumTitle": "Eternal Amnesia and Cursed Doomers",
+      "albumBrowseId": "MPREb_mavHagNdhMQ",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VFF1Z2TsahVDjKeYEqQncc7iWw8Ev5rHVtVpRwRnfS5DUtzHpz--GAwIwVm6OpmoR7UArsYPPrDZLfMPsA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=p0mWqIECnnA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=p0mWqIECnnA",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "FgVw5FbN4dI",
+      "songTitle": "dentist",
+      "title": "dentist",
+      "artists": [
+        "릴리 잇 머신"
+      ],
+      "albumTitle": "Eternal Amnesia and Cursed Doomers",
+      "albumBrowseId": "MPREb_mavHagNdhMQ",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VFF1Z2TsahVDjKeYEqQncc7iWw8Ev5rHVtVpRwRnfS5DUtzHpz--GAwIwVm6OpmoR7UArsYPPrDZLfMPsA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FgVw5FbN4dI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FgVw5FbN4dI",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "2bSiYl3WEfE",
+      "songTitle": "Swans",
+      "title": "Swans",
+      "artists": [
+        "릴리 잇 머신"
+      ],
+      "albumTitle": "Eternal Amnesia and Cursed Doomers",
+      "albumBrowseId": "MPREb_mavHagNdhMQ",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VFF1Z2TsahVDjKeYEqQncc7iWw8Ev5rHVtVpRwRnfS5DUtzHpz--GAwIwVm6OpmoR7UArsYPPrDZLfMPsA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2bSiYl3WEfE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2bSiYl3WEfE",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=g2uJWwQ1uUg%2C8iHVd4eiDDY%2CwbYKb9RglSM&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A6%B4%EB%A6%AC+%EC%9E%87+%EB%A8%B8%EC%8B%A0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=g2uJWwQ1uUg&list=RDAMVMg2uJWwQ1uUg",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 릴리 잇 머신 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 릴리 잇 머신 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=g2uJWwQ1uUg%2C8iHVd4eiDDY%2CwbYKb9RglSM%2CdDgQPQ0KzNk%2CCcwXhEPqRWk%2C9mQIW1t_fPs%2Cp0mWqIECnnA%2CFgVw5FbN4dI%2C2bSiYl3WEfE&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A6%B4%EB%A6%AC+%EC%9E%87+%EB%A8%B8%EC%8B%A0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=g2uJWwQ1uUg&list=RDAMVMg2uJWwQ1uUg"
 }

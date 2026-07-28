@@ -2,7 +2,7 @@
   "artistId": "yunmachi",
   "artistName": "윤마치",
   "englishName": "MRCH",
-  "collectedAt": "2026-07-27T00:58:54.800955+00:00",
+  "collectedAt": "2026-07-28T00:18:54.038105+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.462,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCRaBisCw9HzGk0cTbvAF-FQ",
@@ -94,9 +94,115 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=0DuHUASEK7I",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "Ojfq3nBKUEs",
+      "songTitle": "Though we have the earth",
+      "title": "Though we have the earth",
+      "artists": [
+        "MRCH"
+      ],
+      "albumTitle": "The Earth",
+      "albumBrowseId": "MPREb_ZFxR1sgWs14",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/R1SAslEAh_SE6LzQhaS2rn1RBIntIozzgAp5ZVAceVdRUfFwhdgPXlo0Xw6d4Ty7HUvRv8DGf2EVK0LuGg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ojfq3nBKUEs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Ojfq3nBKUEs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "yoToubAauOY",
+      "songTitle": "misfit",
+      "title": "misfit",
+      "artists": [
+        "MRCH"
+      ],
+      "albumTitle": "Mutualism",
+      "albumBrowseId": "MPREb_fOEPTr4CS1D",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_Eqo0mOm_siXg-unYclc1OU_jt04j8ZvKnlFiJ7Kr0PnyL-mecm_l7_f3eE2vxalfusrXLP23-Tb7M3x=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yoToubAauOY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=yoToubAauOY",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "RWRhwYDsE44",
+      "songTitle": "Love is a magic",
+      "title": "Love is a magic",
+      "artists": [
+        "MRCH"
+      ],
+      "albumTitle": "LOVE & FEAR",
+      "albumBrowseId": "MPREb_IrO3IAHv8kS",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YWgQ94gT2dhyjV5SxmwnmOgEYIOHK08aTOVfjvA7EN3X3LUge6TEuVLhN-kzVQYAQ9efG44eLXdcm-I=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RWRhwYDsE44",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RWRhwYDsE44",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "FNJvG236HDA",
+      "songTitle": "O",
+      "title": "O",
+      "artists": [
+        "MRCH"
+      ],
+      "albumTitle": "Mutualism",
+      "albumBrowseId": "MPREb_fOEPTr4CS1D",
+      "duration": "3:09",
+      "durationSeconds": 189,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_Eqo0mOm_siXg-unYclc1OU_jt04j8ZvKnlFiJ7Kr0PnyL-mecm_l7_f3eE2vxalfusrXLP23-Tb7M3x=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FNJvG236HDA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FNJvG236HDA",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "RJ3qSwcaI2w",
+      "songTitle": "10/10",
+      "title": "10/10",
+      "artists": [
+        "MRCH"
+      ],
+      "albumTitle": "Mutualism",
+      "albumBrowseId": "MPREb_fOEPTr4CS1D",
+      "duration": "2:48",
+      "durationSeconds": 168,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_Eqo0mOm_siXg-unYclc1OU_jt04j8ZvKnlFiJ7Kr0PnyL-mecm_l7_f3eE2vxalfusrXLP23-Tb7M3x=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RJ3qSwcaI2w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RJ3qSwcaI2w",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "JwZrGnrwoq0",
+      "songTitle": "After work",
+      "title": "After work",
+      "artists": [
+        "MRCH"
+      ],
+      "albumTitle": "See You At Work Tomorrow! (Original Television Soundtrack), Pt. 2",
+      "albumBrowseId": "MPREb_QHo4D0NdbaO",
+      "duration": "2:41",
+      "durationSeconds": 161,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/r0cQJRkbQVXatp_oIwbIWA3k_chaE45E6ry1GrFIEvn2lBqGaMm6DZaHlCM1LB0G2TSQt4SqG_8NrUVR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JwZrGnrwoq0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JwZrGnrwoq0",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=x9IHD81Cm9g%2CzSs8fTx5egs%2C3UJKjYIrmpk%2C0DuHUASEK7I&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%9C%A4%EB%A7%88%EC%B9%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=x9IHD81Cm9g&list=RDAMVMx9IHD81Cm9g",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 윤마치 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 윤마치 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=x9IHD81Cm9g%2CzSs8fTx5egs%2C3UJKjYIrmpk%2C0DuHUASEK7I%2COjfq3nBKUEs%2CyoToubAauOY%2CRWRhwYDsE44%2CFNJvG236HDA%2CRJ3qSwcaI2w%2CJwZrGnrwoq0&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%9C%A4%EB%A7%88%EC%B9%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=x9IHD81Cm9g&list=RDAMVMx9IHD81Cm9g"
 }

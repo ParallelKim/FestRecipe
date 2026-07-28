@@ -4,8 +4,9 @@
 
 인지도(recognition) 규칙:
   - 타임테이블이 있으면 슬롯이 늦을수록 인지도가 높다고 간주
-  - 곡 수: 높음 5곡 / 중간 4곡 / 낮음·미배정 3곡
-  - 타임테이블 없으면 기본 3곡
+  - 번들(요일·전체·나만의) 곡 수: 높음 5 / 중간 4 / 낮음 3
+  - 아티스트 단독 듣기: YTM Songs 인기순 최소 10곡(최대 20곡)
+  - 타임테이블 없으면 번들 기본 3곡
 
 대표곡 선정:
   - YouTube Music 아티스트 Songs 플레이리스트 인기순
@@ -44,12 +45,16 @@ PUBLIC_PLAYLISTS = PROJECT_ROOT / "public" / "data" / "playlists"
 
 LIVE_NOISE = re.compile(r"\b(live|라이브|공연|tour|투어)\b", re.I)
 
-# 상대 순위(늦을수록 높음) 기준 곡 수
+# 상대 순위(늦을수록 높음) 기준 — 요일/페스티벌/나만의 번들에만 사용
 TIER_SONG_COUNTS = {
     "high": 5,    # 상위 25%
     "mid": 4,     # 25~60%
     "low": 3,     # 나머지 또는 타임테이블 없음
 }
+
+# 아티스트 패널·단독 연속 재생용 YTM Songs 인기순
+LISTEN_SONG_MIN = 10
+LISTEN_SONG_MAX = 20
 
 
 def load_json(path: Path):
@@ -231,12 +236,16 @@ def build_playlist_for_artist(
         print(f"  [skip] no ytm browseId for {artist['id']}")
         return None
 
-    song_count = recognition["songCount"]
-    popular = popular_tracks_from_ytm(yt, browse_id, limit=40)
+    bundle_song_count = recognition["songCount"]
+    listen_song_count = min(
+        LISTEN_SONG_MAX,
+        max(bundle_song_count, LISTEN_SONG_MIN),
+    )
+    popular = popular_tracks_from_ytm(yt, browse_id, limit=max(40, listen_song_count + 10))
     popular = enrich_from_releases(popular, releases_path)
-    selected = popular[:song_count]
+    selected = popular[:listen_song_count]
 
-    if len(selected) < song_count:
+    if len(selected) < listen_song_count:
         # fallback: releases.json order preferring songs_playlist then year
         have = {t["videoId"] for t in selected}
         have_titles = {(t.get("songTitle") or t.get("title") or "").strip().lower() for t in selected}
@@ -269,7 +278,7 @@ def build_playlist_for_artist(
             })
             have.add(r["videoId"])
             have_titles.add(title.lower())
-            if len(selected) >= song_count:
+            if len(selected) >= listen_song_count:
                 break
 
     video_ids = [t["videoId"] for t in selected]
@@ -297,7 +306,7 @@ def build_playlist_for_artist(
         "selection": "ytm_songs_popularity",
         "recognition": recognition,
         "songCount": len(selected),
-        "targetSongCount": song_count,
+        "targetSongCount": bundle_song_count,
         "ytmArtist": ytm,
         "tracks": selected,
         "playlistTitle": playlist_title,
@@ -374,8 +383,9 @@ def main():
         "artists": all_ids,
         "tierSongCounts": TIER_SONG_COUNTS,
         "recognitionRule": {
-            "withTimetable": "later slot => higher tier (high=5, mid=4, low=3)",
-            "withoutTimetable": "default low=3",
+            "withTimetable": "later slot => higher tier bundle (high=5, mid=4, low=3)",
+            "withoutTimetable": "default low=3 bundle",
+            "artistListen": f"ytm songs popular min={LISTEN_SONG_MIN} max={LISTEN_SONG_MAX}",
         },
     }
     save_json(PUBLIC_PLAYLISTS / "index.json", index)

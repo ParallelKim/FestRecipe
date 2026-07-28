@@ -2,7 +2,7 @@
   "artistId": "band-nah",
   "artistName": "나상현씨밴드",
   "englishName": "Band Nah",
-  "collectedAt": "2026-07-27T00:58:26.876143+00:00",
+  "collectedAt": "2026-07-28T00:18:12.507006+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.092,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCEuqo6WVMyIa-xN7N85lKhA",
@@ -76,9 +76,132 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=X7i2V2fUjkg",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "wZD-4eLsdYA",
+      "songTitle": "가만히",
+      "title": "가만히",
+      "artists": [
+        "나상현"
+      ],
+      "albumTitle": "스마일",
+      "albumBrowseId": "MPREb_5FzwEotQOnr",
+      "duration": "2:34",
+      "durationSeconds": 154,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KN8sSRF_6mSkBaON2go9Q5TMWor-vq3TLFqBH3holQXzvmoFiAMHCrm4GputvQaUCKf65gWg84XURxs1=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wZD-4eLsdYA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wZD-4eLsdYA",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "b2akeZgF6yA",
+      "songTitle": "Love Love Love",
+      "title": "Love Love Love",
+      "artists": [
+        "Band Nah"
+      ],
+      "albumTitle": "Love Love Love",
+      "albumBrowseId": "MPREb_MJgpjo7ZD97",
+      "duration": "3:34",
+      "durationSeconds": 214,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZfYlFqs9JSv4FpnF9xw6mKWeU510B_ZsahRLKD2EuDIW58RAEv0RsfC9srRI7OIl9F0hZ8dXE5zL4Vw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b2akeZgF6yA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=b2akeZgF6yA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "PmF8vIXFJWc",
+      "songTitle": "I Would Never Cry",
+      "title": "I Would Never Cry",
+      "artists": [
+        "Band Nah"
+      ],
+      "albumTitle": "2021",
+      "albumBrowseId": "MPREb_H9cFea8SAM5",
+      "duration": "2:14",
+      "durationSeconds": 134,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZVku_3Q7FARrfVtfxFAmcVmyYcwpnvffBh9VemLKKDdnzbgF7MxhZE_3vv8rp6PYJtZK5eQoZeDd-bQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PmF8vIXFJWc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PmF8vIXFJWc",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "sHl83BS-SO8",
+      "songTitle": "Festival",
+      "title": "Festival",
+      "artists": [
+        "BAND NAH"
+      ],
+      "albumTitle": "Festival",
+      "albumBrowseId": "MPREb_V5JGhWG5O4D",
+      "duration": "3:10",
+      "durationSeconds": 190,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kaKwfro9G6zemIpUN3vS-_WinjMgrAXoN0DZLBDIe1uLS3DJr0cTxrlngTD_9T__fsFb7Y4e5_z9UUf6=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sHl83BS-SO8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sHl83BS-SO8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "v-1JR3IVeqU",
+      "songTitle": "The Begining Of The End",
+      "title": "The Begining Of The End",
+      "artists": [
+        "Band Nah"
+      ],
+      "albumTitle": "Zanchi",
+      "albumBrowseId": "MPREb_122DZYDs4nx",
+      "duration": "3:36",
+      "durationSeconds": 216,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pYgYQXdOZtSlcv8on4IlCXKyu00PzSnArN6m2QRaEfUoOnNHtIpoQjUfcFqRzRxxIBxPQ7MVQRA_rqgL=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v-1JR3IVeqU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=v-1JR3IVeqU",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "fqvo78Gpxtc",
+      "songTitle": "Road",
+      "title": "Road",
+      "artists": [
+        "BAND NAH"
+      ],
+      "albumTitle": "CLOVER Part 1.5",
+      "albumBrowseId": "MPREb_ptO9H0hFiIe",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/CG0dZnLKrVv4-3zMG-M5sR8QRxYXEHSpbxxU-ZLrOrjlDtOM8Jo9tzfsd5tJg5T7Yi2XP6c_5NFok92vCw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fqvo78Gpxtc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fqvo78Gpxtc",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "ml48z0qCaBc",
+      "songTitle": "CLOVER",
+      "title": "CLOVER",
+      "artists": [
+        "BAND NAH"
+      ],
+      "albumTitle": "CLOVER Part 2.0",
+      "albumBrowseId": "MPREb_hX5ENqlBY8p",
+      "duration": "3:06",
+      "durationSeconds": 186,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XTbjm5avhHb1OrINdsSOdZPPWCDMCwRGku_r_YBT0nqvtuIkelbgLGePP8g4x80mCla6e8UEyGJtRprz=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ml48z0qCaBc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ml48z0qCaBc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=7SrO5NBF-js%2CvIARWPkdHeg%2CX7i2V2fUjkg&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%82%98%EC%83%81%ED%98%84%EC%94%A8%EB%B0%B4%EB%93%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=7SrO5NBF-js&list=RDAMVM7SrO5NBF-js",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 나상현씨밴드 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 나상현씨밴드 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=7SrO5NBF-js%2CvIARWPkdHeg%2CX7i2V2fUjkg%2CwZD-4eLsdYA%2Cb2akeZgF6yA%2CPmF8vIXFJWc%2CsHl83BS-SO8%2Cv-1JR3IVeqU%2Cfqvo78Gpxtc%2Cml48z0qCaBc&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%82%98%EC%83%81%ED%98%84%EC%94%A8%EB%B0%B4%EB%93%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=7SrO5NBF-js&list=RDAMVM7SrO5NBF-js"
 }

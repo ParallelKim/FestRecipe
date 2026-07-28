@@ -2,7 +2,7 @@
   "artistId": "asian-spice-house",
   "artistName": "아시안 스파이스 하우스",
   "englishName": "Asian Spice House",
-  "collectedAt": "2026-07-27T00:58:24.923383+00:00",
+  "collectedAt": "2026-07-28T00:18:09.453538+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.662,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCG_JNJ2XMfmf2wl4iv8ayUg",
@@ -93,9 +93,114 @@
       "source": "ytm_songs_popular",
       "year": "2026",
       "releaseType": "album"
+    },
+    {
+      "videoId": "cp6jfcHTbUk",
+      "songTitle": "Umbh",
+      "title": "Umbh",
+      "artists": [
+        "Asian Spice House"
+      ],
+      "albumTitle": "Umbh",
+      "albumBrowseId": "MPREb_GGNJVdJcww9",
+      "duration": "4:57",
+      "durationSeconds": 297,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NS6wumpbw2-mBQN7ulQncjzk0RGN2-cPOVDfWHP36hO0wTmX3nPohO_OQlNe0hrRDg0139XMCXJ5CXYR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cp6jfcHTbUk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cp6jfcHTbUk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "4l3r8X3kT_o",
+      "songTitle": "My Show Must Go On",
+      "title": "My Show Must Go On",
+      "artists": [
+        "Asian Spice House"
+      ],
+      "albumTitle": "나불행행 (Dukkha)",
+      "albumBrowseId": "MPREb_Iu7j1nXPRdr",
+      "duration": "4:38",
+      "durationSeconds": 278,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/daL3aq4FFqwTBv_BtmQILLTfAOdEBeRndUsyKK7l-8tdsXOFgus4KQNNhtzcwSdaMIDprWfl1JPNO4Gw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4l3r8X3kT_o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4l3r8X3kT_o",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "M2hYDHFDQDg",
+      "songTitle": "양탄자의 신인들",
+      "title": "양탄자의 신인들",
+      "artists": [
+        "Asian Spice House"
+      ],
+      "albumTitle": "양탄자의 신인들",
+      "albumBrowseId": "MPREb_oVIEIojtXBm",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/s4g5XajqIk7__dlwBPyboKz0Sr2zCspGqWTJ0zyZge14mfa_bT7qAQMgQksP48AR281bqXXcQ3HsGdmn=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M2hYDHFDQDg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=M2hYDHFDQDg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "cdMOyXpWuVQ",
+      "songTitle": "Ash",
+      "title": "Ash",
+      "artists": [
+        "Asian Spice House"
+      ],
+      "albumTitle": "Ash",
+      "albumBrowseId": "MPREb_L78x8TOA17s",
+      "duration": "5:16",
+      "durationSeconds": 316,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TAl_lhzt73dwMmMCMQ2dK1DCPB-NUuU4dkpAZyjCHt8eiygT5-yDRj7VyeAwKnHFKrHADJDPhrI4ICI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cdMOyXpWuVQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cdMOyXpWuVQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "CVYydWaE46Q",
+      "songTitle": "Goyo",
+      "title": "Goyo",
+      "artists": [
+        "Asian Spice House (아시안 스파이스 하우스)"
+      ],
+      "albumTitle": "Cosmic Rowers",
+      "albumBrowseId": "MPREb_O6xGj0k67qE",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/U3sFvrolxS7Q06inJ7WW5iY6_OknXpxuPDKL9fUkJI3X69PxHYS_ypko6hVxLDoJrUVPKl7anWS4bUA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CVYydWaE46Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CVYydWaE46Q",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "CyS0_bPxBXc",
+      "songTitle": "타의 100, 자의 0 (Intro)",
+      "title": "타의 100, 자의 0 (Intro)",
+      "artists": [
+        "Asian Spice House"
+      ],
+      "albumTitle": "나불행행 (Dukkha)",
+      "albumBrowseId": "MPREb_Iu7j1nXPRdr",
+      "duration": "2:13",
+      "durationSeconds": 133,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/daL3aq4FFqwTBv_BtmQILLTfAOdEBeRndUsyKK7l-8tdsXOFgus4KQNNhtzcwSdaMIDprWfl1JPNO4Gw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CyS0_bPxBXc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CyS0_bPxBXc",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=N01QdcBFEJo%2CNy0CmXrGm68%2Ca7cy3boS58s%2CHpesuka9VKU&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%95%84%EC%8B%9C%EC%95%88+%EC%8A%A4%ED%8C%8C%EC%9D%B4%EC%8A%A4+%ED%95%98%EC%9A%B0%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=N01QdcBFEJo&list=RDAMVMN01QdcBFEJo",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 아시안 스파이스 하우스 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 아시안 스파이스 하우스 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=N01QdcBFEJo%2CNy0CmXrGm68%2Ca7cy3boS58s%2CHpesuka9VKU%2Ccp6jfcHTbUk%2C4l3r8X3kT_o%2CM2hYDHFDQDg%2CcdMOyXpWuVQ%2CCVYydWaE46Q%2CCyS0_bPxBXc&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%95%84%EC%8B%9C%EC%95%88+%EC%8A%A4%ED%8C%8C%EC%9D%B4%EC%8A%A4+%ED%95%98%EC%9A%B0%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=N01QdcBFEJo&list=RDAMVMN01QdcBFEJo"
 }

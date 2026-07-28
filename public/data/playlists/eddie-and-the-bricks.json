@@ -2,7 +2,7 @@
   "artistId": "eddie-and-the-bricks",
   "artistName": "Eddie and the Bricks",
   "englishName": "Eddie and the Bricks",
-  "collectedAt": "2026-07-27T00:58:30.796840+00:00",
+  "collectedAt": "2026-07-28T00:18:19.259904+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.077,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCifeWgd6U6Y8FTQ5Xwd3GmQ",
@@ -77,9 +77,133 @@
       "source": "ytm_songs_popular",
       "year": "2026",
       "releaseType": "single"
+    },
+    {
+      "videoId": "4MMG3_8C_EI",
+      "songTitle": "Pause (Instrumental)",
+      "title": "Pause (Instrumental)",
+      "artists": [
+        "Eddie and the Bricks"
+      ],
+      "albumTitle": "EXchange3, Pt. 3 (Original Soundtrack)",
+      "albumBrowseId": "MPREb_btL3rF1URUV",
+      "duration": "2:50",
+      "durationSeconds": 170,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/m0dG_mwrmgq1pkC_MnXi6Xbs5PSVTXLv8pVgcAgMkJo06b6UJZC3UxrXuPdQWcXaqzCJGd-dk9vPuy27=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4MMG3_8C_EI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4MMG3_8C_EI",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "M3NzxhZphps",
+      "songTitle": "Seoul",
+      "title": "Seoul",
+      "artists": [
+        "Eddie and the Bricks"
+      ],
+      "albumTitle": "bright #13",
+      "albumBrowseId": "MPREb_THvBQCE6v5U",
+      "duration": "2:27",
+      "durationSeconds": 147,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/glnYvpqIlNIMWmycPqeB5kt-ykWl95pVE1hTvX0usbW_T9767n5fmWQ-3RKb4oaBo2itiu_GPvLZ4kgBAg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M3NzxhZphps",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=M3NzxhZphps",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "_AAUMzzfPLE",
+      "songTitle": "Kohee",
+      "title": "Kohee",
+      "artists": [
+        "Eddie and the Bricks"
+      ],
+      "albumTitle": "Ms. Summer",
+      "albumBrowseId": "MPREb_kPom8J8Ciso",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZSVnzXA12GzyUnr6jE3x4kFpmQgdgCrwNZViPoS8LVH-Jyom58e1cjuZ10p6TPq23crrYlrwGVQlWOm9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_AAUMzzfPLE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_AAUMzzfPLE",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "Bzj4uGNRUpU",
+      "songTitle": "Glee",
+      "title": "Glee",
+      "artists": [
+        "Eddie and the Bricks"
+      ],
+      "albumTitle": "Ms. Summer",
+      "albumBrowseId": "MPREb_kPom8J8Ciso",
+      "duration": "3:02",
+      "durationSeconds": 182,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZSVnzXA12GzyUnr6jE3x4kFpmQgdgCrwNZViPoS8LVH-Jyom58e1cjuZ10p6TPq23crrYlrwGVQlWOm9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Bzj4uGNRUpU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Bzj4uGNRUpU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "b7wVC8HoSl8",
+      "songTitle": "With Me",
+      "title": "With Me",
+      "artists": [
+        "Eddie and the Bricks"
+      ],
+      "albumTitle": "Ms. Summer",
+      "albumBrowseId": "MPREb_kPom8J8Ciso",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZSVnzXA12GzyUnr6jE3x4kFpmQgdgCrwNZViPoS8LVH-Jyom58e1cjuZ10p6TPq23crrYlrwGVQlWOm9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b7wVC8HoSl8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=b7wVC8HoSl8",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "bURratwXEqI",
+      "songTitle": "Together",
+      "title": "Together",
+      "artists": [
+        "onthedal"
+      ],
+      "albumTitle": "EXchange3, Pt. 3 (Original Soundtrack)",
+      "albumBrowseId": "MPREb_btL3rF1URUV",
+      "year": "2024",
+      "releaseType": "single",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/m0dG_mwrmgq1pkC_MnXi6Xbs5PSVTXLv8pVgcAgMkJo06b6UJZC3UxrXuPdQWcXaqzCJGd-dk9vPuy27=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bURratwXEqI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bURratwXEqI",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "JOf7wi51tb4",
+      "songTitle": "Sunset",
+      "title": "Sunset",
+      "artists": [
+        "soo"
+      ],
+      "albumTitle": "EXchange3, Pt. 3 (Original Soundtrack)",
+      "albumBrowseId": "MPREb_btL3rF1URUV",
+      "year": "2024",
+      "releaseType": "single",
+      "duration": "2:54",
+      "durationSeconds": 174,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/m0dG_mwrmgq1pkC_MnXi6Xbs5PSVTXLv8pVgcAgMkJo06b6UJZC3UxrXuPdQWcXaqzCJGd-dk9vPuy27=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JOf7wi51tb4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JOf7wi51tb4",
+      "source": "releases_fallback"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GfGDZUURka4%2CZLSlsY4k0NU%2CneGfCcqVLHA&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%97%90%EB%94%94+%EC%95%A4+%EB%8D%94+%EB%B8%8C%EB%A6%AD%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GfGDZUURka4&list=RDAMVMGfGDZUURka4",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 에디 앤 더 브릭스 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 Eddie and the Bricks 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GfGDZUURka4%2CZLSlsY4k0NU%2CneGfCcqVLHA%2C4MMG3_8C_EI%2CM3NzxhZphps%2C_AAUMzzfPLE%2CBzj4uGNRUpU%2Cb7wVC8HoSl8%2CbURratwXEqI%2CJOf7wi51tb4&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+Eddie+and+the+Bricks+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GfGDZUURka4&list=RDAMVMGfGDZUURka4"
 }

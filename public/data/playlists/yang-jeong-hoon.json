@@ -2,7 +2,7 @@
   "artistId": "yang-jeong-hoon",
   "artistName": "양정훈",
   "englishName": "YANG JEONG HOON",
-  "collectedAt": "2026-07-27T00:58:54.208258+00:00",
+  "collectedAt": "2026-07-28T00:18:53.279935+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.308,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCYOoZe9eBXaGA3M4hmqkpDg",
@@ -78,9 +78,131 @@
       "source": "ytm_songs_popular",
       "year": "2026",
       "releaseType": "single"
+    },
+    {
+      "videoId": "snbew1R8uPY",
+      "songTitle": "Two of Us",
+      "title": "Two of Us",
+      "artists": [
+        "양정훈"
+      ],
+      "albumTitle": "Two of Us",
+      "albumBrowseId": "MPREb_irQ6Zg0AV2Y",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZROJwXVEtZ6MdfdKx8JSut4buGDpng4-l_vU2LwR6WVqOjpcf98zzdzKym2woaxIWt0GIqu1kTSCcdA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=snbew1R8uPY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=snbew1R8uPY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qiVBrO9NNEw",
+      "songTitle": "오래된 친구야",
+      "title": "오래된 친구야",
+      "artists": [
+        "양정훈"
+      ],
+      "albumTitle": "오래된 친구야",
+      "albumBrowseId": "MPREb_mzRKHXQ3NYE",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1nFhh6RqmkWiizTchnUPPTqwk3EeQ6LI32weVCayWDhx5ARXaXWvkdd_L-W6vFXHzG9upoVp9J-tIHU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qiVBrO9NNEw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qiVBrO9NNEw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "p5PuJ7VqzJI",
+      "songTitle": "넌 봄, 내 봄",
+      "title": "넌 봄, 내 봄",
+      "artists": [
+        "양정훈"
+      ],
+      "albumTitle": "RAINBOW STATION Episode.9",
+      "albumBrowseId": "MPREb_3gxhDRa5cg2",
+      "duration": "2:39",
+      "durationSeconds": 159,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BGNJKabjvmfQYLd7E7MDyS31VV4HBoVtvgeQ848lnX106a8M2ycuxhgeRuwQljKjUXBdQOGaqQHrYBL5Qg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=p5PuJ7VqzJI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=p5PuJ7VqzJI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Su9qrm_tmeM",
+      "songTitle": "Still Shining",
+      "title": "Still Shining",
+      "artists": [
+        "양정훈"
+      ],
+      "albumTitle": "Scars Into Stars",
+      "albumBrowseId": "MPREb_8mhDAN4h5Me",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nTfROTDCtdk-lk8Mb0p9YmLmPqhfFkaONlKpq2U25lWedQdHropCpPFyoEJkoy0P0vtcZUTk9VT0AEuG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Su9qrm_tmeM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Su9qrm_tmeM",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "1SkJNk6ZmrU",
+      "songTitle": "Spring Sneeze",
+      "title": "Spring Sneeze",
+      "artists": [
+        "양정훈"
+      ],
+      "albumTitle": "Spring Sneeze",
+      "albumBrowseId": "MPREb_7sTin0ynriZ",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ywtdfYT46HEaI5GYCwmNqbeZNlpQDMAHrbgvhJJVUJRR_C4f55lIVBex-5wL2i2iOUZVU6GBKMOFWpZ0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1SkJNk6ZmrU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1SkJNk6ZmrU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "gOekx6VYc5k",
+      "songTitle": "Silent Tears at Night",
+      "title": "Silent Tears at Night",
+      "artists": [
+        "Yang Jeong Hoon"
+      ],
+      "albumTitle": "Silent Tears at Night (Yang Jeong Hoon X Forest Notes)",
+      "albumBrowseId": "MPREb_XNMT3XthHQd",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kxPk2BjV5eEvMx6FXwseAJeyHdRI-18VknHgg-API7n-dCGglikKllcBFpFibgubSQCVNrAhQIMzHY-DXQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gOekx6VYc5k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gOekx6VYc5k",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "Zk4dwPgWY_c",
+      "songTitle": "My Honest Heart",
+      "title": "My Honest Heart",
+      "artists": [
+        "양정훈"
+      ],
+      "albumTitle": "Love Interference 2024 OST Part.8",
+      "albumBrowseId": "MPREb_eV7VDgt514X",
+      "duration": "3:11",
+      "durationSeconds": 191,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/d5XnbB5JXojgmJYUvFQsEo-gUopfgClybr95NnOYafbjj8ClS-sgRtP6WarA9a0wf424c_Lf375tELg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Zk4dwPgWY_c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Zk4dwPgWY_c",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=KPt3dP8TnU4%2CqlkWZHc8mW4%2CaotykwCbqPc&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%96%91%EC%A0%95%ED%9B%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=KPt3dP8TnU4&list=RDAMVMKPt3dP8TnU4",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 양정훈 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 양정훈 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=KPt3dP8TnU4%2CqlkWZHc8mW4%2CaotykwCbqPc%2Csnbew1R8uPY%2CqiVBrO9NNEw%2Cp5PuJ7VqzJI%2CSu9qrm_tmeM%2C1SkJNk6ZmrU%2CgOekx6VYc5k%2CZk4dwPgWY_c&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%96%91%EC%A0%95%ED%9B%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=KPt3dP8TnU4&list=RDAMVMKPt3dP8TnU4"
 }

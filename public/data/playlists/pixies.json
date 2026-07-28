@@ -2,7 +2,7 @@
   "artistId": "pixies",
   "artistName": "PIXIES",
   "englishName": "PIXIES",
-  "collectedAt": "2026-07-27T00:58:43.032851+00:00",
+  "collectedAt": "2026-07-28T00:18:37.470308+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -11,10 +11,10 @@
     "latestSlotMinutes": 1360,
     "latestSlotLabel": "22:40",
     "festivalId": "incheon-pentaport-2026",
-    "rank": 1,
+    "rank": 1.0,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCRt5ckI8kNVMFr-jyj1IIVg",
@@ -110,9 +110,97 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=qr3tLhF75XQ",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "SHUb-xQMTOI",
+      "songTitle": "Monkey Gone to Heaven",
+      "title": "Monkey Gone to Heaven",
+      "artists": [
+        "Pixies"
+      ],
+      "albumTitle": "Doolittle",
+      "albumBrowseId": "MPREb_chb7xdBVmOZ",
+      "duration": "2:56",
+      "durationSeconds": 176,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/xiDNWIqv4mEebzY-NrENlQvdp5bK915RCWmTAzwNW6ZmBAeRd4cfzd_hKG1S0D6ELdK6N5bUuYbHN1fT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SHUb-xQMTOI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SHUb-xQMTOI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "JtPilUYTdHc",
+      "songTitle": "I've Been Waiting For You",
+      "title": "I've Been Waiting For You",
+      "artists": [
+        "Pixies"
+      ],
+      "albumTitle": "Velouria",
+      "albumBrowseId": "MPREb_ShGpG1oaV05",
+      "duration": "2:46",
+      "durationSeconds": 166,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/s7UaMUmvSz2Z3Y836mkim0fjGpRezDwObgHpOgxfesqSIp3gyeaRsdUNuZUNlQsfpkPaC78VLo7xZYxR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JtPilUYTdHc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JtPilUYTdHc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "2twLJU_ggGI",
+      "songTitle": "Gouge Away",
+      "title": "Gouge Away",
+      "artists": [
+        "Pixies"
+      ],
+      "albumTitle": "Doolittle",
+      "albumBrowseId": "MPREb_chb7xdBVmOZ",
+      "duration": "2:43",
+      "durationSeconds": 163,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/xiDNWIqv4mEebzY-NrENlQvdp5bK915RCWmTAzwNW6ZmBAeRd4cfzd_hKG1S0D6ELdK6N5bUuYbHN1fT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2twLJU_ggGI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2twLJU_ggGI",
+      "source": "ytm_songs_popular",
+      "year": "1989",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "HvldypUz9w8",
+      "songTitle": "Debaser",
+      "title": "Debaser",
+      "artists": [
+        "Pixies"
+      ],
+      "albumTitle": "Doolittle",
+      "albumBrowseId": "MPREb_chb7xdBVmOZ",
+      "duration": "2:52",
+      "durationSeconds": 172,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/xiDNWIqv4mEebzY-NrENlQvdp5bK915RCWmTAzwNW6ZmBAeRd4cfzd_hKG1S0D6ELdK6N5bUuYbHN1fT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HvldypUz9w8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HvldypUz9w8",
+      "source": "ytm_songs_popular",
+      "year": "1989",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "RuHeAs0rw5M",
+      "songTitle": "Wave Of Mutilation",
+      "title": "Wave Of Mutilation",
+      "artists": [
+        "Pixies"
+      ],
+      "albumTitle": "Doolittle",
+      "albumBrowseId": "MPREb_chb7xdBVmOZ",
+      "duration": "2:04",
+      "durationSeconds": 124,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/xiDNWIqv4mEebzY-NrENlQvdp5bK915RCWmTAzwNW6ZmBAeRd4cfzd_hKG1S0D6ELdK6N5bUuYbHN1fT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RuHeAs0rw5M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RuHeAs0rw5M",
+      "source": "ytm_songs_popular",
+      "year": "1989",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=49FB9hhoO6c%2CiaoBBwcXYKQ%2CXYrOmT72xZk%2CtVCUAXOBF7w%2Cqr3tLhF75XQ&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%94%BD%EC%8B%9C%EC%A6%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=49FB9hhoO6c&list=RDAMVM49FB9hhoO6c",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 픽시즈 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 PIXIES 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=49FB9hhoO6c%2CiaoBBwcXYKQ%2CXYrOmT72xZk%2CtVCUAXOBF7w%2Cqr3tLhF75XQ%2CSHUb-xQMTOI%2CJtPilUYTdHc%2C2twLJU_ggGI%2CHvldypUz9w8%2CRuHeAs0rw5M&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+PIXIES+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=49FB9hhoO6c&list=RDAMVM49FB9hhoO6c"
 }

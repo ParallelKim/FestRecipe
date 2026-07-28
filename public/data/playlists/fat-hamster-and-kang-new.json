@@ -2,7 +2,7 @@
   "artistId": "fat-hamster-and-kang-new",
   "artistName": "팻햄스터 & 캉뉴",
   "englishName": "Fat Hamster & Kang New",
-  "collectedAt": "2026-07-27T00:58:31.586900+00:00",
+  "collectedAt": "2026-07-28T00:18:20.674405+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.754,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCfHC69BgeJemnsqTDa3zezQ",
@@ -124,9 +124,107 @@
       "source": "ytm_songs_popular",
       "year": "2025",
       "releaseType": "album"
+    },
+    {
+      "videoId": "z0InI5eAVRc",
+      "songTitle": "The Satellites Looking Down on Us",
+      "title": "The Satellites Looking Down on Us",
+      "artists": [
+        "Fat Hamster",
+        "KANG New",
+        " Fat Hamster and KANG New"
+      ],
+      "albumTitle": "The Satellites Looking Down on Us",
+      "albumBrowseId": "MPREb_au6dETp02Od",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_CKpew_sKb2ArORZRXm6EmkmFEjxYbtQJvaUX9U0TVJPLWXMYrMCFm8QmPRL6XwJuTFqxatCDcr1BVaFRw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=z0InI5eAVRc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=z0InI5eAVRc",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "o_7zBI12O3g",
+      "songTitle": "Heatwave (feat. PARK sunju)",
+      "title": "Heatwave (feat. PARK sunju)",
+      "artists": [
+        "Fat Hamster"
+      ],
+      "albumTitle": "Nonviolent Communication",
+      "albumBrowseId": "MPREb_1N0OVDM3PVU",
+      "duration": "4:42",
+      "durationSeconds": 282,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/d1nXQj4vtqchShJ9rItDUMB9mBYfvgkKsRf4sL_FgcHogSLMLMX1jSR46EqUPma8xdo_w4JG-78oUiQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o_7zBI12O3g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=o_7zBI12O3g",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "u93pk5e9ffA",
+      "songTitle": "I Demand",
+      "title": "I Demand",
+      "artists": [
+        "Fat Hamster and KANG New",
+        "Fat Hamster",
+        "KANG New"
+      ],
+      "albumTitle": "I Demand",
+      "albumBrowseId": "MPREb_jkGvN1OTDx5",
+      "duration": "2:26",
+      "durationSeconds": 146,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nsVXT8URky0_8gypyfr6V2ug0wuoEfzappsMfOoGT0u6H-zcu6VEojbRpDHySmPqSOo-r11VJ-bJoSwT3A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u93pk5e9ffA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=u93pk5e9ffA",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "-dpqTyQD_CM",
+      "songTitle": "Red",
+      "title": "Red",
+      "artists": [
+        "Fat Hamster and KANG New",
+        "Fat Hamster",
+        "KANG New"
+      ],
+      "albumTitle": "Brains in a Vat",
+      "albumBrowseId": "MPREb_LWEP9YBBdku",
+      "duration": "2:55",
+      "durationSeconds": 175,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/o9PjaFoleQ_rPLsyT7mVqTb8fWjqHQzSMeAm-BsR_jssq_t4CCV-NSaHHZcFo-hj-NkffWQDPOR-CyE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-dpqTyQD_CM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-dpqTyQD_CM",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "TeapjID2Xbo",
+      "songTitle": "Bad Clouds",
+      "title": "Bad Clouds",
+      "artists": [
+        "Fat Hamster and KANG New",
+        "Fat Hamster",
+        "KANG New"
+      ],
+      "albumTitle": "Brains in a Vat",
+      "albumBrowseId": "MPREb_LWEP9YBBdku",
+      "duration": "4:46",
+      "durationSeconds": 286,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/o9PjaFoleQ_rPLsyT7mVqTb8fWjqHQzSMeAm-BsR_jssq_t4CCV-NSaHHZcFo-hj-NkffWQDPOR-CyE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TeapjID2Xbo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TeapjID2Xbo",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=eDEtluMgKc4%2COa9-JSsuigY%2CfPN402Iq0i0%2CLk2HSNNd11o%2C8g5vyFxUJA8&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%8C%BB%ED%96%84%EC%8A%A4%ED%84%B0+%26+%EC%BA%89%EB%89%B4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=eDEtluMgKc4&list=RDAMVMeDEtluMgKc4",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 팻햄스터 & 캉뉴 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 팻햄스터 & 캉뉴 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=eDEtluMgKc4%2COa9-JSsuigY%2CfPN402Iq0i0%2CLk2HSNNd11o%2C8g5vyFxUJA8%2Cz0InI5eAVRc%2Co_7zBI12O3g%2Cu93pk5e9ffA%2C-dpqTyQD_CM%2CTeapjID2Xbo&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%8C%BB%ED%96%84%EC%8A%A4%ED%84%B0+%26+%EC%BA%89%EB%89%B4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=eDEtluMgKc4&list=RDAMVMeDEtluMgKc4"
 }

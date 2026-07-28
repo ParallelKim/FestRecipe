@@ -2,7 +2,7 @@
   "artistId": "mono-no-aware",
   "artistName": "MONO NO AWARE",
   "englishName": "MONO NO AWARE",
-  "collectedAt": "2026-07-27T00:58:39.104986+00:00",
+  "collectedAt": "2026-07-28T00:18:31.182660+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.323,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UC-D_OF-GxVFM0kk4EuCX7cw",
@@ -76,9 +76,128 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=pNKZI2yJCqM",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "-tl5LLHpDSA",
+      "songTitle": "風の向きが変わって - Weathercock",
+      "title": "風の向きが変わって - Weathercock",
+      "artists": [
+        "MONO NO AWARE"
+      ],
+      "albumTitle": "Weathercock",
+      "albumBrowseId": "MPREb_zLFxHDVWaWi",
+      "duration": "5:03",
+      "durationSeconds": 303,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UpYIyMOu2q_xd0AwX0Yt5r23HHg2e4bBizoMW1p84jEpNP6G7nHS15X-lIQVnFWE1OM4tuvs_gEl6tk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-tl5LLHpDSA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-tl5LLHpDSA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "DoSVuM4kQ44",
+      "songTitle": "のびしろ - Room for growth",
+      "title": "のびしろ - Room for growth",
+      "artists": [
+        "MONO NO AWARE"
+      ],
+      "albumTitle": "Room for growth",
+      "albumBrowseId": "MPREb_4v2AbeVSSzc",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/d9HtQen5k3qIQP73VeNptLwy0FPAbnKe1uZoKL8UDcMf5Nrr4_ABWoYftX802r5WQDHnkuJpXoHYdzNq=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DoSVuM4kQ44",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DoSVuM4kQ44",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "peJ4WtDTUGc",
+      "songTitle": "そこにあったから - Because It's There",
+      "title": "そこにあったから - Because It's There",
+      "artists": [
+        "MONO NO AWARE"
+      ],
+      "albumTitle": "Ark with a Line",
+      "albumBrowseId": "MPREb_9N8pGRrxrlr",
+      "duration": "5:03",
+      "durationSeconds": 303,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/upNQbUZEEIcot2DrgWjCHrAbg7SPZXZdEHKwcmkk1ucNTKFICaaAo6zosTOtwjMfe29hAs_rJvcAb8bC=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=peJ4WtDTUGc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=peJ4WtDTUGc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "N-ff_2i2VI8",
+      "songTitle": "東京",
+      "title": "東京",
+      "artists": [
+        "MONO NO AWARE"
+      ],
+      "albumTitle": "東京",
+      "albumBrowseId": "MPREb_94lxszqE3eT",
+      "duration": "5:52",
+      "durationSeconds": 352,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6FvNw4w8eH0NvsDnWSIb6YBBe7ohov6Y0ZwfVyXNuWMiwcURqzPDfH_ufAbZ7N0N4nd715Bg5evXiXqG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=N-ff_2i2VI8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=N-ff_2i2VI8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "FT1eJpCDK60",
+      "songTitle": "言葉がなかったら - If There Are No Words",
+      "title": "言葉がなかったら - If There Are No Words",
+      "artists": [
+        "MONO NO AWARE"
+      ],
+      "albumTitle": "The Irreplaceable",
+      "albumBrowseId": "MPREb_pHpUVjk6HwE",
+      "duration": "5:08",
+      "durationSeconds": 308,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WxHSxWU6e-bT3MZ0TyX2QfpiujF2zSM6IGgq93zbkL1R36Rk4F9cIrD3N9NLaI6MV4cJyVX0BlWZ_bg7=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FT1eJpCDK60",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FT1eJpCDK60",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "iNKQwL-J9YY",
+      "songTitle": "走馬灯 - Somato",
+      "title": "走馬灯 - Somato",
+      "artists": [
+        "MONO NO AWARE"
+      ],
+      "albumTitle": "Somato",
+      "albumBrowseId": "MPREb_dWPaQAo6HEK",
+      "duration": "5:15",
+      "durationSeconds": 315,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eQRF2_6C_hP7LgRSb-ceKuiYJeYu0UyFzaq9vpGRZV0f2iOAuS45_MjHZiOJbIpGhmcCi4EIPI6As2mr=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iNKQwL-J9YY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=iNKQwL-J9YY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "tVgyQJzS01c",
+      "songTitle": "忘れる - Forget",
+      "title": "忘れる - Forget",
+      "artists": [
+        "MONO NO AWARE"
+      ],
+      "albumTitle": "THE BUFFET",
+      "albumBrowseId": "MPREb_BdPQEnVzPKh",
+      "duration": "4:44",
+      "durationSeconds": 284,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oo1rFYbYQNJD-HRgQjXrpn4TlPwTVXsy9GD70NiSiyiEShgytrUUc16CFhcj-txx1Ay4icoK1_m4pLk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tVgyQJzS01c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tVgyQJzS01c",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=4RDmQ4kQOSM%2CmiSG7qXS4QA%2CpNKZI2yJCqM&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%AA%A8%EB%85%B8+%EB%85%B8+%EC%95%84%EC%99%80%EB%A0%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=4RDmQ4kQOSM&list=RDAMVM4RDmQ4kQOSM",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 모노 노 아와레 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 MONO NO AWARE 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=4RDmQ4kQOSM%2CmiSG7qXS4QA%2CpNKZI2yJCqM%2C-tl5LLHpDSA%2CDoSVuM4kQ44%2CpeJ4WtDTUGc%2CN-ff_2i2VI8%2CFT1eJpCDK60%2CiNKQwL-J9YY%2CtVgyQJzS01c&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+MONO+NO+AWARE+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=4RDmQ4kQOSM&list=RDAMVM4RDmQ4kQOSM"
 }

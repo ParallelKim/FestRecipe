@@ -2,7 +2,7 @@
   "artistId": "hana",
   "artistName": "HANA",
   "englishName": "HANA",
-  "collectedAt": "2026-07-27T01:01:49.681658+00:00",
+  "collectedAt": "2026-07-28T00:18:22.252691+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.431,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCVznsJmPM4qyjLYyORcu0Tg",
@@ -96,9 +96,119 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=v484RXSxWjI",
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=v484RXSxWjI",
       "source": "releases_fallback"
+    },
+    {
+      "videoId": "8PlGSP1OEFo",
+      "songTitle": "Chimera 2.0",
+      "title": "Chimera 2.0",
+      "artists": [
+        "HANA"
+      ],
+      "albumTitle": "HANADRIEL",
+      "albumBrowseId": "MPREb_T5x5TUeGHwd",
+      "year": null,
+      "releaseType": "song",
+      "duration": "5:17",
+      "durationSeconds": 317,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1gQ_yH9bBugV7X20YBkOcz4WQAofnhnTcsQdEeo_k6zzO6lcv30RinRllObrBtMGRDZ1ocipjE3_W8Ic=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8PlGSP1OEFo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8PlGSP1OEFo",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "tKPqTJq-w40",
+      "songTitle": "Cowgirl Bebop",
+      "title": "Cowgirl Bebop",
+      "artists": [
+        "HANA"
+      ],
+      "albumTitle": "HANADRIEL",
+      "albumBrowseId": "MPREb_T5x5TUeGHwd",
+      "year": null,
+      "releaseType": "song",
+      "duration": "5:30",
+      "durationSeconds": 330,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1gQ_yH9bBugV7X20YBkOcz4WQAofnhnTcsQdEeo_k6zzO6lcv30RinRllObrBtMGRDZ1ocipjE3_W8Ic=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tKPqTJq-w40",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tKPqTJq-w40",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "f2MQ_DCPwso",
+      "songTitle": "Moonwell",
+      "title": "Moonwell",
+      "artists": [
+        "HANA"
+      ],
+      "albumTitle": "HANADRIEL",
+      "albumBrowseId": "MPREb_T5x5TUeGHwd",
+      "year": null,
+      "releaseType": "song",
+      "duration": "4:35",
+      "durationSeconds": 275,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1gQ_yH9bBugV7X20YBkOcz4WQAofnhnTcsQdEeo_k6zzO6lcv30RinRllObrBtMGRDZ1ocipjE3_W8Ic=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=f2MQ_DCPwso",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=f2MQ_DCPwso",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "mN9266Loqes",
+      "songTitle": "Hana (Mashup Cover)",
+      "title": "Hana (Mashup Cover)",
+      "artists": [
+        "Hana Shafa"
+      ],
+      "albumTitle": "Hana (Mashup Cover)",
+      "albumBrowseId": "MPREb_hn2Z4O1Fx4p",
+      "year": null,
+      "releaseType": "song",
+      "duration": "3:11",
+      "durationSeconds": 191,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4oIp1PoiNeVY88TK8XawqO1iyP-wDlje19_IeBdHWXJjVsil5lzfSzErgqDTMGp5sQCIW-SR2zGSEHY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mN9266Loqes",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mN9266Loqes",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "lTram37coH8",
+      "songTitle": "Mal Onchilla",
+      "title": "Mal Onchilla",
+      "artists": [
+        "Hana Shafa",
+        "Dilshan L Silva",
+        "Lasitha Jayaneththi Arachchige"
+      ],
+      "albumTitle": "Mal Onchilla",
+      "albumBrowseId": "MPREb_THFDxZLy50v",
+      "year": null,
+      "releaseType": "song",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Wc213BhC7VRUTuEONBBRojjD27aC4PeXHbZ4lwNFhMY0bMnAPvvw3UZngr9LvhMSTLUXqnsXshekw59r=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lTram37coH8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lTram37coH8",
+      "source": "releases_fallback"
+    },
+    {
+      "videoId": "Pp3muYAoPGM",
+      "songTitle": "Ice Princess (Eng ver.)",
+      "title": "Ice Princess (Eng ver.)",
+      "artists": [
+        "HANA"
+      ],
+      "albumTitle": "See You At Work Tomorrow! (Original Television Soundtrack), Pt. 1",
+      "albumBrowseId": "MPREb_I8CTmRtuKbG",
+      "year": null,
+      "releaseType": "song",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/O7QJLo2S5zn3jRnVN6Gx5Oq3LG8qnUTSOewmDId6uqcSkwcFvgGTHHiNqHPQkaS1Kt87F0mxwl7Xfms=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Pp3muYAoPGM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Pp3muYAoPGM",
+      "source": "releases_fallback"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=W5g3V0T-BTg%2C2C0TGqcWPbA%2CXgNrYNnlJ3k%2Cv484RXSxWjI&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%95%98%EB%82%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=W5g3V0T-BTg&list=RDAMVMW5g3V0T-BTg",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 하나 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 HANA 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=W5g3V0T-BTg%2C2C0TGqcWPbA%2CXgNrYNnlJ3k%2Cv484RXSxWjI%2C8PlGSP1OEFo%2CtKPqTJq-w40%2Cf2MQ_DCPwso%2CmN9266Loqes%2ClTram37coH8%2CPp3muYAoPGM&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+HANA+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=W5g3V0T-BTg&list=RDAMVMW5g3V0T-BTg"
 }

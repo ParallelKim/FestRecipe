@@ -2,7 +2,7 @@
   "artistId": "hi-fi-unicorn",
   "artistName": "하이파이유니콘",
   "englishName": "Hi-Fi Un!corn",
-  "collectedAt": "2026-07-27T00:58:33.060291+00:00",
+  "collectedAt": "2026-07-28T00:18:22.885451+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.015,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCNaMswhPljPOne6TwD3FfWw",
@@ -76,9 +76,128 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=CEfyybTdtHQ",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "pktU-GO3yAk",
+      "songTitle": "DoReMiFa-Soul (JP ver.)",
+      "title": "DoReMiFa-Soul (JP ver.)",
+      "artists": [
+        "Hi-Fi Un!corn"
+      ],
+      "albumTitle": "FANTASIA",
+      "albumBrowseId": "MPREb_LhriqAjFczH",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_D7_IcgqqoIzYNaqlvJMuFfATts_CIFLlnxPAngCNY89xgiI9LpUNmxCD7Sd1LGBWFvXWeJMhuzP7-5Piw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pktU-GO3yAk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pktU-GO3yAk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "vGqWXQhorBM",
+      "songTitle": "LAILA",
+      "title": "LAILA",
+      "artists": [
+        "Hi-Fi Un!corn"
+      ],
+      "albumTitle": "LAILA",
+      "albumBrowseId": "MPREb_Tz41ViqsQOg",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Aa0aBeM-uuLAvN1Svxjn_ak03MClMGQrjxK0bo57RpG_Yvoeuck0SEOwSz0UikMVEWWBL7SIBlcGLwAk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vGqWXQhorBM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vGqWXQhorBM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WFwCGmk3rv0",
+      "songTitle": "Only You Shine",
+      "title": "Only You Shine",
+      "artists": [
+        "Hi-Fi Un!corn"
+      ],
+      "albumTitle": "Only You Shine",
+      "albumBrowseId": "MPREb_U2fJ1XJTf8m",
+      "duration": "3:05",
+      "durationSeconds": 185,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/DOKqUnuFBezbL2YZn_sfjd_hGPVcuEokX9ZALSNTESzIE3mIOFjSwepWe4SHKLpnqAY-2i6cmpniViMS=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WFwCGmk3rv0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WFwCGmk3rv0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "YFcBSMoC7hM",
+      "songTitle": "Teenage Blue",
+      "title": "Teenage Blue",
+      "artists": [
+        "Hi-Fi Un!corn"
+      ],
+      "albumTitle": "Teenage Blue",
+      "albumBrowseId": "MPREb_GcxcHErpkoA",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/C76lEIdE0azlBXgeHqkM4YN1NkNjoqmkJI0Gr18SK0MFqhWbLkmuK_W-gxRxj8dIogiIhre92RyAo3cL=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YFcBSMoC7hM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YFcBSMoC7hM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "4j8B9-keFA4",
+      "songTitle": "FEVER",
+      "title": "FEVER",
+      "artists": [
+        "Hi-Fi Un!corn"
+      ],
+      "albumTitle": "Spring of Youth (Original Soundtrack) Part.5",
+      "albumBrowseId": "MPREb_YlBKXry6WwB",
+      "duration": "2:37",
+      "durationSeconds": 157,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LfBR5aBIwHN6LRaN72e6LbH7mek4RSDIP6HjxgefsVSyibpfsB6h-tDvJQyZVs3ap_fB0CX_5zmXPvsR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4j8B9-keFA4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4j8B9-keFA4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3LDyHSXldyI",
+      "songTitle": "白昼夢 - HAKUCHUMU",
+      "title": "白昼夢 - HAKUCHUMU",
+      "artists": [
+        "Hi-Fi Un!corn"
+      ],
+      "albumTitle": "FIRST MOVE",
+      "albumBrowseId": "MPREb_V3p4CMxgzMy",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HwLoc4A3td_F_YCfRgXlAUbSikG_7O6lO8PoKJw2qDJdyFEcVJj2ttpQyLXND1HD0KlTHOtR6v7-SrU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3LDyHSXldyI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3LDyHSXldyI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "g9_vHmVrBuA",
+      "songTitle": "By Chance",
+      "title": "By Chance",
+      "artists": [
+        "Hi-Fi Un!corn"
+      ],
+      "albumTitle": "By Chance",
+      "albumBrowseId": "MPREb_NXvFYQsZTn7",
+      "duration": "2:58",
+      "durationSeconds": 178,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/q0hWcr7uTw4gkIHtzkCi_S-8ywWg8wX_tksNkygIqI-buIPDBJ23GQJV7oe9QZyPYCntwqHbGcDkRLo=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g9_vHmVrBuA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=g9_vHmVrBuA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=xzP_LZJlkHM%2CFG4E04hT_IY%2CCEfyybTdtHQ&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%95%98%EC%9D%B4%ED%8C%8C%EC%9D%B4%EC%9C%A0%EB%8B%88%EC%BD%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=xzP_LZJlkHM&list=RDAMVMxzP_LZJlkHM",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 하이파이유니콘 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 하이파이유니콘 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=xzP_LZJlkHM%2CFG4E04hT_IY%2CCEfyybTdtHQ%2CpktU-GO3yAk%2CvGqWXQhorBM%2CWFwCGmk3rv0%2CYFcBSMoC7hM%2C4j8B9-keFA4%2C3LDyHSXldyI%2Cg9_vHmVrBuA&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%95%98%EC%9D%B4%ED%8C%8C%EC%9D%B4%EC%9C%A0%EB%8B%88%EC%BD%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=xzP_LZJlkHM&list=RDAMVMxzP_LZJlkHM"
 }

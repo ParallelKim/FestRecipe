@@ -2,7 +2,7 @@
   "artistId": "seisumi",
   "artistName": "세이수미",
   "englishName": "Say Sue Me",
-  "collectedAt": "2026-07-27T00:58:45.230597+00:00",
+  "collectedAt": "2026-07-28T00:18:40.437092+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.338,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCnmRY2xwlBPN2zbk1CspmhA",
@@ -75,9 +75,130 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=HkHnjg1GvvY",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "D-LeEPAYvEY",
+      "songTitle": "Around You",
+      "title": "Around You",
+      "artists": [
+        "Say Sue Me"
+      ],
+      "albumTitle": "The Last Thing Left",
+      "albumBrowseId": "MPREb_A4da7KoaybI",
+      "duration": "3:43",
+      "durationSeconds": 223,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XF6jRih4HSh3H0gFL4keLO1GurCD1BqcGayZjsTKk0R_Ijcpx3vJBu1oU8DJ2vin7GSVIPHfJeB3qC_YCQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=D-LeEPAYvEY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=D-LeEPAYvEY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "DpEDxjzZjx4",
+      "songTitle": "Old Town",
+      "title": "Old Town",
+      "artists": [
+        "Say Sue Me"
+      ],
+      "albumTitle": "Where We Were Together",
+      "albumBrowseId": "MPREb_csXtRH6lN2D",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Uag84Lnv-nGSCsUgnyBP7C7Nend7ST5Bi9N2OUszPB0p_AiRimaFe9ZyMbRCmT-RUnih7y3Rz3aYo1Kz=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DpEDxjzZjx4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DpEDxjzZjx4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "w4mKJCRfD78",
+      "songTitle": "Let It Begin",
+      "title": "Let It Begin",
+      "artists": [
+        "Say Sue Me"
+      ],
+      "albumTitle": "Where We Were Together",
+      "albumBrowseId": "MPREb_csXtRH6lN2D",
+      "duration": "5:38",
+      "durationSeconds": 338,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Uag84Lnv-nGSCsUgnyBP7C7Nend7ST5Bi9N2OUszPB0p_AiRimaFe9ZyMbRCmT-RUnih7y3Rz3aYo1Kz=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w4mKJCRfD78",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=w4mKJCRfD78",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "O0AifYd8Uho",
+      "songTitle": "My Curly Hair Is Dancing In The Light",
+      "title": "My Curly Hair Is Dancing In The Light",
+      "artists": [
+        "Say Sue Me"
+      ],
+      "albumTitle": "Love Untangled (Soundtrack from the Netflix Film)",
+      "albumBrowseId": "MPREb_LCAL9WO7P6Q",
+      "duration": "3:14",
+      "durationSeconds": 194,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZkMNzfRfCGzUr4_SnU_2pisXwJtwUcw4VXtvfSfqcXkUxXDYice2UGWehUJdbfH2iCCcOpvOMe757iw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=O0AifYd8Uho",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=O0AifYd8Uho",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "LPzfvknUzBk",
+      "songTitle": "Time is Not Yours",
+      "title": "Time is Not Yours",
+      "artists": [
+        "Say Sue Me"
+      ],
+      "albumTitle": "Time is Not Yours",
+      "albumBrowseId": "MPREb_UjxIzprAQsw",
+      "duration": "3:52",
+      "durationSeconds": 232,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/S5BE30dokP8WxTBW-zYuInYSqp_u2u663rq2bW08H4Uhy4Q9Vb40-YRgL2AsR_a_SP75WJLwLVB-q0kmTA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LPzfvknUzBk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LPzfvknUzBk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "CpxQPlNP-nk",
+      "songTitle": "Dreaming",
+      "title": "Dreaming",
+      "artists": [
+        "Say Sue Me"
+      ],
+      "albumTitle": "It's Just A Short Walk!",
+      "albumBrowseId": "MPREb_jSvSUfmawIY",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yH0oHnhn5VbpTQ0On49wPc46u0v6psId5EgiPdoSe0ficzbkbUFecn9NSvDWaKBITsAlOXP_hobtsjg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CpxQPlNP-nk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CpxQPlNP-nk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "PD4naDNQaS8",
+      "songTitle": "The Last Thing Left",
+      "title": "The Last Thing Left",
+      "artists": [
+        "Say Sue Me"
+      ],
+      "albumTitle": "The Last Thing Left",
+      "albumBrowseId": "MPREb_A4da7KoaybI",
+      "duration": "3:48",
+      "durationSeconds": 228,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XF6jRih4HSh3H0gFL4keLO1GurCD1BqcGayZjsTKk0R_Ijcpx3vJBu1oU8DJ2vin7GSVIPHfJeB3qC_YCQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PD4naDNQaS8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PD4naDNQaS8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-tEcPtR2uKY%2CYTLaD_uZdUA%2CHkHnjg1GvvY&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%84%B8%EC%9D%B4%EC%88%98%EB%AF%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-tEcPtR2uKY&list=RDAMVM-tEcPtR2uKY",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 세이수미 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 세이수미 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=-tEcPtR2uKY%2CYTLaD_uZdUA%2CHkHnjg1GvvY%2CD-LeEPAYvEY%2CDpEDxjzZjx4%2Cw4mKJCRfD78%2CO0AifYd8Uho%2CLPzfvknUzBk%2CCpxQPlNP-nk%2CPD4naDNQaS8&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%84%B8%EC%9D%B4%EC%88%98%EB%AF%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=-tEcPtR2uKY&list=RDAMVM-tEcPtR2uKY"
 }

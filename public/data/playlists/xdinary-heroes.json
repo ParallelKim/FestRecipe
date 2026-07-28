@@ -2,7 +2,7 @@
   "artistId": "xdinary-heroes",
   "artistName": "Xdinary Heroes",
   "englishName": "Xdinary Heroes",
-  "collectedAt": "2026-07-27T00:58:53.773200+00:00",
+  "collectedAt": "2026-07-28T00:18:52.497285+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.923,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCbDGasyPNqfy4EIr1HhUuOg",
@@ -109,9 +109,94 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=f_Fb0MHpsoI",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "MDc22OX6MQM",
+      "songTitle": "FiRE (My Sweet Misery)",
+      "title": "FiRE (My Sweet Misery)",
+      "artists": [
+        "Xdinary Heroes"
+      ],
+      "albumTitle": "FiRE (My Sweet Misery)",
+      "albumBrowseId": "MPREb_2i1178OoH6P",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3VhUT5WILuYvUS1KM79BLM9HAlHSx5tbxOt1qlxXr3yfNh2BBJoxLi32zCBfrsuV76Bc8e2ocAi6ENwk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MDc22OX6MQM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=MDc22OX6MQM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dn47bB2rT-8",
+      "songTitle": "Good enough",
+      "title": "Good enough",
+      "artists": [
+        "Xdinary Heroes"
+      ],
+      "albumTitle": "Deadlock",
+      "albumBrowseId": "MPREb_JYhoUYeB7Im",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fCQFerXXAj1LCNH_IfLHEQdcFNrqRMzlgBSvt3chxDuDFcm82dbFEBS33EP7xdaD5dZ4sAG7ZxZrUS4VGw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dn47bB2rT-8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dn47bB2rT-8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "8q-P-ypgvtE",
+      "songTitle": "Helium Balloon",
+      "title": "Helium Balloon",
+      "artists": [
+        "Xdinary Heroes"
+      ],
+      "albumTitle": "DEAD AND",
+      "albumBrowseId": "MPREb_eCUMsijxm0U",
+      "duration": "3:09",
+      "durationSeconds": 189,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/70h8cef6K1EtNGQq9arRv3u9Jx4rhs97t2HTrDdQDkGt2AORVupFM248lzrBRnxdhDPl_-v4X8fOqOpMdw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8q-P-ypgvtE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8q-P-ypgvtE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "cJMnAzIHY7Q",
+      "songTitle": "PLUTO",
+      "title": "PLUTO",
+      "artists": [
+        "Xdinary Heroes"
+      ],
+      "albumTitle": "Livelock",
+      "albumBrowseId": "MPREb_nWvtHcAZg7L",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ptxT9mA5ZDFmnmnIREKkugM54CA3FaUd7EFUiAHv41Ha3rCC1pNvXsLro_KAbtwgk1mB0nsDRdAeCI5i=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cJMnAzIHY7Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cJMnAzIHY7Q",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "nbeGBTVIAv8",
+      "songTitle": "ICU",
+      "title": "ICU",
+      "artists": [
+        "Xdinary Heroes"
+      ],
+      "albumTitle": "LXVE to DEATH",
+      "albumBrowseId": "MPREb_sNQIU26mmvb",
+      "duration": "4:02",
+      "durationSeconds": 242,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Plb5EYtYPF2voZB5naJ2kkNgREfR9h6-FyWydETu_GRqe8yM26bFn4m0EPQIS0wTEUYegr73G_V-5tBU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nbeGBTVIAv8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nbeGBTVIAv8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Tf0-4tzskLA%2CYFFW0PZFUfY%2CdyuTQ2yHDaE%2C3PafVS5HZeg%2Cf_Fb0MHpsoI&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%97%91%EC%8A%A4%EB%94%94%EB%84%88%EB%A6%AC+%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Tf0-4tzskLA&list=RDAMVMTf0-4tzskLA",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 엑스디너리 히어로즈 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 Xdinary Heroes 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Tf0-4tzskLA%2CYFFW0PZFUfY%2CdyuTQ2yHDaE%2C3PafVS5HZeg%2Cf_Fb0MHpsoI%2CMDc22OX6MQM%2Cdn47bB2rT-8%2C8q-P-ypgvtE%2CcJMnAzIHY7Q%2CnbeGBTVIAv8&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+Xdinary+Heroes+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Tf0-4tzskLA&list=RDAMVMTf0-4tzskLA"
 }

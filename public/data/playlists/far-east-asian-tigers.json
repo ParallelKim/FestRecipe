@@ -2,7 +2,7 @@
   "artistId": "far-east-asian-tigers",
   "artistName": "극동아시아타이거즈",
   "englishName": "Far East Asian Tigers",
-  "collectedAt": "2026-07-27T00:58:31.299547+00:00",
+  "collectedAt": "2026-07-28T00:18:19.887106+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.246,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UCo8kdibcwTN0DXUAF_ecFfA",
@@ -75,9 +75,129 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=34WTF1gGwBs",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "W2moOcV1Dx0",
+      "songTitle": "오늘은 비가 와도 좋을 것 같아",
+      "title": "오늘은 비가 와도 좋을 것 같아",
+      "artists": [
+        "극동아시아타이거즈"
+      ],
+      "albumTitle": "몽유호원",
+      "albumBrowseId": "MPREb_v6oMlCJX6Bs",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PR_859Vsj6hwpbtsUbBbXe1THipqHKOHtsGVI0DwBc9-SE2nVmGvMpfpt1KL2ck3nJzmncW_hdTfBdk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W2moOcV1Dx0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=W2moOcV1Dx0",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "6gcO15DuaT8",
+      "songTitle": "Godspeed",
+      "title": "Godspeed",
+      "artists": [
+        "Far East Asian Tigers"
+      ],
+      "albumTitle": "Godspeed",
+      "albumBrowseId": "MPREb_zITF6CVQOua",
+      "duration": "4:15",
+      "durationSeconds": 255,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UZk7jL9eOsXre5l2b2yWqNqHsTjlf2QQ2XY7chXKtXJ1VIA1rTL5svcKjuYkONRqYV9WmBwjzqj4dZto=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6gcO15DuaT8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6gcO15DuaT8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "rBXDtLbGBuI",
+      "songTitle": "시간이 지나간다면",
+      "title": "시간이 지나간다면",
+      "artists": [
+        "극동아시아타이거즈"
+      ],
+      "albumTitle": "시간이 지나간다면",
+      "albumBrowseId": "MPREb_RGGZySHzgpB",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Sh7R9fRgeCwIe2nR0Olg8UxAdrOsxrVFKMc9YJCDEfnomOOHY06nuWBNxPpTOQWnrXhs-wmvFwo1uFg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rBXDtLbGBuI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rBXDtLbGBuI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "JD2iJdzy4hU",
+      "songTitle": "Rainy Night in Hongdae",
+      "title": "Rainy Night in Hongdae",
+      "artists": [
+        "Far East Asian Tigers"
+      ],
+      "albumTitle": "No Brain 30th Anniversary Part.3",
+      "albumBrowseId": "MPREb_GJ84nmJAGCw",
+      "duration": "3:18",
+      "durationSeconds": 198,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kAq6w9BY7tIYNONH4C_q1_ehNHZnVuJz1HmYTGPwAbHUGcv0gebXmfA4cfzog5F0VOw6Y_3XiooHNn2AYA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JD2iJdzy4hU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JD2iJdzy4hU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "04DP7jjf-l8",
+      "songTitle": "Alright",
+      "title": "Alright",
+      "artists": [
+        "극동아시아타이거즈"
+      ],
+      "albumTitle": "몽유호원",
+      "albumBrowseId": "MPREb_v6oMlCJX6Bs",
+      "duration": "2:32",
+      "durationSeconds": 152,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PR_859Vsj6hwpbtsUbBbXe1THipqHKOHtsGVI0DwBc9-SE2nVmGvMpfpt1KL2ck3nJzmncW_hdTfBdk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=04DP7jjf-l8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=04DP7jjf-l8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "I-nUAWnINm4",
+      "songTitle": "고양이, 선인장 그리고...",
+      "title": "고양이, 선인장 그리고...",
+      "artists": [
+        "극동아시아타이거즈"
+      ],
+      "albumTitle": "고양이, 선인장 그리고...",
+      "albumBrowseId": "MPREb_QEHQWqOOf22",
+      "duration": "3:08",
+      "durationSeconds": 188,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/hwGy-AsM7nHr2cYbzNcAWJjzC3wH7wkGgGIuPxaER1uuatHctd1tvDi5dGbmXxbs4QIMcteDZsU88Roc0w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=I-nUAWnINm4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=I-nUAWnINm4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "nRwY5Ls61zE",
+      "songTitle": "면목중학교",
+      "title": "면목중학교",
+      "artists": [
+        "극동아시아타이거즈"
+      ],
+      "albumTitle": "몽유호원",
+      "albumBrowseId": "MPREb_v6oMlCJX6Bs",
+      "duration": "4:01",
+      "durationSeconds": 241,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PR_859Vsj6hwpbtsUbBbXe1THipqHKOHtsGVI0DwBc9-SE2nVmGvMpfpt1KL2ck3nJzmncW_hdTfBdk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nRwY5Ls61zE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nRwY5Ls61zE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=WK_yZR3EkJI%2CBsUgVEhWIqU%2C34WTF1gGwBs&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EA%B7%B9%EB%8F%99%EC%95%84%EC%8B%9C%EC%95%84%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=WK_yZR3EkJI&list=RDAMVMWK_yZR3EkJI",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 극동아시아타이거즈 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 극동아시아타이거즈 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=WK_yZR3EkJI%2CBsUgVEhWIqU%2C34WTF1gGwBs%2CW2moOcV1Dx0%2C6gcO15DuaT8%2CrBXDtLbGBuI%2CJD2iJdzy4hU%2C04DP7jjf-l8%2CI-nUAWnINm4%2CnRwY5Ls61zE&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EA%B7%B9%EB%8F%99%EC%95%84%EC%8B%9C%EC%95%84%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=WK_yZR3EkJI&list=RDAMVMWK_yZR3EkJI"
 }

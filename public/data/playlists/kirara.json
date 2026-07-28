@@ -2,7 +2,7 @@
   "artistId": "kirara",
   "artistName": "키라라",
   "englishName": "Kirara",
-  "collectedAt": "2026-07-27T00:58:36.183574+00:00",
+  "collectedAt": "2026-07-28T00:18:27.514617+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.631,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCFkM4zj4S76iVYHVjAvXdvQ",
@@ -96,9 +96,117 @@
       "source": "ytm_songs_popular",
       "year": "2025",
       "releaseType": "single"
+    },
+    {
+      "videoId": "uPOkO9q3UMk",
+      "songTitle": "乾杯 - Kanpai",
+      "title": "乾杯 - Kanpai",
+      "artists": [
+        "kirara"
+      ],
+      "albumTitle": "Kanpai",
+      "albumBrowseId": "MPREb_ae6brmTDtjk",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oPSHG8ltAOjoXyNzhLeV5shUR0u7WrZVZcBBrpvsAzuyaci8jD2NlYIJ3KF_DdIzmVIlkuFOe9YMFlaZ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uPOkO9q3UMk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=uPOkO9q3UMk",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "Afc9f6N_9qo",
+      "songTitle": "風 - Kaze",
+      "title": "風 - Kaze",
+      "artists": [
+        "kirara"
+      ],
+      "albumTitle": "Kachofugetsu",
+      "albumBrowseId": "MPREb_4VGa5nCDaKi",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Q54uDVRi4KxqKBrdjwibVVsRSF-f0qkYlBaJOs42mXp9jJstD8FIoiuB3KTO65u_Q70vIflIcQhePCJV=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Afc9f6N_9qo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Afc9f6N_9qo",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "TDXcuumNlM4",
+      "songTitle": "蝶 - Cho",
+      "title": "蝶 - Cho",
+      "artists": [
+        "kirara"
+      ],
+      "albumTitle": "Kachofugetsu",
+      "albumBrowseId": "MPREb_4VGa5nCDaKi",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Q54uDVRi4KxqKBrdjwibVVsRSF-f0qkYlBaJOs42mXp9jJstD8FIoiuB3KTO65u_Q70vIflIcQhePCJV=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TDXcuumNlM4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TDXcuumNlM4",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "TOuoHCozalc",
+      "songTitle": "ブルーシート - Blue Sheet",
+      "title": "ブルーシート - Blue Sheet",
+      "artists": [
+        "kirara"
+      ],
+      "albumTitle": "Blue Sheet",
+      "albumBrowseId": "MPREb_G0cN6ALqdXo",
+      "duration": "6:42",
+      "durationSeconds": 402,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5iZd9PZo66hePvxE9TFubMassLEE9wUZfPC4mVMN86tT6Jx3Bz2brSkL_3M-vs87DrTuOgDg6a3ihvbC=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TOuoHCozalc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TOuoHCozalc",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "HcOfVoVDkaY",
+      "songTitle": "花 - Hana",
+      "title": "花 - Hana",
+      "artists": [
+        "kirara"
+      ],
+      "albumTitle": "Kachofugetsu",
+      "albumBrowseId": "MPREb_4VGa5nCDaKi",
+      "duration": "4:50",
+      "durationSeconds": 290,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Q54uDVRi4KxqKBrdjwibVVsRSF-f0qkYlBaJOs42mXp9jJstD8FIoiuB3KTO65u_Q70vIflIcQhePCJV=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HcOfVoVDkaY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HcOfVoVDkaY",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "f8D5DAY0iVQ",
+      "songTitle": "月 - Tsuki",
+      "title": "月 - Tsuki",
+      "artists": [
+        "kirara"
+      ],
+      "albumTitle": "Kachofugetsu",
+      "albumBrowseId": "MPREb_4VGa5nCDaKi",
+      "duration": "4:07",
+      "durationSeconds": 247,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Q54uDVRi4KxqKBrdjwibVVsRSF-f0qkYlBaJOs42mXp9jJstD8FIoiuB3KTO65u_Q70vIflIcQhePCJV=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=f8D5DAY0iVQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=f8D5DAY0iVQ",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=jt4nAYgJ7WA%2COHfuhCXdzCI%2Cqn2PKrwHipE%2C8dLiCVlXVfQ&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%82%A4%EB%9D%BC%EB%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=jt4nAYgJ7WA&list=RDAMVMjt4nAYgJ7WA",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 키라라 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 키라라 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=jt4nAYgJ7WA%2COHfuhCXdzCI%2Cqn2PKrwHipE%2C8dLiCVlXVfQ%2CuPOkO9q3UMk%2CAfc9f6N_9qo%2CTDXcuumNlM4%2CTOuoHCozalc%2CHcOfVoVDkaY%2Cf8D5DAY0iVQ&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%82%A4%EB%9D%BC%EB%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=jt4nAYgJ7WA&list=RDAMVMjt4nAYgJ7WA"
 }

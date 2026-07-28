@@ -2,7 +2,7 @@
   "artistId": "chorokbulkkot-sonyeondan",
   "artistName": "초록불꽃소년단",
   "englishName": "Green Flame Boys",
-  "collectedAt": "2026-07-27T00:58:29.261714+00:00",
+  "collectedAt": "2026-07-28T00:18:16.603621+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.169,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UC_PVB1TWlVEgIbyMRfV3RFg",
@@ -77,9 +77,134 @@
       "source": "ytm_songs_popular",
       "year": "2022",
       "releaseType": "album"
+    },
+    {
+      "videoId": "OlNUV6Gxo1o",
+      "songTitle": "If Our Song Goes to You",
+      "title": "If Our Song Goes to You",
+      "artists": [
+        "Green Flame Boys"
+      ],
+      "albumTitle": "GREENBRIDGE",
+      "albumBrowseId": "MPREb_WMGuPbwj6NR",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/B8FMunRVDrdyMwidmUMnCihdE8WZ2iucSTBFC42h0XSt9NEQWTM-SL32cKRMTzBemfIm6DRxKjOozsOVug=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OlNUV6Gxo1o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OlNUV6Gxo1o",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "xdG7jgDe5sA",
+      "songTitle": "Youth punk",
+      "title": "Youth punk",
+      "artists": [
+        "Green Flame Boys"
+      ],
+      "albumTitle": "GREENROOF",
+      "albumBrowseId": "MPREb_xeaKxBWzEl6",
+      "duration": "3:00",
+      "durationSeconds": 180,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5lDW8tCqzxYQ-pIDx0C8EBwSaTyQ4bauSqMiAS3AfNhqEV6ZKY9XV2AFN30Pji7hNVu_c0WZt1UGKrg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xdG7jgDe5sA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xdG7jgDe5sA",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Tbm8QXeo7kI",
+      "songTitle": "Little Baby",
+      "title": "Little Baby",
+      "artists": [
+        "Green Flame Boys"
+      ],
+      "albumTitle": "No Brain 30th Anniversary Part.2",
+      "albumBrowseId": "MPREb_qfYJUXTVgEL",
+      "duration": "4:36",
+      "durationSeconds": 276,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IqfCQPtnLofHQFsbXylW1oAsrKd5Cw4dLISl02Ss6USFwqdQxDAjTJxdHkebVCq8xLDykANK23fTVlAL=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Tbm8QXeo7kI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Tbm8QXeo7kI",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "6O2dIXPXd-Q",
+      "songTitle": "She Walked Away",
+      "title": "She Walked Away",
+      "artists": [
+        "Green Flame Boys"
+      ],
+      "albumTitle": "She Walked Away",
+      "albumBrowseId": "MPREb_I08U3ZFf7gq",
+      "duration": "2:00",
+      "durationSeconds": 120,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/xxzJk6bg6AJxIm7OizPBlqEHqrTGO2Yrj3ORGj6uGdWjBSH_GB-5Syuua3zrXX5SGjZE55G5zgam6v_cvA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6O2dIXPXd-Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6O2dIXPXd-Q",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "THs2PTR3a90",
+      "songTitle": "자살소년",
+      "title": "자살소년",
+      "artists": [
+        "초록불꽃소년단"
+      ],
+      "albumTitle": "자살소년",
+      "albumBrowseId": "MPREb_hlna89MKhCQ",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/k6hYsoNskU4brt1VKKklgxPbMITZfGO_XYYJYWokoJ4NzYnJXMGZtslFPisJrDX1e4ayIGPMXV0nKmc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=THs2PTR3a90",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=THs2PTR3a90",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "IH1rj7aGaQw",
+      "songTitle": "True heart",
+      "title": "True heart",
+      "artists": [
+        "Green Flame Boys"
+      ],
+      "albumTitle": "GREENROOF",
+      "albumBrowseId": "MPREb_xeaKxBWzEl6",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5lDW8tCqzxYQ-pIDx0C8EBwSaTyQ4bauSqMiAS3AfNhqEV6ZKY9XV2AFN30Pji7hNVu_c0WZt1UGKrg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IH1rj7aGaQw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=IH1rj7aGaQw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "41I27S_gIU8",
+      "songTitle": "The Day We Can Meet Again",
+      "title": "The Day We Can Meet Again",
+      "artists": [
+        "Green Flame Boys"
+      ],
+      "albumTitle": "GREENBRIDGE",
+      "albumBrowseId": "MPREb_WMGuPbwj6NR",
+      "duration": "3:47",
+      "durationSeconds": 227,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/B8FMunRVDrdyMwidmUMnCihdE8WZ2iucSTBFC42h0XSt9NEQWTM-SL32cKRMTzBemfIm6DRxKjOozsOVug=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=41I27S_gIU8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=41I27S_gIU8",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5u2Ssf5OsNs%2CisgmaVrP6YA%2CvvP6u_V3YPk&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%B4%88%EB%A1%9D%EB%B6%88%EA%BD%83%EC%86%8C%EB%85%84%EB%8B%A8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5u2Ssf5OsNs&list=RDAMVM5u2Ssf5OsNs",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 초록불꽃소년단 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 초록불꽃소년단 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5u2Ssf5OsNs%2CisgmaVrP6YA%2CvvP6u_V3YPk%2COlNUV6Gxo1o%2CxdG7jgDe5sA%2CTbm8QXeo7kI%2C6O2dIXPXd-Q%2CTHs2PTR3a90%2CIH1rj7aGaQw%2C41I27S_gIU8&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%B4%88%EB%A1%9D%EB%B6%88%EA%BD%83%EC%86%8C%EB%85%84%EB%8B%A8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5u2Ssf5OsNs&list=RDAMVM5u2Ssf5OsNs"
 }

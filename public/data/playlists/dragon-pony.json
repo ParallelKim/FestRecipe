@@ -2,7 +2,7 @@
   "artistId": "dragon-pony",
   "artistName": "드래곤포니",
   "englishName": "Dragon Pony",
-  "collectedAt": "2026-07-27T00:58:30.493243+00:00",
+  "collectedAt": "2026-07-28T00:18:18.801225+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.123,
     "reason": "timetable_lateness"
   },
-  "songCount": 3,
+  "songCount": 10,
   "targetSongCount": 3,
   "ytmArtist": {
     "browseId": "UC2Nj2epFKSlbIdkUtviiv3g",
@@ -76,9 +76,131 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=yc-eNqLjDMA",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "OpRzgzU8RUo",
+      "songTitle": "Oh Perfect!",
+      "title": "Oh Perfect!",
+      "artists": [
+        "Dragon Pony"
+      ],
+      "albumTitle": "RUN RUN RUN",
+      "albumBrowseId": "MPREb_6Fah4YM3i8o",
+      "duration": "3:11",
+      "durationSeconds": 191,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AAwn86YPVGuDkJVVswSnvnPfUja3eY2ZVikjitWsZuxv-SsQYuLJtl9JeUIqTfHrEv0SsjIjLVWThXZg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OpRzgzU8RUo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OpRzgzU8RUo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7XCT7OQvKy8",
+      "songTitle": "Morse Code (모스부호)",
+      "title": "Morse Code (모스부호)",
+      "artists": [
+        "Dragon Pony"
+      ],
+      "albumTitle": "POP UP",
+      "albumBrowseId": "MPREb_vGyIQSdh2WZ",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vppG7vJQHSKxkg6bXHEjzu1oMoyQ3r92kTz3J00mVPyZ9ew8XMr1rkE822cQcqSlMsDkVuELR7GSN_Jt=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7XCT7OQvKy8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7XCT7OQvKy8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "AC6TzCw2uDc",
+      "songTitle": "Palm Lines",
+      "title": "Palm Lines",
+      "artists": [
+        "Dragon Pony"
+      ],
+      "albumTitle": "RUN RUN RUN",
+      "albumBrowseId": "MPREb_6Fah4YM3i8o",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AAwn86YPVGuDkJVVswSnvnPfUja3eY2ZVikjitWsZuxv-SsQYuLJtl9JeUIqTfHrEv0SsjIjLVWThXZg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AC6TzCw2uDc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=AC6TzCw2uDc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "axcHmayliNM",
+      "songTitle": "Ouroboros (꼬리를 먹는 뱀)",
+      "title": "Ouroboros (꼬리를 먹는 뱀)",
+      "artists": [
+        "Dragon Pony"
+      ],
+      "albumTitle": "POP UP",
+      "albumBrowseId": "MPREb_vGyIQSdh2WZ",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vppG7vJQHSKxkg6bXHEjzu1oMoyQ3r92kTz3J00mVPyZ9ew8XMr1rkE822cQcqSlMsDkVuELR7GSN_Jt=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=axcHmayliNM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=axcHmayliNM",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "IcxKIIas2Iw",
+      "songTitle": "Deneb (데네브)",
+      "title": "Deneb (데네브)",
+      "artists": [
+        "Dragon Pony"
+      ],
+      "albumTitle": "Twenty Plenty",
+      "albumBrowseId": "MPREb_AFWeO7XHEDy",
+      "duration": "3:09",
+      "durationSeconds": 189,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/npzSEhcKm3ilA5NCeCKr4OD-Uuhy_TpXmyWP_vMhcfVEN2q4p6oBnqAcSBOL6gEGygSqOBtMhik7uIA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IcxKIIas2Iw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=IcxKIIas2Iw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "5z0jNx5gUdI",
+      "songTitle": "Rehearsal",
+      "title": "Rehearsal",
+      "artists": [
+        "Dragon Pony"
+      ],
+      "albumTitle": "RUN RUN RUN",
+      "albumBrowseId": "MPREb_6Fah4YM3i8o",
+      "duration": "3:10",
+      "durationSeconds": 190,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AAwn86YPVGuDkJVVswSnvnPfUja3eY2ZVikjitWsZuxv-SsQYuLJtl9JeUIqTfHrEv0SsjIjLVWThXZg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5z0jNx5gUdI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5z0jNx5gUdI",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "0759_4c8VTk",
+      "songTitle": "On Air",
+      "title": "On Air",
+      "artists": [
+        "Dragon Pony"
+      ],
+      "albumTitle": "Not Out",
+      "albumBrowseId": "MPREb_c1BhG7uxO0r",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UqdZEcLfQfO_azLw-O1fPZLdlkZYQCoVhIrOa0ueV8OQaasrjrTtpe8lmlkpFGUNM5tIsBhGvmuqlFc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0759_4c8VTk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0759_4c8VTk",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=LfOegd5LDN0%2C7ObZk03flxs%2Cyc-eNqLjDMA&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%93%9C%EB%9E%98%EA%B3%A4%ED%8F%AC%EB%8B%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=LfOegd5LDN0&list=RDAMVMLfOegd5LDN0",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 드래곤포니 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 드래곤포니 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=LfOegd5LDN0%2C7ObZk03flxs%2Cyc-eNqLjDMA%2COpRzgzU8RUo%2C7XCT7OQvKy8%2CAC6TzCw2uDc%2CaxcHmayliNM%2CIcxKIIas2Iw%2C5z0jNx5gUdI%2C0759_4c8VTk&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%93%9C%EB%9E%98%EA%B3%A4%ED%8F%AC%EB%8B%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=LfOegd5LDN0&list=RDAMVMLfOegd5LDN0"
 }

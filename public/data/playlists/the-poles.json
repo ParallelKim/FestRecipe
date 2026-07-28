@@ -2,7 +2,7 @@
   "artistId": "the-poles",
   "artistName": "The Poles",
   "englishName": "The Poles",
-  "collectedAt": "2026-07-27T00:58:51.066881+00:00",
+  "collectedAt": "2026-07-28T00:18:48.765594+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.554,
     "reason": "timetable_lateness"
   },
-  "songCount": 4,
+  "songCount": 10,
   "targetSongCount": 4,
   "ytmArtist": {
     "browseId": "UCAodJxXWk1WS9Ko57bRF-ug",
@@ -92,9 +92,113 @@
       "youtubeMusicUrl": "https://music.youtube.com/watch?v=X8lT0r_iEhY",
       "source": "ytm_songs_popular",
       "releaseType": "song"
+    },
+    {
+      "videoId": "c8vnUGxpaUM",
+      "songTitle": "Echo! (talk to me baby)",
+      "title": "Echo! (talk to me baby)",
+      "artists": [
+        "The Poles"
+      ],
+      "albumTitle": "Echo! (talk to me baby)",
+      "albumBrowseId": "MPREb_prJATIth53q",
+      "duration": "2:55",
+      "durationSeconds": 175,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/r4quXZktt7Cd5NJbc60Hs0n9DBLW8nHZ_bnTxRZNyKgNioUUuGNN5l-jCFZwfuqZjzoQBvwV2YXfjq0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c8vnUGxpaUM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=c8vnUGxpaUM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "HMOWoWerEgk",
+      "songTitle": "Good Morning Sunshine",
+      "title": "Good Morning Sunshine",
+      "artists": [
+        "The Poles"
+      ],
+      "albumTitle": "Good Morning Sunshine",
+      "albumBrowseId": "MPREb_mAS6y26a5VO",
+      "duration": "4:41",
+      "durationSeconds": 281,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vcU8bj8y3cXDSwvT7i2Qc9Lrnk-Quq0IVm38uH7h6Kc9n3tEAQv3BaVvYO1fcermemYIbPzwta5K8R4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HMOWoWerEgk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HMOWoWerEgk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "79h7RsqIlCo",
+      "songTitle": "Vancouver ‘23",
+      "title": "Vancouver ‘23",
+      "artists": [
+        "The Poles"
+      ],
+      "albumTitle": "Anomalies in the oddity space",
+      "albumBrowseId": "MPREb_VrDRJzNa29a",
+      "duration": "3:34",
+      "durationSeconds": 214,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5sGZzSS_BAQ5upuOwhvrM0qGU5EhMwX62oRn-3I-At6IPF0kjOj-hsbj7JXRmLFJBQD5iwdQgbkNn8SE8Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=79h7RsqIlCo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=79h7RsqIlCo",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "nUv1v8_nCVM",
+      "songTitle": "cares",
+      "title": "cares",
+      "artists": [
+        "The Poles"
+      ],
+      "albumTitle": "cares",
+      "albumBrowseId": "MPREb_NH0nDSqcRZ0",
+      "duration": "4:35",
+      "durationSeconds": 275,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/DKxQEGPZOD9FM5Zh346cIILJb-iVezdUfHU6pdp23m76WQ-pjJNtp6zhUaowJwR2PjMUZ18pLD0Vt-6H=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nUv1v8_nCVM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nUv1v8_nCVM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "QpanpnhgBro",
+      "songTitle": "Goin' High",
+      "title": "Goin' High",
+      "artists": [
+        "The Poles"
+      ],
+      "albumTitle": "The High Tide Club",
+      "albumBrowseId": "MPREb_riD0xv3kpBG",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QwfCuUxMbNkc5tA8WxX9R8tEoO3a5ZXyGdKxAtUUJKQCvp2sD03i17P3ergZk_RCAEBRNBBFpNC7YfUf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QpanpnhgBro",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=QpanpnhgBro",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "ifFwd6syXDI",
+      "songTitle": "Stargazing",
+      "title": "Stargazing",
+      "artists": [
+        "The Poles"
+      ],
+      "albumTitle": "Anomalies in the oddity space",
+      "albumBrowseId": "MPREb_VrDRJzNa29a",
+      "duration": "4:22",
+      "durationSeconds": 262,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5sGZzSS_BAQ5upuOwhvrM0qGU5EhMwX62oRn-3I-At6IPF0kjOj-hsbj7JXRmLFJBQD5iwdQgbkNn8SE8Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ifFwd6syXDI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ifFwd6syXDI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=QwByM5-vwlM%2CK_x9Vn5NxQw%2CiN2hO2hPLoI%2CX8lT0r_iEhY&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%8D%94+%ED%8F%B4%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=QwByM5-vwlM&list=RDAMVMQwByM5-vwlM",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 더 폴스 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 The Poles 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=QwByM5-vwlM%2CK_x9Vn5NxQw%2CiN2hO2hPLoI%2CX8lT0r_iEhY%2Cc8vnUGxpaUM%2CHMOWoWerEgk%2C79h7RsqIlCo%2CnUv1v8_nCVM%2CQpanpnhgBro%2CifFwd6syXDI&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+The+Poles+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=QwByM5-vwlM&list=RDAMVMQwByM5-vwlM"
 }

@@ -2,7 +2,7 @@
   "artistId": "the-geeks",
   "artistName": "the geeks",
   "englishName": "The Geeks",
-  "collectedAt": "2026-07-27T00:58:49.398121+00:00",
+  "collectedAt": "2026-07-28T00:18:46.986216+00:00",
   "source": "youtube_music",
   "selection": "ytm_songs_popularity",
   "recognition": {
@@ -14,7 +14,7 @@
     "rank": 0.877,
     "reason": "timetable_lateness"
   },
-  "songCount": 5,
+  "songCount": 10,
   "targetSongCount": 5,
   "ytmArtist": {
     "browseId": "UCxjgAS3OOXGsfZNqYO0sFgw",
@@ -114,9 +114,99 @@
       "source": "ytm_songs_popular",
       "year": "2007",
       "releaseType": "album"
+    },
+    {
+      "videoId": "21hca0WG5Lk",
+      "songTitle": "More Than Ever",
+      "title": "More Than Ever",
+      "artists": [
+        "The Geeks"
+      ],
+      "albumTitle": "The Constant",
+      "albumBrowseId": "MPREb_KUjK5rGqaku",
+      "duration": "2:32",
+      "durationSeconds": 152,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ouvfwmx9DR_ujxGKGfFO2xHEwjGhCF92_Hdy8uvlexgyPoO4JpzpNU2jmaqVou4rbFnzg8p2UMhaGc8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=21hca0WG5Lk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=21hca0WG5Lk",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "Qq0hNpopo00",
+      "songTitle": "17th May",
+      "title": "17th May",
+      "artists": [
+        "The Geeks"
+      ],
+      "albumTitle": "Still Not in This Alone",
+      "albumBrowseId": "MPREb_uuOqrFE1AWU",
+      "duration": "1:55",
+      "durationSeconds": 115,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ci_Jg6vXIBTRCSCDi7tkSEK30kE-TSJ7uSD9A0enYb4tBdGZS_Z8joQD0vfB-rb7dOIYpdoY8Ngc7Wyn=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Qq0hNpopo00",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Qq0hNpopo00",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "e_MPEdbMu2k",
+      "songTitle": "Free",
+      "title": "Free",
+      "artists": [
+        "The Geeks"
+      ],
+      "albumTitle": "The Constant",
+      "albumBrowseId": "MPREb_KUjK5rGqaku",
+      "duration": "1:18",
+      "durationSeconds": 78,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ouvfwmx9DR_ujxGKGfFO2xHEwjGhCF92_Hdy8uvlexgyPoO4JpzpNU2jmaqVou4rbFnzg8p2UMhaGc8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=e_MPEdbMu2k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=e_MPEdbMu2k",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "nN3bw3EcOfw",
+      "songTitle": "Get Back",
+      "title": "Get Back",
+      "artists": [
+        "The Geeks"
+      ],
+      "albumTitle": "Unbreakable",
+      "albumBrowseId": "MPREb_r3BOdXjaA8o",
+      "duration": "1:34",
+      "durationSeconds": 94,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dLEE9fVTOvZxso2hCBlh2MkiuinBsJRchAy4uaFlszK5srSME7oow-yAQINZdpXjPIDUNnCsP6HrxTi8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nN3bw3EcOfw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nN3bw3EcOfw",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "-mIBVgC64jw",
+      "songTitle": "Open Your Eyes",
+      "title": "Open Your Eyes",
+      "artists": [
+        "The Geeks"
+      ],
+      "albumTitle": "Every Time We Fall",
+      "albumBrowseId": "MPREb_HRZ786zX9xG",
+      "duration": "1:07",
+      "durationSeconds": 67,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QJZGjmxIUI7O1xgkMKQ-ToL-k55CZ0eyxIQcU3XjOMcbDacySQ8DYaOYuFmA2ntwVOEXXxpodl7YxTqaxg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-mIBVgC64jw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-mIBVgC64jw",
+      "source": "ytm_songs_popular",
+      "year": "2007",
+      "releaseType": "album"
     }
   ],
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=47UGyKfacKs%2CFKlQj6AZ8rA%2Cn3gb9ZKz6a4%2CBoeij7W-LE0%2CtiCKGIycmJ8&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%8D%94+%EA%B8%B1%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=47UGyKfacKs&list=RDAMVM47UGyKfacKs",
-  "playlistTitle": "2026 인천펜타포트 락 페스티벌 더 긱스 플레이리스트"
+  "playlistTitle": "2026 인천펜타포트 락 페스티벌 the geeks 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=47UGyKfacKs%2CFKlQj6AZ8rA%2Cn3gb9ZKz6a4%2CBoeij7W-LE0%2CtiCKGIycmJ8%2C21hca0WG5Lk%2CQq0hNpopo00%2Ce_MPEdbMu2k%2CnN3bw3EcOfw%2C-mIBVgC64jw&title=2026+%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8+%EB%9D%BD+%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+the+geeks+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=47UGyKfacKs&list=RDAMVM47UGyKfacKs"
 }
