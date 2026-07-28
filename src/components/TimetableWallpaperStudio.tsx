@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import type { Artist, DayLineup, Festival } from '../types'
 import TimetableGrid from './TimetableGrid'
@@ -31,9 +31,11 @@ export default function TimetableWallpaperStudio({
   myLineupIds,
 }: TimetableWallpaperStudioProps) {
   const frameRef = useRef<HTMLDivElement>(null)
+  const contentRef = useRef<HTMLDivElement>(null)
   const [aspectId, setAspectId] = useState<AspectPresetId>('9-19.5')
-  const [zoom, setZoom] = useState(0.9)
+  const [zoom, setZoom] = useState(1)
   const [pan, setPan] = useState({ x: 0, y: 0 })
+  const [userAdjustedZoom, setUserAdjustedZoom] = useState(false)
   const [pixelRatio, setPixelRatio] = useState(2)
   const [busy, setBusy] = useState(false)
   const dragRef = useRef<{
@@ -55,16 +57,57 @@ export default function TimetableWallpaperStudio({
     !!activeDay?.slots?.length &&
     !!activeDay.stages?.length
 
+  const fitContentToFrame = useCallback(() => {
+    const frame = frameRef.current
+    const content = contentRef.current
+    if (!frame || !content) return
+    const frameW = frame.clientWidth
+    const frameH = frame.clientHeight
+    if (frameW < 1 || frameH < 1) return
+    const contentW = content.offsetWidth
+    const contentH = content.offsetHeight
+    if (contentW < 1 || contentH < 1) return
+    const pad = 10
+    const fitZoom = Math.min(
+      (frameW - pad * 2) / contentW,
+      (frameH - pad * 2) / contentH,
+      1,
+    )
+    const z = Math.max(0.35, Math.round(fitZoom * 100) / 100)
+    const scaledW = contentW * z
+    const scaledH = contentH * z
+    setZoom(z)
+    setPan({
+      x: Math.round((frameW - scaledW) / 2),
+      y: Math.round((frameH - scaledH) / 2),
+    })
+  }, [])
+
   useEffect(() => {
     if (!open) return
-    setZoom(0.9)
-    setPan({ x: 0, y: 0 })
+    setUserAdjustedZoom(false)
     const prev = document.body.style.overflow
     document.body.style.overflow = 'hidden'
     return () => {
       document.body.style.overflow = prev
     }
   }, [open, activeDay?.dayLabel])
+
+  useLayoutEffect(() => {
+    if (!open) return
+    fitContentToFrame()
+    const raf = requestAnimationFrame(() => fitContentToFrame())
+    return () => cancelAnimationFrame(raf)
+  }, [open, activeDay?.dayLabel, aspectId, lineupOnDay.length, fitContentToFrame])
+
+  useEffect(() => {
+    if (!open || userAdjustedZoom) return
+    const frame = frameRef.current
+    if (!frame || typeof ResizeObserver === 'undefined') return
+    const ro = new ResizeObserver(() => fitContentToFrame())
+    ro.observe(frame)
+    return () => ro.disconnect()
+  }, [open, userAdjustedZoom, fitContentToFrame])
 
   const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     if (e.button !== 0) return
@@ -148,11 +191,12 @@ export default function TimetableWallpaperStudio({
           onPointerCancel={endDrag}
         >
           <div
-            className="wallpaper-studio__content"
+            className="wallpaper-studio__transform"
             style={{
               transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
             }}
           >
+            <div ref={contentRef} className="wallpaper-studio__content">
             <div className="wallpaper-studio__meta">
               <p className="wallpaper-studio__fest">{festival.name}</p>
               <p className="wallpaper-studio__day">{activeDay.dayLabel}</p>
@@ -167,11 +211,13 @@ export default function TimetableWallpaperStudio({
                 artists={artists}
                 stageStyles={festival.stageStyles}
                 exportMode
+                wallpaperCompact
                 onSlotClick={() => {}}
                 myLineupArtistIds={lineupOnDay}
               />
             </div>
             <p className="wallpaper-studio__brand">FestRecipe</p>
+            </div>
           </div>
         </div>
       </div>
@@ -182,7 +228,10 @@ export default function TimetableWallpaperStudio({
           <select
             className="wallpaper-studio__select"
             value={aspectId}
-            onChange={(e) => setAspectId(e.target.value as AspectPresetId)}
+            onChange={(e) => {
+              setAspectId(e.target.value as AspectPresetId)
+              setUserAdjustedZoom(false)
+            }}
           >
             {ASPECT_PRESETS.map((p) => (
               <option key={p.id} value={p.id}>
@@ -200,9 +249,22 @@ export default function TimetableWallpaperStudio({
             max={2}
             step={0.05}
             value={zoom}
-            onChange={(e) => setZoom(Number(e.target.value))}
+            onChange={(e) => {
+              setUserAdjustedZoom(true)
+              setZoom(Number(e.target.value))
+            }}
           />
         </label>
+        <button
+          type="button"
+          className="btn-secondary wallpaper-studio__fit"
+          onClick={() => {
+            setUserAdjustedZoom(false)
+            fitContentToFrame()
+          }}
+        >
+          화면에 맞추기
+        </button>
         <label className="wallpaper-studio__control">
           <span>저장 선명도 ×{pixelRatio}</span>
           <input

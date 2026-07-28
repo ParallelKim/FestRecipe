@@ -1914,8 +1914,10 @@ body {
 }
 .wallpaper-studio__frame {
   width: min(100%, 360px);
-  max-height: min(62vh, 720px);
+  max-height: 100%;
+  aspect-ratio: 9 / 19.5;
   overflow: hidden;
+  position: relative;
   border-radius: 16px;
   box-shadow:
     0 0 0 1px rgba(0, 0, 0, 0.08),
@@ -1927,11 +1929,19 @@ body {
 .wallpaper-studio__frame:active {
   cursor: grabbing;
 }
+.wallpaper-studio__transform {
+  position: absolute;
+  inset: 0;
+  transform-origin: 0 0;
+  pointer-events: none;
+}
 .wallpaper-studio__content {
-  transform-origin: top center;
-  padding: 14px 12px 10px;
-  min-height: 100%;
+  display: inline-block;
+  width: max(100%, 280px);
+  box-sizing: border-box;
+  padding: 12px 10px 8px;
   background: #fff;
+  pointer-events: auto;
 }
 .wallpaper-studio__meta {
   margin-bottom: 10px;
@@ -1971,6 +1981,12 @@ body {
   text-transform: uppercase;
   color: var(--color-muted);
   opacity: 0.75;
+}
+.wallpaper-studio__fit {
+  width: 100%;
+  justify-content: center;
+  font-size: 13px;
+  padding: 10px 14px;
 }
 .wallpaper-studio__controls {
   flex-shrink: 0;

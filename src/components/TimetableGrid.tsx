@@ -18,6 +18,8 @@ interface TimetableGridProps {
   onToggleMyLineup?: (artistId: string) => void
   /** 배경화면 캡처용 — 슬롯 탭·☆ 버튼 비활성 */
   exportMode?: boolean
+  /** 배경화면 프레임에 맞추기 위한 세로 압축 */
+  wallpaperCompact?: boolean
 }
 
 function timeToMinutes(time: string): number {
@@ -36,6 +38,7 @@ export default function TimetableGrid({
   myLineupArtistIds = [],
   onToggleMyLineup,
   exportMode = false,
+  wallpaperCompact = false,
 }: TimetableGridProps) {
   const lineupSet = useMemo(() => new Set(myLineupArtistIds), [myLineupArtistIds])
   const themes = useMemo(() => stageThemeMap(stages, stageStyles), [stages, stageStyles])
@@ -59,7 +62,7 @@ export default function TimetableGrid({
   const startLimit = earliestStart
   const endLimit = latestEnd
   const totalMinutes = Math.max(endLimit - startLimit, 30)
-  const pxPerMin = 1.55
+  const pxPerMin = wallpaperCompact ? 1.12 : 1.55
   const totalHeight = totalMinutes * pxPerMin
 
   const firstHour = Math.ceil(startLimit / 60)
