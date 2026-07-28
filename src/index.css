@@ -1788,69 +1788,6 @@ body {
   width: 100%;
   justify-content: center;
 }
-.my-lineup-day {
-  margin-bottom: 16px;
-}
-.my-lineup-day__label {
-  margin: 0 0 8px;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--color-muted);
-  text-transform: uppercase;
-}
-.my-lineup-day__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-.my-lineup-pick {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  padding: 10px 12px;
-  border: 1px solid var(--color-hairline);
-  border-radius: var(--radius-md);
-  background: var(--color-surface);
-  text-align: left;
-  cursor: pointer;
-  font-size: 14px;
-}
-.my-lineup-pick.is-on {
-  background: var(--color-lineup-bg);
-}
-.my-lineup-pick:disabled {
-  opacity: 0.55;
-  cursor: not-allowed;
-}
-.my-lineup-pick__mark {
-  flex-shrink: 0;
-  width: 22px;
-  height: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 6px;
-  background: var(--color-surface-soft);
-  font-size: 13px;
-  font-weight: 700;
-}
-.my-lineup-pick.is-on .my-lineup-pick__mark {
-  background: var(--color-lineup-bg);
-  color: #1a6b42;
-}
-.my-lineup-pick__name {
-  flex: 1;
-  font-weight: 600;
-}
-.my-lineup-pick__status {
-  font-size: 11px;
-  color: var(--color-muted);
-}
 
 .playlist-sheet--lineup {
   max-height: min(88vh, 820px);
@@ -2039,11 +1976,6 @@ body {
 .wallpaper-studio__range {
   width: 100%;
   accent-color: var(--color-ink);
-}
-.my-lineup-panel__browse-title {
-  margin: 0 0 12px;
-  font-size: 13px;
-  font-weight: 700;
 }
 
 @media (max-width: 900px) {

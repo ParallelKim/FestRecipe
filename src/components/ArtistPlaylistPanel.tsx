@@ -249,7 +249,7 @@ export default function ArtistPlaylistPanel({
           </p>
           <p className="playlist-panel__idle-hint">
             요일·페스티벌 전체 듣기는 위 버튼에서 바로 시작할 수 있습니다.
-            나만의 플레이리스트에서 볼 아티스트를 담아 YouTube로 듣거나 배경화면 타임테이블로 저장할 수 있습니다.
+            나만의 플레이리스트는 타임테이블 ☆로 담은 뒤 YouTube로 듣거나 배경화면으로 저장할 수 있습니다.
           </p>
         </div>
       ) : null}

@@ -20,17 +20,14 @@ interface MyLineupPanelProps {
   onDismissBundleNotice?: () => void
 }
 
-function artistsForDay(day: DayLineup, artistMap: Map<string, Artist>): Artist[] {
-  const ids = new Set<string>()
-  if (day.artists?.length) {
-    day.artists.forEach((id) => ids.add(id))
+function pickHint(festival: Festival): string {
+  if (festival.lineupStage === 'stage3_timetable') {
+    return '타임테이블 슬롯의 ☆로 담고, 겹치는 시간을 보며 골라 주세요. 이 패널에서는 담은 목록 확인·듣기·배경화면만 할 수 있습니다.'
   }
-  if (day.slots?.length) {
-    day.slots.forEach((s) => ids.add(s.artistId))
+  if (festival.lineupStage === 'stage2_daily') {
+    return '일별 라인업 카드의 ☆로 담아 주세요.'
   }
-  return [...ids]
-    .map((id) => artistMap.get(id))
-    .filter((a): a is Artist => !!a)
+  return '라인업 칩 옆 ☆로 담아 주세요.'
 }
 
 export default function MyLineupPanel({
@@ -55,18 +52,6 @@ export default function MyLineupPanel({
     [myLineupIds, activeDay],
   )
 
-  const browseArtists = useMemo(() => {
-    if (festival.lineupStage === 'stage3_timetable' && activeDay) {
-      return artistsForDay(activeDay, artistMap)
-    }
-    if (festival.lineupStage === 'stage2_daily' && activeDay) {
-      return artistsForDay(activeDay, artistMap)
-    }
-    return festival.allArtists
-      .map((id) => artistMap.get(id))
-      .filter((a): a is Artist => !!a)
-  }, [festival, activeDay, artists, artistMap])
-
   const selectedOnDay = lineupOnDayIds
     .map((id) => artistMap.get(id))
     .filter((a): a is Artist => !!a)
@@ -79,9 +64,7 @@ export default function MyLineupPanel({
       <div className="my-lineup-panel__head">
         <div>
           <h4 className="my-lineup-panel__title">나만의 플레이리스트</h4>
-          <p className="my-lineup-panel__lede">
-            <strong>{dayLabel}</strong> 기준으로 아티스트를 담습니다.
-          </p>
+          <p className="my-lineup-panel__lede">{pickHint(festival)}</p>
         </div>
         {lineupOnDayIds.length > 0 && (
           <button type="button" className="my-lineup-panel__clear" onClick={onClear}>
@@ -120,7 +103,9 @@ export default function MyLineupPanel({
           )}
         </p>
         {selectedOnDay.length === 0 ? (
-          <p className="my-lineup-panel__empty">아래에서 이 날짜 아티스트를 선택해 주세요.</p>
+          <p className="my-lineup-panel__empty">
+            {dayLabel}에 담은 아티스트가 없습니다. 패널을 닫고 라인업에서 ☆를 눌러 담아 주세요.
+          </p>
         ) : (
           <ul className="my-lineup-panel__chips">
             {selectedOnDay.map((a) => (
@@ -167,33 +152,6 @@ export default function MyLineupPanel({
         artists={artists}
         myLineupIds={myLineupIds}
       />
-
-      <div className="my-lineup-panel__browse">
-        <h5 className="my-lineup-panel__browse-title">{dayLabel} 아티스트 담기</h5>
-        <ul className="my-lineup-day__list">
-          {browseArtists.map((artist) => {
-            const on = myLineupIds.includes(artist.id)
-            const ready = playlistReady.has(artist.id)
-            return (
-              <li key={artist.id}>
-                <button
-                  type="button"
-                  className={`my-lineup-pick${on ? ' is-on' : ''}`}
-                  onClick={() => onToggleArtist(artist.id)}
-                  disabled={!ready && !on}
-                  title={ready ? undefined : '플레이리스트 준비 중'}
-                >
-                  <span className="my-lineup-pick__mark" aria-hidden="true">
-                    {on ? '✓' : '+'}
-                  </span>
-                  <span className="my-lineup-pick__name">{officialArtistName(artist)}</span>
-                  {!ready && <span className="my-lineup-pick__status">준비 중</span>}
-                </button>
-              </li>
-            )
-          })}
-        </ul>
-      </div>
     </div>
   )
 }
