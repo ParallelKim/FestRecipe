@@ -93,20 +93,6 @@ export default function FestivalDetail() {
     }
   }, [selectedArtist])
 
-  useEffect(() => {
-    if (!playlistSheetOpen) return
-    const prev = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setPlaylistSheetOpen(false)
-    }
-    window.addEventListener('keydown', onKey)
-    return () => {
-      document.body.style.overflow = prev
-      window.removeEventListener('keydown', onKey)
-    }
-  }, [playlistSheetOpen])
-
   if (loading) {
     return <LoadingState label="페스티벌 정보를 불러오는 중..." minHeight="100vh" />
   }

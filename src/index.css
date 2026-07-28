@@ -739,25 +739,8 @@ body {
 .playlist-fab__glyph {
   display: block;
 }
-.playlist-sheet-root {
-  position: fixed;
-  inset: 0;
-  z-index: 70;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-.playlist-sheet__backdrop {
-  position: absolute;
-  inset: 0;
-  border: none;
-  padding: 0;
-  background: rgba(8, 10, 12, 0.45);
-  cursor: pointer;
-}
+/* 시트 컨테이너·backdrop·애니메이션은 shadcn Sheet(Base UI)가 제공 */
 .playlist-sheet {
-  position: relative;
-  z-index: 1;
   width: 100%;
   max-width: 560px;
   max-height: min(78vh, 720px);
@@ -766,7 +749,11 @@ body {
   border-radius: 18px 18px 0 0;
   padding: 8px 16px 24px;
   box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.2);
-  animation: playlist-sheet-up 0.22s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .playlist-sheet {
+    transition: none;
+  }
 }
 .playlist-sheet__handle {
   width: 40px;
@@ -788,10 +775,6 @@ body {
   border: none;
   padding: 0;
   min-height: 0;
-}
-@keyframes playlist-sheet-up {
-  from { transform: translateY(18px); opacity: 0.6; }
-  to { transform: translateY(0); opacity: 1; }
 }
 
 .day-tabs {
