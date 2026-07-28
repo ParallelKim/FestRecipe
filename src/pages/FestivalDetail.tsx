@@ -93,6 +93,23 @@ export default function FestivalDetail() {
     }
   }, [selectedArtist])
 
+  // 활성 일자 플레이리스트 프리페치 — 유휴 시간에 캐시를 채워 슬롯 선택 지연 제거
+  useEffect(() => {
+    if (!festival) return
+    const day = festival.lineup[activeDayIndex]
+    const ids =
+      festival.lineupStage === 'stage1_all'
+        ? festival.allArtists
+        : day?.artists?.length
+          ? day.artists
+          : (day?.slots || []).map((s) => s.artistId)
+    if (ids.length === 0) return
+    const schedule = window.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 600))
+    const cancel = window.cancelIdleCallback ?? window.clearTimeout
+    const handle = schedule(() => FestivalService.prefetchPlaylists(ids))
+    return () => cancel(handle as number)
+  }, [festival, activeDayIndex])
+
   if (loading) {
     return <LoadingState label="페스티벌 정보를 불러오는 중..." minHeight="100vh" />
   }
@@ -459,7 +476,6 @@ export default function FestivalDetail() {
                   />
                 </div>
                 <h3 className="lineup-block__subhead">일별 라인업 아티스트</h3>
-                <p className="lineup-block__hint">카드를 눌러 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
                 <div className="artist-card-grid">
                   {activeDayArtists.map((artist) => {
                     const isSelected = selectedArtist?.id === artist.id
@@ -519,7 +535,6 @@ export default function FestivalDetail() {
                     {activeDay?.dayLabel} 내 라인업 <strong>{myLineupOnDayCount}</strong>팀 · 타임테이블 ☆ 강조
                   </p>
                 )}
-                <p className="lineup-block__hint">슬롯을 눌러 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
                 <div className="timetable-scroll">
                   <TimetableGrid
                     stages={activeDay?.stages || []}

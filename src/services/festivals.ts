@@ -110,4 +110,11 @@ export const FestivalService = {
       return undefined
     }
   },
+
+  /** 백그라운드 프리페치 — 모듈 캐시를 채워 선택 시 즉시 표시 */
+  prefetchPlaylists(artistIds: string[]): void {
+    for (const artistId of artistIds) {
+      void this.getPlaylistForArtist(artistId)
+    }
+  },
 }

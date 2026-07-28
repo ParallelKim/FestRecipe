@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import type { Artist, ArtistPlaylist, Festival, DayLineup } from '../types'
 import ArtistPlaylistPanel from './ArtistPlaylistPanel'
 import { officialArtistName } from '../lib/artistOfficialName'
@@ -51,6 +52,15 @@ export default function PlaylistMobileDock({
       ? `${officialArtistName(panelProps.selectedArtist)} 플레이리스트`
       : '플레이리스트'
 
+  const contentRef = useRef<HTMLDivElement>(null)
+  const selectedArtistId = panelProps.selectedArtist?.id
+
+  // 시트 오픈·아티스트 전환 시 스크롤을 맨 위로 — 이전 위치 잔류로 인한 어색함 제거
+  useEffect(() => {
+    if (!open) return
+    contentRef.current?.scrollTo({ top: 0 })
+  }, [open, selectedArtistId])
+
   return (
     <div className="playlist-dock">
       <Sheet open={open} onOpenChange={(next) => (next ? onOpen() : onClose())}>
@@ -85,6 +95,7 @@ export default function PlaylistMobileDock({
         </SheetTrigger>
 
         <SheetContent
+          ref={contentRef}
           side="bottom"
           showCloseButton={false}
           className={`playlist-sheet mx-auto gap-0 overscroll-contain data-[side=bottom]:border-t-0 min-[900px]:hidden${showMyLineupEditor ? ' playlist-sheet--lineup' : ''}${panelProps.selectedArtist ? ' playlist-sheet--artist' : ''}`}
