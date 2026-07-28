@@ -1169,19 +1169,24 @@ body {
   box-shadow: none;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
-  transition: transform 0.08s ease, box-shadow 0.12s ease, background-color 0.12s ease;
+  transition: transform 0.08s ease, box-shadow 0.12s ease, background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
 }
-/* 내 라인업 슬롯 — 스테이지 액센트 좌측 스트립으로 강화 (선택 스타일은 모바일에서 역할이 약해 두지 않음) */
+/* 내 라인업 슬롯 — 스테이지 액센트 배경 + 흰 글자로 반전 */
 .tt-grid__slot.is-in-lineup {
-  background: var(--slot-lineup-bg, var(--color-lineup-bg));
-  box-shadow:
-    inset 3px 0 0 var(--stage-accent, #41454d),
-    0 0 0 1px var(--stage-accent, #41454d);
-  padding-left: 9px;
+  background: var(--stage-accent, #41454d);
+  border-color: var(--stage-accent, #41454d);
+  color: #fff;
+  box-shadow: none;
 }
+.tt-grid__slot.is-in-lineup .tt-grid__slot-time {
+  color: rgba(255, 255, 255, 0.85);
+  opacity: 1;
+}
+/* 라인업 슬롯(액센트 배경) 위의 ☆ 버튼 — 흰 톤으로 통일 */
 .tt-grid__slot-shell.is-in-lineup .lineup-pick-btn--tt.is-on {
-  background: var(--slot-lineup-bg, var(--color-lineup-bg));
-  color: var(--stage-accent, #1a6b42);
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #fff;
 }
 @media (hover: hover) and (pointer: fine) {
   .tt-grid__slot:hover {
