@@ -31,6 +31,13 @@ function normalizeHex(hex: string): string {
   return m ? `#${m[1].toLowerCase()}` : hex.toLowerCase()
 }
 
+function tryParseHexInput(raw: string): string | null {
+  const t = raw.trim()
+  if (/^#[0-9a-f]{6}$/i.test(t)) return normalizeHex(t)
+  if (/^[0-9a-f]{6}$/i.test(t)) return normalizeHex(`#${t}`)
+  return null
+}
+
 function isDarkWallpaperBg(hex: string): boolean {
   const m = /^#?([0-9a-f]{6})$/i.exec(hex.trim())
   if (!m) return false
@@ -72,6 +79,8 @@ export default function TimetableWallpaperStudio({
   const [bgColor, setBgColor] = useState<string>(WALLPAPER_BG_PRESETS[1].value)
   const [showSafeZones, setShowSafeZones] = useState(true)
   const [busy, setBusy] = useState(false)
+  const [hexCustomOpen, setHexCustomOpen] = useState(false)
+  const [hexDraft, setHexDraft] = useState('')
   const [scale, setScale] = useState(0.5)
   const [sourceHeight, setSourceHeight] = useState(600)
 
@@ -187,6 +196,11 @@ export default function TimetableWallpaperStudio({
   const bgNorm = normalizeHex(bgColor)
   const activePresetId =
     WALLPAPER_BG_PRESETS.find((p) => normalizeHex(p.value) === bgNorm)?.id ?? null
+
+  const applyHexDraft = () => {
+    const parsed = tryParseHexInput(hexDraft)
+    if (parsed) setBgColor(parsed)
+  }
 
   const scaledW = MAIN_TIMETABLE_REF_WIDTH * scale
   const scaledH = sourceHeight * scale
@@ -314,7 +328,10 @@ export default function TimetableWallpaperStudio({
                 type="button"
                 className={`wallpaper-studio__tone${activePresetId === preset.id ? ' is-active' : ''}`}
                 aria-pressed={activePresetId === preset.id}
-                onClick={() => setBgColor(preset.value)}
+                onClick={() => {
+                  setBgColor(preset.value)
+                  setHexCustomOpen(false)
+                }}
               >
                 <span
                   className="wallpaper-studio__tone-swatch"
@@ -324,23 +341,60 @@ export default function TimetableWallpaperStudio({
                 {preset.label}
               </button>
             ))}
-            <label
-              className={`wallpaper-studio__tone wallpaper-studio__tone--custom${!activePresetId ? ' is-active' : ''}`}
+            <button
+              type="button"
+              className={`wallpaper-studio__tone${!activePresetId ? ' is-active' : ''}`}
+              aria-pressed={!activePresetId}
+              onClick={() => {
+                setHexCustomOpen((open) => {
+                  const next = !open
+                  if (next) setHexDraft(activePresetId ? '' : bgNorm)
+                  return next
+                })
+              }}
             >
               <span
-                className="wallpaper-studio__tone-swatch wallpaper-studio__tone-swatch--custom"
-                style={{ backgroundColor: bgColor }}
+                className="wallpaper-studio__tone-swatch"
+                style={{ backgroundColor: !activePresetId ? bgColor : '#e8e6e1' }}
                 aria-hidden="true"
               />
               직접 지정
-              <input
-                type="color"
-                className="wallpaper-studio__tone-color"
-                value={bgNorm.length === 7 ? bgNorm : '#f4f3f0'}
-                onChange={(e) => setBgColor(e.target.value)}
-              />
-            </label>
+            </button>
           </div>
+          {hexCustomOpen && (
+            <div className="wallpaper-studio__hex" role="group" aria-label="배경색 HEX">
+              <span
+                className="wallpaper-studio__hex-preview"
+                style={{ backgroundColor: tryParseHexInput(hexDraft) ?? bgColor }}
+                aria-hidden="true"
+              />
+              <input
+                type="text"
+                className="wallpaper-studio__hex-input"
+                inputMode="text"
+                autoCapitalize="off"
+                autoCorrect="off"
+                spellCheck={false}
+                placeholder="#f4f3f0"
+                aria-label="HEX 색상 코드"
+                value={hexDraft}
+                onChange={(e) => setHexDraft(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') applyHexDraft()
+                }}
+              />
+              <button
+                type="button"
+                className="btn-secondary wallpaper-studio__hex-apply"
+                onClick={applyHexDraft}
+              >
+                적용
+              </button>
+              <p className="wallpaper-studio__hex-hint">
+                브라우저 기본 색상 창 없이 HEX만 입력합니다. 예: <code>#181d26</code>
+              </p>
+            </div>
+          )}
         </div>
         <button
           type="button"
