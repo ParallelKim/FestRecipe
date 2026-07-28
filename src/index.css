@@ -1910,15 +1910,17 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 0;
+  min-width: 0;
   padding: 4px 0;
 }
+.wallpaper-studio__preview {
+  position: relative;
+  flex-shrink: 0;
+}
 .wallpaper-studio__frame {
-  width: min(100%, 360px);
-  max-height: 100%;
-  aspect-ratio: 9 / 19.5;
   overflow: hidden;
   position: relative;
-  border-radius: 16px;
+  border-radius: 20px;
   box-shadow:
     0 0 0 1px rgba(0, 0, 0, 0.08),
     0 12px 40px rgba(0, 0, 0, 0.18);
@@ -1929,22 +1931,46 @@ body {
 .wallpaper-studio__frame:active {
   cursor: grabbing;
 }
-.wallpaper-studio__transform {
+.wallpaper-studio__safe {
   position: absolute;
   inset: 0;
-  transform-origin: 0 0;
+  z-index: 5;
   pointer-events: none;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.wallpaper-studio__safe-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: rgba(255, 193, 7, 0.1);
+  border: 1px dashed rgba(0, 0, 0, 0.12);
+}
+.wallpaper-studio__safe-band--top {
+  top: 0;
+}
+.wallpaper-studio__safe-band--bottom {
+  bottom: 0;
+}
+.wallpaper-studio__transform {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  min-height: 100%;
+  transform-origin: 0 0;
 }
 .wallpaper-studio__content {
-  display: inline-block;
-  width: max(100%, 280px);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
   box-sizing: border-box;
-  padding: 12px 10px 8px;
+  padding: 0 8px 0;
   background: #fff;
-  pointer-events: auto;
 }
 .wallpaper-studio__meta {
-  margin-bottom: 10px;
+  flex-shrink: 0;
+  margin-bottom: 6px;
   text-align: center;
 }
 .wallpaper-studio__fest {
@@ -1966,14 +1992,17 @@ body {
   color: var(--color-muted);
 }
 .wallpaper-studio__grid {
+  flex: 1;
+  min-height: 0;
   pointer-events: none;
   user-select: none;
 }
 .wallpaper-studio__grid .tt {
-  --tt-axis: 36px;
+  --tt-axis: 34px;
 }
 .wallpaper-studio__brand {
-  margin: 10px 0 0;
+  flex-shrink: 0;
+  margin: 6px 0 0;
   text-align: center;
   font-size: 10px;
   font-weight: 700;
@@ -1997,8 +2026,13 @@ body {
   border: 1px solid var(--color-hairline);
   background: var(--color-surface-soft);
 }
-.wallpaper-studio__control {
-  display: block;
+.wallpaper-studio__control--row {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+}
+.wallpaper-studio__control--row span {
+  margin-bottom: 0 !important;
 }
 .wallpaper-studio__control > span {
   display: block;

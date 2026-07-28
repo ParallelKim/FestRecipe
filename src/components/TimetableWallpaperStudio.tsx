@@ -4,14 +4,20 @@ import type { Artist, DayLineup, Festival } from '../types'
 import TimetableGrid from './TimetableGrid'
 import { downloadElementPng } from '../lib/captureElementPng'
 import { filterMyLineupForDay } from '../lib/lineupDay'
+import {
+  computeWallpaperPreviewSize,
+  exportPixelRatioForFrame,
+  resolveWallpaperProfile,
+  WALLPAPER_PRESET_PROFILES,
+  type WallpaperProfile,
+} from '../lib/wallpaperDevice'
+import { computeWallpaperPxPerMin } from '../lib/wallpaperLayout'
 
-const ASPECT_PRESETS = [
-  { id: '9-19.5', label: 'iPhone 세로 (9:19.5)', ratio: 9 / 19.5 },
-  { id: '9-20', label: '안드로이드 세로 (9:20)', ratio: 9 / 20 },
-  { id: '3-4', label: '3:4', ratio: 3 / 4 },
-] as const
+const META_TEXT_PX = 52
+const BRAND_BLOCK_PX = 28
+const FRAME_PADDING_Y = 12
 
-type AspectPresetId = (typeof ASPECT_PRESETS)[number]['id']
+type ProfileOptionId = 'device' | (typeof WALLPAPER_PRESET_PROFILES)[number]['id']
 
 interface TimetableWallpaperStudioProps {
   open: boolean
@@ -30,13 +36,16 @@ export default function TimetableWallpaperStudio({
   artists,
   myLineupIds,
 }: TimetableWallpaperStudioProps) {
+  const stageRef = useRef<HTMLDivElement>(null)
   const frameRef = useRef<HTMLDivElement>(null)
-  const contentRef = useRef<HTMLDivElement>(null)
-  const [aspectId, setAspectId] = useState<AspectPresetId>('9-19.5')
+  const [profileId, setProfileId] = useState<ProfileOptionId>('device')
+  const [profile, setProfile] = useState<WallpaperProfile>(() =>
+    resolveWallpaperProfile('device'),
+  )
+  const [previewSize, setPreviewSize] = useState({ width: 320, height: 693 })
   const [zoom, setZoom] = useState(1)
   const [pan, setPan] = useState({ x: 0, y: 0 })
-  const [userAdjustedZoom, setUserAdjustedZoom] = useState(false)
-  const [pixelRatio, setPixelRatio] = useState(2)
+  const [showSafeZones, setShowSafeZones] = useState(true)
   const [busy, setBusy] = useState(false)
   const dragRef = useRef<{
     pointerId: number
@@ -46,7 +55,6 @@ export default function TimetableWallpaperStudio({
     originY: number
   } | null>(null)
 
-  const aspect = ASPECT_PRESETS.find((p) => p.id === aspectId) ?? ASPECT_PRESETS[0]
   const lineupOnDay = useMemo(
     () => filterMyLineupForDay(myLineupIds, activeDay),
     [myLineupIds, activeDay],
@@ -57,35 +65,40 @@ export default function TimetableWallpaperStudio({
     !!activeDay?.slots?.length &&
     !!activeDay.stages?.length
 
-  const fitContentToFrame = useCallback(() => {
-    const frame = frameRef.current
-    const content = contentRef.current
-    if (!frame || !content) return
-    const frameW = frame.clientWidth
-    const frameH = frame.clientHeight
-    if (frameW < 1 || frameH < 1) return
-    const contentW = content.offsetWidth
-    const contentH = content.offsetHeight
-    if (contentW < 1 || contentH < 1) return
-    const pad = 10
-    const fitZoom = Math.min(
-      (frameW - pad * 2) / contentW,
-      (frameH - pad * 2) / contentH,
-      1,
+  const layout = useMemo(() => {
+    const frameH = previewSize.height
+    const safeTop = frameH * profile.safeTopRatio
+    const safeBottom = frameH * profile.safeBottomRatio
+    const gridAreaHeight =
+      frameH -
+      safeTop -
+      safeBottom -
+      META_TEXT_PX -
+      BRAND_BLOCK_PX -
+      FRAME_PADDING_Y
+    const slots = activeDay?.slots ?? []
+    const pxPerMin = computeWallpaperPxPerMin(slots, Math.max(120, gridAreaHeight))
+    return { pxPerMin, safeTop, safeBottom, gridAreaHeight }
+  }, [previewSize.height, profile, activeDay?.slots])
+
+  const refreshProfileAndPreview = useCallback(() => {
+    const nextProfile = resolveWallpaperProfile(profileId)
+    setProfile(nextProfile)
+    const stage = stageRef.current
+    if (!stage) return
+    setPreviewSize(
+      computeWallpaperPreviewSize(
+        nextProfile,
+        stage.clientWidth,
+        stage.clientHeight,
+      ),
     )
-    const z = Math.max(0.35, Math.round(fitZoom * 100) / 100)
-    const scaledW = contentW * z
-    const scaledH = contentH * z
-    setZoom(z)
-    setPan({
-      x: Math.round((frameW - scaledW) / 2),
-      y: Math.round((frameH - scaledH) / 2),
-    })
-  }, [])
+  }, [profileId])
 
   useEffect(() => {
     if (!open) return
-    setUserAdjustedZoom(false)
+    setZoom(1)
+    setPan({ x: 0, y: 0 })
     const prev = document.body.style.overflow
     document.body.style.overflow = 'hidden'
     return () => {
@@ -95,19 +108,19 @@ export default function TimetableWallpaperStudio({
 
   useLayoutEffect(() => {
     if (!open) return
-    fitContentToFrame()
-    const raf = requestAnimationFrame(() => fitContentToFrame())
+    refreshProfileAndPreview()
+    const raf = requestAnimationFrame(refreshProfileAndPreview)
     return () => cancelAnimationFrame(raf)
-  }, [open, activeDay?.dayLabel, aspectId, lineupOnDay.length, fitContentToFrame])
+  }, [open, profileId, activeDay?.dayLabel, refreshProfileAndPreview])
 
   useEffect(() => {
-    if (!open || userAdjustedZoom) return
-    const frame = frameRef.current
-    if (!frame || typeof ResizeObserver === 'undefined') return
-    const ro = new ResizeObserver(() => fitContentToFrame())
-    ro.observe(frame)
+    if (!open) return
+    const stage = stageRef.current
+    if (!stage || typeof ResizeObserver === 'undefined') return
+    const ro = new ResizeObserver(() => refreshProfileAndPreview())
+    ro.observe(stage)
     return () => ro.disconnect()
-  }, [open, userAdjustedZoom, fitContentToFrame])
+  }, [open, refreshProfileAndPreview])
 
   const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     if (e.button !== 0) return
@@ -147,10 +160,11 @@ export default function TimetableWallpaperStudio({
     setBusy(true)
     try {
       const slug = activeDay.dayLabel.replace(/[^\w가-힣]+/g, '-').slice(0, 32)
+      const exportRatio = exportPixelRatioForFrame(profile, frameRef.current.clientWidth)
       await downloadElementPng(
         frameRef.current,
-        `festrecipe-wallpaper-${slug}.png`,
-        pixelRatio,
+        `festrecipe-wallpaper-${profile.id}-${slug}.png`,
+        exportRatio,
       )
     } finally {
       setBusy(false)
@@ -177,106 +191,130 @@ export default function TimetableWallpaperStudio({
       </header>
 
       <p className="wallpaper-studio__hint">
-        화면에 보이는 타임테이블 그대로 저장됩니다. 드래그로 위치를 맞추고, 확대·비율·선명도를 조절하세요.
+        미리보기는 선택한 해상도 비율의 잠금화면입니다. 타임테이블은 가로를 꽉 채우고, 상·하단
+        노란 영역은 시계·독에 가려질 수 있어요. 저장 시 <strong>{profile.width}×{profile.height}px</strong>
+        로 보냅니다.
       </p>
 
-      <div className="wallpaper-studio__stage">
+      <div ref={stageRef} className="wallpaper-studio__stage">
         <div
-          ref={frameRef}
-          className="wallpaper-studio__frame"
-          style={{ aspectRatio: String(aspect.ratio) }}
-          onPointerDown={onPointerDown}
-          onPointerMove={onPointerMove}
-          onPointerUp={endDrag}
-          onPointerCancel={endDrag}
+          className="wallpaper-studio__preview"
+          style={{
+            width: previewSize.width,
+            height: previewSize.height,
+          }}
         >
           <div
-            className="wallpaper-studio__transform"
+            ref={frameRef}
+            className="wallpaper-studio__frame"
             style={{
-              transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
+              width: '100%',
+              height: '100%',
             }}
+            onPointerDown={onPointerDown}
+            onPointerMove={onPointerMove}
+            onPointerUp={endDrag}
+            onPointerCancel={endDrag}
           >
-            <div ref={contentRef} className="wallpaper-studio__content">
-            <div className="wallpaper-studio__meta">
-              <p className="wallpaper-studio__fest">{festival.name}</p>
-              <p className="wallpaper-studio__day">{activeDay.dayLabel}</p>
-              {lineupOnDay.length > 0 && (
-                <p className="wallpaper-studio__lineup">내 라인업 {lineupOnDay.length}팀 강조</p>
-              )}
-            </div>
-            <div className="wallpaper-studio__grid">
-              <TimetableGrid
-                stages={activeDay.stages!}
-                slots={activeDay.slots!}
-                artists={artists}
-                stageStyles={festival.stageStyles}
-                exportMode
-                wallpaperCompact
-                onSlotClick={() => {}}
-                myLineupArtistIds={lineupOnDay}
-              />
-            </div>
-            <p className="wallpaper-studio__brand">FestRecipe</p>
+            <div
+              className="wallpaper-studio__transform"
+              style={{
+                transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
+              }}
+            >
+              <div className="wallpaper-studio__content">
+                <div
+                  className="wallpaper-studio__meta"
+                  style={{ paddingTop: layout.safeTop }}
+                >
+                  <p className="wallpaper-studio__fest">{festival.name}</p>
+                  <p className="wallpaper-studio__day">{activeDay.dayLabel}</p>
+                  {lineupOnDay.length > 0 && (
+                    <p className="wallpaper-studio__lineup">내 라인업 {lineupOnDay.length}팀 강조</p>
+                  )}
+                </div>
+                <div className="wallpaper-studio__grid">
+                  <TimetableGrid
+                    stages={activeDay.stages!}
+                    slots={activeDay.slots!}
+                    artists={artists}
+                    stageStyles={festival.stageStyles}
+                    exportMode
+                    pxPerMin={layout.pxPerMin}
+                    onSlotClick={() => {}}
+                    myLineupArtistIds={lineupOnDay}
+                  />
+                </div>
+                <p
+                  className="wallpaper-studio__brand"
+                  style={{ paddingBottom: layout.safeBottom }}
+                >
+                  FestRecipe
+                </p>
+              </div>
             </div>
           </div>
+          {showSafeZones && (
+            <div className="wallpaper-studio__safe" aria-hidden="true">
+              <div
+                className="wallpaper-studio__safe-band wallpaper-studio__safe-band--top"
+                style={{ height: `${profile.safeTopRatio * 100}%` }}
+              />
+              <div
+                className="wallpaper-studio__safe-band wallpaper-studio__safe-band--bottom"
+                style={{ height: `${profile.safeBottomRatio * 100}%` }}
+              />
+            </div>
+          )}
         </div>
       </div>
 
       <div className="wallpaper-studio__controls">
         <label className="wallpaper-studio__control">
-          <span>화면 비율</span>
+          <span>저장 해상도</span>
           <select
             className="wallpaper-studio__select"
-            value={aspectId}
-            onChange={(e) => {
-              setAspectId(e.target.value as AspectPresetId)
-              setUserAdjustedZoom(false)
-            }}
+            value={profileId}
+            onChange={(e) => setProfileId(e.target.value as ProfileOptionId)}
           >
-            {ASPECT_PRESETS.map((p) => (
+            <option value="device">이 기기 (화면·DPR 기준)</option>
+            {WALLPAPER_PRESET_PROFILES.map((p) => (
               <option key={p.id} value={p.id}>
                 {p.label}
               </option>
             ))}
           </select>
         </label>
+        <label className="wallpaper-studio__control wallpaper-studio__control--row">
+          <input
+            type="checkbox"
+            checked={showSafeZones}
+            onChange={(e) => setShowSafeZones(e.target.checked)}
+          />
+          <span>잠금화면 안전 영역 표시</span>
+        </label>
         <label className="wallpaper-studio__control">
-          <span>확대 {Math.round(zoom * 100)}%</span>
+          <span>미세 조정 확대 {Math.round(zoom * 100)}%</span>
           <input
             type="range"
             className="wallpaper-studio__range"
-            min={0.35}
-            max={2}
-            step={0.05}
+            min={0.85}
+            max={1.25}
+            step={0.01}
             value={zoom}
-            onChange={(e) => {
-              setUserAdjustedZoom(true)
-              setZoom(Number(e.target.value))
-            }}
+            onChange={(e) => setZoom(Number(e.target.value))}
           />
         </label>
         <button
           type="button"
           className="btn-secondary wallpaper-studio__fit"
           onClick={() => {
-            setUserAdjustedZoom(false)
-            fitContentToFrame()
+            setZoom(1)
+            setPan({ x: 0, y: 0 })
           }}
         >
-          화면에 맞추기
+          위치·확대 초기화
         </button>
-        <label className="wallpaper-studio__control">
-          <span>저장 선명도 ×{pixelRatio}</span>
-          <input
-            type="range"
-            className="wallpaper-studio__range"
-            min={1}
-            max={4}
-            step={0.5}
-            value={pixelRatio}
-            onChange={(e) => setPixelRatio(Number(e.target.value))}
-          />
-        </label>
       </div>
     </div>,
     document.body,
@@ -317,7 +355,7 @@ export function TimetableWallpaperEntry({
     <div className="wallpaper-entry">
       <h5 className="wallpaper-entry__title">배경화면 타임테이블</h5>
       <p className="wallpaper-entry__hint">
-        <strong>{activeDay?.dayLabel}</strong> 타임테이블 UI를 크롭·확대해 저장합니다.
+        <strong>{activeDay?.dayLabel}</strong> 타임테이블을 스마트폰 세로 해상도에 맞춰 저장합니다.
         {lineupOnDay.length > 0
           ? ` 내 라인업 ${lineupOnDay.length}팀이 강조됩니다.`
           : ' ☆로 담은 아티스트가 슬롯에 강조됩니다.'}
