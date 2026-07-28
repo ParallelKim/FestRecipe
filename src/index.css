@@ -988,21 +988,10 @@ body {
   outline: 2px solid var(--color-info-border);
   outline-offset: 2px;
 }
-/* 선택 카드 — ink 반전 (칩 선택과 통일) */
 .artist-card.is-selected {
   border-color: var(--color-ink);
-  background: var(--color-ink);
-  color: #fff;
-}
-.artist-card.is-selected .artist-card__name,
-.artist-card.is-selected .artist-card__country {
-  color: #fff;
-}
-.artist-card.is-selected .artist-card__status {
-  color: rgba(255, 255, 255, 0.72);
-}
-.artist-card.is-selected .artist-card__status.is-ready {
-  color: #86efac;
+  border-width: 2px;
+  background: var(--color-surface-soft);
 }
 .artist-card__name {
   font-weight: 700;
@@ -1182,28 +1171,13 @@ body {
   touch-action: manipulation;
   transition: transform 0.08s ease, box-shadow 0.12s ease, background-color 0.12s ease;
 }
-/* 내 라인업 슬롯 — 스테이지 액센트 좌측 스트립 + 테두리로 강화 */
+/* 내 라인업 슬롯 — 스테이지 액센트 좌측 스트립으로 강화 (선택 스타일은 모바일에서 역할이 약해 두지 않음) */
 .tt-grid__slot.is-in-lineup {
   background: var(--slot-lineup-bg, var(--color-lineup-bg));
   box-shadow:
     inset 3px 0 0 var(--stage-accent, #41454d),
     0 0 0 1px var(--stage-accent, #41454d);
   padding-left: 9px;
-}
-/* 선택된 슬롯 — 스테이지 액센트 2px 테두리 + 그림자로 띄움 */
-.tt-grid__slot.is-selected {
-  box-shadow:
-    inset 0 0 0 2px var(--stage-accent, var(--color-ink)),
-    0 2px 8px rgba(13, 18, 24, 0.22);
-}
-.tt-grid__slot.is-selected.is-in-lineup {
-  box-shadow:
-    inset 3px 0 0 var(--stage-accent, #41454d),
-    inset 0 0 0 2px var(--stage-accent, #41454d),
-    0 2px 8px rgba(13, 18, 24, 0.22);
-}
-.tt-grid__slot-shell.is-selected {
-  z-index: 4;
 }
 .tt-grid__slot-shell.is-in-lineup .lineup-pick-btn--tt.is-on {
   background: var(--slot-lineup-bg, var(--color-lineup-bg));
