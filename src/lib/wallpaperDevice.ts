@@ -119,11 +119,18 @@ export function computeWallpaperPreviewSize(
   }
 }
 
-/** PNG 저장 시 html-to-image pixelRatio — 프레임 CSS 너비 → 프로필 물리 너비 */
+/**
+ * PNG 저장 시 html-to-image pixelRatio — 프레임 CSS 너비 → 프로필 물리 너비.
+ *
+ * 미리보기 프레임은 프로필보다 훨씬 작게 렌더되므로(데스크톱 200~300px대),
+ * 상한을 낮게 두면(profile.width/frame 비율 미달) 실제 저장 PNG가 프로필
+ * 해상도에 못 미치는 저해상도가 된다. 8까지 허용해 일반적인 프레임에서는
+ * 항상 프로필 물리 너비에 도달하도록 한다.
+ */
 export function exportPixelRatioForFrame(
   profile: WallpaperProfile,
   frameCssWidth: number,
 ): number {
   if (frameCssWidth < 1) return 2
-  return Math.min(4, Math.max(1, profile.width / frameCssWidth))
+  return Math.min(8, Math.max(1, profile.width / frameCssWidth))
 }
