@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
-import { createPortal } from 'react-dom'
 import { HexColorInput, HexColorPicker } from 'react-colorful'
 import type { Artist, DayLineup, Festival } from '../types'
 import TimetableGrid from './TimetableGrid'
@@ -18,6 +17,12 @@ import {
 } from '../lib/wallpaperLayout'
 import { festivalShortLabel } from '../lib/festivalShortLabel'
 import { Button } from '@/components/ui/button'
+import {
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogTitle,
+} from '@/components/ui/dialog'
 
 type ProfileOptionId = 'device' | (typeof WALLPAPER_PRESET_PROFILES)[number]['id']
 
@@ -131,15 +136,6 @@ export default function TimetableWallpaperStudio({
     )
   }, [profileId])
 
-  useEffect(() => {
-    if (!open) return
-    const prev = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    return () => {
-      document.body.style.overflow = prev
-    }
-  }, [open, activeDay?.dayLabel])
-
   useLayoutEffect(() => {
     if (!open) return
     refreshProfileAndPreview()
@@ -203,14 +199,23 @@ export default function TimetableWallpaperStudio({
   const scaledW = MAIN_TIMETABLE_REF_WIDTH * scale
   const scaledH = sourceHeight * scale
 
-  if (!open || !canUse) return null
+  if (!canUse) return null
 
-  return createPortal(
-    <div className="wallpaper-studio" role="dialog" aria-modal="true" aria-label="배경화면 편집">
+  return (
+    <Dialog open={open} onOpenChange={(next) => { if (!next) onClose() }}>
+      <DialogContent
+        showCloseButton={false}
+        className="wallpaper-studio max-w-none translate-x-0 translate-y-0 rounded-none ring-0 sm:max-w-none"
+      >
+        <DialogTitle className="sr-only">배경화면 편집</DialogTitle>
       <header className="wallpaper-studio__bar">
-        <button type="button" className="wallpaper-studio__back" onClick={onClose}>
+        <DialogClose
+          render={
+            <button type="button" className="wallpaper-studio__back" />
+          }
+        >
           닫기
-        </button>
+        </DialogClose>
         <span className="wallpaper-studio__title">{activeDay.dayLabel} 배경화면</span>
         <Button
           className="wallpaper-studio__save"
@@ -403,8 +408,8 @@ export default function TimetableWallpaperStudio({
           잠금화면 안전 영역 {showSafeZones ? '숨기기' : '보기'}
         </button>
       </div>
-    </div>,
-    document.body,
+      </DialogContent>
+    </Dialog>
   )
 }
 

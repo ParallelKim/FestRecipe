@@ -1803,6 +1803,15 @@ body {
   background: var(--color-bg, #f4f3f0);
   overflow: auto;
 }
+/* 풀스크린 스튜디오: shadcn Dialog 줌/페이드 애니메이션 비활성 */
+.wallpaper-studio[data-slot="dialog-content"] {
+  animation: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .wallpaper-studio {
+    transition: none;
+  }
+}
 .wallpaper-studio__bar {
   display: flex;
   align-items: center;
