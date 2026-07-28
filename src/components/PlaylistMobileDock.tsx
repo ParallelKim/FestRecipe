@@ -1,6 +1,12 @@
 import type { Artist, ArtistPlaylist, Festival, DayLineup } from '../types'
 import ArtistPlaylistPanel from './ArtistPlaylistPanel'
 import { officialArtistName } from '../lib/artistOfficialName'
+import {
+  Sheet,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet'
 
 interface PlaylistMobileDockProps {
   open: boolean
@@ -39,67 +45,59 @@ export default function PlaylistMobileDock({
   showMyLineupEditor = false,
   ...panelProps
 }: PlaylistMobileDockProps) {
+  const sheetLabel = showMyLineupEditor
+    ? '나만의 플레이리스트'
+    : panelProps.selectedArtist
+      ? `${officialArtistName(panelProps.selectedArtist)} 플레이리스트`
+      : '플레이리스트'
+
   return (
     <div className="playlist-dock">
-      <button
-        type="button"
-        className={`playlist-fab${open ? ' is-open' : ''}`}
-        onClick={() => (open ? onClose() : onOpen())}
-        aria-expanded={open}
-        aria-controls="playlist-sheet"
-        aria-label="플레이리스트 듣기"
-        title="플레이리스트 듣기"
-      >
-        <svg
-          className="playlist-fab__glyph"
-          viewBox="0 0 24 24"
-          width="24"
-          height="24"
-          aria-hidden="true"
-          focusable="false"
-        >
-          <rect x="2.5" y="5.5" width="11" height="2.2" rx="1.1" fill="currentColor" />
-          <rect x="2.5" y="10.9" width="11" height="2.2" rx="1.1" fill="currentColor" />
-          <rect x="2.5" y="16.3" width="8" height="2.2" rx="1.1" fill="currentColor" />
-          <circle cx="17.2" cy="17" r="2.6" fill="currentColor" />
-          <rect x="19" y="5" width="1.7" height="12.2" rx="0.6" fill="currentColor" />
-          <path
-            fill="currentColor"
-            d="M20.7 5c.1 2.4 1.6 3.6 3.1 4v1.9c-2-.6-3.8-2.1-4.6-4.4V5h1.5z"
-          />
-        </svg>
-      </button>
-
-      {open && (
-        <div className="playlist-sheet-root">
-          <button
-            type="button"
-            className="playlist-sheet__backdrop"
-            aria-label="플레이리스트 닫기"
-            onClick={onClose}
-          />
-          <div
-            id="playlist-sheet"
-            className={`playlist-sheet${showMyLineupEditor ? ' playlist-sheet--lineup' : ''}${panelProps.selectedArtist ? ' playlist-sheet--artist' : ''}`}
-            role="dialog"
-            aria-modal="true"
-            aria-label={
-              showMyLineupEditor
-                ? '나만의 플레이리스트'
-                : panelProps.selectedArtist
-                  ? `${officialArtistName(panelProps.selectedArtist)} 플레이리스트`
-                  : '플레이리스트'
-            }
-          >
-            <div className="playlist-sheet__handle" aria-hidden="true" />
-            <ArtistPlaylistPanel
-              {...panelProps}
-              showMyLineupEditor={showMyLineupEditor}
-              onCloseArtist={onCloseArtist}
+      <Sheet open={open} onOpenChange={(next) => (next ? onOpen() : onClose())}>
+        <SheetTrigger
+          render={
+            <button
+              type="button"
+              className={`playlist-fab${open ? ' is-open' : ''}`}
+              aria-label="플레이리스트 듣기"
+              title="플레이리스트 듣기"
             />
-          </div>
-        </div>
-      )}
+          }
+        >
+          <svg
+            className="playlist-fab__glyph"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <rect x="2.5" y="5.5" width="11" height="2.2" rx="1.1" fill="currentColor" />
+            <rect x="2.5" y="10.9" width="11" height="2.2" rx="1.1" fill="currentColor" />
+            <rect x="2.5" y="16.3" width="8" height="2.2" rx="1.1" fill="currentColor" />
+            <circle cx="17.2" cy="17" r="2.6" fill="currentColor" />
+            <rect x="19" y="5" width="1.7" height="12.2" rx="0.6" fill="currentColor" />
+            <path
+              fill="currentColor"
+              d="M20.7 5c.1 2.4 1.6 3.6 3.1 4v1.9c-2-.6-3.8-2.1-4.6-4.4V5h1.5z"
+            />
+          </svg>
+        </SheetTrigger>
+
+        <SheetContent
+          side="bottom"
+          showCloseButton={false}
+          className={`playlist-sheet mx-auto gap-0 overscroll-contain data-[side=bottom]:border-t-0 min-[900px]:hidden${showMyLineupEditor ? ' playlist-sheet--lineup' : ''}${panelProps.selectedArtist ? ' playlist-sheet--artist' : ''}`}
+        >
+          <SheetTitle className="sr-only">{sheetLabel}</SheetTitle>
+          <div className="playlist-sheet__handle" aria-hidden="true" />
+          <ArtistPlaylistPanel
+            {...panelProps}
+            showMyLineupEditor={showMyLineupEditor}
+            onCloseArtist={onCloseArtist}
+          />
+        </SheetContent>
+      </Sheet>
     </div>
   )
 }

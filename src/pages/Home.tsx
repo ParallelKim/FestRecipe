@@ -5,6 +5,7 @@ import { FestivalService } from '../services/festivals'
 import type { Festival } from '../types'
 import HomeHelmet from '../components/seo/HomeHelmet'
 import LoadingState from '../components/LoadingState'
+import { Button } from '@/components/ui/button'
 
 function artistCount(festival: Festival): number {
   if (festival.lineupStage === 'stage1_all') return festival.allArtists.length
@@ -195,12 +196,13 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <Link
-                  to={`/festival/${featured.id}`}
-                  className="btn-primary home-hero__cta"
+                <Button
+                  render={<Link to={`/festival/${featured.id}`} />}
+                  nativeButton={false}
+                  className="home-hero__cta"
                 >
                   {ctaLabel(featured)}
-                </Link>
+                </Button>
               </div>
             </motion.div>
           )}
@@ -253,9 +255,14 @@ export default function Home() {
                   <p><span>일시</span>{festival.startDate} ~ {festival.endDate}</p>
                   <p><span>장소</span>{festival.location}</p>
                   <p><span>출연</span>{artistCount(festival)}팀</p>
-                  <Link to={`/festival/${festival.id}`} className="btn-secondary home-fest-row__link">
+                  <Button
+                    variant="outline"
+                    render={<Link to={`/festival/${festival.id}`} />}
+                    nativeButton={false}
+                    className="home-fest-row__link"
+                  >
                     {ctaLabel(festival)}
-                  </Link>
+                  </Button>
                 </div>
               </motion.article>
             )})}

@@ -28,6 +28,7 @@ import { blurAfterTap } from '../lib/blurAfterTap'
 import { festivalLineupHighlightFallback } from '../lib/stageTheme'
 import { filterMyLineupForDay, artistIdsOnDay } from '../lib/lineupDay'
 import { useMyLineup } from '../hooks/useMyLineup'
+import { Button } from '@/components/ui/button'
 import { playlistTitleForCustom } from '../lib/youtubePlaylist'
 
 export default function FestivalDetail() {
@@ -92,20 +93,6 @@ export default function FestivalDetail() {
     }
   }, [selectedArtist])
 
-  useEffect(() => {
-    if (!playlistSheetOpen) return
-    const prev = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setPlaylistSheetOpen(false)
-    }
-    window.addEventListener('keydown', onKey)
-    return () => {
-      document.body.style.overflow = prev
-      window.removeEventListener('keydown', onKey)
-    }
-  }, [playlistSheetOpen])
-
   if (loading) {
     return <LoadingState label="페스티벌 정보를 불러오는 중..." minHeight="100vh" />
   }
@@ -115,7 +102,7 @@ export default function FestivalDetail() {
       <div className="container festival-missing">
         <h2 className="text-title-lg">페스티벌을 찾을 수 없습니다.</h2>
         <p className="text-body text-muted">요청하신 페스티벌 정보가 없거나 준비 중입니다.</p>
-        <Link to="/" className="btn-primary" style={{ textDecoration: 'none' }}>홈으로 돌아가기</Link>
+        <Button render={<Link to="/" />} nativeButton={false}>홈으로 돌아가기</Button>
       </div>
     )
   }
