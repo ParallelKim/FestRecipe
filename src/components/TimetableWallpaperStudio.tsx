@@ -15,9 +15,28 @@ import { computeWallpaperPxPerMin } from '../lib/wallpaperLayout'
 
 const META_TEXT_PX = 52
 const BRAND_BLOCK_PX = 28
-const FRAME_PADDING_Y = 12
+const FRAME_PADDING_Y = 16
 
 type ProfileOptionId = 'device' | (typeof WALLPAPER_PRESET_PROFILES)[number]['id']
+
+const WALLPAPER_BG_PRESETS = [
+  { id: 'white', label: '화이트', value: '#ffffff' },
+  { id: 'cream', label: '크림', value: '#f4f3f0' },
+  { id: 'mint', label: '민트', value: '#e8f5f0' },
+  { id: 'ink', label: '다크', value: '#181d26' },
+  { id: 'coral', label: '코랄', value: '#aa2d00' },
+] as const
+
+function isDarkWallpaperBg(hex: string): boolean {
+  const m = /^#?([0-9a-f]{6})$/i.exec(hex.trim())
+  if (!m) return false
+  const n = parseInt(m[1], 16)
+  const r = ((n >> 16) & 255) / 255
+  const g = ((n >> 8) & 255) / 255
+  const b = (n & 255) / 255
+  const luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b
+  return luminance < 0.42
+}
 
 interface TimetableWallpaperStudioProps {
   open: boolean
@@ -43,17 +62,9 @@ export default function TimetableWallpaperStudio({
     resolveWallpaperProfile('device'),
   )
   const [previewSize, setPreviewSize] = useState({ width: 320, height: 693 })
-  const [zoom, setZoom] = useState(1)
-  const [pan, setPan] = useState({ x: 0, y: 0 })
+  const [bgColor, setBgColor] = useState<string>(WALLPAPER_BG_PRESETS[0].value)
   const [showSafeZones, setShowSafeZones] = useState(true)
   const [busy, setBusy] = useState(false)
-  const dragRef = useRef<{
-    pointerId: number
-    startX: number
-    startY: number
-    originX: number
-    originY: number
-  } | null>(null)
 
   const lineupOnDay = useMemo(
     () => filterMyLineupForDay(myLineupIds, activeDay),
@@ -64,6 +75,8 @@ export default function TimetableWallpaperStudio({
     festival.lineupStage === 'stage3_timetable' &&
     !!activeDay?.slots?.length &&
     !!activeDay.stages?.length
+
+  const onDarkBg = isDarkWallpaperBg(bgColor)
 
   const layout = useMemo(() => {
     const frameH = previewSize.height
@@ -78,7 +91,7 @@ export default function TimetableWallpaperStudio({
       FRAME_PADDING_Y
     const slots = activeDay?.slots ?? []
     const pxPerMin = computeWallpaperPxPerMin(slots, Math.max(120, gridAreaHeight))
-    return { pxPerMin, safeTop, safeBottom, gridAreaHeight }
+    return { pxPerMin, safeTop, safeBottom }
   }, [previewSize.height, profile, activeDay?.slots])
 
   const refreshProfileAndPreview = useCallback(() => {
@@ -97,8 +110,6 @@ export default function TimetableWallpaperStudio({
 
   useEffect(() => {
     if (!open) return
-    setZoom(1)
-    setPan({ x: 0, y: 0 })
     const prev = document.body.style.overflow
     document.body.style.overflow = 'hidden'
     return () => {
@@ -121,39 +132,6 @@ export default function TimetableWallpaperStudio({
     ro.observe(stage)
     return () => ro.disconnect()
   }, [open, refreshProfileAndPreview])
-
-  const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
-    if (e.button !== 0) return
-    const target = e.currentTarget
-    target.setPointerCapture(e.pointerId)
-    dragRef.current = {
-      pointerId: e.pointerId,
-      startX: e.clientX,
-      startY: e.clientY,
-      originX: pan.x,
-      originY: pan.y,
-    }
-  }
-
-  const onPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
-    const drag = dragRef.current
-    if (!drag || drag.pointerId !== e.pointerId) return
-    setPan({
-      x: drag.originX + (e.clientX - drag.startX),
-      y: drag.originY + (e.clientY - drag.startY),
-    })
-  }
-
-  const endDrag = (e: React.PointerEvent<HTMLDivElement>) => {
-    const drag = dragRef.current
-    if (!drag || drag.pointerId !== e.pointerId) return
-    dragRef.current = null
-    try {
-      e.currentTarget.releasePointerCapture(e.pointerId)
-    } catch {
-      /* ignore */
-    }
-  }
 
   const handleSave = async () => {
     if (!frameRef.current || !activeDay) return
@@ -191,9 +169,8 @@ export default function TimetableWallpaperStudio({
       </header>
 
       <p className="wallpaper-studio__hint">
-        미리보기는 선택한 해상도 비율의 잠금화면입니다. 타임테이블은 가로를 꽉 채우고, 상·하단
-        노란 영역은 시계·독에 가려질 수 있어요. 저장 시 <strong>{profile.width}×{profile.height}px</strong>
-        로 보냅니다.
+        타임테이블은 항상 가운데에 배치됩니다. 해상도와 배경색만 고르면{' '}
+        <strong>{profile.width}×{profile.height}px</strong> PNG로 저장됩니다.
       </p>
 
       <div ref={stageRef} className="wallpaper-studio__stage">
@@ -206,52 +183,36 @@ export default function TimetableWallpaperStudio({
         >
           <div
             ref={frameRef}
-            className="wallpaper-studio__frame"
+            className={`wallpaper-studio__frame${onDarkBg ? ' wallpaper-studio__frame--on-dark' : ''}`}
             style={{
               width: '100%',
               height: '100%',
+              backgroundColor: bgColor,
+              paddingTop: layout.safeTop,
+              paddingBottom: layout.safeBottom,
             }}
-            onPointerDown={onPointerDown}
-            onPointerMove={onPointerMove}
-            onPointerUp={endDrag}
-            onPointerCancel={endDrag}
           >
-            <div
-              className="wallpaper-studio__transform"
-              style={{
-                transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
-              }}
-            >
-              <div className="wallpaper-studio__content">
-                <div
-                  className="wallpaper-studio__meta"
-                  style={{ paddingTop: layout.safeTop }}
-                >
-                  <p className="wallpaper-studio__fest">{festival.name}</p>
-                  <p className="wallpaper-studio__day">{activeDay.dayLabel}</p>
-                  {lineupOnDay.length > 0 && (
-                    <p className="wallpaper-studio__lineup">내 라인업 {lineupOnDay.length}팀 강조</p>
-                  )}
-                </div>
-                <div className="wallpaper-studio__grid">
-                  <TimetableGrid
-                    stages={activeDay.stages!}
-                    slots={activeDay.slots!}
-                    artists={artists}
-                    stageStyles={festival.stageStyles}
-                    exportMode
-                    pxPerMin={layout.pxPerMin}
-                    onSlotClick={() => {}}
-                    myLineupArtistIds={lineupOnDay}
-                  />
-                </div>
-                <p
-                  className="wallpaper-studio__brand"
-                  style={{ paddingBottom: layout.safeBottom }}
-                >
-                  FestRecipe
-                </p>
+            <div className="wallpaper-studio__stack">
+              <div className="wallpaper-studio__meta">
+                <p className="wallpaper-studio__fest">{festival.name}</p>
+                <p className="wallpaper-studio__day">{activeDay.dayLabel}</p>
+                {lineupOnDay.length > 0 && (
+                  <p className="wallpaper-studio__lineup">내 라인업 {lineupOnDay.length}팀 강조</p>
+                )}
               </div>
+              <div className="wallpaper-studio__grid">
+                <TimetableGrid
+                  stages={activeDay.stages!}
+                  slots={activeDay.slots!}
+                  artists={artists}
+                  stageStyles={festival.stageStyles}
+                  exportMode
+                  pxPerMin={layout.pxPerMin}
+                  onSlotClick={() => {}}
+                  myLineupArtistIds={lineupOnDay}
+                />
+              </div>
+              <p className="wallpaper-studio__brand">FestRecipe</p>
             </div>
           </div>
           {showSafeZones && (
@@ -285,6 +246,29 @@ export default function TimetableWallpaperStudio({
             ))}
           </select>
         </label>
+        <fieldset className="wallpaper-studio__bg-field">
+          <legend className="wallpaper-studio__bg-legend">배경색</legend>
+          <div className="wallpaper-studio__bg-swatches">
+            {WALLPAPER_BG_PRESETS.map((preset) => (
+              <button
+                key={preset.id}
+                type="button"
+                className={`wallpaper-studio__swatch${bgColor.toLowerCase() === preset.value ? ' is-active' : ''}`}
+                style={{ backgroundColor: preset.value }}
+                aria-label={preset.label}
+                aria-pressed={bgColor.toLowerCase() === preset.value}
+                onClick={() => setBgColor(preset.value)}
+              />
+            ))}
+            <label className="wallpaper-studio__color-picker" aria-label="배경색 직접 선택">
+              <input
+                type="color"
+                value={bgColor}
+                onChange={(e) => setBgColor(e.target.value)}
+              />
+            </label>
+          </div>
+        </fieldset>
         <label className="wallpaper-studio__control wallpaper-studio__control--row">
           <input
             type="checkbox"
@@ -293,28 +277,6 @@ export default function TimetableWallpaperStudio({
           />
           <span>잠금화면 안전 영역 표시</span>
         </label>
-        <label className="wallpaper-studio__control">
-          <span>미세 조정 확대 {Math.round(zoom * 100)}%</span>
-          <input
-            type="range"
-            className="wallpaper-studio__range"
-            min={0.85}
-            max={1.25}
-            step={0.01}
-            value={zoom}
-            onChange={(e) => setZoom(Number(e.target.value))}
-          />
-        </label>
-        <button
-          type="button"
-          className="btn-secondary wallpaper-studio__fit"
-          onClick={() => {
-            setZoom(1)
-            setPan({ x: 0, y: 0 })
-          }}
-        >
-          위치·확대 초기화
-        </button>
       </div>
     </div>,
     document.body,
@@ -355,7 +317,7 @@ export function TimetableWallpaperEntry({
     <div className="wallpaper-entry">
       <h5 className="wallpaper-entry__title">배경화면 타임테이블</h5>
       <p className="wallpaper-entry__hint">
-        <strong>{activeDay?.dayLabel}</strong> 타임테이블을 스마트폰 세로 해상도에 맞춰 저장합니다.
+        <strong>{activeDay?.dayLabel}</strong> 타임테이블을 세로 해상도·배경색에 맞춰 가운데 배치해 저장합니다.
         {lineupOnDay.length > 0
           ? ` 내 라인업 ${lineupOnDay.length}팀이 강조됩니다.`
           : ' ☆로 담은 아티스트가 슬롯에 강조됩니다.'}
