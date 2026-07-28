@@ -3,8 +3,10 @@ import TopNav from './components/TopNav'
 import Home from './pages/Home'
 import FestivalDetail from './pages/FestivalDetail'
 import { Routes, Route } from 'react-router-dom'
+import { usePageTracking } from './lib/analytics'
 
 export default function App() {
+  usePageTracking()
   return (
     <HelmetProvider>
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
