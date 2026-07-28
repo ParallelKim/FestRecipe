@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom'
 import { HexColorInput, HexColorPicker } from 'react-colorful'
 import type { Artist, DayLineup, Festival } from '../types'
 import TimetableGrid from './TimetableGrid'
-import { downloadElementPng } from '../lib/captureElementPng'
+import { downloadElementPng, preloadExportFonts } from '../lib/captureElementPng'
 import { filterMyLineupForDay } from '../lib/lineupDay'
 import {
   computeWallpaperPreviewSize,
@@ -173,6 +173,18 @@ export default function TimetableWallpaperStudio({
     if (frame) ro.observe(frame)
     return () => ro.disconnect()
   }, [open, refreshProfileAndPreview, remeasureScale])
+
+  // 저장 시 필요한 폰트 서브셋을 미리 받아 둔다
+  useEffect(() => {
+    if (!open || !activeDay) return
+    const raf = requestAnimationFrame(() => {
+      const sourceText = sourceRef.current?.textContent ?? ''
+      preloadExportFonts(
+        `${sourceText}${festivalShortLabel(festival)}${activeDay.dayLabel}`,
+      )
+    })
+    return () => cancelAnimationFrame(raf)
+  }, [open, activeDay, festival])
 
   const handleSave = async () => {
     if (!frameRef.current || !activeDay) return

@@ -2088,19 +2088,38 @@ body {
   border-radius: var(--radius-md);
   border: 1px solid var(--color-hairline);
   background: var(--color-canvas);
+  overflow: hidden;
+  min-width: 0;
 }
+/* react-colorful이 런타임에 주입하는 <style>에 레이아웃을 맡기면
+   주입 순서/타이밍에 따라 기하 구조가 깨질 수 있어 핵심 규칙은 직접 정의한다. */
 .wallpaper-studio__picker-surface {
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
   width: 100% !important;
   height: 148px !important;
+  min-width: 0;
   border-radius: 12px;
+  user-select: none;
 }
 .wallpaper-studio__picker-surface .react-colorful__saturation {
+  position: relative;
+  flex-grow: 1;
+  min-height: 0;
+  border-bottom: none;
   border-radius: 10px 10px 0 0;
 }
 .wallpaper-studio__picker-surface .react-colorful__hue {
+  position: relative;
+  flex-shrink: 0;
   height: 12px;
   margin-top: 10px;
   border-radius: 999px;
+}
+.wallpaper-studio__picker-surface .react-colorful__interactive {
+  position: absolute;
+  inset: 0;
 }
 .wallpaper-studio__picker-surface .react-colorful__pointer {
   width: 18px;
@@ -2156,6 +2175,9 @@ body {
   border-radius: var(--radius-md);
   border: 1px solid var(--color-hairline);
   background: var(--color-surface-soft);
+}
+.wallpaper-studio__controls > * {
+  min-width: 0;
 }
 .wallpaper-studio__control {
   display: block;
