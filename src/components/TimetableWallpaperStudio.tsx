@@ -69,7 +69,6 @@ export default function TimetableWallpaperStudio({
   const stageRef = useRef<HTMLDivElement>(null)
   const frameRef = useRef<HTMLDivElement>(null)
   const sourceRef = useRef<HTMLDivElement>(null)
-  const metaRef = useRef<HTMLDivElement>(null)
   const [profileId, setProfileId] = useState<ProfileOptionId>('device')
   const [profile, setProfile] = useState<WallpaperProfile>(() =>
     resolveWallpaperProfile('device'),
@@ -107,11 +106,10 @@ export default function TimetableWallpaperStudio({
 
     const frameW = frame.clientWidth
     const frameH = frame.clientHeight
-    const metaH = metaRef.current?.offsetHeight ?? 0
     const padX = 10
     const padY = 8
     const maxW = frameW - padX * 2
-    const maxH = Math.max(80, frameH - padY * 2 - metaH)
+    const maxH = Math.max(80, frameH - padY * 2)
 
     setScale(computeWallpaperScale(sw, sh, maxW, maxH))
   }, [])
@@ -239,17 +237,6 @@ export default function TimetableWallpaperStudio({
             }}
           >
             <div className="wallpaper-studio__stack">
-              {(showFestName || showDayLabel) && (
-                <div ref={metaRef} className="wallpaper-studio__meta">
-                  {showFestName && (
-                    <p className="wallpaper-studio__fest">{festCaption}</p>
-                  )}
-                  {showDayLabel && (
-                    <p className="wallpaper-studio__day">{activeDay.dayLabel}</p>
-                  )}
-                </div>
-              )}
-
               <div className="wallpaper-studio__fit">
                 <div
                   className="wallpaper-studio__scale-box"
@@ -263,6 +250,16 @@ export default function TimetableWallpaperStudio({
                       transform: `scale(${scale})`,
                     }}
                   >
+                    {(showFestName || showDayLabel) && (
+                      <div className="wallpaper-studio__meta">
+                        {showFestName && (
+                          <p className="wallpaper-studio__fest">{festCaption}</p>
+                        )}
+                        {showDayLabel && (
+                          <p className="wallpaper-studio__day">{activeDay.dayLabel}</p>
+                        )}
+                      </div>
+                    )}
                     <div className="timetable-scroll">
                       <TimetableGrid
                         stages={activeDay.stages!}
