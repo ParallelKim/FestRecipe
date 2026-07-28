@@ -135,8 +135,8 @@ export default function ArtistPlaylistPanel({
             </div>
             <p className="playlist-artist-card__meta">
               {artistPlaylist
-                ? `대표곡 ${artistPlaylist.songCount}곡 · YouTube Music`
-                : 'YouTube Music 인기곡 기반 대표 플레이리스트'}
+                ? `대표곡 ${artistPlaylist.songCount}곡 · YouTube`
+                : 'YouTube 인기곡 기반 대표 플레이리스트'}
             </p>
 
             <div className="playlist-artist-card__actions">
@@ -152,7 +152,7 @@ export default function ArtistPlaylistPanel({
                   rel="noopener noreferrer"
                   className="btn-primary playlist-artist-card__play"
                 >
-                  대표곡 {artistPlaylist.songCount}곡 연속 재생
+                  대표곡 {artistPlaylist.songCount}곡 YouTube에서 연속 재생
                 </a>
               ) : (
                 <p className="playlist-artist-card__pending">플레이리스트 준비 중입니다.</p>
@@ -198,12 +198,12 @@ export default function ArtistPlaylistPanel({
                       </div>
                       <div className="playlist-track__actions">
                         <a
-                          href={track.youtubeMusicUrl || track.youtubeUrl}
+                          href={track.youtubeUrl}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="playlist-track__btn"
                         >
-                          곡
+                          YouTube
                         </a>
                         <a
                           href={fromHereUrl}
@@ -221,7 +221,7 @@ export default function ArtistPlaylistPanel({
             </div>
           ) : !playlistLoading && (!artistPlaylist || artistPlaylist.tracks.length === 0) ? (
             <div className="playlist-panel__empty playlist-panel__empty--compact">
-              <p>{displayName}의 YouTube Music 대표곡을 모으고 있습니다.</p>
+              <p>{displayName}의 YouTube 대표곡을 모으고 있습니다.</p>
             </div>
           ) : null}
         </div>

@@ -1448,37 +1448,6 @@ body {
   padding: 16px;
   text-align: center;
 }
-.timetable-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 14px;
-  margin: 0 0 10px;
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--color-muted);
-}
-.timetable-legend__item {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-.timetable-legend__swatch {
-  width: 14px;
-  height: 14px;
-  border-radius: 4px;
-  border: 1.5px solid var(--color-hairline);
-  background: #fff;
-  flex-shrink: 0;
-}
-.timetable-legend__swatch--lineup {
-  background: var(--festival-lineup-bg, var(--color-lineup-bg));
-  border: 1.5px solid color-mix(in srgb, var(--color-sig-mustard) 45%, var(--color-hairline));
-  box-shadow: 0 0 0 1px var(--color-sig-mustard);
-}
-.timetable-legend__swatch--track {
-  background: #f3f4f6;
-  border-color: rgba(17, 20, 24, 0.14);
-}
 .playlist-panel__header {
   display: flex;
   justify-content: space-between;
