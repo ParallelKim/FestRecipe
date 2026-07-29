@@ -189,19 +189,19 @@ export default function ArtistPlaylistPanel({
                 <p className="playlist-artist-card__pending">대표곡을 준비 중이에요.</p>
               )}
               {onToggleMyLineupFromArtist && (
-                inMyLineup && onOpenMyLineupFromArtist ? (
+                onOpenMyLineupFromArtist ? (
                   <div className="playlist-artist-card__lineup-row">
                     <button
                       type="button"
-                      className="playlist-artist-card__lineup is-on"
+                      className={`playlist-artist-card__lineup${inMyLineup ? ' is-on' : ''}`}
                       onClick={() => onToggleMyLineupFromArtist(selectedArtist.id)}
-                      aria-pressed={true}
-                      aria-label="내 라인업에서 빼기"
+                      aria-pressed={inMyLineup}
+                      aria-label={inMyLineup ? '내 라인업에서 빼기' : '내 라인업에 담기'}
                     >
                       <span className="playlist-artist-card__lineup-icon" aria-hidden="true">
-                        ★
+                        {inMyLineup ? '★' : '☆'}
                       </span>
-                      담김
+                      {inMyLineup ? '담김' : '담기'}
                     </button>
                     <button
                       type="button"
