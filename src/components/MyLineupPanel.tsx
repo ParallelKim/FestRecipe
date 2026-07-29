@@ -67,11 +67,16 @@ export default function MyLineupPanel({
           <h4 className="my-lineup-panel__title">내 라인업</h4>
           <p className="my-lineup-panel__lede">{pickHint(festival)}</p>
         </div>
-        {lineupOnDayIds.length > 0 && (
-          <button type="button" className="my-lineup-panel__clear" onClick={onClear}>
-            {dayLabel} 비우기
-          </button>
-        )}
+        <button
+          type="button"
+          className="my-lineup-panel__clear"
+          onClick={onClear}
+          style={{ visibility: lineupOnDayIds.length > 0 ? 'visible' : 'hidden' }}
+          tabIndex={lineupOnDayIds.length > 0 ? 0 : -1}
+          aria-hidden={lineupOnDayIds.length === 0}
+        >
+          {dayLabel} 비우기
+        </button>
       </div>
 
       {notice && (
@@ -96,10 +101,10 @@ export default function MyLineupPanel({
       <div className="my-lineup-panel__picked">
         <p className="my-lineup-panel__picked-label">
           {dayLabel} 담은 아티스트 <strong>{lineupOnDayIds.length}</strong>
-          {readyCount < lineupOnDayIds.length && (
+          {lineupOnDayIds.length > 0 && (
             <span className="my-lineup-panel__picked-muted">
               {' '}
-              · 대표곡 준비 {readyCount}팀
+              · 대표곡 준비 {readyCount}/{lineupOnDayIds.length}팀
             </span>
           )}
         </p>
@@ -140,7 +145,6 @@ export default function MyLineupPanel({
       <TimetableWallpaperEntry
         festival={festival}
         activeDay={activeDay}
-        myLineupIds={myLineupIds}
         onOpenStudio={() => setStudioOpen(true)}
       />
 

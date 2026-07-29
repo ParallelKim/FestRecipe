@@ -310,7 +310,7 @@ export default function TimetableWallpaperStudio({
 
       <div className="wallpaper-studio__controls">
         <div className="wallpaper-studio__control">
-          <span className="wallpaper-studio__label">표시 (선택)</span>
+          <span className="wallpaper-studio__label">텍스트 표시</span>
           <div className="wallpaper-studio__toggles" role="group" aria-label="배경화면에 표시할 텍스트">
             <button
               type="button"
@@ -346,8 +346,8 @@ export default function TimetableWallpaperStudio({
           </select>
         </div>
         <div className="wallpaper-studio__control">
-          <span className="wallpaper-studio__label">배경 톤</span>
-          <div className="wallpaper-studio__tones" role="group" aria-label="배경 톤">
+          <span className="wallpaper-studio__label">배경색</span>
+          <div className="wallpaper-studio__tones" role="group" aria-label="배경색">
             {WALLPAPER_BG_PRESETS.map((preset) => (
               <button
                 key={preset.id}
@@ -426,20 +426,16 @@ export default function TimetableWallpaperStudio({
 export function TimetableWallpaperEntry({
   festival,
   activeDay,
-  myLineupIds,
   onOpenStudio,
 }: {
   festival: Festival
   activeDay?: DayLineup
-  myLineupIds: string[]
   onOpenStudio: () => void
 }) {
   const canUse =
     festival.lineupStage === 'stage3_timetable' &&
     !!activeDay?.slots?.length &&
     !!activeDay.stages?.length
-
-  const lineupOnDay = filterMyLineupForDay(myLineupIds, activeDay)
 
   if (!canUse) {
     return (
@@ -457,7 +453,6 @@ export function TimetableWallpaperEntry({
       <h5 className="wallpaper-entry__title">배경화면 타임테이블</h5>
       <p className="wallpaper-entry__hint">
         배경색과 해상도를 골라 타임테이블을 이미지로 저장해요. 페스티벌명과 날짜는 편집 화면에서 켤 수 있어요.
-        {lineupOnDay.length > 0 ? ' 내 라인업은 타임테이블에 강조 표시돼요.' : ''}
       </p>
       <Button variant="outline" className="wallpaper-entry__btn" onClick={onOpenStudio}>
         배경화면 편집

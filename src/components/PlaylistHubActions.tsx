@@ -45,10 +45,11 @@ export default function PlaylistHubActions({
     <div className={`playlist-hub playlist-hub--${variant}`}>
       <p className="playlist-hub__label">대표곡 듣기</p>
       <div className="playlist-hub__actions">
-        {dayReadyCount > 0 && activeDay && (
+        {activeDay && (
           <Button
             className="playlist-hub__btn"
-            disabled={bundleLoading !== null}
+            disabled={bundleLoading !== null || dayReadyCount === 0}
+            title={dayReadyCount === 0 ? '대표곡 준비 중' : undefined}
             onClick={() => onOpenBundled('day', dayArtistIds, dayPlaylistTitle)}
           >
             {bundleLoading === 'day'
@@ -56,16 +57,15 @@ export default function PlaylistHubActions({
               : `${activeDay.dayLabel} 대표곡`}
           </Button>
         )}
-        {festivalReadyCount > 0 && (
-          <Button
-            variant="outline"
-            className="playlist-hub__btn"
-            disabled={bundleLoading !== null}
-            onClick={() => onOpenBundled('festival', festival.allArtists || [], festivalPlaylistTitle)}
-          >
-            {bundleLoading === 'festival' ? '여는 중…' : '페스티벌 전체'}
-          </Button>
-        )}
+        <Button
+          variant="outline"
+          className="playlist-hub__btn"
+          disabled={bundleLoading !== null || festivalReadyCount === 0}
+          title={festivalReadyCount === 0 ? '대표곡 준비 중' : undefined}
+          onClick={() => onOpenBundled('festival', festival.allArtists || [], festivalPlaylistTitle)}
+        >
+          {bundleLoading === 'festival' ? '여는 중…' : '페스티벌 전체'}
+        </Button>
         {showMyPlaylist && (
           <Button
             variant="outline"

@@ -440,7 +440,7 @@ export default function FestivalDetail() {
                           onClick={() => handleArtistSelect(artist.id)}
                           className={`artist-chip${isSelected ? ' is-selected' : ''}`}
                           style={{ opacity: ready ? 1 : 0.7 }}
-                          title={ready ? '대표곡 준비됨' : '대표곡 준비 중'}
+                          title={ready ? '대표곡 준비 완료' : '대표곡 준비 중'}
                         >
                           {officialArtistName(artist)}
                         </button>
@@ -496,7 +496,7 @@ export default function FestivalDetail() {
                             <span className="artist-card__country">{artist.country}</span>
                           )}
                           <span className={`artist-card__status${ready ? ' is-ready' : ''}`}>
-                            {ready ? '대표곡 준비됨' : '대표곡 준비 중'}
+                            {ready ? '대표곡 준비 완료' : '대표곡 준비 중'}
                           </span>
                         </button>
                         <MyLineupPickButton
