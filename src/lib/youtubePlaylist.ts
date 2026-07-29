@@ -73,35 +73,35 @@ export function uniqueVideoIds(videoIds: Array<string | null | undefined>): stri
   return out
 }
 
-/** 아티스트 대표곡 재생목록: "{페스티벌명} {아티스트명} 플레이리스트" */
+/** 아티스트 대표곡 재생목록: "{페스티벌명} {아티스트명} 대표곡" */
 export function playlistTitleForArtist(festivalName: string, artistName: string): string {
   const fest = (festivalName || '').trim()
   const artist = (artistName || '').trim()
-  if (fest && artist) return `${fest} ${artist} 플레이리스트`
-  if (artist) return `${artist} 플레이리스트`
-  if (fest) return `${fest} 아티스트 플레이리스트`
-  return '아티스트 플레이리스트'
+  if (fest && artist) return `${fest} ${artist} 대표곡`
+  if (artist) return `${artist} 대표곡`
+  if (fest) return `${fest} 아티스트 대표곡`
+  return '아티스트 대표곡'
 }
 
 /** 요일(일별) 재생목록 */
 export function playlistTitleForDay(festivalName: string, dayLabel: string): string {
   const fest = (festivalName || '').trim()
   const day = (dayLabel || '').trim()
-  if (fest && day) return `${fest} · ${day} 플레이리스트`
-  if (day) return `${day} 플레이리스트`
+  if (fest && day) return `${fest} · ${day} 대표곡`
+  if (day) return `${day} 대표곡`
   return playlistTitleForFestival(fest)
 }
 
 /** 페스티벌 전체 재생목록 */
 export function playlistTitleForFestival(festivalName: string): string {
   const fest = (festivalName || '').trim()
-  return fest ? `${fest} 전체 플레이리스트` : '페스티벌 전체 플레이리스트'
+  return fest ? `${fest} 전체 대표곡` : '페스티벌 전체 대표곡'
 }
 
 /** 그 외 커스텀/조합 재생목록 */
 export function playlistTitleForCustom(festivalName: string): string {
   const fest = (festivalName || '').trim()
-  return fest ? `나만의 ${fest} 플레이리스트` : '나만의 페스티벌 플레이리스트'
+  return fest ? `${fest} 내 라인업 대표곡` : '내 라인업 대표곡'
 }
 
 export function playlistTitle(

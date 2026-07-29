@@ -43,7 +43,7 @@ export default function PlaylistHubActions({
 
   return (
     <div className={`playlist-hub playlist-hub--${variant}`}>
-      <p className="playlist-hub__label">플레이리스트 듣기</p>
+      <p className="playlist-hub__label">대표곡 듣기</p>
       <div className="playlist-hub__actions">
         {dayReadyCount > 0 && activeDay && (
           <Button
@@ -72,9 +72,9 @@ export default function PlaylistHubActions({
             className="playlist-hub__btn playlist-hub__btn--mine"
             onClick={onOpenMyPlaylist}
             disabled={!onOpenMyPlaylist}
-            title={onOpenMyPlaylist ? '내가 고른 플레이리스트' : '준비 중'}
+            title={onOpenMyPlaylist ? '내 라인업' : '준비 중'}
           >
-            {myLineupCount > 0 ? `나만의 (${myLineupCount})` : '나만의 플레이리스트'}
+            {myLineupCount > 0 ? `내 라인업 (${myLineupCount})` : '내 라인업'}
           </Button>
         )}
       </div>

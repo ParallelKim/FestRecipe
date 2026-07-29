@@ -194,35 +194,35 @@ export function bundleNoticeCopy(bundle: BundledAnonymousPlaylist): {
 
   if (bundle.truncated && bundle.thinCoverage) {
     return {
-      title: '일부 대표곡만 열립니다',
+      title: '일부 대표곡만 열려요',
       body:
-        `YouTube 임시 재생목록은 최대 ${WATCH_VIDEOS_MAX}곡입니다. ` +
-        `아티스트가 많아 ${tierLabel}으로 줄여도 넘쳐, ` +
-        `${bundle.includedArtistCount}/${bundle.artistCount}팀 · ${bundle.selectedCount}곡만 포함했습니다. ` +
-        `빠진 팀은 아티스트를 눌러 따로 들어 주세요.`,
+        `YouTube 임시 재생목록은 최대 ${WATCH_VIDEOS_MAX}곡이에요. ` +
+        `아티스트가 많아 ${tierLabel}으로 줄여도 넘쳐서 ` +
+        `${bundle.includedArtistCount}/${bundle.artistCount}팀 · ${bundle.selectedCount}곡만 담았어요. ` +
+        `빠진 팀은 아티스트를 눌러 따로 들어 보세요.`,
     }
   }
 
   if (bundle.downgraded && bundle.thinCoverage) {
     return {
-      title: '대표곡을 줄여 열었습니다',
+      title: '대표곡을 줄여 열었어요',
       body:
-        `50곡 제한 때문에 아티스트당 곡 수를 ${tierLabel}으로 낮췄습니다. ` +
-        `팀당 곡이 적어 맛보기에 가깝습니다. 더 들으려면 아티스트별 플레이리스트를 열어 주세요.`,
+        `50곡 제한 때문에 아티스트당 곡 수를 ${tierLabel}으로 낮췄어요. ` +
+        `팀당 곡이 적어 맛보기 정도예요. 더 듣고 싶다면 아티스트별 대표곡을 열어 보세요.`,
     }
   }
 
   if (bundle.downgraded) {
     return {
-      title: '대표곡 수를 조정했습니다',
+      title: '대표곡 수를 조정했어요',
       body:
-        `YouTube 한도(${WATCH_VIDEOS_MAX}곡)에 맞추려 티어별 곡 수를 ${tierLabel}으로 줄였습니다. ` +
-        `${bundle.selectedCount}곡이 열립니다.`,
+        `YouTube 한도(${WATCH_VIDEOS_MAX}곡)에 맞추려 티어별 곡 수를 ${tierLabel}으로 줄였어요. ` +
+        `${bundle.selectedCount}곡이 열려요.`,
     }
   }
 
   return {
-    title: '플레이리스트를 열었습니다',
-    body: `${bundle.selectedCount}곡이 YouTube에서 재생됩니다.`,
+    title: '대표곡을 열었어요',
+    body: `${bundle.selectedCount}곡이 YouTube에서 재생돼요.`,
   }
 }

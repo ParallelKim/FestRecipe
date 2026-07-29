@@ -116,10 +116,9 @@ export default function ArtistPlaylistPanel({
 
       {selectedArtist ? (
         <div className="playlist-panel__artist-view">
-          <div className="playlist-artist-card" role="region" aria-label={`${displayName} 플레이리스트`}>
-            <div className="playlist-artist-card__bar">
-              <span className="playlist-artist-card__eyebrow">지금 선택</span>
-              {onCloseArtist && (
+          <div className="playlist-artist-card" role="region" aria-label={`${displayName} 대표곡`}>
+            {onCloseArtist && (
+              <div className="playlist-artist-card__bar playlist-artist-card__bar--actions">
                 <button
                   type="button"
                   className="playlist-artist-card__close"
@@ -128,8 +127,8 @@ export default function ArtistPlaylistPanel({
                 >
                   닫기
                 </button>
-              )}
-            </div>
+              </div>
+            )}
             <div className="playlist-artist-card__head">
               <h3 className="playlist-artist-card__name">{displayName}</h3>
               {isHeadliner && <span className="headliner-badge">헤드라이너</span>}
@@ -137,7 +136,7 @@ export default function ArtistPlaylistPanel({
             <p className="playlist-artist-card__meta">
               {artistPlaylist
                 ? `대표곡 ${artistPlaylist.songCount}곡 · YouTube`
-                : 'YouTube 인기곡 기반 대표 플레이리스트'}
+                : 'YouTube 인기곡 기준 대표곡'}
             </p>
 
             <div className="playlist-artist-card__actions">
@@ -158,10 +157,10 @@ export default function ArtistPlaylistPanel({
                   nativeButton={false}
                   className="playlist-artist-card__play"
                 >
-                  대표곡 {artistPlaylist.songCount}곡 YouTube에서 연속 재생
+                  대표곡 {artistPlaylist.songCount}곡 YouTube로 듣기
                 </Button>
               ) : (
-                <p className="playlist-artist-card__pending">플레이리스트 준비 중입니다.</p>
+                <p className="playlist-artist-card__pending">대표곡을 준비 중이에요.</p>
               )}
               {onToggleMyLineupFromArtist && (
                 <button
@@ -173,7 +172,7 @@ export default function ArtistPlaylistPanel({
                   <span className="playlist-artist-card__lineup-icon" aria-hidden="true">
                     {inMyLineup ? '★' : '☆'}
                   </span>
-                  {inMyLineup ? '내 라인업 담김' : '내 라인업에 담기'}
+                  {inMyLineup ? '담김' : '내 라인업에 담기'}
                 </button>
               )}
             </div>
@@ -211,7 +210,7 @@ export default function ArtistPlaylistPanel({
             </div>
           ) : !playlistLoading && (!artistPlaylist || artistPlaylist.tracks.length === 0) ? (
             <div className="playlist-panel__empty playlist-panel__empty--compact">
-              <p>{displayName}의 YouTube 대표곡을 모으고 있습니다.</p>
+              <p>{displayName}의 대표곡을 모으고 있어요.</p>
             </div>
           ) : null}
         </div>
@@ -231,15 +230,15 @@ export default function ArtistPlaylistPanel({
         />
       ) : !notice ? (
         <div className="playlist-panel__idle">
-          <h4>아티스트 플레이리스트</h4>
+          <h4>아티스트 대표곡</h4>
           <p>
             {festival.lineupStage === 'stage3_timetable'
-              ? '타임테이블 카드를 누르면 해당 아티스트 대표곡이 열립니다.'
-              : '라인업에서 아티스트를 누르면 대표곡이 열립니다.'}
+              ? '타임테이블에서 아티스트를 누르면 대표곡이 열려요.'
+              : '라인업에서 아티스트를 누르면 대표곡이 열려요.'}
           </p>
           <p className="playlist-panel__idle-hint">
-            요일·페스티벌 전체 듣기는 위 버튼에서 바로 시작할 수 있습니다.
-            나만의 플레이리스트는 타임테이블 ☆로 담은 뒤 YouTube로 듣거나 배경화면으로 저장할 수 있습니다.
+            날짜별·페스티벌 전체 듣기는 위 버튼에서 바로 시작할 수 있어요.
+            ☆로 담은 아티스트는 내 라인업에서 모아 듣거나 배경화면으로 저장할 수 있어요.
           </p>
         </div>
       ) : null}

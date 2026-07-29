@@ -111,14 +111,14 @@ export default function FestivalDetail() {
   }, [festival, activeDayIndex])
 
   if (loading) {
-    return <LoadingState label="페스티벌 정보를 불러오는 중..." minHeight="100vh" />
+    return <LoadingState label="페스티벌 정보를 불러오는 중…" minHeight="100vh" />
   }
 
   if (!festival) {
     return (
       <div className="container festival-missing">
-        <h2 className="text-title-lg">페스티벌을 찾을 수 없습니다.</h2>
-        <p className="text-body text-muted">요청하신 페스티벌 정보가 없거나 준비 중입니다.</p>
+        <h2 className="text-title-lg">페스티벌을 찾을 수 없어요.</h2>
+        <p className="text-body text-muted">주소가 잘못되었거나 아직 준비 중인 페스티벌이에요.</p>
         <Button render={<Link to="/" />} nativeButton={false}>홈으로 돌아가기</Button>
       </div>
     )
@@ -424,7 +424,7 @@ export default function FestivalDetail() {
                   />
                 </div>
                 <h3>공개된 아티스트 라인업 ({stage1Artists.length}팀)</h3>
-                <p>아티스트를 선택하면 대표곡을 듣고, ☆로 내 라인업에 담을 수 있습니다.</p>
+                <p>아티스트를 눌러 대표곡을 들어 보세요. ☆로 내 라인업에 담을 수 있어요.</p>
                 <div className="artist-chip-row">
                   {stage1Artists.map((artist) => {
                     const isSelected = selectedArtist?.id === artist.id
@@ -440,7 +440,7 @@ export default function FestivalDetail() {
                           onClick={() => handleArtistSelect(artist.id)}
                           className={`artist-chip${isSelected ? ' is-selected' : ''}`}
                           style={{ opacity: ready ? 1 : 0.7 }}
-                          title={ready ? '플레이리스트 준비됨' : '플레이리스트 준비 중'}
+                          title={ready ? '대표곡 준비됨' : '대표곡 준비 중'}
                         >
                           {officialArtistName(artist)}
                         </button>
@@ -496,7 +496,7 @@ export default function FestivalDetail() {
                             <span className="artist-card__country">{artist.country}</span>
                           )}
                           <span className={`artist-card__status${ready ? ' is-ready' : ''}`}>
-                            {ready ? '플레이리스트 준비됨' : '준비 중'}
+                            {ready ? '대표곡 준비됨' : '대표곡 준비 중'}
                           </span>
                         </button>
                         <MyLineupPickButton
@@ -532,7 +532,7 @@ export default function FestivalDetail() {
                 </div>
                 {myLineupOnDayCount > 0 && (
                   <p className="lineup-block__lineup-status" role="status">
-                    {activeDay?.dayLabel} 내 라인업 <strong>{myLineupOnDayCount}</strong>팀 · 타임테이블 ☆ 강조
+                    {activeDay?.dayLabel} 내 라인업 <strong>{myLineupOnDayCount}</strong>팀 · 타임테이블에 표시돼요
                   </p>
                 )}
                 <div className="timetable-scroll">

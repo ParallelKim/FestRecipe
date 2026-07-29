@@ -337,7 +337,7 @@ export default function TimetableWallpaperStudio({
             value={profileId}
             onChange={(e) => setProfileId(e.target.value as ProfileOptionId)}
           >
-            <option value="device">이 기기 (화면·DPR 기준)</option>
+            <option value="device">이 기기 화면에 맞춤</option>
             {WALLPAPER_PRESET_PROFILES.map((p) => (
               <option key={p.id} value={p.id}>
                 {p.label}
@@ -402,7 +402,7 @@ export default function TimetableWallpaperStudio({
                   alpha={false}
                   className="wallpaper-studio__hex-input"
                   onChange={setBgColor}
-                  aria-label="HEX 색상 코드"
+                  aria-label="색상 코드 입력"
                 />
               </div>
             </div>
@@ -446,7 +446,7 @@ export function TimetableWallpaperEntry({
       <div className="wallpaper-entry wallpaper-entry--disabled">
         <h5 className="wallpaper-entry__title">배경화면 타임테이블</h5>
         <p className="wallpaper-entry__hint">
-          타임테이블이 공개되면, 선택한 일자 화면을 그대로 배경화면으로 저장할 수 있습니다.
+          타임테이블이 공개되면 그날의 화면을 배경화면으로 저장할 수 있어요.
         </p>
       </div>
     )
@@ -456,8 +456,8 @@ export function TimetableWallpaperEntry({
     <div className="wallpaper-entry">
       <h5 className="wallpaper-entry__title">배경화면 타임테이블</h5>
       <p className="wallpaper-entry__hint">
-        배경색과 해상도를 고른 뒤 타임테이블만 저장합니다. 페스티벌명·날짜는 편집 화면에서 켤 수 있습니다.
-        {lineupOnDay.length > 0 ? ' 내 라인업 강조는 타임테이블에 반영됩니다.' : ''}
+        배경색과 해상도를 골라 타임테이블을 이미지로 저장해요. 페스티벌명과 날짜는 편집 화면에서 켤 수 있어요.
+        {lineupOnDay.length > 0 ? ' 내 라인업은 타임테이블에 강조 표시돼요.' : ''}
       </p>
       <Button variant="outline" className="wallpaper-entry__btn" onClick={onOpenStudio}>
         배경화면 편집

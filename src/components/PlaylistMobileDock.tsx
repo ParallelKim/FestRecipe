@@ -47,10 +47,10 @@ export default function PlaylistMobileDock({
   ...panelProps
 }: PlaylistMobileDockProps) {
   const sheetLabel = showMyLineupEditor
-    ? '나만의 플레이리스트'
+    ? '내 라인업'
     : panelProps.selectedArtist
-      ? `${officialArtistName(panelProps.selectedArtist)} 플레이리스트`
-      : '플레이리스트'
+      ? `${officialArtistName(panelProps.selectedArtist)} 대표곡`
+      : '대표곡'
 
   const contentRef = useRef<HTMLDivElement>(null)
   const selectedArtistId = panelProps.selectedArtist?.id
@@ -69,8 +69,8 @@ export default function PlaylistMobileDock({
             <button
               type="button"
               className={`playlist-fab${open ? ' is-open' : ''}`}
-              aria-label="플레이리스트 듣기"
-              title="플레이리스트 듣기"
+              aria-label="대표곡 듣기"
+              title="대표곡 듣기"
             />
           }
         >

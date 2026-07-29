@@ -115,7 +115,7 @@ export default function Home() {
   }, [])
 
   if (loading) {
-    return <LoadingState label="페스티벌 정보를 불러오는 중..." />
+    return <LoadingState label="페스티벌 정보를 불러오는 중…" />
   }
 
   const featured = closestFestival(festivals)
@@ -153,9 +153,9 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.08, ease: 'easeOut' }}
           >
-            페스티벌 전에 듣는
+            페스티벌 가기 전에
             <br />
-            대표곡 플레이리스트
+            미리 듣는 대표곡
           </motion.h1>
           <motion.p
             className="home-hero__lede"
@@ -163,7 +163,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.16, ease: 'easeOut' }}
           >
-            라인업 아티스트의 YouTube Music 인기곡을 모아 바로 들을 수 있습니다.
+            라인업 아티스트의 대표곡을 YouTube에서 미리 들어 보세요.
           </motion.p>
 
           {featured && (
@@ -214,7 +214,7 @@ export default function Home() {
         <div className="container">
           <h2 className="home-festivals__heading">페스티벌 목록</h2>
           <p className="home-festivals__lede">
-            조회 가능한 페스티벌 <strong>{allFestivals.length}</strong>개
+            등록된 페스티벌 <strong>{allFestivals.length}</strong>개
           </p>
           <div className="home-festivals__list">
             {allFestivals.map((festival, index) => {
