@@ -530,11 +530,6 @@ export default function FestivalDetail() {
                     variant="bar"
                   />
                 </div>
-                {myLineupOnDayCount > 0 && (
-                  <p className="lineup-block__lineup-status" role="status">
-                    {activeDay?.dayLabel} 내 라인업 <strong>{myLineupOnDayCount}</strong>팀 · 타임테이블에 표시돼요
-                  </p>
-                )}
                 <div className="timetable-scroll">
                   <TimetableGrid
                     stages={activeDay?.stages || []}

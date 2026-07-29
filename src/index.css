@@ -832,14 +832,6 @@ body {
   line-height: 1.5;
   color: var(--muted-foreground);
 }
-.lineup-block__lineup-status {
-  margin: 0 0 6px;
-  font-size: 13px;
-  color: var(--color-ink);
-}
-.lineup-block__lineup-status strong {
-  color: var(--color-sig-forest);
-}
 .artist-chip-row {
   display: flex;
   flex-wrap: wrap;
