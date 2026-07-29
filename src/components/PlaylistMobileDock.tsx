@@ -123,17 +123,49 @@ export default function PlaylistMobileDock({
           <header className="playlist-sheet__header">
             {sheetView === 'artist' ? (
               <div className="playlist-sheet__artist-bar">
-                <button
-                  type="button"
-                  className="playlist-sheet__back"
-                  onClick={onBackFromArtist}
-                >
-                  <span className="playlist-sheet__back-mark" aria-hidden="true">←</span>
-                  {sheetReturnView === 'lineup' ? '내 라인업' : '대표곡'}
-                </button>
-                <h3 className="playlist-sheet__artist-title">
-                  {officialArtistName(selectedArtist!)}
-                </h3>
+                <div className="playlist-sheet__artist-nav">
+                  <button
+                    type="button"
+                    className="playlist-sheet__back"
+                    onClick={onBackFromArtist}
+                  >
+                    <span className="playlist-sheet__back-mark" aria-hidden="true">←</span>
+                    {sheetReturnView === 'lineup' ? '내 라인업' : '대표곡'}
+                  </button>
+                  {panelProps.onOpenMyLineupFromArtist && (
+                    <button
+                      type="button"
+                      className="playlist-sheet__lineup-link"
+                      onClick={panelProps.onOpenMyLineupFromArtist}
+                    >
+                      내 라인업
+                      {myLineupCount > 0 ? ` (${myLineupCount})` : ''}
+                    </button>
+                  )}
+                </div>
+                <div className="playlist-sheet__artist-title-row">
+                  <h3 className="playlist-sheet__artist-title">
+                    {officialArtistName(selectedArtist!)}
+                  </h3>
+                  {panelProps.onToggleMyLineupFromArtist && selectedArtist && (
+                    <button
+                      type="button"
+                      className={`playlist-sheet__pick${panelProps.isInMyLineup?.(selectedArtist.id) ? ' is-on' : ''}`}
+                      onClick={() => panelProps.onToggleMyLineupFromArtist?.(selectedArtist.id)}
+                      aria-pressed={!!panelProps.isInMyLineup?.(selectedArtist.id)}
+                      aria-label={
+                        panelProps.isInMyLineup?.(selectedArtist.id)
+                          ? '내 라인업에서 빼기'
+                          : '내 라인업에 담기'
+                      }
+                    >
+                      <span aria-hidden="true">
+                        {panelProps.isInMyLineup?.(selectedArtist.id) ? '★' : '☆'}
+                      </span>
+                      {panelProps.isInMyLineup?.(selectedArtist.id) ? '담김' : '담기'}
+                    </button>
+                  )}
+                </div>
               </div>
             ) : (
               <nav className="playlist-sheet__tabs" aria-label="대표곡 시트">
