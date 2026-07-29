@@ -131,9 +131,9 @@ export default function PlaylistMobileDock({
                   <span className="playlist-sheet__back-mark" aria-hidden="true">←</span>
                   {sheetReturnView === 'lineup' ? '내 라인업' : '대표곡'}
                 </button>
-                <p className="playlist-sheet__artist-title">
+                <h3 className="playlist-sheet__artist-title">
                   {officialArtistName(selectedArtist!)}
-                </p>
+                </h3>
               </div>
             ) : (
               <nav className="playlist-sheet__tabs" aria-label="대표곡 시트">

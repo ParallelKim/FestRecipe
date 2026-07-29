@@ -150,11 +150,16 @@ export default function ArtistPlaylistPanel({
                 </button>
               </div>
             )}
-            <div className="playlist-artist-card__head">
-              <h3 className="playlist-artist-card__name">{displayName}</h3>
-              {isHeadliner && <span className="headliner-badge">헤드라이너</span>}
-            </div>
+            {!hideArtistNavBar && (
+              <div className="playlist-artist-card__head">
+                <h3 className="playlist-artist-card__name">{displayName}</h3>
+                {isHeadliner && <span className="headliner-badge">헤드라이너</span>}
+              </div>
+            )}
             <p className="playlist-artist-card__meta">
+              {hideArtistNavBar && isHeadliner && (
+                <span className="headliner-badge playlist-artist-card__meta-badge">헤드라이너</span>
+              )}
               {artistPlaylist
                 ? `대표곡 ${artistPlaylist.songCount}곡 · YouTube`
                 : 'YouTube 인기곡 기준 대표곡'}
@@ -184,26 +189,41 @@ export default function ArtistPlaylistPanel({
                 <p className="playlist-artist-card__pending">대표곡을 준비 중이에요.</p>
               )}
               {onToggleMyLineupFromArtist && (
-                <button
-                  type="button"
-                  className={`playlist-artist-card__lineup${inMyLineup ? ' is-on' : ''}`}
-                  onClick={() => onToggleMyLineupFromArtist(selectedArtist.id)}
-                  aria-pressed={inMyLineup}
-                >
-                  <span className="playlist-artist-card__lineup-icon" aria-hidden="true">
-                    {inMyLineup ? '★' : '☆'}
-                  </span>
-                  {inMyLineup ? '담김' : '내 라인업에 담기'}
-                </button>
-              )}
-              {inMyLineup && onOpenMyLineupFromArtist && (
-                <button
-                  type="button"
-                  className="playlist-artist-card__view-lineup"
-                  onClick={onOpenMyLineupFromArtist}
-                >
-                  내 라인업 보기
-                </button>
+                inMyLineup && onOpenMyLineupFromArtist ? (
+                  <div className="playlist-artist-card__lineup-row">
+                    <button
+                      type="button"
+                      className="playlist-artist-card__lineup is-on"
+                      onClick={() => onToggleMyLineupFromArtist(selectedArtist.id)}
+                      aria-pressed={true}
+                      aria-label="내 라인업에서 빼기"
+                    >
+                      <span className="playlist-artist-card__lineup-icon" aria-hidden="true">
+                        ★
+                      </span>
+                      담김
+                    </button>
+                    <button
+                      type="button"
+                      className="playlist-artist-card__lineup-go"
+                      onClick={onOpenMyLineupFromArtist}
+                    >
+                      내 라인업
+                    </button>
+                  </div>
+                ) : (
+                  <button
+                    type="button"
+                    className={`playlist-artist-card__lineup${inMyLineup ? ' is-on' : ''}`}
+                    onClick={() => onToggleMyLineupFromArtist(selectedArtist.id)}
+                    aria-pressed={inMyLineup}
+                  >
+                    <span className="playlist-artist-card__lineup-icon" aria-hidden="true">
+                      {inMyLineup ? '★' : '☆'}
+                    </span>
+                    {inMyLineup ? '담김' : '담기'}
+                  </button>
+                )
               )}
             </div>
           </div>
