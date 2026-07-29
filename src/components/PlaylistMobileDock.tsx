@@ -13,6 +13,10 @@ interface PlaylistMobileDockProps {
   open: boolean
   onOpen: () => void
   onClose: () => void
+  onBackFromArtist: () => void
+  onSwitchSheetHub: () => void
+  onSwitchSheetLineup: () => void
+  sheetReturnView: 'hub' | 'lineup'
   festival: Festival
   activeDay?: DayLineup
   selectedArtist: Artist | null
@@ -21,7 +25,6 @@ interface PlaylistMobileDockProps {
   playlistReady: Set<string>
   bundleLoading: 'day' | 'festival' | 'custom' | null
   headlinerIds?: Set<string>
-  onCloseArtist: () => void
   onOpenBundled: (kind: 'day' | 'festival', artistIds: string[], title: string) => void
   onOpenMyPlaylist?: () => void
   myLineupCount?: number
@@ -32,6 +35,8 @@ interface PlaylistMobileDockProps {
   onClearMyLineup?: () => void
   onPlayMyLineup?: () => void
   onToggleMyLineupFromArtist?: (artistId: string) => void
+  onSelectArtistFromLineup?: (artistId: string) => void
+  onOpenMyLineupFromArtist?: () => void
   isInMyLineup?: (artistId: string) => boolean
   bundleNotice?: import('../lib/bundlePlaylist').BundledAnonymousPlaylist | null
   onDismissBundleNotice?: () => void
@@ -42,24 +47,36 @@ export default function PlaylistMobileDock({
   open,
   onOpen,
   onClose,
-  onCloseArtist,
+  onBackFromArtist,
+  onSwitchSheetHub,
+  onSwitchSheetLineup,
+  sheetReturnView,
   showMyLineupEditor = false,
+  myLineupCount = 0,
   ...panelProps
 }: PlaylistMobileDockProps) {
+  const selectedArtist = panelProps.selectedArtist
+  const sheetView = selectedArtist ? 'artist' : showMyLineupEditor ? 'lineup' : 'hub'
+
   const sheetLabel = showMyLineupEditor
     ? '내 라인업'
-    : panelProps.selectedArtist
-      ? `${officialArtistName(panelProps.selectedArtist)} 대표곡`
+    : selectedArtist
+      ? `${officialArtistName(selectedArtist)} 대표곡`
       : '대표곡'
 
   const contentRef = useRef<HTMLDivElement>(null)
-  const selectedArtistId = panelProps.selectedArtist?.id
+  const selectedArtistId = selectedArtist?.id
+
+  const fabTitle =
+    myLineupCount > 0
+      ? `내 라인업 (${myLineupCount}) · 대표곡 듣기`
+      : '대표곡 듣기'
 
   // 시트 오픈·아티스트 전환 시 스크롤을 맨 위로 — 이전 위치 잔류로 인한 어색함 제거
   useEffect(() => {
     if (!open) return
     contentRef.current?.scrollTo({ top: 0 })
-  }, [open, selectedArtistId])
+  }, [open, selectedArtistId, showMyLineupEditor])
 
   return (
     <div className="playlist-dock">
@@ -69,8 +86,8 @@ export default function PlaylistMobileDock({
             <button
               type="button"
               className={`playlist-fab${open ? ' is-open' : ''}`}
-              aria-label="대표곡 듣기"
-              title="대표곡 듣기"
+              aria-label={fabTitle}
+              title={fabTitle}
             />
           }
         >
@@ -98,14 +115,58 @@ export default function PlaylistMobileDock({
           ref={contentRef}
           side="bottom"
           showCloseButton={false}
-          className={`playlist-sheet mx-auto gap-0 overscroll-contain data-[side=bottom]:border-t-0 min-[900px]:hidden${showMyLineupEditor ? ' playlist-sheet--lineup' : ''}${panelProps.selectedArtist ? ' playlist-sheet--artist' : ''}`}
+          className={`playlist-sheet mx-auto gap-0 overscroll-contain data-[side=bottom]:border-t-0 min-[900px]:hidden${showMyLineupEditor ? ' playlist-sheet--lineup' : ''}${selectedArtist ? ' playlist-sheet--artist' : ''}`}
         >
           <SheetTitle className="sr-only">{sheetLabel}</SheetTitle>
           <div className="playlist-sheet__handle" aria-hidden="true" />
+
+          <header className="playlist-sheet__header">
+            {sheetView === 'artist' ? (
+              <div className="playlist-sheet__artist-bar">
+                <button
+                  type="button"
+                  className="playlist-sheet__back"
+                  onClick={onBackFromArtist}
+                >
+                  <span className="playlist-sheet__back-mark" aria-hidden="true">←</span>
+                  {sheetReturnView === 'lineup' ? '내 라인업' : '대표곡'}
+                </button>
+                <p className="playlist-sheet__artist-title">
+                  {officialArtistName(selectedArtist!)}
+                </p>
+              </div>
+            ) : (
+              <nav className="playlist-sheet__tabs" aria-label="대표곡 시트">
+                <button
+                  type="button"
+                  className={`playlist-sheet__tab${sheetView === 'hub' ? ' is-active' : ''}`}
+                  aria-current={sheetView === 'hub' ? 'page' : undefined}
+                  onClick={onSwitchSheetHub}
+                >
+                  대표곡
+                </button>
+                <button
+                  type="button"
+                  className={`playlist-sheet__tab${sheetView === 'lineup' ? ' is-active' : ''}`}
+                  aria-current={sheetView === 'lineup' ? 'page' : undefined}
+                  onClick={onSwitchSheetLineup}
+                >
+                  내 라인업
+                  {myLineupCount > 0 ? ` (${myLineupCount})` : ''}
+                </button>
+              </nav>
+            )}
+          </header>
+
           <ArtistPlaylistPanel
             {...panelProps}
             showMyLineupEditor={showMyLineupEditor}
-            onCloseArtist={onCloseArtist}
+            hideArtistNavBar
+            onCloseArtist={onBackFromArtist}
+            artistCloseLabel={
+              sheetReturnView === 'lineup' ? '내 라인업' : '대표곡'
+            }
+            artistCloseMode="back"
           />
         </SheetContent>
       </Sheet>

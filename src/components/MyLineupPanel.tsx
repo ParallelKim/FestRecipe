@@ -16,6 +16,7 @@ interface MyLineupPanelProps {
   bundleLoading: boolean
   bundleNotice: BundledAnonymousPlaylist | null
   onToggleArtist: (artistId: string) => void
+  onSelectArtist?: (artistId: string) => void
   onClear: () => void
   onPlayYouTube: () => void
   onDismissBundleNotice?: () => void
@@ -40,6 +41,7 @@ export default function MyLineupPanel({
   bundleLoading,
   bundleNotice,
   onToggleArtist,
+  onSelectArtist,
   onClear,
   onPlayYouTube,
   onDismissBundleNotice,
@@ -116,16 +118,23 @@ export default function MyLineupPanel({
           <ul className="my-lineup-panel__chips">
             {selectedOnDay.map((a) => (
               <li key={a.id}>
-                <button
-                  type="button"
-                  className="my-lineup-chip is-on"
-                  onClick={() => onToggleArtist(a.id)}
-                >
-                  {officialArtistName(a)}
-                  <span className="my-lineup-chip__x" aria-hidden="true">
-                    ×
-                  </span>
-                </button>
+                <span className="my-lineup-chip is-on">
+                  <button
+                    type="button"
+                    className="my-lineup-chip__label"
+                    onClick={() => onSelectArtist?.(a.id)}
+                  >
+                    {officialArtistName(a)}
+                  </button>
+                  <button
+                    type="button"
+                    className="my-lineup-chip__remove"
+                    onClick={() => onToggleArtist(a.id)}
+                    aria-label={`${officialArtistName(a)} 빼기`}
+                  >
+                    <span aria-hidden="true">×</span>
+                  </button>
+                </span>
               </li>
             ))}
           </ul>

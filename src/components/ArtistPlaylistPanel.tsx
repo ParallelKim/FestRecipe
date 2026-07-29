@@ -34,10 +34,15 @@ interface ArtistPlaylistPanelProps {
   onClearMyLineup?: () => void
   onPlayMyLineup?: () => void
   onToggleMyLineupFromArtist?: (artistId: string) => void
+  onSelectArtistFromLineup?: (artistId: string) => void
+  onOpenMyLineupFromArtist?: () => void
   isInMyLineup?: (artistId: string) => boolean
   /** 요일/전체·나만의 번들 시 다운그레이드·잘림 안내 */
   bundleNotice?: BundledAnonymousPlaylist | null
   onDismissBundleNotice?: () => void
+  hideArtistNavBar?: boolean
+  artistCloseLabel?: string
+  artistCloseMode?: 'close' | 'back'
 }
 
 export default function ArtistPlaylistPanel({
@@ -61,9 +66,14 @@ export default function ArtistPlaylistPanel({
   onClearMyLineup,
   onPlayMyLineup,
   onToggleMyLineupFromArtist,
+  onSelectArtistFromLineup,
+  onOpenMyLineupFromArtist,
   isInMyLineup,
   bundleNotice = null,
   onDismissBundleNotice,
+  hideArtistNavBar = false,
+  artistCloseLabel = '닫기',
+  artistCloseMode = 'close',
 }: ArtistPlaylistPanelProps) {
   const displayName = selectedArtist ? officialArtistName(selectedArtist) : ''
   const artistPlaylistTitle = selectedArtist
@@ -117,15 +127,26 @@ export default function ArtistPlaylistPanel({
       {selectedArtist ? (
         <div className="playlist-panel__artist-view">
           <div className="playlist-artist-card" role="region" aria-label={`${displayName} 대표곡`}>
-            {onCloseArtist && (
+            {onCloseArtist && !hideArtistNavBar && (
               <div className="playlist-artist-card__bar playlist-artist-card__bar--actions">
                 <button
                   type="button"
-                  className="playlist-artist-card__close"
+                  className={`playlist-artist-card__close${artistCloseMode === 'back' ? ' playlist-artist-card__close--back' : ''}`}
                   onClick={onCloseArtist}
-                  aria-label="아티스트 닫기"
+                  aria-label={
+                    artistCloseMode === 'back'
+                      ? `${artistCloseLabel}으로 돌아가기`
+                      : '아티스트 닫기'
+                  }
                 >
-                  닫기
+                  {artistCloseMode === 'back' ? (
+                    <>
+                      <span aria-hidden="true">← </span>
+                      {artistCloseLabel}
+                    </>
+                  ) : (
+                    artistCloseLabel
+                  )}
                 </button>
               </div>
             )}
@@ -173,6 +194,15 @@ export default function ArtistPlaylistPanel({
                     {inMyLineup ? '★' : '☆'}
                   </span>
                   {inMyLineup ? '담김' : '내 라인업에 담기'}
+                </button>
+              )}
+              {inMyLineup && onOpenMyLineupFromArtist && (
+                <button
+                  type="button"
+                  className="playlist-artist-card__view-lineup"
+                  onClick={onOpenMyLineupFromArtist}
+                >
+                  내 라인업 보기
                 </button>
               )}
             </div>
@@ -224,6 +254,7 @@ export default function ArtistPlaylistPanel({
           bundleLoading={bundleLoading === 'custom'}
           bundleNotice={bundleNotice}
           onToggleArtist={onToggleMyLineup}
+          onSelectArtist={onSelectArtistFromLineup}
           onClear={onClearMyLineup}
           onPlayYouTube={onPlayMyLineup}
           onDismissBundleNotice={onDismissBundleNotice}
