@@ -2018,21 +2018,20 @@ body {
   color: rgba(255, 255, 255, 0.82);
 }
 .wallpaper-studio__stack {
+  position: relative;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  padding: 6px 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
 }
 .wallpaper-studio__fit {
-  flex: 1;
-  width: 100%;
-  min-height: 0;
+  position: absolute;
+  left: 6px;
+  right: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 0;
+  overflow: hidden;
 }
 .wallpaper-studio__scale-box {
   position: relative;
@@ -2278,6 +2277,37 @@ body {
   border: 1px solid var(--color-hairline);
   font-size: 14px;
   background: #fff;
+}
+.wallpaper-studio__profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.wallpaper-studio__profile {
+  padding: 8px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-hairline);
+  background: var(--color-canvas);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.wallpaper-studio__profile.is-active {
+  border-color: var(--color-ink);
+  background: var(--color-ink);
+  color: var(--color-canvas);
+}
+.wallpaper-studio__profile-meta {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--muted-foreground);
+  line-height: 1.4;
+}
+.wallpaper-studio__layout-hint {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--muted-foreground);
 }
 .wallpaper-studio__range {
   width: 100%;
