@@ -46,14 +46,14 @@
 | 항목 | 결정 |
 |------|------|
 | **PNG 내용 기본** | **배경색 + 타임테이블만** (FestRecipe 워터마크·설명 문구·「내 라인업 N팀」 캡션 없음) |
-| **타임테이블 렌더** | 메인과 동일 `TimetableGrid` + `timetable-scroll`, **너비 390px** (`MAIN_TIMETABLE_REF_WIDTH`) 후 **균등 scale**로 프레임에 맞춤·중앙 배치 |
+| **타임테이블 렌더** | 메인과 동일 `TimetableGrid` + **위젯·시계 안전 밴드** 안에 contain 스케일·중앙 배치 |
 | **위치/확대 조작** | 없음 (드래그·슬라이더 제거) |
 | **PNG 형태** | **직사각** (`wallpaper-studio__canvas`, `border-radius: 0`). 미리보기 둥근 모서리는 **바깥 `preview` 크롬만** |
-| **저장 해상도** | 이 기기(`screen`×`DPR`) 또는 iPhone/Android 프리셋 (`src/lib/wallpaperDevice.ts`) |
+| **저장 해상도** | 칩 선택(이 기기 / iPhone / FHD+ / QHD+). Dialog 안 native `<select>` 사용 금지(모바일에서 깨짐). 이 기기는 screen×DPR(이중 적용 방지) |
 | **배경색** | 프리셋 칩 + **react-colorful** (`HexColorPicker` / `HexColorInput`) — **`<input type="color">` 사용 금지**(Android 시스템 피커) |
-| **텍스트 옵션** | **페스티벌명** · **날짜** — 기본 **OFF**, 켜면 **작은 캡션**(9px/11px) |
+| **텍스트 옵션** | **페스티벌명** · **날짜** — 기본 **OFF**, 켜면 **작은 캡션** |
 | **페스티벌명 표기** | `Festival.shortName` 우선, 표시 시 **대문자** (`festivalShortLabel`) — 펜타포트: **`PENTAPORT`** |
-| **잠금화면 안전 영역** | 미리보기 오버레이만, PNG 미포함, 토글로 숨김 |
+| **잠금·홈 가림 영역** | 콘텐츠를 안전 밴드 안에 배치(PNG에도 반영). 오버레이 토글로 가림 구역 표시 |
 
 진입: `MyLineupPanel` → `TimetableWallpaperEntry` → 「배경화면 편집」.
 

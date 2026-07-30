@@ -74,6 +74,7 @@ export default function TimetableWallpaperStudio({
 }: TimetableWallpaperStudioProps) {
   const stageRef = useRef<HTMLDivElement>(null)
   const frameRef = useRef<HTMLDivElement>(null)
+  const fitRef = useRef<HTMLDivElement>(null)
   const sourceRef = useRef<HTMLDivElement>(null)
   const [profileId, setProfileId] = useState<ProfileOptionId>('device')
   const [profile, setProfile] = useState<WallpaperProfile>(() =>
@@ -102,20 +103,17 @@ export default function TimetableWallpaperStudio({
   const onDarkBg = isDarkWallpaperBg(bgColor)
 
   const remeasureScale = useCallback(() => {
-    const frame = frameRef.current
+    const fit = fitRef.current
     const source = sourceRef.current
-    if (!frame || !source) return
+    if (!fit || !source) return
 
     const sh = source.scrollHeight
     const sw = MAIN_TIMETABLE_REF_WIDTH
     setSourceHeight(sh)
 
-    const frameW = frame.clientWidth
-    const frameH = frame.clientHeight
-    const padX = 10
-    const padY = 8
-    const maxW = frameW - padX * 2
-    const maxH = Math.max(80, frameH - padY * 2)
+    // 안전 밴드(fit) 안에 contain — 위젯·시계에 가리지 않게
+    const maxW = Math.max(40, fit.clientWidth)
+    const maxH = Math.max(40, fit.clientHeight)
 
     setScale(computeWallpaperScale(sw, sh, maxW, maxH))
   }, [])
@@ -168,6 +166,8 @@ export default function TimetableWallpaperStudio({
     ro.observe(stage)
     const frame = frameRef.current
     if (frame) ro.observe(frame)
+    const fit = fitRef.current
+    if (fit) ro.observe(fit)
     return () => ro.disconnect()
   }, [open, refreshProfileAndPreview, remeasureScale])
 
@@ -188,10 +188,11 @@ export default function TimetableWallpaperStudio({
     setBusy(true)
     try {
       const slug = activeDay.dayLabel.replace(/[^\w가-힣]+/g, '-').slice(0, 32)
-      const exportRatio = exportPixelRatioForFrame(profile, frameRef.current.clientWidth)
+      const frameW = frameRef.current.clientWidth
+      const exportRatio = exportPixelRatioForFrame(profile, frameW)
       await downloadElementPng(
         frameRef.current,
-        `festrecipe-wallpaper-${profile.id}-${slug}.png`,
+        `festrecipe-wallpaper-${profile.id}-${profile.width}x${profile.height}-${slug}.png`,
         exportRatio,
       )
     } finally {
@@ -254,7 +255,14 @@ export default function TimetableWallpaperStudio({
             }}
           >
             <div className="wallpaper-studio__stack">
-              <div className="wallpaper-studio__fit">
+              <div
+                ref={fitRef}
+                className="wallpaper-studio__fit"
+                style={{
+                  top: `${profile.safeTopRatio * 100}%`,
+                  bottom: `${profile.safeBottomRatio * 100}%`,
+                }}
+              >
                 <div
                   className="wallpaper-studio__scale-box"
                   style={{ width: scaledW, height: scaledH }}
@@ -332,18 +340,34 @@ export default function TimetableWallpaperStudio({
         </div>
         <div className="wallpaper-studio__control">
           <span className="wallpaper-studio__label">저장 해상도</span>
-          <select
-            className="wallpaper-studio__select"
-            value={profileId}
-            onChange={(e) => setProfileId(e.target.value as ProfileOptionId)}
-          >
-            <option value="device">이 기기 화면에 맞춤</option>
+          <div className="wallpaper-studio__profiles" role="radiogroup" aria-label="저장 해상도">
+            <button
+              type="button"
+              role="radio"
+              className={`wallpaper-studio__profile${profileId === 'device' ? ' is-active' : ''}`}
+              aria-checked={profileId === 'device'}
+              title={resolveWallpaperProfile('device').label}
+              onClick={() => setProfileId('device')}
+            >
+              이 기기
+            </button>
             {WALLPAPER_PRESET_PROFILES.map((p) => (
-              <option key={p.id} value={p.id}>
-                {p.label}
-              </option>
+              <button
+                key={p.id}
+                type="button"
+                role="radio"
+                className={`wallpaper-studio__profile${profileId === p.id ? ' is-active' : ''}`}
+                aria-checked={profileId === p.id}
+                title={p.label}
+                onClick={() => setProfileId(p.id)}
+              >
+                {p.shortLabel}
+              </button>
             ))}
-          </select>
+          </div>
+          <p className="wallpaper-studio__profile-meta" aria-live="polite">
+            {profile.label}
+          </p>
         </div>
         <div className="wallpaper-studio__control">
           <span className="wallpaper-studio__label">배경색</span>
@@ -414,8 +438,11 @@ export default function TimetableWallpaperStudio({
           aria-pressed={showSafeZones}
           onClick={() => setShowSafeZones((v) => !v)}
         >
-          잠금화면 안전 영역 {showSafeZones ? '숨기기' : '보기'}
+          위젯·시계 가림 영역 {showSafeZones ? '숨기기' : '보기'}
         </button>
+        <p className="wallpaper-studio__layout-hint">
+          타임테이블은 위젯·시계에 덜 가리도록 가운데에 맞추고, 저장 이미지는 선택한 화면 비율로 꽉 채워요.
+        </p>
       </div>
       </DialogContent>
     </Dialog>
@@ -452,7 +479,7 @@ export function TimetableWallpaperEntry({
     <div className="wallpaper-entry">
       <h5 className="wallpaper-entry__title">배경화면 타임테이블</h5>
       <p className="wallpaper-entry__hint">
-        배경색과 해상도를 골라 타임테이블을 이미지로 저장해요. 페스티벌명과 날짜는 편집 화면에서 켤 수 있어요.
+        화면 비율에 맞춰 타임테이블을 이미지로 저장해요. 위젯·시계에 가리지 않는 위치에 두고, 페스티벌명과 날짜는 편집에서 켤 수 있어요.
       </p>
       <Button variant="outline" className="wallpaper-entry__btn" onClick={onOpenStudio}>
         배경화면 편집
