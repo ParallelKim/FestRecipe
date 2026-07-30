@@ -4,7 +4,7 @@ interface LoadingStateProps {
 }
 
 export default function LoadingState({
-  label = '불러오는 중...',
+  label = '불러오는 중…',
   minHeight = 'calc(100vh - 64px)',
 }: LoadingStateProps) {
   return (

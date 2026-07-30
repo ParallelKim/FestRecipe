@@ -49,7 +49,7 @@ export default function TimetableGrid({
   if (!slots || slots.length === 0 || !stages || stages.length === 0) {
     return (
       <div className="timetable-empty">
-        타임테이블 정보가 없습니다.
+        타임테이블 정보가 없어요.
       </div>
     )
   }

@@ -7,8 +7,8 @@ interface HomeHelmetProps {
 }
 
 export default function HomeHelmet({ festivalCount }: HomeHelmetProps) {
-  const title = 'FestRecipe — 페스티벌 라인업 & 대표곡 플레이리스트'
-  const description = `페스티벌 라인업 아티스트의 YouTube Music 대표곡을 3~5곡 플레이리스트로 바로 들어보세요. 현재 ${festivalCount}개 페스티벌 등록됨.`
+  const title = 'FestRecipe — 페스티벌 라인업 & 대표곡'
+  const description = `페스티벌 라인업 아티스트의 대표곡을 YouTube에서 미리 들어 보세요. 현재 ${festivalCount}개 페스티벌 등록됨.`
   const url = BASE_URL + '/'
 
   return (
@@ -40,7 +40,7 @@ export default function HomeHelmet({ festivalCount }: HomeHelmetProps) {
           name: 'FestRecipe',
           alternateName: '페스티벌 대표곡 플레이리스트',
           url: BASE_URL,
-          description: '페스티벌 라인업 아티스트의 YouTube Music 대표곡 플레이리스트',
+          description: '페스티벌 라인업 아티스트의 대표곡을 YouTube에서 미리 들어 보세요',
           publisher: {
             '@type': 'Organization',
             name: 'FestRecipe',

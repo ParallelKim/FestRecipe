@@ -21,8 +21,8 @@ export default function FestivalHelmet({
   location,
   artistCount,
 }: FestivalHelmetProps) {
-  const title = `${festivalName} — 대표곡 플레이리스트 | FestRecipe`
-  const desc = `${festivalName}(${startDate} ~ ${endDate}, ${location}) ${artistCount}개 팀 출연. 아티스트별 YouTube Music 대표곡 플레이리스트를 바로 들어보세요.`
+  const title = `${festivalName} — 대표곡 | FestRecipe`
+  const desc = `${festivalName}(${startDate} ~ ${endDate}, ${location}) ${artistCount}개 팀 출연. 아티스트별 대표곡을 YouTube에서 미리 들어 보세요.`
   const url = BASE_URL + `/festival/${festivalId}`
 
   return (
