@@ -36,6 +36,7 @@ interface ArtistPlaylistPanelProps {
   onToggleMyLineupFromArtist?: (artistId: string) => void
   onSelectArtistFromLineup?: (artistId: string) => void
   onOpenMyLineupFromArtist?: () => void
+  onBackFromMyLineup?: () => void
   isInMyLineup?: (artistId: string) => boolean
   /** 요일/전체·나만의 번들 시 다운그레이드·잘림 안내 */
   bundleNotice?: BundledAnonymousPlaylist | null
@@ -68,6 +69,7 @@ export default function ArtistPlaylistPanel({
   onToggleMyLineupFromArtist,
   onSelectArtistFromLineup,
   onOpenMyLineupFromArtist,
+  onBackFromMyLineup,
   isInMyLineup,
   bundleNotice = null,
   onDismissBundleNotice,
@@ -92,7 +94,7 @@ export default function ArtistPlaylistPanel({
 
   return (
     <div id="artist-playlist-panel" className={`playlist-panel${selectedArtist ? ' playlist-panel--artist' : ''}`}>
-      {!hideHub && !selectedArtist && (
+      {!hideHub && !selectedArtist && !showMyLineupEditor && (
         <PlaylistHubActions
           festival={festival}
           activeDay={activeDay}
@@ -251,7 +253,17 @@ export default function ArtistPlaylistPanel({
           </section>
         </div>
       ) : showMyLineupEditor && onToggleMyLineup && onClearMyLineup && onPlayMyLineup ? (
-        <MyLineupPanel
+        <>
+          {!hideArtistNavBar && onBackFromMyLineup && (
+            <button
+              type="button"
+              className="playlist-panel__back-to-hub"
+              onClick={onBackFromMyLineup}
+            >
+              <span aria-hidden="true">← </span>대표곡
+            </button>
+          )}
+          <MyLineupPanel
           festival={festival}
           activeDay={activeDay}
           artists={artists}
@@ -265,6 +277,7 @@ export default function ArtistPlaylistPanel({
           onPlayYouTube={onPlayMyLineup}
           onDismissBundleNotice={onDismissBundleNotice}
         />
+        </>
       ) : !notice ? (
         <div className="playlist-panel__idle">
           <h4>아티스트 대표곡</h4>

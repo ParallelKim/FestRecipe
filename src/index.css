@@ -1712,6 +1712,19 @@ body {
   padding-top: 14px;
   border-top: 1px solid var(--color-hairline);
 }
+.playlist-panel__back-to-hub {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 12px;
+  padding: 4px 0;
+  border: none;
+  background: none;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-body);
+  cursor: pointer;
+}
 .playlist-panel__idle-hint {
   margin: 10px 0 0;
   font-size: 12px;

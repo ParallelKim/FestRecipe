@@ -360,6 +360,7 @@ export default function FestivalDetail() {
     onToggleMyLineupFromArtist: myLineup.toggle,
     onSelectArtistFromLineup: handleArtistSelectFromLineup,
     onOpenMyLineupFromArtist: openMyLineupFromArtistCard,
+    onBackFromMyLineup: () => setShowMyLineupEditor(false),
     isInMyLineup: myLineup.has,
     bundleNotice,
     onDismissBundleNotice: () => setBundleNotice(null),
