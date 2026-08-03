@@ -13,6 +13,7 @@ import {
   listenScopeLabel,
   type ListenScope,
 } from '../hooks/useMobileListenScope'
+import { mobileDropdownContentClass, MobileMenuOption } from './MobileMenuOption'
 
 interface MobileBottomBarProps {
   scope: ListenScope
@@ -66,13 +67,13 @@ export default function MobileBottomBar({
       role="region"
       aria-label="듣기 및 메뉴"
     >
-      <ButtonGroup className="flex-1 rounded-xl bg-primary text-primary-foreground">
+      <ButtonGroup className="flex-1 overflow-hidden rounded-xl bg-primary text-primary-foreground">
         <Button
           type="button"
           variant="default"
           disabled={loading || !canPlay}
           onClick={onPlay}
-          className="h-auto min-h-11 min-w-0 flex-1 flex-col items-start justify-center gap-0.5 rounded-none border-0 bg-transparent px-3.5 py-2 text-left text-primary-foreground hover:bg-primary/90"
+          className="h-11 min-h-11 min-w-0 flex-1 flex-col items-start justify-center gap-0.5 rounded-none border-0 bg-transparent px-3.5 py-2 text-left text-primary-foreground hover:bg-primary/90"
         >
           <span className="text-sm font-extrabold leading-tight">
             {loading ? '여는 중…' : '듣기'}
@@ -96,7 +97,12 @@ export default function MobileBottomBar({
           >
             <ChevronDownIcon aria-hidden="true" />
           </DropdownMenuTrigger>
-          <DropdownMenuContent side="top" align="end" className="min-w-[220px]">
+          <DropdownMenuContent
+            side="top"
+            align="end"
+            sideOffset={10}
+            className={mobileDropdownContentClass}
+          >
             <DropdownMenuRadioGroup
               value={scope}
               onValueChange={(value) => onScopeChange(value as ListenScope)}
@@ -105,12 +111,12 @@ export default function MobileBottomBar({
                 <DropdownMenuRadioItem
                   key={s}
                   value={s}
-                  className="flex items-center justify-between gap-3 py-2.5"
+                  className="items-start py-2.5 pr-8"
                 >
-                  <span className="font-bold">{listenScopeLabel(s, dayLabel)}</span>
-                  <span className="text-xs text-muted-foreground">
-                    {scopeReadyLabel(s, dayReady, festivalReady, customReady)}
-                  </span>
+                  <MobileMenuOption
+                    label={listenScopeLabel(s, dayLabel)}
+                    hint={scopeReadyLabel(s, dayReady, festivalReady, customReady)}
+                  />
                 </DropdownMenuRadioItem>
               ))}
             </DropdownMenuRadioGroup>
@@ -132,29 +138,25 @@ export default function MobileBottomBar({
         >
           <MoreVerticalIcon aria-hidden="true" />
         </DropdownMenuTrigger>
-        <DropdownMenuContent side="top" align="end" className="min-w-[220px]">
-          <DropdownMenuItem
-            className="flex items-center justify-between gap-3 py-2.5"
-            onClick={onOpenLineup}
-          >
-            <span className="font-bold">내 라인업</span>
-            <span className="text-xs text-muted-foreground">{dayLabel} 담은 팀</span>
+        <DropdownMenuContent
+          side="top"
+          align="end"
+          sideOffset={10}
+          className={mobileDropdownContentClass}
+        >
+          <DropdownMenuItem className="items-start py-2.5" onClick={onOpenLineup}>
+            <MobileMenuOption label="내 라인업" hint={`${dayLabel} 담은 팀`} />
           </DropdownMenuItem>
           <DropdownMenuItem
-            className="flex items-center justify-between gap-3 py-2.5"
+            className="items-start py-2.5"
             disabled={!canClearLineup}
             onClick={onClearLineup}
           >
-            <span className="font-bold">{dayLabel} 비우기</span>
-            <span className="text-xs text-muted-foreground">라인업에서 제거</span>
+            <MobileMenuOption label={`${dayLabel} 비우기`} hint="라인업에서 제거" />
           </DropdownMenuItem>
           {wallpaperAvailable && (
-            <DropdownMenuItem
-              className="flex items-center justify-between gap-3 py-2.5"
-              onClick={onWallpaper}
-            >
-              <span className="font-bold">배경화면 만들기</span>
-              <span className="text-xs text-muted-foreground">타임테이블 PNG</span>
+            <DropdownMenuItem className="items-start py-2.5" onClick={onWallpaper}>
+              <MobileMenuOption label="배경화면 만들기" hint="타임테이블 PNG" />
             </DropdownMenuItem>
           )}
         </DropdownMenuContent>

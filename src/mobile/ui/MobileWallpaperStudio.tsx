@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { XIcon } from 'lucide-react'
 import type { MobileArtistView, MobileDayView, MobileFestivalView } from '../view/types'
 import { festivalShortLabel, lineupIdsOnDay } from '../lib/lineup'
 import MobileTimetable from './MobileTimetable'
@@ -156,11 +157,22 @@ export default function MobileWallpaperStudio({
       >
         <DialogTitle className="sr-only">배경화면 편집</DialogTitle>
         <header className="wallpaper-studio__bar">
-          <DialogClose render={<button type="button" className="wallpaper-studio__back" />}>
+          <DialogClose
+            render={
+              <Button type="button" variant="outline" size="sm" className="shrink-0" />
+            }
+          >
+            <XIcon data-icon="inline-start" />
             닫기
           </DialogClose>
           <span className="wallpaper-studio__title">{day.label} 배경화면</span>
-          <Button className="wallpaper-studio__save" disabled={busy} onClick={handleSave}>
+          <Button
+            type="button"
+            size="sm"
+            className="wallpaper-studio__save shrink-0"
+            disabled={busy}
+            onClick={handleSave}
+          >
             {busy ? '저장 중…' : 'PNG 저장'}
           </Button>
         </header>
@@ -227,12 +239,12 @@ export default function MobileWallpaperStudio({
         </div>
 
         <div className="wallpaper-studio__controls">
-          <fieldset className="wallpaper-studio__field">
-            <legend className="wallpaper-studio__legend">해상도</legend>
-            <div className="wallpaper-studio__chips">
+          <div className="wallpaper-studio__control">
+            <span className="wallpaper-studio__label">해상도</span>
+            <div className="wallpaper-studio__profiles">
               <button
                 type="button"
-                className={`wallpaper-studio__chip${profileId === 'device' ? ' is-active' : ''}`}
+                className={`wallpaper-studio__profile${profileId === 'device' ? ' is-active' : ''}`}
                 onClick={() => setProfileId('device')}
               >
                 이 기기
@@ -241,42 +253,55 @@ export default function MobileWallpaperStudio({
                 <button
                   key={p.id}
                   type="button"
-                  className={`wallpaper-studio__chip${profileId === p.id ? ' is-active' : ''}`}
+                  className={`wallpaper-studio__profile${profileId === p.id ? ' is-active' : ''}`}
                   onClick={() => setProfileId(p.id)}
                 >
-                  {p.label}
+                  {p.shortLabel}
                 </button>
               ))}
             </div>
-          </fieldset>
+            <p className="wallpaper-studio__profile-meta">{profile.label}</p>
+          </div>
 
-          <fieldset className="wallpaper-studio__field">
-            <legend className="wallpaper-studio__legend">배경색</legend>
-            <div className="wallpaper-studio__chips">
+          <div className="wallpaper-studio__control">
+            <span className="wallpaper-studio__label">배경색</span>
+            <div className="wallpaper-studio__tones">
               {BG_PRESETS.map((p) => (
                 <button
                   key={p.id}
                   type="button"
-                  className={`wallpaper-studio__chip${bgColor === p.value ? ' is-active' : ''}`}
+                  className={`wallpaper-studio__tone${bgColor === p.value ? ' is-active' : ''}`}
                   onClick={() => setBgColor(p.value)}
                 >
+                  <span
+                    className="wallpaper-studio__tone-swatch"
+                    style={{ backgroundColor: p.value }}
+                  />
                   {p.label}
                 </button>
               ))}
             </div>
-          </fieldset>
+          </div>
 
-          <fieldset className="wallpaper-studio__field">
-            <legend className="wallpaper-studio__legend">캡션</legend>
-            <label className="wallpaper-studio__toggle">
-              <input type="checkbox" checked={showFestName} onChange={(e) => setShowFestName(e.target.checked)} />
-              페스티벌명
-            </label>
-            <label className="wallpaper-studio__toggle">
-              <input type="checkbox" checked={showDayLabel} onChange={(e) => setShowDayLabel(e.target.checked)} />
-              날짜
-            </label>
-          </fieldset>
+          <div className="wallpaper-studio__control">
+            <span className="wallpaper-studio__label">캡션</span>
+            <div className="wallpaper-studio__toggles">
+              <button
+                type="button"
+                className={`wallpaper-studio__toggle${showFestName ? ' is-on' : ''}`}
+                onClick={() => setShowFestName((v) => !v)}
+              >
+                페스티벌명
+              </button>
+              <button
+                type="button"
+                className={`wallpaper-studio__toggle${showDayLabel ? ' is-on' : ''}`}
+                onClick={() => setShowDayLabel((v) => !v)}
+              >
+                날짜
+              </button>
+            </div>
+          </div>
         </div>
       </DialogContent>
     </Dialog>

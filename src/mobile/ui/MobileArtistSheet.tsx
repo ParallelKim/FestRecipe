@@ -1,7 +1,8 @@
 import { Button } from '@/components/ui/button'
+import { ButtonGroup } from '@/components/ui/button-group'
 import { Sheet, SheetContent, SheetTitle } from '@/components/ui/sheet'
-import { Toggle } from '@/components/ui/toggle'
 import type { MobileArtistView, MobilePlaylistView } from '../view/types'
+import { MobileLineupButton } from './MobileLineupButton'
 
 interface MobileArtistSheetProps {
   open: boolean
@@ -55,33 +56,29 @@ export default function MobileArtistSheet({
         )}
 
         {!loading && tracks.length > 0 && (
-          <div className="border-t border-border pt-3.5">
+          <div>
             <p className="mb-3 text-xs leading-relaxed text-muted-foreground">
               {tracks.length}곡 · YouTube
             </p>
-            <div className="mb-4 flex items-stretch gap-2">
+            <ButtonGroup className="mb-4 w-full">
               {listenUrl ? (
                 <Button
                   render={<a href={listenUrl} target="_blank" rel="noopener noreferrer" />}
                   nativeButton={false}
-                  className="min-w-0 flex-1"
+                  className="h-11 min-w-0 flex-1"
                 >
                   YouTube로 듣기
                 </Button>
               ) : (
-                <Button disabled className="min-w-0 flex-1">YouTube로 듣기</Button>
+                <Button disabled className="h-11 min-w-0 flex-1">YouTube로 듣기</Button>
               )}
-              <Toggle
-                pressed={inLineup}
-                onPressedChange={onToggleLineup}
-                variant="outline"
-                className="shrink-0 px-3.5 text-[13px] font-bold data-[state=on]:border-primary data-[state=on]:bg-primary/10"
-                aria-label={inLineup ? '내 라인업에서 빼기' : '내 라인업에 담기'}
-              >
-                {inLineup ? '★ 담김' : '☆ 담기'}
-              </Toggle>
-            </div>
-            <ol className="m-0 mt-4 list-none p-0">
+              <MobileLineupButton
+                inLineup={inLineup}
+                onToggle={onToggleLineup}
+                className="h-11"
+              />
+            </ButtonGroup>
+            <ol className="m-0 list-none border-t border-border p-0 pt-1">
               {tracks.map((track, i) => (
                 <li
                   key={track.videoId}
@@ -98,17 +95,7 @@ export default function MobileArtistSheet({
         )}
 
         {!loading && tracks.length === 0 && (
-          <div className="mt-3">
-            <Toggle
-              pressed={inLineup}
-              onPressedChange={onToggleLineup}
-              variant="outline"
-              className="px-3.5 text-[13px] font-bold data-[state=on]:border-primary data-[state=on]:bg-primary/10"
-              aria-label={inLineup ? '내 라인업에서 빼기' : '내 라인업에 담기'}
-            >
-              {inLineup ? '★ 담김' : '☆ 담기'}
-            </Toggle>
-          </div>
+          <MobileLineupButton inLineup={inLineup} onToggle={onToggleLineup} />
         )}
       </SheetContent>
     </Sheet>

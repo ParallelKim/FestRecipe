@@ -1,8 +1,8 @@
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { Toggle } from '@/components/ui/toggle'
 import { cn } from '@/lib/utils'
 import type { MobileArtistView } from '../view/types'
+import { MobileLineupButton } from './MobileLineupButton'
 
 interface MobileArtistListProps {
   artistIds: string[]
@@ -24,7 +24,7 @@ export default function MobileArtistList({
   onToggleLineup,
 }: MobileArtistListProps) {
   return (
-    <ul className="flex flex-col gap-2 p-0 list-none m-0">
+    <ul className="m-0 flex flex-col gap-2 p-0 list-none">
       {artistIds.map((id) => {
         const artist = artists.get(id)
         if (!artist) return null
@@ -36,27 +36,25 @@ export default function MobileArtistList({
               type="button"
               variant="outline"
               className={cn(
-                'h-auto min-h-0 flex-1 justify-between gap-2 px-3.5 py-3 text-left',
+                'h-11 min-h-11 flex-1 justify-between gap-2 px-3.5 text-left',
                 selectedArtistId === id &&
                   'border-primary outline outline-2 outline-primary outline-offset-[-2px]',
               )}
               onClick={() => onArtistClick(id)}
             >
               <span className="text-sm font-bold">{artist.displayName}</span>
-              <Badge variant="secondary" className="shrink-0 text-[11px]">
+              <Badge
+                variant={ready ? 'secondary' : 'outline'}
+                className="shrink-0 text-[11px]"
+              >
                 {ready ? '대표곡 준비' : '준비 중'}
               </Badge>
             </Button>
-            <Toggle
-              pressed={inLineup}
-              onPressedChange={() => onToggleLineup(id)}
-              variant="outline"
-              size="lg"
-              className="shrink-0 min-w-11 text-lg data-[state=on]:border-primary data-[state=on]:bg-primary/10"
-              aria-label={inLineup ? '내 라인업에서 빼기' : '내 라인업에 담기'}
-            >
-              {inLineup ? '★' : '☆'}
-            </Toggle>
+            <MobileLineupButton
+              compact
+              inLineup={inLineup}
+              onToggle={() => onToggleLineup(id)}
+            />
           </li>
         )
       })}

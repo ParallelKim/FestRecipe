@@ -1,7 +1,7 @@
 # FestRecipe UI·UX 레퍼런스 조사 (2026-08)
 
 > 페스티벌 시간표·라인업 제품, 일정/타임라인 앱, 음악/플레이리스트 앱을 조사한 결과입니다.  
-> **구조·내비·벤치마킹**은 이 문서를, **카피·용어**는 [`TONE_AND_MANNER.md`](./TONE_AND_MANNER.md), **섹션·과업 배치**는 [`UX_PRINCIPLES.md`](./UX_PRINCIPLES.md)를 따릅니다.
+> **구조·내비·벤치마킹**은 이 문서를, **카피·용어**는 [`TONE_AND_MANNER.md`](./TONE_AND_MANNER.md)를 따릅니다.
 
 ---
 
@@ -220,7 +220,7 @@ FestRecipe = **연속 재생은 YouTube만** → **「열기」 CTA + 곡 목록
 - YouTube CTA = 시트 하단 또는 **라인업 도크**
 - 타임테이블 **아래까지 스크롤**해야 듣기에 닿는 구조 = 엄지 이론 위반
 
-과업 단위는 [`UX_PRINCIPLES.md`](./UX_PRINCIPLES.md) §2와 동일.
+과업 단위: 아티스트 맥락(담기) · 대표곡(듣기·목록) · 내 라인업 · 타임테이블을 한 카드에 섞지 않기.
 
 ### 5.5 Hick's Law (선택지)
 
@@ -321,7 +321,7 @@ CoachellaPlus, BlueCrazii.
 | 묶음 듣기 3종 + 라인업 YouTube 나란히 | 타임라인 vs preview 분리 |
 | 배경화면 + 듣기 한 탭 | export는 플랜 완료 후 액션 |
 | 날짜 라벨 반복 | 전역 날짜 한 곳 |
-| 같은 액션 두 UI | [`UX_PRINCIPLES.md`](./UX_PRINCIPLES.md) §3.4 |
+| 같은 액션 두 UI | 한 액션은 한 진입점만 |
 
 ---
 
@@ -362,7 +362,6 @@ UI·`/m` 신규 설계 시 PR 체크리스트로 사용한다.
 
 | 문서 | 역할 |
 |------|------|
-| [`UX_PRINCIPLES.md`](./UX_PRINCIPLES.md) | 과업 계층·섹션 규칙 |
 | [`TONE_AND_MANNER.md`](./TONE_AND_MANNER.md) | 카피·용어 (예습·내 라인업·대표곡) |
 | [`HANDOFF_MY_LINEUP_WALLPAPER.md`](./HANDOFF_MY_LINEUP_WALLPAPER.md) | 배경화면·라인업 제품 결정 |
 | [`SETLIST_RECIPE.md`](./SETLIST_RECIPE.md) | MVP 범위 vs 고도화 |
