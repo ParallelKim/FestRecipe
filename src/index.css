@@ -610,6 +610,163 @@ body {
   font-size: 13px;
   margin-bottom: 12px;
 }
+
+/* `/m` 표준 상단 히어로 */
+.mobile-festival-hero {
+  position: relative;
+  min-height: min(38vh, 280px);
+  max-height: 320px;
+  color: #fff;
+}
+.mobile-festival-hero--flat {
+  min-height: auto;
+  max-height: none;
+  color: inherit;
+}
+.mobile-festival-hero__bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mobile-festival-hero__shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(12, 14, 18, 0.62) 0%,
+    rgba(12, 14, 18, 0.28) 42%,
+    rgba(12, 14, 18, 0.82) 100%
+  );
+}
+.mobile-festival-hero__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: min(38vh, 280px);
+  padding-top: 10px;
+  padding-bottom: 16px;
+}
+.mobile-festival-hero--flat .mobile-festival-hero__content {
+  min-height: auto;
+  padding-top: 12px;
+  padding-bottom: 18px;
+}
+.mobile-festival-hero__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.mobile-festival-hero__nav-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.92);
+  text-decoration: none;
+}
+.mobile-festival-hero__nav-link--underline {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.mobile-festival-hero--flat .mobile-festival-hero__nav-link {
+  color: inherit;
+  opacity: 0.9;
+}
+.mobile-festival-hero__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0;
+  min-width: 0;
+}
+.mobile-festival-hero__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.mobile-festival-hero__mark {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.28);
+}
+.mobile-festival-hero__title {
+  margin: 0;
+  font-size: clamp(18px, 5.2vw, 22px);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  word-break: keep-all;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
+}
+.mobile-festival-hero--flat .mobile-festival-hero__title {
+  text-shadow: none;
+}
+.mobile-festival-hero__tagline {
+  margin: 0 0 6px;
+  max-width: 32ch;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  word-break: keep-all;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+.mobile-festival-hero--flat .mobile-festival-hero__tagline {
+  text-shadow: none;
+}
+.mobile-festival-hero__desc {
+  margin: 0 0 10px;
+  max-width: 40ch;
+  font-size: 13px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.82);
+}
+.mobile-festival-hero--flat .mobile-festival-hero__desc {
+  opacity: 0.9;
+}
+.mobile-festival-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.82);
+}
+.mobile-festival-hero--flat .mobile-festival-hero__meta {
+  font-size: 13px;
+}
+.mobile-festival-hero__meta-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.mobile-festival-hero__links {
+  margin-top: 12px;
+}
+.mobile-festival-hero__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+.mobile-festival-hero--flat .mobile-festival-hero__cta {
+  border-color: currentColor;
+}
 .festival-hero__back {
   text-decoration: none;
   font-size: 14px;
