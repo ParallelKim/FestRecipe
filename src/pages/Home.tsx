@@ -263,6 +263,14 @@ export default function Home() {
                   >
                     {ctaLabel(festival)}
                   </Button>
+                  <Button
+                    variant="ghost"
+                    render={<Link to={`/festival/${festival.id}/m`} />}
+                    nativeButton={false}
+                    className="home-fest-row__link home-fest-row__link--mobile"
+                  >
+                    모바일 화면
+                  </Button>
                 </div>
               </motion.article>
             )})}

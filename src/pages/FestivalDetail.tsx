@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { FestivalService } from '../services/festivals'
@@ -9,29 +9,16 @@ import FestivalHelmet from '../components/seo/FestivalHelmet'
 import LoadingState from '../components/LoadingState'
 import DayTabs from '../components/DayTabs'
 import ArtistPlaylistPanel from '../components/ArtistPlaylistPanel'
-import FestivalMobileTabBar from '../components/FestivalMobileTabBar'
-import FestivalListenMobilePanel from '../components/FestivalListenMobilePanel'
-import PlaylistMobileHint from '../components/PlaylistMobileHint'
-import ArtistMobileSheet from '../components/ArtistMobileSheet'
-import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
+import FestivalMobileExperience from '../components/festival-mobile/FestivalMobileExperience'
 import { headlinerArtistIds } from '../lib/headliners'
 import { officialArtistName } from '../lib/artistOfficialName'
 import { buildFestivalMapUrl } from '../lib/festivalLinks'
-import {
-  artistInputsFromPlaylists,
-  buildBundledAnonymousPlaylist,
-  type BundledAnonymousPlaylist,
-} from '../lib/bundlePlaylist'
-import {
-  orderArtistIdsForDayBundle,
-  orderArtistIdsForFestivalBundle,
-} from '../lib/playlistBundleOrder'
 import { blurAfterTap } from '../lib/blurAfterTap'
 import { festivalLineupHighlightFallback } from '../lib/stageTheme'
 import { filterMyLineupForDay, artistIdsOnDay } from '../lib/lineupDay'
 import { useMyLineup } from '../hooks/useMyLineup'
+import { useFestivalPlaylistActions } from '../hooks/useFestivalPlaylistActions'
 import { Button } from '@/components/ui/button'
-import { playlistTitleForCustom } from '../lib/youtubePlaylist'
 
 export default function FestivalDetail() {
   const { id } = useParams<{ id: string }>()
@@ -45,11 +32,7 @@ export default function FestivalDetail() {
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null)
   const [artistPlaylist, setArtistPlaylist] = useState<ArtistPlaylist | null>(null)
   const [playlistLoading, setPlaylistLoading] = useState(false)
-  const [bundleLoading, setBundleLoading] = useState<'day' | 'festival' | 'custom' | null>(null)
-  const [mobileFestivalTab, setMobileFestivalTab] = useState<'schedule' | 'listen'>('schedule')
-  const [artistSheetOpen, setArtistSheetOpen] = useState(false)
   const [showMyLineupEditor, setShowMyLineupEditor] = useState(false)
-  const [bundleNotice, setBundleNotice] = useState<BundledAnonymousPlaylist | null>(null)
 
   const myLineup = useMyLineup(id)
 
@@ -96,7 +79,6 @@ export default function FestivalDetail() {
     }
   }, [selectedArtist])
 
-  // 활성 일자 플레이리스트 프리페치 — 유휴 시간에 캐시를 채워 슬롯 선택 지연 제거
   useEffect(() => {
     if (!festival) return
     const day = festival.lineup[activeDayIndex]
@@ -127,6 +109,28 @@ export default function FestivalDetail() {
     )
   }
 
+  const activeDay = festival.lineup[activeDayIndex]
+  const myLineupOnDayCount = filterMyLineupForDay(myLineup.artistIds, activeDay).length
+
+  const {
+    bundleLoading,
+    bundleNotice,
+    openBundledPlaylist,
+    openMyLineupPlaylist,
+    dismissBundleNotice,
+  } = useFestivalPlaylistActions({
+    festival,
+    activeDay,
+    playlistReady,
+    myLineupArtistIds: myLineup.artistIds,
+  })
+
+  const clearMyLineupOnDay = useCallback(() => {
+    const onDay = artistIdsOnDay(activeDay)
+    if (onDay.size === 0) return
+    myLineup.setArtistIds(myLineup.artistIds.filter((id) => !onDay.has(id)))
+  }, [activeDay, myLineup])
+
   let sigColor = 'var(--color-sig-cream)'
   let sigTextColor = 'var(--color-ink)'
   let sigMutedColor = 'var(--color-muted)'
@@ -145,8 +149,6 @@ export default function FestivalDetail() {
     sigMutedColor = 'rgba(255,255,255,0.72)'
   }
 
-  const activeDay = festival.lineup[activeDayIndex]
-  const myLineupOnDayCount = filterMyLineupForDay(myLineup.artistIds, activeDay).length
   const artistMap = new Map(artists.map((a) => [a.id, a]))
   const mapUrl = buildFestivalMapUrl(festival)
 
@@ -158,98 +160,20 @@ export default function FestivalDetail() {
     .map((artistId) => artistMap.get(artistId))
     .filter((a): a is Artist => !!a)
 
-  const openArtistInSheet = (artistId: string) => {
+  const handleDesktopArtistSelect = (artistId: string) => {
     const artist = artistMap.get(artistId)
     if (!artist) return
     setSelectedArtist(artist)
-    setArtistSheetOpen(true)
-    setBundleNotice(null)
     blurAfterTap(document.activeElement)
   }
 
-  const handleArtistSelect = (artistId: string) => {
-    openArtistInSheet(artistId)
-  }
-
-  const handleArtistSelectFromLineup = (artistId: string) => {
-    openArtistInSheet(artistId)
-  }
-
-  const clearSelectedArtist = () => {
-    setSelectedArtist(null)
-    setBundleNotice(null)
-  }
-
-  const closeArtistSheet = () => {
-    clearSelectedArtist()
-    setArtistSheetOpen(false)
-  }
-
-  const openMyLineupEditor = () => {
-    setShowMyLineupEditor(true)
-  }
-
-  const changeMobileFestivalTab = (tab: 'schedule' | 'listen') => {
-    setMobileFestivalTab(tab)
-    if (tab === 'listen') {
-      setArtistSheetOpen(false)
-      setSelectedArtist(null)
-    }
-  }
-
-  const openListenTabFromArtist = () => {
-    closeArtistSheet()
-    requestAnimationFrame(() => setMobileFestivalTab('listen'))
-  }
+  const clearSelectedArtist = () => setSelectedArtist(null)
 
   const changeDay = (idx: number) => {
     setActiveDayIndex(idx)
     setSelectedArtist(null)
     setShowMyLineupEditor(false)
-    setBundleNotice(null)
-    setArtistSheetOpen(false)
-  }
-
-  const openBundledPlaylist = async (
-    kind: 'day' | 'festival',
-    artistIds: string[],
-    title: string,
-  ) => {
-    const ids = artistIds.filter((aid) => playlistReady.has(aid))
-    if (ids.length === 0) return
-
-    const orderedIds =
-      kind === 'day'
-        ? orderArtistIdsForDayBundle(ids, activeDay?.slots)
-        : orderArtistIdsForFestivalBundle(ids, festival?.lineup)
-
-    setBundleLoading(kind)
-    setShowMyLineupEditor(false)
-    try {
-      const playlists = await Promise.all(
-        orderedIds.map((aid) => FestivalService.getPlaylistForArtist(aid)),
-      )
-      // TODO(day-playlist): 장기적으로는 대표 YouTube 계정 + Data API 고정 PL로 교체.
-      // 단기: 티어 곡 수(5/4/3 → 4/3/2 → 3/2/1) 다운그레이드로 50곡 캡에 맞춤.
-      const bundle = buildBundledAnonymousPlaylist(artistInputsFromPlaylists(playlists))
-      if (!bundle) return
-
-      const url = buildWatchVideosUrl(bundle.videoIds, title)
-      if (!url) return
-
-      if (bundle.downgraded || bundle.truncated || bundle.thinCoverage) {
-        setBundleNotice(bundle)
-        setSelectedArtist(null)
-        setArtistSheetOpen(false)
-        setMobileFestivalTab('listen')
-      } else {
-        setBundleNotice(null)
-      }
-
-      window.open(url, '_blank', 'noopener,noreferrer')
-    } finally {
-      setBundleLoading(null)
-    }
+    dismissBundleNotice()
   }
 
   const artistCount = festival.lineupStage === 'stage1_all'
@@ -259,66 +183,6 @@ export default function FestivalDetail() {
         if (day.slots?.length) return acc + day.slots.length
         return acc
       }, 0)
-
-  const openMyLineupPlaylist = async () => {
-    const onDayIds = filterMyLineupForDay(myLineup.artistIds, activeDay)
-    const ids = onDayIds.filter((aid) => playlistReady.has(aid))
-    if (ids.length === 0) return
-
-    const orderedIds =
-      festival.lineupStage === 'stage3_timetable' && activeDay?.slots?.length
-        ? orderArtistIdsForDayBundle(ids, activeDay.slots)
-        : orderArtistIdsForFestivalBundle(ids, festival.lineup)
-    setBundleLoading('custom')
-    try {
-      const playlists = await Promise.all(
-        orderedIds.map((aid) => FestivalService.getPlaylistForArtist(aid)),
-      )
-      const bundle = buildBundledAnonymousPlaylist(artistInputsFromPlaylists(playlists))
-      if (!bundle) return
-
-      const title = playlistTitleForCustom(festival.name)
-      const url = buildWatchVideosUrl(bundle.videoIds, title)
-      if (!url) return
-
-      if (bundle.downgraded || bundle.truncated || bundle.thinCoverage) {
-        setBundleNotice(bundle)
-        setSelectedArtist(null)
-        setArtistSheetOpen(false)
-        setMobileFestivalTab('listen')
-      } else {
-        setBundleNotice(null)
-      }
-
-      window.open(url, '_blank', 'noopener,noreferrer')
-    } finally {
-      setBundleLoading(null)
-    }
-  }
-
-  const clearMyLineupOnDay = () => {
-    const onDay = artistIdsOnDay(activeDay)
-    if (onDay.size === 0) return
-    myLineup.setArtistIds(myLineup.artistIds.filter((id) => !onDay.has(id)))
-  }
-
-  const listenPanelProps = {
-    festival,
-    activeDayIndex,
-    onDayChange: changeDay,
-    activeDay,
-    artists,
-    myLineupIds: myLineup.artistIds,
-    playlistReady,
-    bundleLoading,
-    bundleNotice,
-    onOpenBundled: openBundledPlaylist,
-    onToggleArtist: myLineup.toggle,
-    onSelectArtist: handleArtistSelectFromLineup,
-    onClear: clearMyLineupOnDay,
-    onPlayYouTube: openMyLineupPlaylist,
-    onDismissBundleNotice: () => setBundleNotice(null),
-  }
 
   const panelProps = {
     festival,
@@ -331,23 +195,19 @@ export default function FestivalDetail() {
     bundleLoading,
     headlinerIds: headlinerArtistIds(activeDay?.slots),
     onOpenBundled: openBundledPlaylist,
-    onOpenMyPlaylist: openMyLineupEditor,
+    onOpenMyPlaylist: () => setShowMyLineupEditor(true),
     myLineupCount: myLineupOnDayCount,
     showMyLineupEditor,
     myLineupIds: myLineup.artistIds,
     onToggleMyLineup: myLineup.toggle,
-    onClearMyLineup: () => {
-      const onDay = artistIdsOnDay(activeDay)
-      if (onDay.size === 0) return
-      myLineup.setArtistIds(myLineup.artistIds.filter((id) => !onDay.has(id)))
-    },
+    onClearMyLineup: clearMyLineupOnDay,
     onPlayMyLineup: openMyLineupPlaylist,
     onToggleMyLineupFromArtist: myLineup.toggle,
-    onSelectArtistFromLineup: handleArtistSelectFromLineup,
+    onSelectArtistFromLineup: handleDesktopArtistSelect,
     onBackFromMyLineup: () => setShowMyLineupEditor(false),
     isInMyLineup: myLineup.has,
     bundleNotice,
-    onDismissBundleNotice: () => setBundleNotice(null),
+    onDismissBundleNotice: dismissBundleNotice,
   }
 
   const festivalLineupBg = festivalLineupHighlightFallback(
@@ -401,11 +261,7 @@ export default function FestivalDetail() {
             transition={{ duration: 0.4, delay: 0.04 }}
           >
             {!festival.posterUrl && festival.logoUrl && (
-              <img
-                src={festival.logoUrl}
-                alt=""
-                className="festival-hero__mark"
-              />
+              <img src={festival.logoUrl} alt="" className="festival-hero__mark" />
             )}
             <h1 className="festival-hero__name">{festival.name}</h1>
           </motion.div>
@@ -449,16 +305,18 @@ export default function FestivalDetail() {
         </div>
       </section>
 
+      <p className="festival-mobile-beta-link container">
+        <Link to={`/festival/${id}/m`}>모바일 전용 화면 체험 →</Link>
+      </p>
+
       <section className="festival-body">
         <div className="container festival-layout">
-          <div className={`festival-main festival-main--tab-${mobileFestivalTab}`}>
+          <div className="festival-main festival-desktop-only">
             {festival.lineupStage === 'stage1_all' && (
-              <>
-                <div className="festival-mobile-schedule-panel lineup-block">
-                  <PlaylistMobileHint festival={festival} />
-                  <h3>공개된 아티스트 라인업 ({stage1Artists.length}팀)</h3>
-                  <p>아티스트를 눌러 대표곡을 들어 보세요. ☆로 내 라인업에 담을 수 있어요.</p>
-                  <div className="artist-chip-row">
+              <div className="lineup-block">
+                <h3>공개된 아티스트 라인업 ({stage1Artists.length}팀)</h3>
+                <p>아티스트를 눌러 대표곡을 들어 보세요. ☆로 내 라인업에 담을 수 있어요.</p>
+                <div className="artist-chip-row">
                   {stage1Artists.map((artist) => {
                     const isSelected = selectedArtist?.id === artist.id
                     const ready = playlistReady.has(artist.id)
@@ -470,7 +328,7 @@ export default function FestivalDetail() {
                       >
                         <button
                           type="button"
-                          onClick={() => handleArtistSelect(artist.id)}
+                          onClick={() => handleDesktopArtistSelect(artist.id)}
                           className={`artist-chip${isSelected ? ' is-selected' : ''}`}
                           style={{ opacity: ready ? 1 : 0.7 }}
                           title={ready ? '대표곡 준비 완료' : '대표곡 준비 중'}
@@ -486,20 +344,16 @@ export default function FestivalDetail() {
                     )
                   })}
                 </div>
-                </div>
-                <FestivalListenMobilePanel {...listenPanelProps} />
-              </>
+              </div>
             )}
 
             {festival.lineupStage === 'stage2_daily' && (
-              <>
-                <div className="festival-mobile-schedule-panel">
+              <div>
                 <DayTabs
                   days={festival.lineup}
                   activeIndex={activeDayIndex}
                   onChange={changeDay}
                 />
-                <PlaylistMobileHint festival={festival} />
                 <h3 className="lineup-block__subhead">일별 라인업 아티스트</h3>
                 <div className="artist-card-grid">
                   {activeDayArtists.map((artist) => {
@@ -513,7 +367,7 @@ export default function FestivalDetail() {
                       >
                         <button
                           type="button"
-                          onClick={() => handleArtistSelect(artist.id)}
+                          onClick={() => handleDesktopArtistSelect(artist.id)}
                           className={`artist-card${isSelected ? ' is-selected' : ''}`}
                         >
                           <span className="artist-card__name">{officialArtistName(artist)}</span>
@@ -533,20 +387,16 @@ export default function FestivalDetail() {
                     )
                   })}
                 </div>
-                </div>
-                <FestivalListenMobilePanel {...listenPanelProps} />
-              </>
+              </div>
             )}
 
             {festival.lineupStage === 'stage3_timetable' && (
-              <>
-                <div className="festival-mobile-schedule-panel">
+              <div>
                 <DayTabs
                   days={festival.lineup}
                   activeIndex={activeDayIndex}
                   onChange={changeDay}
                 />
-                <PlaylistMobileHint festival={festival} />
                 <div className="timetable-scroll">
                   <TimetableGrid
                     stages={activeDay?.stages || []}
@@ -554,15 +404,13 @@ export default function FestivalDetail() {
                     artists={artists}
                     stageStyles={festival.stageStyles}
                     selectedArtistId={selectedArtist?.id}
-                    onSlotClick={handleArtistSelect}
+                    onSlotClick={handleDesktopArtistSelect}
                     myLineupArtistIds={filterMyLineupForDay(myLineup.artistIds, activeDay)}
                     isInMyLineup={myLineup.has}
                     onToggleMyLineup={myLineup.toggle}
                   />
                 </div>
-                </div>
-                <FestivalListenMobilePanel {...listenPanelProps} />
-              </>
+              </div>
             )}
           </div>
 
@@ -574,33 +422,25 @@ export default function FestivalDetail() {
             />
           </aside>
         </div>
+
+        <div className="container">
+          <FestivalMobileExperience
+            festival={festival}
+            artists={artists}
+            activeDayIndex={activeDayIndex}
+            onDayChange={changeDay}
+            playlistReady={playlistReady}
+            bundleLoading={bundleLoading}
+            bundleNotice={bundleNotice}
+            onOpenBundled={openBundledPlaylist}
+            onPlayMyLineup={openMyLineupPlaylist}
+            onDismissBundleNotice={dismissBundleNotice}
+            myLineupIds={myLineup.artistIds}
+            onToggleLineup={myLineup.toggle}
+            onClearLineupOnDay={clearMyLineupOnDay}
+          />
+        </div>
       </section>
-
-      <FestivalMobileTabBar
-        active={mobileFestivalTab}
-        onChange={changeMobileFestivalTab}
-        hidden={artistSheetOpen}
-        lineupCount={myLineupOnDayCount}
-        dayLabel={activeDay?.dayLabel}
-      />
-
-      <ArtistMobileSheet
-        open={artistSheetOpen && !!selectedArtist}
-        onClose={closeArtistSheet}
-        onOpenMyLineup={openListenTabFromArtist}
-        myLineupCount={myLineupOnDayCount}
-        festival={festival}
-        activeDay={activeDay}
-        artists={artists}
-        selectedArtist={selectedArtist}
-        artistPlaylist={artistPlaylist || null}
-        playlistLoading={playlistLoading}
-        playlistReady={playlistReady}
-        bundleLoading={bundleLoading}
-        headlinerIds={headlinerArtistIds(activeDay?.slots)}
-        onToggleMyLineupFromArtist={myLineup.toggle}
-        isInMyLineup={myLineup.has}
-      />
     </div>
   )
 }
