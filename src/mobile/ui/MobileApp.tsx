@@ -6,14 +6,16 @@ import type {
 } from '../view/types'
 import { useMobileLineup } from '../hooks/useMobileLineup'
 import { useMobileListen } from '../hooks/useMobileListen'
+import { useMobileListenScope } from '../hooks/useMobileListenScope'
 import { lineupIdsOnDay, removeDayFromLineup } from '../lib/lineup'
+import { orderArtistIdsForDay } from '../lib/orderArtists'
 import MobileDayBar from './MobileDayBar'
 import MobileTimetable from './MobileTimetable'
 import MobileArtistList from './MobileArtistList'
-import MobileLineupDock from './MobileLineupDock'
+import MobileBottomBar from './MobileBottomBar'
 import MobileLineupSheet from './MobileLineupSheet'
 import MobileArtistSheet from './MobileArtistSheet'
-import MobileMoreSheet, { MobileBundleNoticeBar } from './MobileMoreSheet'
+import MobileBundleNoticeBar from './MobileBundleNoticeBar'
 import MobileWallpaperStudio from './MobileWallpaperStudio'
 
 interface MobileAppProps {
@@ -30,12 +32,12 @@ export default function MobileApp({
   const [activeDayId, setActiveDayId] = useState(festival.days[0]?.id ?? '')
   const [selectedArtistId, setSelectedArtistId] = useState<string | null>(null)
   const [lineupSheetOpen, setLineupSheetOpen] = useState(false)
-  const [moreSheetOpen, setMoreSheetOpen] = useState(false)
   const [wallpaperOpen, setWallpaperOpen] = useState(false)
   const [artistPlaylist, setArtistPlaylist] = useState<MobilePlaylistView | null>(null)
   const [artistPlaylistLoading, setArtistPlaylistLoading] = useState(false)
 
   const lineup = useMobileLineup(festival.id)
+  const listenScope = useMobileListenScope()
   const activeDay = festival.days.find((d) => d.id === activeDayId) ?? festival.days[0]
 
   const lineupOnDay = useMemo(
@@ -43,7 +45,26 @@ export default function MobileApp({
     [lineup.artistIds, activeDay],
   )
 
+  const lineupOnDayOrdered = useMemo(() => {
+    if (
+      festival.layoutKind === 'timetable' &&
+      activeDay?.slots.length
+    ) {
+      return orderArtistIdsForDay(activeDay.slots, lineupOnDay)
+    }
+    return lineupOnDay
+  }, [festival.layoutKind, activeDay, lineupOnDay])
+
+  const lineupReadyOnDay = useMemo(
+    () => lineupOnDay.filter((id) => playlistReady.has(id)).length,
+    [lineupOnDay, playlistReady],
+  )
+
   const listen = useMobileListen(festival, activeDay, lineup.artistIds, playlistReady)
+
+  useEffect(() => {
+    listenScope.syncLineupEmpty(lineup.artistIds.length)
+  }, [lineup.artistIds.length, listenScope.syncLineupEmpty])
 
   useEffect(() => {
     const ids = activeDay?.artistIds ?? []
@@ -90,8 +111,20 @@ export default function MobileApp({
     ? activeDay.artistIds.some((id) => playlistReady.has(id))
     : false
   const festivalReady = festival.allArtistIds.some((id) => playlistReady.has(id))
+  const customReady = lineupReadyOnDay > 0
   const wallpaperAvailable =
     festival.layoutKind === 'timetable' && (activeDay?.slots.length ?? 0) > 0
+
+  const scope = listenScope.scope
+  const canPlay =
+    scope === 'day'
+      ? dayReady
+      : scope === 'festival'
+        ? festivalReady
+        : customReady
+
+  const scopeLoading =
+    listen.loading === scope
 
   const openArtist = useCallback((artistId: string) => {
     setSelectedArtistId(artistId)
@@ -108,35 +141,42 @@ export default function MobileApp({
     [],
   )
 
+  const handleToggleLineup = useCallback(
+    (artistId: string) => {
+      const adding = !lineup.artistIds.includes(artistId)
+      const wasEmpty = lineup.artistIds.length === 0
+      lineup.toggle(artistId)
+      if (adding && wasEmpty) {
+        listenScope.applyContextualCustom()
+      }
+    },
+    [lineup, listenScope],
+  )
+
   const clearLineupOnDay = useCallback(() => {
     lineup.setIds(removeDayFromLineup(lineup.artistIds, activeDay))
-  }, [lineup, activeDay])
+    listenScope.resetAfterStrongAction()
+  }, [lineup, activeDay, listenScope])
+
+  const playListen = useCallback(() => {
+    if (scope === 'day') listen.openDayBundle()
+    else if (scope === 'festival') listen.openFestivalBundle()
+    else listen.openLineupBundle()
+  }, [scope, listen])
 
   const listArtistIds =
     festival.layoutKind === 'all'
       ? festival.allArtistIds
       : (activeDay?.artistIds ?? [])
 
-  const hasDock = lineupOnDay.length > 0
-
   return (
-    <div className={`m-app${hasDock ? ' has-dock' : ''}`}>
+    <div className="m-app has-bar">
       <header className="m-header">
-        <div className="m-header__days">
-          <MobileDayBar
-            days={festival.days}
-            activeId={activeDayId}
-            onChange={handleDayChange}
-          />
-        </div>
-        <button
-          type="button"
-          className="m-header__more"
-          aria-label="더보기"
-          onClick={() => setMoreSheetOpen(true)}
-        >
-          ⋯
-        </button>
+        <MobileDayBar
+          days={festival.days}
+          activeId={activeDayId}
+          onChange={handleDayChange}
+        />
       </header>
 
       <main className="m-main">
@@ -148,7 +188,7 @@ export default function MobileApp({
             lineupIds={lineup.artistIds}
             selectedArtistId={selectedArtistId ?? undefined}
             onSlotClick={openArtist}
-            onToggleLineup={lineup.toggle}
+            onToggleLineup={handleToggleLineup}
           />
         ) : (
           <MobileArtistList
@@ -158,7 +198,7 @@ export default function MobileApp({
             lineupIds={lineup.artistIds}
             selectedArtistId={selectedArtistId ?? undefined}
             onArtistClick={openArtist}
-            onToggleLineup={lineup.toggle}
+            onToggleLineup={handleToggleLineup}
           />
         )}
       </main>
@@ -167,11 +207,20 @@ export default function MobileApp({
         <MobileBundleNoticeBar notice={listen.notice} onDismiss={listen.dismissNotice} />
       )}
 
-      <MobileLineupDock
-        count={lineupOnDay.length}
-        loading={listen.loading === 'custom'}
-        onPlay={() => listen.openLineupBundle()}
-        onExpand={() => setLineupSheetOpen(true)}
+      <MobileBottomBar
+        scope={scope}
+        onScopeChange={listenScope.pickScope}
+        canPlay={canPlay}
+        loading={scopeLoading}
+        onPlay={playListen}
+        dayReady={dayReady}
+        festivalReady={festivalReady}
+        customReady={customReady}
+        wallpaperAvailable={wallpaperAvailable}
+        canClearLineup={lineupOnDay.length > 0}
+        onOpenLineup={() => setLineupSheetOpen(true)}
+        onClearLineup={clearLineupOnDay}
+        onWallpaper={() => setWallpaperOpen(true)}
       />
 
       <MobileArtistSheet
@@ -182,43 +231,19 @@ export default function MobileApp({
         playlist={artistPlaylist}
         listenUrl={artistListenUrl}
         onClose={closeArtist}
-        onToggleLineup={() => selectedArtist && lineup.toggle(selectedArtist.id)}
-        onOpenLineup={() => {
-          closeArtist()
-          setLineupSheetOpen(true)
-        }}
-        lineupCount={lineupOnDay.length}
+        onToggleLineup={() => selectedArtist && handleToggleLineup(selectedArtist.id)}
       />
 
       <MobileLineupSheet
         open={lineupSheetOpen}
-        artistIds={lineupOnDay}
+        artistIds={lineupOnDayOrdered}
         artists={artistMap}
         playlistReady={playlistReady}
-        loading={listen.loading === 'custom'}
         onClose={() => setLineupSheetOpen(false)}
-        onPlay={() => listen.openLineupBundle()}
-        onClear={clearLineupOnDay}
-        onRemove={(id) => lineup.toggle(id)}
+        onRemove={(id) => handleToggleLineup(id)}
         onArtistClick={(id) => {
           setLineupSheetOpen(false)
           openArtist(id)
-        }}
-      />
-
-      <MobileMoreSheet
-        open={moreSheetOpen}
-        dayReady={dayReady}
-        festivalReady={festivalReady}
-        wallpaperAvailable={wallpaperAvailable}
-        loadingDay={listen.loading === 'day'}
-        loadingFestival={listen.loading === 'festival'}
-        onClose={() => setMoreSheetOpen(false)}
-        onListenDay={() => listen.openDayBundle()}
-        onListenFestival={() => listen.openFestivalBundle()}
-        onWallpaper={() => {
-          setMoreSheetOpen(false)
-          setWallpaperOpen(true)
         }}
       />
 

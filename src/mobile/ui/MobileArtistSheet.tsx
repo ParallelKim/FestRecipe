@@ -10,8 +10,6 @@ interface MobileArtistSheetProps {
   listenUrl: string | null
   onClose: () => void
   onToggleLineup: () => void
-  onOpenLineup: () => void
-  lineupCount: number
 }
 
 export default function MobileArtistSheet({
@@ -23,8 +21,6 @@ export default function MobileArtistSheet({
   listenUrl,
   onClose,
   onToggleLineup,
-  onOpenLineup,
-  lineupCount,
 }: MobileArtistSheetProps) {
   if (!artist) return null
 
@@ -34,22 +30,10 @@ export default function MobileArtistSheet({
     <Sheet open={open} onOpenChange={(next) => (!next ? onClose() : undefined)}>
       <SheetContent
         side="bottom"
-        showCloseButton={false}
         className="m-sheet mx-auto gap-0 data-[side=bottom]:border-t-0"
       >
         <SheetTitle className="sr-only">{artist.displayName} 대표곡</SheetTitle>
         <div className="m-sheet__handle" aria-hidden="true" />
-
-        <div className="m-sheet__toolbar">
-          <button type="button" className="m-sheet__ghost" onClick={onClose}>
-            닫기
-          </button>
-          {lineupCount > 0 && (
-            <button type="button" className="m-sheet__link" onClick={onOpenLineup}>
-              라인업 {lineupCount}팀
-            </button>
-          )}
-        </div>
 
         <div className="m-sheet__hero">
           <h2 className="m-sheet__title">{artist.displayName}</h2>
