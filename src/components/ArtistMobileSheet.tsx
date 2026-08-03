@@ -11,7 +11,7 @@ import {
 interface ArtistMobileSheetProps {
   open: boolean
   onClose: () => void
-  onScrollToMyLineup?: () => void
+  onOpenMyLineup?: () => void
   myLineupCount?: number
   festival: Festival
   activeDay?: DayLineup
@@ -30,7 +30,7 @@ interface ArtistMobileSheetProps {
 export default function ArtistMobileSheet({
   open,
   onClose,
-  onScrollToMyLineup,
+  onOpenMyLineup,
   myLineupCount = 0,
   festival,
   activeDay,
@@ -79,11 +79,11 @@ export default function ArtistMobileSheet({
                   <span className="playlist-sheet__back-mark" aria-hidden="true">←</span>
                   닫기
                 </button>
-                {onScrollToMyLineup && myLineupCount > 0 && (
+                {onOpenMyLineup && myLineupCount > 0 && (
                   <button
                     type="button"
                     className="playlist-sheet__lineup-link"
-                    onClick={onScrollToMyLineup}
+                    onClick={onOpenMyLineup}
                   >
                     내 라인업 ({myLineupCount})
                   </button>
