@@ -454,6 +454,36 @@
   line-height: 1.25;
 }
 
+.m-sheet__title--solo {
+  margin-bottom: 16px;
+}
+
+.m-sheet__actions {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.m-sheet__actions--solo {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.m-sheet__play {
+  flex: 1;
+  min-width: 0;
+}
+
+.m-sheet__play.is-disabled {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.m-sheet__lineup {
+  flex-shrink: 0;
+}
+
 .m-sheet__subtitle {
   margin: 20px 0 8px;
   font-size: 14px;

@@ -137,20 +137,23 @@ export default function MobileApp({
     (dayId: string) => {
       setActiveDayId(dayId)
       setSelectedArtistId(null)
+      const day = festival.days.find((d) => d.id === dayId)
+      const onDayCount = lineupIdsOnDay(lineup.artistIds, day).length
+      listenScope.syncForActiveDay(onDayCount)
     },
-    [],
+    [festival.days, lineup.artistIds, listenScope],
   )
 
   const handleToggleLineup = useCallback(
     (artistId: string) => {
       const adding = !lineup.artistIds.includes(artistId)
-      const wasEmpty = lineup.artistIds.length === 0
+      const lineupOnDayBefore = lineupIdsOnDay(lineup.artistIds, activeDay).length === 0
       lineup.toggle(artistId)
-      if (adding && wasEmpty) {
+      if (adding && lineupOnDayBefore) {
         listenScope.applyContextualCustom()
       }
     },
-    [lineup, listenScope],
+    [lineup, activeDay, listenScope],
   )
 
   const clearLineupOnDay = useCallback(() => {

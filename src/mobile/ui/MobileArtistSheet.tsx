@@ -35,17 +35,7 @@ export default function MobileArtistSheet({
         <SheetTitle className="sr-only">{artist.displayName} 대표곡</SheetTitle>
         <div className="m-sheet__handle" aria-hidden="true" />
 
-        <div className="m-sheet__hero">
-          <h2 className="m-sheet__title">{artist.displayName}</h2>
-          <button
-            type="button"
-            className={`m-star m-star--pill${inLineup ? ' is-on' : ''}`}
-            aria-pressed={inLineup}
-            onClick={onToggleLineup}
-          >
-            {inLineup ? '★ 담김' : '☆ 담기'}
-          </button>
-        </div>
+        <h2 className="m-sheet__title m-sheet__title--solo">{artist.displayName}</h2>
 
         {loading && <p className="m-muted">대표곡 불러오는 중…</p>}
         {!loading && tracks.length === 0 && (
@@ -55,16 +45,30 @@ export default function MobileArtistSheet({
         {!loading && tracks.length > 0 && (
           <div className="m-listen-block">
             <p className="m-sheet__meta">{tracks.length}곡 · YouTube</p>
-            {listenUrl && (
-              <a
-                href={listenUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="m-btn m-btn--primary m-btn--block"
+            <div className="m-sheet__actions">
+              {listenUrl ? (
+                <a
+                  href={listenUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="m-btn m-btn--primary m-sheet__play"
+                >
+                  YouTube로 듣기
+                </a>
+              ) : (
+                <span className="m-btn m-btn--primary m-sheet__play is-disabled">
+                  YouTube로 듣기
+                </span>
+              )}
+              <button
+                type="button"
+                className={`m-star m-star--pill m-sheet__lineup${inLineup ? ' is-on' : ''}`}
+                aria-pressed={inLineup}
+                onClick={onToggleLineup}
               >
-                YouTube로 듣기
-              </a>
-            )}
+                {inLineup ? '★ 담김' : '☆ 담기'}
+              </button>
+            </div>
             <ol className="m-tracklist">
               {tracks.map((track, i) => (
                 <li key={track.videoId} className="m-tracklist__item">
@@ -73,6 +77,19 @@ export default function MobileArtistSheet({
                 </li>
               ))}
             </ol>
+          </div>
+        )}
+
+        {!loading && tracks.length === 0 && (
+          <div className="m-sheet__actions m-sheet__actions--solo">
+            <button
+              type="button"
+              className={`m-star m-star--pill m-sheet__lineup${inLineup ? ' is-on' : ''}`}
+              aria-pressed={inLineup}
+              onClick={onToggleLineup}
+            >
+              {inLineup ? '★ 담김' : '☆ 담기'}
+            </button>
           </div>
         )}
       </SheetContent>
