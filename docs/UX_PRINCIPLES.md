@@ -152,6 +152,7 @@ FestRecipe의 본질은 카피 가이드와 같다: **예습(대표곡)** · **�
 |------|-----------|
 | [`TONE_AND_MANNER.md`](./TONE_AND_MANNER.md) | 말투·용어·문장 |
 | **이 문서** | 계층·섹션·행동 배치·레이아웃 안정 |
+| [`UI_REFERENCE_RESEARCH.md`](./UI_REFERENCE_RESEARCH.md) | 페스티벌·일정·음악 앱 레퍼런스, 두 도메인 겹침, 예습 4스코프, 벤치마킹 |
 | [`HANDOFF_MY_LINEUP_WALLPAPER.md`](./HANDOFF_MY_LINEUP_WALLPAPER.md) | 과거 세션의 제품 결정 스냅샷 (참고용) |
 
 원칙이 핸드오프의 개별 결정과 겹치면 **이 문서의 계층·본질 규칙을 우선**하고, 핸드오프는 당시 맥락으로 읽는다.
@@ -160,4 +161,5 @@ FestRecipe의 본질은 카피 가이드와 같다: **예습(대표곡)** · **�
 
 ## 7. 변경 이력
 
+- 2026-08-03 — [`UI_REFERENCE_RESEARCH.md`](./UI_REFERENCE_RESEARCH.md) 연계 추가.
 - 2026-07-29 — 최초 작성. 아티스트 시트 계층 재정비(`cursor/copy-tone-manner`) 피드백을 일반 원칙으로 정리.
