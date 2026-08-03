@@ -1,0 +1,22 @@
+---
+description: 신규 UI는 shadcn·커뮤니티 라이브러리 우선, 없을 때만 Tailwind 커스텀
+globs: **/*.{tsx,jsx}
+alwaysApply: false
+---
+
+# UI 구현 우선순위
+
+1. **shadcn/ui** → 2. **커뮤니티 레지스트리** → 3. **Tailwind 커스텀**
+
+## 모바일 `/m` 스타일 문법 (통일 규칙)
+
+| 패턴 | 컴포넌트 | 선택·활성 상태 |
+|------|----------|----------------|
+| `/m` 상단 히어로 | `MobileFestivalHero` | 포스터=cover 배경+그레디언트, 없으면 시그니처 flat |
+| 요일 탭 | `Tabs` + `day-tab` 클래스 | `data-active` = ink fill |
+| 주 액션 행 | `ButtonGroup` + 동일 `h-11` | primary + outline/secondary 페어 |
+| 드롭다운 항목 | `MobileMenuOption` | 2줄(라벨+힌트), 체크는 shadcn 기본 |
+| 준비 상태 | `Badge` | 준비=`secondary`, 준비 중=`outline` |
+
+- `@base-ui/react/*` 직접 import 지양 — shadcn 래퍼 사용
+- 존재하지 않는 CSS 클래스(`__chips` 등) 추가 금지 — `index.css` 기존 클래스 또는 Tailwind
