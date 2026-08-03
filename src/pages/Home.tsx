@@ -5,6 +5,7 @@ import { FestivalService } from '../services/festivals'
 import type { Festival } from '../types'
 import HomeHelmet from '../components/seo/HomeHelmet'
 import LoadingState from '../components/LoadingState'
+import { Container } from '../components/layout/Container'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 
@@ -139,7 +140,7 @@ export default function Home() {
           className="absolute inset-0 bg-[linear-gradient(180deg,rgba(8,10,12,0.35)_0%,rgba(8,10,12,0.55)_40%,rgba(8,10,12,0.88)_100%),linear-gradient(90deg,rgba(8,10,12,0.55)_0%,transparent_55%)]"
           aria-hidden="true"
         />
-        <div className="container relative z-10 max-w-[720px] pt-[72px] pb-16">
+        <Container className="relative z-10 max-w-[720px] pt-[72px] pb-16">
           <motion.p
             className="mb-5 font-[family-name:var(--font-display)] text-[clamp(36px,7.5vw,64px)] font-extrabold tracking-tight"
             initial={{ opacity: 0, y: 12 }}
@@ -212,12 +213,12 @@ export default function Home() {
               </div>
             </motion.div>
           )}
-        </div>
+        </Container>
       </section>
 
       {allFestivals.length > 0 && (
         <section className="py-16 pb-24" id="festivals">
-          <div className="container">
+          <Container>
             <h2 className="mb-2 text-2xl font-bold tracking-tight">페스티벌 목록</h2>
             <p className="mb-7 text-sm text-muted-foreground">
               등록된 페스티벌 <strong className="font-extrabold text-foreground">{allFestivals.length}</strong>개
@@ -291,7 +292,7 @@ export default function Home() {
                 )
               })}
             </div>
-          </div>
+          </Container>
         </section>
       )}
     </div>

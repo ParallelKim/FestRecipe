@@ -1,3 +1,5 @@
+import { Spinner } from '@/components/ui/spinner'
+
 interface LoadingStateProps {
   label?: string
   minHeight?: string | number
@@ -9,17 +11,12 @@ export default function LoadingState({
 }: LoadingStateProps) {
   return (
     <div
-      style={{
-        backgroundColor: 'var(--color-canvas)',
-        minHeight,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
+      className="flex items-center justify-center bg-background"
+      style={{ minHeight }}
     >
-      <div style={{ textAlign: 'center', color: 'var(--color-muted)' }}>
-        <span className="loading-spinner" aria-hidden="true" />
-        <p className="text-title-sm" style={{ margin: '16px 0 0' }}>{label}</p>
+      <div className="flex flex-col items-center gap-4 text-center text-muted-foreground">
+        <Spinner className="size-7 text-foreground" />
+        <p className="text-lg font-semibold text-foreground">{label}</p>
       </div>
     </div>
   )

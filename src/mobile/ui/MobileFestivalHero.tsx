@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
+import { Container } from '@/components/layout/Container'
 import { cn } from '@/lib/utils'
 import { getFestivalSignatureTheme } from '@/lib/festivalSignature'
 import type { MobileFestivalView } from '../view/types'
@@ -48,9 +49,9 @@ export default function MobileFestivalHero({ festival }: MobileFestivalHeroProps
         </>
       )}
 
-      <div
+      <Container
         className={cn(
-          'relative z-10 container flex flex-col px-4',
+          'relative z-10 flex flex-col',
           hasPoster
             ? 'min-h-[min(38vh,280px)] pt-2.5 pb-4'
             : 'py-3 pb-5',
@@ -157,7 +158,7 @@ export default function MobileFestivalHero({ festival }: MobileFestivalHeroProps
             </div>
           )}
         </div>
-      </div>
+      </Container>
     </section>
   )
 }
