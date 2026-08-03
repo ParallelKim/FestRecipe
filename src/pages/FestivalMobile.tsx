@@ -12,7 +12,7 @@ function artistCount(festival: MobileFestivalView): number {
   return festival.days.reduce((acc, day) => acc + day.artistIds.length, 0)
 }
 
-/** `/festival/:id/m` — timetable-first 모바일 UI */
+/** `/festival/:id` — timetable-first 페스티벌 UI */
 export default function FestivalMobile() {
   const { id } = useParams<{ id: string }>()
   const { state, loading, error } = useMobileFestival(id)
@@ -50,15 +50,8 @@ export default function FestivalMobile() {
         artistCount={count}
       />
 
-      <p className="hidden m-0 border-b border-border bg-muted/30 px-4 py-2.5 text-center text-[13px] text-muted-foreground min-[900px]:block">
-        모바일에 맞춘 화면이에요. 넓은 화면에서는{' '}
-        <Link to={`/festival/${id}`} className="text-inherit underline underline-offset-2">
-          기존 페스티벌 화면
-        </Link>
-        을 써 보세요.
-      </p>
+      <MobileFestivalHero festival={festival} />
 
-      <MobileFestivalHero festival={festival} festivalId={id} />
 
       <div className="min-[900px]:mx-auto min-[900px]:max-w-[440px]">
         <MobileApp

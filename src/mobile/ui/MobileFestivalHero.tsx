@@ -13,16 +13,12 @@ function formatDateRange(start: string, end: string): string {
 
 interface MobileFestivalHeroProps {
   festival: MobileFestivalView
-  festivalId: string
 }
 
 /**
  * `/m` 표준 상단 히어로 — 포스터는 cover 배경 + 그레디언트, 텍스트는 하단 스택.
  */
-export default function MobileFestivalHero({
-  festival,
-  festivalId,
-}: MobileFestivalHeroProps) {
+export default function MobileFestivalHero({ festival }: MobileFestivalHeroProps) {
   const sig = getFestivalSignatureTheme(festival.signatureColor)
   const hasPoster = Boolean(festival.posterUrl)
   const textOnImage = hasPoster
@@ -55,13 +51,6 @@ export default function MobileFestivalHero({
             style={textOnImage ? undefined : { color: sig.text }}
           >
             ← 목록
-          </Link>
-          <Link
-            to={`/festival/${festivalId}`}
-            className="mobile-festival-hero__nav-link mobile-festival-hero__nav-link--underline"
-            style={textOnImage ? undefined : { color: sig.text }}
-          >
-            기존 화면
           </Link>
         </div>
 
