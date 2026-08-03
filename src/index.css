@@ -494,12 +494,6 @@ body {
   color: rgba(255, 255, 255, 0.85);
   opacity: 1;
 }
-/* 라인업 슬롯(액센트 배경) 위의 ☆ 버튼 — 흰 톤으로 통일 */
-.tt-grid__slot-shell.is-in-lineup .lineup-pick-btn--tt.is-on {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.4);
-  color: #fff;
-}
 @media (hover: hover) and (pointer: fine) {
   .tt-grid__slot:hover {
     filter: brightness(0.98);

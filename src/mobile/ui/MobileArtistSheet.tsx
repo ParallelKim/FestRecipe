@@ -60,22 +60,29 @@ export default function MobileArtistSheet({
             <p className="mb-3 text-xs leading-relaxed text-muted-foreground">
               {tracks.length}곡 · YouTube
             </p>
-            <ButtonGroup className="mb-4 w-full">
+            <ButtonGroup className="mb-4 w-full overflow-hidden rounded-xl bg-primary text-primary-foreground shadow-none">
               {listenUrl ? (
                 <Button
                   render={<a href={listenUrl} target="_blank" rel="noopener noreferrer" />}
                   nativeButton={false}
-                  className="h-11 min-w-0 flex-1"
+                  className="h-11 min-h-11 min-w-0 flex-1 rounded-none border-0 bg-transparent px-3.5 text-primary-foreground hover:bg-primary/90 active:bg-primary/90"
                 >
                   YouTube로 듣기
                 </Button>
               ) : (
-                <Button disabled className="h-11 min-w-0 flex-1">YouTube로 듣기</Button>
+                <Button
+                  disabled
+                  className="h-11 min-h-11 min-w-0 flex-1 rounded-none border-0 bg-transparent px-3.5"
+                >
+                  YouTube로 듣기
+                </Button>
               )}
               <MobileLineupButton
+                grouped
+                tone="on-primary"
                 inLineup={inLineup}
                 onToggle={onToggleLineup}
-                className="h-11"
+                className="h-11 min-h-11 shrink-0 px-3.5"
               />
             </ButtonGroup>
             <ol className="m-0 list-none border-t border-border p-0 pt-1">

@@ -178,9 +178,10 @@ export default function MobileTimetable({
                         <div className="absolute top-0.5 right-0.5 z-10">
                           <MobileLineupButton
                             compact
+                            tone="on-accent"
                             inLineup={inLineup}
                             onToggle={() => onToggleLineup(slot.artistId)}
-                            className="size-6 min-h-6 min-w-6 rounded-md text-[11px] shadow-sm"
+                            className="size-6 min-h-6 min-w-6 p-0 text-[11px]"
                           />
                         </div>
                       )}
