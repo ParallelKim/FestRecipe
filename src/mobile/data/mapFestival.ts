@@ -3,9 +3,15 @@ import type {
   MobileDayView,
   MobileFestivalView,
   MobileLayoutKind,
+  MobileSignatureColor,
   MobileSlotView,
   MobileStageTheme,
 } from '../view/types'
+
+function signatureColorFromRaw(v: unknown): MobileSignatureColor {
+  if (v === 'forest' || v === 'coral' || v === 'dark') return v
+  return 'cream'
+}
 
 function asString(v: unknown, fallback = ''): string {
   return typeof v === 'string' ? v : fallback
@@ -111,7 +117,10 @@ export function mapFestivalView(raw: Record<string, unknown>): MobileFestivalVie
     startDate: asString(raw.startDate),
     endDate: asString(raw.endDate),
     location: asString(raw.location),
+    signatureColor: signatureColorFromRaw(raw.signatureColor),
+    tagline: asString(raw.tagline) || undefined,
     logoUrl: asString(raw.logoUrl) || undefined,
+    posterUrl: asString(raw.posterUrl) || undefined,
     mapUrl: asString(raw.mapUrl) || undefined,
     websiteUrl: asString(raw.websiteUrl) || undefined,
     description: asString(raw.description) || undefined,

@@ -30,6 +30,8 @@ export interface MobileDayView {
   artistIds: string[]
 }
 
+export type MobileSignatureColor = 'cream' | 'forest' | 'coral' | 'dark'
+
 export interface MobileFestivalView {
   id: string
   name: string
@@ -37,7 +39,10 @@ export interface MobileFestivalView {
   startDate: string
   endDate: string
   location: string
+  signatureColor: MobileSignatureColor
+  tagline?: string
   logoUrl?: string
+  posterUrl?: string
   mapUrl?: string
   websiteUrl?: string
   description?: string

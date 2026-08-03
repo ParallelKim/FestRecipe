@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom'
 import FestivalHelmet from '../components/seo/FestivalHelmet'
 import LoadingState from '../components/LoadingState'
 import { Button } from '@/components/ui/button'
+import { getFestivalSignatureTheme } from '../lib/festivalSignature'
 import { useMobileFestival } from '../mobile/hooks/useMobileFestival'
 import MobileApp from '../mobile/ui/MobileApp'
 import type { MobileFestivalView } from '../mobile/view/types'
@@ -44,6 +45,7 @@ export default function FestivalMobile() {
 
   const { festival, artistMap, playlistReady } = state
   const count = artistCount(festival)
+  const sig = getFestivalSignatureTheme(festival.signatureColor)
 
   return (
     <div className="min-h-screen bg-[var(--color-canvas,#f4f3f0)]">
@@ -65,50 +67,90 @@ export default function FestivalMobile() {
         을 써 보세요.
       </p>
 
-      <header className="border-b border-border bg-background px-4 pt-3 pb-4">
-        <div className="mb-3 flex items-center justify-between">
-          <Link
-            to="/"
-            className="text-[13px] font-semibold text-muted-foreground no-underline"
-          >
-            ← 목록
-          </Link>
-          <Link
-            to={`/festival/${id}`}
-            className="text-[13px] font-semibold text-muted-foreground underline underline-offset-2"
-          >
-            기존 화면
-          </Link>
-        </div>
-        <div className="flex items-center gap-3">
-          {festival.logoUrl && (
-            <img
-              src={festival.logoUrl}
-              alt=""
-              className="size-11 rounded-[10px] object-cover"
-            />
-          )}
-          <div>
-            <h1 className="m-0 text-lg font-extrabold">{festival.name}</h1>
-            <p className="mt-1 mb-0 text-xs text-muted-foreground">
-              {formatDateRange(festival.startDate, festival.endDate)}
-              <span aria-hidden="true"> · </span>
-              {festival.mapUrl ? (
-                <a
-                  href={festival.mapUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-inherit"
-                >
-                  {festival.location}
-                </a>
-              ) : (
-                festival.location
-              )}
-            </p>
+      <section
+        className="festival-hero festival-hero--mobile"
+        style={{ backgroundColor: sig.bg, color: sig.text }}
+      >
+        <div className="container px-4">
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <Link
+              to="/"
+              className="festival-hero__back m-0 text-[13px] opacity-90"
+              style={{ color: sig.text }}
+            >
+              ← 목록
+            </Link>
+            <Link
+              to={`/festival/${id}`}
+              className="text-[13px] font-semibold underline underline-offset-2 opacity-90"
+              style={{ color: sig.text }}
+            >
+              기존 화면
+            </Link>
           </div>
+
+          {festival.posterUrl && (
+            <div className="festival-hero__poster-wrap festival-hero__poster-wrap--mobile">
+              <img
+                src={festival.posterUrl}
+                alt={`${festival.name} 공식 포스터`}
+                className="festival-hero__poster"
+              />
+            </div>
+          )}
+
+          <div className="festival-hero__brand">
+            {!festival.posterUrl && festival.logoUrl && (
+              <img src={festival.logoUrl} alt="" className="festival-hero__mark" />
+            )}
+            <h1 className="festival-hero__name festival-hero__name--mobile">
+              {festival.name}
+            </h1>
+          </div>
+
+          {(festival.tagline || festival.description) && (
+            <p className="festival-hero__tagline festival-hero__tagline--mobile" style={{ color: sig.text }}>
+              {festival.tagline || festival.description}
+            </p>
+          )}
+          {festival.tagline && festival.description && (
+            <p className="festival-hero__desc festival-hero__desc--mobile" style={{ color: sig.muted }}>
+              {festival.description}
+            </p>
+          )}
+
+          <div className="festival-hero__meta" style={{ color: sig.muted }}>
+            {festival.mapUrl ? (
+              <a
+                href={festival.mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="festival-hero__meta-link"
+                style={{ color: sig.muted }}
+              >
+                {festival.location}
+              </a>
+            ) : (
+              <span>{festival.location}</span>
+            )}
+            <span>{formatDateRange(festival.startDate, festival.endDate)}</span>
+          </div>
+
+          {festival.websiteUrl && (
+            <div className="festival-hero__links">
+              <a
+                href={festival.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="festival-hero__link"
+                style={{ color: sig.text, borderColor: 'currentColor' }}
+              >
+                공식 홈페이지
+              </a>
+            </div>
+          )}
         </div>
-      </header>
+      </section>
 
       <div className="min-[900px]:mx-auto min-[900px]:max-w-[440px]">
         <MobileApp

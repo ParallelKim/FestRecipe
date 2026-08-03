@@ -6,47 +6,17 @@ alwaysApply: false
 
 # UI 구현 우선순위
 
-신규 UI·리팩터링 시 다음 순서를 따른다.
+1. **shadcn/ui** → 2. **커뮤니티 레지스트리** → 3. **Tailwind 커스텀**
 
-1. **shadcn/ui** — `src/components/ui/`에 이미 있는 컴포넌트, 또는 `npx shadcn@latest add <name>`으로 추가
-2. **커뮤니티 레지스트리** — `npx shadcn@latest search`로 확인 후 CLI로 설치
-3. **Tailwind 유틸리티** — 위에서 적절한 컴포넌트가 없을 때만 커스텀 마크업·스타일
+## 모바일 `/m` 스타일 문법 (통일 규칙)
 
-## shadcn 사용 원칙
+| 패턴 | 컴포넌트 | 선택·활성 상태 |
+|------|----------|----------------|
+| 담기/담김 | `MobileLineupButton` | off=`outline`, on=`secondary` + `border-primary bg-primary/10` |
+| 요일 탭 | `Tabs` + `day-tab` 클래스 | `data-active` = ink fill |
+| 주 액션 행 | `ButtonGroup` + 동일 `h-11` | primary + outline/secondary 페어 |
+| 드롭다운 항목 | `MobileMenuOption` | 2줄(라벨+힌트), 체크는 shadcn 기본 |
+| 준비 상태 | `Badge` | 준비=`secondary`, 준비 중=`outline` |
 
-- **조합 우선**: Alert, Badge, Button, DropdownMenu, Sheet, ToggleGroup 등으로 레이아웃 구성
-- **variant·size 활용**: `Button variant="outline"`, `Alert variant="destructive"` 등 기본 변형을 먼저 시도
-- **시맨틱 토큰**: `bg-background`, `text-muted-foreground`, `border-border` — raw 색상(`bg-gray-500`) 지양
-- **Base UI 프로젝트**: 트리거는 `render={<Button />}` 패턴; `@base-ui/react/*` 직접 import 지양 (shadcn 래퍼 사용)
-- **접근성**: Dialog/Sheet는 Title 필수; 메뉴·토글은 적절한 `aria-label` 유지
-
-## 피해야 할 패턴
-
-```tsx
-// ❌ base-ui Menu 직접 사용
-import { Menu } from '@base-ui/react/menu'
-
-// ✅ shadcn DropdownMenu
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem } from '@/components/ui/dropdown-menu'
-```
-
-```tsx
-// ❌ 커스텀 notice 박스
-<div className="custom-notice">...</div>
-
-// ✅ Alert
-<Alert><AlertTitle>...</AlertTitle><AlertDescription>...</AlertDescription></Alert>
-```
-
-```tsx
-// ❌ 페이지 전용 CSS 클래스 파일에 UI 스타일 축적
-import './mobile.css'
-
-// ✅ 컴포넌트에 Tailwind + shadcn (공통 토큰·레이아웃만 CSS에 유지)
-```
-
-## 새 컴포넌트 추가 전 체크
-
-- [ ] `src/components/ui/`에 동일 역할 컴포넌트가 있는지 확인
-- [ ] `npx shadcn@latest search <keyword>`로 레지스트리 검색
-- [ ] 없으면 Tailwind로 구현하고, 재사용 가능하면 `components/ui` 또는 공유 컴포넌트로 승격 검토
+- `@base-ui/react/*` 직접 import 지양 — shadcn 래퍼 사용
+- 존재하지 않는 CSS 클래스(`__chips` 등) 추가 금지 — `index.css` 기존 클래스 또는 Tailwind

@@ -67,13 +67,13 @@ export default function MobileBottomBar({
       role="region"
       aria-label="듣기 및 메뉴"
     >
-      <ButtonGroup className="flex-1 overflow-hidden rounded-xl bg-primary text-primary-foreground">
+      <ButtonGroup className="flex-1 overflow-hidden rounded-xl bg-primary text-primary-foreground shadow-none">
         <Button
           type="button"
           variant="default"
           disabled={loading || !canPlay}
           onClick={onPlay}
-          className="h-11 min-h-11 min-w-0 flex-1 flex-col items-start justify-center gap-0.5 rounded-none border-0 bg-transparent px-3.5 py-2 text-left text-primary-foreground hover:bg-primary/90"
+          className="h-11 min-h-11 min-w-0 flex-1 flex-col items-start justify-center gap-0.5 rounded-none border-0 bg-transparent px-3.5 py-2 text-left text-primary-foreground hover:bg-primary/90 active:bg-primary/90"
         >
           <span className="text-sm font-extrabold leading-tight">
             {loading ? '여는 중…' : '듣기'}
@@ -88,9 +88,9 @@ export default function MobileBottomBar({
             render={
               <Button
                 type="button"
-                variant="ghost"
+                variant="default"
                 size="icon"
-                className="size-11 shrink-0 rounded-none border-0 border-l border-primary-foreground/25 text-primary-foreground hover:bg-primary/90"
+                className="size-11 shrink-0 rounded-none border-0 bg-transparent text-primary-foreground hover:bg-primary/90 active:bg-primary/90"
               />
             }
             aria-label="듣기 범위 선택"
@@ -101,7 +101,7 @@ export default function MobileBottomBar({
             side="top"
             align="end"
             sideOffset={10}
-            className={mobileDropdownContentClass}
+            className={`${mobileDropdownContentClass} border-border bg-popover text-popover-foreground`}
           >
             <DropdownMenuRadioGroup
               value={scope}

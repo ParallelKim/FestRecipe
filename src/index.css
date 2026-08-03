@@ -592,6 +592,24 @@ body {
 .festival-hero {
   padding: 48px 0 40px;
 }
+.festival-hero--mobile {
+  padding: 14px 0 18px;
+}
+.festival-hero__poster-wrap--mobile {
+  max-width: min(200px, 56vw);
+  margin-bottom: 14px;
+}
+.festival-hero__name--mobile {
+  font-size: clamp(18px, 5vw, 22px);
+}
+.festival-hero__tagline--mobile {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.festival-hero__desc--mobile {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
 .festival-hero__back {
   text-decoration: none;
   font-size: 14px;
