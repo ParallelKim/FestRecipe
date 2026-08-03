@@ -12,7 +12,8 @@ interface PlaylistHubActionsProps {
   bundleLoading: 'day' | 'festival' | 'custom' | null
   onOpenBundled: (kind: 'day' | 'festival', artistIds: string[], title: string) => void
   /** Compact row under day tabs (mobile-first) */
-  variant?: 'bar' | 'stack'
+  variant?: 'bar' | 'stack' | 'sheet'
+  showLabel?: boolean
   showMyPlaylist?: boolean
   onOpenMyPlaylist?: () => void
   myLineupCount?: number
@@ -25,6 +26,7 @@ export default function PlaylistHubActions({
   bundleLoading,
   onOpenBundled,
   variant = 'stack',
+  showLabel = true,
   showMyPlaylist = true,
   onOpenMyPlaylist,
   myLineupCount = 0,
@@ -42,8 +44,8 @@ export default function PlaylistHubActions({
   }
 
   return (
-    <div className={`playlist-hub playlist-hub--${variant}`}>
-      <p className="playlist-hub__label">대표곡 듣기</p>
+    <div className={`playlist-hub playlist-hub--${variant}${!showLabel ? ' playlist-hub--no-label' : ''}`}>
+      {showLabel && <p className="playlist-hub__label">대표곡 듣기</p>}
       <div className="playlist-hub__actions">
         {activeDay && (
           <Button

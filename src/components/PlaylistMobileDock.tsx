@@ -69,8 +69,10 @@ export default function PlaylistMobileDock({
 
   const fabTitle =
     myLineupCount > 0
-      ? `내 라인업 (${myLineupCount}) · 대표곡 듣기`
+      ? `내 라인업 ${myLineupCount} · 대표곡 듣기`
       : '대표곡 듣기'
+
+  const fabLabel = myLineupCount > 0 ? `듣기 · ${myLineupCount}` : '듣기'
 
   // 시트 오픈·아티스트 전환 시 스크롤을 맨 위로 — 이전 위치 잔류로 인한 어색함 제거
   useEffect(() => {
@@ -94,8 +96,8 @@ export default function PlaylistMobileDock({
           <svg
             className="playlist-fab__glyph"
             viewBox="0 0 24 24"
-            width="24"
-            height="24"
+            width="22"
+            height="22"
             aria-hidden="true"
             focusable="false"
           >
@@ -109,6 +111,7 @@ export default function PlaylistMobileDock({
               d="M20.7 5c.1 2.4 1.6 3.6 3.1 4v1.9c-2-.6-3.8-2.1-4.6-4.4V5h1.5z"
             />
           </svg>
+          <span className="playlist-fab__label">{fabLabel}</span>
         </SheetTrigger>
 
         <SheetContent
@@ -168,25 +171,35 @@ export default function PlaylistMobileDock({
                 </div>
               </div>
             ) : (
-              <nav className="playlist-sheet__tabs" aria-label="대표곡 시트">
+              <div className="playlist-sheet__hub-bar">
+                <nav className="playlist-sheet__tabs" aria-label="대표곡 시트">
+                  <button
+                    type="button"
+                    className={`playlist-sheet__tab${sheetView === 'hub' ? ' is-active' : ''}`}
+                    aria-current={sheetView === 'hub' ? 'page' : undefined}
+                    onClick={onSwitchSheetHub}
+                  >
+                    대표곡
+                  </button>
+                  <button
+                    type="button"
+                    className={`playlist-sheet__tab${sheetView === 'lineup' ? ' is-active' : ''}`}
+                    aria-current={sheetView === 'lineup' ? 'page' : undefined}
+                    onClick={onSwitchSheetLineup}
+                  >
+                    내 라인업
+                    {myLineupCount > 0 ? ` (${myLineupCount})` : ''}
+                  </button>
+                </nav>
                 <button
                   type="button"
-                  className={`playlist-sheet__tab${sheetView === 'hub' ? ' is-active' : ''}`}
-                  aria-current={sheetView === 'hub' ? 'page' : undefined}
-                  onClick={onSwitchSheetHub}
+                  className="playlist-sheet__close"
+                  onClick={onClose}
+                  aria-label="시트 닫기"
                 >
-                  대표곡
+                  닫기
                 </button>
-                <button
-                  type="button"
-                  className={`playlist-sheet__tab${sheetView === 'lineup' ? ' is-active' : ''}`}
-                  aria-current={sheetView === 'lineup' ? 'page' : undefined}
-                  onClick={onSwitchSheetLineup}
-                >
-                  내 라인업
-                  {myLineupCount > 0 ? ` (${myLineupCount})` : ''}
-                </button>
-              </nav>
+              </div>
             )}
           </header>
 

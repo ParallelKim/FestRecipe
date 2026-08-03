@@ -723,15 +723,19 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 56px;
-  height: 56px;
-  padding: 0;
+  gap: 8px;
+  min-width: 56px;
+  height: 48px;
+  padding: 0 16px 0 14px;
   border: none;
-  border-radius: 50%;
+  border-radius: 999px;
   background: var(--color-ink);
   color: #fff;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
   cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
 }
 .playlist-fab.is-open {
   opacity: 0;
@@ -739,6 +743,10 @@ body {
 }
 .playlist-fab__glyph {
   display: block;
+  flex-shrink: 0;
+}
+.playlist-fab__label {
+  white-space: nowrap;
 }
 /* 시트 컨테이너·backdrop·애니메이션은 shadcn Sheet(Base UI)가 제공 */
 .playlist-sheet {
@@ -765,6 +773,27 @@ body {
 }
 .playlist-sheet__header {
   margin-bottom: 12px;
+}
+.playlist-sheet__hub-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.playlist-sheet__hub-bar .playlist-sheet__tabs {
+  flex: 1;
+  min-width: 0;
+}
+.playlist-sheet__close {
+  flex-shrink: 0;
+  padding: 8px 4px;
+  border: none;
+  background: none;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted-foreground);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .playlist-sheet__tabs {
   display: flex;
@@ -1681,6 +1710,13 @@ body {
 .playlist-hub--bar .playlist-hub__btn--mine {
   grid-column: 1 / -1;
 }
+.playlist-hub--sheet {
+  padding: 12px;
+  margin-bottom: 4px;
+}
+.playlist-hub--no-label .playlist-hub__actions {
+  margin-top: 0;
+}
 .playlist-hub__btn {
   flex: 1 1 auto;
   min-width: 0;
@@ -1703,6 +1739,13 @@ body {
   margin-top: 16px;
   padding-top: 14px;
   border-top: 1px solid var(--color-hairline);
+}
+.playlist-panel__idle--sheet {
+  margin-top: 8px;
+  padding-top: 0;
+  border-top: none;
+  font-size: 13px;
+  color: var(--muted-foreground);
 }
 .playlist-panel__back-to-hub {
   display: inline-flex;

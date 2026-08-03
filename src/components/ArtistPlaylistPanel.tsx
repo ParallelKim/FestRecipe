@@ -103,7 +103,9 @@ export default function ArtistPlaylistPanel({
           onOpenBundled={onOpenBundled}
           onOpenMyPlaylist={onOpenMyPlaylist}
           myLineupCount={myLineupCount}
-          variant="stack"
+          variant={hideArtistNavBar ? 'sheet' : 'stack'}
+          showLabel={!hideArtistNavBar}
+          showMyPlaylist={!hideArtistNavBar}
         />
       )}
 
@@ -280,16 +282,20 @@ export default function ArtistPlaylistPanel({
         />
         </>
       ) : !notice ? (
-        <div className="playlist-panel__idle">
-          <h4>아티스트 대표곡</h4>
+        <div
+          className={`playlist-panel__idle${hideArtistNavBar ? ' playlist-panel__idle--sheet' : ''}`}
+        >
+          {!hideArtistNavBar && <h4>아티스트 대표곡</h4>}
           <p>
             {festival.lineupStage === 'stage3_timetable'
               ? '타임테이블에서 아티스트를 누르면 대표곡이 열려요.'
               : '라인업에서 아티스트를 누르면 대표곡이 열려요.'}
           </p>
-          <p className="playlist-panel__idle-hint">
-            날짜·페스티벌 전체 듣기는 위에서, 내 라인업은 옆 탭에서 모아 볼 수 있어요.
-          </p>
+          {!hideArtistNavBar && (
+            <p className="playlist-panel__idle-hint">
+              날짜·페스티벌 전체 듣기는 위에서, 내 라인업은 옆 탭에서 모아 볼 수 있어요.
+            </p>
+          )}
         </div>
       ) : null}
     </div>
