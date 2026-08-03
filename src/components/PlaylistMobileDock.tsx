@@ -132,7 +132,7 @@ export default function PlaylistMobileDock({
                     <span className="playlist-sheet__back-mark" aria-hidden="true">←</span>
                     {sheetReturnView === 'lineup' ? '내 라인업' : '대표곡'}
                   </button>
-                  {panelProps.onOpenMyLineupFromArtist && (
+                  {panelProps.onOpenMyLineupFromArtist && sheetReturnView === 'hub' && (
                     <button
                       type="button"
                       className="playlist-sheet__lineup-link"

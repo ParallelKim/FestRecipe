@@ -10,7 +10,6 @@ import LoadingState from '../components/LoadingState'
 import DayTabs from '../components/DayTabs'
 import ArtistPlaylistPanel from '../components/ArtistPlaylistPanel'
 import PlaylistMobileDock from '../components/PlaylistMobileDock'
-import PlaylistHubActions from '../components/PlaylistHubActions'
 import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
 import { headlinerArtistIds } from '../lib/headliners'
 import { officialArtistName } from '../lib/artistOfficialName'
@@ -470,18 +469,6 @@ export default function FestivalDetail() {
           <div className="festival-main">
             {festival.lineupStage === 'stage1_all' && (
               <div className="lineup-block">
-                <div className="playlist-hub-slot playlist-hub-slot--mobile">
-                  <PlaylistHubActions
-                    festival={festival}
-                    activeDay={activeDay}
-                    playlistReady={playlistReady}
-                    bundleLoading={bundleLoading}
-                    onOpenBundled={openBundledPlaylist}
-                    onOpenMyPlaylist={openMyLineupEditor}
-                    myLineupCount={myLineupOnDayCount}
-                    variant="bar"
-                  />
-                </div>
                 <h3>공개된 아티스트 라인업 ({stage1Artists.length}팀)</h3>
                 <p>아티스트를 눌러 대표곡을 들어 보세요. ☆로 내 라인업에 담을 수 있어요.</p>
                 <div className="artist-chip-row">
@@ -522,18 +509,6 @@ export default function FestivalDetail() {
                   activeIndex={activeDayIndex}
                   onChange={changeDay}
                 />
-                <div className="playlist-hub-slot playlist-hub-slot--mobile">
-                  <PlaylistHubActions
-                    festival={festival}
-                    activeDay={activeDay}
-                    playlistReady={playlistReady}
-                    bundleLoading={bundleLoading}
-                    onOpenBundled={openBundledPlaylist}
-                    onOpenMyPlaylist={openMyLineupEditor}
-                    myLineupCount={myLineupOnDayCount}
-                    variant="bar"
-                  />
-                </div>
                 <h3 className="lineup-block__subhead">일별 라인업 아티스트</h3>
                 <div className="artist-card-grid">
                   {activeDayArtists.map((artist) => {
@@ -577,18 +552,6 @@ export default function FestivalDetail() {
                   activeIndex={activeDayIndex}
                   onChange={changeDay}
                 />
-                <div className="playlist-hub-slot playlist-hub-slot--mobile">
-                  <PlaylistHubActions
-                    festival={festival}
-                    activeDay={activeDay}
-                    playlistReady={playlistReady}
-                    bundleLoading={bundleLoading}
-                    onOpenBundled={openBundledPlaylist}
-                    onOpenMyPlaylist={openMyLineupEditor}
-                    myLineupCount={myLineupOnDayCount}
-                    variant="bar"
-                  />
-                </div>
                 <div className="timetable-scroll">
                   <TimetableGrid
                     stages={activeDay?.stages || []}

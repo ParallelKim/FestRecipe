@@ -1654,14 +1654,6 @@ body {
 .playlist-hub-slot {
   margin: 0 0 16px;
 }
-.playlist-hub-slot--mobile {
-  display: none;
-}
-@media (max-width: 899px) {
-  .playlist-hub-slot--mobile {
-    display: block;
-  }
-}
 .playlist-hub {
   padding: 14px;
   background: var(--color-surface-soft);

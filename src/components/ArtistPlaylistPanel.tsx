@@ -288,8 +288,7 @@ export default function ArtistPlaylistPanel({
               : '라인업에서 아티스트를 누르면 대표곡이 열려요.'}
           </p>
           <p className="playlist-panel__idle-hint">
-            날짜별·페스티벌 전체 듣기는 위 버튼에서 바로 시작할 수 있어요.
-            ☆로 담은 아티스트는 내 라인업에서 모아 듣거나 배경화면으로 저장할 수 있어요.
+            날짜·페스티벌 전체 듣기는 위에서, 내 라인업은 옆 탭에서 모아 볼 수 있어요.
           </p>
         </div>
       ) : null}
