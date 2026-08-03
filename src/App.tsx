@@ -15,8 +15,8 @@ export default function App() {
         <main style={{ flexGrow: 1 }}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/festival/:id" element={<FestivalDetail />} />
             <Route path="/festival/:id/m" element={<FestivalMobile />} />
+            <Route path="/festival/:id" element={<FestivalDetail />} />
           </Routes>
         </main>
       </div>

@@ -564,6 +564,11 @@ body {
   width: fit-content;
   text-decoration: none;
 }
+.home-fest-row__link--mobile {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--muted-foreground);
+}
 @media (max-width: 768px) {
   .home-hero {
     min-height: 78vh;

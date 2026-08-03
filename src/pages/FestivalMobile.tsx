@@ -21,73 +21,25 @@ function formatDateRange(start: string, end: string): string {
   return `${fmt(start)} – ${fmt(end)}`
 }
 
-/**
- * 모바일 전용 페스티벌 상세 — `/festival/:id/m`
- * 기존 `/festival/:id`와 분리된 신 UI 실험 경로.
- */
-export default function FestivalMobile() {
-  const { id } = useParams<{ id: string }>()
+interface FestivalMobileLoadedProps {
+  id: string
+  festival: Festival
+  artists: Artist[]
+  playlistReady: Set<string>
+  activeDayIndex: number
+  onDayChange: (index: number) => void
+}
 
-  const [festival, setFestival] = useState<Festival | null>(null)
-  const [artists, setArtists] = useState<Artist[]>([])
-  const [playlistReady, setPlaylistReady] = useState<Set<string>>(new Set())
-  const [loading, setLoading] = useState(true)
-  const [activeDayIndex, setActiveDayIndex] = useState(0)
-
+/** 데이터 로드 후 마운트 — 훅 순서가 항상 동일해야 함 */
+function FestivalMobileLoaded({
+  id,
+  festival,
+  artists,
+  playlistReady,
+  activeDayIndex,
+  onDayChange,
+}: FestivalMobileLoadedProps) {
   const myLineup = useMyLineup(id)
-
-  useEffect(() => {
-    let active = true
-    if (!id) return
-
-    Promise.all([
-      FestivalService.getFestivalById(id),
-      FestivalService.getArtists(),
-      FestivalService.getPlaylistIndex(),
-    ]).then(([festData, artistsData, playlistIndex]) => {
-      if (active) {
-        if (festData) setFestival(festData)
-        setArtists(artistsData)
-        setPlaylistReady(playlistIndex)
-        setLoading(false)
-      }
-    })
-
-    return () => {
-      active = false
-    }
-  }, [id])
-
-  useEffect(() => {
-    if (!festival) return
-    const day = festival.lineup[activeDayIndex]
-    const ids =
-      festival.lineupStage === 'stage1_all'
-        ? festival.allArtists
-        : day?.artists?.length
-          ? day.artists
-          : (day?.slots || []).map((s) => s.artistId)
-    if (ids.length === 0) return
-    const schedule = window.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 600))
-    const cancel = window.cancelIdleCallback ?? window.clearTimeout
-    const handle = schedule(() => FestivalService.prefetchPlaylists(ids))
-    return () => cancel(handle as number)
-  }, [festival, activeDayIndex])
-
-  if (loading) {
-    return <LoadingState label="페스티벌 정보를 불러오는 중…" minHeight="100vh" />
-  }
-
-  if (!festival || !id) {
-    return (
-      <div className="container festival-missing">
-        <h2 className="text-title-lg">페스티벌을 찾을 수 없어요.</h2>
-        <p className="text-body text-muted">주소가 잘못되었거나 아직 준비 중인 페스티벌이에요.</p>
-        <Button render={<Link to="/" />} nativeButton={false}>홈으로 돌아가기</Button>
-      </div>
-    )
-  }
-
   const activeDay = festival.lineup[activeDayIndex]
   const mapUrl = buildFestivalMapUrl(festival)
 
@@ -175,7 +127,7 @@ export default function FestivalMobile() {
         festival={festival}
         artists={artists}
         activeDayIndex={activeDayIndex}
-        onDayChange={setActiveDayIndex}
+        onDayChange={onDayChange}
         playlistReady={playlistReady}
         bundleLoading={bundleLoading}
         bundleNotice={bundleNotice}
@@ -187,5 +139,99 @@ export default function FestivalMobile() {
         onClearLineupOnDay={clearMyLineupOnDay}
       />
     </div>
+  )
+}
+
+/**
+ * 모바일 전용 페스티벌 상세 — `/festival/:id/m`
+ */
+export default function FestivalMobile() {
+  const { id } = useParams<{ id: string }>()
+
+  const [festival, setFestival] = useState<Festival | null>(null)
+  const [artists, setArtists] = useState<Artist[]>([])
+  const [playlistReady, setPlaylistReady] = useState<Set<string>>(new Set())
+  const [loading, setLoading] = useState(true)
+  const [loadError, setLoadError] = useState(false)
+  const [activeDayIndex, setActiveDayIndex] = useState(0)
+
+  useEffect(() => {
+    let active = true
+
+    if (!id) {
+      setLoading(false)
+      return
+    }
+
+    setLoading(true)
+    setLoadError(false)
+
+    Promise.all([
+      FestivalService.getFestivalById(id),
+      FestivalService.getArtists(),
+      FestivalService.getPlaylistIndex(),
+    ])
+      .then(([festData, artistsData, playlistIndex]) => {
+        if (!active) return
+        if (festData) setFestival(festData)
+        setArtists(artistsData)
+        setPlaylistReady(playlistIndex)
+      })
+      .catch((err) => {
+        console.error('FestivalMobile load failed:', err)
+        if (active) setLoadError(true)
+      })
+      .finally(() => {
+        if (active) setLoading(false)
+      })
+
+    return () => {
+      active = false
+    }
+  }, [id])
+
+  useEffect(() => {
+    if (!festival) return
+    const day = festival.lineup[activeDayIndex]
+    const ids =
+      festival.lineupStage === 'stage1_all'
+        ? festival.allArtists
+        : day?.artists?.length
+          ? day.artists
+          : (day?.slots || []).map((s) => s.artistId)
+    if (ids.length === 0) return
+    const schedule = window.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 600))
+    const cancel = window.cancelIdleCallback ?? window.clearTimeout
+    const handle = schedule(() => FestivalService.prefetchPlaylists(ids))
+    return () => cancel(handle as number)
+  }, [festival, activeDayIndex])
+
+  if (loading) {
+    return <LoadingState label="페스티벌 정보를 불러오는 중…" minHeight="100vh" />
+  }
+
+  if (loadError || !festival || !id) {
+    return (
+      <div className="container festival-missing">
+        <h2 className="text-title-lg">페스티벌을 찾을 수 없어요.</h2>
+        <p className="text-body text-muted">
+          {loadError
+            ? '정보를 불러오지 못했어요. 잠시 후 다시 시도해 주세요.'
+            : '주소가 잘못되었거나 아직 준비 중인 페스티벌이에요.'}
+        </p>
+        <Button render={<Link to="/" />} nativeButton={false}>홈으로 돌아가기</Button>
+      </div>
+    )
+  }
+
+  return (
+    <FestivalMobileLoaded
+      id={id}
+      festival={festival}
+      artists={artists}
+      playlistReady={playlistReady}
+      activeDayIndex={activeDayIndex}
+      onDayChange={setActiveDayIndex}
+    />
   )
 }

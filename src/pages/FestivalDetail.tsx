@@ -20,14 +20,19 @@ import { useMyLineup } from '../hooks/useMyLineup'
 import { useFestivalPlaylistActions } from '../hooks/useFestivalPlaylistActions'
 import { Button } from '@/components/ui/button'
 
-export default function FestivalDetail() {
-  const { id } = useParams<{ id: string }>()
+interface FestivalDetailLoadedProps {
+  id: string
+  festival: Festival
+  artists: Artist[]
+  playlistReady: Set<string>
+}
 
-  const [festival, setFestival] = useState<Festival | null>(null)
-  const [artists, setArtists] = useState<Artist[]>([])
-  const [playlistReady, setPlaylistReady] = useState<Set<string>>(new Set())
-  const [loading, setLoading] = useState(true)
-
+function FestivalDetailLoaded({
+  id,
+  festival,
+  artists,
+  playlistReady,
+}: FestivalDetailLoadedProps) {
   const [activeDayIndex, setActiveDayIndex] = useState(0)
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null)
   const [artistPlaylist, setArtistPlaylist] = useState<ArtistPlaylist | null>(null)
@@ -35,28 +40,6 @@ export default function FestivalDetail() {
   const [showMyLineupEditor, setShowMyLineupEditor] = useState(false)
 
   const myLineup = useMyLineup(id)
-
-  useEffect(() => {
-    let active = true
-    if (!id) return
-
-    Promise.all([
-      FestivalService.getFestivalById(id),
-      FestivalService.getArtists(),
-      FestivalService.getPlaylistIndex(),
-    ]).then(([festData, artistsData, playlistIndex]) => {
-      if (active) {
-        if (festData) setFestival(festData)
-        setArtists(artistsData)
-        setPlaylistReady(playlistIndex)
-        setLoading(false)
-      }
-    })
-
-    return () => {
-      active = false
-    }
-  }, [id])
 
   useEffect(() => {
     let active = true
@@ -80,7 +63,6 @@ export default function FestivalDetail() {
   }, [selectedArtist])
 
   useEffect(() => {
-    if (!festival) return
     const day = festival.lineup[activeDayIndex]
     const ids =
       festival.lineupStage === 'stage1_all'
@@ -94,20 +76,6 @@ export default function FestivalDetail() {
     const handle = schedule(() => FestivalService.prefetchPlaylists(ids))
     return () => cancel(handle as number)
   }, [festival, activeDayIndex])
-
-  if (loading) {
-    return <LoadingState label="페스티벌 정보를 불러오는 중…" minHeight="100vh" />
-  }
-
-  if (!festival) {
-    return (
-      <div className="container festival-missing">
-        <h2 className="text-title-lg">페스티벌을 찾을 수 없어요.</h2>
-        <p className="text-body text-muted">주소가 잘못되었거나 아직 준비 중인 페스티벌이에요.</p>
-        <Button render={<Link to="/" />} nativeButton={false}>홈으로 돌아가기</Button>
-      </div>
-    )
-  }
 
   const activeDay = festival.lineup[activeDayIndex]
   const myLineupOnDayCount = filterMyLineupForDay(myLineup.artistIds, activeDay).length
@@ -128,7 +96,7 @@ export default function FestivalDetail() {
   const clearMyLineupOnDay = useCallback(() => {
     const onDay = artistIdsOnDay(activeDay)
     if (onDay.size === 0) return
-    myLineup.setArtistIds(myLineup.artistIds.filter((id) => !onDay.has(id)))
+    myLineup.setArtistIds(myLineup.artistIds.filter((aid) => !onDay.has(aid)))
   }, [activeDay, myLineup])
 
   let sigColor = 'var(--color-sig-cream)'
@@ -442,5 +410,69 @@ export default function FestivalDetail() {
         </div>
       </section>
     </div>
+  )
+}
+
+export default function FestivalDetail() {
+  const { id } = useParams<{ id: string }>()
+
+  const [festival, setFestival] = useState<Festival | null>(null)
+  const [artists, setArtists] = useState<Artist[]>([])
+  const [playlistReady, setPlaylistReady] = useState<Set<string>>(new Set())
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    let active = true
+    if (!id) {
+      setLoading(false)
+      return
+    }
+
+    setLoading(true)
+
+    Promise.all([
+      FestivalService.getFestivalById(id),
+      FestivalService.getArtists(),
+      FestivalService.getPlaylistIndex(),
+    ])
+      .then(([festData, artistsData, playlistIndex]) => {
+        if (!active) return
+        if (festData) setFestival(festData)
+        setArtists(artistsData)
+        setPlaylistReady(playlistIndex)
+      })
+      .catch((err) => {
+        console.error('FestivalDetail load failed:', err)
+      })
+      .finally(() => {
+        if (active) setLoading(false)
+      })
+
+    return () => {
+      active = false
+    }
+  }, [id])
+
+  if (loading) {
+    return <LoadingState label="페스티벌 정보를 불러오는 중…" minHeight="100vh" />
+  }
+
+  if (!festival || !id) {
+    return (
+      <div className="container festival-missing">
+        <h2 className="text-title-lg">페스티벌을 찾을 수 없어요.</h2>
+        <p className="text-body text-muted">주소가 잘못되었거나 아직 준비 중인 페스티벌이에요.</p>
+        <Button render={<Link to="/" />} nativeButton={false}>홈으로 돌아가기</Button>
+      </div>
+    )
+  }
+
+  return (
+    <FestivalDetailLoaded
+      id={id}
+      festival={festival}
+      artists={artists}
+      playlistReady={playlistReady}
+    />
   )
 }
