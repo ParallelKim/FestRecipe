@@ -22,6 +22,8 @@ interface MyLineupPanelProps {
   onDismissBundleNotice?: () => void
   /** 시트 탭 등 상위에 제목이 있을 때 h4 중복 생략 */
   suppressTitle?: boolean
+  /** 배경화면 블록 (모바일 메인은 별도 섹션) */
+  showWallpaper?: boolean
 }
 
 function pickHint(festival: Festival): string {
@@ -48,6 +50,7 @@ export default function MyLineupPanel({
   onPlayYouTube,
   onDismissBundleNotice,
   suppressTitle = false,
+  showWallpaper = true,
 }: MyLineupPanelProps) {
   const [studioOpen, setStudioOpen] = useState(false)
   const artistMap = new Map(artists.map((a) => [a.id, a]))
@@ -115,72 +118,72 @@ export default function MyLineupPanel({
       <div className="my-lineup-panel__picked">
         <p className="my-lineup-panel__picked-label">
           {dayLabel} 담은 아티스트 <strong>{lineupOnDayIds.length}</strong>
-          {lineupOnDayIds.length > 0 && (
-            <span className="my-lineup-panel__picked-muted">
-              {' '}
-              · 대표곡 준비 {readyCount}/{lineupOnDayIds.length}팀
-            </span>
-          )}
+          <span className="my-lineup-panel__picked-muted">
+            {' '}
+            · 대표곡 준비 {readyCount}/{lineupOnDayIds.length || 0}팀
+          </span>
         </p>
-        {selectedOnDay.length === 0 ? (
-          <p className="my-lineup-panel__empty">
-            아직 담은 아티스트가 없어요. 라인업에서 ☆를 눌러 담아 보세요.
-          </p>
-        ) : (
-          <ul className="my-lineup-panel__chips">
-            {selectedOnDay.map((a) => (
-              <li key={a.id}>
-                <span className="my-lineup-chip is-on">
-                  <button
-                    type="button"
-                    className="my-lineup-chip__label"
-                    onClick={() => onSelectArtist?.(a.id)}
-                  >
-                    {officialArtistName(a)}
-                  </button>
-                  <button
-                    type="button"
-                    className="my-lineup-chip__remove"
-                    onClick={() => onToggleArtist(a.id)}
-                    aria-label={`${officialArtistName(a)} 빼기`}
-                  >
-                    <span aria-hidden="true">×</span>
-                  </button>
-                </span>
-              </li>
-            ))}
-          </ul>
-        )}
+        <div className="my-lineup-panel__chips-slot">
+          {selectedOnDay.length === 0 ? (
+            <p className="my-lineup-panel__empty">
+              아직 담은 아티스트가 없어요. ☆를 눌러 담아 보세요.
+            </p>
+          ) : (
+            <ul className="my-lineup-panel__chips">
+              {selectedOnDay.map((a) => (
+                <li key={a.id}>
+                  <span className="my-lineup-chip is-on">
+                    <button
+                      type="button"
+                      className="my-lineup-chip__label"
+                      onClick={() => onSelectArtist?.(a.id)}
+                    >
+                      {officialArtistName(a)}
+                    </button>
+                    <button
+                      type="button"
+                      className="my-lineup-chip__remove"
+                      onClick={() => onToggleArtist(a.id)}
+                      aria-label={`${officialArtistName(a)} 빼기`}
+                    >
+                      <span aria-hidden="true">×</span>
+                    </button>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
       </div>
 
-      {readyCount > 0 && (
-        <div className="my-lineup-panel__actions">
-          <Button
-            variant={suppressTitle ? 'outline' : 'default'}
-            className={`my-lineup-panel__btn${suppressTitle ? ' my-lineup-panel__btn--secondary' : ''}`}
-            disabled={bundleLoading}
-            onClick={onPlayYouTube}
-          >
-            {bundleLoading ? '여는 중…' : `${dayLabel} 대표곡 YouTube로`}
-          </Button>
-        </div>
+      <div className="my-lineup-panel__actions">
+        <Button
+          variant="outline"
+          className="my-lineup-panel__btn my-lineup-panel__btn--secondary"
+          disabled={readyCount === 0 || bundleLoading}
+          onClick={onPlayYouTube}
+        >
+          {bundleLoading ? '여는 중…' : `${dayLabel} 대표곡 YouTube로`}
+        </Button>
+      </div>
+
+      {showWallpaper && (
+        <>
+          <TimetableWallpaperEntry
+            festival={festival}
+            activeDay={activeDay}
+            onOpenStudio={() => setStudioOpen(true)}
+          />
+          <TimetableWallpaperStudio
+            open={studioOpen}
+            onClose={() => setStudioOpen(false)}
+            festival={festival}
+            activeDay={activeDay}
+            artists={artists}
+            myLineupIds={myLineupIds}
+          />
+        </>
       )}
-
-      <TimetableWallpaperEntry
-        festival={festival}
-        activeDay={activeDay}
-        onOpenStudio={() => setStudioOpen(true)}
-        collapsible={suppressTitle}
-      />
-
-      <TimetableWallpaperStudio
-        open={studioOpen}
-        onClose={() => setStudioOpen(false)}
-        festival={festival}
-        activeDay={activeDay}
-        artists={artists}
-        myLineupIds={myLineupIds}
-      />
     </div>
   )
 }

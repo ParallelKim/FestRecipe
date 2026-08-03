@@ -12,7 +12,7 @@ interface PlaylistHubActionsProps {
   bundleLoading: 'day' | 'festival' | 'custom' | null
   onOpenBundled: (kind: 'day' | 'festival', artistIds: string[], title: string) => void
   /** Compact row under day tabs (mobile-first) */
-  variant?: 'bar' | 'stack' | 'sheet'
+  variant?: 'bar' | 'stack' | 'sheet' | 'actions'
   showLabel?: boolean
   showMyPlaylist?: boolean
   onOpenMyPlaylist?: () => void

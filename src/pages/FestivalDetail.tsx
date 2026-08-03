@@ -11,6 +11,9 @@ import DayTabs from '../components/DayTabs'
 import ArtistPlaylistPanel from '../components/ArtistPlaylistPanel'
 import PlaylistMobileDock from '../components/PlaylistMobileDock'
 import PlaylistMobileHint from '../components/PlaylistMobileHint'
+import ArtistMobileSheet from '../components/ArtistMobileSheet'
+import WallpaperMobileSection from '../components/WallpaperMobileSection'
+import MyLineupPanel from '../components/MyLineupPanel'
 import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
 import { headlinerArtistIds } from '../lib/headliners'
 import { officialArtistName } from '../lib/artistOfficialName'
@@ -44,10 +47,9 @@ export default function FestivalDetail() {
   const [artistPlaylist, setArtistPlaylist] = useState<ArtistPlaylist | null>(null)
   const [playlistLoading, setPlaylistLoading] = useState(false)
   const [bundleLoading, setBundleLoading] = useState<'day' | 'festival' | 'custom' | null>(null)
-  const [playlistSheetOpen, setPlaylistSheetOpen] = useState(false)
+  const [listenSheetOpen, setListenSheetOpen] = useState(false)
+  const [artistSheetOpen, setArtistSheetOpen] = useState(false)
   const [showMyLineupEditor, setShowMyLineupEditor] = useState(false)
-  const [sheetReturnView, setSheetReturnView] = useState<'hub' | 'lineup'>('hub')
-  const [lastSheetHubView, setLastSheetHubView] = useState<'hub' | 'lineup'>('hub')
   const [bundleNotice, setBundleNotice] = useState<BundledAnonymousPlaylist | null>(null)
 
   const myLineup = useMyLineup(id)
@@ -157,23 +159,22 @@ export default function FestivalDetail() {
     .map((artistId) => artistMap.get(artistId))
     .filter((a): a is Artist => !!a)
 
-  const openArtistInSheet = (artistId: string, returnView: 'hub' | 'lineup') => {
+  const openArtistInSheet = (artistId: string) => {
     const artist = artistMap.get(artistId)
     if (!artist) return
-    setSheetReturnView(returnView)
     setSelectedArtist(artist)
-    setShowMyLineupEditor(false)
+    setListenSheetOpen(false)
+    setArtistSheetOpen(true)
     setBundleNotice(null)
-    setPlaylistSheetOpen(true)
     blurAfterTap(document.activeElement)
   }
 
   const handleArtistSelect = (artistId: string) => {
-    openArtistInSheet(artistId, 'hub')
+    openArtistInSheet(artistId)
   }
 
   const handleArtistSelectFromLineup = (artistId: string) => {
-    openArtistInSheet(artistId, 'lineup')
+    openArtistInSheet(artistId)
   }
 
   const clearSelectedArtist = () => {
@@ -181,30 +182,36 @@ export default function FestivalDetail() {
     setBundleNotice(null)
   }
 
-  const backFromArtistInSheet = () => {
+  const closeArtistSheet = () => {
     clearSelectedArtist()
-    setShowMyLineupEditor(sheetReturnView === 'lineup')
+    setArtistSheetOpen(false)
   }
 
-  const openMyLineupFromArtistCard = () => {
-    clearSelectedArtist()
-    setSheetReturnView('lineup')
+  const openMyLineupEditor = () => {
     setShowMyLineupEditor(true)
-    setPlaylistSheetOpen(true)
   }
 
-  const switchSheetToHub = () => {
-    clearSelectedArtist()
+  const scrollToMyLineupMobile = () => {
+    closeArtistSheet()
+    requestAnimationFrame(() => {
+      document.getElementById('my-lineup-mobile')?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      })
+    })
+  }
+
+  const openListenSheet = () => {
+    setSelectedArtist(null)
     setShowMyLineupEditor(false)
     setBundleNotice(null)
-    setLastSheetHubView('hub')
+    setArtistSheetOpen(false)
+    setListenSheetOpen(true)
   }
 
-  const switchSheetToLineup = () => {
-    clearSelectedArtist()
-    setShowMyLineupEditor(true)
+  const closeListenSheet = () => {
+    setListenSheetOpen(false)
     setBundleNotice(null)
-    setLastSheetHubView('lineup')
   }
 
   const changeDay = (idx: number) => {
@@ -212,7 +219,8 @@ export default function FestivalDetail() {
     setSelectedArtist(null)
     setShowMyLineupEditor(false)
     setBundleNotice(null)
-    setPlaylistSheetOpen(false)
+    setListenSheetOpen(false)
+    setArtistSheetOpen(false)
   }
 
   const openBundledPlaylist = async (
@@ -245,7 +253,8 @@ export default function FestivalDetail() {
       if (bundle.downgraded || bundle.truncated || bundle.thinCoverage) {
         setBundleNotice(bundle)
         setSelectedArtist(null)
-        setPlaylistSheetOpen(true)
+        setArtistSheetOpen(false)
+        setListenSheetOpen(true)
       } else {
         setBundleNotice(null)
       }
@@ -264,41 +273,6 @@ export default function FestivalDetail() {
         return acc
       }, 0)
 
-  const openPlaylistHub = () => {
-    setSelectedArtist(null)
-    setShowMyLineupEditor(false)
-    setBundleNotice(null)
-    setLastSheetHubView('hub')
-    setPlaylistSheetOpen(true)
-  }
-
-  const openMyLineupEditor = () => {
-    setSelectedArtist(null)
-    setBundleNotice(null)
-    setShowMyLineupEditor(true)
-    setLastSheetHubView('lineup')
-    setPlaylistSheetOpen(true)
-  }
-
-  const openPlaylistSheetFromFab = () => {
-    if (lastSheetHubView === 'lineup') {
-      openMyLineupEditor()
-    } else {
-      openPlaylistHub()
-    }
-  }
-
-  const closePlaylistSheet = () => {
-    if (selectedArtist) {
-      setLastSheetHubView(sheetReturnView)
-    } else {
-      setLastSheetHubView(showMyLineupEditor ? 'lineup' : 'hub')
-    }
-    setPlaylistSheetOpen(false)
-    setShowMyLineupEditor(false)
-    setBundleNotice(null)
-  }
-
   const openMyLineupPlaylist = async () => {
     const onDayIds = filterMyLineupForDay(myLineup.artistIds, activeDay)
     const ids = onDayIds.filter((aid) => playlistReady.has(aid))
@@ -309,7 +283,6 @@ export default function FestivalDetail() {
         ? orderArtistIdsForDayBundle(ids, activeDay.slots)
         : orderArtistIdsForFestivalBundle(ids, festival.lineup)
     setBundleLoading('custom')
-    setShowMyLineupEditor(true)
     try {
       const playlists = await Promise.all(
         orderedIds.map((aid) => FestivalService.getPlaylistForArtist(aid)),
@@ -324,7 +297,8 @@ export default function FestivalDetail() {
       if (bundle.downgraded || bundle.truncated || bundle.thinCoverage) {
         setBundleNotice(bundle)
         setSelectedArtist(null)
-        setPlaylistSheetOpen(true)
+        setArtistSheetOpen(false)
+        setListenSheetOpen(true)
       } else {
         setBundleNotice(null)
       }
@@ -359,7 +333,6 @@ export default function FestivalDetail() {
     onPlayMyLineup: openMyLineupPlaylist,
     onToggleMyLineupFromArtist: myLineup.toggle,
     onSelectArtistFromLineup: handleArtistSelectFromLineup,
-    onOpenMyLineupFromArtist: openMyLineupFromArtistCard,
     onBackFromMyLineup: () => setShowMyLineupEditor(false),
     isInMyLineup: myLineup.has,
     bundleNotice,
@@ -571,6 +544,37 @@ export default function FestivalDetail() {
                 </div>
               </div>
             )}
+            <div className="festival-mobile-blocks">
+              <WallpaperMobileSection
+                festival={festival}
+                activeDay={activeDay}
+                artists={artists}
+                myLineupIds={myLineup.artistIds}
+              />
+              <section id="my-lineup-mobile" className="festival-mobile-block">
+                <MyLineupPanel
+                  festival={festival}
+                  activeDay={activeDay}
+                  artists={artists}
+                  myLineupIds={myLineup.artistIds}
+                  playlistReady={playlistReady}
+                  bundleLoading={bundleLoading === 'custom'}
+                  bundleNotice={bundleNotice}
+                  onToggleArtist={myLineup.toggle}
+                  onSelectArtist={handleArtistSelectFromLineup}
+                  onClear={() => {
+                    const onDay = artistIdsOnDay(activeDay)
+                    if (onDay.size === 0) return
+                    myLineup.setArtistIds(
+                      myLineup.artistIds.filter((id) => !onDay.has(id)),
+                    )
+                  }}
+                  onPlayYouTube={openMyLineupPlaylist}
+                  onDismissBundleNotice={() => setBundleNotice(null)}
+                  showWallpaper={false}
+                />
+              </section>
+            </div>
           </div>
 
           <aside className="festival-aside festival-aside--desktop">
@@ -584,14 +588,37 @@ export default function FestivalDetail() {
       </section>
 
       <PlaylistMobileDock
-        open={playlistSheetOpen}
-        onOpen={openPlaylistSheetFromFab}
-        onClose={closePlaylistSheet}
-        onBackFromArtist={backFromArtistInSheet}
-        onSwitchSheetHub={switchSheetToHub}
-        onSwitchSheetLineup={switchSheetToLineup}
-        sheetReturnView={sheetReturnView}
-        {...panelProps}
+        listenOpen={listenSheetOpen}
+        onListenOpen={openListenSheet}
+        onListenClose={closeListenSheet}
+        anySheetOpen={listenSheetOpen || artistSheetOpen}
+        festival={festival}
+        activeDay={activeDay}
+        playlistReady={playlistReady}
+        bundleLoading={bundleLoading}
+        myLineupCount={myLineupOnDayCount}
+        onOpenBundled={openBundledPlaylist}
+        onPlayMyLineup={openMyLineupPlaylist}
+        bundleNotice={bundleNotice}
+        onDismissBundleNotice={() => setBundleNotice(null)}
+      />
+
+      <ArtistMobileSheet
+        open={artistSheetOpen && !!selectedArtist}
+        onClose={closeArtistSheet}
+        onScrollToMyLineup={scrollToMyLineupMobile}
+        myLineupCount={myLineupOnDayCount}
+        festival={festival}
+        activeDay={activeDay}
+        artists={artists}
+        selectedArtist={selectedArtist}
+        artistPlaylist={artistPlaylist || null}
+        playlistLoading={playlistLoading}
+        playlistReady={playlistReady}
+        bundleLoading={bundleLoading}
+        headlinerIds={headlinerArtistIds(activeDay?.slots)}
+        onToggleMyLineupFromArtist={myLineup.toggle}
+        isInMyLineup={myLineup.has}
       />
     </div>
   )
