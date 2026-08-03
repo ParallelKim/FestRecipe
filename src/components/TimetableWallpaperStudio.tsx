@@ -454,10 +454,13 @@ export function TimetableWallpaperEntry({
   festival,
   activeDay,
   onOpenStudio,
+  collapsible = false,
 }: {
   festival: Festival
   activeDay?: DayLineup
   onOpenStudio: () => void
+  /** 시트 내에서는 접이식으로 보조 과업만 노출 */
+  collapsible?: boolean
 }) {
   const canUse =
     festival.lineupStage === 'stage3_timetable' &&
@@ -465,6 +468,7 @@ export function TimetableWallpaperEntry({
     !!activeDay.stages?.length
 
   if (!canUse) {
+    if (collapsible) return null
     return (
       <div className="wallpaper-entry wallpaper-entry--disabled">
         <h5 className="wallpaper-entry__title">배경화면 타임테이블</h5>
@@ -472,6 +476,22 @@ export function TimetableWallpaperEntry({
           타임테이블이 공개되면 그날의 화면을 배경화면으로 저장할 수 있어요.
         </p>
       </div>
+    )
+  }
+
+  if (collapsible) {
+    return (
+      <details className="wallpaper-entry wallpaper-entry--collapsible">
+        <summary className="wallpaper-entry__summary">배경화면 타임테이블</summary>
+        <div className="wallpaper-entry__body">
+          <p className="wallpaper-entry__hint">
+            화면 비율에 맞춰 타임테이블을 이미지로 저장해요. 위젯·시계에 가리지 않는 위치에 두고, 페스티벌명과 날짜는 편집에서 켤 수 있어요.
+          </p>
+          <Button variant="outline" className="wallpaper-entry__btn" onClick={onOpenStudio}>
+            배경화면 편집
+          </Button>
+        </div>
+      </details>
     )
   }
 

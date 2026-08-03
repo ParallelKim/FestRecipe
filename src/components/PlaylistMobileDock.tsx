@@ -6,7 +6,6 @@ import {
   Sheet,
   SheetContent,
   SheetTitle,
-  SheetTrigger,
 } from '@/components/ui/sheet'
 
 interface PlaylistMobileDockProps {
@@ -67,12 +66,15 @@ export default function PlaylistMobileDock({
   const contentRef = useRef<HTMLDivElement>(null)
   const selectedArtistId = selectedArtist?.id
 
-  const fabTitle =
-    myLineupCount > 0
+  const fabTitle = open
+    ? '듣기 패널 닫기'
+    : myLineupCount > 0
       ? `내 라인업 ${myLineupCount} · 대표곡 듣기`
       : '대표곡 듣기'
 
-  const fabLabel = myLineupCount > 0 ? `듣기 · ${myLineupCount}` : '듣기'
+  const fabLabel = open ? '닫기' : myLineupCount > 0 ? `듣기 · ${myLineupCount}` : '듣기'
+
+  const toggleSheet = () => (open ? onClose() : onOpen())
 
   // 시트 오픈·아티스트 전환 시 스크롤을 맨 위로 — 이전 위치 잔류로 인한 어색함 제거
   useEffect(() => {
@@ -82,17 +84,28 @@ export default function PlaylistMobileDock({
 
   return (
     <div className="playlist-dock">
-      <Sheet open={open} onOpenChange={(next) => (next ? onOpen() : onClose())}>
-        <SheetTrigger
-          render={
-            <button
-              type="button"
-              className={`playlist-fab${open ? ' is-open' : ''}`}
-              aria-label={fabTitle}
-              title={fabTitle}
+      <button
+        type="button"
+        className={`playlist-fab${open ? ' is-open' : ''}`}
+        aria-label={fabTitle}
+        aria-expanded={open}
+        onClick={toggleSheet}
+      >
+        {open ? (
+          <svg
+            className="playlist-fab__glyph"
+            viewBox="0 0 24 24"
+            width="22"
+            height="22"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              fill="currentColor"
+              d="M7.5 14.5 12 10l4.5 4.5H7.5z"
             />
-          }
-        >
+          </svg>
+        ) : (
           <svg
             className="playlist-fab__glyph"
             viewBox="0 0 24 24"
@@ -111,8 +124,11 @@ export default function PlaylistMobileDock({
               d="M20.7 5c.1 2.4 1.6 3.6 3.1 4v1.9c-2-.6-3.8-2.1-4.6-4.4V5h1.5z"
             />
           </svg>
-          <span className="playlist-fab__label">{fabLabel}</span>
-        </SheetTrigger>
+        )}
+        <span className="playlist-fab__label">{fabLabel}</span>
+      </button>
+
+      <Sheet open={open} onOpenChange={(next) => (next ? onOpen() : onClose())}>
 
         <SheetContent
           ref={contentRef}

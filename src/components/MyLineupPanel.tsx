@@ -153,20 +153,24 @@ export default function MyLineupPanel({
         )}
       </div>
 
-      <div className="my-lineup-panel__actions">
-        <Button
-          className="my-lineup-panel__btn"
-          disabled={readyCount === 0 || bundleLoading}
-          onClick={onPlayYouTube}
-        >
-          {bundleLoading ? '여는 중…' : `${dayLabel} 대표곡 듣기`}
-        </Button>
-      </div>
+      {readyCount > 0 && (
+        <div className="my-lineup-panel__actions">
+          <Button
+            variant={suppressTitle ? 'outline' : 'default'}
+            className={`my-lineup-panel__btn${suppressTitle ? ' my-lineup-panel__btn--secondary' : ''}`}
+            disabled={bundleLoading}
+            onClick={onPlayYouTube}
+          >
+            {bundleLoading ? '여는 중…' : `${dayLabel} 대표곡 YouTube로`}
+          </Button>
+        </div>
+      )}
 
       <TimetableWallpaperEntry
         festival={festival}
         activeDay={activeDay}
         onOpenStudio={() => setStudioOpen(true)}
+        collapsible={suppressTitle}
       />
 
       <TimetableWallpaperStudio
