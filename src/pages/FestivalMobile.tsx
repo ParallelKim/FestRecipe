@@ -4,14 +4,14 @@ import { FestivalService } from '../services/festivals'
 import type { Festival, Artist } from '../types'
 import FestivalHelmet from '../components/seo/FestivalHelmet'
 import LoadingState from '../components/LoadingState'
-import FestivalMobileExperience from '../components/festival-mobile/FestivalMobileExperience'
+import FmNextApp from '../features/fm-next/FmNextApp'
 import { buildFestivalMapUrl } from '../lib/festivalLinks'
 import { festivalLineupHighlightFallback } from '../lib/stageTheme'
 import { artistIdsOnDay } from '../lib/lineupDay'
 import { useMyLineup } from '../hooks/useMyLineup'
 import { useFestivalPlaylistActions } from '../hooks/useFestivalPlaylistActions'
 import { Button } from '@/components/ui/button'
-import '../components/festival-mobile/festival-mobile.css'
+import '../features/fm-next/fm-next.css'
 
 function formatDateRange(start: string, end: string): string {
   const fmt = (iso: string) => {
@@ -26,19 +26,15 @@ interface FestivalMobileLoadedProps {
   festival: Festival
   artists: Artist[]
   playlistReady: Set<string>
-  activeDayIndex: number
-  onDayChange: (index: number) => void
 }
 
-/** 데이터 로드 후 마운트 — 훅 순서가 항상 동일해야 함 */
 function FestivalMobileLoaded({
   id,
   festival,
   artists,
   playlistReady,
-  activeDayIndex,
-  onDayChange,
 }: FestivalMobileLoadedProps) {
+  const [activeDayIndex, setActiveDayIndex] = useState(0)
   const myLineup = useMyLineup(id)
   const activeDay = festival.lineup[activeDayIndex]
   const mapUrl = buildFestivalMapUrl(festival)
@@ -78,7 +74,7 @@ function FestivalMobileLoaded({
 
   return (
     <div
-      className="fm-page"
+      className="fm2-page"
       style={{ ['--festival-lineup-bg' as string]: festivalLineupBg }}
     >
       <FestivalHelmet
@@ -91,23 +87,23 @@ function FestivalMobileLoaded({
         artistCount={artistCount}
       />
 
-      <p className="fm-page__desktop-hint">
+      <p className="fm2-page__desktop-hint">
         모바일에 맞춘 화면이에요. 넓은 화면에서는{' '}
         <Link to={`/festival/${id}`}>기존 페스티벌 화면</Link>을 써 보세요.
       </p>
 
-      <header className="fm-page__header">
-        <div className="fm-page__header-row">
-          <Link to="/" className="fm-page__back">← 목록</Link>
-          <Link to={`/festival/${id}`} className="fm-page__classic">기존 화면</Link>
+      <header className="fm2-page__header">
+        <div className="fm2-page__header-row">
+          <Link to="/" className="fm2-page__back">← 목록</Link>
+          <Link to={`/festival/${id}`} className="fm2-page__classic">기존 화면</Link>
         </div>
-        <div className="fm-page__brand">
+        <div className="fm2-page__brand">
           {festival.logoUrl && (
-            <img src={festival.logoUrl} alt="" className="fm-page__mark" />
+            <img src={festival.logoUrl} alt="" className="fm2-page__mark" />
           )}
-          <div className="fm-page__copy">
-            <h1 className="fm-page__title">{festival.name}</h1>
-            <p className="fm-page__meta">
+          <div>
+            <h1 className="fm2-page__title">{festival.name}</h1>
+            <p className="fm2-page__meta">
               {formatDateRange(festival.startDate, festival.endDate)}
               <span aria-hidden="true"> · </span>
               {mapUrl ? (
@@ -122,29 +118,28 @@ function FestivalMobileLoaded({
         </div>
       </header>
 
-      <FestivalMobileExperience
-        standalone
-        festival={festival}
-        artists={artists}
-        activeDayIndex={activeDayIndex}
-        onDayChange={onDayChange}
-        playlistReady={playlistReady}
-        bundleLoading={bundleLoading}
-        bundleNotice={bundleNotice}
-        onOpenBundled={openBundledPlaylist}
-        onPlayMyLineup={openMyLineupPlaylist}
-        onDismissBundleNotice={dismissBundleNotice}
-        myLineupIds={myLineup.artistIds}
-        onToggleLineup={myLineup.toggle}
-        onClearLineupOnDay={clearMyLineupOnDay}
-      />
+      <div className="fm2-page__body">
+        <FmNextApp
+          festival={festival}
+          artists={artists}
+          activeDayIndex={activeDayIndex}
+          onDayChange={setActiveDayIndex}
+          playlistReady={playlistReady}
+          myLineupIds={myLineup.artistIds}
+          onToggleLineup={myLineup.toggle}
+          onClearLineupOnDay={clearMyLineupOnDay}
+          bundleLoading={bundleLoading}
+          bundleNotice={bundleNotice}
+          onDismissBundleNotice={dismissBundleNotice}
+          onOpenBundled={openBundledPlaylist}
+          onOpenLineupPlaylist={openMyLineupPlaylist}
+        />
+      </div>
     </div>
   )
 }
 
-/**
- * 모바일 전용 페스티벌 상세 — `/festival/:id/m`
- */
+/** `/festival/:id/m` — 신 모바일 UI (레거시 허브 컴포넌트 미사용) */
 export default function FestivalMobile() {
   const { id } = useParams<{ id: string }>()
 
@@ -153,7 +148,6 @@ export default function FestivalMobile() {
   const [playlistReady, setPlaylistReady] = useState<Set<string>>(new Set())
   const [loading, setLoading] = useState(true)
   const [loadError, setLoadError] = useState(false)
-  const [activeDayIndex, setActiveDayIndex] = useState(0)
 
   useEffect(() => {
     let active = true
@@ -192,7 +186,7 @@ export default function FestivalMobile() {
 
   useEffect(() => {
     if (!festival) return
-    const day = festival.lineup[activeDayIndex]
+    const day = festival.lineup[0]
     const ids =
       festival.lineupStage === 'stage1_all'
         ? festival.allArtists
@@ -204,7 +198,7 @@ export default function FestivalMobile() {
     const cancel = window.cancelIdleCallback ?? window.clearTimeout
     const handle = schedule(() => FestivalService.prefetchPlaylists(ids))
     return () => cancel(handle as number)
-  }, [festival, activeDayIndex])
+  }, [festival])
 
   if (loading) {
     return <LoadingState label="페스티벌 정보를 불러오는 중…" minHeight="100vh" />
@@ -230,8 +224,6 @@ export default function FestivalMobile() {
       festival={festival}
       artists={artists}
       playlistReady={playlistReady}
-      activeDayIndex={activeDayIndex}
-      onDayChange={setActiveDayIndex}
     />
   )
 }
