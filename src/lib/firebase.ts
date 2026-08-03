@@ -1,5 +1,4 @@
 import { initializeApp } from 'firebase/app'
-import { getFirestore } from 'firebase/firestore'
 import { getAnalytics, isSupported, type Analytics } from 'firebase/analytics'
 
 // Firebase 설정 — 환경 변수로 관리 (.env.local)
@@ -13,8 +12,7 @@ const firebaseConfig = {
   measurementId:     import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 }
 
-export const app = initializeApp(firebaseConfig)
-export const db  = getFirestore(app)
+const app = initializeApp(firebaseConfig)
 
 let analyticsInstance: Analytics | null = null
 let analyticsReady: Promise<Analytics | null> | null = null

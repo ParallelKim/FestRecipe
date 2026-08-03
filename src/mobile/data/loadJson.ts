@@ -1,6 +1,6 @@
 /** 원천 JSON fetch — FestivalService·types 미사용 */
 
-export async function fetchJson<T>(url: string): Promise<T | null> {
+async function fetchJson<T>(url: string): Promise<T | null> {
   try {
     const res = await fetch(url)
     if (!res.ok) return null

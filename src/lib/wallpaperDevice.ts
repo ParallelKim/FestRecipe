@@ -83,7 +83,7 @@ export const WALLPAPER_PRESET_PROFILES: WallpaperProfile[] = [
  * CSS 뷰포트·DPR 기반 이 기기 추정.
  * screen이 이미 물리 픽셀로 보고되는 브라우저(일부 Android)는 dpr을 한 번만 쓴다.
  */
-export function detectDeviceWallpaperProfile(): WallpaperProfile {
+function detectDeviceWallpaperProfile(): WallpaperProfile {
   const rawW = window.screen.width || window.innerWidth
   const rawH = window.screen.height || window.innerHeight
   const cssW = Math.min(rawW, rawH)
