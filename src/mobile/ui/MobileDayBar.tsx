@@ -1,3 +1,5 @@
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
+
 interface MobileDayBarProps {
   days: { id: string; label: string }[]
   activeId: string
@@ -8,19 +10,26 @@ export default function MobileDayBar({ days, activeId, onChange }: MobileDayBarP
   if (days.length <= 1) return null
 
   return (
-    <div className="m-daybar" role="tablist" aria-label="페스티벌 일자">
+    <ToggleGroup
+      value={[activeId]}
+      onValueChange={(values) => {
+        const next = values[0]
+        if (next) onChange(next)
+      }}
+      variant="outline"
+      spacing={2}
+      className="flex flex-wrap gap-2"
+      aria-label="페스티벌 일자"
+    >
       {days.map((day) => (
-        <button
+        <ToggleGroupItem
           key={day.id}
-          type="button"
-          role="tab"
-          aria-selected={day.id === activeId}
-          className={`m-daybar__btn${day.id === activeId ? ' is-active' : ''}`}
-          onClick={() => onChange(day.id)}
+          value={day.id}
+          className="rounded-full px-3.5 py-2 text-[13px] font-bold data-[state=on]:border-primary data-[state=on]:bg-primary data-[state=on]:text-primary-foreground"
         >
           {day.label}
-        </button>
+        </ToggleGroupItem>
       ))}
-    </div>
+    </ToggleGroup>
   )
 }

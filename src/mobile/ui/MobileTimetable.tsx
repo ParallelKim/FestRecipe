@@ -41,7 +41,11 @@ export default function MobileTimetable({
   const slots = day.slots
 
   if (!slots.length || !stageIds.length) {
-    return <p className="m-empty">타임테이블 정보가 없어요.</p>
+    return (
+      <p className="text-[13px] leading-relaxed text-muted-foreground">
+        타임테이블 정보가 없어요.
+      </p>
+    )
   }
 
   const slotMinutes = slots.map((s) => ({

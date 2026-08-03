@@ -173,8 +173,8 @@ export default function MobileApp({
       : (activeDay?.artistIds ?? [])
 
   return (
-    <div className="m-app has-bar">
-      <header className="m-header">
+    <div className="relative pb-[calc(56px+env(safe-area-inset-bottom))]">
+      <header className="border-b border-border bg-background px-4 py-3">
         <MobileDayBar
           days={festival.days}
           activeId={activeDayId}
@@ -182,7 +182,7 @@ export default function MobileApp({
         />
       </header>
 
-      <main className="m-main">
+      <main className="px-4 py-3 pb-4">
         {festival.layoutKind === 'timetable' && activeDay && activeDay.slots.length > 0 ? (
           <MobileTimetable
             day={activeDay}
