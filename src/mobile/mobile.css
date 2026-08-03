@@ -240,10 +240,13 @@
   font-weight: 700;
 }
 
-.m-menu__item-hint {
-  font-size: 11px;
-  color: var(--muted-foreground);
-  text-align: right;
+.m-menu__item[data-checked] .m-menu__item-label {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.m-sheet__empty {
+  margin-bottom: 8px;
 }
 
 .m-main {

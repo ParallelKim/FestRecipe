@@ -2,10 +2,15 @@ import { useCallback, useRef, useState } from 'react'
 
 export type ListenScope = 'day' | 'festival' | 'custom'
 
-export const LISTEN_SCOPE_LABEL: Record<ListenScope, string> = {
-  day: '이 날',
-  festival: '페스티벌 전체',
-  custom: '나만의 플레이리스트',
+export function listenScopeLabel(scope: ListenScope, dayLabel: string): string {
+  switch (scope) {
+    case 'day':
+      return dayLabel || '이 날'
+    case 'festival':
+      return '페스티벌 전체'
+    case 'custom':
+      return '나만의 플레이리스트'
+  }
 }
 
 /**

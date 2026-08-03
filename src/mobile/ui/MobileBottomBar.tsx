@@ -1,12 +1,13 @@
 import { Menu } from '@base-ui/react/menu'
 import { ChevronDownIcon, MoreVerticalIcon } from 'lucide-react'
 import {
-  LISTEN_SCOPE_LABEL,
+  listenScopeLabel,
   type ListenScope,
 } from '../hooks/useMobileListenScope'
 
 interface MobileBottomBarProps {
   scope: ListenScope
+  dayLabel: string
   onScopeChange: (scope: ListenScope) => void
   canPlay: boolean
   loading: boolean
@@ -36,6 +37,7 @@ function scopeReadyLabel(
 
 export default function MobileBottomBar({
   scope,
+  dayLabel,
   onScopeChange,
   canPlay,
   loading,
@@ -61,7 +63,7 @@ export default function MobileBottomBar({
           <span className="m-listen__primary">
             {loading ? '여는 중…' : '듣기'}
           </span>
-          <span className="m-listen__scope">{LISTEN_SCOPE_LABEL[scope]}</span>
+          <span className="m-listen__scope">{listenScopeLabel(scope, dayLabel)}</span>
         </button>
 
         <Menu.Root>
@@ -85,7 +87,7 @@ export default function MobileBottomBar({
                         className="m-menu__item"
                       >
                         <span className="m-menu__item-label">
-                          {LISTEN_SCOPE_LABEL[s]}
+                          {listenScopeLabel(s, dayLabel)}
                         </span>
                         <span className="m-menu__item-hint">
                           {scopeReadyLabel(s, dayReady, festivalReady, customReady)}
@@ -108,14 +110,14 @@ export default function MobileBottomBar({
             <Menu.Popup className="m-menu">
               <Menu.Item className="m-menu__item" onClick={onOpenLineup}>
                 <span className="m-menu__item-label">내 라인업</span>
-                <span className="m-menu__item-hint">이 날 담은 팀</span>
+                <span className="m-menu__item-hint">{dayLabel} 담은 팀</span>
               </Menu.Item>
               <Menu.Item
                 className="m-menu__item"
                 disabled={!canClearLineup}
                 onClick={onClearLineup}
               >
-                <span className="m-menu__item-label">이 날 비우기</span>
+                <span className="m-menu__item-label">{dayLabel} 비우기</span>
                 <span className="m-menu__item-hint">라인업에서 제거</span>
               </Menu.Item>
               {wallpaperAvailable && (

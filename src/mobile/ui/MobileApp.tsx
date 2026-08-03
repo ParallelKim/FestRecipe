@@ -209,6 +209,7 @@ export default function MobileApp({
 
       <MobileBottomBar
         scope={scope}
+        dayLabel={activeDay?.label ?? ''}
         onScopeChange={listenScope.pickScope}
         canPlay={canPlay}
         loading={scopeLoading}
@@ -236,6 +237,7 @@ export default function MobileApp({
 
       <MobileLineupSheet
         open={lineupSheetOpen}
+        dayLabel={activeDay?.label ?? ''}
         artistIds={lineupOnDayOrdered}
         artists={artistMap}
         playlistReady={playlistReady}

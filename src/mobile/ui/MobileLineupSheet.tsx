@@ -3,6 +3,7 @@ import { Sheet, SheetContent, SheetTitle } from '@/components/ui/sheet'
 
 interface MobileLineupSheetProps {
   open: boolean
+  dayLabel: string
   artistIds: string[]
   artists: Map<string, MobileArtistView>
   playlistReady: Set<string>
@@ -13,6 +14,7 @@ interface MobileLineupSheetProps {
 
 export default function MobileLineupSheet({
   open,
+  dayLabel,
   artistIds,
   artists,
   playlistReady,
@@ -35,7 +37,7 @@ export default function MobileLineupSheet({
         <h2 className="m-sheet__title">내 라인업</h2>
         {!empty && (
           <p className="m-sheet__meta">
-            이 날 · 대표곡 준비 {readyCount}/{artistIds.length}
+            {dayLabel} · 대표곡 준비 {readyCount}/{artistIds.length}
           </p>
         )}
 
