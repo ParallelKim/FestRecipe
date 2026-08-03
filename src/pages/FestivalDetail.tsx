@@ -9,7 +9,8 @@ import FestivalHelmet from '../components/seo/FestivalHelmet'
 import LoadingState from '../components/LoadingState'
 import DayTabs from '../components/DayTabs'
 import ArtistPlaylistPanel from '../components/ArtistPlaylistPanel'
-import PlaylistMobileBar from '../components/PlaylistMobileBar'
+import FestivalMobileTabBar from '../components/FestivalMobileTabBar'
+import FestivalListenMobilePanel from '../components/FestivalListenMobilePanel'
 import PlaylistMobileHint from '../components/PlaylistMobileHint'
 import ArtistMobileSheet from '../components/ArtistMobileSheet'
 import { buildWatchVideosUrl } from '../lib/youtubePlaylist'
@@ -45,8 +46,7 @@ export default function FestivalDetail() {
   const [artistPlaylist, setArtistPlaylist] = useState<ArtistPlaylist | null>(null)
   const [playlistLoading, setPlaylistLoading] = useState(false)
   const [bundleLoading, setBundleLoading] = useState<'day' | 'festival' | 'custom' | null>(null)
-  const [lineupSheetOpen, setLineupSheetOpen] = useState(false)
-  const [listenSheetOpen, setListenSheetOpen] = useState(false)
+  const [mobileFestivalTab, setMobileFestivalTab] = useState<'schedule' | 'listen'>('schedule')
   const [artistSheetOpen, setArtistSheetOpen] = useState(false)
   const [showMyLineupEditor, setShowMyLineupEditor] = useState(false)
   const [bundleNotice, setBundleNotice] = useState<BundledAnonymousPlaylist | null>(null)
@@ -162,7 +162,6 @@ export default function FestivalDetail() {
     const artist = artistMap.get(artistId)
     if (!artist) return
     setSelectedArtist(artist)
-    setListenSheetOpen(false)
     setArtistSheetOpen(true)
     setBundleNotice(null)
     blurAfterTap(document.activeElement)
@@ -190,48 +189,17 @@ export default function FestivalDetail() {
     setShowMyLineupEditor(true)
   }
 
-  const openLineupSheet = () => {
-    if (lineupSheetOpen) {
-      setLineupSheetOpen(false)
-      return
+  const changeMobileFestivalTab = (tab: 'schedule' | 'listen') => {
+    setMobileFestivalTab(tab)
+    if (tab === 'listen') {
+      setArtistSheetOpen(false)
+      setSelectedArtist(null)
     }
-    setSelectedArtist(null)
-    setShowMyLineupEditor(false)
-    setBundleNotice(null)
-    setArtistSheetOpen(false)
-    setListenSheetOpen(false)
-    setLineupSheetOpen(true)
   }
 
-  const closeLineupSheet = () => {
-    setLineupSheetOpen(false)
-  }
-
-  const openLineupSheetFromArtist = () => {
+  const openListenTabFromArtist = () => {
     closeArtistSheet()
-    requestAnimationFrame(() => {
-      setListenSheetOpen(false)
-      setLineupSheetOpen(true)
-    })
-  }
-
-  const openListenSheet = () => {
-    if (listenSheetOpen) {
-      setListenSheetOpen(false)
-      setBundleNotice(null)
-      return
-    }
-    setSelectedArtist(null)
-    setShowMyLineupEditor(false)
-    setBundleNotice(null)
-    setArtistSheetOpen(false)
-    setLineupSheetOpen(false)
-    setListenSheetOpen(true)
-  }
-
-  const closeListenSheet = () => {
-    setListenSheetOpen(false)
-    setBundleNotice(null)
+    requestAnimationFrame(() => setMobileFestivalTab('listen'))
   }
 
   const changeDay = (idx: number) => {
@@ -239,8 +207,6 @@ export default function FestivalDetail() {
     setSelectedArtist(null)
     setShowMyLineupEditor(false)
     setBundleNotice(null)
-    setLineupSheetOpen(false)
-    setListenSheetOpen(false)
     setArtistSheetOpen(false)
   }
 
@@ -275,8 +241,7 @@ export default function FestivalDetail() {
         setBundleNotice(bundle)
         setSelectedArtist(null)
         setArtistSheetOpen(false)
-        setLineupSheetOpen(false)
-        setListenSheetOpen(true)
+        setMobileFestivalTab('listen')
       } else {
         setBundleNotice(null)
       }
@@ -320,8 +285,7 @@ export default function FestivalDetail() {
         setBundleNotice(bundle)
         setSelectedArtist(null)
         setArtistSheetOpen(false)
-        setListenSheetOpen(false)
-        setLineupSheetOpen(true)
+        setMobileFestivalTab('listen')
       } else {
         setBundleNotice(null)
       }
@@ -336,6 +300,24 @@ export default function FestivalDetail() {
     const onDay = artistIdsOnDay(activeDay)
     if (onDay.size === 0) return
     myLineup.setArtistIds(myLineup.artistIds.filter((id) => !onDay.has(id)))
+  }
+
+  const listenPanelProps = {
+    festival,
+    activeDayIndex,
+    onDayChange: changeDay,
+    activeDay,
+    artists,
+    myLineupIds: myLineup.artistIds,
+    playlistReady,
+    bundleLoading,
+    bundleNotice,
+    onOpenBundled: openBundledPlaylist,
+    onToggleArtist: myLineup.toggle,
+    onSelectArtist: handleArtistSelectFromLineup,
+    onClear: clearMyLineupOnDay,
+    onPlayYouTube: openMyLineupPlaylist,
+    onDismissBundleNotice: () => setBundleNotice(null),
   }
 
   const panelProps = {
@@ -469,13 +451,14 @@ export default function FestivalDetail() {
 
       <section className="festival-body">
         <div className="container festival-layout">
-          <div className="festival-main">
+          <div className={`festival-main festival-main--tab-${mobileFestivalTab}`}>
             {festival.lineupStage === 'stage1_all' && (
-              <div className="lineup-block">
-                <PlaylistMobileHint festival={festival} />
-                <h3>공개된 아티스트 라인업 ({stage1Artists.length}팀)</h3>
-                <p>아티스트를 눌러 대표곡을 들어 보세요. ☆로 내 라인업에 담을 수 있어요.</p>
-                <div className="artist-chip-row">
+              <>
+                <div className="festival-mobile-schedule-panel lineup-block">
+                  <PlaylistMobileHint festival={festival} />
+                  <h3>공개된 아티스트 라인업 ({stage1Artists.length}팀)</h3>
+                  <p>아티스트를 눌러 대표곡을 들어 보세요. ☆로 내 라인업에 담을 수 있어요.</p>
+                  <div className="artist-chip-row">
                   {stage1Artists.map((artist) => {
                     const isSelected = selectedArtist?.id === artist.id
                     const ready = playlistReady.has(artist.id)
@@ -503,11 +486,14 @@ export default function FestivalDetail() {
                     )
                   })}
                 </div>
-              </div>
+                </div>
+                <FestivalListenMobilePanel {...listenPanelProps} />
+              </>
             )}
 
             {festival.lineupStage === 'stage2_daily' && (
-              <div>
+              <>
+                <div className="festival-mobile-schedule-panel">
                 <DayTabs
                   days={festival.lineup}
                   activeIndex={activeDayIndex}
@@ -547,11 +533,14 @@ export default function FestivalDetail() {
                     )
                   })}
                 </div>
-              </div>
+                </div>
+                <FestivalListenMobilePanel {...listenPanelProps} />
+              </>
             )}
 
             {festival.lineupStage === 'stage3_timetable' && (
-              <div>
+              <>
+                <div className="festival-mobile-schedule-panel">
                 <DayTabs
                   days={festival.lineup}
                   activeIndex={activeDayIndex}
@@ -571,7 +560,9 @@ export default function FestivalDetail() {
                     onToggleMyLineup={myLineup.toggle}
                   />
                 </div>
-              </div>
+                </div>
+                <FestivalListenMobilePanel {...listenPanelProps} />
+              </>
             )}
           </div>
 
@@ -585,34 +576,18 @@ export default function FestivalDetail() {
         </div>
       </section>
 
-      <PlaylistMobileBar
-        lineupOpen={lineupSheetOpen}
-        onLineupOpen={openLineupSheet}
-        onLineupClose={closeLineupSheet}
-        listenOpen={listenSheetOpen}
-        onListenOpen={openListenSheet}
-        onListenClose={closeListenSheet}
-        barHidden={artistSheetOpen || listenSheetOpen || lineupSheetOpen}
-        festival={festival}
-        activeDay={activeDay}
-        artists={artists}
-        myLineupIds={myLineup.artistIds}
-        playlistReady={playlistReady}
-        bundleLoading={bundleLoading}
-        myLineupCount={myLineupOnDayCount}
-        onOpenBundled={openBundledPlaylist}
-        onPlayMyLineup={openMyLineupPlaylist}
-        onToggleMyLineup={myLineup.toggle}
-        onSelectArtistFromLineup={handleArtistSelectFromLineup}
-        onClearMyLineup={clearMyLineupOnDay}
-        bundleNotice={bundleNotice}
-        onDismissBundleNotice={() => setBundleNotice(null)}
+      <FestivalMobileTabBar
+        active={mobileFestivalTab}
+        onChange={changeMobileFestivalTab}
+        hidden={artistSheetOpen}
+        lineupCount={myLineupOnDayCount}
+        dayLabel={activeDay?.dayLabel}
       />
 
       <ArtistMobileSheet
         open={artistSheetOpen && !!selectedArtist}
         onClose={closeArtistSheet}
-        onOpenMyLineup={openLineupSheetFromArtist}
+        onOpenMyLineup={openListenTabFromArtist}
         myLineupCount={myLineupOnDayCount}
         festival={festival}
         activeDay={activeDay}

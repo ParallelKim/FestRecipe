@@ -721,16 +721,27 @@ body {
   .festival-main {
     padding-bottom: calc(64px + env(safe-area-inset-bottom));
   }
+  .festival-main--tab-schedule .festival-mobile-listen-panel {
+    display: none;
+  }
+  .festival-main--tab-listen .festival-mobile-schedule-panel {
+    display: none;
+  }
 }
-.playlist-mobile-bar-root {
+@media (min-width: 900px) {
+  .festival-mobile-listen-panel {
+    display: none;
+  }
+}
+.festival-mobile-tab-bar-root {
   display: none;
 }
 @media (max-width: 899px) {
-  .playlist-mobile-bar-root {
+  .festival-mobile-tab-bar-root {
     display: block;
   }
 }
-.playlist-mobile-bar {
+.festival-mobile-tab-bar {
   position: fixed;
   left: 0;
   right: 0;
@@ -744,7 +755,7 @@ body {
   background: #fff;
   box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.06);
 }
-.playlist-mobile-bar__btn {
+.festival-mobile-tab-bar__btn {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -760,20 +771,29 @@ body {
   font: inherit;
   text-align: center;
 }
-.playlist-mobile-bar__btn.is-active {
+.festival-mobile-tab-bar__btn.is-active {
   background: color-mix(in srgb, var(--color-ink) 8%, #fff);
   outline: 2px solid var(--color-ink);
   outline-offset: -2px;
 }
-.playlist-mobile-bar__label {
+.festival-mobile-tab-bar__label {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.2;
 }
-.playlist-mobile-bar__meta {
+.festival-mobile-tab-bar__meta {
   font-size: 11px;
   line-height: 1.3;
   color: var(--muted-foreground);
+}
+.festival-mobile-listen-panel__intro {
+  margin: 0 0 16px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--muted-foreground);
+}
+.festival-mobile-listen-panel .playlist-hub {
+  margin-bottom: 16px;
 }
 .wallpaper-mobile-embedded {
   margin-top: 16px;
