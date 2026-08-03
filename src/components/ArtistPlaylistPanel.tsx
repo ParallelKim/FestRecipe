@@ -276,6 +276,7 @@ export default function ArtistPlaylistPanel({
           onClear={onClearMyLineup}
           onPlayYouTube={onPlayMyLineup}
           onDismissBundleNotice={onDismissBundleNotice}
+          suppressTitle={hideArtistNavBar}
         />
         </>
       ) : !notice ? (

@@ -20,6 +20,8 @@ interface MyLineupPanelProps {
   onClear: () => void
   onPlayYouTube: () => void
   onDismissBundleNotice?: () => void
+  /** 시트 탭 등 상위에 제목이 있을 때 h4 중복 생략 */
+  suppressTitle?: boolean
 }
 
 function pickHint(festival: Festival): string {
@@ -45,6 +47,7 @@ export default function MyLineupPanel({
   onClear,
   onPlayYouTube,
   onDismissBundleNotice,
+  suppressTitle = false,
 }: MyLineupPanelProps) {
   const [studioOpen, setStudioOpen] = useState(false)
   const artistMap = new Map(artists.map((a) => [a.id, a]))
@@ -63,11 +66,20 @@ export default function MyLineupPanel({
   const dayLabel = activeDay?.dayLabel ?? '라인업'
 
   return (
-    <div className="my-lineup-panel">
+    <div
+      className={`my-lineup-panel${suppressTitle ? ' my-lineup-panel--embedded' : ''}`}
+      aria-label={suppressTitle ? '내 라인업' : undefined}
+    >
       <div className="my-lineup-panel__head">
         <div>
-          <h4 className="my-lineup-panel__title">내 라인업</h4>
-          <p className="my-lineup-panel__lede">{pickHint(festival)}</p>
+          {suppressTitle ? (
+            <p className="my-lineup-panel__lede">{pickHint(festival)}</p>
+          ) : (
+            <>
+              <h4 className="my-lineup-panel__title">내 라인업</h4>
+              <p className="my-lineup-panel__lede">{pickHint(festival)}</p>
+            </>
+          )}
         </div>
         <button
           type="button"
