@@ -635,9 +635,9 @@ body {
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(12, 14, 18, 0.62) 0%,
-    rgba(12, 14, 18, 0.28) 42%,
-    rgba(12, 14, 18, 0.82) 100%
+    rgba(8, 10, 14, 0.78) 0%,
+    rgba(8, 10, 14, 0.52) 38%,
+    rgba(8, 10, 14, 0.92) 100%
   );
 }
 .mobile-festival-hero__content {
@@ -705,7 +705,7 @@ body {
   line-height: 1.25;
   letter-spacing: -0.01em;
   word-break: keep-all;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.55);
 }
 .mobile-festival-hero--flat .mobile-festival-hero__title {
   text-shadow: none;
@@ -717,8 +717,8 @@ body {
   font-weight: 600;
   line-height: 1.4;
   word-break: keep-all;
-  color: rgba(255, 255, 255, 0.95);
-  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.96);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
 }
 .mobile-festival-hero--flat .mobile-festival-hero__tagline {
   text-shadow: none;
@@ -728,7 +728,7 @@ body {
   max-width: 40ch;
   font-size: 13px;
   line-height: 1.55;
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.88);
 }
 .mobile-festival-hero--flat .mobile-festival-hero__desc {
   opacity: 0.9;
@@ -739,7 +739,7 @@ body {
   gap: 10px 16px;
   font-size: 12px;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.9);
 }
 .mobile-festival-hero--flat .mobile-festival-hero__meta {
   font-size: 13px;
