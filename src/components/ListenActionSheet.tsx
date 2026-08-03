@@ -16,14 +16,12 @@ interface ListenActionSheetProps {
   activeDay?: DayLineup
   playlistReady: Set<string>
   bundleLoading: 'day' | 'festival' | 'custom' | null
-  myLineupCount?: number
   onOpenBundled: (kind: 'day' | 'festival', artistIds: string[], title: string) => void
-  onPlayMyLineup?: () => void
   bundleNotice?: BundledAnonymousPlaylist | null
   onDismissBundleNotice?: () => void
 }
 
-/** FAB → 짧은 액션 시트 (날짜·전체·라인업 듣기). 탭·내비 없음. */
+/** 하단 바 → 날짜·전체 대표곡만 (라인업은 라인업 시트) */
 export default function ListenActionSheet({
   open,
   onClose,
@@ -31,9 +29,7 @@ export default function ListenActionSheet({
   activeDay,
   playlistReady,
   bundleLoading,
-  myLineupCount = 0,
   onOpenBundled,
-  onPlayMyLineup,
   bundleNotice = null,
   onDismissBundleNotice,
 }: ListenActionSheetProps) {
@@ -71,24 +67,6 @@ export default function ListenActionSheet({
           showMyPlaylist={false}
           variant="actions"
         />
-
-        {myLineupCount > 0 && onPlayMyLineup && (
-          <div className="listen-action-sheet__lineup">
-            <Button
-              variant="outline"
-              className="listen-action-sheet__lineup-btn"
-              disabled={bundleLoading === 'custom'}
-              onClick={onPlayMyLineup}
-            >
-              {bundleLoading === 'custom'
-                ? '여는 중…'
-                : `내 라인업 (${myLineupCount}) YouTube로`}
-            </Button>
-            <p className="listen-action-sheet__lineup-hint">
-              담은 목록은 타임테이블 아래에서 편집할 수 있어요.
-            </p>
-          </div>
-        )}
 
         {notice && (
           <div

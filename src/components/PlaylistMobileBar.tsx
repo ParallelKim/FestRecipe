@@ -110,9 +110,7 @@ export default function PlaylistMobileBar({
         activeDay={activeDay}
         playlistReady={playlistReady}
         bundleLoading={bundleLoading}
-        myLineupCount={myLineupCount}
         onOpenBundled={onOpenBundled}
-        onPlayMyLineup={onPlayMyLineup}
         bundleNotice={bundleNotice}
         onDismissBundleNotice={onDismissBundleNotice}
       />

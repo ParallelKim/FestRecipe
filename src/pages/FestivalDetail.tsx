@@ -592,7 +592,7 @@ export default function FestivalDetail() {
         listenOpen={listenSheetOpen}
         onListenOpen={openListenSheet}
         onListenClose={closeListenSheet}
-        barHidden={artistSheetOpen}
+        barHidden={artistSheetOpen || listenSheetOpen || lineupSheetOpen}
         festival={festival}
         activeDay={activeDay}
         artists={artists}

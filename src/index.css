@@ -735,14 +735,14 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 55;
+  z-index: 40;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0;
-  padding: 8px 12px max(8px, env(safe-area-inset-bottom));
+  gap: 8px;
+  padding: 10px 16px max(10px, env(safe-area-inset-bottom));
   border-top: 1px solid var(--color-hairline);
   background: #fff;
-  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.06);
 }
 .playlist-mobile-bar__btn {
   display: flex;
@@ -751,24 +751,19 @@ body {
   justify-content: center;
   gap: 2px;
   min-height: 48px;
-  padding: 6px 10px;
-  border: 1px solid var(--color-hairline);
+  padding: 8px 12px;
+  border: none;
   border-radius: 12px;
-  background: #fff;
+  background: var(--color-surface-soft);
   color: var(--color-ink);
   cursor: pointer;
   font: inherit;
   text-align: center;
 }
-.playlist-mobile-bar__btn--lineup {
-  margin-right: 4px;
-}
-.playlist-mobile-bar__btn--listen {
-  margin-left: 4px;
-}
 .playlist-mobile-bar__btn.is-active {
-  border-color: var(--color-ink);
-  background: color-mix(in srgb, var(--color-ink) 6%, #fff);
+  background: color-mix(in srgb, var(--color-ink) 8%, #fff);
+  outline: 2px solid var(--color-ink);
+  outline-offset: -2px;
 }
 .playlist-mobile-bar__label {
   font-size: 14px;
@@ -827,6 +822,11 @@ body {
   font-size: 12px;
   line-height: 1.5;
   color: var(--muted-foreground);
+}
+/* 시트는 하단 바(z-40) 위에 표시 */
+.playlist-sheet--actions,
+.playlist-sheet--lineup {
+  z-index: 50;
 }
 @media (prefers-reduced-motion: reduce) {
   .playlist-sheet {
