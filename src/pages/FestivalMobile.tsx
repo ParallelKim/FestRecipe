@@ -23,7 +23,7 @@ export default function FestivalMobile() {
 
   if (error || !state || !id) {
     return (
-      <div className="container festival-missing">
+      <div className="container px-4 py-24 text-center">
         <h2 className="text-title-lg">페스티벌을 찾을 수 없어요.</h2>
         <p className="text-body text-muted">
           {error

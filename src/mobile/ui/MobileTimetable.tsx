@@ -1,5 +1,6 @@
 import { useMemo, type CSSProperties } from 'react'
 import type { MobileArtistView, MobileDayView, MobileStageTheme } from '../view/types'
+import { MobileLineupButton } from './MobileLineupButton'
 
 interface MobileTimetableProps {
   day: MobileDayView
@@ -174,20 +175,14 @@ export default function MobileTimetable({
                         </span>
                       </button>
                       {!exportMode && (
-                        <button
-                          type="button"
-                          className={`lineup-pick-btn lineup-pick-btn--tt${inLineup ? ' is-on' : ''}`}
-                          aria-pressed={inLineup}
-                          aria-label={inLineup ? '내 라인업에서 빼기' : '내 라인업에 담기'}
-                          onClick={(e) => {
-                            e.stopPropagation()
-                            onToggleLineup(slot.artistId)
-                          }}
-                        >
-                          <span className="lineup-pick-btn__icon" aria-hidden="true">
-                            {inLineup ? '★' : '☆'}
-                          </span>
-                        </button>
+                        <div className="absolute top-0.5 right-0.5 z-10">
+                          <MobileLineupButton
+                            compact
+                            inLineup={inLineup}
+                            onToggle={() => onToggleLineup(slot.artistId)}
+                            className="size-6 min-h-6 min-w-6 rounded-md text-[11px] shadow-sm"
+                          />
+                        </div>
                       )}
                     </div>
                   )

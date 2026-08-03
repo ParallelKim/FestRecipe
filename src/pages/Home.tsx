@@ -5,6 +5,7 @@ import { FestivalService } from '../services/festivals'
 import type { Festival } from '../types'
 import HomeHelmet from '../components/seo/HomeHelmet'
 import LoadingState from '../components/LoadingState'
+import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 
 function artistCount(festival: Festival): number {
@@ -37,7 +38,6 @@ function formatDateRange(start: string, end: string): string {
   return `${fmt(start)} – ${fmt(end)}`
 }
 
-/** Local calendar day as YYYY-MM-DD (no timezone shift surprises). */
 function todayIso(now = new Date()): string {
   const y = now.getFullYear()
   const m = String(now.getMonth() + 1).padStart(2, '0')
@@ -51,7 +51,6 @@ function daysBetween(fromIso: string, toIso: string): number {
   return Math.round((to - from) / 86_400_000)
 }
 
-/** List order: ongoing → upcoming (by start) → past (recent first). */
 function sortFestivalsForList(festivals: Festival[], today = todayIso()): Festival[] {
   return [...festivals].sort((a, b) => {
     const aOngoing = a.startDate <= today && today <= a.endDate
@@ -65,13 +64,11 @@ function sortFestivalsForList(festivals: Festival[], today = todayIso()): Festiv
   })
 }
 
-/** Nearest upcoming (or currently on) festival for the hero. */
 function closestFestival(festivals: Festival[], today = todayIso()): Festival | null {
   const sorted = sortFestivalsForList(festivals, today)
   return sorted[0] ?? null
 }
 
-/** Hero eyebrow: D-day style countdown to festival start / during / after. */
 function festivalDdayLabel(festival: Festival, today = todayIso()): string {
   if (today < festival.startDate) {
     const n = daysBetween(today, festival.startDate)
@@ -89,7 +86,6 @@ function heroImageFor(festival: Festival): string | null {
   return festival.posterUrl || null
 }
 
-/** 카드·리스트용 페스티벌 썸네일 — 포스터가 아닌 공식 로고 */
 function festivalThumbnailUrl(festival: Festival, surface: 'on-dark' | 'on-light'): string | null {
   if (surface === 'on-dark') {
     return festival.logoLightUrl || festival.logoUrl || null
@@ -125,22 +121,27 @@ export default function Home() {
   const allFestivals = sortFestivalsForList(festivals)
 
   return (
-    <div className="home-page">
+    <div className="min-h-[calc(100vh-64px)] bg-[var(--color-canvas)]">
       <HomeHelmet festivalCount={festivals.length} />
 
-      <section className="home-hero">
+      <section
+        className="relative flex min-h-[min(88vh,760px)] items-end overflow-hidden text-white max-md:min-h-[78vh] bg-[radial-gradient(ellipse_80%_60%_at_20%_30%,rgba(168,216,196,0.22),transparent_55%),radial-gradient(ellipse_70%_50%_at_85%_20%,rgba(217,164,65,0.18),transparent_50%),linear-gradient(160deg,#0b1014_0%,#151b22_45%,#1c232c_100%)]"
+      >
         {heroImage && (
           <div
-            className="home-hero__media"
+            className="absolute inset-0 scale-[1.04] bg-cover bg-[center_20%] animate-[hero-drift_18s_ease-in-out_infinite_alternate]"
             style={{ backgroundImage: `url(${heroImage})` }}
             role="img"
             aria-label={featured ? `${featured.name} 포스터` : undefined}
           />
         )}
-        <div className="home-hero__wash" aria-hidden="true" />
-        <div className="container home-hero__content">
+        <div
+          className="absolute inset-0 bg-[linear-gradient(180deg,rgba(8,10,12,0.35)_0%,rgba(8,10,12,0.55)_40%,rgba(8,10,12,0.88)_100%),linear-gradient(90deg,rgba(8,10,12,0.55)_0%,transparent_55%)]"
+          aria-hidden="true"
+        />
+        <div className="container relative z-10 max-w-[720px] pt-[72px] pb-16">
           <motion.p
-            className="home-hero__brand"
+            className="mb-5 font-[family-name:var(--font-display)] text-[clamp(36px,7.5vw,64px)] font-extrabold tracking-tight"
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.45, ease: 'easeOut' }}
@@ -148,7 +149,7 @@ export default function Home() {
             FestRecipe
           </motion.p>
           <motion.h1
-            className="home-hero__title"
+            className="mb-4 text-[clamp(28px,5.5vw,44px)] font-extrabold leading-tight tracking-tight"
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.08, ease: 'easeOut' }}
@@ -158,7 +159,7 @@ export default function Home() {
             미리 듣는 대표곡
           </motion.h1>
           <motion.p
-            className="home-hero__lede"
+            className="mb-0 max-w-[36ch] text-base leading-relaxed text-white/78"
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.16, ease: 'easeOut' }}
@@ -168,28 +169,33 @@ export default function Home() {
 
           {featured && (
             <motion.div
-              className="home-hero__featured"
+              className="mt-7"
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.24, ease: 'easeOut' }}
             >
               {ddayLabel && (
-                <p className="home-hero__featured-label" aria-label={`디데이 ${ddayLabel}`}>
+                <p
+                  className="mb-2 text-xs font-extrabold tracking-[0.08em] text-white/72 uppercase"
+                  aria-label={`디데이 ${ddayLabel}`}
+                >
                   {ddayLabel}
                 </p>
               )}
-              <div className="home-hero__featured-card">
-                <div className="home-hero__featured-brand">
+              <div className="rounded-xl border border-white/14 bg-white/8 p-4 backdrop-blur-sm">
+                <div className="mb-3 flex items-center gap-3.5">
                   {featuredThumb && (
                     <img
                       src={featuredThumb}
                       alt=""
-                      className="home-hero__fest-mark"
+                      className="size-[52px] shrink-0 object-contain drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)]"
                     />
                   )}
-                  <div className="home-hero__featured-copy">
-                    <p className="home-hero__fest-name">{featured.name}</p>
-                    <p className="home-hero__fest-meta">
+                  <div className="min-w-0">
+                    <p className="m-0 mb-1 text-base font-bold leading-snug break-keep text-white">
+                      {featured.name}
+                    </p>
+                    <p className="m-0 text-[13px] leading-snug text-white/72 break-keep">
                       {formatDateRange(featured.startDate, featured.endDate)}
                       <span aria-hidden="true"> · </span>
                       {featured.location}
@@ -199,7 +205,7 @@ export default function Home() {
                 <Button
                   render={<Link to={`/festival/${featured.id}`} />}
                   nativeButton={false}
-                  className="home-hero__cta"
+                  className="w-full justify-center bg-white text-[var(--color-ink)] hover:bg-[#f2f2f2] hover:text-[var(--color-ink)]"
                 >
                   {ctaLabel(featured)}
                 </Button>
@@ -210,65 +216,83 @@ export default function Home() {
       </section>
 
       {allFestivals.length > 0 && (
-      <section className="home-festivals" id="festivals">
-        <div className="container">
-          <h2 className="home-festivals__heading">페스티벌 목록</h2>
-          <p className="home-festivals__lede">
-            등록된 페스티벌 <strong>{allFestivals.length}</strong>개
-          </p>
-          <div className="home-festivals__list">
-            {allFestivals.map((festival, index) => {
-              const thumb = festivalThumbnailUrl(festival, 'on-light')
-              const listDday = festivalDdayLabel(festival)
-              return (
-              <motion.article
-                key={festival.id}
-                className={`home-fest-row home-fest-row--${festival.signatureColor}`}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: 0.08 * index, ease: 'easeOut' }}
-              >
-                <div className="home-fest-row__main">
-                  <p className="home-fest-row__eyebrow">
-                    {stageLabel(festival)}
-                    <span className="home-fest-row__dday" aria-label={`일정 ${listDday}`}>
-                      {listDday}
-                    </span>
-                  </p>
-                  {thumb ? (
-                    <div className="home-fest-row__brand">
-                      <img
-                        src={thumb}
-                        alt=""
-                        className="home-fest-row__mark"
-                      />
-                      <h3 className="home-fest-row__name">{festival.name}</h3>
-                    </div>
-                  ) : (
-                    <h3 className="home-fest-row__name">{festival.name}</h3>
-                  )}
-                  <p className="home-fest-row__desc">
-                    {festival.tagline || festival.description}
-                  </p>
-                </div>
-                <div className="home-fest-row__meta">
-                  <p><span>일시</span>{festival.startDate} ~ {festival.endDate}</p>
-                  <p><span>장소</span>{festival.location}</p>
-                  <p><span>출연</span>{artistCount(festival)}팀</p>
-                  <Button
-                    variant="outline"
-                    render={<Link to={`/festival/${festival.id}`} />}
-                    nativeButton={false}
-                    className="home-fest-row__link"
+        <section className="py-16 pb-24" id="festivals">
+          <div className="container">
+            <h2 className="mb-2 text-2xl font-bold tracking-tight">페스티벌 목록</h2>
+            <p className="mb-7 text-sm text-muted-foreground">
+              등록된 페스티벌 <strong className="font-extrabold text-foreground">{allFestivals.length}</strong>개
+            </p>
+            <div className="flex flex-col gap-5">
+              {allFestivals.map((festival, index) => {
+                const thumb = festivalThumbnailUrl(festival, 'on-light')
+                const listDday = festivalDdayLabel(festival)
+                return (
+                  <motion.article
+                    key={festival.id}
+                    className="grid gap-8 border-t border-[var(--color-hairline)] py-8 max-md:grid-cols-1 md:grid-cols-[1.4fr_1fr]"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.4, delay: 0.08 * index, ease: 'easeOut' }}
                   >
-                    {ctaLabel(festival)}
-                  </Button>
-                </div>
-              </motion.article>
-            )})}
+                    <div>
+                      <p className="mb-2 flex flex-wrap items-center gap-x-3 gap-y-2 text-xs font-bold tracking-[0.06em] text-muted-foreground uppercase">
+                        {stageLabel(festival)}
+                        <Badge
+                          variant="outline"
+                          className="text-[11px] font-extrabold tracking-normal normal-case"
+                          aria-label={`일정 ${listDday}`}
+                        >
+                          {listDday}
+                        </Badge>
+                      </p>
+                      {thumb ? (
+                        <div className="mb-3 flex items-center gap-3">
+                          <img
+                            src={thumb}
+                            alt=""
+                            className="size-11 shrink-0 object-contain"
+                          />
+                          <h3 className="m-0 text-[clamp(20px,2.8vw,28px)] font-bold leading-snug tracking-tight break-keep">
+                            {festival.name}
+                          </h3>
+                        </div>
+                      ) : (
+                        <h3 className="mb-3 text-[clamp(20px,2.8vw,28px)] font-bold leading-snug tracking-tight break-keep">
+                          {festival.name}
+                        </h3>
+                      )}
+                      <p className="m-0 max-w-[52ch] text-sm leading-relaxed text-muted-foreground">
+                        {festival.tagline || festival.description}
+                      </p>
+                    </div>
+                    <div className="flex flex-col justify-center gap-2.5">
+                      <p className="m-0 flex justify-between gap-4 text-[13px] font-medium">
+                        <span className="text-muted-foreground">일시</span>
+                        {festival.startDate} ~ {festival.endDate}
+                      </p>
+                      <p className="m-0 flex justify-between gap-4 text-[13px] font-medium">
+                        <span className="text-muted-foreground">장소</span>
+                        {festival.location}
+                      </p>
+                      <p className="m-0 flex justify-between gap-4 text-[13px] font-medium">
+                        <span className="text-muted-foreground">출연</span>
+                        {artistCount(festival)}팀
+                      </p>
+                      <Button
+                        variant="outline"
+                        render={<Link to={`/festival/${festival.id}`} />}
+                        nativeButton={false}
+                        className="mt-2 w-fit no-underline"
+                      >
+                        {ctaLabel(festival)}
+                      </Button>
+                    </div>
+                  </motion.article>
+                )
+              })}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
       )}
     </div>
   )
