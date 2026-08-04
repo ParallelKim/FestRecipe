@@ -7,6 +7,11 @@ backend server: all festival/artist/playlist data is served as static JSON from 
 and fetched at runtime. See `README.md` and `docs/PRODUCT.md` for the product overview, and
 `package.json` `scripts` for the canonical dev/lint/build/preview commands.
 
+### Testing / artifacts
+- This is a mobile-first product. **Always capture screenshots and screen recordings in a mobile
+  viewport** (e.g. a phone-sized/emulated device such as ~390×844, DevTools device toolbar, or a
+  narrow browser window), not a wide desktop layout.
+
 ### Running the app
 - Node 22 is preinstalled and works with Vite 8. Dependencies are installed by the update script.
 - Dev server: `npm run dev` → serves at `http://localhost:5173`. This is the only service needed
