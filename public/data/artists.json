@@ -1,5 +1,11 @@
 [
   {
+    "id": "10cm",
+    "name": "10CM",
+    "englishName": "10CM",
+    "ytmName": "10CM"
+  },
+  {
     "id": "asian-spice-house",
     "name": "아시안 스파이스 하우스",
     "englishName": "Asian Spice House",
@@ -35,6 +41,13 @@
     "englishName": "betcover!!",
     "country": "JP",
     "ytmName": "betcover!!"
+  },
+  {
+    "id": "blackhole",
+    "name": "블랙홀",
+    "englishName": "Black Hole",
+    "koreanName": "블랙홀",
+    "ytmName": "Black Hole"
   },
   {
     "id": "bongjeingan",
@@ -122,6 +135,20 @@
     "ytmName": "Flesh Juicer"
   },
   {
+    "id": "flow",
+    "name": "FLOW",
+    "englishName": "FLOW",
+    "country": "JP",
+    "ytmName": "FLOW"
+  },
+  {
+    "id": "guckkasten",
+    "name": "국카스텐",
+    "englishName": "Guckkasten",
+    "koreanName": "국카스텐",
+    "ytmName": "Guckkasten"
+  },
+  {
     "id": "hana",
     "name": "HANA",
     "englishName": "HANA",
@@ -154,6 +181,13 @@
     "ytmName": "HYUKOH"
   },
   {
+    "id": "idiotape",
+    "name": "이디오테잎",
+    "englishName": "IDIOTAPE",
+    "koreanName": "이디오테잎",
+    "ytmName": "IDIOTAPE"
+  },
+  {
     "id": "isyana-sarasvati",
     "name": "Isyana Sarasvati",
     "englishName": "Isyana Sarasvati",
@@ -167,10 +201,24 @@
     "ytmName": "Jang Pill Soon"
   },
   {
+    "id": "jaurim",
+    "name": "자우림",
+    "englishName": "Jaurim",
+    "koreanName": "자우림",
+    "ytmName": "Jaurim"
+  },
+  {
     "id": "jkc",
     "name": "잭킹콩",
     "englishName": "JKC",
     "ytmName": "JKC"
+  },
+  {
+    "id": "kardi",
+    "name": "카디",
+    "englishName": "KARDI",
+    "koreanName": "카디",
+    "ytmName": "KARDI"
   },
   {
     "id": "khruangbin",
@@ -180,10 +228,24 @@
     "ytmName": "Khruangbin"
   },
   {
+    "id": "kim-kwang-jin",
+    "name": "김광진",
+    "englishName": "Kim Kwang Jin",
+    "koreanName": "김광진",
+    "ytmName": "Kim Kwang Jin"
+  },
+  {
     "id": "kirara",
     "name": "키라라",
     "englishName": "Kirara",
     "ytmName": "KIRARA"
+  },
+  {
+    "id": "knosis",
+    "name": "크노시스",
+    "englishName": "Knosis",
+    "country": "JP",
+    "ytmName": "Knosis"
   },
   {
     "id": "kwon-jina",
@@ -231,6 +293,20 @@
     "ytmName": "Mudd the student"
   },
   {
+    "id": "nell",
+    "name": "넬",
+    "englishName": "NELL",
+    "koreanName": "넬",
+    "ytmName": "NELL"
+  },
+  {
+    "id": "nerd-connection",
+    "name": "너드커넥션",
+    "englishName": "Nerd Connection",
+    "koreanName": "너드커넥션",
+    "ytmName": "Nerd Connection"
+  },
+  {
     "id": "neu",
     "name": "노이",
     "englishName": "neu",
@@ -275,6 +351,13 @@
     "ytmName": "Peach Truck Hijackers"
   },
   {
+    "id": "peppertones",
+    "name": "페퍼톤스",
+    "englishName": "Peppertones",
+    "koreanName": "페퍼톤스",
+    "ytmName": "Peppertones"
+  },
+  {
     "id": "pixies",
     "name": "PIXIES",
     "englishName": "PIXIES",
@@ -300,6 +383,13 @@
     "ytmName": "Redoor"
   },
   {
+    "id": "rosi",
+    "name": "로시",
+    "englishName": "Rosi",
+    "koreanName": "로시",
+    "ytmName": "Rosi"
+  },
+  {
     "id": "sanbo",
     "name": "산보",
     "englishName": "Sanbo",
@@ -316,6 +406,13 @@
     ],
     "ytmBrowseId": "UCnmRY2xwlBPN2zbk1CspmhA",
     "ytmName": "Say Sue Me"
+  },
+  {
+    "id": "shaun",
+    "name": "숀",
+    "englishName": "SHAUN",
+    "koreanName": "숀",
+    "ytmName": "SHAUN"
   },
   {
     "id": "silica-gel",
@@ -355,6 +452,13 @@
     "ytmName": "宋冬野 - Song Dongye"
   },
   {
+    "id": "song-eunchae",
+    "name": "송은채",
+    "englishName": "Song Eunchae",
+    "koreanName": "송은채",
+    "ytmName": "Song Eunchae"
+  },
+  {
     "id": "sultan-of-the-disco",
     "name": "술탄오브더디스코",
     "englishName": "Sultan Of The Disco",
@@ -365,6 +469,13 @@
     "name": "SUMIN",
     "englishName": "SUMIN",
     "ytmName": "SUMIN"
+  },
+  {
+    "id": "synsnake",
+    "name": "신스네이크",
+    "englishName": "Synsnake",
+    "koreanName": "신스네이크",
+    "ytmName": "Synsnake"
   },
   {
     "id": "the-fix",
@@ -453,6 +564,13 @@
     "name": "양정훈",
     "englishName": "YANG JEONG HOON",
     "ytmName": "Yang Jeong Hoon"
+  },
+  {
+    "id": "yb",
+    "name": "YB",
+    "englishName": "YB",
+    "koreanName": "윤도현밴드",
+    "ytmName": "YB"
   },
   {
     "id": "yunmachi",

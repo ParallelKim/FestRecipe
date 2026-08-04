@@ -1,0 +1,87 @@
+{
+  "id": "jumf-2026",
+  "name": "2026 전주얼티밋뮤직페스티벌",
+  "shortName": "JUMF",
+  "startDate": "2026-08-14",
+  "endDate": "2026-08-16",
+  "location": "전주대학교 인조잔디구장",
+  "signatureColor": "coral",
+  "status": "upcoming",
+  "lineupStage": "stage2_daily",
+  "description": "전주문화방송이 주최하는 11회째 여름 음악 축제. 2026년에는 자우림·NELL·YB·10CM·FLOW 등 60팀이 전주대학교 인조잔디구장 무대에 오른다. 요일별로 대중성·록·묵직한 사운드로 색깔이 나뉜다.",
+  "websiteUrl": "https://jumf.co.kr",
+  "mapUrl": "https://map.naver.com/p/search/%EC%A0%84%EC%A3%BC%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9D%B8%EC%A1%B0%EC%9E%94%EB%94%94%EA%B5%AC%EC%9E%A5",
+  "allArtists": [
+    "flow",
+    "10cm",
+    "peppertones",
+    "shaun",
+    "qwer",
+    "band-nah",
+    "rosi",
+    "song-eunchae",
+    "jaurim",
+    "nell",
+    "guckkasten",
+    "blackhole",
+    "redoor",
+    "yb",
+    "knosis",
+    "synsnake",
+    "idiotape",
+    "kim-kwang-jin",
+    "nerd-connection",
+    "kardi"
+  ],
+  "lineup": [
+    {
+      "date": "2026-08-14",
+      "dayLabel": "8.14 FRI",
+      "artists": [
+        "flow",
+        "10cm",
+        "peppertones",
+        "shaun",
+        "qwer",
+        "band-nah",
+        "rosi",
+        "song-eunchae"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "dayLabel": "8.15 SAT",
+      "artists": [
+        "jaurim",
+        "nell",
+        "guckkasten",
+        "blackhole",
+        "redoor"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "dayLabel": "8.16 SUN",
+      "artists": [
+        "yb",
+        "knosis",
+        "synsnake",
+        "idiotape",
+        "kim-kwang-jin",
+        "nerd-connection",
+        "kardi"
+      ]
+    }
+  ],
+  "timetableSource": {
+    "note": "공식 상세 타임테이블 미공개(총 60팀). 요일별 라인업은 주최측 출연진 포스터 기반 연합뉴스 보도(요일별 장르 색깔)를 SSOT로 정리했다. lineupStage=stage2_daily(일별 라인업)로, 시간표·스테이지는 공식 발표 후 stage3_timetable로 승격 예정. 미배정 1차 라인업(SABLE HILLS·ONEWE·레이지본·로맨틱펀치·브로큰발렌타인·까치산·극동아시아타이거즈·스네이크치킨수프·소닉스톤즈·윤마치·천진우·초록불꽃소년단·can't be blue·송소희 등)은 요일 확정 시 추가한다. 표기명은 docs/ARTIST_DISPLAY_NAMES.md 정책을 따른다.",
+    "referencedAt": "2026-08-04",
+    "referenceUrl": "https://www.yna.co.kr/view/AKR20260702124700055",
+    "secondaryUrls": [
+      "https://jumf.co.kr",
+      "https://weekend-guide.tistory.com/44"
+    ],
+    "displayNamePolicy": "docs/ARTIST_DISPLAY_NAMES.md"
+  },
+  "tagline": "전주에서 사흘, 장르의 경계를 넘는 여름"
+}
