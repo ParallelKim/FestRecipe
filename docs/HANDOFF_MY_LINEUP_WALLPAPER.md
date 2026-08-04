@@ -1,6 +1,22 @@
 # 핸드오프: 나만의 라인업 · 배경화면 · 대표곡 정책 (2026-07-28)
 
-이 문서는 Cloud Agent 세션에서 진행한 **FestRecipe** 프론트/데이터 작업과 논의 결정을 다음 담당자(또는 QA)가 이어가기 위한 요약이다.
+> **상태: 아카이브 (경로·컴포넌트명 구식)**  
+> 제품 결정(라인업·배경화면 PNG·곡 수 정책)은 여전히 유효하다.  
+> 코드 위치는 PR #14/#15 이후 변경됨 — 아래 **§0 현행 경로**와  
+> [`HANDOFF_DEAD_CODE_CSS_REFACTOR.md`](./HANDOFF_DEAD_CODE_CSS_REFACTOR.md)를 우선 보라.
+
+## 0. 현행 경로 (2026-08 기준)
+
+| 예전 (이 문서 본문) | 현재 |
+|---------------------|------|
+| `src/pages/FestivalDetail.tsx` | **삭제** — `/festival/:id` → `FestivalMobile` |
+| `src/components/TimetableGrid.tsx` | `src/mobile/ui/MobileTimetable.tsx` + `.module.css` |
+| `src/components/MyLineupPanel.tsx` | `src/mobile/ui/MobileLineupSheet.tsx` 등 |
+| `src/components/TimetableWallpaperStudio.tsx` | `src/mobile/ui/MobileWallpaperStudio.tsx` |
+| `src/lib/festivalShortLabel.ts` | **삭제** — `Festival.shortName` 직접 사용 |
+| `src/lib/lineupDay.ts` / `stageTheme.ts` | **삭제** (knip Phase 1) |
+| `react-colorful` | **제거** — 배경색은 shadcn/Tailwind 칩 UI |
+| `src/index.css` `.tt-grid__*` | `MobileTimetable.module.css` |
 
 ---
 

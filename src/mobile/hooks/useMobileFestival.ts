@@ -3,7 +3,7 @@ import type { MobileArtistView, MobileFestivalView } from '../view/types'
 import { fetchArtistsJson, fetchFestivalJson, fetchPlaylistIndex } from '../data/loadJson'
 import { mapArtistViews, mapFestivalView } from '../data/mapFestival'
 
-export interface MobileFestivalState {
+interface MobileFestivalState {
   festival: MobileFestivalView
   artists: MobileArtistView[]
   artistMap: Map<string, MobileArtistView>

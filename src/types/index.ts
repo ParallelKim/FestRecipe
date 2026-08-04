@@ -6,7 +6,7 @@ export type SignatureColor = 'coral' | 'forest' | 'cream' | 'dark'
 export type FestivalStatus = 'upcoming' | 'ongoing' | 'past'
 export type LineupStage = 'stage1_all' | 'stage2_daily' | 'stage3_timetable'
 export type SongType = 'released' | 'unreleased' | 'cover'
-export type AlbumType = 'single' | 'ep' | 'lp'
+type AlbumType = 'single' | 'ep' | 'lp'
 
 export interface Artist {
   id: string
@@ -26,50 +26,6 @@ export interface Artist {
   genres?: string[]
   aliases?: string[]
   ytmBrowseId?: string
-}
-
-/** YouTube Music 기반 발매곡 (MVP collector 출력) */
-export interface ReleasedSong {
-  videoId: string
-  title: string
-  songTitle: string
-  artists?: string[]
-  albumTitle?: string
-  albumBrowseId?: string
-  releaseType?: 'album' | 'single' | 'ep' | 'song'
-  year?: string | number | null
-  channelId?: string
-  channelTitle?: string
-  publishedAt?: string
-  duration?: string
-  durationSeconds?: number | null
-  viewCount?: number
-  youtubeUrl: string
-  youtubeMusicUrl?: string
-  thumbnailUrl?: string
-  source: 'album' | 'songs_playlist' | 'songs_top' | 'topic_channel' | 'search'
-  isLiveRelease?: boolean
-}
-
-export interface ArtistReleases {
-  artistId: string
-  artistName?: string
-  englishName?: string
-  source: 'youtube_music'
-  provider: 'ytmusicapi' | 'youtube_data_api_v3'
-  collectedAt: string
-  ytmArtist?: {
-    browseId: string
-    name: string
-    subscribers?: string
-    channelId?: string
-    thumbnailUrl?: string
-    url?: string
-  } | null
-  topicChannel?: { id: string; title: string; score?: number } | null
-  releaseGroupCount?: number
-  releaseCount: number
-  releases: ReleasedSong[]
 }
 
 /** 인지도 티어에 따른 대표곡 플레이리스트 */
@@ -147,7 +103,7 @@ export interface SetlistSong {
   pastConcertLinks?: PastConcertLinks[] // 지난 공연 퍼포먼스 링크 목록 (최신순)
 }
 
-export interface TimetableSlot {
+interface TimetableSlot {
   artistId: string
   stageName: string
   startTime: string // e.g. "12:00"
@@ -212,8 +168,3 @@ export interface Festival {
   lineup: DayLineup[]
 }
 
-// UI 전용 타입
-export interface FestivalsData {
-  festivals: Festival[]
-  artists: Artist[]
-}

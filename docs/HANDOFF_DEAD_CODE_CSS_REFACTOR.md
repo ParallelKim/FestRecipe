@@ -12,8 +12,8 @@
 |------|------|
 | **작업 브랜치** | `cursor/dead-code-knip-css-refactor-938d` |
 | **베이스** | `main` |
-| **PR** | [#15](https://github.com/ParallelKim/FestRecipe/pull/15) (draft) — **knip + CSS/BEM 정리** |
-| **상태** | 푸시 완료, **세션 종료 시 QA 통과·머지 대기** |
+| **PR** | [#15](https://github.com/ParallelKim/FestRecipe/pull/15) — knip + CSS/BEM 정리 |
+| **상태** | **머지 완료** (`main` @ `abb206a`). 후속: `cursor/knip-types-handoff-cleanup-1a26` |
 
 ### 커밋 이력 (`main` 대비)
 
@@ -125,12 +125,12 @@ git log main..cursor/dead-code-knip-css-refactor-938d --oneline
 
 ---
 
-## 7. 미완 · 후속 (범위 밖)
+## 7. 미완 · 후속
 
-- **PR #15 draft → open → 머지** (`main`에 반영).
-- knip 미사용 **exported types** 정리.
+- [x] **PR #15 draft → open → 머지** (`main`, `abb206a`, 2026-08-04).
+- [x] knip 미사용 **exported types** 정리 — 후속 브랜치 `cursor/knip-types-handoff-cleanup-1a26`.
 - `hero-drift`를 `@theme` 유틸/애니메이션으로 이전 (선택, 저우선).
-- `docs/HANDOFF_MY_LINEUP_WALLPAPER.md` 내 경로·컴포넌트명은 **레거시** (`TimetableGrid`, `FestivalDetail` 등) — 필요 시 해당 문서 갱신 또는 deprecated 표시.
+- [x] `docs/HANDOFF_MY_LINEUP_WALLPAPER.md` — 아카이브 표시 + 현행 경로 표 추가.
 
 ---
 

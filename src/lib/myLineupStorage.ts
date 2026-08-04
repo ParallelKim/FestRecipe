@@ -5,12 +5,12 @@
 
 const MY_LINEUP_STORE_KEY = 'festrecipe.myLineup.v1'
 
-export interface MyLineupEntry {
+interface MyLineupEntry {
   artistIds: string[]
   updatedAt: string
 }
 
-export interface MyLineupStoreV1 {
+interface MyLineupStoreV1 {
   version: 1
   byFestival: Record<string, MyLineupEntry>
 }

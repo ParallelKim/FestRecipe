@@ -1,8 +1,6 @@
 {
   "$schema": "https://unpkg.com/knip@5/schema.json",
   "entry": [
-    "src/main.tsx",
-    "scripts/generate-sitemap.js",
     "scripts/prerender.js",
     "src/services/setlistCollector.ts",
     "src/services/setlistCollectorScript.ts"
