@@ -1,6 +1,4 @@
-export type FestivalSignatureColor = 'cream' | 'forest' | 'coral' | 'dark'
-
-export interface FestivalSignatureTheme {
+interface FestivalSignatureTheme {
   bg: string
   text: string
   muted: string

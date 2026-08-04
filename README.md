@@ -1,67 +1,18 @@
-# FestRecipe 🎸
-> 페스티벌 타임테이블 + 아티스트 발매곡(YouTube Music) 기반 감상 서비스
+# FestRecipe
 
-FestRecipe는 인디/대중음악 페스티벌의 타임테이블을 시각화하고, 라인업 아티스트의 **발매곡 정보(YouTube Music)** 를 모아 바로 들을 수 있게 돕는 웹 애플리케이션입니다.
+페스티벌 **타임테이블**을 보고, 라인업 아티스트 **대표곡을 YouTube로 미리 듣고**, **내 라인업·배경화면**으로 현장 준비를 하는 웹 앱.
 
-> **MVP 범위:** `페스티벌 정보 → 아티스트 리스트업 → YouTube Music 발매곡 수집`  
-> 예상 셋리스트/풀캠 타임스탬프/지능형 재생목록은 **향후 고도화**로 미룹니다.  
-> 복원용 문서: [`docs/SETLIST_RECIPE.md`](./docs/SETLIST_RECIPE.md) (예상 셋리스트) · [`docs/LINEUP_STAGE_AND_DDAY.md`](./docs/LINEUP_STAGE_AND_DDAY.md) (공개 단계·D-day) · [`docs/ARTIST_DISPLAY_NAMES.md`](./docs/ARTIST_DISPLAY_NAMES.md) (아티스트 표기 검수) · [`docs/UI_REFERENCE_RESEARCH.md`](./docs/UI_REFERENCE_RESEARCH.md) (UI·UX 레퍼런스) · [`collector/README.md`](./collector/README.md)
+- 제품: [`docs/PRODUCT.md`](./docs/PRODUCT.md)
+- 카피: [`docs/TONE_AND_MANNER.md`](./docs/TONE_AND_MANNER.md)
+- 아티스트 표기: [`docs/ARTIST_DISPLAY_NAMES.md`](./docs/ARTIST_DISPLAY_NAMES.md)
+- 데이터 수집: [`collector/README.md`](./collector/README.md)
+- SEO: [`docs/SEO.md`](./docs/SEO.md)
 
----
+## 실행
 
-## 주요 기능 🌟
-
-1. **페스티벌 라인업 공개 단계별 대응**
-   - **1단계 (전체 라인업):** 요일 구분이 없는 전체 아티스트 리스트업
-   - **2단계 (일별 라인업):** 일자별 아티스트 분할 표기
-   - **3단계 (타임테이블):** 시간/스테이지별 세로형 타임라인 뷰 제공 (화면 너비에 맞춰 유연하게 반응하며 잘림 방지 처리)
-
-2. **아티스트 대표곡 플레이리스트 (YouTube Music)**
-   - 타임테이블이 늦을수록 인지도가 높다고 보고 3/4/5곡 차등 제공
-   - YouTube Music 인기곡 기준으로 선정, 연속 재생 링크 제공
-
-3. **(향후) 예상 셋리스트 & 라이브 아카이브**
-   - 과거 공연 데이터 기반 셋리스트, 풀캠 타임스탬프 등은 고도화 단계에서 연결
-
----
-
-## 기술 스택 🛠️
-
-- **Core:** React (TypeScript) + Vite
-- **Styling:** Vanilla CSS (CSS Variables 기반 테마 및 모던 인터랙션 설계)
-- **Routing:** React Router DOM
-- **Build & Lint:** ESLint, TypeScript Compiler (`tsc`)
-
----
-
-## 디렉토리 구조 📂
-
-```
-src/
-├── components/          # 공통 UI 컴포넌트 (타임테이블 그리드 등)
-├── pages/               # 주요 페이지 (페스티벌 목록, 상세 정보)
-├── services/            # 페스티벌/아티스트 데이터 로더
-├── types/               # 공통 TypeScript 타입 정의
-├── index.css            # 글로벌 디자인 시스템 및 CSS 변수 테마
-└── main.tsx
-
-collector/               # MVP 데이터 파이프라인 (페스티벌→아티스트→발매곡)
-public/data/
-├── artists.json
-└── festivals/           # 페스티벌별 JSON + index.json
-```
-
----
-
-## 실행 및 빌드 방법 🚀
-
-### 개발 서버 실행
 ```bash
 npm run dev
-```
-
-### 프로덕션 빌드
-```bash
 npm run build
 ```
-빌드가 완료되면 `/dist` 폴더에 프로덕션용 정적 파일들이 생성됩니다.
+
+페스티벌·아티스트·플레이리스트 JSON은 `public/data/`다. 수집 파이프라인은 `collector/`다.
