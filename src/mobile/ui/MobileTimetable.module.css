@@ -1,0 +1,286 @@
+/* Timetable grid — mobile-first, 3 stages always visible */
+
+.root {
+  --tt-axis: 32px;
+  --tt-px-per-min: 1.55;
+  width: 100%;
+  min-width: 0;
+}
+
+.grid {
+  display: block;
+  border: 2px solid #111418;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 0;
+}
+
+.header {
+  display: grid;
+  position: relative;
+  z-index: 3;
+  border-bottom: 2px solid #111418;
+}
+
+.corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 800;
+  color: #fff;
+  background: #111418;
+}
+
+.stage {
+  padding: 10px 4px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1.15;
+  word-break: keep-all;
+  min-width: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.stage:last-child {
+  border-right: none;
+}
+
+.stageShort {
+  display: inline;
+}
+
+.stageFull {
+  display: none;
+}
+
+.body {
+  display: grid;
+  position: relative;
+  min-width: 0;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent calc(var(--tt-px-per-min) * 60 * 1px - 1px),
+      rgba(17, 20, 24, 0.08) calc(var(--tt-px-per-min) * 60 * 1px - 1px),
+      rgba(17, 20, 24, 0.08) calc(var(--tt-px-per-min) * 60 * 1px)
+    );
+}
+
+.axis {
+  position: relative;
+  height: 100%;
+  background: #111418;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.hour {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 11px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+}
+
+.lines {
+  position: absolute;
+  top: 0;
+  left: var(--tt-axis);
+  right: 0;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px solid rgba(17, 20, 24, 0.16);
+}
+
+.col {
+  position: relative;
+  height: 100%;
+  z-index: 2;
+  min-width: 0;
+  background-color: var(--tt-col-track, #f3f4f6);
+}
+
+.colBorder {
+  border-right: 1px solid rgba(17, 20, 24, 0.14);
+}
+
+.col::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: color-mix(in srgb, var(--tt-col-accent, #41454d) 55%, transparent);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.slotShell {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  z-index: 2;
+}
+
+.slotShellInLineup {
+  z-index: 3;
+}
+
+.slot {
+  position: absolute;
+  inset: 0;
+  padding: 4px 6px 3px 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1px;
+  border-radius: 5px;
+  border: 1.5px solid;
+  background: #ffffff;
+  color: #111418;
+  cursor: pointer;
+  text-align: left;
+  overflow: hidden;
+  min-width: 0;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition:
+    transform 0.08s ease,
+    box-shadow 0.12s ease,
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease;
+}
+
+.slotInLineup {
+  background: var(--stage-accent, #41454d);
+  border-color: var(--stage-accent, #41454d);
+  color: #fff;
+  box-shadow: none;
+}
+
+.slotInLineup .slotTime {
+  color: rgba(255, 255, 255, 0.85);
+  opacity: 1;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .slot:hover {
+    filter: brightness(0.98);
+  }
+}
+
+.slot:active {
+  transform: scale(0.99);
+}
+
+.slot:focus {
+  outline: none;
+}
+
+.slot:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 2px var(--color-canvas),
+    0 0 0 3px var(--stage-accent, var(--color-info-border));
+}
+
+.slotInLineup:focus-visible {
+  box-shadow:
+    0 0 0 1px var(--stage-accent, #41454d),
+    0 0 0 2px var(--color-canvas),
+    0 0 0 3px var(--stage-accent, var(--color-info-border));
+}
+
+.slotName {
+  display: block;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+.slotTime {
+  display: block;
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.1;
+  opacity: 0.65;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.export .slot {
+  cursor: default;
+}
+
+@media (min-width: 640px) {
+  .root {
+    --tt-axis: 44px;
+  }
+
+  .stage {
+    font-size: 12px;
+    padding: 12px 8px;
+  }
+
+  .stageShort {
+    display: none;
+  }
+
+  .stageFull {
+    display: inline;
+  }
+
+  .hour {
+    font-size: 12px;
+  }
+
+  .hour::after {
+    content: ':00';
+    font-size: 10px;
+    font-weight: 700;
+    opacity: 0.75;
+  }
+
+  .slot {
+    left: 4px;
+    right: 4px;
+    padding: 5px 7px 4px;
+  }
+
+  .slotName {
+    font-size: 13px;
+  }
+
+  .slotTime {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 900px) {
+  .slotName {
+    font-size: 14px;
+  }
+}
