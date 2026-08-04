@@ -3,7 +3,7 @@
  * 향후 FB 로그인·DB 동기화 시 festivalId + artistIds[] 스키마 유지.
  */
 
-export const MY_LINEUP_STORE_KEY = 'festrecipe.myLineup.v1'
+const MY_LINEUP_STORE_KEY = 'festrecipe.myLineup.v1'
 
 export interface MyLineupEntry {
   artistIds: string[]
@@ -55,15 +55,3 @@ export function saveMyLineupArtistIds(festivalId: string, artistIds: string[]): 
   writeStore(store)
 }
 
-export function toggleMyLineupArtist(festivalId: string, artistId: string): string[] {
-  const current = loadMyLineupArtistIds(festivalId)
-  const next = current.includes(artistId)
-    ? current.filter((id) => id !== artistId)
-    : [...current, artistId]
-  saveMyLineupArtistIds(festivalId, next)
-  return next
-}
-
-export function clearMyLineup(festivalId: string): void {
-  saveMyLineupArtistIds(festivalId, [])
-}

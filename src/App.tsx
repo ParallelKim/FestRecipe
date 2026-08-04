@@ -1,5 +1,5 @@
 import { HelmetProvider } from 'react-helmet-async'
-import TopNav from './components/TopNav'
+import SiteHeader from './components/layout/SiteHeader'
 import Home from './pages/Home'
 import FestivalMobile from './pages/FestivalMobile'
 import { Navigate, Routes, Route, useParams } from 'react-router-dom'
@@ -15,7 +15,7 @@ export default function App() {
   return (
     <HelmetProvider>
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-        <TopNav />
+        <SiteHeader />
         <main style={{ flexGrow: 1 }}>
           <Routes>
             <Route path="/" element={<Home />} />

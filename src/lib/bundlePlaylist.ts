@@ -8,19 +8,18 @@
  * 합계가 50을 넘으면 2/3/4 → 1/2/3 으로 다운그레이드하고,
  * 그래도 넘치면 라운드로빈으로 50곡까지 채운다.
  *
- * 아티스트 순서는 프론트 조합 시 `playlistBundleOrder.ts` (슬롯 종료 시각).
- * collector/JSON 빌드 순서와 무관하며, 슬롯이 없으면 순서를 알 수 없어 뒤로 둔다.
+ * 아티스트 순서는 프론트 `orderArtists` (슬롯 종료 시각).
  */
 
-import type { ArtistPlaylist, RecognitionTier } from '../types'
-import { WATCH_VIDEOS_MAX, uniqueVideoIds } from './youtubePlaylist'
+import type { RecognitionTier } from '../types'
+import { WATCH_VIDEOS_MAX } from './youtubePlaylist'
 
 export type BundleSongScheme = 'full' | 'reduced' | 'minimal'
 
 /** high / mid / low 순 */
 export type TierSongBudget = Record<RecognitionTier, number>
 
-export const BUNDLE_SONG_SCHEMES: Record<BundleSongScheme, TierSongBudget> = {
+const BUNDLE_SONG_SCHEMES: Record<BundleSongScheme, TierSongBudget> = {
   full: { high: 5, mid: 4, low: 3 },
   reduced: { high: 4, mid: 3, low: 2 },
   minimal: { high: 3, mid: 2, low: 1 },
@@ -49,34 +48,6 @@ export interface BundledAnonymousPlaylist {
   truncated: boolean
   /** 아티스트당 1~3곡 수준이라 얇음 */
   thinCoverage: boolean
-}
-
-function normalizeTier(tier: RecognitionTier | string | undefined): RecognitionTier {
-  if (tier === 'high' || tier === 'mid' || tier === 'low') return tier
-  return 'low'
-}
-
-export function artistInputsFromPlaylists(
-  playlists: Array<ArtistPlaylist | null | undefined>,
-): BundleArtistInput[] {
-  const out: BundleArtistInput[] = []
-  for (const pl of playlists) {
-    if (!pl?.artistId) continue
-    const bundleLimit =
-      pl.targetSongCount > 0
-        ? pl.targetSongCount
-        : pl.recognition?.songCount ?? pl.tracks?.length ?? 0
-    const videoIds = uniqueVideoIds(
-      (pl.tracks || []).slice(0, bundleLimit).map((t) => t.videoId),
-    )
-    if (videoIds.length === 0) continue
-    out.push({
-      artistId: pl.artistId,
-      tier: normalizeTier(pl.recognition?.tier),
-      videoIds,
-    })
-  }
-  return out
 }
 
 function countWithBudget(artists: BundleArtistInput[], budget: TierSongBudget): number {

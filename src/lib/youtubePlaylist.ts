@@ -38,8 +38,6 @@
  */
 export const WATCH_VIDEOS_MAX = 50
 
-export type PlaylistTitleKind = 'artist' | 'day' | 'festival' | 'custom'
-
 /** watch_videos 딥링크. title 이 있으면 Untitled List 대신 해당 제목으로 열림. */
 export function buildWatchVideosUrl(
   videoIds: string[],
@@ -54,11 +52,6 @@ export function buildWatchVideosUrl(
   const trimmed = (title || '').trim()
   if (trimmed) params.set('title', trimmed)
   return `https://www.youtube.com/watch_videos?${params.toString()}`
-}
-
-/** 딥링크로 열 때 잘리는 곡이 있으면 true (UI 경고용) */
-export function watchVideosWouldTruncate(videoIds: string[]): boolean {
-  return uniqueVideoIds(videoIds).length > WATCH_VIDEOS_MAX
 }
 
 export function uniqueVideoIds(videoIds: Array<string | null | undefined>): string[] {
@@ -104,19 +97,3 @@ export function playlistTitleForCustom(festivalName: string): string {
   return fest ? `${fest} 내 라인업 대표곡` : '내 라인업 대표곡'
 }
 
-export function playlistTitle(
-  kind: PlaylistTitleKind,
-  opts: { artistName?: string; festivalName?: string; dayLabel?: string },
-): string {
-  switch (kind) {
-    case 'artist':
-      return playlistTitleForArtist(opts.festivalName || '', opts.artistName || '')
-    case 'day':
-      return playlistTitleForDay(opts.festivalName || '', opts.dayLabel || '')
-    case 'festival':
-      return playlistTitleForFestival(opts.festivalName || '')
-    case 'custom':
-    default:
-      return playlistTitleForCustom(opts.festivalName || '')
-  }
-}

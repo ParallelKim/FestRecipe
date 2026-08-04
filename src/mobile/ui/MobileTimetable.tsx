@@ -1,5 +1,8 @@
 import { useMemo, type CSSProperties } from 'react'
+import { cn } from '@/lib/utils'
 import type { MobileArtistView, MobileDayView, MobileStageTheme } from '../view/types'
+import { MobileLineupButton } from './MobileLineupButton'
+import styles from './MobileTimetable.module.css'
 
 interface MobileTimetableProps {
   day: MobileDayView
@@ -69,13 +72,13 @@ export default function MobileTimetable({
 
   return (
     <div
-      className={`tt${exportMode ? ' tt--export' : ''}`}
+      className={cn(styles.root, exportMode && styles.export)}
       aria-label="타임테이블"
       style={{ ['--tt-px-per-min' as string]: String(pxPerMin) }}
     >
-      <div className="tt-grid">
-        <div className="tt-grid__header" style={{ gridTemplateColumns: colTemplate }}>
-          <div className="tt-grid__corner" aria-hidden="true">시간</div>
+      <div className={styles.grid}>
+        <div className={styles.header} style={{ gridTemplateColumns: colTemplate }}>
+          <div className={styles.corner} aria-hidden="true">시간</div>
           {stageIds.map((stageId) => {
             const theme = themeMap.get(stageId) ?? {
               stageId,
@@ -89,37 +92,37 @@ export default function MobileTimetable({
             return (
               <div
                 key={stageId}
-                className="tt-grid__stage"
+                className={styles.stage}
                 style={{ backgroundColor: theme.bg, color: theme.fg }}
                 title={theme.label}
               >
-                <span className="tt-grid__stage-short">{theme.shortLabel}</span>
-                <span className="tt-grid__stage-full">{theme.label}</span>
+                <span className={styles.stageShort}>{theme.shortLabel}</span>
+                <span className={styles.stageFull}>{theme.label}</span>
               </div>
             )
           })}
         </div>
 
         <div
-          className="tt-grid__body"
+          className={styles.body}
           style={{ gridTemplateColumns: colTemplate, height: `${totalHeight}px` }}
         >
-          <div className="tt-grid__axis" aria-hidden="true">
+          <div className={styles.axis} aria-hidden="true">
             {hours.map((h) => {
               const topPos = (h * 60 - startLimit) * pxPerMin
               return (
-                <div key={h} className="tt-grid__hour" style={{ top: `${topPos}px` }}>
+                <div key={h} className={styles.hour} style={{ top: `${topPos}px` }}>
                   {h}
                 </div>
               )
             })}
           </div>
 
-          <div className="tt-grid__lines" aria-hidden="true">
+          <div className={styles.lines} aria-hidden="true">
             {hours.map((h) => {
               const topPos = (h * 60 - startLimit) * pxPerMin
               return (
-                <div key={h} className="tt-grid__line" style={{ top: `${topPos}px` }} />
+                <div key={h} className={styles.line} style={{ top: `${topPos}px` }} />
               )
             })}
           </div>
@@ -133,7 +136,7 @@ export default function MobileTimetable({
             return (
               <div
                 key={stageId}
-                className={`tt-grid__col${stageIdx < stageIds.length - 1 ? ' has-border' : ''}`}
+                className={cn(styles.col, stageIdx < stageIds.length - 1 && styles.colBorder)}
                 style={{ ['--tt-col-accent' as string]: theme.accent } as CSSProperties}
               >
                 {stageSlots.map((slot, index) => {
@@ -153,12 +156,12 @@ export default function MobileTimetable({
                   return (
                     <div
                       key={`${slot.artistId}-${index}`}
-                      className={`tt-grid__slot-shell${inLineup ? ' is-in-lineup' : ''}`}
+                      className={cn(styles.slotShell, inLineup && styles.slotShellInLineup)}
                       style={shellStyle}
                     >
                       <button
                         type="button"
-                        className={`tt-grid__slot${inLineup ? ' is-in-lineup' : ''}`}
+                        className={cn(styles.slot, inLineup && styles.slotInLineup)}
                         style={{ borderColor: theme.accent }}
                         aria-label={`${name}, ${slot.startTime}–${slot.endTime}`}
                         aria-current={isSelected ? 'true' : undefined}
@@ -168,26 +171,21 @@ export default function MobileTimetable({
                           onSlotClick(slot.artistId)
                         }}
                       >
-                        <span className="tt-grid__slot-name">{name}</span>
-                        <span className="tt-grid__slot-time">
+                        <span className={styles.slotName}>{name}</span>
+                        <span className={styles.slotTime}>
                           {slot.startTime}–{slot.endTime}
                         </span>
                       </button>
                       {!exportMode && (
-                        <button
-                          type="button"
-                          className={`lineup-pick-btn lineup-pick-btn--tt${inLineup ? ' is-on' : ''}`}
-                          aria-pressed={inLineup}
-                          aria-label={inLineup ? '내 라인업에서 빼기' : '내 라인업에 담기'}
-                          onClick={(e) => {
-                            e.stopPropagation()
-                            onToggleLineup(slot.artistId)
-                          }}
-                        >
-                          <span className="lineup-pick-btn__icon" aria-hidden="true">
-                            {inLineup ? '★' : '☆'}
-                          </span>
-                        </button>
+                        <div className="absolute top-0.5 right-0.5 z-10">
+                          <MobileLineupButton
+                            compact
+                            tone="on-accent"
+                            inLineup={inLineup}
+                            onToggle={() => onToggleLineup(slot.artistId)}
+                            className="size-6 min-h-6 min-w-6 p-0 text-[11px]"
+                          />
+                        </div>
                       )}
                     </div>
                   )

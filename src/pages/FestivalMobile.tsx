@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import FestivalHelmet from '../components/seo/FestivalHelmet'
 import LoadingState from '../components/LoadingState'
+import { Container } from '../components/layout/Container'
 import { Button } from '@/components/ui/button'
 import { useMobileFestival } from '../mobile/hooks/useMobileFestival'
 import MobileApp from '../mobile/ui/MobileApp'
@@ -23,15 +24,15 @@ export default function FestivalMobile() {
 
   if (error || !state || !id) {
     return (
-      <div className="container festival-missing">
-        <h2 className="text-title-lg">페스티벌을 찾을 수 없어요.</h2>
-        <p className="text-body text-muted">
+      <Container className="py-24 text-center">
+        <h2 className="text-2xl font-semibold tracking-tight">페스티벌을 찾을 수 없어요.</h2>
+        <p className="text-sm leading-relaxed text-muted-foreground">
           {error
             ? '정보를 불러오지 못했어요. 잠시 후 다시 시도해 주세요.'
             : '주소가 잘못되었거나 아직 준비 중인 페스티벌이에요.'}
         </p>
         <Button render={<Link to="/" />} nativeButton={false}>홈으로 돌아가기</Button>
-      </div>
+      </Container>
     )
   }
 

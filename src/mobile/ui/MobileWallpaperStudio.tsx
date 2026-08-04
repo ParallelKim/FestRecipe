@@ -16,6 +16,8 @@ import {
   MAIN_TIMETABLE_REF_WIDTH,
 } from '../../lib/wallpaperLayout'
 import { Button } from '@/components/ui/button'
+import { ButtonGroup } from '@/components/ui/button-group'
+import { Toggle } from '@/components/ui/toggle'
 import {
   Dialog,
   DialogClose,
@@ -153,10 +155,11 @@ export default function MobileWallpaperStudio({
     <Dialog open={open} onOpenChange={(next) => { if (!next) onClose() }}>
       <DialogContent
         showCloseButton={false}
-        className="wallpaper-studio max-w-none translate-x-0 translate-y-0 rounded-none ring-0 sm:max-w-none"
+        className="flex h-[100dvh] max-h-[100dvh] max-w-none flex-col gap-0 rounded-none border-0 p-0 sm:max-w-none"
       >
         <DialogTitle className="sr-only">배경화면 편집</DialogTitle>
-        <header className="wallpaper-studio__bar">
+
+        <header className="flex shrink-0 items-center gap-3 border-b border-border px-4 py-3">
           <DialogClose
             render={
               <Button type="button" variant="outline" size="sm" className="shrink-0" />
@@ -165,11 +168,13 @@ export default function MobileWallpaperStudio({
             <XIcon data-icon="inline-start" />
             닫기
           </DialogClose>
-          <span className="wallpaper-studio__title">{day.label} 배경화면</span>
+          <span className="min-w-0 flex-1 truncate text-center text-sm font-bold">
+            {day.label} 배경화면
+          </span>
           <Button
             type="button"
             size="sm"
-            className="wallpaper-studio__save shrink-0"
+            className="shrink-0"
             disabled={busy}
             onClick={handleSave}
           >
@@ -177,48 +182,55 @@ export default function MobileWallpaperStudio({
           </Button>
         </header>
 
-        <div ref={stageRef} className="wallpaper-studio__stage">
+        <div
+          ref={stageRef}
+          className="flex min-h-0 flex-1 items-center justify-center overflow-hidden bg-muted/30 px-4 py-5"
+        >
           <div
-            className="wallpaper-studio__preview"
+            className="relative overflow-hidden rounded-[20px] shadow-[0_8px_32px_rgba(0,0,0,0.12)]"
             style={{ width: previewSize.width, height: previewSize.height }}
           >
             <div
               ref={frameRef}
-              className="wallpaper-studio__canvas"
-              style={{ width: '100%', height: '100%', backgroundColor: bgColor }}
+              className="size-full"
+              style={{ backgroundColor: bgColor }}
             >
-              <div className="wallpaper-studio__stack">
+              <div className="relative size-full box-border">
                 <div
                   ref={fitRef}
-                  className="wallpaper-studio__fit"
+                  className="absolute left-1.5 right-1.5 flex min-h-0 items-center justify-center overflow-hidden"
                   style={{
                     top: `${profile.safeTopRatio * 100}%`,
                     bottom: `${profile.safeBottomRatio * 100}%`,
                   }}
                 >
                   <div
-                    className="wallpaper-studio__scale-box"
+                    className="relative shrink-0"
                     style={{ width: scaledW, height: scaledH }}
                   >
                     <div
                       ref={sourceRef}
-                      className="wallpaper-studio__source"
+                      className="absolute top-0 left-0 origin-top-left select-none pointer-events-none"
                       style={{
                         width: MAIN_TIMETABLE_REF_WIDTH,
                         transform: `scale(${scale})`,
                       }}
                     >
                       {(showFestName || showDayLabel) && (
-                        <div className="wallpaper-studio__meta">
+                        <div className="mb-2 shrink-0 text-center leading-tight">
                           {showFestName && (
-                            <p className="wallpaper-studio__fest">{festCaption}</p>
+                            <p className="m-0 text-xs font-semibold tracking-wide text-muted-foreground opacity-90">
+                              {festCaption}
+                            </p>
                           )}
                           {showDayLabel && (
-                            <p className="wallpaper-studio__day">{day.label}</p>
+                            <p className="mt-0.5 mb-0 text-[13px] font-bold tracking-tight">
+                              {day.label}
+                            </p>
                           )}
                         </div>
                       )}
-                      <div className="timetable-scroll">
+                      <div className="m-0 overflow-visible p-0">
                         <MobileTimetable
                           day={day}
                           stages={festival.stages}
@@ -238,68 +250,79 @@ export default function MobileWallpaperStudio({
           </div>
         </div>
 
-        <div className="wallpaper-studio__controls">
-          <div className="wallpaper-studio__control">
-            <span className="wallpaper-studio__label">해상도</span>
-            <div className="wallpaper-studio__profiles">
-              <button
+        <div className="shrink-0 space-y-4 border-t border-border bg-background px-4 py-3 pb-[max(12px,env(safe-area-inset-bottom))]">
+          <div className="space-y-1.5">
+            <span className="text-xs font-semibold text-muted-foreground">해상도</span>
+            <ButtonGroup className="flex w-full flex-wrap gap-1">
+              <Button
                 type="button"
-                className={`wallpaper-studio__profile${profileId === 'device' ? ' is-active' : ''}`}
+                size="sm"
+                variant={profileId === 'device' ? 'default' : 'outline'}
+                className="min-w-0 flex-1"
                 onClick={() => setProfileId('device')}
               >
                 이 기기
-              </button>
+              </Button>
               {WALLPAPER_PRESET_PROFILES.map((p) => (
-                <button
+                <Button
                   key={p.id}
                   type="button"
-                  className={`wallpaper-studio__profile${profileId === p.id ? ' is-active' : ''}`}
+                  size="sm"
+                  variant={profileId === p.id ? 'default' : 'outline'}
+                  className="min-w-0 flex-1"
                   onClick={() => setProfileId(p.id)}
                 >
                   {p.shortLabel}
-                </button>
+                </Button>
               ))}
-            </div>
-            <p className="wallpaper-studio__profile-meta">{profile.label}</p>
+            </ButtonGroup>
+            <p className="text-xs text-muted-foreground" aria-live="polite">
+              {profile.label}
+            </p>
           </div>
 
-          <div className="wallpaper-studio__control">
-            <span className="wallpaper-studio__label">배경색</span>
-            <div className="wallpaper-studio__tones">
+          <div className="space-y-1.5">
+            <span className="text-xs font-semibold text-muted-foreground">배경색</span>
+            <div className="flex flex-wrap gap-2">
               {BG_PRESETS.map((p) => (
-                <button
+                <Button
                   key={p.id}
                   type="button"
-                  className={`wallpaper-studio__tone${bgColor === p.value ? ' is-active' : ''}`}
+                  size="sm"
+                  variant={bgColor === p.value ? 'default' : 'outline'}
+                  className="gap-2"
                   onClick={() => setBgColor(p.value)}
                 >
                   <span
-                    className="wallpaper-studio__tone-swatch"
+                    className="size-4 shrink-0 rounded-full border border-border/60"
                     style={{ backgroundColor: p.value }}
+                    aria-hidden="true"
                   />
                   {p.label}
-                </button>
+                </Button>
               ))}
             </div>
           </div>
 
-          <div className="wallpaper-studio__control">
-            <span className="wallpaper-studio__label">캡션</span>
-            <div className="wallpaper-studio__toggles">
-              <button
-                type="button"
-                className={`wallpaper-studio__toggle${showFestName ? ' is-on' : ''}`}
-                onClick={() => setShowFestName((v) => !v)}
+          <div className="space-y-1.5">
+            <span className="text-xs font-semibold text-muted-foreground">캡션</span>
+            <div className="flex gap-2">
+              <Toggle
+                pressed={showFestName}
+                onPressedChange={setShowFestName}
+                variant="outline"
+                className="min-h-9 flex-1 text-xs font-semibold"
               >
                 페스티벌명
-              </button>
-              <button
-                type="button"
-                className={`wallpaper-studio__toggle${showDayLabel ? ' is-on' : ''}`}
-                onClick={() => setShowDayLabel((v) => !v)}
+              </Toggle>
+              <Toggle
+                pressed={showDayLabel}
+                onPressedChange={setShowDayLabel}
+                variant="outline"
+                className="min-h-9 flex-1 text-xs font-semibold"
               >
                 날짜
-              </button>
+              </Toggle>
             </div>
           </div>
         </div>
