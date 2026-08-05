@@ -131,7 +131,10 @@ export function mapFestivalView(raw: Record<string, unknown>): MobileFestivalVie
   }
 }
 
-export function mapArtistViews(rawList: Record<string, unknown>[]): MobileArtistView[] {
+export function mapArtistViews(
+  rawList: Record<string, unknown>[],
+  festivalDisplays?: Readonly<Record<string, string>>,
+): MobileArtistView[] {
   const nameById = new Map<string, string>()
   for (const raw of rawList) {
     const id = asString(raw.id)
@@ -146,14 +149,34 @@ export function mapArtistViews(rawList: Record<string, unknown>[]): MobileArtist
     const composed = Array.isArray(raw.composedOf)
       ? raw.composedOf.filter((x): x is string => typeof x === 'string' && x.length > 0)
       : []
+    const festLabel = festivalDisplays?.[id]
     const view: MobileArtistView = {
       id,
-      displayName: asString(raw.name, id),
+      // 페스티벌 매핑 → 카탈로그 기본명 → id
+      displayName: (festLabel && festLabel.trim()) || asString(raw.name, id),
     }
     if (composed.length > 0) {
-      view.featLabel = composed.map((mid) => nameById.get(mid) ?? mid).join(' · ')
+      view.featLabel = composed
+        .map((mid) => {
+          const memberFest = festivalDisplays?.[mid]
+          return (memberFest && memberFest.trim()) || nameById.get(mid) || mid
+        })
+        .join(' · ')
     }
     views.push(view)
   }
   return views
+}
+
+/** 페스티벌 JSON의 artistDisplays 객체 파싱 */
+export function artistDisplaysFromFestivalRaw(
+  raw: Record<string, unknown>,
+): Record<string, string> {
+  const src = raw.artistDisplays
+  if (!src || typeof src !== 'object' || Array.isArray(src)) return {}
+  const out: Record<string, string> = {}
+  for (const [id, label] of Object.entries(src as Record<string, unknown>)) {
+    if (typeof label === 'string' && label.trim()) out[id] = label.trim()
+  }
+  return out
 }

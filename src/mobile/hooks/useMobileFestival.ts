@@ -5,7 +5,7 @@ import {
   getFestivalRawById,
   playlistReadyIds,
 } from '../../data/staticData'
-import { mapArtistViews, mapFestivalView } from '../data/mapFestival'
+import { mapArtistViews, mapFestivalView, artistDisplaysFromFestivalRaw } from '../data/mapFestival'
 
 interface MobileFestivalState {
   festival: MobileFestivalView
@@ -37,7 +37,8 @@ export function useMobileFestival(
     const festival = mapFestivalView(raw)
     if (!festival) return { state: null, loading: false, error: true }
 
-    const artists = mapArtistViews(artistsRaw)
+    const displays = artistDisplaysFromFestivalRaw(raw)
+    const artists = mapArtistViews(artistsRaw, displays)
     const artistMap = new Map(artists.map((a) => [a.id, a]))
     return {
       state: {

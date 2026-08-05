@@ -42,8 +42,10 @@ alwaysApply: false
 - `name`·`shortName`·`startDate`·`endDate`·`location`(+`mapUrl`)·`websiteUrl`(공식)
 - `signatureColor`·`status`·`tagline`(짧은 매력 문장)·`description`(주최/규모/스테이지 수 등)
 - 스테이지: `stageStyles[]`(타임테이블일 때 색), 요일별 `stages[]`
-- 아티스트 표기명은 `docs/ARTIST_DISPLAY_NAMES.md` 정책을 따른다
+- 아티스트 **id**는 `artists.json`에, **화면 표기**는 페스티벌 `artistDisplays`에 둔다 → `docs/ARTIST_DISPLAY_NAMES.md`
 - TT가 콜라보 유닛(예: `블랙홀 X 방수미`)이면 슬롯도 유닛 id 하나. `artists.json`에 `composedOf`로 멤버를 기록하고 PL은 병합한다 → 동 문서 §콜라보·피처링
+- 정합성(추가): `allArtists` ⊆ `artistDisplays` 키(권장) · `artistDisplays`의 id는 모두 `artists.json`에 존재
+
 
 ## 출처 · 정합성
 
@@ -51,5 +53,5 @@ alwaysApply: false
   블로그·뉴스·커뮤니티는 로고 판독 보조·교차확인용일 뿐, 표기·라인업의 근거로 삼지 않는다.
 - `timetableSource`에 `referenceUrl`·`secondaryUrls`·`referencedAt`·`note`·`localAssets` 기록.
   타임테이블 미공개면 note에 "미공개 + 향후 `stage3_timetable` 승격" 명시.
-- 정합성: 모든 `artistId`가 `artists.json`에 존재 · `allArtists` = 요일별 라인업 합집합 · id 중복 없음.
+- 정합성: 모든 `artistId`가 `artists.json`에 존재 · `allArtists` = 요일별 라인업 합집합 · id 중복 없음 · `artistDisplays` id도 `artists.json`에 존재.
 - `festivals/index.json` 등록 → 사이트맵 재생성 → 모바일 뷰포트에서 렌더 확인.

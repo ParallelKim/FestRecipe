@@ -4,12 +4,13 @@ Step 1→2: 페스티벌 JSON에서 아티스트를 추출·동기화한다.
 
 - public/data/festivals/*.json 의 lineup/slots/allArtists를 읽음
 - 각 페스티벌의 allArtists를 슬롯 기준으로 재구성
+- --write-festivals 시 artistDisplays 누락분을 Artist.name으로 채움(기존 큐레이션 유지)
 - public/data/artists.json 에 없는 ID는 경고(자동 생성은 placeholder만)
 - collector/output/_artist_index.json 요약 저장
 
 Usage:
   python3 sync_artists.py
-  python3 sync_artists.py --write-festivals   # allArtists 필드를 파일에 반영
+  python3 sync_artists.py --write-festivals   # allArtists + artistDisplays 누락분
   python3 sync_artists.py --add-missing       # 미등록 artistId를 artists.json에 placeholder 추가
 """
 
@@ -93,8 +94,11 @@ def sync(
                 seen_all.add(aid)
                 all_used.append(aid)
 
-        if write_festivals and festival.get("allArtists") != artist_ids:
-            festival["allArtists"] = artist_ids
+        if write_festivals:
+            changed = False
+            if festival.get("allArtists") != artist_ids:
+                festival["allArtists"] = artist_ids
+                changed = True
             # stage1/2 convenience: fill day.artists from slots when empty
             for day in festival.get("lineup") or []:
                 if (not day.get("artists")) and day.get("slots"):
@@ -106,8 +110,41 @@ def sync(
                             day_seen.add(aid)
                             day_artists.append(aid)
                     day["artists"] = day_artists
-            save_json(path, festival)
-            print(f"[write] {path.name}: allArtists={len(artist_ids)}")
+                    changed = True
+
+            # artistDisplays: 기존 큐레이션 유지, 누락 id만 Artist.name으로 채움
+            displays = dict(festival.get("artistDisplays") or {})
+            display_changed = False
+            for aid in artist_ids:
+                label = displays.get(aid)
+                if isinstance(label, str) and label.strip():
+                    continue
+                artist = by_id.get(aid)
+                fallback = (artist or {}).get("name") or aid
+                displays[aid] = fallback
+                display_changed = True
+            # drop displays for ids no longer in lineup (optional cleanup)
+            stale = [k for k in displays if k not in set(artist_ids)]
+            for k in stale:
+                del displays[k]
+                display_changed = True
+            if display_changed or festival.get("artistDisplays") != displays:
+                festival["artistDisplays"] = displays
+                changed = True
+
+            if changed:
+                # keep artistDisplays next to allArtists in file order
+                ordered = {}
+                for k, v in festival.items():
+                    if k == "artistDisplays":
+                        continue
+                    ordered[k] = v
+                    if k == "allArtists":
+                        ordered["artistDisplays"] = displays
+                if "artistDisplays" not in ordered:
+                    ordered["artistDisplays"] = displays
+                save_json(path, ordered)
+                print(f"[write] {path.name}: allArtists={len(artist_ids)} displays={len(displays)}")
 
         festivals_summary.append({
             "id": festival.get("id", path.stem),
@@ -120,7 +157,8 @@ def sync(
     added = []
     if add_missing and missing:
         for aid in sorted(missing):
-            # UI 표기명(name)은 placeholder. 검수 후 docs/ARTIST_DISPLAY_NAMES.md 기준으로 수정.
+            # name = 카탈로그 기본명 placeholder. 페스티벌 표기는 festivals.*.artistDisplays.
+            # 검수: docs/ARTIST_DISPLAY_NAMES.md
             placeholder = {
                 "id": aid,
                 "name": aid,
@@ -170,7 +208,7 @@ def main():
     parser.add_argument(
         "--write-festivals",
         action="store_true",
-        help="Rewrite each festival's allArtists (and empty day.artists) from slots",
+        help="Rewrite allArtists / empty day.artists; fill missing artistDisplays from Artist.name",
     )
     parser.add_argument(
         "--add-missing",
