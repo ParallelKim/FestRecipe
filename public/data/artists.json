@@ -20,10 +20,30 @@
     "ytmName": "Adios Audio"
   },
   {
+    "id": "ahn-hyojoo",
+    "name": "안효주",
+    "englishName": "Ahn Hyojoo",
+    "ytmName": "안효주"
+  },
+  {
+    "id": "ali",
+    "name": "ALI",
+    "englishName": "ALI",
+    "country": "JP",
+    "ytmName": "ALI"
+  },
+  {
     "id": "asian-spice-house",
     "name": "아시안 스파이스 하우스",
     "englishName": "Asian Spice House",
     "ytmName": "Asian Spice House (아시안 스파이스 하우스)"
+  },
+  {
+    "id": "asterism",
+    "name": "ASTERISM",
+    "englishName": "ASTERISM",
+    "country": "JP",
+    "ytmName": "ASTERISM"
   },
   {
     "id": "atarayo",
@@ -186,6 +206,24 @@
     "ytmName": "Confined White"
   },
   {
+    "id": "cotoba",
+    "name": "cotoba",
+    "englishName": "cotoba",
+    "country": "JP",
+    "aliases": [
+      "코토바",
+      "cotoba"
+    ],
+    "ytmName": "cotoba"
+  },
+  {
+    "id": "crying-nut",
+    "name": "크라잉넛",
+    "englishName": "Crying Nut",
+    "koreanName": "크라잉넛",
+    "ytmName": "Crying Nut"
+  },
+  {
     "id": "d82",
     "name": "D82",
     "englishName": "D82",
@@ -204,6 +242,17 @@
     "englishName": "DADADA",
     "koreanName": "다다다",
     "ytmName": "DADADA"
+  },
+  {
+    "id": "damons-year",
+    "name": "데이먼스 이어",
+    "englishName": "Damons year",
+    "aliases": [
+      "데이먼스 이어",
+      "Damons year",
+      "DAMONS YEAR"
+    ],
+    "ytmName": "Damons year"
   },
   {
     "id": "dear-cloud",
@@ -252,6 +301,17 @@
     "ytmName": "EMNW"
   },
   {
+    "id": "eumyul",
+    "name": "음율",
+    "englishName": "UmYull",
+    "koreanName": "음율",
+    "aliases": [
+      "음율",
+      "UmYull"
+    ],
+    "ytmName": "음율"
+  },
+  {
     "id": "far-east-asian-tigers",
     "name": "극동아시아타이거즈",
     "englishName": "Far East Asian Tigers",
@@ -276,6 +336,19 @@
     "englishName": "FLOW",
     "country": "JP",
     "ytmName": "FLOW"
+  },
+  {
+    "id": "gaehwa",
+    "name": "개화",
+    "englishName": "GAEHWA",
+    "ytmName": "개화"
+  },
+  {
+    "id": "gaku",
+    "name": "Gaku",
+    "englishName": "Gaku",
+    "country": "JP",
+    "ytmName": "Gaku"
   },
   {
     "id": "gogohak",
@@ -304,6 +377,12 @@
     "englishName": "Guckkasten",
     "koreanName": "국카스텐",
     "ytmName": "Guckkasten"
+  },
+  {
+    "id": "haengronan",
+    "name": "행로난",
+    "englishName": "Hangronan",
+    "ytmName": "행로난"
   },
   {
     "id": "hana",
@@ -436,6 +515,12 @@
     "ytmName": "Jukjae"
   },
   {
+    "id": "jung-hyobean",
+    "name": "정효빈",
+    "englishName": "Jeong hyo bean",
+    "ytmName": "정효빈"
+  },
+  {
     "id": "kachisan",
     "name": "까치산",
     "englishName": "Kachisan",
@@ -475,6 +560,24 @@
     "ytmName": "Khruangbin"
   },
   {
+    "id": "kikuhashi",
+    "name": "기쿠하시",
+    "englishName": "gikuhasi",
+    "aliases": [
+      "기쿠하시",
+      "gikuhasi",
+      "Kikuhashi"
+    ],
+    "ytmName": "기쿠하시"
+  },
+  {
+    "id": "kim-jong-hyeon",
+    "name": "김종현",
+    "englishName": "KIM JONGHYEON",
+    "koreanName": "김종현",
+    "ytmName": "김종현"
+  },
+  {
     "id": "kim-junsu",
     "name": "김준수",
     "englishName": "XIA",
@@ -492,6 +595,13 @@
     "englishName": "Kim Kwang Jin",
     "koreanName": "김광진",
     "ytmName": "Kim Kwang Jin"
+  },
+  {
+    "id": "kim-nayoung",
+    "name": "김나영",
+    "englishName": "Kim Na Young",
+    "koreanName": "김나영",
+    "ytmName": "김나영"
   },
   {
     "id": "kirara",
@@ -632,6 +742,17 @@
     "ytmName": "Nyteh"
   },
   {
+    "id": "one-over-n",
+    "name": "엔분의일",
+    "englishName": "ONE OVER N",
+    "aliases": [
+      "엔분의일",
+      "ONE OVER N",
+      "1/N"
+    ],
+    "ytmName": "엔분의일"
+  },
+  {
     "id": "onewe",
     "name": "ONEWE",
     "englishName": "ONEWE",
@@ -677,6 +798,17 @@
     "ytmName": "Pixies"
   },
   {
+    "id": "pompadolls",
+    "name": "PompadollS",
+    "englishName": "PompadollS",
+    "country": "JP",
+    "aliases": [
+      "폼파돌스",
+      "PompadollS"
+    ],
+    "ytmName": "PompadollS"
+  },
+  {
     "id": "poser",
     "name": "포져군단",
     "englishName": "POSER",
@@ -693,6 +825,12 @@
     "name": "리도어",
     "englishName": "Redoor",
     "ytmName": "Redoor"
+  },
+  {
+    "id": "remay",
+    "name": "Re.may",
+    "englishName": "Re.may",
+    "ytmName": "Re.may"
   },
   {
     "id": "riot-kidz",
@@ -904,6 +1042,17 @@
     "englishName": "The Jesus and Mary Chain",
     "country": "GB",
     "ytmName": "The Jesus And Mary Chain"
+  },
+  {
+    "id": "the-joyfools",
+    "name": "조이풀스",
+    "englishName": "The Joyfools",
+    "aliases": [
+      "조이풀스",
+      "The Joyfools",
+      "The JoyFools"
+    ],
+    "ytmName": "The Joyfools"
   },
   {
     "id": "the-lemon-twigs",
