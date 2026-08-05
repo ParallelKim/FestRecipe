@@ -6,6 +6,13 @@
     "ytmName": "10CM"
   },
   {
+    "id": "24th",
+    "name": "이십사일",
+    "englishName": "24th",
+    "koreanName": "이십사일",
+    "ytmName": "24th"
+  },
+  {
     "id": "adios-audio",
     "name": "아디오스오디오",
     "englishName": "Adios Audio",
@@ -54,6 +61,13 @@
     "ytmName": "Bek Hyunjin"
   },
   {
+    "id": "band-kirin",
+    "name": "밴드기린",
+    "englishName": "BandKirin",
+    "koreanName": "밴드기린",
+    "ytmName": "BandKirin"
+  },
+  {
     "id": "band-nah",
     "name": "나상현씨밴드",
     "englishName": "Band Nah",
@@ -74,10 +88,23 @@
     "ytmName": "Black Hole"
   },
   {
+    "id": "blackhole-x-bangsumi",
+    "name": "블랙홀 X 방수미",
+    "englishName": "Blackhole X Bang Sumi",
+    "ytmName": "Black Hole"
+  },
+  {
     "id": "bongjeingan",
     "name": "봉제인간",
     "englishName": "Bongjeingan",
     "ytmName": "bongjeingan"
+  },
+  {
+    "id": "broken-teeth",
+    "name": "브로큰티스",
+    "englishName": "BrokenTeeth",
+    "koreanName": "브로큰티스",
+    "ytmName": "BrokenTeeth"
   },
   {
     "id": "broken-valentine",
@@ -159,11 +186,24 @@
     "ytmName": "Confined White"
   },
   {
+    "id": "d82",
+    "name": "D82",
+    "englishName": "D82",
+    "ytmName": "D82"
+  },
+  {
     "id": "dabda",
     "name": "다브다",
     "englishName": "Dabda",
     "ytmName": "다브다 DABDA",
     "koreanName": "다브다"
+  },
+  {
+    "id": "dadada",
+    "name": "다다다",
+    "englishName": "DADADA",
+    "koreanName": "다다다",
+    "ytmName": "DADADA"
   },
   {
     "id": "dear-cloud",
@@ -186,10 +226,30 @@
     "ytmName": "Dragon Pony"
   },
   {
+    "id": "drinking-boys-and-girls-choir",
+    "name": "드링킹소년소녀합창단",
+    "englishName": "Drinking Boys and Girls Choir",
+    "koreanName": "드링킹소년소녀합창단",
+    "ytmName": "Drinking Boys and Girls Choir"
+  },
+  {
+    "id": "e-pak-sa",
+    "name": "신빠람 이박사",
+    "englishName": "E-PAK-SA",
+    "koreanName": "이박사",
+    "ytmName": "이박사"
+  },
+  {
     "id": "eddie-and-the-bricks",
     "name": "Eddie and the Bricks",
     "englishName": "Eddie and the Bricks",
     "ytmName": "Eddie and the Bricks"
+  },
+  {
+    "id": "emnw",
+    "name": "EMNW",
+    "englishName": "EMNW",
+    "ytmName": "EMNW"
   },
   {
     "id": "far-east-asian-tigers",
@@ -225,6 +285,20 @@
     "ytmName": "Gogohak"
   },
   {
+    "id": "gony",
+    "name": "고니",
+    "englishName": "GONY",
+    "koreanName": "고니",
+    "ytmName": "GONY"
+  },
+  {
+    "id": "grizzly",
+    "name": "그리즐리",
+    "englishName": "Grizzly",
+    "koreanName": "그리즐리",
+    "ytmName": "Grizzly"
+  },
+  {
     "id": "guckkasten",
     "name": "국카스텐",
     "englishName": "Guckkasten",
@@ -256,6 +330,12 @@
     "name": "할로우 잰",
     "englishName": "Hollow Jan",
     "ytmName": "HOLLOW JAN"
+  },
+  {
+    "id": "hrtzwv",
+    "name": "하츠웨이브",
+    "englishName": "hrtz.wv",
+    "ytmName": "hrtz.wv"
   },
   {
     "id": "hyang",
@@ -356,6 +436,25 @@
     "ytmName": "Jukjae"
   },
   {
+    "id": "kachisan",
+    "name": "까치산",
+    "englishName": "Kachisan",
+    "koreanName": "까치산",
+    "aliases": [
+      "까치산",
+      "喜鵲山",
+      "Kachisan"
+    ],
+    "ytmName": "Kachisan"
+  },
+  {
+    "id": "kami-wa-saikoro",
+    "name": "神はサイコロを振らない",
+    "englishName": "Kami wa Saikoro wo Furanai",
+    "country": "JP",
+    "ytmName": "神はサイコロを振らない"
+  },
+  {
     "id": "kardi",
     "name": "카디",
     "englishName": "KARDI",
@@ -415,6 +514,13 @@
     "koreanName": "권진아"
   },
   {
+    "id": "lazybone",
+    "name": "레이지본",
+    "englishName": "Lazybone",
+    "koreanName": "레이지본",
+    "ytmName": "Lazybone"
+  },
+  {
     "id": "lee-seung-yoon",
     "name": "이승윤",
     "englishName": "LEE SEUNG YOON",
@@ -427,10 +533,23 @@
     "ytmName": "LEENALCHI"
   },
   {
+    "id": "lif",
+    "name": "LIF",
+    "englishName": "LIF",
+    "ytmName": "LIF"
+  },
+  {
     "id": "lilly-eat-machine",
     "name": "릴리 잇 머신",
     "englishName": "Lilly Eat Machine",
     "ytmName": "Lilly Eat Machine"
+  },
+  {
+    "id": "luamel",
+    "name": "루아멜",
+    "englishName": "Luamel",
+    "koreanName": "루아멜",
+    "ytmName": "Luamel"
   },
   {
     "id": "macguffin",
@@ -494,6 +613,12 @@
     "ytmName": "never young beach"
   },
   {
+    "id": "nibuy",
+    "name": "NIBUY",
+    "englishName": "NIBUY",
+    "ytmName": "NIBUY"
+  },
+  {
     "id": "noizegarden",
     "name": "노이즈가든",
     "englishName": "Noizegarden",
@@ -518,6 +643,13 @@
     "englishName": "Original Love",
     "country": "JP",
     "ytmName": "Original Love"
+  },
+  {
+    "id": "owalloil",
+    "name": "오월오일",
+    "englishName": "Owalloil",
+    "koreanName": "오월오일",
+    "ytmName": "Owalloil"
   },
   {
     "id": "peach-truck-hijackers",
@@ -563,9 +695,23 @@
     "ytmName": "Redoor"
   },
   {
+    "id": "riot-kidz",
+    "name": "라이엇키즈",
+    "englishName": "Riot Kidz",
+    "koreanName": "라이엇키즈",
+    "ytmName": "Riot Kidz"
+  },
+  {
+    "id": "romantic-punch",
+    "name": "로맨틱펀치",
+    "englishName": "Romantic Punch",
+    "koreanName": "로맨틱펀치",
+    "ytmName": "Romantic Punch"
+  },
+  {
     "id": "rosi",
     "name": "로시",
-    "englishName": "Rosi",
+    "englishName": "Rothy",
     "koreanName": "로시",
     "ytmName": "Rosi"
   },
@@ -576,10 +722,35 @@
     "ytmName": "Ruru"
   },
   {
+    "id": "sabasister",
+    "name": "SABASISTER",
+    "englishName": "SABASISTER",
+    "country": "JP",
+    "aliases": [
+      "サバシスター",
+      "SABASISTER"
+    ],
+    "ytmName": "サバシスター"
+  },
+  {
+    "id": "sable-hills",
+    "name": "Sable Hills",
+    "englishName": "Sable Hills",
+    "country": "JP",
+    "ytmName": "Sable Hills"
+  },
+  {
     "id": "sanbo",
     "name": "산보",
     "englishName": "Sanbo",
     "ytmName": "Sanbo"
+  },
+  {
+    "id": "schizo",
+    "name": "스키조",
+    "englishName": "Schizo",
+    "koreanName": "스키조",
+    "ytmName": "Schizo"
   },
   {
     "id": "seisumi",
@@ -641,6 +812,13 @@
     "ytmName": "SKIPJACK"
   },
   {
+    "id": "snake-chicken-soup",
+    "name": "스네이크치킨수프",
+    "englishName": "Snake Chicken Soup",
+    "koreanName": "스네이크치킨수프",
+    "ytmName": "Snake Chicken Soup"
+  },
+  {
     "id": "socialclub-hyangwu",
     "name": "향우회",
     "englishName": "SOCIALCLUB HYANGWU",
@@ -662,6 +840,20 @@
     "ytmName": "Song Eunchae"
   },
   {
+    "id": "song-sohee",
+    "name": "송소희",
+    "englishName": "Song Sohee",
+    "koreanName": "송소희",
+    "ytmName": "Song Sohee"
+  },
+  {
+    "id": "sonic-stones",
+    "name": "소닉스톤즈",
+    "englishName": "Sonic Stones",
+    "koreanName": "소닉스톤즈",
+    "ytmName": "Sonic Stones"
+  },
+  {
     "id": "sultan-of-the-disco",
     "name": "술탄오브더디스코",
     "englishName": "Sultan Of The Disco",
@@ -679,6 +871,20 @@
     "englishName": "Synsnake",
     "koreanName": "신스네이크",
     "ytmName": "Synsnake"
+  },
+  {
+    "id": "ta-copy",
+    "name": "타카피",
+    "englishName": "t.a-copy",
+    "koreanName": "타카피",
+    "ytmName": "t.a-copy"
+  },
+  {
+    "id": "the-ade",
+    "name": "디에이드",
+    "englishName": "The Ade",
+    "koreanName": "디에이드",
+    "ytmName": "The Ade"
   },
   {
     "id": "the-fix",
@@ -738,6 +944,12 @@
     "ytmName": "To More Raw"
   },
   {
+    "id": "tokai",
+    "name": "Tokai",
+    "englishName": "Tokai",
+    "ytmName": "Tokai"
+  },
+  {
     "id": "tomikita",
     "name": "TOMIKITA",
     "englishName": "TOMIKITA",
@@ -755,6 +967,13 @@
     "englishName": "TURTLE ISLAND",
     "country": "JP",
     "ytmName": "TURTLE ISLAND"
+  },
+  {
+    "id": "umuhae",
+    "name": "우무해",
+    "englishName": "Umuhae",
+    "koreanName": "우무해",
+    "ytmName": "Umuhae"
   },
   {
     "id": "urban-zakapa",
@@ -781,6 +1000,13 @@
     "name": "W24",
     "englishName": "W24",
     "ytmName": "W24"
+  },
+  {
+    "id": "wah-wah-wah",
+    "name": "와와와",
+    "englishName": "Wah Wah Wah",
+    "koreanName": "와와와",
+    "ytmName": "Wah Wah Wah"
   },
   {
     "id": "we-steal-oranges",
