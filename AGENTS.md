@@ -25,8 +25,13 @@ and fetched at runtime. See `README.md` and `docs/PRODUCT.md` for the product ov
   (`import.meta.glob` + JSON imports from `public/data`), so Home and the festival page render
   synchronously with no fetch/spinner/waterfall. Read this data through `src/data/staticData.ts`
   (or `FestivalService.*Sync()` / `useMobileFestival`), not `fetch`.
-- Only the large per-artist playlists (`playlists/{artistId}.json`, ~700KB total) stay lazily
-  `fetch`-ed on demand (`loadJson.fetchPlaylistJson` / `FestivalService.getPlaylistForArtist`).
+- The larger per-artist playlists (`playlists/{artistId}.json`, ~700KB total) are NOT lazily
+  fetched per-tap anymore. They are eager-bundled into a single **separate async chunk**
+  (`src/data/playlistsBundle.ts`, ~82KB gzip) that is **preloaded on app idle** and cached in
+  memory by `src/data/playlistData.ts`. Access via `getPlaylistRaw(artistId)` (or
+  `preloadPlaylists()`); it resolves from the cached chunk, so interactions are instant with no
+  per-artist network round trip. The chunk is code-split, so it does not bloat the initial
+  critical bundle.
 - When adding a festival, update `festivals/index.json` + the festival JSON as before; the bundler
   picks them up on rebuild (Vite HMR in dev). No runtime fetch wiring needed.
 
