@@ -1,0 +1,209 @@
+{
+  "artistId": "owalloil",
+  "artistName": "오월오일",
+  "englishName": "Owalloil",
+  "collectedAt": "2026-08-05T12:30:38.476612+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1050,
+    "latestSlotLabel": "17:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.543,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCp-MnUXH3vPP0uh8s4-rxQQ",
+    "name": "OWALLOIL",
+    "subscribers": "10.3K",
+    "channelId": "UCp-MnUXH3vPP0uh8s4-rxQQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/38bCVyxhD641bh8KwDxFha3vt_Dokp1bh3uXKV47b1QtHsamCW9Mj4BM3LICc96NrYBTCrebR22b5g=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCp-MnUXH3vPP0uh8s4-rxQQ"
+  },
+  "tracks": [
+    {
+      "videoId": "zBfQC_GcIvM",
+      "songTitle": "Echo",
+      "title": "Echo",
+      "artists": [
+        "OWALLOIL"
+      ],
+      "albumTitle": "Nightmare",
+      "albumBrowseId": "MPREb_Nj1R0vBTNx4",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UfEI_oIroulf59wWArwHEnPl4fWq452eQ0xBfqlLYMM2tD_exSG7iOQtZv86kjzviu19uUB4R17NWbkC=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zBfQC_GcIvM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zBfQC_GcIvM",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "1CuzfF4OTBU",
+      "songTitle": "For you",
+      "title": "For you",
+      "artists": [
+        "OWALLOIL"
+      ],
+      "albumTitle": "For you",
+      "albumBrowseId": "MPREb_rOJrtDMm2uL",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HbBs8kVV8zscuWakFmNO9-zKLYIfw5ATDeNf-WRsZWKkHHiBHxyPaTNaTlbg-hkjKOWk6rgNpKMkyjzZ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1CuzfF4OTBU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1CuzfF4OTBU",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "t54PzeNJDIA",
+      "songTitle": "Wish",
+      "title": "Wish",
+      "artists": [
+        "OwallOil"
+      ],
+      "albumTitle": "Wish",
+      "albumBrowseId": "MPREb_NWzU27WakeW",
+      "duration": "2:45",
+      "durationSeconds": 165,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qBeHq7NT6QScEhdhzK5-mdOhTV3WhBQETxyEZGdnmCTX_A8RUQbozLBqhTOy-QfvRTZqUqra8LqlUMAe=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=t54PzeNJDIA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=t54PzeNJDIA",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "yYFkhUiwk4k",
+      "songTitle": "Cherry Roman Candle",
+      "title": "Cherry Roman Candle",
+      "artists": [
+        "OWALLOIL"
+      ],
+      "albumTitle": "FRUTO",
+      "albumBrowseId": "MPREb_xiE1RaMkv13",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pt9MfKqWTIu_USEMa3FIUDayrWkHI2hUpA3uI6OyeGt7ek7dlwVbNAJ76xFRUYVKSRW7ycSNC1cxhII=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yYFkhUiwk4k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=yYFkhUiwk4k",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "nJXWtCrisxA",
+      "songTitle": "London Time",
+      "title": "London Time",
+      "artists": [
+        "OWALLOIL"
+      ],
+      "albumTitle": "London Time",
+      "albumBrowseId": "MPREb_HQqqfwPtdtA",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ecT0nLmDu4fz4pUQw9BYe9Daqm7zUy3YgmcfspOYmuhnsR_NjXmtIGy5xbB_HFsu7sy--M4zK7He-ycT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nJXWtCrisxA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nJXWtCrisxA",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "SzTzTF5Yfrw",
+      "songTitle": "Look My Moon",
+      "title": "Look My Moon",
+      "artists": [
+        "OWALLOIL"
+      ],
+      "albumTitle": "Look My Moon",
+      "albumBrowseId": "MPREb_QRB6KkuEXoT",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NMpYUA5goDF3hpBxv5FNOFvoE4xp-CAW5eTqGnlVDCZnUG-gyQKTMV5duAcz6YkP7vYzp4wxHZVj4eUA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SzTzTF5Yfrw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SzTzTF5Yfrw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "iWtPhKNOgcU",
+      "songTitle": "Lunch Time",
+      "title": "Lunch Time",
+      "artists": [
+        "OWALLOIL"
+      ],
+      "albumTitle": "Campo",
+      "albumBrowseId": "MPREb_1WnRVh6JHxq",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SamlRT6X9K8tc-YFJGT5R1ryYmZnejMMLA1vE7vrXOstpTet_ijtemmG_nCpD59GUL8FM0FAyS5vkKMWnQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iWtPhKNOgcU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=iWtPhKNOgcU",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Yyg6um1GIRE",
+      "songTitle": "Last Dance",
+      "title": "Last Dance",
+      "artists": [
+        "OWALLOIL"
+      ],
+      "albumTitle": "bright #12",
+      "albumBrowseId": "MPREb_EYJAj88DCAI",
+      "duration": "3:52",
+      "durationSeconds": 232,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tqv2sIYmNjIdXcxWcwZmCvcVPO_SwL0yGErGhqVrG8OjjM_ae1X5lZoH2SIz1zaJ2vpCYSh-QZooHbdA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Yyg6um1GIRE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Yyg6um1GIRE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "HxxBU0AtrHs",
+      "songTitle": "The world we lived",
+      "title": "The world we lived",
+      "artists": [
+        "OWALLOIL"
+      ],
+      "albumTitle": "GREAT SEOUL INVASION Section 1",
+      "albumBrowseId": "MPREb_Q9a9rNT6YKR",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oRC04gV9xUX_-6-gBPkkl9NRjzmzhVh9Oe7IzRtOQikGcQHSJmDw-FXpIlvB9EP8Fgt53VI5oHsIf-ih=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HxxBU0AtrHs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HxxBU0AtrHs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Kh7lsMEj3vk",
+      "songTitle": "I Dare You",
+      "title": "I Dare You",
+      "artists": [
+        "OWALLOIL"
+      ],
+      "albumTitle": "Campo",
+      "albumBrowseId": "MPREb_1WnRVh6JHxq",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SamlRT6X9K8tc-YFJGT5R1ryYmZnejMMLA1vE7vrXOstpTet_ijtemmG_nCpD59GUL8FM0FAyS5vkKMWnQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Kh7lsMEj3vk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Kh7lsMEj3vk",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 오월오일 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=zBfQC_GcIvM%2C1CuzfF4OTBU%2Ct54PzeNJDIA%2CyYFkhUiwk4k%2CnJXWtCrisxA%2CSzTzTF5Yfrw%2CiWtPhKNOgcU%2CYyg6um1GIRE%2CHxxBU0AtrHs%2CKh7lsMEj3vk&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%98%A4%EC%9B%94%EC%98%A4%EC%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=zBfQC_GcIvM&list=RDAMVMzBfQC_GcIvM"
+}

@@ -1,0 +1,208 @@
+{
+  "artistId": "gaehwa",
+  "artistName": "개화",
+  "englishName": "GAEHWA",
+  "collectedAt": "2026-08-05T12:30:18.908477+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCXJMVtIlhiYmxOcHnD8OnBQ",
+    "name": "GAEHWA",
+    "subscribers": "346",
+    "channelId": "UCazWlLOlt1ezrpg2Kl7x8FA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/4f4BQihzMD4NcyQuoEVHC5_0y2Xf0WU5AGnAl1SF5sykaGmxmq1D0Q4gK0UuOdduvnCoyttapuPADKjV=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCXJMVtIlhiYmxOcHnD8OnBQ"
+  },
+  "tracks": [
+    {
+      "videoId": "d5SMqWpc0wo",
+      "songTitle": "Cologne",
+      "title": "Cologne",
+      "artists": [
+        "GAEHWA"
+      ],
+      "albumTitle": "BRUISES & HICKEYS",
+      "albumBrowseId": "MPREb_hpg4zYsRQ9e",
+      "duration": "2:26",
+      "durationSeconds": 146,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PP0s4x0CgYfKY1902IlwVu37RN1uWvGq8UIS4vDVdkLBm-TX8ceUVq_eWX7c6FV1XvfGa9tT5dBfhwh1=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=d5SMqWpc0wo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=d5SMqWpc0wo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "YGZbjGliwTg",
+      "songTitle": "Hate Me Back",
+      "title": "Hate Me Back",
+      "artists": [
+        "GAEHWA"
+      ],
+      "albumTitle": "BRUISES & HICKEYS",
+      "albumBrowseId": "MPREb_hpg4zYsRQ9e",
+      "duration": "3:29",
+      "durationSeconds": 209,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PP0s4x0CgYfKY1902IlwVu37RN1uWvGq8UIS4vDVdkLBm-TX8ceUVq_eWX7c6FV1XvfGa9tT5dBfhwh1=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YGZbjGliwTg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YGZbjGliwTg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "KR7i8TOPMNs",
+      "songTitle": "You're Mine",
+      "title": "You're Mine",
+      "artists": [
+        "GAEHWA"
+      ],
+      "albumTitle": "BRUISES & HICKEYS",
+      "albumBrowseId": "MPREb_hpg4zYsRQ9e",
+      "duration": "3:55",
+      "durationSeconds": 235,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PP0s4x0CgYfKY1902IlwVu37RN1uWvGq8UIS4vDVdkLBm-TX8ceUVq_eWX7c6FV1XvfGa9tT5dBfhwh1=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KR7i8TOPMNs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KR7i8TOPMNs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Lo8MPNedc1U",
+      "songTitle": "Castaway",
+      "title": "Castaway",
+      "artists": [
+        "GAEHWA"
+      ],
+      "albumTitle": "LETTERS TO JULIET",
+      "albumBrowseId": "MPREb_txrvgwiNvvw",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ug1LrckjbR2tzKCGpGkV5Lk-X3c60M0RXEaccUoQzbKuSK_RLTMsRNFMYCRW8qzixRrCpgiQyv-GhGk3=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Lo8MPNedc1U",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Lo8MPNedc1U",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "gJmwAUukTVM",
+      "songTitle": "You're Mine Alternative Version",
+      "title": "You're Mine Alternative Version",
+      "artists": [
+        "GAEHWA"
+      ],
+      "albumTitle": "BRUISES & HICKEYS (Reimagined)",
+      "albumBrowseId": "MPREb_Vm6L9yTHmAI",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/y_hwRfRuj2kCfpZQ189AcpyLyl2q6EoMxuEOTsHnIOUtIJwo3W3iTmcpcQSihcXfbXqSgrRHgSRWFdY5=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gJmwAUukTVM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gJmwAUukTVM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Y90k-8q_Kqo",
+      "songTitle": "Rules (Before Sunrise)",
+      "title": "Rules (Before Sunrise)",
+      "artists": [
+        "GAEHWA"
+      ],
+      "albumTitle": "Rules (Before Sunrise)",
+      "albumBrowseId": "MPREb_MB8rXiJJuO4",
+      "duration": "2:46",
+      "durationSeconds": 166,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/CrrXraFMdiyZremZvVAVQFBzWfcPc-51FuISxDgLLToodptL8tDwvE84f7l70AKzPhN-4PkY5WeXQk7K=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y90k-8q_Kqo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Y90k-8q_Kqo",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "Cl2iYl7h4Es",
+      "songTitle": "2046",
+      "title": "2046",
+      "artists": [
+        "GAEHWA"
+      ],
+      "albumTitle": "LETTERS TO JULIET",
+      "albumBrowseId": "MPREb_txrvgwiNvvw",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ug1LrckjbR2tzKCGpGkV5Lk-X3c60M0RXEaccUoQzbKuSK_RLTMsRNFMYCRW8qzixRrCpgiQyv-GhGk3=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Cl2iYl7h4Es",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Cl2iYl7h4Es",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Psc_EnzePhk",
+      "songTitle": "Too Bad (..)",
+      "title": "Too Bad (..)",
+      "artists": [
+        "GAEHWA"
+      ],
+      "albumTitle": "LETTERS TO JULIET",
+      "albumBrowseId": "MPREb_txrvgwiNvvw",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ug1LrckjbR2tzKCGpGkV5Lk-X3c60M0RXEaccUoQzbKuSK_RLTMsRNFMYCRW8qzixRrCpgiQyv-GhGk3=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Psc_EnzePhk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Psc_EnzePhk",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "YU4C_hnJwXs",
+      "songTitle": "Cologne Unplugged Version",
+      "title": "Cologne Unplugged Version",
+      "artists": [
+        "GAEHWA"
+      ],
+      "albumTitle": "BRUISES & HICKEYS (Reimagined)",
+      "albumBrowseId": "MPREb_Vm6L9yTHmAI",
+      "duration": "2:51",
+      "durationSeconds": 171,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/y_hwRfRuj2kCfpZQ189AcpyLyl2q6EoMxuEOTsHnIOUtIJwo3W3iTmcpcQSihcXfbXqSgrRHgSRWFdY5=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YU4C_hnJwXs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YU4C_hnJwXs",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "UP2b81Tn14A",
+      "songTitle": "Stay Away From Me",
+      "title": "Stay Away From Me",
+      "artists": [
+        "GAEHWA"
+      ],
+      "albumTitle": "LETTERS TO JULIET",
+      "albumBrowseId": "MPREb_txrvgwiNvvw",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ug1LrckjbR2tzKCGpGkV5Lk-X3c60M0RXEaccUoQzbKuSK_RLTMsRNFMYCRW8qzixRrCpgiQyv-GhGk3=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UP2b81Tn14A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UP2b81Tn14A",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "개화 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=d5SMqWpc0wo%2CYGZbjGliwTg%2CKR7i8TOPMNs%2CLo8MPNedc1U%2CgJmwAUukTVM%2CY90k-8q_Kqo%2CCl2iYl7h4Es%2CPsc_EnzePhk%2CYU4C_hnJwXs%2CUP2b81Tn14A&title=%EA%B0%9C%ED%99%94+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=d5SMqWpc0wo&list=RDAMVMd5SMqWpc0wo"
+}

@@ -1,0 +1,208 @@
+{
+  "artistId": "damons-year",
+  "artistName": "데이먼스 이어",
+  "englishName": "Damons year",
+  "collectedAt": "2026-08-05T12:30:14.526485+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCH-aM6ae8RUTNtNGwrKI3Fg",
+    "name": "Damons Year",
+    "subscribers": "79.4K",
+    "channelId": "UCsh9SN6pOoTAx5-ZU0WcsIQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/n6DTz9ZKsca859QBnVNJ_EN6zEjGFbBrcQ482rQyVc9brgGMw8A_dBbBk9NffAi8jKhAY0QrUmKG97X4=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCH-aM6ae8RUTNtNGwrKI3Fg"
+  },
+  "tracks": [
+    {
+      "videoId": "dgZlLjfh6q4",
+      "songTitle": "yours",
+      "title": "yours",
+      "artists": [
+        "Damons year"
+      ],
+      "albumTitle": "yours",
+      "albumBrowseId": "MPREb_fu0NSCcFlUv",
+      "duration": "2:46",
+      "durationSeconds": 166,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/58Z-eSs0aYSdFAZ1xkSGCvJLYI_N2RiHwfCjQ26VvT2gmWPh83WCzHzE3Fs12_413_yLRI0KFY8bBVEn=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dgZlLjfh6q4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dgZlLjfh6q4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7pGQq3Uppe8",
+      "songTitle": "Mondegreen",
+      "title": "Mondegreen",
+      "artists": [
+        "Damons year"
+      ],
+      "albumTitle": "Mondegreen",
+      "albumBrowseId": "MPREb_kFxwAbVqgZm",
+      "duration": "3:14",
+      "durationSeconds": 194,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ndiv0w0BAtzu1ybe7p1fJ74LfZId0OSAwc_opkwO2G-eOFhxY3QqPgaP8mx1AVtYthoEaXtM_OITtSc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7pGQq3Uppe8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7pGQq3Uppe8",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "qcUqqXqerp4",
+      "songTitle": "josee!",
+      "title": "josee!",
+      "artists": [
+        "Damons year"
+      ],
+      "albumTitle": "josee!",
+      "albumBrowseId": "MPREb_lBWVWPjqqgx",
+      "duration": "2:04",
+      "durationSeconds": 124,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/peaOvtLehnWqAtC16UlR1utqFxh5EZsz67RJGQrif8zRw01nVYzaG9mBTc2KLF9A8CmcGb4jN_YoYhxU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qcUqqXqerp4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qcUqqXqerp4",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "FIJpCghLTG8",
+      "songTitle": "salty",
+      "title": "salty",
+      "artists": [
+        "Damons year"
+      ],
+      "albumTitle": "\" sin ! \"",
+      "albumBrowseId": "MPREb_gxwjIkxilG0",
+      "duration": "2:57",
+      "durationSeconds": 177,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ovNi6-Uphfz-Sw4mkqYqZM06zr3ufXAdR1BHSWtqqaccIO07HStMODziqCk-SQl0k5DTxQLb1BCOGKI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FIJpCghLTG8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FIJpCghLTG8",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "K8C4v8pgmdw",
+      "songTitle": "F.U.Y",
+      "title": "F.U.Y",
+      "artists": [
+        "Damons year"
+      ],
+      "albumTitle": "Mondegreen",
+      "albumBrowseId": "MPREb_kFxwAbVqgZm",
+      "duration": "3:11",
+      "durationSeconds": 191,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ndiv0w0BAtzu1ybe7p1fJ74LfZId0OSAwc_opkwO2G-eOFhxY3QqPgaP8mx1AVtYthoEaXtM_OITtSc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K8C4v8pgmdw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=K8C4v8pgmdw",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "CzRJOm2R-2Y",
+      "songTitle": "TO THE UNDYING LOVER",
+      "title": "TO THE UNDYING LOVER",
+      "artists": [
+        "Damons year"
+      ],
+      "albumTitle": "TO THE UNDYING LOVER",
+      "albumBrowseId": "MPREb_XoQvaH4AGp2",
+      "duration": "3:09",
+      "durationSeconds": 189,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vtLfA3PBpp-kTogcR2XfosA6vpn-TNyganxVbfxNLqhpppSrHAlJPSLF5en2OOzaVDG8MSu9EBH2MCXN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CzRJOm2R-2Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CzRJOm2R-2Y",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "w5JJuNtY0WA",
+      "songTitle": "Auburn (HEADACHE. version)",
+      "title": "Auburn (HEADACHE. version)",
+      "artists": [
+        "Damons year"
+      ],
+      "albumTitle": "HEADACHE.",
+      "albumBrowseId": "MPREb_LuZ5gEav3Li",
+      "duration": "3:05",
+      "durationSeconds": 185,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/sfZHJFUzpft18lZ5hAqpjEk7ybrvJcZMTXfjPXSoK883po7xEO_R3FLqiCmfmQ0sSZaoOqbDMEzYjLw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w5JJuNtY0WA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=w5JJuNtY0WA",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "XpYe35qf_iI",
+      "songTitle": "Untitled_08",
+      "title": "Untitled_08",
+      "artists": [
+        "데이먼스 이어"
+      ],
+      "albumTitle": "We Are All Trying Here OST Part.6",
+      "albumBrowseId": "MPREb_8vp2fVux6GB",
+      "duration": "3:38",
+      "durationSeconds": 218,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Yw2HoBJjinXe2eV9ig0hfLGcJEW00Bju5VyWPEV7DOQEcZ6j2DiFRFsnNCsd2LUHOViaZljwqgkVMyE3=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XpYe35qf_iI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XpYe35qf_iI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "uEcz_1NbEbU",
+      "songTitle": "Your Knight",
+      "title": "Your Knight",
+      "artists": [
+        "Damons year"
+      ],
+      "albumTitle": "HEADACHE.",
+      "albumBrowseId": "MPREb_LuZ5gEav3Li",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/sfZHJFUzpft18lZ5hAqpjEk7ybrvJcZMTXfjPXSoK883po7xEO_R3FLqiCmfmQ0sSZaoOqbDMEzYjLw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uEcz_1NbEbU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=uEcz_1NbEbU",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "d_wGvrkyyUo",
+      "songTitle": "nite",
+      "title": "nite",
+      "artists": [
+        "Damons year"
+      ],
+      "albumTitle": "nite",
+      "albumBrowseId": "MPREb_ievMFAy81UG",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/F3HaEKrgt6SvwLMiIrxdyXF8GGdHdzs3dHsaSbxwhl6bBt9PB9SX54xyxpoNB5fCXer4RNBANfLiDp8P=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=d_wGvrkyyUo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=d_wGvrkyyUo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "데이먼스 이어 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=dgZlLjfh6q4%2C7pGQq3Uppe8%2CqcUqqXqerp4%2CFIJpCghLTG8%2CK8C4v8pgmdw%2CCzRJOm2R-2Y%2Cw5JJuNtY0WA%2CXpYe35qf_iI%2CuEcz_1NbEbU%2Cd_wGvrkyyUo&title=%EB%8D%B0%EC%9D%B4%EB%A8%BC%EC%8A%A4+%EC%9D%B4%EC%96%B4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=dgZlLjfh6q4&list=RDAMVMdgZlLjfh6q4"
+}

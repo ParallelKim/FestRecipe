@@ -1,0 +1,202 @@
+{
+  "artistId": "idiotape",
+  "artistName": "이디오테잎",
+  "englishName": "IDIOTAPE",
+  "collectedAt": "2026-08-05T12:30:24.147856+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1290,
+    "latestSlotLabel": "21:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.922,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCbqFypNQpLZVoMY4D86bqGA",
+    "name": "IDIOTAPE",
+    "subscribers": "14.8K",
+    "channelId": "UCH4qSQBQ6qlvqQfnxTp6UoA",
+    "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lOsfEU_Oqqdl2BehAV_20OFupbjENiGqfuGihVs4ajZQ=w1493-h622-l90-rj-dcpZMS",
+    "url": "https://music.youtube.com/channel/UCbqFypNQpLZVoMY4D86bqGA"
+  },
+  "tracks": [
+    {
+      "videoId": "8S6SeXS4P20",
+      "songTitle": "Melodie",
+      "title": "Melodie",
+      "artists": [
+        "IDIOTAPE"
+      ],
+      "albumTitle": "11111101",
+      "albumBrowseId": "MPREb_6a70RPzIJRU",
+      "duration": "5:01",
+      "durationSeconds": 301,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yEsbl7lrnCYmlmSCh0fdwq_vaEWcJtNNXeo4wkffeMMJEZoUzOss6pjKL4MBhF9RuloLvcViLs8U_imc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8S6SeXS4P20",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8S6SeXS4P20",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "pLgnEbgYbS4",
+      "songTitle": "Pluto",
+      "title": "Pluto",
+      "artists": [
+        "IDIOTAPE"
+      ],
+      "albumTitle": "11111101",
+      "albumBrowseId": "MPREb_6a70RPzIJRU",
+      "duration": "4:51",
+      "durationSeconds": 291,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yEsbl7lrnCYmlmSCh0fdwq_vaEWcJtNNXeo4wkffeMMJEZoUzOss6pjKL4MBhF9RuloLvcViLs8U_imc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pLgnEbgYbS4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pLgnEbgYbS4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "LlLM8IFbcYU",
+      "songTitle": "080509",
+      "title": "080509",
+      "artists": [
+        "IDIOTAPE"
+      ],
+      "albumTitle": "11111101",
+      "albumBrowseId": "MPREb_6a70RPzIJRU",
+      "duration": "6:56",
+      "durationSeconds": 416,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yEsbl7lrnCYmlmSCh0fdwq_vaEWcJtNNXeo4wkffeMMJEZoUzOss6pjKL4MBhF9RuloLvcViLs8U_imc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LlLM8IFbcYU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LlLM8IFbcYU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ZL2DXdk4KzE",
+      "songTitle": "Even Floor",
+      "title": "Even Floor",
+      "artists": [
+        "IDIOTAPE"
+      ],
+      "albumTitle": "11111101",
+      "albumBrowseId": "MPREb_6a70RPzIJRU",
+      "duration": "5:27",
+      "durationSeconds": 327,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yEsbl7lrnCYmlmSCh0fdwq_vaEWcJtNNXeo4wkffeMMJEZoUzOss6pjKL4MBhF9RuloLvcViLs8U_imc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZL2DXdk4KzE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZL2DXdk4KzE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "0mUb0UwUU_s",
+      "songTitle": "Sunset Strip",
+      "title": "Sunset Strip",
+      "artists": [
+        "IDIOTAPE"
+      ],
+      "albumTitle": "11111101",
+      "albumBrowseId": "MPREb_6a70RPzIJRU",
+      "duration": "4:33",
+      "durationSeconds": 273,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yEsbl7lrnCYmlmSCh0fdwq_vaEWcJtNNXeo4wkffeMMJEZoUzOss6pjKL4MBhF9RuloLvcViLs8U_imc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0mUb0UwUU_s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0mUb0UwUU_s",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "fxguSlJ40L8",
+      "songTitle": "Toad Song",
+      "title": "Toad Song",
+      "artists": [
+        "IDIOTAPE"
+      ],
+      "albumTitle": "11111101",
+      "albumBrowseId": "MPREb_6a70RPzIJRU",
+      "duration": "5:29",
+      "durationSeconds": 329,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yEsbl7lrnCYmlmSCh0fdwq_vaEWcJtNNXeo4wkffeMMJEZoUzOss6pjKL4MBhF9RuloLvcViLs8U_imc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fxguSlJ40L8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fxguSlJ40L8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "u_Ae9iH2zP8",
+      "songTitle": "0805",
+      "title": "0805",
+      "artists": [
+        "IDIOTAPE"
+      ],
+      "albumTitle": "0805",
+      "albumBrowseId": "MPREb_JLtKOG6r7tE",
+      "duration": "6:54",
+      "durationSeconds": 414,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/72C7wb5CmgGiDR46jXYMvB6RqRNT33BVKtDY7pNpim4B8FdwR4z4yRol0JXRU4IctGRNHE6D2ZhppnF-1g=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u_Ae9iH2zP8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=u_Ae9iH2zP8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Cy3dcrC_d_M",
+      "songTitle": "Acid Punk",
+      "title": "Acid Punk",
+      "artists": [
+        "IDIOTAPE"
+      ],
+      "albumTitle": "Acid Punk",
+      "albumBrowseId": "MPREb_1b0QDGhgtz3",
+      "duration": "4:16",
+      "durationSeconds": 256,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZUbQsWJni3yTz2-0OXhAbAT-kDnzGJZo4hU9GnBwnxZp4HKu6iTcFudmarCRbBEFr8-ksLcuAb3GDo8JfQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Cy3dcrC_d_M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Cy3dcrC_d_M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "vx39XhJaW4Q",
+      "songTitle": "Boiling Point",
+      "title": "Boiling Point",
+      "artists": [
+        "IDIOTAPE"
+      ],
+      "albumTitle": "Tours",
+      "albumBrowseId": "MPREb_m5A4LiHGYdN",
+      "duration": "3:09",
+      "durationSeconds": 189,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ksb1GERXLgzGGnuZnXX4l9A5hn4F2aEo6pefjeoFxzELJ8zKcbjpdmEKQcxorfvYMj4a9jwYwwLTAps=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vx39XhJaW4Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vx39XhJaW4Q",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EKRxnlkppd0",
+      "songTitle": "Idio_T",
+      "title": "Idio_T",
+      "artists": [
+        "IDIOTAPE"
+      ],
+      "albumTitle": "11111101",
+      "albumBrowseId": "MPREb_6a70RPzIJRU",
+      "duration": "5:43",
+      "durationSeconds": 343,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yEsbl7lrnCYmlmSCh0fdwq_vaEWcJtNNXeo4wkffeMMJEZoUzOss6pjKL4MBhF9RuloLvcViLs8U_imc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EKRxnlkppd0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EKRxnlkppd0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 이디오테잎 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=8S6SeXS4P20%2CpLgnEbgYbS4%2CLlLM8IFbcYU%2CZL2DXdk4KzE%2C0mUb0UwUU_s%2CfxguSlJ40L8%2Cu_Ae9iH2zP8%2CCy3dcrC_d_M%2Cvx39XhJaW4Q%2CEKRxnlkppd0&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%9D%B4%EB%94%94%EC%98%A4%ED%85%8C%EC%9E%8E+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=8S6SeXS4P20&list=RDAMVM8S6SeXS4P20"
+}

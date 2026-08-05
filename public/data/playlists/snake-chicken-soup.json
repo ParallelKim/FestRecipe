@@ -1,0 +1,209 @@
+{
+  "artistId": "snake-chicken-soup",
+  "artistName": "스네이크치킨수프",
+  "englishName": "Snake Chicken Soup",
+  "collectedAt": "2026-08-05T12:30:46.363734+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 930,
+    "latestSlotLabel": "15:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.328,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCH9pjP0MBOYtl9E7xH_VN9g",
+    "name": "Snake Chicken Soup",
+    "subscribers": "1.2K",
+    "channelId": "UCvALo51OGraEZ61cix8QNTQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/979xd0Cdp34AO1VT6INcbCB7lPjg7Xm5do9rwluhZOC75PIOtPuYWXmGK9SJFPOHbZeU830m=w1120-h466-l90-rj-dciWGKCL0E",
+    "url": "https://music.youtube.com/channel/UCH9pjP0MBOYtl9E7xH_VN9g"
+  },
+  "tracks": [
+    {
+      "videoId": "4fHNgUFWmJM",
+      "songTitle": "Emergency",
+      "title": "Emergency",
+      "artists": [
+        "Snake Chicken Soup"
+      ],
+      "albumTitle": "EMERGENCY",
+      "albumBrowseId": "MPREb_eADUvbDrcts",
+      "duration": "2:52",
+      "durationSeconds": 172,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IhVYV704sNiMCV_XD5WIMtL9W-pjc_Q2A3g_pjadmk78UJRpwvBiDgt_qtk-PJgcE71X_Ehz_Hv-RFjE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4fHNgUFWmJM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4fHNgUFWmJM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-_isWh0genE",
+      "songTitle": "MORE&MORE&MORE",
+      "title": "MORE&MORE&MORE",
+      "artists": [
+        "Snake Chicken Soup"
+      ],
+      "albumTitle": "補陽",
+      "albumBrowseId": "MPREb_pU52vCnG1Tq",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8MRynWyJVXXtjxA_r6r-xK_yGmkXycggeH8H9RcnSugUMdlQ9qc5GfT8FTqGkyGwmqnlio0VXHa_mHHr3Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-_isWh0genE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-_isWh0genE",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "U56nJLvXGkg",
+      "songTitle": "So What?",
+      "title": "So What?",
+      "artists": [
+        "Snake Chicken Soup"
+      ],
+      "albumTitle": "補陽",
+      "albumBrowseId": "MPREb_pU52vCnG1Tq",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8MRynWyJVXXtjxA_r6r-xK_yGmkXycggeH8H9RcnSugUMdlQ9qc5GfT8FTqGkyGwmqnlio0VXHa_mHHr3Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=U56nJLvXGkg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=U56nJLvXGkg",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "AVVyYxJflpU",
+      "songTitle": "K!LL ME",
+      "title": "K!LL ME",
+      "artists": [
+        "Snake Chicken Soup"
+      ],
+      "albumTitle": "K!LL ME",
+      "albumBrowseId": "MPREb_Ar3GT36FItl",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4OkxgmTNjORZ0tbrqoUm1YmzPTgwCLMreWjMZPAYNYMpDzn6IZCRQxbqLmiGs8pomKyf1NqmXwKHjKYB=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AVVyYxJflpU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=AVVyYxJflpU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "1CjLdTaWBH4",
+      "songTitle": "FUXK OFF",
+      "title": "FUXK OFF",
+      "artists": [
+        "Snake Chicken Soup"
+      ],
+      "albumTitle": "Homemade Fast Food",
+      "albumBrowseId": "MPREb_evgbLRQheTZ",
+      "duration": "4:24",
+      "durationSeconds": 264,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QsVBI0Yo2hke_gwPwQSpoq89eEGW-RPz2L4e_nKiU6ZsaEpKuPefH-wnbG5TXYCEx5D0Oka7vNzrhPae=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1CjLdTaWBH4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1CjLdTaWBH4",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "NQpU6EGHK0E",
+      "songTitle": "Can’t See What’s Next",
+      "title": "Can’t See What’s Next",
+      "artists": [
+        "Snake Chicken Soup"
+      ],
+      "albumTitle": "EMERGENCY",
+      "albumBrowseId": "MPREb_eADUvbDrcts",
+      "duration": "2:45",
+      "durationSeconds": 165,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IhVYV704sNiMCV_XD5WIMtL9W-pjc_Q2A3g_pjadmk78UJRpwvBiDgt_qtk-PJgcE71X_Ehz_Hv-RFjE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NQpU6EGHK0E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NQpU6EGHK0E",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "eW4d0z4R-JQ",
+      "songTitle": "Smashhh",
+      "title": "Smashhh",
+      "artists": [
+        "Snake Chicken Soup"
+      ],
+      "albumTitle": "Homemade Fast Food",
+      "albumBrowseId": "MPREb_evgbLRQheTZ",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QsVBI0Yo2hke_gwPwQSpoq89eEGW-RPz2L4e_nKiU6ZsaEpKuPefH-wnbG5TXYCEx5D0Oka7vNzrhPae=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eW4d0z4R-JQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=eW4d0z4R-JQ",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Lf3YDfLh3ac",
+      "songTitle": "I Am My Own God",
+      "title": "I Am My Own God",
+      "artists": [
+        "Snake Chicken Soup"
+      ],
+      "albumTitle": "Homemade Fast Food",
+      "albumBrowseId": "MPREb_evgbLRQheTZ",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QsVBI0Yo2hke_gwPwQSpoq89eEGW-RPz2L4e_nKiU6ZsaEpKuPefH-wnbG5TXYCEx5D0Oka7vNzrhPae=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Lf3YDfLh3ac",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Lf3YDfLh3ac",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "sPnMJGqYBxw",
+      "songTitle": "Dirty Room",
+      "title": "Dirty Room",
+      "artists": [
+        "Snake Chicken Soup"
+      ],
+      "albumTitle": "Homemade Fast Food",
+      "albumBrowseId": "MPREb_evgbLRQheTZ",
+      "duration": "3:08",
+      "durationSeconds": 188,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QsVBI0Yo2hke_gwPwQSpoq89eEGW-RPz2L4e_nKiU6ZsaEpKuPefH-wnbG5TXYCEx5D0Oka7vNzrhPae=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sPnMJGqYBxw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sPnMJGqYBxw",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "ax8gp-t_cZM",
+      "songTitle": "Too Serious",
+      "title": "Too Serious",
+      "artists": [
+        "Snake Chicken Soup"
+      ],
+      "albumTitle": "Homemade Fast Food",
+      "albumBrowseId": "MPREb_evgbLRQheTZ",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QsVBI0Yo2hke_gwPwQSpoq89eEGW-RPz2L4e_nKiU6ZsaEpKuPefH-wnbG5TXYCEx5D0Oka7vNzrhPae=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ax8gp-t_cZM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ax8gp-t_cZM",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 스네이크치킨수프 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=4fHNgUFWmJM%2C-_isWh0genE%2CU56nJLvXGkg%2CAVVyYxJflpU%2C1CjLdTaWBH4%2CNQpU6EGHK0E%2CeW4d0z4R-JQ%2CLf3YDfLh3ac%2CsPnMJGqYBxw%2Cax8gp-t_cZM&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%8A%A4%EB%84%A4%EC%9D%B4%ED%81%AC%EC%B9%98%ED%82%A8%EC%88%98%ED%94%84+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=4fHNgUFWmJM&list=RDAMVM4fHNgUFWmJM"
+}

@@ -1,0 +1,210 @@
+{
+  "artistId": "dr-core-911",
+  "artistName": "닥터코어911",
+  "englishName": "Dr. Core 911",
+  "collectedAt": "2026-08-05T12:30:15.444673+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCBs1XJhNXBc_eeJndcGexoA",
+    "name": "Dr. Core 911",
+    "subscribers": "206",
+    "channelId": "UCBs1XJhNXBc_eeJndcGexoA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/gonDRHkKygsgw5W66VMXjYpCOg-WBVfSz3zgdh7j37HsFzO8-ST3Ar7xRg-7xMTNyXdCk2EiH_y9Lw=w1329-h553-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCBs1XJhNXBc_eeJndcGexoA"
+  },
+  "tracks": [
+    {
+      "videoId": "HiUcS9qEnAQ",
+      "songTitle": "Rock to the Rhythm",
+      "title": "Rock to the Rhythm",
+      "artists": [
+        "닥터코어 911 (Dr. Core 911)"
+      ],
+      "albumTitle": "Eat Or Be Eaten",
+      "albumBrowseId": "MPREb_SBwP8f3Wbcp",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SAV7Rx-EsNV0Wzq8e83kARizS3mk9254ze0Yh_8AKMn58MJLRUWuFYOTD_QuuS66Zi6_DoQZZUSNHtpq_A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HiUcS9qEnAQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HiUcS9qEnAQ",
+      "source": "ytm_songs_popular",
+      "year": "2008",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "NtLE946YITw",
+      "songTitle": "나이가 나를 먹다",
+      "title": "나이가 나를 먹다",
+      "artists": [
+        "닥터코어 911 (Dr. Core 911)"
+      ],
+      "albumTitle": "Eat Or Be Eaten",
+      "albumBrowseId": "MPREb_SBwP8f3Wbcp",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SAV7Rx-EsNV0Wzq8e83kARizS3mk9254ze0Yh_8AKMn58MJLRUWuFYOTD_QuuS66Zi6_DoQZZUSNHtpq_A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NtLE946YITw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NtLE946YITw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Ari2-L722DM",
+      "songTitle": "사랑꽃 Ⅱ",
+      "title": "사랑꽃 Ⅱ",
+      "artists": [
+        "닥터코어 911 (Dr. Core 911)"
+      ],
+      "albumTitle": "달콤한인생 (Original Television Soundtrack)",
+      "albumBrowseId": "MPREb_NKNuoPcRgA5",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ucSdn_htLyU0_XP9mnoNcN44rePh6-WnjgYHDBZI7mSvnmvhzKVKjv7cNfW-j2DPAz8MMXo962gpE1gG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ari2-L722DM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Ari2-L722DM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "CAu93KeK150",
+      "songTitle": "비가 2008 New Record Version",
+      "title": "비가 2008 New Record Version",
+      "artists": [
+        "닥터코어 911 (Dr. Core 911)"
+      ],
+      "albumTitle": "Eat Or Be Eaten",
+      "albumBrowseId": "MPREb_SBwP8f3Wbcp",
+      "duration": "4:02",
+      "durationSeconds": 242,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SAV7Rx-EsNV0Wzq8e83kARizS3mk9254ze0Yh_8AKMn58MJLRUWuFYOTD_QuuS66Zi6_DoQZZUSNHtpq_A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CAu93KeK150",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CAu93KeK150",
+      "source": "ytm_songs_popular",
+      "year": "2008",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "LOLDPnyZO2I",
+      "songTitle": "PK2",
+      "title": "PK2",
+      "artists": [
+        "Dr. Core 911"
+      ],
+      "albumTitle": "PK2",
+      "albumBrowseId": "MPREb_xv5PyDR8CyR",
+      "duration": "2:50",
+      "durationSeconds": 170,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dF0VZ5SmoBg6f2NWDHY9wcSlNp9wMhxXdmeoLn5HTbqvlXvXejfwt2SzcrPnlnld-TJDjqsqxAqb3aVncw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LOLDPnyZO2I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LOLDPnyZO2I",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "YuySu84BCWM",
+      "songTitle": "래오",
+      "title": "래오",
+      "artists": [
+        "닥터코어 911 (Dr. Core 911)"
+      ],
+      "albumTitle": "Eat Or Be Eaten",
+      "albumBrowseId": "MPREb_SBwP8f3Wbcp",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SAV7Rx-EsNV0Wzq8e83kARizS3mk9254ze0Yh_8AKMn58MJLRUWuFYOTD_QuuS66Zi6_DoQZZUSNHtpq_A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YuySu84BCWM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YuySu84BCWM",
+      "source": "ytm_songs_popular",
+      "year": "2008",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "DJA1PgB7HDE",
+      "songTitle": "Slam",
+      "title": "Slam",
+      "artists": [
+        "닥터코어 911 (Dr. Core 911)"
+      ],
+      "albumTitle": "Eat Or Be Eaten",
+      "albumBrowseId": "MPREb_SBwP8f3Wbcp",
+      "duration": "4:29",
+      "durationSeconds": 269,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SAV7Rx-EsNV0Wzq8e83kARizS3mk9254ze0Yh_8AKMn58MJLRUWuFYOTD_QuuS66Zi6_DoQZZUSNHtpq_A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DJA1PgB7HDE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DJA1PgB7HDE",
+      "source": "ytm_songs_popular",
+      "year": "2008",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "gQIohswjGho",
+      "songTitle": "Never Die",
+      "title": "Never Die",
+      "artists": [
+        "닥터코어 911 (Dr. Core 911)"
+      ],
+      "albumTitle": "Eat Or Be Eaten",
+      "albumBrowseId": "MPREb_SBwP8f3Wbcp",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SAV7Rx-EsNV0Wzq8e83kARizS3mk9254ze0Yh_8AKMn58MJLRUWuFYOTD_QuuS66Zi6_DoQZZUSNHtpq_A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gQIohswjGho",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gQIohswjGho",
+      "source": "ytm_songs_popular",
+      "year": "2008",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "NvqzEZfJ6js",
+      "songTitle": "나이가 나를 먹다 Lion Version",
+      "title": "나이가 나를 먹다 Lion Version",
+      "artists": [
+        "닥터코어 911 (Dr. Core 911)"
+      ],
+      "albumTitle": "Eat Or Be Eaten",
+      "albumBrowseId": "MPREb_SBwP8f3Wbcp",
+      "duration": "4:11",
+      "durationSeconds": 251,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SAV7Rx-EsNV0Wzq8e83kARizS3mk9254ze0Yh_8AKMn58MJLRUWuFYOTD_QuuS66Zi6_DoQZZUSNHtpq_A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NvqzEZfJ6js",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NvqzEZfJ6js",
+      "source": "ytm_songs_popular",
+      "year": "2008",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "2Imh5McXz9k",
+      "songTitle": "As we fall",
+      "title": "As we fall",
+      "artists": [
+        "닥터코어 911 (Dr. Core 911)"
+      ],
+      "albumTitle": "Eat Or Be Eaten",
+      "albumBrowseId": "MPREb_SBwP8f3Wbcp",
+      "duration": "3:46",
+      "durationSeconds": 226,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SAV7Rx-EsNV0Wzq8e83kARizS3mk9254ze0Yh_8AKMn58MJLRUWuFYOTD_QuuS66Zi6_DoQZZUSNHtpq_A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2Imh5McXz9k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2Imh5McXz9k",
+      "source": "ytm_songs_popular",
+      "year": "2008",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "닥터코어911 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=HiUcS9qEnAQ%2CNtLE946YITw%2CAri2-L722DM%2CCAu93KeK150%2CLOLDPnyZO2I%2CYuySu84BCWM%2CDJA1PgB7HDE%2CgQIohswjGho%2CNvqzEZfJ6js%2C2Imh5McXz9k&title=%EB%8B%A5%ED%84%B0%EC%BD%94%EC%96%B4911+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=HiUcS9qEnAQ&list=RDAMVMHiUcS9qEnAQ"
+}

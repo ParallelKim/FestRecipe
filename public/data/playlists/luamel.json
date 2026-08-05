@@ -1,0 +1,203 @@
+{
+  "artistId": "luamel",
+  "artistName": "루아멜",
+  "englishName": "Luamel",
+  "collectedAt": "2026-08-05T12:30:34.007421+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 970,
+    "latestSlotLabel": "16:10",
+    "festivalId": "jumf-2026",
+    "rank": 0.397,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCpPZAhXlneDMgWidXahRZ2w",
+    "name": "LUAMEL",
+    "subscribers": "23.4K",
+    "channelId": "UC0CICcqPpGHtcCtacCYh8Gg",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/RuhQwA5YrmBvVTrPDP-kK4OYYqW1YwwR8OxkF_7nnILOd9MKKlICcaI1xpbGCOLWgvXyV_CH0M3LtZ8Y=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCpPZAhXlneDMgWidXahRZ2w"
+  },
+  "tracks": [
+    {
+      "videoId": "sNUH7qUBGhY",
+      "songTitle": "Clearly",
+      "title": "Clearly",
+      "artists": [
+        "LUAMEL"
+      ],
+      "albumTitle": "Clearly",
+      "albumBrowseId": "MPREb_Ry85fetHljF",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3fA6MPkBnIofwoZXx8QapvtE-PQQZrDM0qZjVp4364U4TbU2P2dRp0yDlIMfc-VrDp5Fh38c0k7yRczn=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sNUH7qUBGhY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sNUH7qUBGhY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "LbO7ILphT-0",
+      "songTitle": "In Between Days (Single from Pachinko: Season 1) [Apple TV+ Original Series Soundtrack]",
+      "title": "In Between Days (Single from Pachinko: Season 1) [Apple TV+ Original Series Soundtrack]",
+      "artists": [
+        "LUAMEL"
+      ],
+      "albumTitle": "In Between Days (Single from Pachinko: Season 1) [Apple TV+ Original Series Soundtrack]",
+      "albumBrowseId": "MPREb_MtzbtMhQIEN",
+      "duration": "2:56",
+      "durationSeconds": 176,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iRlGcIH82lX1wMAq_9D7NlgHTNY-ZsjCQEY1q7HCq-6MR7p7UEYh3C5ZqI804j5y2GKJ2v9dafYNcUB0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LbO7ILphT-0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LbO7ILphT-0",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "c0HbySPM0Yo",
+      "songTitle": "Covet",
+      "title": "Covet",
+      "artists": [
+        "LUAMEL"
+      ],
+      "albumTitle": "Covet",
+      "albumBrowseId": "MPREb_kwIkmmBwxWa",
+      "duration": "2:59",
+      "durationSeconds": 179,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pT4MVR6yWCtxXckUVZI2tcYqQbyt8CnDnGTR0hKy6TiVrOOtR9mhCQmAtOyZXfUWf0z07H1bnI5gs97N=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c0HbySPM0Yo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=c0HbySPM0Yo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "2gipY9sAOjw",
+      "songTitle": "마들렌",
+      "title": "마들렌",
+      "artists": [
+        "LUAMEL"
+      ],
+      "albumTitle": "마들렌",
+      "albumBrowseId": "MPREb_OqeBNZIW1bw",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ItvcrdM5ktErHTPbipoQTawh6FDEcFSzkzk6YeVpF22-pTjeSXKbF2V8S8I08NQtJGimaiG2YlgWVuBs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2gipY9sAOjw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2gipY9sAOjw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "61uaB6mJOXY",
+      "songTitle": "Still",
+      "title": "Still",
+      "artists": [
+        "LUAMEL"
+      ],
+      "albumTitle": "Still",
+      "albumBrowseId": "MPREb_BFObb0JBtrF",
+      "duration": "3:18",
+      "durationSeconds": 198,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/DmuOaEuPdUKFXqIwtXHsZuOUeqx_7XCtJunqaozCVy62-np6LXiSgdPBscefwBuAGhE9De0PhIhE7JY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=61uaB6mJOXY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=61uaB6mJOXY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ZHGXHh3oUhE",
+      "songTitle": "Lotus",
+      "title": "Lotus",
+      "artists": [
+        "LUAMEL"
+      ],
+      "albumTitle": "Lotus",
+      "albumBrowseId": "MPREb_3nBfnikk3yx",
+      "duration": "3:02",
+      "durationSeconds": 182,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2tFkHzs_zuNx-wXb7_GF5OvlDOD-9DT7oxgSmBBDKAlsadOQYmIIaHZdNIet00XUiWIihihqJan2-XE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZHGXHh3oUhE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZHGXHh3oUhE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7xuMBFwhhxc",
+      "songTitle": "OrangeRoad",
+      "title": "OrangeRoad",
+      "artists": [
+        "LUAMEL"
+      ],
+      "albumTitle": "LUAMEL",
+      "albumBrowseId": "MPREb_h7rX9gqN0od",
+      "duration": "4:58",
+      "durationSeconds": 298,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/W1oBD5AKOAF3WWFug7HJDkclqpC5eBkXuK1CHK_AHExd7R9pQocDH4VGCMU0uSeXB3oaCgWdwwtjdC6t=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7xuMBFwhhxc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7xuMBFwhhxc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "wGSLHBx7uDk",
+      "songTitle": "Path",
+      "title": "Path",
+      "artists": [
+        "LUAMEL"
+      ],
+      "albumTitle": "Path",
+      "albumBrowseId": "MPREb_IBqKxH2ZPQ9",
+      "duration": "4:11",
+      "durationSeconds": 251,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XncjkU3uphlhgqqibMRk8Wc0jMY7wDbXddPy0FIt8Y7stT_Fgdb2HSopAg8wWXwvfzpW661wKAR-jt4H=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wGSLHBx7uDk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wGSLHBx7uDk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "fxZdNFOI5bY",
+      "songTitle": "Blur",
+      "title": "Blur",
+      "artists": [
+        "LUAMEL"
+      ],
+      "albumTitle": "LUAMEL",
+      "albumBrowseId": "MPREb_h7rX9gqN0od",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/W1oBD5AKOAF3WWFug7HJDkclqpC5eBkXuK1CHK_AHExd7R9pQocDH4VGCMU0uSeXB3oaCgWdwwtjdC6t=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fxZdNFOI5bY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fxZdNFOI5bY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "DdaHuNmvCgw",
+      "songTitle": "Spring",
+      "title": "Spring",
+      "artists": [
+        "LUAMEL"
+      ],
+      "albumTitle": "LUAMEL",
+      "albumBrowseId": "MPREb_h7rX9gqN0od",
+      "duration": "4:22",
+      "durationSeconds": 262,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/W1oBD5AKOAF3WWFug7HJDkclqpC5eBkXuK1CHK_AHExd7R9pQocDH4VGCMU0uSeXB3oaCgWdwwtjdC6t=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DdaHuNmvCgw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DdaHuNmvCgw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 루아멜 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=sNUH7qUBGhY%2CLbO7ILphT-0%2Cc0HbySPM0Yo%2C2gipY9sAOjw%2C61uaB6mJOXY%2CZHGXHh3oUhE%2C7xuMBFwhhxc%2CwGSLHBx7uDk%2CfxZdNFOI5bY%2CDdaHuNmvCgw&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A3%A8%EC%95%84%EB%A9%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=sNUH7qUBGhY&list=RDAMVMsNUH7qUBGhY"
+}

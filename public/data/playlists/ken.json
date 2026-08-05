@@ -1,0 +1,212 @@
+{
+  "artistId": "ken",
+  "artistName": "KEN",
+  "englishName": "KEN",
+  "collectedAt": "2026-08-05T12:30:29.726560+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCq5nu-cMMHnd9mlLzFUsBmA",
+    "name": "Ken",
+    "subscribers": "1.37K",
+    "channelId": "UCq5nu-cMMHnd9mlLzFUsBmA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/8AYneOmFYThz-ru0wPzElnVKRxZgAz3J-LBcZ9f80QjAx5Uv5mvldc_6d7X5kL4fPV6LHGJyBKqP5Q4=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCq5nu-cMMHnd9mlLzFUsBmA"
+  },
+  "tracks": [
+    {
+      "videoId": "qjU7jr-7o2g",
+      "songTitle": "Speed",
+      "title": "Speed",
+      "artists": [
+        "Ken"
+      ],
+      "albumTitle": "IN PHYSICAL",
+      "albumBrowseId": "MPREb_qpXRQIrJXAk",
+      "duration": "5:02",
+      "durationSeconds": 302,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Z-tac2P4DeNqX4rH5Q4uMelBynUMwML-iQqk8_SGhrAQ3yAwcVH7UJKzCL0EONhwiQ-ynF8fm2lTmq7C=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qjU7jr-7o2g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qjU7jr-7o2g",
+      "source": "ytm_songs_popular",
+      "year": "2009",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "SqHNcQeQ36U",
+      "songTitle": "solitary stroll",
+      "title": "solitary stroll",
+      "artists": [
+        "Ken"
+      ],
+      "albumTitle": "The Party",
+      "albumBrowseId": "MPREb_Glgvcq8vKws",
+      "duration": "5:14",
+      "durationSeconds": 314,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Eb1bHzNzJy4JJV5ZVEaqmxARJ7i6zYt4XMTF9YniyViFvkyF_T-SZOXNu6nkoFFYIxJRgeiU_TaXMJU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SqHNcQeQ36U",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SqHNcQeQ36U",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "-DIlnUX39AY",
+      "songTitle": "My Angel",
+      "title": "My Angel",
+      "artists": [
+        "Ken"
+      ],
+      "albumTitle": "IN PHYSICAL",
+      "albumBrowseId": "MPREb_qpXRQIrJXAk",
+      "duration": "5:08",
+      "durationSeconds": 308,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Z-tac2P4DeNqX4rH5Q4uMelBynUMwML-iQqk8_SGhrAQ3yAwcVH7UJKzCL0EONhwiQ-ynF8fm2lTmq7C=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-DIlnUX39AY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-DIlnUX39AY",
+      "source": "ytm_songs_popular",
+      "year": "2009",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "9j9v-cZOidw",
+      "songTitle": "Deeper",
+      "title": "Deeper",
+      "artists": [
+        "Ken"
+      ],
+      "albumTitle": "IN PHYSICAL",
+      "albumBrowseId": "MPREb_qpXRQIrJXAk",
+      "duration": "4:21",
+      "durationSeconds": 261,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Z-tac2P4DeNqX4rH5Q4uMelBynUMwML-iQqk8_SGhrAQ3yAwcVH7UJKzCL0EONhwiQ-ynF8fm2lTmq7C=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9j9v-cZOidw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9j9v-cZOidw",
+      "source": "ytm_songs_popular",
+      "year": "2009",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "NHOWEcNNuz8",
+      "songTitle": "In Physical",
+      "title": "In Physical",
+      "artists": [
+        "Ken"
+      ],
+      "albumTitle": "IN PHYSICAL",
+      "albumBrowseId": "MPREb_qpXRQIrJXAk",
+      "duration": "5:15",
+      "durationSeconds": 315,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Z-tac2P4DeNqX4rH5Q4uMelBynUMwML-iQqk8_SGhrAQ3yAwcVH7UJKzCL0EONhwiQ-ynF8fm2lTmq7C=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NHOWEcNNuz8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NHOWEcNNuz8",
+      "source": "ytm_songs_popular",
+      "year": "2009",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "p8nzkoUDQwc",
+      "songTitle": "S",
+      "title": "S",
+      "artists": [
+        "Ken"
+      ],
+      "albumTitle": "IN PHYSICAL",
+      "albumBrowseId": "MPREb_qpXRQIrJXAk",
+      "duration": "3:29",
+      "durationSeconds": 209,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Z-tac2P4DeNqX4rH5Q4uMelBynUMwML-iQqk8_SGhrAQ3yAwcVH7UJKzCL0EONhwiQ-ynF8fm2lTmq7C=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=p8nzkoUDQwc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=p8nzkoUDQwc",
+      "source": "ytm_songs_popular",
+      "year": "2009",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "GoL8tCu8KpY",
+      "songTitle": "T.P.I.T.P.",
+      "title": "T.P.I.T.P.",
+      "artists": [
+        "Ken"
+      ],
+      "albumTitle": "The Party",
+      "albumBrowseId": "MPREb_Glgvcq8vKws",
+      "duration": "4:06",
+      "durationSeconds": 246,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Eb1bHzNzJy4JJV5ZVEaqmxARJ7i6zYt4XMTF9YniyViFvkyF_T-SZOXNu6nkoFFYIxJRgeiU_TaXMJU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GoL8tCu8KpY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GoL8tCu8KpY",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "pQvCvXzd_AQ",
+      "songTitle": "Spin Along",
+      "title": "Spin Along",
+      "artists": [
+        "Ken"
+      ],
+      "albumTitle": "IN PHYSICAL",
+      "albumBrowseId": "MPREb_qpXRQIrJXAk",
+      "duration": "4:01",
+      "durationSeconds": 241,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Z-tac2P4DeNqX4rH5Q4uMelBynUMwML-iQqk8_SGhrAQ3yAwcVH7UJKzCL0EONhwiQ-ynF8fm2lTmq7C=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pQvCvXzd_AQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pQvCvXzd_AQ",
+      "source": "ytm_songs_popular",
+      "year": "2009",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "xgRjn7x9o3E",
+      "songTitle": "Repose in Sound Sleep",
+      "title": "Repose in Sound Sleep",
+      "artists": [
+        "Ken"
+      ],
+      "albumTitle": "IN PHYSICAL",
+      "albumBrowseId": "MPREb_qpXRQIrJXAk",
+      "duration": "2:36",
+      "durationSeconds": 156,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Z-tac2P4DeNqX4rH5Q4uMelBynUMwML-iQqk8_SGhrAQ3yAwcVH7UJKzCL0EONhwiQ-ynF8fm2lTmq7C=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xgRjn7x9o3E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xgRjn7x9o3E",
+      "source": "ytm_songs_popular",
+      "year": "2009",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Vwky52Up0Qg",
+      "songTitle": "白い花",
+      "title": "白い花",
+      "artists": [
+        "Ken"
+      ],
+      "albumTitle": "Deeper",
+      "albumBrowseId": "MPREb_tADuKV7NZkn",
+      "duration": "4:42",
+      "durationSeconds": 282,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tmPK2LoImlPWbjU1dDh7fT2nEMqqexOkueNlK-d7Utwapm4v5T-5OQCFjoUHGJQHnVtXrQH7Evvua54=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Vwky52Up0Qg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Vwky52Up0Qg",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "KEN 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=qjU7jr-7o2g%2CSqHNcQeQ36U%2C-DIlnUX39AY%2C9j9v-cZOidw%2CNHOWEcNNuz8%2Cp8nzkoUDQwc%2CGoL8tCu8KpY%2CpQvCvXzd_AQ%2CxgRjn7x9o3E%2CVwky52Up0Qg&title=KEN+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=qjU7jr-7o2g&list=RDAMVMqjU7jr-7o2g"
+}

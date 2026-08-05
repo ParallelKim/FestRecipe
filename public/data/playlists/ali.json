@@ -1,0 +1,206 @@
+{
+  "artistId": "ali",
+  "artistName": "ALI",
+  "englishName": "ALI",
+  "collectedAt": "2026-08-05T12:30:05.806113+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCcM2nwYSXoS0pRpljTefmpg",
+    "name": "ALI",
+    "subscribers": "309K",
+    "channelId": "UCnYvfe8YHnRRly5SCA8mP5A",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/Sw_MmePkbpCQoBLZy1ukslnpjiwQAPw-dVoaCJO7m1KUtjMfr5iSohoPX10bWnLK3OyxTZUI0l2L4bo=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCcM2nwYSXoS0pRpljTefmpg"
+  },
+  "tracks": [
+    {
+      "videoId": "R9PNKMwVW5M",
+      "songTitle": "Wild Side -Anime Ver.- - Wild Side (Anime Version)",
+      "title": "Wild Side -Anime Ver.- - Wild Side (Anime Version)",
+      "artists": [
+        "ALI"
+      ],
+      "albumTitle": "Wild Side (Anime Version)",
+      "albumBrowseId": "MPREb_J6iDVBItqXi",
+      "duration": "1:30",
+      "durationSeconds": 90,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BQKwfOvgz1aC0cbDjkHXT1czFlC2uwO0lJ_s9sT2QvQEnVzXvSIYPVrYCrDzf-_xkajQzBUhfebWJKqA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=R9PNKMwVW5M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=R9PNKMwVW5M",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "4qqeafI9kXM",
+      "songTitle": "LOST IN PARADISE (Jujutsu Kaisen Ending Theme Song) (feat. AKLO)",
+      "title": "LOST IN PARADISE (Jujutsu Kaisen Ending Theme Song) (feat. AKLO)",
+      "artists": [
+        "ALI"
+      ],
+      "albumTitle": "LOST IN PARADISE",
+      "albumBrowseId": "MPREb_siXopqTK9gr",
+      "duration": "5:28",
+      "durationSeconds": 328,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vnfaOppyOzBjvQ6mYLt9nzuOSXoBqZmkpCzv-Ql3xOF71uaefEf1WwwmrRrh4BQ2hwh63V4pphGe7_Nd=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4qqeafI9kXM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4qqeafI9kXM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "u5heWZ9occg",
+      "songTitle": "Wild Side",
+      "title": "Wild Side",
+      "artists": [
+        "ALI"
+      ],
+      "albumTitle": "Wild Side",
+      "albumBrowseId": "MPREb_fFkE4RZM27z",
+      "duration": "2:39",
+      "durationSeconds": 159,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/w8yDg1sjC_-8Q6QGArf6HJs8y_YNiYwi6jL92X27n_IYyyyBS5n8Ycaa_a09Uy1SBOtAdh4xhMdzsxVM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u5heWZ9occg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=u5heWZ9occg",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "AU-mW7oPA3c",
+      "songTitle": "CASANOVA POSSE",
+      "title": "CASANOVA POSSE",
+      "artists": [
+        "ALI"
+      ],
+      "albumTitle": "CASANOVA POSSE",
+      "albumBrowseId": "MPREb_gFk7KLwFPIF",
+      "duration": "4:01",
+      "durationSeconds": 241,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XGP9kGFSktHpHQmfBqrJMmFr7Wt95D9HABNd3tklbkIUmXN5_9E80RbRUT8Or7kWyWoAAOft3_ZsKtJT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AU-mW7oPA3c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=AU-mW7oPA3c",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qDXBnDo3Xpc",
+      "songTitle": "黄金の彼方 - Golden Horizon",
+      "title": "黄金の彼方 - Golden Horizon",
+      "artists": [
+        "Awich",
+        "ALI"
+      ],
+      "albumTitle": "Golden Horizon",
+      "albumBrowseId": "MPREb_8vlXEJaS7Ni",
+      "duration": "2:55",
+      "durationSeconds": 175,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qeFcbDfA5fbNPPPsV9b2QopMForcm9cxJg2ZgdTtvSJKVGysdWf1YEKWkI9n8VzTWGRSm36sZemFs8pb=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qDXBnDo3Xpc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qDXBnDo3Xpc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "OIHBpKYvnok",
+      "songTitle": "NEVER SAY GOODBYE (feat. Mummy-D)",
+      "title": "NEVER SAY GOODBYE (feat. Mummy-D)",
+      "artists": [
+        "ALI"
+      ],
+      "albumTitle": "NEVER SAY GOODBYE",
+      "albumBrowseId": "MPREb_vdmoXq82KUl",
+      "duration": "4:51",
+      "durationSeconds": 291,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-FwkfHgHj3ndfxqdNBrtJGBwCCndl3A8Rg55XEfOXklgM-84r4hqzm9-Nv2SgSTVcOBqfX8yYXLaiGy5WQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OIHBpKYvnok",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OIHBpKYvnok",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "_a0MbGLPLD0",
+      "songTitle": "Professionalism (feat. Hannya)",
+      "title": "Professionalism (feat. Hannya)",
+      "artists": [
+        "ALI"
+      ],
+      "albumTitle": "Professionalism",
+      "albumBrowseId": "MPREb_aEDo3Y1XnUD",
+      "duration": "4:53",
+      "durationSeconds": 293,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/bg70mt40J5_ii7Gr7mjFC87bqt1U4bhF6XDcPJLRsOABg2UBdJ2hdNm9jnEvZtglT6TDgv-tkYqjZoXP=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_a0MbGLPLD0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_a0MbGLPLD0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "FypGyKEec4A",
+      "songTitle": "Wild Side (2023 ver.) - Wild Side (2023 version)",
+      "title": "Wild Side (2023 ver.) - Wild Side (2023 version)",
+      "artists": [
+        "ALI"
+      ],
+      "albumTitle": "MUSIC WORLD",
+      "albumBrowseId": "MPREb_aeei2W3PEZn",
+      "duration": "2:39",
+      "durationSeconds": 159,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IMGdpZgU-IiYAh55ASMjszuZL41JJGSco8KaxSEumHNyBcHVq7o2kERUHAnmyiteeOs18Zvug244zLPj=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FypGyKEec4A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FypGyKEec4A",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "LcEFPTpN6s4",
+      "songTitle": "FUNKIN' BEAUTIFUL (feat. ZORN)",
+      "title": "FUNKIN' BEAUTIFUL (feat. ZORN)",
+      "artists": [
+        "ALI"
+      ],
+      "albumTitle": "FUNKIN' BEAUTIFUL",
+      "albumBrowseId": "MPREb_NcTcct2NoyW",
+      "duration": "3:52",
+      "durationSeconds": 232,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yLkKklfCIK8CUf6dEamTuwee4MJEo1Kr5qATV_9LRSwQVx9w0cK3zoq2iMW6Va7t4w8YdsAUPEzVof1K=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LcEFPTpN6s4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LcEFPTpN6s4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qQHUmAlzQiQ",
+      "songTitle": "BEYOND (feat. MaRI)",
+      "title": "BEYOND (feat. MaRI)",
+      "artists": [
+        "ALI"
+      ],
+      "albumTitle": "BEYOND",
+      "albumBrowseId": "MPREb_SulQ51FU48r",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EGNDuGUwtm5fZ3V3iDNKsObANU_-EiQUCvHUpZXprxJHaqpnGN995cGUgBEYzussMiXKDRbpP4vKTah7cw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qQHUmAlzQiQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qQHUmAlzQiQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "ALI 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=R9PNKMwVW5M%2C4qqeafI9kXM%2Cu5heWZ9occg%2CAU-mW7oPA3c%2CqDXBnDo3Xpc%2COIHBpKYvnok%2C_a0MbGLPLD0%2CFypGyKEec4A%2CLcEFPTpN6s4%2CqQHUmAlzQiQ&title=ALI+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=R9PNKMwVW5M&list=RDAMVMR9PNKMwVW5M"
+}

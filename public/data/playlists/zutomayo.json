@@ -1,0 +1,202 @@
+{
+  "artistId": "zutomayo",
+  "artistName": "ZUTOMAYO",
+  "englishName": "ZUTOMAYO",
+  "collectedAt": "2026-08-05T12:30:57.622818+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCrpcd5WtOrdCsx5cufc4JRQ",
+    "name": "ZUTOMAYO",
+    "subscribers": "3.41M",
+    "channelId": "UCv6P5nsS9rP4tDtFlqLU_QQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/ZxAd98gwuac5Wg5a40DvhY2yozgvgcZ1RfZpSukW_-CDyrjP6RkInQZvh0U7HfW3dYCJu-0whsqzsoqP=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCrpcd5WtOrdCsx5cufc4JRQ"
+  },
+  "tracks": [
+    {
+      "videoId": "WVBDFqBom7Q",
+      "songTitle": "TAIDADA",
+      "title": "TAIDADA",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "albumTitle": "KEISOUDO",
+      "albumBrowseId": "MPREb_tzWRRsH6FyF",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/E-K_AWACgLjmqX9RXyVCUFZ0mGFBb53RWWfytFPDm0k9aE8Xa0XDU3xnoKAbbX-FgU1FTHBZpI_mp3o=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WVBDFqBom7Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WVBDFqBom7Q",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "0ad7f0H5wmY",
+      "songTitle": "秒針を噛む - Byoushinwo Kamu",
+      "title": "秒針を噛む - Byoushinwo Kamu",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "albumTitle": "Tadashii Itsuwarikarano Kishou",
+      "albumBrowseId": "MPREb_lwvJPWsqZBT",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rkaQdSxDy4CSl096l7IjSKUPX_qFMmwxaf4DD7rt3k-sRV_XsSPUVUKa4LEP9N5PbiuruLJblOcnlTE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0ad7f0H5wmY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0ad7f0H5wmY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "lPHThxD3pP0",
+      "songTitle": "イチジク煙 - Fig Smoke",
+      "title": "イチジク煙 - Fig Smoke",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "albumTitle": "Fig Smoke",
+      "albumBrowseId": "MPREb_VhLdNtlj375",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/l9O_7moeZkjffgFqr7sueNmgjaQDYgNE_iY5mfq3lO6cnrRq6bebjL-iSW7MdWN1DXW3EWqRczbUs1M=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lPHThxD3pP0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lPHThxD3pP0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "rp2uTGHOYmk",
+      "songTitle": "あいつら全員同窓会 - Inside Joke",
+      "title": "あいつら全員同窓会 - Inside Joke",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "albumTitle": "JINKOUGAKU",
+      "albumBrowseId": "MPREb_GvsvJOgGlB2",
+      "duration": "4:15",
+      "durationSeconds": 255,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/n6yns2cPMbFNOeJH5CcD2Rasmx75OK4r7sWeusJmQa7EAUBbGfFjU_DFRkV-4BHKAWnLjGUWi6yuc9LV=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rp2uTGHOYmk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rp2uTGHOYmk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "F6UxzaCj5o0",
+      "songTitle": "お勉強しといてよ",
+      "title": "お勉強しといてよ",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "albumTitle": "Hogarakana Hifutote Fufuku",
+      "albumBrowseId": "MPREb_GWOA4Xw0vdW",
+      "duration": "4:40",
+      "durationSeconds": 280,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HIqg52orsqkm9u1QbmMmZQSV5aXg035fT9V65RPfFbcrT078xjuDuiMpndwq1iUyI4WnJ5VsopfaEBRPqA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=F6UxzaCj5o0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=F6UxzaCj5o0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "B_4g3-BxH0M",
+      "songTitle": "残機 - Time Left",
+      "title": "残機 - Time Left",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "albumTitle": "JINKOUGAKU",
+      "albumBrowseId": "MPREb_GvsvJOgGlB2",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/n6yns2cPMbFNOeJH5CcD2Rasmx75OK4r7sWeusJmQa7EAUBbGfFjU_DFRkV-4BHKAWnLjGUWi6yuc9LV=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=B_4g3-BxH0M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=B_4g3-BxH0M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "UGjdBR5-9t0",
+      "songTitle": "クズリ念 - KUZURI",
+      "title": "クズリ念 - KUZURI",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "albumTitle": "Koke no ichinen Kaiba ni takusu",
+      "albumBrowseId": "MPREb_AW3hy9hCdZl",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ikj8gqrVmGQQjAlYLAd_quPblyGiNt6WKqoJ_iGvcQU2l0YaiMt7rEtBWa-PL_PFDuEBSv-_hN34aX8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UGjdBR5-9t0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UGjdBR5-9t0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "mYUKb84KT14",
+      "songTitle": "ミラーチューン - MIRROR TUNE",
+      "title": "ミラーチューン - MIRROR TUNE",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "albumTitle": "JINKOUGAKU",
+      "albumBrowseId": "MPREb_GvsvJOgGlB2",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/n6yns2cPMbFNOeJH5CcD2Rasmx75OK4r7sWeusJmQa7EAUBbGfFjU_DFRkV-4BHKAWnLjGUWi6yuc9LV=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mYUKb84KT14",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mYUKb84KT14",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "68aA_o4yGwo",
+      "songTitle": "正しくなれない - Can't Be Right",
+      "title": "正しくなれない - Can't Be Right",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "albumTitle": "Gusare",
+      "albumBrowseId": "MPREb_glaw5nyKtEn",
+      "duration": "4:01",
+      "durationSeconds": 241,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/DMQc71JJ17BnrHyjEDp4Ys8bxxFb6sjxZBC8DuNnsAd8ZgVnSBCGmcrlomBNWIIlIeMpgCmn-uc_f_N-fg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=68aA_o4yGwo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=68aA_o4yGwo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "TRdnYZtnNis",
+      "songTitle": "勘冴えて悔しいわ - Kan Saete Kuyashiiwa",
+      "title": "勘冴えて悔しいわ - Kan Saete Kuyashiiwa",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "albumTitle": "Hisohiso Banashi",
+      "albumBrowseId": "MPREb_7TMRAaAV9QQ",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/f5sFBZUCo_YWJJrdqPTb2RF1OSAnIQ0soAHjzWF47b8X-gC1XHIPveG1ImcEyLQSGimH96hngHCcjH2K7w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TRdnYZtnNis",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TRdnYZtnNis",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "ZUTOMAYO 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=WVBDFqBom7Q%2C0ad7f0H5wmY%2ClPHThxD3pP0%2Crp2uTGHOYmk%2CF6UxzaCj5o0%2CB_4g3-BxH0M%2CUGjdBR5-9t0%2CmYUKb84KT14%2C68aA_o4yGwo%2CTRdnYZtnNis&title=ZUTOMAYO+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=WVBDFqBom7Q&list=RDAMVMWVBDFqBom7Q"
+}

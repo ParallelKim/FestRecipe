@@ -1,0 +1,206 @@
+{
+  "artistId": "gaku",
+  "artistName": "Gaku",
+  "englishName": "Gaku",
+  "collectedAt": "2026-08-05T12:30:19.233416+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCyG3L9kVtkmulp_P_3wPE4g",
+    "name": "Gaku",
+    "subscribers": "924",
+    "channelId": "UCIfbd09Mh9JZ_JskTApCY4Q",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/l80CWoG1DalmlEX79wOhGmvQ58fOH9Ne1s-2P1VSpu3Ec6L17gHU7uK-LPz0Gw-djYsAccR6BEvFbaat=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCyG3L9kVtkmulp_P_3wPE4g"
+  },
+  "tracks": [
+    {
+      "videoId": "ZpPoahIKiZA",
+      "songTitle": "春風",
+      "title": "春風",
+      "artists": [
+        "Gaku"
+      ],
+      "albumTitle": "春風",
+      "albumBrowseId": "MPREb_0el0hcYLl8i",
+      "duration": "4:26",
+      "durationSeconds": 266,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HsnJIgaPG8gyErgNSIPiRnKSBhTwpkfakfBcDnHo4eRRtq5gpmNc9B0YMnl3XKIX_GNSGiLk92ivtmHx=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZpPoahIKiZA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZpPoahIKiZA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "j3jINekcmRM",
+      "songTitle": "切夏歌",
+      "title": "切夏歌",
+      "artists": [
+        "Gaku"
+      ],
+      "albumTitle": "切夏歌",
+      "albumBrowseId": "MPREb_s1lJvhpQvrs",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7VGDZBLe9uBNZgRa2_8L9_UflSEoGHpBeaz_Eu5uQ9amBbzzVK3heJcSK0-Qm1qrEdd5X4tv4S9oBRM4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=j3jINekcmRM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=j3jINekcmRM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "D6RkZ62ot9Y",
+      "songTitle": "燈",
+      "title": "燈",
+      "artists": [
+        "Gaku"
+      ],
+      "albumTitle": "燈",
+      "albumBrowseId": "MPREb_tnlSq0ekino",
+      "duration": "3:24",
+      "durationSeconds": 204,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Zz6Gb0sjl5R7fBKUPpmUdZq4c7HB-uOzRUV6zf2nlLA9zSjLmQAcPAQQtboiR-1K3DK4yOQSaVYcvBtP=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=D6RkZ62ot9Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=D6RkZ62ot9Y",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "5JtVCSCMYLY",
+      "songTitle": "Blue",
+      "title": "Blue",
+      "artists": [
+        "Gaku"
+      ],
+      "albumTitle": "Blue",
+      "albumBrowseId": "MPREb_qrjF1rOuwb8",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Qq3CsNezilsCywUcMXVlsBx6KCD86Jk8Z1cSp9sIsu1OFugEHTtjljuPGpPWob-89O4TBnqNcrvSNWsy=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5JtVCSCMYLY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5JtVCSCMYLY",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "3oXcJJe7mX8",
+      "songTitle": "偽り",
+      "title": "偽り",
+      "artists": [
+        "Gaku"
+      ],
+      "albumTitle": "偽り",
+      "albumBrowseId": "MPREb_3lvNicQmQCf",
+      "duration": "4:54",
+      "durationSeconds": 294,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/K6OyPaoVnbPfJCx7GMCRXHljRRDGXbIW8EY0D1nUXrO6vKupx4sz20d8045hv0m-dsZu-9w0Dzb0qwlY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3oXcJJe7mX8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3oXcJJe7mX8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "I6Yp7SsEoHU",
+      "songTitle": "アマレット (ONE TAKE ver.)",
+      "title": "アマレット (ONE TAKE ver.)",
+      "artists": [
+        "Gaku"
+      ],
+      "albumTitle": "アマレット (ONE TAKE ver.)",
+      "albumBrowseId": "MPREb_fcOZ0stc3MI",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pwq345r1GqYPANsQ7BJ02y-Jisns8xgbd6c8GPqtfAWuX0HUbFVHkGaEY-mVK8G7QIIglZA7xsdxM4vbOQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=I6Yp7SsEoHU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=I6Yp7SsEoHU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Un1p51v-_O8",
+      "songTitle": "春風 (ONE TAKE ver.)",
+      "title": "春風 (ONE TAKE ver.)",
+      "artists": [
+        "Gaku"
+      ],
+      "albumTitle": "春風 (ONE TAKE ver.)",
+      "albumBrowseId": "MPREb_CrCG3UHMOGq",
+      "duration": "4:44",
+      "durationSeconds": 284,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4gbeUXbScNh0a9t2RglgP3xbHJIy7_2Ugz77_ge3x7H2VbIHba19t5UYGRTT6ylKk8Wnjl9kwvAPKhd6=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Un1p51v-_O8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Un1p51v-_O8",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "VVC2NgntZh8",
+      "songTitle": "全てを (ONE TAKE ver.)",
+      "title": "全てを (ONE TAKE ver.)",
+      "artists": [
+        "Gaku"
+      ],
+      "albumTitle": "全てを (ONE TAKE ver.)",
+      "albumBrowseId": "MPREb_RGvkZ1qUo17",
+      "duration": "5:00",
+      "durationSeconds": 300,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uEssremCMK_-0T9gjnBz2YXmsab7CoX1pcG3l1K0S-3z3pMKzR0FNfx80qvZPISB6W76c50rFGMAN7Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VVC2NgntZh8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VVC2NgntZh8",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "37gXd8wW2zY",
+      "songTitle": "Blue (ONE TAKE ver.)",
+      "title": "Blue (ONE TAKE ver.)",
+      "artists": [
+        "Gaku"
+      ],
+      "albumTitle": "Blue (ONE TAKE ver.)",
+      "albumBrowseId": "MPREb_KocMhH2ei9w",
+      "duration": "4:42",
+      "durationSeconds": 282,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-2xJGdLO4PP3TKxXYp_-N1MnGJ7qvsn2K1ddLAMTaAM-DXG73Lsty9StOfLAKlusQh6HrHLqYyvD_ix-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=37gXd8wW2zY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=37gXd8wW2zY",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "sdq_SXQTj4g",
+      "songTitle": "君とクリスマス",
+      "title": "君とクリスマス",
+      "artists": [
+        "Gaku"
+      ],
+      "albumTitle": "君とクリスマス",
+      "albumBrowseId": "MPREb_b7K3Omcpjor",
+      "duration": "4:37",
+      "durationSeconds": 277,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/D5Iky2fCqGyO0ZwQKTKrqjutxz7UXlIUhpRAItNeWWJG6t_JM350wt5Wc94DouCw4XXMtL-617R9kw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sdq_SXQTj4g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sdq_SXQTj4g",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "Gaku 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ZpPoahIKiZA%2Cj3jINekcmRM%2CD6RkZ62ot9Y%2C5JtVCSCMYLY%2C3oXcJJe7mX8%2CI6Yp7SsEoHU%2CUn1p51v-_O8%2CVVC2NgntZh8%2C37gXd8wW2zY%2Csdq_SXQTj4g&title=Gaku+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ZpPoahIKiZA&list=RDAMVMZpPoahIKiZA"
+}

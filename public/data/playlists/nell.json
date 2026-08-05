@@ -1,0 +1,206 @@
+{
+  "artistId": "nell",
+  "artistName": "넬",
+  "englishName": "NELL",
+  "collectedAt": "2026-08-05T12:30:35.339794+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1350,
+    "latestSlotLabel": "22:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.957,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UC1yfXDUlpfEncDnLUMekHhQ",
+    "name": "NELL",
+    "subscribers": "107K",
+    "channelId": "UChIKGx60x4D5elEbb5Vjtow",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/uXV9CR_TJIdSk1OL9m5n2hl0E4-YZZImAw6GQ3eCiy1giDTa5nHxz6fT0fA__jNn7vACxSjJVBZrdr2S=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC1yfXDUlpfEncDnLUMekHhQ"
+  },
+  "tracks": [
+    {
+      "videoId": "VZnfZ14fIig",
+      "songTitle": "기억을 걷는 시간",
+      "title": "기억을 걷는 시간",
+      "artists": [
+        "넬 (Nell)"
+      ],
+      "albumTitle": "Separation Anxiety",
+      "albumBrowseId": "MPREb_GwmmQ7dLGBf",
+      "duration": "5:13",
+      "durationSeconds": 313,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/A8e9Fge0S0Y0y6VqEOYDIJSt2PC2Ctu2a5i5uKkGBJPT-oidHVMhvRg8AXosOBDFsTMr5tjKDZ185fw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VZnfZ14fIig",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VZnfZ14fIig",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "bmivgWKzGkM",
+      "songTitle": "Stay",
+      "title": "Stay",
+      "artists": [
+        "NELL"
+      ],
+      "albumTitle": "Let It Rain",
+      "albumBrowseId": "MPREb_WBOjdxQ8Gbo",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-5364Ep_vuqjluv63VS4vxpMetZgwDK0i0M0RBnNDpR6LZCQwNW2ufXucDIqL6Od3qInWmKYUs440aGa=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bmivgWKzGkM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bmivgWKzGkM",
+      "source": "ytm_songs_popular",
+      "year": "2003",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "AJpPIu1gNms",
+      "songTitle": "Four times around the sun (지구가 태양을 네 번)",
+      "title": "Four times around the sun (지구가 태양을 네 번)",
+      "artists": [
+        "NELL"
+      ],
+      "albumTitle": "Newton’s Apple (6)",
+      "albumBrowseId": "MPREb_L6VORcCy9Hj",
+      "duration": "4:32",
+      "durationSeconds": 272,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mGJO80fqFdVqB9mdsSaxxGnDg63yceKK27RFb8OhqkICLwGiK1eQi9aGojVC6pbnNGvbaFfCDT_7lcsl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AJpPIu1gNms",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=AJpPIu1gNms",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "z9DtXlNqCtU",
+      "songTitle": "Still Sunset",
+      "title": "Still Sunset",
+      "artists": [
+        "NELL"
+      ],
+      "albumTitle": "Still Sunset",
+      "albumBrowseId": "MPREb_L5ooR7sVt8U",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9glOKTJjigBAJ4_9ZC-hlYxXAskq7OY9Sz2qveSqv3GWYSyjEisjVXE1GyYmC6IJqndQSBI9wkaZbN_e=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=z9DtXlNqCtU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=z9DtXlNqCtU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "eRVGHurtZGA",
+      "songTitle": "Loss in Motion",
+      "title": "Loss in Motion",
+      "artists": [
+        "NELL"
+      ],
+      "albumTitle": "Loss in Motion",
+      "albumBrowseId": "MPREb_hg5ZbUxDmnR",
+      "duration": "4:52",
+      "durationSeconds": 292,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FU3lbKfVb5jbcq3qUcJxaf-FrzTfLnCcXYI0yXP-j4_m1K0WMWaBcD7mHurFlgs-wtumADG2Sj9_rYTLQg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eRVGHurtZGA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=eRVGHurtZGA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7nrZ18DFBD4",
+      "songTitle": "한계",
+      "title": "한계",
+      "artists": [
+        "넬 (Nell)"
+      ],
+      "albumTitle": "Healing Process",
+      "albumBrowseId": "MPREb_EdZjnzsMgGj",
+      "duration": "3:46",
+      "durationSeconds": 226,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wzdYRNxSSVHrccMSheXKB569yKgqg9uXsrKwbriERzYwAYC11Hs9xxKFGtT-dtYpymtLJs4flPgn8T98FQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7nrZ18DFBD4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7nrZ18DFBD4",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "R550p0igOWs",
+      "songTitle": "멀어지다",
+      "title": "멀어지다",
+      "artists": [
+        "넬 (Nell)"
+      ],
+      "albumTitle": "Separation Anxiety",
+      "albumBrowseId": "MPREb_GwmmQ7dLGBf",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/A8e9Fge0S0Y0y6VqEOYDIJSt2PC2Ctu2a5i5uKkGBJPT-oidHVMhvRg8AXosOBDFsTMr5tjKDZ185fw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=R550p0igOWs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=R550p0igOWs",
+      "source": "ytm_songs_popular",
+      "year": "2008",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "y2OguFc9LUQ",
+      "songTitle": "Good Night",
+      "title": "Good Night",
+      "artists": [
+        "넬 (Nell)"
+      ],
+      "albumTitle": "Healing Process",
+      "albumBrowseId": "MPREb_EdZjnzsMgGj",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wzdYRNxSSVHrccMSheXKB569yKgqg9uXsrKwbriERzYwAYC11Hs9xxKFGtT-dtYpymtLJs4flPgn8T98FQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=y2OguFc9LUQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=y2OguFc9LUQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "jOl0U4o-k6M",
+      "songTitle": "TODAY(오늘은)",
+      "title": "TODAY(오늘은)",
+      "artists": [
+        "NELL(넬), GROOVYROOM"
+      ],
+      "albumTitle": "NELL X GROOVYROOM",
+      "albumBrowseId": "MPREb_nDwqCANaZQa",
+      "duration": "4:16",
+      "durationSeconds": 256,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XvTzY5QYIH5x0GDEeoVTxrOq8JqqlM3h_NvqqkePbcUcumcuEie3W0mV1ZwI1J94T-ntKZ41vPg3zbzS=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jOl0U4o-k6M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jOl0U4o-k6M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "jeXBTJQrcdU",
+      "songTitle": "현실의 현실",
+      "title": "현실의 현실",
+      "artists": [
+        "넬 (Nell)"
+      ],
+      "albumTitle": "Healing Process",
+      "albumBrowseId": "MPREb_EdZjnzsMgGj",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wzdYRNxSSVHrccMSheXKB569yKgqg9uXsrKwbriERzYwAYC11Hs9xxKFGtT-dtYpymtLJs4flPgn8T98FQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jeXBTJQrcdU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jeXBTJQrcdU",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 넬 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=VZnfZ14fIig%2CbmivgWKzGkM%2CAJpPIu1gNms%2Cz9DtXlNqCtU%2CeRVGHurtZGA%2C7nrZ18DFBD4%2CR550p0igOWs%2Cy2OguFc9LUQ%2CjOl0U4o-k6M%2CjeXBTJQrcdU&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%84%AC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=VZnfZ14fIig&list=RDAMVMVZnfZ14fIig"
+}

@@ -1,0 +1,205 @@
+{
+  "artistId": "d82",
+  "artistName": "D82",
+  "englishName": "D82",
+  "collectedAt": "2026-08-05T12:30:13.543760+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 900,
+    "latestSlotLabel": "15:00",
+    "festivalId": "jumf-2026",
+    "rank": 0.224,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCKKik3ScnsFJv0EDIj_lVjg",
+    "name": "D82",
+    "subscribers": "6.87K",
+    "channelId": "UC6iBWkD3kkkMPNUeBegSW4g",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/bObnEUYK1SjPZaluclR2Va2PIHF498fQGIjDWHNJ5ae_bZUt1_VQSC_qF9BHvRPnVK_mVBLk1TKRaa7kHQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCKKik3ScnsFJv0EDIj_lVjg"
+  },
+  "tracks": [
+    {
+      "videoId": "4xsgFAA8s68",
+      "songTitle": "Fly Again (2024 Remastered)",
+      "title": "Fly Again (2024 Remastered)",
+      "artists": [
+        "D82"
+      ],
+      "albumTitle": "Take off",
+      "albumBrowseId": "MPREb_4wcySPfEOlB",
+      "duration": "3:15",
+      "durationSeconds": 195,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MxL-zbAEctlFcGbiZJg2dfIl2t3dOa1u96N2zrN_Kzd2Kt-Z_R0MZHc36dTu1F-6ob903TUlDu5lH9Su=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4xsgFAA8s68",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4xsgFAA8s68",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "xyVUxe-LZqw",
+      "songTitle": "Cicada",
+      "title": "Cicada",
+      "artists": [
+        "D82"
+      ],
+      "albumTitle": "LUMINOUS",
+      "albumBrowseId": "MPREb_4QCW5iS7dvI",
+      "duration": "4:24",
+      "durationSeconds": 264,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/bObnEUYK1SjPZaluclR2Va2PIHF498fQGIjDWHNJ5ae_bZUt1_VQSC_qF9BHvRPnVK_mVBLk1TKRaa7kHQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xyVUxe-LZqw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xyVUxe-LZqw",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "-01cojY2j5s",
+      "songTitle": "Runaway",
+      "title": "Runaway",
+      "artists": [
+        "D82"
+      ],
+      "albumTitle": "Runaway",
+      "albumBrowseId": "MPREb_Xjk1PQQ8BHU",
+      "duration": "3:19",
+      "durationSeconds": 199,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_fyRwuC2hfpjTe0CJMlicv-oXO3cTNSyAdH9rVhIA78qdd_WIL17ODrUK6yRi866oYBJXLnQr0Zj6xCm=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-01cojY2j5s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-01cojY2j5s",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "O2h3sdWhAqA",
+      "songTitle": "Take off",
+      "title": "Take off",
+      "artists": [
+        "D82"
+      ],
+      "albumTitle": "Take off",
+      "albumBrowseId": "MPREb_4wcySPfEOlB",
+      "duration": "3:34",
+      "durationSeconds": 214,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MxL-zbAEctlFcGbiZJg2dfIl2t3dOa1u96N2zrN_Kzd2Kt-Z_R0MZHc36dTu1F-6ob903TUlDu5lH9Su=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=O2h3sdWhAqA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=O2h3sdWhAqA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "H-JT9UC3aHE",
+      "songTitle": "Fly Again",
+      "title": "Fly Again",
+      "artists": [
+        "D82"
+      ],
+      "albumTitle": "GREAT SEOUL INVASION Section 5",
+      "albumBrowseId": "MPREb_4dS2sVrEhrk",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/b0nlRsQFQrFH5byo0slFwn0VYNKhT9GpPu1GUenCmguoLhcB5IROzCskJMwdV4BXx2MPGsHiMrmp7W0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H-JT9UC3aHE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=H-JT9UC3aHE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "0oibpO2Diz4",
+      "songTitle": "I Believe",
+      "title": "I Believe",
+      "artists": [
+        "D82"
+      ],
+      "albumTitle": "Take off",
+      "albumBrowseId": "MPREb_4wcySPfEOlB",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MxL-zbAEctlFcGbiZJg2dfIl2t3dOa1u96N2zrN_Kzd2Kt-Z_R0MZHc36dTu1F-6ob903TUlDu5lH9Su=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0oibpO2Diz4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0oibpO2Diz4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "5GGLV2ZDCuI",
+      "songTitle": "MUJU",
+      "title": "MUJU",
+      "artists": [
+        "D82"
+      ],
+      "albumTitle": "Take off",
+      "albumBrowseId": "MPREb_4wcySPfEOlB",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MxL-zbAEctlFcGbiZJg2dfIl2t3dOa1u96N2zrN_Kzd2Kt-Z_R0MZHc36dTu1F-6ob903TUlDu5lH9Su=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5GGLV2ZDCuI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5GGLV2ZDCuI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "A8-ffq1mOHQ",
+      "songTitle": "70's Night",
+      "title": "70's Night",
+      "artists": [
+        "D82"
+      ],
+      "albumTitle": "GREAT SEOUL INVASION Section 2",
+      "albumBrowseId": "MPREb_xnNttZK62rL",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/w4oO2E9xPcIjOa0JqlfOuwlHhjWMrkkiT4uutW4iBp12eNc6_LNMneY2RxeVzKlD_MF_WAF6RtKoDPs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=A8-ffq1mOHQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=A8-ffq1mOHQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ryBQLCkixoQ",
+      "songTitle": "Little Flower",
+      "title": "Little Flower",
+      "artists": [
+        "D82"
+      ],
+      "albumTitle": "Take off",
+      "albumBrowseId": "MPREb_4wcySPfEOlB",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MxL-zbAEctlFcGbiZJg2dfIl2t3dOa1u96N2zrN_Kzd2Kt-Z_R0MZHc36dTu1F-6ob903TUlDu5lH9Su=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ryBQLCkixoQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ryBQLCkixoQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "utA9BIg0ajU",
+      "songTitle": "Mirage",
+      "title": "Mirage",
+      "artists": [
+        "D82"
+      ],
+      "albumTitle": "LUMINOUS",
+      "albumBrowseId": "MPREb_4QCW5iS7dvI",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/bObnEUYK1SjPZaluclR2Va2PIHF498fQGIjDWHNJ5ae_bZUt1_VQSC_qF9BHvRPnVK_mVBLk1TKRaa7kHQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=utA9BIg0ajU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=utA9BIg0ajU",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 D82 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=4xsgFAA8s68%2CxyVUxe-LZqw%2C-01cojY2j5s%2CO2h3sdWhAqA%2CH-JT9UC3aHE%2C0oibpO2Diz4%2C5GGLV2ZDCuI%2CA8-ffq1mOHQ%2CryBQLCkixoQ%2CutA9BIg0ajU&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+D82+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=4xsgFAA8s68&list=RDAMVM4xsgFAA8s68"
+}

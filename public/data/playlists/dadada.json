@@ -1,0 +1,208 @@
+{
+  "artistId": "dadada",
+  "artistName": "다다다",
+  "englishName": "DADADA",
+  "collectedAt": "2026-08-05T12:30:13.888344+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 870,
+    "latestSlotLabel": "14:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.172,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCtYDYCTUHbTeC-DXo2I8CaA",
+    "name": "DADADA",
+    "subscribers": "2.28K",
+    "channelId": "UCybBqq8tDHg4k_TWFxuKODw",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/xm56M1zz8DNyiO9ci6HOv0g7urwS7I5FAnPMnqYpgBciPMF0SpfHMo817aUMpnlC7rEWnJGmyD8IGmoB=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCtYDYCTUHbTeC-DXo2I8CaA"
+  },
+  "tracks": [
+    {
+      "videoId": "eb52mRNfkJY",
+      "songTitle": "Fall Into The Sky",
+      "title": "Fall Into The Sky",
+      "artists": [
+        "DADADA"
+      ],
+      "albumTitle": "Fall Into The Sky",
+      "albumBrowseId": "MPREb_xstVOyzf1jR",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/r_6roaDVzM39EVmah6613390SZpSh6O-DmAHhwzhD-M69IwvPtqi60Yd6T1nOCApHhLYWy-vepTAlNY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eb52mRNfkJY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=eb52mRNfkJY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "CrBfOuzo-_w",
+      "songTitle": "Like You",
+      "title": "Like You",
+      "artists": [
+        "DADADA"
+      ],
+      "albumTitle": "Like You",
+      "albumBrowseId": "MPREb_1bdOcfqPqBp",
+      "duration": "4:47",
+      "durationSeconds": 287,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KL6WxJLDhczXIOLYgC-XB1jrQ2N0HyFQtg_yq0ZKUUzKPdMfXDzCvh1SRZ79aai9pXoUn8cBcCK9eDg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CrBfOuzo-_w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CrBfOuzo-_w",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qOJt6rkac5I",
+      "songTitle": "Don't Cry 'Till The Ending.",
+      "title": "Don't Cry 'Till The Ending.",
+      "artists": [
+        "DADADA"
+      ],
+      "albumTitle": "Fall Into The Sky",
+      "albumBrowseId": "MPREb_xstVOyzf1jR",
+      "duration": "3:55",
+      "durationSeconds": 235,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/r_6roaDVzM39EVmah6613390SZpSh6O-DmAHhwzhD-M69IwvPtqi60Yd6T1nOCApHhLYWy-vepTAlNY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qOJt6rkac5I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qOJt6rkac5I",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "xOg6Oa7l6gE",
+      "songTitle": "Cassie",
+      "title": "Cassie",
+      "artists": [
+        "DADADA"
+      ],
+      "albumTitle": "Love me please",
+      "albumBrowseId": "MPREb_MZfNFcglyAk",
+      "duration": "2:51",
+      "durationSeconds": 171,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rQQR7hvZzcZPn0Hja-eO47PR7o1d6Ef3vq4w9FOmaplhjbSKzOzglOx1ZGqpwAQ0KFN7sBNEggS73g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xOg6Oa7l6gE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xOg6Oa7l6gE",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "Vg4MA3TZitI",
+      "songTitle": "Like me, Love me, and",
+      "title": "Like me, Love me, and",
+      "artists": [
+        "DADADA"
+      ],
+      "albumTitle": "Love me please",
+      "albumBrowseId": "MPREb_MZfNFcglyAk",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rQQR7hvZzcZPn0Hja-eO47PR7o1d6Ef3vq4w9FOmaplhjbSKzOzglOx1ZGqpwAQ0KFN7sBNEggS73g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Vg4MA3TZitI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Vg4MA3TZitI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "GAEG9BRLdIk",
+      "songTitle": "Panda Girl",
+      "title": "Panda Girl",
+      "artists": [
+        "DADADA"
+      ],
+      "albumTitle": "Love me please",
+      "albumBrowseId": "MPREb_MZfNFcglyAk",
+      "duration": "3:38",
+      "durationSeconds": 218,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rQQR7hvZzcZPn0Hja-eO47PR7o1d6Ef3vq4w9FOmaplhjbSKzOzglOx1ZGqpwAQ0KFN7sBNEggS73g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GAEG9BRLdIk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GAEG9BRLdIk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7PnqHsqNEfA",
+      "songTitle": "EX From Another Dimension",
+      "title": "EX From Another Dimension",
+      "artists": [
+        "DADADA"
+      ],
+      "albumTitle": "Love me please",
+      "albumBrowseId": "MPREb_MZfNFcglyAk",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rQQR7hvZzcZPn0Hja-eO47PR7o1d6Ef3vq4w9FOmaplhjbSKzOzglOx1ZGqpwAQ0KFN7sBNEggS73g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7PnqHsqNEfA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7PnqHsqNEfA",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "98ui0YhZplA",
+      "songTitle": "Beautiful Day",
+      "title": "Beautiful Day",
+      "artists": [
+        "DADADA"
+      ],
+      "albumTitle": "Love me please",
+      "albumBrowseId": "MPREb_MZfNFcglyAk",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rQQR7hvZzcZPn0Hja-eO47PR7o1d6Ef3vq4w9FOmaplhjbSKzOzglOx1ZGqpwAQ0KFN7sBNEggS73g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=98ui0YhZplA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=98ui0YhZplA",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "evvyLJAVSXs",
+      "songTitle": "Like You Instrumental",
+      "title": "Like You Instrumental",
+      "artists": [
+        "DADADA"
+      ],
+      "albumTitle": "Like You",
+      "albumBrowseId": "MPREb_1bdOcfqPqBp",
+      "duration": "4:47",
+      "durationSeconds": 287,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KL6WxJLDhczXIOLYgC-XB1jrQ2N0HyFQtg_yq0ZKUUzKPdMfXDzCvh1SRZ79aai9pXoUn8cBcCK9eDg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=evvyLJAVSXs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=evvyLJAVSXs",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "LKqtMZyLRfk",
+      "songTitle": "It's a",
+      "title": "It's a",
+      "artists": [
+        "DADADA"
+      ],
+      "albumTitle": "Love me please",
+      "albumBrowseId": "MPREb_MZfNFcglyAk",
+      "duration": "0:22",
+      "durationSeconds": 22,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rQQR7hvZzcZPn0Hja-eO47PR7o1d6Ef3vq4w9FOmaplhjbSKzOzglOx1ZGqpwAQ0KFN7sBNEggS73g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LKqtMZyLRfk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LKqtMZyLRfk",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 다다다 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=eb52mRNfkJY%2CCrBfOuzo-_w%2CqOJt6rkac5I%2CxOg6Oa7l6gE%2CVg4MA3TZitI%2CGAEG9BRLdIk%2C7PnqHsqNEfA%2C98ui0YhZplA%2CevvyLJAVSXs%2CLKqtMZyLRfk&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%8B%A4%EB%8B%A4%EB%8B%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=eb52mRNfkJY&list=RDAMVMeb52mRNfkJY"
+}

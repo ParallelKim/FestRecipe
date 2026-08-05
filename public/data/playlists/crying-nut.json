@@ -1,0 +1,205 @@
+{
+  "artistId": "crying-nut",
+  "artistName": "크라잉넛",
+  "englishName": "Crying Nut",
+  "collectedAt": "2026-08-05T12:30:13.148195+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCRU0hoqPi-bqE7KVqI0REDg",
+    "name": "Crying Nut",
+    "subscribers": "10.9K",
+    "channelId": "UCRU0hoqPi-bqE7KVqI0REDg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/NyqKaCok_-Q0y1-jCDtxYNKZJ4-jyIc2l08s_JV4HDjIzIfuaqD_rfq8oLg00K780oA2bfed2okzAs8=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCRU0hoqPi-bqE7KVqI0REDg"
+  },
+  "tracks": [
+    {
+      "videoId": "ct9pZdJHMrs",
+      "songTitle": "밤이 깊었네",
+      "title": "밤이 깊었네",
+      "artists": [
+        "크라잉넛"
+      ],
+      "albumTitle": "하수연가",
+      "albumBrowseId": "MPREb_zFFKPLyQneF",
+      "duration": "4:09",
+      "durationSeconds": 249,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3J_f8o5xk-9iAjYdECMWVgXdguBpDCb3XLmhcGCS4ad03yKezDoANVpTBYyc1Owmhi4AL1lTb9mwtxc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ct9pZdJHMrs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ct9pZdJHMrs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dz6ri1riCi4",
+      "songTitle": "좋지 아니한가 Isn't That Good?",
+      "title": "좋지 아니한가 Isn't That Good?",
+      "artists": [
+        "Crying Nut"
+      ],
+      "albumTitle": "Crying Nut 3 Singles",
+      "albumBrowseId": "MPREb_QLHvWntgloE",
+      "duration": "4:25",
+      "durationSeconds": 265,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/65lCk7tYvs7iAaM11FBoRfHUgFNw5ppFL93XNY71kxYhFQFG96gNNBdeg6REkjduYNG6UWoGTeI2IQQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dz6ri1riCi4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dz6ri1riCi4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "akvDgDzVrJk",
+      "songTitle": "명동콜링 Myeong-dong Calling",
+      "title": "명동콜링 Myeong-dong Calling",
+      "artists": [
+        "Crying Nut"
+      ],
+      "albumTitle": "OK 목장의 젖소 Milk Cattle at the OK Corral",
+      "albumBrowseId": "MPREb_z01AaFuSFYp",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/W6oXiS2z9cR6SPHMCTL3Zc8LoGLssTSeiF5SjwfTi5ZYx97NBOG8Clf5hRgTO5xJh4a7RNvjB6xvMmt9Qw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=akvDgDzVrJk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=akvDgDzVrJk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "4fwHhULkLYc",
+      "songTitle": "비둘기",
+      "title": "비둘기",
+      "artists": [
+        "Crying Nut"
+      ],
+      "albumTitle": "불편한 파티",
+      "albumBrowseId": "MPREb_FWsgW3iN9wm",
+      "duration": "2:03",
+      "durationSeconds": 123,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2xupCeB2oFeBkrNbJydq-4Gm4mbPidfzuYZJuejFAMoiaRLAzdDjoOmYR18pJGI9yDpSP8EOaY1nT4prIA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4fwHhULkLYc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4fwHhULkLYc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "tyeQ1yJQSG0",
+      "songTitle": "Isn’t That Good? 25th Anniversary Version",
+      "title": "Isn’t That Good? 25th Anniversary Version",
+      "artists": [
+        "크라잉넛"
+      ],
+      "albumTitle": "CRYING NUT 25th Anniversary Best Album",
+      "albumBrowseId": "MPREb_iDvJRke8qWd",
+      "duration": "4:23",
+      "durationSeconds": 263,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oOljb17-xaeZS08-Lwyb35N1qct9MvH0zYtYL56T7V4-N3-S7AaJofDcricLj7gy8waoBJSiC8yhuhkC=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tyeQ1yJQSG0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tyeQ1yJQSG0",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "T3eEZ-_2m9w",
+      "songTitle": "룩셈부르크 Luxembourg",
+      "title": "룩셈부르크 Luxembourg",
+      "artists": [
+        "Crying Nut"
+      ],
+      "albumTitle": "OK 목장의 젖소 Milk Cattle at the OK Corral",
+      "albumBrowseId": "MPREb_z01AaFuSFYp",
+      "duration": "2:26",
+      "durationSeconds": 146,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/W6oXiS2z9cR6SPHMCTL3Zc8LoGLssTSeiF5SjwfTi5ZYx97NBOG8Clf5hRgTO5xJh4a7RNvjB6xvMmt9Qw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T3eEZ-_2m9w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=T3eEZ-_2m9w",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "VcjbIbwJOzc",
+      "songTitle": "말 달리자",
+      "title": "말 달리자",
+      "artists": [
+        "크라잉넛"
+      ],
+      "albumTitle": "말달리자",
+      "albumBrowseId": "MPREb_S9MRW8A0q7O",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QwC0rdq9g96VWJJmmgWIl-JVrjYxyYyS38N48eGKgHHYs0ps-rEJ0NmRi2dkBd7mDdWtd8DAHPf0bfZR2Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VcjbIbwJOzc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VcjbIbwJOzc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "PSERpk2dWQs",
+      "songTitle": "서커스 매직 유랑단 Circus Magic Clowns",
+      "title": "서커스 매직 유랑단 Circus Magic Clowns",
+      "artists": [
+        "Crying Nut"
+      ],
+      "albumTitle": "서커스 매직 유랑단 Circus Magic Clowns",
+      "albumBrowseId": "MPREb_ETmibt82nac",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6wCU4bl2p8oicqpgvIGDNurt-A4-5FZ8hrWY6UlrVuBGDpe4Dip72HuyWoivlTtz_9umh5D1pFZ59CEv=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PSERpk2dWQs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PSERpk2dWQs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "oQ4VZwM4nLg",
+      "songTitle": "Speed Up Losers 25th Anniversary Version",
+      "title": "Speed Up Losers 25th Anniversary Version",
+      "artists": [
+        "크라잉넛"
+      ],
+      "albumTitle": "CRYING NUT 25th Anniversary Best Album",
+      "albumBrowseId": "MPREb_iDvJRke8qWd",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oOljb17-xaeZS08-Lwyb35N1qct9MvH0zYtYL56T7V4-N3-S7AaJofDcricLj7gy8waoBJSiC8yhuhkC=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oQ4VZwM4nLg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=oQ4VZwM4nLg",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "8oq0Srtw9bI",
+      "songTitle": "지독한 노래",
+      "title": "지독한 노래",
+      "artists": [
+        "크라잉넛"
+      ],
+      "albumTitle": "하수연가",
+      "albumBrowseId": "MPREb_zFFKPLyQneF",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3J_f8o5xk-9iAjYdECMWVgXdguBpDCb3XLmhcGCS4ad03yKezDoANVpTBYyc1Owmhi4AL1lTb9mwtxc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8oq0Srtw9bI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8oq0Srtw9bI",
+      "source": "ytm_songs_popular",
+      "year": "2001",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "크라잉넛 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ct9pZdJHMrs%2Cdz6ri1riCi4%2CakvDgDzVrJk%2C4fwHhULkLYc%2CtyeQ1yJQSG0%2CT3eEZ-_2m9w%2CVcjbIbwJOzc%2CPSERpk2dWQs%2CoQ4VZwM4nLg%2C8oq0Srtw9bI&title=%ED%81%AC%EB%9D%BC%EC%9E%89%EB%84%9B+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ct9pZdJHMrs&list=RDAMVMct9pZdJHMrs"
+}

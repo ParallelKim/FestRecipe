@@ -1,0 +1,204 @@
+{
+  "artistId": "remay",
+  "artistName": "Re.may",
+  "englishName": "Re.may",
+  "collectedAt": "2026-08-05T12:30:40.295885+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC3RJjErc1xbYU4Q3ZPvD34A",
+    "name": "Re.May",
+    "subscribers": "21.6K",
+    "channelId": "UCBR9GfMICldyzA19VT9nJ8A",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/Gd3Qv21nCE2ouK6WxcWm8FyaynbEeVMZndsaSgn0e-z2tljZ9L4Y6e_dQZz9vmzPD8pvRwq8GAA=w2601-h1083-l90-rj-dcNXOUUK0H",
+    "url": "https://music.youtube.com/channel/UC3RJjErc1xbYU4Q3ZPvD34A"
+  },
+  "tracks": [
+    {
+      "videoId": "dB_qjJ6JhHo",
+      "songTitle": "별",
+      "title": "별",
+      "artists": [
+        "Re.May"
+      ],
+      "albumTitle": "Light",
+      "albumBrowseId": "MPREb_QBy8BXQfRR6",
+      "duration": "2:58",
+      "durationSeconds": 178,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nFc_WnHKBx4Tq8K3ioo7ecrpGkSNiXK_enF1gsfuPvreRGrFIC4EHQlseC5rMaC3jso7Pq0xUOYJrHenPQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dB_qjJ6JhHo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dB_qjJ6JhHo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EoTUxIJ9nto",
+      "songTitle": "AURORA",
+      "title": "AURORA",
+      "artists": [
+        "Re.May"
+      ],
+      "albumTitle": "AURORA",
+      "albumBrowseId": "MPREb_io7ccxgf3ty",
+      "duration": "3:43",
+      "durationSeconds": 223,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/D2MaR_Yfccs-7AHRJP1Iu0n_1_5rFYZyw5bRHJ0_bBvv6l_aJbmq-9Frx7ymV1TZ3e9RRKmpPNJ8d5Hc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EoTUxIJ9nto",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EoTUxIJ9nto",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "uNyU79UK9lo",
+      "songTitle": "살아있기 때문에",
+      "title": "살아있기 때문에",
+      "artists": [
+        "Re.May"
+      ],
+      "albumTitle": "살아있기 때문에",
+      "albumBrowseId": "MPREb_zGhbqDoYBr5",
+      "duration": "3:23",
+      "durationSeconds": 203,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/hxINV7G1wz_ytx-0qpYj6CTRq4JvtiUALtuQ4MYZm0bZIxTGMiMBvv-cUM8Q8V6RBV2GfbjqNPt1XWqAJA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uNyU79UK9lo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=uNyU79UK9lo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "bYQVpoptQ1Q",
+      "songTitle": "Moment (feat. Kana)",
+      "title": "Moment (feat. Kana)",
+      "artists": [
+        "Re.May"
+      ],
+      "albumTitle": "Moment",
+      "albumBrowseId": "MPREb_euXj6qrejK2",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Wd3CG-dqw-qWQcYUoPd7N9YMXjyBELd_jicUxa2iEGDljNhBgialf5gEXvOh7Vi-815hCDmHUQ9fEnFx=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bYQVpoptQ1Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bYQVpoptQ1Q",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ai7goap_n0A",
+      "songTitle": "Draw",
+      "title": "Draw",
+      "artists": [
+        "Re.may",
+        "Hyangsung"
+      ],
+      "albumTitle": "Draw",
+      "albumBrowseId": "MPREb_6r3piah2EjA",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/O805Hy1P--nD_c2eZ4VrwBNM6PYCK0ii-5PV0psWUE7ETTbgq32fvU1WZjtH4sifUyMJydMsmBieDO9Y=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ai7goap_n0A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ai7goap_n0A",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "BcXSxSvofts",
+      "songTitle": "아버지의 짝사랑",
+      "title": "아버지의 짝사랑",
+      "artists": [
+        "Re.May"
+      ],
+      "albumTitle": "아버지의 짝사랑",
+      "albumBrowseId": "MPREb_SyWTAaG7UYz",
+      "duration": "3:23",
+      "durationSeconds": 203,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fGBcdA-nOUKEnkLIyAr930X0UwmpE691pntVV69qNgwBnujkZumD4c4QzrozjrDBWhGwJrSZYvggdX2P=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BcXSxSvofts",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BcXSxSvofts",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Kr0VtiondQI",
+      "songTitle": "Room",
+      "title": "Room",
+      "artists": [
+        "Re.May"
+      ],
+      "albumTitle": "Room",
+      "albumBrowseId": "MPREb_xfPhXgQrESi",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TrSs4De8cfx2XYP9edFcVxb7Z9SCs2nIf_55gXXIgLSk81DbRiMvjTxqufYdL8tn4GD2fbDmlmHzqN4A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Kr0VtiondQI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Kr0VtiondQI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EU9cAIBUx_I",
+      "songTitle": "Take Me On My Knees",
+      "title": "Take Me On My Knees",
+      "artists": [
+        "Re.May"
+      ],
+      "albumTitle": "Take Me On My Knees - Re.may",
+      "albumBrowseId": "MPREb_p2ZhPpiBB3D",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LI4rcyX5OAuiOVKQWKvcqJLsyNykituIfHCdjR04wK-oBhBlahSlsY2ujqsAvCLdkXaYI2XCQpvs3m88=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EU9cAIBUx_I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EU9cAIBUx_I",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "u-FYUmIft5k",
+      "songTitle": "Put It Down",
+      "title": "Put It Down",
+      "artists": [
+        "Re.May"
+      ],
+      "albumTitle": "Put It Down",
+      "albumBrowseId": "MPREb_NeBT3wWdBMO",
+      "duration": "3:48",
+      "durationSeconds": 228,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/S5naEe9ynWnp09dmEzbhrcVpJwJv49I70aLKHTw5CJcuGCj6jRr11KHaJlfuaSYDLIOd7fAswrA5y9tQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u-FYUmIft5k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=u-FYUmIft5k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "J5NdWZbsUyY",
+      "songTitle": "Wait on You",
+      "title": "Wait on You",
+      "artists": [
+        "Re.May"
+      ],
+      "albumTitle": "Wait on You",
+      "albumBrowseId": "MPREb_Y7s5qB9wrhI",
+      "duration": "2:44",
+      "durationSeconds": 164,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/d3EflnLqz3qznp2xAmchwSyhupJPn_LQMkBP8yFUBwdHWEW24ERCsRR72ZIrrU2X7KUyfLLGgZZxADVm=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J5NdWZbsUyY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=J5NdWZbsUyY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "Re.may 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=dB_qjJ6JhHo%2CEoTUxIJ9nto%2CuNyU79UK9lo%2CbYQVpoptQ1Q%2Cai7goap_n0A%2CBcXSxSvofts%2CKr0VtiondQI%2CEU9cAIBUx_I%2Cu-FYUmIft5k%2CJ5NdWZbsUyY&title=Re.may+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=dB_qjJ6JhHo&list=RDAMVMdB_qjJ6JhHo"
+}

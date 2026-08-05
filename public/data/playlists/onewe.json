@@ -1,0 +1,203 @@
+{
+  "artistId": "onewe",
+  "artistName": "ONEWE",
+  "englishName": "ONEWE",
+  "collectedAt": "2026-08-05T12:30:37.901268+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1010,
+    "latestSlotLabel": "16:50",
+    "festivalId": "jumf-2026",
+    "rank": 0.457,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UC3KIhF390O_EYA0qoMjS3qQ",
+    "name": "ONEWE",
+    "subscribers": "462K",
+    "channelId": "UCj-dtq6jHfj4_fufifPzMEQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/NjUN2pGYhLx5dfh7OHmPYcdv1lLm0i1x_enI4TUxAV1NkSGZt1S2T-UDKq8PHBkqyIbIrQLrBTl_utI=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC3KIhF390O_EYA0qoMjS3qQ"
+  },
+  "tracks": [
+    {
+      "videoId": "mt49Pn4BM1Y",
+      "songTitle": "ICARUS",
+      "title": "ICARUS",
+      "artists": [
+        "ONEWE"
+      ],
+      "albumTitle": "點 : The Quiver",
+      "albumBrowseId": "MPREb_ms3TDlGfvZS",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rrmRdfA0RpY_Zb4_zAgppQgrmbbb1QbZ_cI-of9xP5wpTFsLGbV-gWFuQs-pGQH79kJdtb-jQ_STeBs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mt49Pn4BM1Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mt49Pn4BM1Y",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Wos0ya0mKi8",
+      "songTitle": "Neverland",
+      "title": "Neverland",
+      "artists": [
+        "ONEWE"
+      ],
+      "albumTitle": "線 : The Wake",
+      "albumBrowseId": "MPREb_O2mdOvLemBb",
+      "duration": "3:23",
+      "durationSeconds": 203,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PakRkP_74LajOHhK4GvVZSxcs6p4gUCjhIjWDVYPKwL4P7j5g7leSFKd5icWuSNq5bdmjRSSePmIYdw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Wos0ya0mKi8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Wos0ya0mKi8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "UKErbyBExDU",
+      "songTitle": "비를 몰고 오는 소년 (Rain To Be)",
+      "title": "비를 몰고 오는 소년 (Rain To Be)",
+      "artists": [
+        "ONEWE"
+      ],
+      "albumTitle": "Planet Nine : Alter Ego",
+      "albumBrowseId": "MPREb_TLk14r37dzb",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NgQZWt7UspNNDNZOLjyxFNl5U1Krd1nbc-asqlUtxl0_Gxu9LO__RznvUJ9RcAH-WtzIOCTGHYavj-63=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UKErbyBExDU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UKErbyBExDU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "CI2jytCXNqE",
+      "songTitle": "소행성 (Parting)",
+      "title": "소행성 (Parting)",
+      "artists": [
+        "ONEWE"
+      ],
+      "albumTitle": "소행성 (Parting)",
+      "albumBrowseId": "MPREb_WtB6lTUJcP5",
+      "duration": "4:01",
+      "durationSeconds": 241,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6D7jwaUpvDADqmDgXrMMa4UrnR_mtyHQhytiK81FHveF_EGZ-fAO9DGz0qjiz0LI0L0yAJnQ8FkQ0ecTEw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CI2jytCXNqE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CI2jytCXNqE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "uQDzdXse59Y",
+      "songTitle": "별 헤는 밤 (The Starry Night)",
+      "title": "별 헤는 밤 (The Starry Night)",
+      "artists": [
+        "ONEWE"
+      ],
+      "albumTitle": "WE : Dream Chaser",
+      "albumBrowseId": "MPREb_MSadPupWaRi",
+      "duration": "3:18",
+      "durationSeconds": 198,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_uxsyBtMkyyTI9Q32BVRuVN2OK9W6PYYHhFmYcAle0-fRgkbP0kH79OVoOeg9Ln9djzY_NKzkn_0twta=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uQDzdXse59Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=uQDzdXse59Y",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "RvuWxiaPUqQ",
+      "songTitle": "Regulus",
+      "title": "Regulus",
+      "artists": [
+        "ONEWE"
+      ],
+      "albumTitle": "ONE",
+      "albumBrowseId": "MPREb_LGhaoeYE4Fv",
+      "duration": "3:43",
+      "durationSeconds": 223,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ztb2445xVV9gb3d7bumXsNyDAaFerV7NxswEIP9T9AYGNI4Ln4J8pzyLxFlCEMlbq2ZJ1bI6z8I_S3ji=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RvuWxiaPUqQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RvuWxiaPUqQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WOP2ERXxv20",
+      "songTitle": "베로니카의 섬 (Veronica)",
+      "title": "베로니카의 섬 (Veronica)",
+      "artists": [
+        "ONEWE"
+      ],
+      "albumTitle": "Planet Nine : Alter Ego",
+      "albumBrowseId": "MPREb_TLk14r37dzb",
+      "duration": "3:20",
+      "durationSeconds": 200,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NgQZWt7UspNNDNZOLjyxFNl5U1Krd1nbc-asqlUtxl0_Gxu9LO__RznvUJ9RcAH-WtzIOCTGHYavj-63=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WOP2ERXxv20",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WOP2ERXxv20",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WAPScJ1IakM",
+      "songTitle": "Ferris wheel",
+      "title": "Ferris wheel",
+      "artists": [
+        "ONEWE"
+      ],
+      "albumTitle": "Ferris wheel",
+      "albumBrowseId": "MPREb_Kgb3GIbWtq7",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UalBiwTH8u7O0MUKqTYt3_d4guLKGB8T5PCeM5mrYlZh3CA6KJiW6h33wg9ZvJ3jJqjO_Vz-pgCOKlfL=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WAPScJ1IakM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WAPScJ1IakM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "tHLzDFpLmhQ",
+      "songTitle": "꿈속에서 놓친 너, 옅은 잠결에 흐르길 (Montage_)",
+      "title": "꿈속에서 놓친 너, 옅은 잠결에 흐르길 (Montage_)",
+      "artists": [
+        "ONEWE"
+      ],
+      "albumTitle": "Planet Nine : VOYAGER",
+      "albumBrowseId": "MPREb_yg3aIsLgGbu",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/O405C1nu-AMwHtIJt9o7I6Fmsl6-zUyvRHx-mVJbnUIRi6l5QBwv7A2AKATgmmBI19i_qRaFO69heUM0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tHLzDFpLmhQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tHLzDFpLmhQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "v43CpZxE_0E",
+      "songTitle": "궤도 (Orbit_)",
+      "title": "궤도 (Orbit_)",
+      "artists": [
+        "ONEWE"
+      ],
+      "albumTitle": "Planet Nine : VOYAGER",
+      "albumBrowseId": "MPREb_yg3aIsLgGbu",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/O405C1nu-AMwHtIJt9o7I6Fmsl6-zUyvRHx-mVJbnUIRi6l5QBwv7A2AKATgmmBI19i_qRaFO69heUM0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v43CpZxE_0E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=v43CpZxE_0E",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 ONEWE 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mt49Pn4BM1Y%2CWos0ya0mKi8%2CUKErbyBExDU%2CCI2jytCXNqE%2CuQDzdXse59Y%2CRvuWxiaPUqQ%2CWOP2ERXxv20%2CWAPScJ1IakM%2CtHLzDFpLmhQ%2Cv43CpZxE_0E&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+ONEWE+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mt49Pn4BM1Y&list=RDAMVMmt49Pn4BM1Y"
+}

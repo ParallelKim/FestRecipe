@@ -1,0 +1,205 @@
+{
+  "artistId": "peppertones",
+  "artistName": "페퍼톤스",
+  "englishName": "Peppertones",
+  "collectedAt": "2026-08-05T12:30:39.387277+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1230,
+    "latestSlotLabel": "20:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.853,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCMaqrGhm1vkbE6lBWThnSnQ",
+    "name": "PEPPERTONES",
+    "subscribers": "15.7K",
+    "channelId": "UCMaqrGhm1vkbE6lBWThnSnQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/QwXYwrlK8qtGeQOIavXMLNaGU_xEVnqQsBsR3WvzvBAG4Gh_mrAm2C-Wcy1E1FjwDC-IwqmQXsvuIg=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCMaqrGhm1vkbE6lBWThnSnQ"
+  },
+  "tracks": [
+    {
+      "videoId": "x_Y_TWbRWCA",
+      "songTitle": "Good Luck to You (행운을 빌어요)",
+      "title": "Good Luck to You (행운을 빌어요)",
+      "artists": [
+        "Peppertones"
+      ],
+      "albumTitle": "Beginner's Luck",
+      "albumBrowseId": "MPREb_to5AU9xVqcI",
+      "duration": "4:21",
+      "durationSeconds": 261,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WMRoE8e7rsMYDsyLjTUF2Gvv6hUZXvXVFjms4knh6vlto6c4U8tJ4ts8k2hiCS_Xqy-n2q_DNYupNFGZaA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x_Y_TWbRWCA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=x_Y_TWbRWCA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "gFEHrhNEiHQ",
+      "songTitle": "공원여행",
+      "title": "공원여행",
+      "artists": [
+        "Peppertones"
+      ],
+      "albumTitle": "Sounds Good!",
+      "albumBrowseId": "MPREb_j6f6d1pZa0s",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ih2cQ_i_HOt5vO65f-Xp5LzhxLfO5mLwpMVxZYOE-tVZJAQfQnGa41JyLGoexRpN4HXPL8BL-vb7IEwU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gFEHrhNEiHQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gFEHrhNEiHQ",
+      "source": "ytm_songs_popular",
+      "year": "2009",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "S9MSmTEm3sQ",
+      "songTitle": "Superfantastic",
+      "title": "Superfantastic",
+      "artists": [
+        "PEPPERTONES"
+      ],
+      "albumTitle": "Colorful Express",
+      "albumBrowseId": "MPREb_Xx9Xbd3DE72",
+      "duration": "4:22",
+      "durationSeconds": 262,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4xsnp_Y0qxJ15lJO4S04MLJ6EwL-NjPccjyNzd5SprXjItv4JMO_aor6U41UvmeyjDMykNTDFL6Hz9Ni5A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=S9MSmTEm3sQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=S9MSmTEm3sQ",
+      "source": "ytm_songs_popular",
+      "year": "2005",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "W-mInpdHSbg",
+      "songTitle": "Ready, Get Set, Go!",
+      "title": "Ready, Get Set, Go!",
+      "artists": [
+        "페퍼톤스(Peppertones)"
+      ],
+      "albumTitle": "Colorful Express",
+      "albumBrowseId": "MPREb_xnNv6eB0J8L",
+      "duration": "5:06",
+      "durationSeconds": 306,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0rPTFPiWONJ51O4IVvYnX_YG8M9LkUSOWnI72gov_uAs3I-_kaPOmTZFhCZOHVxOCIzZl3UOljozcXff=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W-mInpdHSbg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=W-mInpdHSbg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dCLui1QOlUk",
+      "songTitle": "Some Day in the 21century (21세기의 어떤 날)",
+      "title": "Some Day in the 21century (21세기의 어떤 날)",
+      "artists": [
+        "Peppertones"
+      ],
+      "albumTitle": "Beginner's Luck",
+      "albumBrowseId": "MPREb_to5AU9xVqcI",
+      "duration": "4:13",
+      "durationSeconds": 253,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WMRoE8e7rsMYDsyLjTUF2Gvv6hUZXvXVFjms4knh6vlto6c4U8tJ4ts8k2hiCS_Xqy-n2q_DNYupNFGZaA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dCLui1QOlUk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dCLui1QOlUk",
+      "source": "ytm_songs_popular",
+      "year": "2012",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "oCQeuVz8xIU",
+      "songTitle": "Shine",
+      "title": "Shine",
+      "artists": [
+        "Peppertones"
+      ],
+      "albumTitle": "Cheer Up (Original Television Soundtrack Part.1)",
+      "albumBrowseId": "MPREb_RWnf1rnPrjY",
+      "duration": "2:18",
+      "durationSeconds": 138,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/cCSVLsIg1oVkSzllemdoOltcT1d6ySVdZrcaRiJ1n4pwUlElsRun8u5DOF39-9Z9_pzdchplQ739oBk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oCQeuVz8xIU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=oCQeuVz8xIU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ZIhnmdV5q8g",
+      "songTitle": "riders (라이더스)",
+      "title": "riders (라이더스)",
+      "artists": [
+        "PEPPERTONES"
+      ],
+      "albumTitle": "Twenty Plenty",
+      "albumBrowseId": "MPREb_AFWeO7XHEDy",
+      "duration": "4:24",
+      "durationSeconds": 264,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/npzSEhcKm3ilA5NCeCKr4OD-Uuhy_TpXmyWP_vMhcfVEN2q4p6oBnqAcSBOL6gEGygSqOBtMhik7uIA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZIhnmdV5q8g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZIhnmdV5q8g",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "MMg8e3thLog",
+      "songTitle": "Song Runs Like a Light (노래는 불빛처럼 달린다)",
+      "title": "Song Runs Like a Light (노래는 불빛처럼 달린다)",
+      "artists": [
+        "Peppertones"
+      ],
+      "albumTitle": "Open Run",
+      "albumBrowseId": "MPREb_Yfw9lRP3lqm",
+      "duration": "4:38",
+      "durationSeconds": 278,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dR5nQ-1nVgs6f3WPwwMU8KTjpQvJRlL52CHxoKqwHtPMTgPe25nPYYJd75GH8qNMEd9PWjdvT9UXCac=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MMg8e3thLog",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=MMg8e3thLog",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3iycK4F8iv4",
+      "songTitle": "New Hippie Generation",
+      "title": "New Hippie Generation",
+      "artists": [
+        "페퍼톤스(Peppertones)"
+      ],
+      "albumTitle": "New Standard",
+      "albumBrowseId": "MPREb_y5TXL2LWCQ2",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1WKfe6Y_qvO7BOHIKWA5XvOiFs879XjOKAmaeEe5l27UYW-A44evHDSFTbu7WY3UDbjgyR3o1LzKnbEp=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3iycK4F8iv4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3iycK4F8iv4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-817KjHg144",
+      "songTitle": "long journey's end (긴 여행의 끝)",
+      "title": "long journey's end (긴 여행의 끝)",
+      "artists": [
+        "Peppertones"
+      ],
+      "albumTitle": "long way",
+      "albumBrowseId": "MPREb_UGTTwiyA1eu",
+      "duration": "4:43",
+      "durationSeconds": 283,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/GTvf5Tca0RrLCMjgypLYcw8aDJCF120ee5ojlyLem6VAPvRJAlnqoHeoN9dBZgPaQ2JPbZzhJdum-KiJ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-817KjHg144",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-817KjHg144",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 페퍼톤스 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=x_Y_TWbRWCA%2CgFEHrhNEiHQ%2CS9MSmTEm3sQ%2CW-mInpdHSbg%2CdCLui1QOlUk%2CoCQeuVz8xIU%2CZIhnmdV5q8g%2CMMg8e3thLog%2C3iycK4F8iv4%2C-817KjHg144&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%8E%98%ED%8D%BC%ED%86%A4%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=x_Y_TWbRWCA&list=RDAMVMx_Y_TWbRWCA"
+}

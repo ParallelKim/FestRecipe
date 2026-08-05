@@ -1,0 +1,208 @@
+{
+  "artistId": "knosis",
+  "artistName": "크노시스",
+  "englishName": "Knosis",
+  "collectedAt": "2026-08-05T12:30:32.777742+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1090,
+    "latestSlotLabel": "18:10",
+    "festivalId": "jumf-2026",
+    "rank": 0.647,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCB9WtIQzNC9_mVKirlA8NHg",
+    "name": "Knosis",
+    "subscribers": "5.55K",
+    "channelId": "UCB9WtIQzNC9_mVKirlA8NHg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/M28fAOn5VBWcDs-T_GxuEOvLELlIVR0iyYa6dX_qHErRFXmEqV0tJGCJ6tkWiGpcPJC9dEY8r5z4uMJ6=w1440-h600-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCB9WtIQzNC9_mVKirlA8NHg"
+  },
+  "tracks": [
+    {
+      "videoId": "2mCD_ED7NNM",
+      "songTitle": "Kushizashi",
+      "title": "Kushizashi",
+      "artists": [
+        "Knosis"
+      ],
+      "albumTitle": "Kushizashi",
+      "albumBrowseId": "MPREb_yF9SaE5loRe",
+      "duration": "2:19",
+      "durationSeconds": 139,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/M28fAOn5VBWcDs-T_GxuEOvLELlIVR0iyYa6dX_qHErRFXmEqV0tJGCJ6tkWiGpcPJC9dEY8r5z4uMJ6=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2mCD_ED7NNM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2mCD_ED7NNM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EOYwifscUj4",
+      "songTitle": "FUHAI (feat. 花冷え。)",
+      "title": "FUHAI (feat. 花冷え。)",
+      "artists": [
+        "Knosis"
+      ],
+      "albumTitle": "FUHAI",
+      "albumBrowseId": "MPREb_TFlQz3C5E8d",
+      "duration": "3:14",
+      "durationSeconds": 194,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mnr-PKyCtsqMa0wbyavSyl8YQaJE3EAii7XP2AKyH841pwfjmw11Xg6nq4GvOwEBw9_-SfjVxv8s1WTmNw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EOYwifscUj4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EOYwifscUj4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "kQVoIQ5S_tw",
+      "songTitle": "厄災 - YAKUSAI",
+      "title": "厄災 - YAKUSAI",
+      "artists": [
+        "Knosis"
+      ],
+      "albumTitle": "THE ETERNAL DOOM",
+      "albumBrowseId": "MPREb_u0oK88Uj9qY",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mUibE-ZMeN1AB9szvQ0VVHmINNSj4O6NxLJCJ_1uhcHe-rb1Gz6fDyQa5kiUeeClqEvw76kwLYuva_3qWw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kQVoIQ5S_tw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kQVoIQ5S_tw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "lPbp5wPM5ko",
+      "songTitle": "SHINMON",
+      "title": "SHINMON",
+      "artists": [
+        "Knosis"
+      ],
+      "albumTitle": "SHINMON",
+      "albumBrowseId": "MPREb_ItDPopsqOvh",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VdavEGgW5FxWoWlgRnxPZUOGWgbbt6NWrwsshOfOzKY2aXBroGz6-63gc_EqvP8m7I_zv2eIU0hfWk-QwQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lPbp5wPM5ko",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lPbp5wPM5ko",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "akAMorID_cA",
+      "songTitle": "DOKUNUMA",
+      "title": "DOKUNUMA",
+      "artists": [
+        "Knosis"
+      ],
+      "albumTitle": "DOKUNUMA",
+      "albumBrowseId": "MPREb_lD0siN7HX6G",
+      "duration": "4:06",
+      "durationSeconds": 246,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0sAMTY2jQkk6ClQkNEnNud5rCV9ypiY2i8rOoEGn2Dw7waq2SbqLQd8OZPia0uoHJFt70lLJGCMviY4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=akAMorID_cA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=akAMorID_cA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3eqRzhQpgcM",
+      "songTitle": "神喰 - Kami Gurai",
+      "title": "神喰 - Kami Gurai",
+      "artists": [
+        "Knosis"
+      ],
+      "albumTitle": "Kami Gurai",
+      "albumBrowseId": "MPREb_7skGoJImslu",
+      "duration": "2:11",
+      "durationSeconds": 131,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/46OraLlJKMwwK9eYbKdOp3oIFv7fmvCDo2IOgmuDhlZVU11Cb-XQvoGvZJQ-I8ksHYVFImmpoT5ndTTX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3eqRzhQpgcM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3eqRzhQpgcM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "FA4RrN26Ghk",
+      "songTitle": "All Wrong",
+      "title": "All Wrong",
+      "artists": [
+        "MoistCr1tikal",
+        "Nik Nocturnal",
+        "Knosis"
+      ],
+      "albumTitle": "All Wrong",
+      "albumBrowseId": "MPREb_VhzRqG90Bvl",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IavTxmJR2xk8M25fZc6aSaskPw3pTGNFWCsxGYcO91bpxrV0D7tLJaJ2WIylWWFz3WzWUnJmj76qDKY2=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FA4RrN26Ghk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FA4RrN26Ghk",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "kya9aNgp7Sc",
+      "songTitle": "オトノケ - Otonoke",
+      "title": "オトノケ - Otonoke",
+      "artists": [
+        "Nik Nocturnal, Knosis, & The Hideout Studios"
+      ],
+      "albumTitle": "オトノケ - Otonoke",
+      "albumBrowseId": "MPREb_XorI3lkLnFY",
+      "duration": "3:05",
+      "durationSeconds": 185,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/cIUHFEdd_z9cksQS1Y9A1sy30ke9c5TECYQBPA8rqQXwounemUof8mgrq-RMkUaASITinKxSttnZrsa7=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kya9aNgp7Sc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kya9aNgp7Sc",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "_e6wt2xYsgY",
+      "songTitle": "Architect",
+      "title": "Architect",
+      "artists": [
+        "Nik Nocturnal",
+        "Knosis"
+      ],
+      "albumTitle": "Architect",
+      "albumBrowseId": "MPREb_75qelUURjsJ",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jLHyGo4hkk1l9xOgnib9d69GLSpxnPn22UsuDEpbIi8Ggq2HTl5lBuozlWySJXCkbUGr2plv6wNzgWHL=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_e6wt2xYsgY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_e6wt2xYsgY",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "S9ZiRyXjGCQ",
+      "songTitle": "NARAKU",
+      "title": "NARAKU",
+      "artists": [
+        "Knosis"
+      ],
+      "albumTitle": "THE ETERNAL DOOM",
+      "albumBrowseId": "MPREb_u0oK88Uj9qY",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mUibE-ZMeN1AB9szvQ0VVHmINNSj4O6NxLJCJ_1uhcHe-rb1Gz6fDyQa5kiUeeClqEvw76kwLYuva_3qWw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=S9ZiRyXjGCQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=S9ZiRyXjGCQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 크노시스 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=2mCD_ED7NNM%2CEOYwifscUj4%2CkQVoIQ5S_tw%2ClPbp5wPM5ko%2CakAMorID_cA%2C3eqRzhQpgcM%2CFA4RrN26Ghk%2Ckya9aNgp7Sc%2C_e6wt2xYsgY%2CS9ZiRyXjGCQ&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%81%AC%EB%85%B8%EC%8B%9C%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=2mCD_ED7NNM&list=RDAMVM2mCD_ED7NNM"
+}

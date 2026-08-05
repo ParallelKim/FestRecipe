@@ -1,0 +1,206 @@
+{
+  "artistId": "kim-nayoung",
+  "artistName": "김나영",
+  "englishName": "Kim Na Young",
+  "collectedAt": "2026-08-05T12:30:32.363511+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCBXNRYFBNNMHwArbYK3N4eg",
+    "name": "Kim Na Young",
+    "subscribers": "263K",
+    "channelId": "UCYfKKwfzcfxRmHhy5YNkzaA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/-noKtpvysGcbywzT5OrL31LEX7p6Iwah-4kMnqHbOaVASlWHRGpTGY14tEvDt2mUA-SnFVu2rIttkrQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCBXNRYFBNNMHwArbYK3N4eg"
+  },
+  "tracks": [
+    {
+      "videoId": "D9IVOL9felk",
+      "songTitle": "A Letter for You",
+      "title": "A Letter for You",
+      "artists": [
+        "Kim NaYoung"
+      ],
+      "albumTitle": "A Letter for You",
+      "albumBrowseId": "MPREb_e2PetH2PwTp",
+      "duration": "3:38",
+      "durationSeconds": 218,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_hPwrS2zrs9-O6BmJ3b6Uzu6f1SvWJFVbdn_t1lrjvch2_vd6aZKa-5YIT_kvGMpvkNgtI7P7etq4A6B=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=D9IVOL9felk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=D9IVOL9felk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "u301ZAevbwY",
+      "songTitle": "Once Again",
+      "title": "Once Again",
+      "artists": [
+        "Mad Clown",
+        "Kim Na Young"
+      ],
+      "albumTitle": "Descendants Of The Sun Pt.5 (Original Television Soundtrack)",
+      "albumBrowseId": "MPREb_KibK1FOF3V0",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/hhuFB5tdEuv0fjE2TPL9kfyOdEsKv7zKInjK1phwmmYZ2p3wDBFz6G-JXGP4SNlHAXWIgF9NGyGB_PXK=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u301ZAevbwY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=u301ZAevbwY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "FcfCWcZHDD8",
+      "songTitle": "I Can't Help It (Prod. Jungkey)",
+      "title": "I Can't Help It (Prod. Jungkey)",
+      "artists": [
+        "Kim Na Young"
+      ],
+      "albumTitle": "I Can't Help It",
+      "albumBrowseId": "MPREb_7wY2dgPNOWP",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZdY3nBZk3KGpEpjg-CPghNfzuLhqX8HSTsXvPSub3AOuKv1uzW2oFnpXz1eBbaSix8upXH6ODO1rrZ7t=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FcfCWcZHDD8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FcfCWcZHDD8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "LSuTlGfl1y8",
+      "songTitle": "To be honest(솔직하게 말해서 나)",
+      "title": "To be honest(솔직하게 말해서 나)",
+      "artists": [
+        "Kim na young(김나영)"
+      ],
+      "albumTitle": "To be honest(솔직하게 말해서 나)",
+      "albumBrowseId": "MPREb_RTOdsL4aJ4h",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/T9MWduFFO9qcQ6HEwMXjZRahPY3gd9meVbquJsNmtcl489EmzLWR8QdBeVjM61b2njTcp_PTQalZbfWi=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LSuTlGfl1y8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LSuTlGfl1y8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "uvjCEn1i7Qo",
+      "songTitle": "Say Goodbye(가슴이 말해)",
+      "title": "Say Goodbye(가슴이 말해)",
+      "artists": [
+        "Kim NaYoung(김나영)"
+      ],
+      "albumTitle": "Uncontrollably Fond(함부로 애틋하게) OST Part.3",
+      "albumBrowseId": "MPREb_RwWVTEq5tKg",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/s7N3UaJB99snf0rz1fvofZOutNX2Rs7Jh_o4lWBWu1wg7LzChguTYF57GsFa0S_9QcUrhDprr14D8QTgAg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uvjCEn1i7Qo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=uvjCEn1i7Qo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "vnEuD5BgnZg",
+      "songTitle": "There For You",
+      "title": "There For You",
+      "artists": [
+        "Kim Na Young"
+      ],
+      "albumTitle": "Our Beloved Summer OST Part.4",
+      "albumBrowseId": "MPREb_yrKqWvfBNCS",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/13RZHtIHswQo-MoTNdj8HbFo4MQEiLB2CJASQfPlNcQYDCKrmm2mLJnw5yrf9T9Zi56c27CVc2Aplsa_Ew=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vnEuD5BgnZg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vnEuD5BgnZg",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "BOOZz5t3WPY",
+      "songTitle": "I Can’t",
+      "title": "I Can’t",
+      "artists": [
+        "Kim Na Young"
+      ],
+      "albumTitle": "I Can’t (Re:WIND 4MEN Vol.02)",
+      "albumBrowseId": "MPREb_16HDC2aU9RH",
+      "duration": "4:11",
+      "durationSeconds": 251,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/A6TjusrmNClXkfYv7rl5BKtns_myLEoT8w6Og9c9m1Oq23AZ7O6NKqTIYSMQemQeP1HOPegL9nwtejPhxA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BOOZz5t3WPY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BOOZz5t3WPY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "_02Y1ulz0Hk",
+      "songTitle": "Goodbye list (헤어진 우리가 지켜야 할 것들)",
+      "title": "Goodbye list (헤어진 우리가 지켜야 할 것들)",
+      "artists": [
+        "Kim Na Young",
+        "Yang Da Il"
+      ],
+      "albumTitle": "Goodbye list (헤어진 우리가 지켜야 할 것들)",
+      "albumBrowseId": "MPREb_oe59wzhqhF1",
+      "duration": "4:24",
+      "durationSeconds": 264,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oAV3kVgdd3pRauPYLYQ8XwvyhP1KrDen1JxXZPzUYt5VqKMPQGvRCANgECnnUgflsZuzAuCd5XKT-SV2=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_02Y1ulz0Hk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_02Y1ulz0Hk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EERU98V_cIg",
+      "songTitle": "As Winter Goes And Spring Comes (겨울이 지나고 봄이 오듯이)",
+      "title": "As Winter Goes And Spring Comes (겨울이 지나고 봄이 오듯이)",
+      "artists": [
+        "Kim Na Young",
+        "SUNNYSIDE MJ"
+      ],
+      "albumTitle": "Rocketan Collab Vol.3 (로켓탄콜라보 Vol.3)",
+      "albumBrowseId": "MPREb_JrzZU9BDi5d",
+      "duration": "4:14",
+      "durationSeconds": 254,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YoEPAWg77AKIGcqaJ1RLxGTBlo1pEWMh4CXsjBOIGCvQDDxG65pnoKk8vM4o7PmG9eJ2uKJ3q52PvrQn7g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EERU98V_cIg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EERU98V_cIg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "L7-TpTTWbhU",
+      "songTitle": "너의 번호를 누르고 (Dial Your Number)",
+      "title": "너의 번호를 누르고 (Dial Your Number)",
+      "artists": [
+        "김나영 (Kim Na Young)"
+      ],
+      "albumTitle": "너의 번호를 누르고 (Dial Your Number)",
+      "albumBrowseId": "MPREb_NC6qnubCCd2",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AGf9BZUh8R7pxMpJqUbF9rVLHGH1reKyIbPdfni0PurFybPudAAIcLuYBwc2tXr3QDO1VgWNQqzaROaOmA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=L7-TpTTWbhU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=L7-TpTTWbhU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "김나영 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=D9IVOL9felk%2Cu301ZAevbwY%2CFcfCWcZHDD8%2CLSuTlGfl1y8%2CuvjCEn1i7Qo%2CvnEuD5BgnZg%2CBOOZz5t3WPY%2C_02Y1ulz0Hk%2CEERU98V_cIg%2CL7-TpTTWbhU&title=%EA%B9%80%EB%82%98%EC%98%81+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=D9IVOL9felk&list=RDAMVMD9IVOL9felk"
+}

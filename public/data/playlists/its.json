@@ -1,0 +1,204 @@
+{
+  "artistId": "its",
+  "artistName": "이츠",
+  "englishName": "ITS",
+  "collectedAt": "2026-08-05T12:32:58.881748+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCHSCSb4Emnhvvho1flbBZrw",
+    "name": "IT′S",
+    "subscribers": "21K",
+    "channelId": "UCdhV8rcEOPWSwbeyphF4KAA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/bk1I9Frb_C9O1ylmifgFwBoLJZwXeCL7HnjyLQXW50uYxY-DnfHUOMPgaFecR4PCNmeUmUMP2S9mmQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCHSCSb4Emnhvvho1flbBZrw"
+  },
+  "tracks": [
+    {
+      "videoId": "FG1mYbVByMA",
+      "songTitle": "Blue Rock",
+      "title": "Blue Rock",
+      "artists": [
+        "It′s"
+      ],
+      "albumTitle": "Blue Rock",
+      "albumBrowseId": "MPREb_WFEevQ9s48d",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/X2QUKu5mN1WOOh2YzNi-l_qw3J3cC1USxD2S4GhkzRB1XnV_XXMVjoZOEzE3MYjoh61fnPYhxuS1t7wg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FG1mYbVByMA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FG1mYbVByMA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "cwvpmwq10yk",
+      "songTitle": "Fading Person, Fading Love",
+      "title": "Fading Person, Fading Love",
+      "artists": [
+        "It′s"
+      ],
+      "albumTitle": "Fading Person, Fading Love",
+      "albumBrowseId": "MPREb_PFAvMWdtoHu",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/__NvZ07xd4BPJTHbs0Xe87Mby0lRNn5siU9JnqCku6vxoJLb-YF-xgeUdiIUN1m7ScRDa3614iUGPmo=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cwvpmwq10yk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cwvpmwq10yk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "nbT_6uJ6JCk",
+      "songTitle": "NAME.",
+      "title": "NAME.",
+      "artists": [
+        "IT′S"
+      ],
+      "albumTitle": "NAME.",
+      "albumBrowseId": "MPREb_Hx8nHsoeZC2",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QN1kQXurg8_fvUicMJe3evyeABTO1P8w-0f8b0oTAhAG2Z2bFqtw5oheUqgFmQpbq3yNkwNDTr8jw7WoUA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nbT_6uJ6JCk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nbT_6uJ6JCk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qByFr0eXSEs",
+      "songTitle": "WITCH",
+      "title": "WITCH",
+      "artists": [
+        "IT′S"
+      ],
+      "albumTitle": "WITCH",
+      "albumBrowseId": "MPREb_8D6U3VsXsAF",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2mXJ2KEmX0XwAgJonoBm07Miv4FuDXEtGgHS-2Et39i1w_2l6Va0KOjP5q93LfKDTXg05nytEmvuQPj4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qByFr0eXSEs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qByFr0eXSEs",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "b59oMw4dEdU",
+      "songTitle": "Forest",
+      "title": "Forest",
+      "artists": [
+        "It′s"
+      ],
+      "albumTitle": "natural",
+      "albumBrowseId": "MPREb_VJUxbkmaJm0",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/DiBbFuyfrJq8SMzWloV7tMPjZ1VloawQyGbGhVYq6e6PdN9DBVkbo73B0pLqBUtmf29GrRnRpwS_vlk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b59oMw4dEdU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=b59oMw4dEdU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "uX6FyH01DdE",
+      "songTitle": "Fluffy Seed",
+      "title": "Fluffy Seed",
+      "artists": [
+        "It′s"
+      ],
+      "albumTitle": "Fluffy Seed",
+      "albumBrowseId": "MPREb_tKc1Kakub0F",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SGCgD-K8eBFXKrabBkFxID8r0QZsy1oByIpNFinszOl8ycSpP07EA1yuSXK_0MR3mzPV_qkafRJOzmnR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uX6FyH01DdE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=uX6FyH01DdE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qrG-tnn_P1c",
+      "songTitle": "Snow Flower",
+      "title": "Snow Flower",
+      "artists": [
+        "It′s"
+      ],
+      "albumTitle": "Snow Flower",
+      "albumBrowseId": "MPREb_zJA4VlnfYEl",
+      "duration": "4:05",
+      "durationSeconds": 245,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6418cTwrfMJjFsScEORSgPdCoxwIWrI1ZXRVBIUgCDAav3Vm8zqJoEb-NdIoGE6fM7MvN6X0FdRPFsEN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qrG-tnn_P1c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qrG-tnn_P1c",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "1-3T48Go7hc",
+      "songTitle": "Ticket",
+      "title": "Ticket",
+      "artists": [
+        "It′s"
+      ],
+      "albumTitle": "Ticket",
+      "albumBrowseId": "MPREb_oK2o6iXUTuq",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LCGnr13GQtHmSFPTzNDOHHynzoVg8qbDEMzF_sxMEWRut_A9bnr_cHTNHFiC1fRsj6sEAw29rSj3HMNg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1-3T48Go7hc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1-3T48Go7hc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Nxm5L4QzAVw",
+      "songTitle": "wave",
+      "title": "wave",
+      "artists": [
+        "It′s"
+      ],
+      "albumTitle": "wave",
+      "albumBrowseId": "MPREb_YBCcMFRVZiI",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/abgm6Rywl1FI0hdLqMKL01zvjnOsqw6kh_MgbJ6yqiRweVyjGHYaPtqdGZCnrJQkyuo3bR93TpOdE8WJ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Nxm5L4QzAVw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Nxm5L4QzAVw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "T-KJTV2BxN0",
+      "songTitle": "Romanticism",
+      "title": "Romanticism",
+      "artists": [
+        "It′s"
+      ],
+      "albumTitle": "Narcissus",
+      "albumBrowseId": "MPREb_MyGRcvESWY4",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lTDebzJGnrL39DyrapBbbfM9PIT9htwvXmWT2ReG7DAFCImytkJSXh-tLr7xdDO6WHQUnolgbEAWRaABug=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T-KJTV2BxN0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=T-KJTV2BxN0",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "이츠 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=FG1mYbVByMA%2Ccwvpmwq10yk%2CnbT_6uJ6JCk%2CqByFr0eXSEs%2Cb59oMw4dEdU%2CuX6FyH01DdE%2CqrG-tnn_P1c%2C1-3T48Go7hc%2CNxm5L4QzAVw%2CT-KJTV2BxN0&title=%EC%9D%B4%EC%B8%A0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=FG1mYbVByMA&list=RDAMVMFG1mYbVByMA"
+}

@@ -1,0 +1,208 @@
+{
+  "artistId": "jinho",
+  "artistName": "진호",
+  "englishName": "Jinho",
+  "collectedAt": "2026-08-05T12:30:26.691145+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCj3WbRhWU28QgAlDANAIHiw",
+    "name": "JINHO",
+    "subscribers": "460",
+    "channelId": "UCj3WbRhWU28QgAlDANAIHiw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/7u_b0FTFUpK0XB2nFy_nJyk1Vkzd4NETKdwfDTeh-Rp6-BOjU_IjUuWM_uBS9Jvm_E_C-XbhmeHNBms=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCj3WbRhWU28QgAlDANAIHiw"
+  },
+  "tracks": [
+    {
+      "videoId": "U6NSTeCnohA",
+      "songTitle": "LUV 2 MUCH",
+      "title": "LUV 2 MUCH",
+      "artists": [
+        "JINHO"
+      ],
+      "albumTitle": "Luv 2 Much",
+      "albumBrowseId": "MPREb_ehnw5ZuOuqy",
+      "duration": "2:39",
+      "durationSeconds": 159,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7u_b0FTFUpK0XB2nFy_nJyk1Vkzd4NETKdwfDTeh-Rp6-BOjU_IjUuWM_uBS9Jvm_E_C-XbhmeHNBms=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=U6NSTeCnohA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=U6NSTeCnohA",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "h1Jy-AD3RpM",
+      "songTitle": "Keep This Moment",
+      "title": "Keep This Moment",
+      "artists": [
+        "진호 (펜타곤)"
+      ],
+      "albumTitle": "Keep This Moment (Going to You at a Speed of 493km OST Part.4)",
+      "albumBrowseId": "MPREb_qA1upbhHXT5",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lbaw7nVMe5GU0M5S6WeSsKRnOhM58e005fJfaDnb3BbqEjB_yZoJ8nOH0OnyrwdBJUeMFqKidtMzw8ye=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=h1Jy-AD3RpM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=h1Jy-AD3RpM",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "VOjaeqyZO5M",
+      "songTitle": "Edelweiss",
+      "title": "Edelweiss",
+      "artists": [
+        "JINHO"
+      ],
+      "albumTitle": "Luv 2 Much",
+      "albumBrowseId": "MPREb_ehnw5ZuOuqy",
+      "duration": "2:54",
+      "durationSeconds": 174,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7u_b0FTFUpK0XB2nFy_nJyk1Vkzd4NETKdwfDTeh-Rp6-BOjU_IjUuWM_uBS9Jvm_E_C-XbhmeHNBms=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VOjaeqyZO5M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VOjaeqyZO5M",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "jZvZAyVwMlg",
+      "songTitle": "ROCK STAR",
+      "title": "ROCK STAR",
+      "artists": [
+        "진호 (펜타곤)"
+      ],
+      "albumTitle": "SHADOW: A NEW MUSICAL OST Part.2",
+      "albumBrowseId": "MPREb_Y0NYDAkfnJh",
+      "duration": "1:57",
+      "durationSeconds": 117,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/M7r5p199QFKolSpJY3j6tqAqZ1I1-t2MrByuo-hgTBc41fzoPe9ldvcSTCwFd64V9eNz11vHB5YTw8XM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jZvZAyVwMlg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jZvZAyVwMlg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dTVXv5RWGRM",
+      "songTitle": "NO MORE LIVING IN THE SHADOW",
+      "title": "NO MORE LIVING IN THE SHADOW",
+      "artists": [
+        "김찬호 & 진호 (펜타곤)"
+      ],
+      "albumTitle": "SHADOW: A NEW MUSICAL OST Part.2",
+      "albumBrowseId": "MPREb_Y0NYDAkfnJh",
+      "duration": "2:43",
+      "durationSeconds": 163,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/M7r5p199QFKolSpJY3j6tqAqZ1I1-t2MrByuo-hgTBc41fzoPe9ldvcSTCwFd64V9eNz11vHB5YTw8XM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dTVXv5RWGRM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dTVXv5RWGRM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Hqw-O-u0PGo",
+      "songTitle": "STAY WITH ME",
+      "title": "STAY WITH ME",
+      "artists": [
+        "진호 (펜타곤)"
+      ],
+      "albumTitle": "SHADOW: A NEW MUSICAL OST Part.1",
+      "albumBrowseId": "MPREb_RfofvMhDdgC",
+      "duration": "3:36",
+      "durationSeconds": 216,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/S4vCwpF9pSEa7dsndLRyDfpdD56C14QB-fmwgjw0G_iW-nam9NL4mGs-g60JVth9ovqVnJGMkMQPuuU2=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hqw-O-u0PGo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Hqw-O-u0PGo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "bAtb6LKQtDw",
+      "songTitle": "﻿LUV 2 MUCH(Japanese Ver.)",
+      "title": "﻿LUV 2 MUCH(Japanese Ver.)",
+      "artists": [
+        "JINHO"
+      ],
+      "albumTitle": "Luv 2 Much",
+      "albumBrowseId": "MPREb_ehnw5ZuOuqy",
+      "duration": "2:39",
+      "durationSeconds": 159,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7u_b0FTFUpK0XB2nFy_nJyk1Vkzd4NETKdwfDTeh-Rp6-BOjU_IjUuWM_uBS9Jvm_E_C-XbhmeHNBms=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bAtb6LKQtDw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bAtb6LKQtDw",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "VjUKdUKvTa8",
+      "songTitle": "Edelweiss(Japanese Ver.)",
+      "title": "Edelweiss(Japanese Ver.)",
+      "artists": [
+        "JINHO"
+      ],
+      "albumTitle": "Luv 2 Much",
+      "albumBrowseId": "MPREb_ehnw5ZuOuqy",
+      "duration": "2:54",
+      "durationSeconds": 174,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7u_b0FTFUpK0XB2nFy_nJyk1Vkzd4NETKdwfDTeh-Rp6-BOjU_IjUuWM_uBS9Jvm_E_C-XbhmeHNBms=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VjUKdUKvTa8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VjUKdUKvTa8",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "c4vRKPoVtvQ",
+      "songTitle": "I want to hear it",
+      "title": "I want to hear it",
+      "artists": [
+        "진호 (펜타곤)"
+      ],
+      "albumTitle": "Music Collaboration-I want to hear it",
+      "albumBrowseId": "MPREb_dFPDxqgeVJs",
+      "duration": "3:52",
+      "durationSeconds": 232,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/gIz6ksjHV_vbZOFBPIKr4J4b-xYp6SCZQbRsQ45ZhjADhzz6vfG2soB4Rfogpnw90RE4Mf5EhN6fXpvs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c4vRKPoVtvQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=c4vRKPoVtvQ",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "RWZH6QeWoJ0",
+      "songTitle": "The sun is in my eyes",
+      "title": "The sun is in my eyes",
+      "artists": [
+        "진호 (펜타곤)"
+      ],
+      "albumTitle": "Musical <Midnight Sun> OST",
+      "albumBrowseId": "MPREb_OTVTPxy2RF8",
+      "duration": "3:15",
+      "durationSeconds": 195,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0CKIJhDMlMJB3Gl-4Cm1NRurzKQXbLUqjIo4olce5ukIuUp4v5MWsbjTb1O5sf9tTMDYhGWOji4nPpg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RWZH6QeWoJ0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RWZH6QeWoJ0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "진호 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=U6NSTeCnohA%2Ch1Jy-AD3RpM%2CVOjaeqyZO5M%2CjZvZAyVwMlg%2CdTVXv5RWGRM%2CHqw-O-u0PGo%2CbAtb6LKQtDw%2CVjUKdUKvTa8%2Cc4vRKPoVtvQ%2CRWZH6QeWoJ0&title=%EC%A7%84%ED%98%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=U6NSTeCnohA&list=RDAMVMU6NSTeCnohA"
+}

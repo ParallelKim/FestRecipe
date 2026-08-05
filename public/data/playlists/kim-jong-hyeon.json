@@ -1,0 +1,211 @@
+{
+  "artistId": "kim-jong-hyeon",
+  "artistName": "김종현",
+  "englishName": "KIM JONGHYEON",
+  "collectedAt": "2026-08-05T12:30:30.469926+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCIX86eLidW87S5oAHajXLtA",
+    "name": "KIM JONGHYEON",
+    "subscribers": "1.24K",
+    "channelId": "UCIX86eLidW87S5oAHajXLtA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/Y1rXRmToEsUUvam8JIRO5xDn0_--jBU4g-h5xqP-57eZxBTbBtsX79d0NEbIEePI_ibW4ITmPlVmKR66=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCIX86eLidW87S5oAHajXLtA"
+  },
+  "tracks": [
+    {
+      "videoId": "0sp_Ec3GcOg",
+      "songTitle": "MOTTO",
+      "title": "MOTTO",
+      "artists": [
+        "Kim Jonghyeon"
+      ],
+      "albumTitle": "Brilliant Seasons",
+      "albumBrowseId": "MPREb_pi0j0i6oQrS",
+      "duration": "2:49",
+      "durationSeconds": 169,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y1rXRmToEsUUvam8JIRO5xDn0_--jBU4g-h5xqP-57eZxBTbBtsX79d0NEbIEePI_ibW4ITmPlVmKR66=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0sp_Ec3GcOg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0sp_Ec3GcOg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "riOAJesr2JQ",
+      "songTitle": "Lights",
+      "title": "Lights",
+      "artists": [
+        "KIM JONGHYEON"
+      ],
+      "albumTitle": "MERIDIEM",
+      "albumBrowseId": "MPREb_1wHKU9NRoVb",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MWy1X4MNrI0bby3vJBasScd1LFUT_XhjZQEfmRoaW5f-6o0touJBHUyBepRhI2OmPcCiLrGl7nxD5BY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=riOAJesr2JQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=riOAJesr2JQ",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "oCCbCo5cdIw",
+      "songTitle": "I'm so dirty, How can I love you",
+      "title": "I'm so dirty, How can I love you",
+      "artists": [
+        "Kim Jonghyeon"
+      ],
+      "albumTitle": "Brilliant Seasons",
+      "albumBrowseId": "MPREb_pi0j0i6oQrS",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y1rXRmToEsUUvam8JIRO5xDn0_--jBU4g-h5xqP-57eZxBTbBtsX79d0NEbIEePI_ibW4ITmPlVmKR66=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oCCbCo5cdIw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=oCCbCo5cdIw",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "P1HtAKfW324",
+      "songTitle": "Don't Worry",
+      "title": "Don't Worry",
+      "artists": [
+        "Kim Jonghyeon"
+      ],
+      "albumTitle": "Brilliant Seasons",
+      "albumBrowseId": "MPREb_pi0j0i6oQrS",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y1rXRmToEsUUvam8JIRO5xDn0_--jBU4g-h5xqP-57eZxBTbBtsX79d0NEbIEePI_ibW4ITmPlVmKR66=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=P1HtAKfW324",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=P1HtAKfW324",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "lBU_pwCEVrc",
+      "songTitle": "décalcomanie(feat.MRCH) (반가워(décalcomanie) ) (feat. MRCH)",
+      "title": "décalcomanie(feat.MRCH) (반가워(décalcomanie) ) (feat. MRCH)",
+      "artists": [
+        "KIM JONGHYEON"
+      ],
+      "albumTitle": "MERIDIEM",
+      "albumBrowseId": "MPREb_1wHKU9NRoVb",
+      "duration": "2:43",
+      "durationSeconds": 163,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MWy1X4MNrI0bby3vJBasScd1LFUT_XhjZQEfmRoaW5f-6o0touJBHUyBepRhI2OmPcCiLrGl7nxD5BY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lBU_pwCEVrc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lBU_pwCEVrc",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "zkoN5691sqU",
+      "songTitle": "Whatever (네 마음대로 해)",
+      "title": "Whatever (네 마음대로 해)",
+      "artists": [
+        "Kim Jonghyeon"
+      ],
+      "albumTitle": "Brilliant Seasons",
+      "albumBrowseId": "MPREb_pi0j0i6oQrS",
+      "duration": "2:37",
+      "durationSeconds": 157,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y1rXRmToEsUUvam8JIRO5xDn0_--jBU4g-h5xqP-57eZxBTbBtsX79d0NEbIEePI_ibW4ITmPlVmKR66=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zkoN5691sqU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zkoN5691sqU",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "Hb48R1NOQS0",
+      "songTitle": "Creator",
+      "title": "Creator",
+      "artists": [
+        "KIM JONGHYEON"
+      ],
+      "albumTitle": "MERIDIEM",
+      "albumBrowseId": "MPREb_1wHKU9NRoVb",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MWy1X4MNrI0bby3vJBasScd1LFUT_XhjZQEfmRoaW5f-6o0touJBHUyBepRhI2OmPcCiLrGl7nxD5BY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hb48R1NOQS0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Hb48R1NOQS0",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "przCzu5n_20",
+      "songTitle": "Blaze",
+      "title": "Blaze",
+      "artists": [
+        "KIM JONGHYEON"
+      ],
+      "albumTitle": "MERIDIEM",
+      "albumBrowseId": "MPREb_1wHKU9NRoVb",
+      "duration": "3:10",
+      "durationSeconds": 190,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MWy1X4MNrI0bby3vJBasScd1LFUT_XhjZQEfmRoaW5f-6o0touJBHUyBepRhI2OmPcCiLrGl7nxD5BY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=przCzu5n_20",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=przCzu5n_20",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "EcVFJU_56DM",
+      "songTitle": "STAR",
+      "title": "STAR",
+      "artists": [
+        "KIM JONGHYEON"
+      ],
+      "albumTitle": "Sound Candy OST PART1",
+      "albumBrowseId": "MPREb_fJEAauyi6MB",
+      "duration": "3:04",
+      "durationSeconds": 184,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mMDSnsSw3tyRNZyUhfww3I5j9MWpvBosirOAKeefC86fUX8luRFETtpNUdmizXEulYXAOeNGCx6Z4po=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EcVFJU_56DM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EcVFJU_56DM",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "wy0fr5k9r2E",
+      "songTitle": "New Season",
+      "title": "New Season",
+      "artists": [
+        "Kim Jonghyeon"
+      ],
+      "albumTitle": "Brilliant Seasons",
+      "albumBrowseId": "MPREb_pi0j0i6oQrS",
+      "duration": "2:48",
+      "durationSeconds": 168,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y1rXRmToEsUUvam8JIRO5xDn0_--jBU4g-h5xqP-57eZxBTbBtsX79d0NEbIEePI_ibW4ITmPlVmKR66=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wy0fr5k9r2E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wy0fr5k9r2E",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    }
+  ],
+  "playlistTitle": "김종현 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=0sp_Ec3GcOg%2CriOAJesr2JQ%2CoCCbCo5cdIw%2CP1HtAKfW324%2ClBU_pwCEVrc%2CzkoN5691sqU%2CHb48R1NOQS0%2CprzCzu5n_20%2CEcVFJU_56DM%2Cwy0fr5k9r2E&title=%EA%B9%80%EC%A2%85%ED%98%84+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=0sp_Ec3GcOg&list=RDAMVM0sp_Ec3GcOg"
+}

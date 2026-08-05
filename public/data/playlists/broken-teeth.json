@@ -1,0 +1,209 @@
+{
+  "artistId": "broken-teeth",
+  "artistName": "브로큰티스",
+  "englishName": "BrokenTeeth",
+  "collectedAt": "2026-08-05T12:30:08.161335+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 920,
+    "latestSlotLabel": "15:20",
+    "festivalId": "jumf-2026",
+    "rank": 0.302,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC1X3iY5bD6lT49AFoDJ0rfQ",
+    "name": "BrokenTeeth",
+    "subscribers": "1.95K",
+    "channelId": "UC_yUL1oMezkBuyRk8TcnjlA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/muO-xEwccvlJZMN7wFE43E3urXvErAF9Q6szPGXNZLL4uw49Zz_pLjhqKYMDW1pfRleTx3yU=w2880-h1200-l90-rj-dckZGOa7kG",
+    "url": "https://music.youtube.com/channel/UC1X3iY5bD6lT49AFoDJ0rfQ"
+  },
+  "tracks": [
+    {
+      "videoId": "kZNXYDqkA9o",
+      "songTitle": "138",
+      "title": "138",
+      "artists": [
+        "BrokenTeeth"
+      ],
+      "albumTitle": "How to Sink Slowly",
+      "albumBrowseId": "MPREb_aP9aZMO1Mvi",
+      "duration": "4:35",
+      "durationSeconds": 275,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_QKTeI-PCUVSlrAYWBNZ1RQbpZuGkOhN8-pBl-WZUo7BTFPtiGIhOVfDwsRSbKjZZ2oLx46qa-NynNXl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kZNXYDqkA9o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kZNXYDqkA9o",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "gwcD6hdLNBE",
+      "songTitle": "End of the Castella Era",
+      "title": "End of the Castella Era",
+      "artists": [
+        "BrokenTeeth"
+      ],
+      "albumTitle": "End of the Castella Era",
+      "albumBrowseId": "MPREb_i2oGCw2oWcJ",
+      "duration": "9:27",
+      "durationSeconds": 567,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oU93kMZCOU2C9tN5lPLRUj-8-C8WTiHiXyqXQUuFxmlp7J_BdhDV0ZwA-69mQqxW6MNV6o0XTGVTH7Pg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gwcD6hdLNBE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gwcD6hdLNBE",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "m7GEajBLKzI",
+      "songTitle": "Paradox",
+      "title": "Paradox",
+      "artists": [
+        "BrokenTeeth"
+      ],
+      "albumTitle": "Paradox",
+      "albumBrowseId": "MPREb_mrzAuix7Ie8",
+      "duration": "4:49",
+      "durationSeconds": 289,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BsxIHtCL_rBbISeDoFrA5Qt5_5nTmQxUeZXm-yES1_DjuWQA348uNTBK7l4tkBkZoRM6W9LRcgEd5yZDnQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=m7GEajBLKzI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=m7GEajBLKzI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "aF79Ihbvacs",
+      "songTitle": "The Sun is Setting",
+      "title": "The Sun is Setting",
+      "artists": [
+        "BrokenTeeth"
+      ],
+      "albumTitle": "How to Sink Slowly",
+      "albumBrowseId": "MPREb_aP9aZMO1Mvi",
+      "duration": "5:01",
+      "durationSeconds": 301,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_QKTeI-PCUVSlrAYWBNZ1RQbpZuGkOhN8-pBl-WZUo7BTFPtiGIhOVfDwsRSbKjZZ2oLx46qa-NynNXl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aF79Ihbvacs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=aF79Ihbvacs",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "3UbIOs982AU",
+      "songTitle": "Innocence",
+      "title": "Innocence",
+      "artists": [
+        "BrokenTeeth"
+      ],
+      "albumTitle": "Innocence and Flood",
+      "albumBrowseId": "MPREb_ZndSU6tMc0M",
+      "duration": "6:30",
+      "durationSeconds": 390,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HQJ1_D62p9Vt3mIJdQhDFuCLC-9eIETjz2lSaj9yfacLGMZTH5D-dYJLRzsBDAUYojNUKsArEpF8DpA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3UbIOs982AU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3UbIOs982AU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ffWP0StNLoQ",
+      "songTitle": "Sunset Strike",
+      "title": "Sunset Strike",
+      "artists": [
+        "BrokenTeeth"
+      ],
+      "albumTitle": "How to Sink Slowly",
+      "albumBrowseId": "MPREb_aP9aZMO1Mvi",
+      "duration": "5:07",
+      "durationSeconds": 307,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_QKTeI-PCUVSlrAYWBNZ1RQbpZuGkOhN8-pBl-WZUo7BTFPtiGIhOVfDwsRSbKjZZ2oLx46qa-NynNXl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ffWP0StNLoQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ffWP0StNLoQ",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "gGVRRiXVfWY",
+      "songTitle": "First Snow",
+      "title": "First Snow",
+      "artists": [
+        "BrokenTeeth"
+      ],
+      "albumTitle": "The Letters",
+      "albumBrowseId": "MPREb_hHiwYWgFVRr",
+      "duration": "4:55",
+      "durationSeconds": 295,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/g8LPFR5txwDoOkK1IHxWenPcjmmIV1oAjPReTa94AtOd9myMURC7sofh8CyuKy_K1yPv0fcCiFSt8Qmo=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gGVRRiXVfWY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gGVRRiXVfWY",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "UC6q2CIuCBA",
+      "songTitle": "Heaven Express(again)",
+      "title": "Heaven Express(again)",
+      "artists": [
+        "BrokenTeeth"
+      ],
+      "albumTitle": "How to Sink Slowly",
+      "albumBrowseId": "MPREb_aP9aZMO1Mvi",
+      "duration": "4:47",
+      "durationSeconds": 287,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_QKTeI-PCUVSlrAYWBNZ1RQbpZuGkOhN8-pBl-WZUo7BTFPtiGIhOVfDwsRSbKjZZ2oLx46qa-NynNXl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UC6q2CIuCBA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UC6q2CIuCBA",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "FyuIk2oLHVM",
+      "songTitle": "Midnight Inc.",
+      "title": "Midnight Inc.",
+      "artists": [
+        "BrokenTeeth"
+      ],
+      "albumTitle": "Innocence and Flood",
+      "albumBrowseId": "MPREb_ZndSU6tMc0M",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HQJ1_D62p9Vt3mIJdQhDFuCLC-9eIETjz2lSaj9yfacLGMZTH5D-dYJLRzsBDAUYojNUKsArEpF8DpA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FyuIk2oLHVM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FyuIk2oLHVM",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "NHcqKEDgN-A",
+      "songTitle": "Spring",
+      "title": "Spring",
+      "artists": [
+        "BrokenTeeth"
+      ],
+      "albumTitle": "How to Sink Slowly",
+      "albumBrowseId": "MPREb_aP9aZMO1Mvi",
+      "duration": "7:28",
+      "durationSeconds": 448,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_QKTeI-PCUVSlrAYWBNZ1RQbpZuGkOhN8-pBl-WZUo7BTFPtiGIhOVfDwsRSbKjZZ2oLx46qa-NynNXl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NHcqKEDgN-A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NHcqKEDgN-A",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 브로큰티스 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=kZNXYDqkA9o%2CgwcD6hdLNBE%2Cm7GEajBLKzI%2CaF79Ihbvacs%2C3UbIOs982AU%2CffWP0StNLoQ%2CgGVRRiXVfWY%2CUC6q2CIuCBA%2CFyuIk2oLHVM%2CNHcqKEDgN-A&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%B8%8C%EB%A1%9C%ED%81%B0%ED%8B%B0%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=kZNXYDqkA9o&list=RDAMVMkZNXYDqkA9o"
+}

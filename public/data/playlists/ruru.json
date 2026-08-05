@@ -1,0 +1,211 @@
+{
+  "artistId": "ruru",
+  "artistName": "Ruru",
+  "englishName": "Ruru",
+  "collectedAt": "2026-08-05T12:30:42.299262+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCLTDSh6fJcGLDF0e36srFFg",
+    "name": "Ruru",
+    "subscribers": "5.47K",
+    "channelId": "UCC96phCb2MQwfPtcgYCO2lw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/apMmsjfZ6rEzyg2cdiEH18TyU3qPYnNvs_nSeIN6Z6-Ixxc9U5sMSKRF8QFWTSwvFeg3BcHw=w1080-h450-l90-rj-dcDQCMl4CsoW8B",
+    "url": "https://music.youtube.com/channel/UCLTDSh6fJcGLDF0e36srFFg"
+  },
+  "tracks": [
+    {
+      "videoId": "JEiZQkt1Xug",
+      "songTitle": "It's Okay to Dream",
+      "title": "It's Okay to Dream",
+      "artists": [
+        "Mellow Fellow",
+        "Ruru"
+      ],
+      "albumTitle": "It's Okay to Dream",
+      "albumBrowseId": "MPREb_tPwrAggmbZR",
+      "duration": "3:23",
+      "durationSeconds": 203,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MaHWpjTVNAeFqlR0202japmB-l93ndoF8ryx9W_Z2qGXhlR9oOwi1jC291f2uajq7tmrdHzITC5tvKtn=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JEiZQkt1Xug",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JEiZQkt1Xug",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "sph_tMPuRLw",
+      "songTitle": "seventeen",
+      "title": "seventeen",
+      "artists": [
+        "Ruru"
+      ],
+      "albumTitle": "Sleep",
+      "albumBrowseId": "MPREb_pQfYZCE4zWK",
+      "duration": "1:29",
+      "durationSeconds": 89,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/GSYeEitPzHR_Djj5rV6y7xb9k3gbBk3DZA6R_X7Wqvn5C_kHNv0oHyI2FCE-h1He_-9qGF0UP9YK5TNe=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sph_tMPuRLw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sph_tMPuRLw",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "H6l9m6z8H4Y",
+      "songTitle": "Another",
+      "title": "Another",
+      "artists": [
+        "Ruru"
+      ],
+      "albumTitle": "Another",
+      "albumBrowseId": "MPREb_Izb7mYHsc8O",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LHcpwQUSgAX4_Y326ao_RHZVbGki7_QzHSdANZAXKR1-qOu1ikvukuUzlx-A9k-IdEfIlZiW4EKSqr_T2g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H6l9m6z8H4Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=H6l9m6z8H4Y",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "6TI4sxJ-C6w",
+      "songTitle": "It Matters Until It Doesn't",
+      "title": "It Matters Until It Doesn't",
+      "artists": [
+        "Ruru"
+      ],
+      "albumTitle": "Glorious Miscellanea",
+      "albumBrowseId": "MPREb_kVMYfKfwMO0",
+      "duration": "2:36",
+      "durationSeconds": 156,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/h1eRgUX45zL-7yP08zVOYjSvvR-u0heVC1T6FG70LRR9O5AHObGpKHMDn4A3xU2umIs_vLd5sebC4Owh=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6TI4sxJ-C6w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6TI4sxJ-C6w",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ky65Wf5eHjU",
+      "songTitle": "Strange World",
+      "title": "Strange World",
+      "artists": [
+        "Ruru"
+      ],
+      "albumTitle": "Strange World",
+      "albumBrowseId": "MPREb_lRGndMGczSW",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4TEouNHg1FYsoCe5aIdq1fDSpZOjDtEjwPD1rp5oEipW4stSU_6079kyEuYHt6OEodoafWaWvxzm2WjIQw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ky65Wf5eHjU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ky65Wf5eHjU",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "1WXz7XBGMyA",
+      "songTitle": "there you go",
+      "title": "there you go",
+      "artists": [
+        "Ruru"
+      ],
+      "albumTitle": "Far Out",
+      "albumBrowseId": "MPREb_2YIFBYwTJWA",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KTgMqzqtjjhcVklDY4rwnEzJok6uIkhPAJCDgpVeLvZd5AeaKkA-3gmlxZJLb0oLSEs1bOjzX8gntRgA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1WXz7XBGMyA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1WXz7XBGMyA",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "S2m2ZGjr-so",
+      "songTitle": "T-shirt Tape",
+      "title": "T-shirt Tape",
+      "artists": [
+        "Ruru"
+      ],
+      "albumTitle": "T-shirt Tape",
+      "albumBrowseId": "MPREb_wXAH7dcvCBk",
+      "duration": "2:58",
+      "durationSeconds": 178,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AVthX_c46RZ_14jor0AFlpFowllEitBUlSglHgNRUyoWQVcWd680jSsV5ZcGHbudFgQ0bjN4kgane84c=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=S2m2ZGjr-so",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=S2m2ZGjr-so",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "qHcQ-80T4rc",
+      "songTitle": "only ones",
+      "title": "only ones",
+      "artists": [
+        "Ruru"
+      ],
+      "albumTitle": "Far Out",
+      "albumBrowseId": "MPREb_2YIFBYwTJWA",
+      "duration": "1:42",
+      "durationSeconds": 102,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KTgMqzqtjjhcVklDY4rwnEzJok6uIkhPAJCDgpVeLvZd5AeaKkA-3gmlxZJLb0oLSEs1bOjzX8gntRgA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qHcQ-80T4rc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qHcQ-80T4rc",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "c7B-Qt1MgxY",
+      "songTitle": "Serious",
+      "title": "Serious",
+      "artists": [
+        "Ruru"
+      ],
+      "albumTitle": "Glorious Miscellanea",
+      "albumBrowseId": "MPREb_kVMYfKfwMO0",
+      "duration": "2:38",
+      "durationSeconds": 158,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/h1eRgUX45zL-7yP08zVOYjSvvR-u0heVC1T6FG70LRR9O5AHObGpKHMDn4A3xU2umIs_vLd5sebC4Owh=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c7B-Qt1MgxY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=c7B-Qt1MgxY",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "U40WC2ZhliU",
+      "songTitle": "Chewing Gum",
+      "title": "Chewing Gum",
+      "artists": [
+        "Ruru"
+      ],
+      "albumTitle": "Glorious Miscellanea",
+      "albumBrowseId": "MPREb_kVMYfKfwMO0",
+      "duration": "2:37",
+      "durationSeconds": 157,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/h1eRgUX45zL-7yP08zVOYjSvvR-u0heVC1T6FG70LRR9O5AHObGpKHMDn4A3xU2umIs_vLd5sebC4Owh=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=U40WC2ZhliU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=U40WC2ZhliU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "Ruru 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=JEiZQkt1Xug%2Csph_tMPuRLw%2CH6l9m6z8H4Y%2C6TI4sxJ-C6w%2Cky65Wf5eHjU%2C1WXz7XBGMyA%2CS2m2ZGjr-so%2CqHcQ-80T4rc%2Cc7B-Qt1MgxY%2CU40WC2ZhliU&title=Ruru+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=JEiZQkt1Xug&list=RDAMVMJEiZQkt1Xug"
+}

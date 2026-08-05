@@ -1,0 +1,211 @@
+{
+  "artistId": "e-pak-sa",
+  "artistName": "신빠람 이박사",
+  "englishName": "E-PAK-SA",
+  "collectedAt": "2026-08-05T12:30:16.677430+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1130,
+    "latestSlotLabel": "18:50",
+    "festivalId": "jumf-2026",
+    "rank": 0.707,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UC_qeBgQZ07BHGT8PevXl0Xg",
+    "name": "Dr. Lee",
+    "subscribers": "13.3K",
+    "channelId": "UCnHbUKiPyClCeynPitmgVCQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/RJ0uT2o7-jIyjFyXsvOgAn5v3jQErVCcReFGp5t6v5mzY5o-gvRrIDfEFlk9B44r7ckN7krp6x3qoKaX=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC_qeBgQZ07BHGT8PevXl0Xg"
+  },
+  "tracks": [
+    {
+      "videoId": "1GHp3GRt2BU",
+      "songTitle": "몽키매직",
+      "title": "몽키매직",
+      "artists": [
+        "이박사"
+      ],
+      "albumTitle": "이박사 하이웨이 랩 댄싱",
+      "albumBrowseId": "MPREb_WMU35yHsjJD",
+      "duration": "2:52",
+      "durationSeconds": 172,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QvwmnW0MMDNLn_MrhJhPZkMwE-9thHJY7e1xySYtXpwqECrHwKJW97RnPTQtA0wxfNlz6JbGhnnFEJT0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1GHp3GRt2BU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1GHp3GRt2BU",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "vSyrGNvd7yU",
+      "songTitle": "영맨(YMCA)",
+      "title": "영맨(YMCA)",
+      "artists": [
+        "이박사"
+      ],
+      "albumTitle": "이박사 하이웨이 랩 댄싱",
+      "albumBrowseId": "MPREb_WMU35yHsjJD",
+      "duration": "3:04",
+      "durationSeconds": 184,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QvwmnW0MMDNLn_MrhJhPZkMwE-9thHJY7e1xySYtXpwqECrHwKJW97RnPTQtA0wxfNlz6JbGhnnFEJT0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vSyrGNvd7yU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vSyrGNvd7yU",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "hsqXJgQait8",
+      "songTitle": "Ya Ya Ya",
+      "title": "Ya Ya Ya",
+      "artists": [
+        "Dr. Lee"
+      ],
+      "albumTitle": "Ya Ya Ya in fine feather Dr. Lee",
+      "albumBrowseId": "MPREb_56Szt047LyB",
+      "duration": "4:07",
+      "durationSeconds": 247,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uGqZyRgXTDgISYIqTj4CTZrSxdnU49yzaVVbTG93Kr8YOirQsW6oabdpAAScMGRC4pT4dbCvDHRAkNh2=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hsqXJgQait8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=hsqXJgQait8",
+      "source": "ytm_songs_popular",
+      "year": "2009",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "RALcTKYd-VE",
+      "songTitle": "Asura-Bal-Bal-Ta",
+      "title": "Asura-Bal-Bal-Ta",
+      "artists": [
+        "신빠람 이박사"
+      ],
+      "albumTitle": "monkey magic - space monkey",
+      "albumBrowseId": "MPREb_kz5laV85Dy5",
+      "duration": "3:29",
+      "durationSeconds": 209,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZvQ58ipB35XATzSAGw6FaBNkS-1H-Mn6z77f4kNQEADUdaHUVKecYO8SKpQP8Pqmb2OKlFnbGoymUcI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RALcTKYd-VE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RALcTKYd-VE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "5o2KjbeCKPI",
+      "songTitle": "야야야",
+      "title": "야야야",
+      "artists": [
+        "이박사"
+      ],
+      "albumTitle": "신바람 이박사(좋은남자 좋은여자/평창올림픽송/가지말라고)",
+      "albumBrowseId": "MPREb_WqKskj37mmh",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FH-XzZ-C0mSY9gcRo2uOU6b-IJrkkJqKd_apwe7wToNuR2XK89SdhuGz_f1KfvibVal2-wFt8M9-p2nLTA=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5o2KjbeCKPI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5o2KjbeCKPI",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "C_8jwnbCRic",
+      "songTitle": "What about My Age",
+      "title": "What about My Age",
+      "artists": [
+        "Lee Park Sa"
+      ],
+      "albumTitle": "Exciting Wind Lee Park Sa's Yay!! Bonanza",
+      "albumBrowseId": "MPREb_214GBvlZlrO",
+      "duration": "2:32",
+      "durationSeconds": 152,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/R-wVls-FA1mfm6p79XTZghnBOPBUU5xCMarIS8ExoDzPEgGmOHjW8n0_OfhrYNPtUIuK-vB08edPD1s=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=C_8jwnbCRic",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=C_8jwnbCRic",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "7UGDwvcoa0o",
+      "songTitle": "Hey Hey Hey 3",
+      "title": "Hey Hey Hey 3",
+      "artists": [
+        "Doctor Lee"
+      ],
+      "albumTitle": "Excited Doctor Lee (Hey Hey Hey 3)",
+      "albumBrowseId": "MPREb_wW2G4iZTGVE",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Q98r15a2WONh-ExNVZNY4K9Sng6Hh9D5FCGOAq7oYYF66Tc_L-5_dE6tIfMVJwkVnJvIm59AzT5Bi8SV2g=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7UGDwvcoa0o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7UGDwvcoa0o",
+      "source": "ytm_songs_popular",
+      "year": "2011",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "EKxpuqy8AhE",
+      "songTitle": "무조건",
+      "title": "무조건",
+      "artists": [
+        "이박사"
+      ],
+      "albumTitle": "이박사 하이웨이 랩 댄싱",
+      "albumBrowseId": "MPREb_WMU35yHsjJD",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QvwmnW0MMDNLn_MrhJhPZkMwE-9thHJY7e1xySYtXpwqECrHwKJW97RnPTQtA0wxfNlz6JbGhnnFEJT0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EKxpuqy8AhE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EKxpuqy8AhE",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "T74TXr_u3nE",
+      "songTitle": "아파트",
+      "title": "아파트",
+      "artists": [
+        "이박사"
+      ],
+      "albumTitle": "아파트",
+      "albumBrowseId": "MPREb_tyfsbehBEW6",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Kqp0u3L3Rpt8u5be4z9VI4RB5mUohWxMXTbVek1em14mdJMV9AzJs4or7Pi5CPuExCHdIt22qWkm8RQF=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T74TXr_u3nE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=T74TXr_u3nE",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "StA2ygexejo",
+      "songTitle": "꽃",
+      "title": "꽃",
+      "artists": [
+        "이박사"
+      ],
+      "albumTitle": "이박사 하이웨이 랩 댄싱",
+      "albumBrowseId": "MPREb_WMU35yHsjJD",
+      "duration": "1:59",
+      "durationSeconds": 119,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QvwmnW0MMDNLn_MrhJhPZkMwE-9thHJY7e1xySYtXpwqECrHwKJW97RnPTQtA0wxfNlz6JbGhnnFEJT0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=StA2ygexejo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=StA2ygexejo",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 신빠람 이박사 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=1GHp3GRt2BU%2CvSyrGNvd7yU%2ChsqXJgQait8%2CRALcTKYd-VE%2C5o2KjbeCKPI%2CC_8jwnbCRic%2C7UGDwvcoa0o%2CEKxpuqy8AhE%2CT74TXr_u3nE%2CStA2ygexejo&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%8B%A0%EB%B9%A0%EB%9E%8C+%EC%9D%B4%EB%B0%95%EC%82%AC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=1GHp3GRt2BU&list=RDAMVM1GHp3GRt2BU"
+}

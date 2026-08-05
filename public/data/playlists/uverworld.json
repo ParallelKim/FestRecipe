@@ -1,0 +1,206 @@
+{
+  "artistId": "uverworld",
+  "artistName": "UVERworld",
+  "englishName": "UVERworld",
+  "collectedAt": "2026-08-05T12:30:54.524458+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCvNGvMSDassu8fTA9Vwdzxg",
+    "name": "UVERworld",
+    "subscribers": "917K",
+    "channelId": "UCnziFQs4Ihms4UtxmVZP6cg",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/frbHs7l_dGCku0U_lPIkQnD83mI-CBw4OBDGjzKKS1qvPS3P5BrLxsBH1bOsz9Qyau4xToH4pIQomQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCvNGvMSDassu8fTA9Vwdzxg"
+  },
+  "tracks": [
+    {
+      "videoId": "0Ob_NVJ09Mw",
+      "songTitle": "D-tecnoLife",
+      "title": "D-tecnoLife",
+      "artists": [
+        "UVERworld"
+      ],
+      "albumTitle": "Timeless",
+      "albumBrowseId": "MPREb_yvaDlYsc8Bf",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/n0z05c0q2Ppkmrue5QhkSw7rC-hFnFwXr4AKy5qrtwRFSLX-tzLjTOeFCHmIp9l-7_UZupfMJs1YVFKy=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0Ob_NVJ09Mw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0Ob_NVJ09Mw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "UEqL_I0G7qU",
+      "songTitle": "ODD FUTURE short ver. - ODD FUTURE (Short Version)",
+      "title": "ODD FUTURE short ver. - ODD FUTURE (Short Version)",
+      "artists": [
+        "UVERworld"
+      ],
+      "albumTitle": "ODD FUTURE (Short Version)",
+      "albumBrowseId": "MPREb_lVy4mWaxicK",
+      "duration": "1:30",
+      "durationSeconds": 90,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/CL30jIqdKuAz7FF45Yj5SSnhkDrKALbLN47npvh5ZX76wsXfRr4Mehrjp3ihJRg99BHIH3m8yBuRyc_ckA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UEqL_I0G7qU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UEqL_I0G7qU",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "4LeFmvLA_Co",
+      "songTitle": "儚くも永久のカナシ - Hakanakumo Towa No Kanashi",
+      "title": "儚くも永久のカナシ - Hakanakumo Towa No Kanashi",
+      "artists": [
+        "UVERworld"
+      ],
+      "albumTitle": "AwakEVE",
+      "albumBrowseId": "MPREb_L3XZg3rsXqe",
+      "duration": "4:09",
+      "durationSeconds": 249,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RBgAFkgjjb0G8jXJEYA6RdYY_DMvWeKdBajmxD87H8_5Z0juVFVrnkh9Ir2jFTW0XbQaY_bN3s5h8t6L=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4LeFmvLA_Co",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4LeFmvLA_Co",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "YommuhgToGA",
+      "songTitle": "Colors of the Heart",
+      "title": "Colors of the Heart",
+      "artists": [
+        "UVERworld"
+      ],
+      "albumTitle": "BUGRIGHT",
+      "albumBrowseId": "MPREb_ZvqdnjUuHGS",
+      "duration": "3:52",
+      "durationSeconds": 232,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/J1jSn1Te1dKurrKN1G2vyRfJdoFnl0pRvW9k8lWJXa6hAdsNcba2mVIF3ZrlbksRyqlBoYXbZHi7E-U=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YommuhgToGA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YommuhgToGA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "TrBupciJL-A",
+      "songTitle": "Core Pride",
+      "title": "Core Pride",
+      "artists": [
+        "UVERworld"
+      ],
+      "albumTitle": "Itteki No Eikyo Extra Edition",
+      "albumBrowseId": "MPREb_h8JDBPOmDi5",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/us3iYHFyxoQN6Q-TrgF2gdD2W-pYiGbB2TlEhsRWU1qm78Aq81EPU3CYSCxSEfv2SpTZZTNJUqSL3juo=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TrBupciJL-A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TrBupciJL-A",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "LhhpMZUBAho",
+      "songTitle": "Shamrock",
+      "title": "Shamrock",
+      "artists": [
+        "UVERworld"
+      ],
+      "albumTitle": "BUGRIGHT",
+      "albumBrowseId": "MPREb_ZvqdnjUuHGS",
+      "duration": "4:09",
+      "durationSeconds": 249,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/J1jSn1Te1dKurrKN1G2vyRfJdoFnl0pRvW9k8lWJXa6hAdsNcba2mVIF3ZrlbksRyqlBoYXbZHi7E-U=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LhhpMZUBAho",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LhhpMZUBAho",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dOVWGxU5YsU",
+      "songTitle": "Odd future",
+      "title": "Odd future",
+      "artists": [
+        "UVERworld"
+      ],
+      "albumTitle": "Odd future",
+      "albumBrowseId": "MPREb_QFL12nGSEvN",
+      "duration": "3:46",
+      "durationSeconds": 226,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/obNTp9iITqag6KC-0aKnPbNW05HZkseRG-zCnqrvDTv7VFKz5Zw3W5gzKpDlKRcEWFEDfdnmyQQU39Os=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dOVWGxU5YsU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dOVWGxU5YsU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "GA9Yw5t-Mto",
+      "songTitle": "Touch off",
+      "title": "Touch off",
+      "artists": [
+        "UVERworld"
+      ],
+      "albumTitle": "Touch off",
+      "albumBrowseId": "MPREb_I5LSIL2YEkc",
+      "duration": "4:21",
+      "durationSeconds": 261,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jv2kkWRfJY_VTWJzscxzkmkikB95U0g150iklm5cCqTBifjfJvdAGq4XvUNvDQstvl0rErtp4Eda8j3j=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GA9Yw5t-Mto",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GA9Yw5t-Mto",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "2XTI-T3Eb5A",
+      "songTitle": "激動（AwakEVE ver.） - Gekidou (AwakEVE Ver.)",
+      "title": "激動（AwakEVE ver.） - Gekidou (AwakEVE Ver.)",
+      "artists": [
+        "UVERworld"
+      ],
+      "albumTitle": "AwakEVE",
+      "albumBrowseId": "MPREb_L3XZg3rsXqe",
+      "duration": "5:12",
+      "durationSeconds": 312,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RBgAFkgjjb0G8jXJEYA6RdYY_DMvWeKdBajmxD87H8_5Z0juVFVrnkh9Ir2jFTW0XbQaY_bN3s5h8t6L=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2XTI-T3Eb5A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2XTI-T3Eb5A",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "MaZapg_E35w",
+      "songTitle": "Touch off (short ver.) - Touch off (Short Version)",
+      "title": "Touch off (short ver.) - Touch off (Short Version)",
+      "artists": [
+        "UVERworld"
+      ],
+      "albumTitle": "Touch off (short Version)",
+      "albumBrowseId": "MPREb_mn945u690Ao",
+      "duration": "1:30",
+      "durationSeconds": 90,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TeL9tbApvklnsACIQHDP_fuySLpStUbnM_GhXoE3rwZzdbXQu0IUeXhCAiWhMty5UnZS_8wpZlFstQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MaZapg_E35w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=MaZapg_E35w",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "UVERworld 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=0Ob_NVJ09Mw%2CUEqL_I0G7qU%2C4LeFmvLA_Co%2CYommuhgToGA%2CTrBupciJL-A%2CLhhpMZUBAho%2CdOVWGxU5YsU%2CGA9Yw5t-Mto%2C2XTI-T3Eb5A%2CMaZapg_E35w&title=UVERworld+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=0Ob_NVJ09Mw&list=RDAMVM0Ob_NVJ09Mw"
+}

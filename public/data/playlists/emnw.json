@@ -1,0 +1,202 @@
+{
+  "artistId": "emnw",
+  "artistName": "EMNW",
+  "englishName": "EMNW",
+  "collectedAt": "2026-08-05T12:30:17.003734+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1010,
+    "latestSlotLabel": "16:50",
+    "festivalId": "jumf-2026",
+    "rank": 0.466,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UC5icSBE7b_-YhG1rKb7ItCQ",
+    "name": "EMNW",
+    "subscribers": "16.1K",
+    "channelId": "UCFoT9seHPg_sAH9rdbKDlrA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/gYPYDFKqesnK3hupbOTPJsYywTtZFggaEsEoOg3CzCDFRlYIwRyeM9rfwS8zdwo5hTaIAhCr=w1280-h533-l90-rj-dcnSOYShkK",
+    "url": "https://music.youtube.com/channel/UC5icSBE7b_-YhG1rKb7ItCQ"
+  },
+  "tracks": [
+    {
+      "videoId": "I-GuogaxX54",
+      "songTitle": "Rollin' (Air Raid Vehicle)",
+      "title": "Rollin' (Air Raid Vehicle)",
+      "artists": [
+        "EMNW"
+      ],
+      "albumTitle": "Rollin’ (Air Raid Vehicle)",
+      "albumBrowseId": "MPREb_mHzzg6uJfio",
+      "duration": "3:36",
+      "durationSeconds": 216,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mmH6z1kX87Asj5Hy-g7YBscmCgPPldAVNEsv1CE2HJN-jH0dC_lwsjqm4_rNUqbthmLmpF_r3bT_RG1V=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=I-GuogaxX54",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=I-GuogaxX54",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "E4W4wsej48U",
+      "songTitle": "KAMASU",
+      "title": "KAMASU",
+      "artists": [
+        "EMNW"
+      ],
+      "albumTitle": "KAMASU",
+      "albumBrowseId": "MPREb_xnmmsfSEwyU",
+      "duration": "2:20",
+      "durationSeconds": 140,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qg36dAafDr4zoAEG8HyuvGD3rz_WbjQ4i13QxEv9fxhNeYBWsGWOxzKgFRlT4uPp6bDqQ2rdOWIKmqUj=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E4W4wsej48U",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=E4W4wsej48U",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "xeeRDTa0YAw",
+      "songTitle": "Here We Go EMNW !!",
+      "title": "Here We Go EMNW !!",
+      "artists": [
+        "EMNW"
+      ],
+      "albumTitle": "Here We Go EMNW !!",
+      "albumBrowseId": "MPREb_eB8EvZGf1KN",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XiTXVZ4c-gE8qSnFm5xFXB8snwi4N8pJMnfKetqJNrKUi8q59fNSWfYO5UKz1PGNF9g5N64M8MwxmyeH=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xeeRDTa0YAw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xeeRDTa0YAw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "scSnSy0aRDQ",
+      "songTitle": "Get it, Get it",
+      "title": "Get it, Get it",
+      "artists": [
+        "EMNW"
+      ],
+      "albumTitle": "EMNW",
+      "albumBrowseId": "MPREb_7UkcjTNTbWS",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2jVDiB9hQrTWTk5Oa_VB19aYeViwK4T1v8lV7O-n1BqUXx3HtqK2UWpX2-vLGmTGJUmZD_q7lTihjZpPAQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=scSnSy0aRDQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=scSnSy0aRDQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "56o2j6oZplY",
+      "songTitle": "百ゼロ",
+      "title": "百ゼロ",
+      "artists": [
+        "EMNW"
+      ],
+      "albumTitle": "百ゼロ",
+      "albumBrowseId": "MPREb_awnwt2hxJEl",
+      "duration": "2:40",
+      "durationSeconds": 160,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ofwYphmADWmsRAtH9jEIxXxBUvxOq2e_b_JBThgSSC3Ladds9LbkiRX67Pbdsv8JiIUktriKK7D-SMF0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=56o2j6oZplY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=56o2j6oZplY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WILkuZuVvAg",
+      "songTitle": "Good Vibes Only",
+      "title": "Good Vibes Only",
+      "artists": [
+        "EMNW"
+      ],
+      "albumTitle": "EMNW",
+      "albumBrowseId": "MPREb_7UkcjTNTbWS",
+      "duration": "2:22",
+      "durationSeconds": 142,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2jVDiB9hQrTWTk5Oa_VB19aYeViwK4T1v8lV7O-n1BqUXx3HtqK2UWpX2-vLGmTGJUmZD_q7lTihjZpPAQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WILkuZuVvAg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WILkuZuVvAg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-95aH91Nh8g",
+      "songTitle": "Headbang Baby",
+      "title": "Headbang Baby",
+      "artists": [
+        "EMNW"
+      ],
+      "albumTitle": "Headbang Baby",
+      "albumBrowseId": "MPREb_MXSa1CgAYcL",
+      "duration": "3:20",
+      "durationSeconds": 200,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wMLH2psdanML8T_srJpaKjtDjNd7rL2VYgEFakFBS9odzwUktAaBqXhx7wU41BO4xA-1e1dKdtpG6vdcGA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-95aH91Nh8g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-95aH91Nh8g",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "NnWmg9gH6Lk",
+      "songTitle": "More Fire",
+      "title": "More Fire",
+      "artists": [
+        "EMNW"
+      ],
+      "albumTitle": "More Fire",
+      "albumBrowseId": "MPREb_7iePEaraGI6",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/n61iF5wzPs7oWHmiNRs5DUadjSbd0kD9midHTuEaJ73Rz3XB0ITnJU6FcPdOLHChAuua6p6RUK3kl2kKsw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NnWmg9gH6Lk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NnWmg9gH6Lk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "rRJEWKLTIJ0",
+      "songTitle": "調子どうだい？",
+      "title": "調子どうだい？",
+      "artists": [
+        "EMNW"
+      ],
+      "albumTitle": "調子どうだい？",
+      "albumBrowseId": "MPREb_VMLUnn5BMxR",
+      "duration": "2:31",
+      "durationSeconds": 151,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uKfw_AzBcN7wTrXHyz89jpnR1kfrBal5u85fCwMyD2duOpzqku9TzNbyifuExGOzs3EHlxce8fbthR8e=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rRJEWKLTIJ0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rRJEWKLTIJ0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "aWEgAsf96nw",
+      "songTitle": "Brain Dead People",
+      "title": "Brain Dead People",
+      "artists": [
+        "EMNW"
+      ],
+      "albumTitle": "Brain Dead People",
+      "albumBrowseId": "MPREb_HK4wEQdV59V",
+      "duration": "2:36",
+      "durationSeconds": 156,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/zd06RaA1w7RCyOuKJfYmos26nGqtXMwFimhQAK5LqeqcW64mG_MsxaTa8qJQ3ZZhN31-K82AC26PEwE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aWEgAsf96nw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=aWEgAsf96nw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 EMNW 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=I-GuogaxX54%2CE4W4wsej48U%2CxeeRDTa0YAw%2CscSnSy0aRDQ%2C56o2j6oZplY%2CWILkuZuVvAg%2C-95aH91Nh8g%2CNnWmg9gH6Lk%2CrRJEWKLTIJ0%2CaWEgAsf96nw&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+EMNW+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=I-GuogaxX54&list=RDAMVMI-GuogaxX54"
+}

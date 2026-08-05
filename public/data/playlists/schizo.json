@@ -1,0 +1,203 @@
+{
+  "artistId": "schizo",
+  "artistName": "스키조",
+  "englishName": "Schizo",
+  "collectedAt": "2026-08-05T12:32:57.170425+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1190,
+    "latestSlotLabel": "19:50",
+    "festivalId": "jumf-2026",
+    "rank": 0.793,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UC-n3FtWzmlRSvVY-u3uoVuA",
+    "name": "스키조",
+    "subscribers": "325",
+    "channelId": "UC-n3FtWzmlRSvVY-u3uoVuA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/34SwQBtJF7qWgXijW-lDM3gWS1pIanEzlUaK1plUk5FlJj6JzqlY05WEK1JMuwNGvnmNT1LpsI67wOk=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC-n3FtWzmlRSvVY-u3uoVuA"
+  },
+  "tracks": [
+    {
+      "videoId": "BtpTGxQGEpI",
+      "songTitle": "Fight",
+      "title": "Fight",
+      "artists": [
+        "스키조"
+      ],
+      "albumTitle": "Fight Against the World",
+      "albumBrowseId": "MPREb_gqeG6nWgGdd",
+      "duration": "4:16",
+      "durationSeconds": 256,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XEiT_LROpMhOTzurZs_Thks-V3kqy_F2aPUzusx95UYYh3FXeYnIHrxnAP-LuIKUgNQJdFidWFtdHLxJQg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BtpTGxQGEpI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BtpTGxQGEpI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "k8C0Oc_lwAI",
+      "songTitle": "Like a Motor (feat. La haneul)",
+      "title": "Like a Motor (feat. La haneul)",
+      "artists": [
+        "Schizo"
+      ],
+      "albumTitle": "Like a Motor",
+      "albumBrowseId": "MPREb_8FUeZ0MUFIr",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/34SwQBtJF7qWgXijW-lDM3gWS1pIanEzlUaK1plUk5FlJj6JzqlY05WEK1JMuwNGvnmNT1LpsI67wOk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k8C0Oc_lwAI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=k8C0Oc_lwAI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "cg26Eg-oxcg",
+      "songTitle": "Untouchable",
+      "title": "Untouchable",
+      "artists": [
+        "스키조"
+      ],
+      "albumTitle": "Fight Against the World",
+      "albumBrowseId": "MPREb_gqeG6nWgGdd",
+      "duration": "4:49",
+      "durationSeconds": 289,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XEiT_LROpMhOTzurZs_Thks-V3kqy_F2aPUzusx95UYYh3FXeYnIHrxnAP-LuIKUgNQJdFidWFtdHLxJQg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cg26Eg-oxcg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cg26Eg-oxcg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "0bXChXMGP3s",
+      "songTitle": "Baby All Night",
+      "title": "Baby All Night",
+      "artists": [
+        "스키조"
+      ],
+      "albumTitle": "Fight Against the World",
+      "albumBrowseId": "MPREb_gqeG6nWgGdd",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XEiT_LROpMhOTzurZs_Thks-V3kqy_F2aPUzusx95UYYh3FXeYnIHrxnAP-LuIKUgNQJdFidWFtdHLxJQg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0bXChXMGP3s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0bXChXMGP3s",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "2oSOO8EWyQY",
+      "songTitle": "세상이 그대를 속일지라도",
+      "title": "세상이 그대를 속일지라도",
+      "artists": [
+        "스키조"
+      ],
+      "albumTitle": "Fight Against the World",
+      "albumBrowseId": "MPREb_gqeG6nWgGdd",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XEiT_LROpMhOTzurZs_Thks-V3kqy_F2aPUzusx95UYYh3FXeYnIHrxnAP-LuIKUgNQJdFidWFtdHLxJQg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2oSOO8EWyQY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2oSOO8EWyQY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "xdqptVBECic",
+      "songTitle": "변해가나봐",
+      "title": "변해가나봐",
+      "artists": [
+        "스키조"
+      ],
+      "albumTitle": "Fight Against the World",
+      "albumBrowseId": "MPREb_gqeG6nWgGdd",
+      "duration": "4:33",
+      "durationSeconds": 273,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XEiT_LROpMhOTzurZs_Thks-V3kqy_F2aPUzusx95UYYh3FXeYnIHrxnAP-LuIKUgNQJdFidWFtdHLxJQg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xdqptVBECic",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xdqptVBECic",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "hA6573opvhk",
+      "songTitle": "Body Movin` (Crom Remix)",
+      "title": "Body Movin` (Crom Remix)",
+      "artists": [
+        "스키조"
+      ],
+      "albumTitle": "Fight Against The World",
+      "albumBrowseId": "MPREb_3fSvmzMvWpS",
+      "duration": "4:37",
+      "durationSeconds": 277,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pTmYadARmI3qiYPkP8vTrDSEKwBhTic7P5AIElOwAOd0qalhf2ZUtx900gPA1ne9Q8djhZBFeTWq4zhTDA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hA6573opvhk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=hA6573opvhk",
+      "source": "ytm_songs_popular",
+      "year": "2006",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "NKU-orz745E",
+      "songTitle": "내게로 와",
+      "title": "내게로 와",
+      "artists": [
+        "스키조"
+      ],
+      "albumTitle": "Fight Against the World",
+      "albumBrowseId": "MPREb_gqeG6nWgGdd",
+      "duration": "2:53",
+      "durationSeconds": 173,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XEiT_LROpMhOTzurZs_Thks-V3kqy_F2aPUzusx95UYYh3FXeYnIHrxnAP-LuIKUgNQJdFidWFtdHLxJQg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NKU-orz745E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NKU-orz745E",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "yUtK40H_RT0",
+      "songTitle": "Hed up",
+      "title": "Hed up",
+      "artists": [
+        "스키조"
+      ],
+      "albumTitle": "Fight Against the World",
+      "albumBrowseId": "MPREb_gqeG6nWgGdd",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XEiT_LROpMhOTzurZs_Thks-V3kqy_F2aPUzusx95UYYh3FXeYnIHrxnAP-LuIKUgNQJdFidWFtdHLxJQg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yUtK40H_RT0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=yUtK40H_RT0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "9jYFOLemx1E",
+      "songTitle": "Bill in Da Merica",
+      "title": "Bill in Da Merica",
+      "artists": [
+        "스키조"
+      ],
+      "albumTitle": "Fight Against the World",
+      "albumBrowseId": "MPREb_gqeG6nWgGdd",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XEiT_LROpMhOTzurZs_Thks-V3kqy_F2aPUzusx95UYYh3FXeYnIHrxnAP-LuIKUgNQJdFidWFtdHLxJQg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9jYFOLemx1E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9jYFOLemx1E",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 스키조 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=BtpTGxQGEpI%2Ck8C0Oc_lwAI%2Ccg26Eg-oxcg%2C0bXChXMGP3s%2C2oSOO8EWyQY%2CxdqptVBECic%2ChA6573opvhk%2CNKU-orz745E%2CyUtK40H_RT0%2C9jYFOLemx1E&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%8A%A4%ED%82%A4%EC%A1%B0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=BtpTGxQGEpI&list=RDAMVMBtpTGxQGEpI"
+}

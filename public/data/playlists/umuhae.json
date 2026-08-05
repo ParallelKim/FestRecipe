@@ -1,0 +1,191 @@
+{
+  "artistId": "umuhae",
+  "artistName": "우무해",
+  "englishName": "Umuhae",
+  "collectedAt": "2026-08-05T12:30:52.432334+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 870,
+    "latestSlotLabel": "14:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.207,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 9,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC0mQoO67xC9SuCa0uokSr6Q",
+    "name": "Umuhae",
+    "subscribers": "41",
+    "channelId": "UC0mQoO67xC9SuCa0uokSr6Q",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/lXj0kvhzJlTIC5NZpupGNzPilJKpA1tH-yETpkYsA-GdcEBhdSB-KgsiqPF4mcl00jMwVTxKYFrOjSN_1g=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC0mQoO67xC9SuCa0uokSr6Q"
+  },
+  "tracks": [
+    {
+      "videoId": "fwezfXXh9Ag",
+      "songTitle": "Fairytale",
+      "title": "Fairytale",
+      "artists": [
+        "Umuhae"
+      ],
+      "albumTitle": "Fairytale",
+      "albumBrowseId": "MPREb_vQbsHDW3nsX",
+      "duration": "4:26",
+      "durationSeconds": 266,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4Zm2dZ0pIRD1ZmcxUKSrd010z_I1t8zejFKKHbl0piLb1gI6ldycUVVxw8AVS9Z8hLECH33gttrwhu8v=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fwezfXXh9Ag",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fwezfXXh9Ag",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "K7HQEgqkAQ4",
+      "songTitle": "Shipwreck",
+      "title": "Shipwreck",
+      "artists": [
+        "Umuhae"
+      ],
+      "albumTitle": "Shipwreck",
+      "albumBrowseId": "MPREb_rydUFRIS9x9",
+      "duration": "4:37",
+      "durationSeconds": 277,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lXj0kvhzJlTIC5NZpupGNzPilJKpA1tH-yETpkYsA-GdcEBhdSB-KgsiqPF4mcl00jMwVTxKYFrOjSN_1g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K7HQEgqkAQ4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=K7HQEgqkAQ4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "rzKbnLkdq8U",
+      "songTitle": "Mian Mian",
+      "title": "Mian Mian",
+      "artists": [
+        "Umuhae"
+      ],
+      "albumTitle": "Mian Mian",
+      "albumBrowseId": "MPREb_AMIWvGJOoVo",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/q3VmZJBUmixfTGKXlBOnN7co4mhulyTzG366sJpUBmAyYcewPVL73qm3gc5Jb7nEd7VmSj8o9_KIoVXfGA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rzKbnLkdq8U",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rzKbnLkdq8U",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-WkZNSET0iA",
+      "songTitle": "Incheon Chinatown",
+      "title": "Incheon Chinatown",
+      "artists": [
+        "Umuhae"
+      ],
+      "albumTitle": "Shipwreck",
+      "albumBrowseId": "MPREb_rydUFRIS9x9",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lXj0kvhzJlTIC5NZpupGNzPilJKpA1tH-yETpkYsA-GdcEBhdSB-KgsiqPF4mcl00jMwVTxKYFrOjSN_1g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-WkZNSET0iA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-WkZNSET0iA",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "sNv3vxk6CwU",
+      "songTitle": "Dance with Me",
+      "title": "Dance with Me",
+      "artists": [
+        "Umuhae"
+      ],
+      "albumTitle": "Shipwreck",
+      "albumBrowseId": "MPREb_rydUFRIS9x9",
+      "duration": "4:17",
+      "durationSeconds": 257,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lXj0kvhzJlTIC5NZpupGNzPilJKpA1tH-yETpkYsA-GdcEBhdSB-KgsiqPF4mcl00jMwVTxKYFrOjSN_1g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sNv3vxk6CwU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sNv3vxk6CwU",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "KoaajYXeYeM",
+      "songTitle": "Fairytale (2026 Ver.)",
+      "title": "Fairytale (2026 Ver.)",
+      "artists": [
+        "Umuhae"
+      ],
+      "albumTitle": "Shipwreck",
+      "albumBrowseId": "MPREb_rydUFRIS9x9",
+      "duration": "4:26",
+      "durationSeconds": 266,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lXj0kvhzJlTIC5NZpupGNzPilJKpA1tH-yETpkYsA-GdcEBhdSB-KgsiqPF4mcl00jMwVTxKYFrOjSN_1g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KoaajYXeYeM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KoaajYXeYeM",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "byqtnqFSfgQ",
+      "songTitle": "Surfer",
+      "title": "Surfer",
+      "artists": [
+        "Umuhae"
+      ],
+      "albumTitle": "Surfer",
+      "albumBrowseId": "MPREb_hhhW6UBhzaa",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/spgn3a2zl3NdKWIn63NKzIxfTAPTCU3Yap72klmBXhWbZbuBaEEKsW9c_Y0VEsmgw_Nz3ZsSVfqhIaXC=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=byqtnqFSfgQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=byqtnqFSfgQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "QP2GFg31Wc4",
+      "songTitle": "Out of nowhere",
+      "title": "Out of nowhere",
+      "artists": [
+        "Umuhae"
+      ],
+      "albumTitle": "Surfer",
+      "albumBrowseId": "MPREb_hhhW6UBhzaa",
+      "duration": "4:13",
+      "durationSeconds": 253,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/spgn3a2zl3NdKWIn63NKzIxfTAPTCU3Yap72klmBXhWbZbuBaEEKsW9c_Y0VEsmgw_Nz3ZsSVfqhIaXC=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QP2GFg31Wc4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=QP2GFg31Wc4",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "cux_94_-9ls",
+      "songTitle": "Look at That Ship",
+      "title": "Look at That Ship",
+      "artists": [
+        "Umuhae"
+      ],
+      "albumTitle": "Shipwreck",
+      "albumBrowseId": "MPREb_rydUFRIS9x9",
+      "duration": "1:55",
+      "durationSeconds": 115,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lXj0kvhzJlTIC5NZpupGNzPilJKpA1tH-yETpkYsA-GdcEBhdSB-KgsiqPF4mcl00jMwVTxKYFrOjSN_1g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cux_94_-9ls",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cux_94_-9ls",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 우무해 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=fwezfXXh9Ag%2CK7HQEgqkAQ4%2CrzKbnLkdq8U%2C-WkZNSET0iA%2CsNv3vxk6CwU%2CKoaajYXeYeM%2CbyqtnqFSfgQ%2CQP2GFg31Wc4%2Ccux_94_-9ls&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%9A%B0%EB%AC%B4%ED%95%B4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=fwezfXXh9Ag&list=RDAMVMfwezfXXh9Ag"
+}

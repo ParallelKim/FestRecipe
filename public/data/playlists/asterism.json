@@ -1,0 +1,205 @@
+{
+  "artistId": "asterism",
+  "artistName": "ASTERISM",
+  "englishName": "ASTERISM",
+  "collectedAt": "2026-08-05T12:30:06.307038+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCqmlafOBss33lWb8icmifUw",
+    "name": "ASTERISM",
+    "subscribers": "85.7K",
+    "channelId": "UChW49WDAfg2slMaak9Q0Ayw",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/uimsKFOMWJdZin3JkZlJz6_YVgjV06A1QP7iDj7oOlVg_rEF7fSCgnboxdWG0Fd5_6kl_o9d4s9rDVDa=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCqmlafOBss33lWb8icmifUw"
+  },
+  "tracks": [
+    {
+      "videoId": "onPmI_ZetIY",
+      "songTitle": "Crescendo",
+      "title": "Crescendo",
+      "artists": [
+        "ASTERISM"
+      ],
+      "albumTitle": "Crescendo",
+      "albumBrowseId": "MPREb_62pTYfgOp0y",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jPFGwo2hX1h762ZlaOhYO5TeQUAjMWz35eBCzYTZ6bbX1U11Jy_9gjhQhp6ZjFlQ6OqShsEeh3c3hmm-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=onPmI_ZetIY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=onPmI_ZetIY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ctwmsTCxl24",
+      "songTitle": "ETERNAL",
+      "title": "ETERNAL",
+      "artists": [
+        "ASTERISM"
+      ],
+      "albumTitle": "Kick Down the Wall",
+      "albumBrowseId": "MPREb_X331DSotOr4",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EKq1CHVZlrC4-okmNADMOT5h1w-E6sKcTJFTcMQ5KDuMCrdMuwf_7PO7BTanCCHOeBm4WIT6KIAa9-Kx=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ctwmsTCxl24",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ctwmsTCxl24",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "OTluXYRtw7g",
+      "songTitle": "GYUTTO!! - From THE FIRST TAKE",
+      "title": "GYUTTO!! - From THE FIRST TAKE",
+      "artists": [
+        "ASTERISM",
+        "Marty Friedman"
+      ],
+      "albumTitle": "GYUTTO!! - From THE FIRST TAKE",
+      "albumBrowseId": "MPREb_DXcKzOcWXAS",
+      "duration": "4:08",
+      "durationSeconds": 248,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3ev3j6MYOGeeAg86p8zKGnR9XAN9KFsp_pJaEkovZYuAVR7sOiyhYWbhmbKxpbfZTbM6851Fb18QJMw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OTluXYRtw7g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OTluXYRtw7g",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "PlJiagK9gII",
+      "songTitle": "Blink of Ray",
+      "title": "Blink of Ray",
+      "artists": [
+        "ASTERISM"
+      ],
+      "albumTitle": "Blink of Ray",
+      "albumBrowseId": "MPREb_LRKB1kU75YJ",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pZajhhoxSmSGwubUFf3b-4Ui6_gK4_YCYB84d7vikDDRZdwZtxTawXygkYoOEhGBvspke-VW1iJI5lI6=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PlJiagK9gII",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PlJiagK9gII",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "zHufaDBUeTA",
+      "songTitle": "unravel",
+      "title": "unravel",
+      "artists": [
+        "ASTERISM"
+      ],
+      "albumTitle": "unravel",
+      "albumBrowseId": "MPREb_jnFfbg0biCX",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/imEGS9_pUSRmvXGsokMSVPwijYFr-u-vAr9RdvpiS8CJW7Ez1gG1iySiNlDHKqyiCfE4whd_busIGxQH-w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zHufaDBUeTA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zHufaDBUeTA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Y8EBoAUCb4c",
+      "songTitle": "Metal Gandhara",
+      "title": "Metal Gandhara",
+      "artists": [
+        "ASTERISM",
+        "Pineapple Express"
+      ],
+      "albumTitle": "Metal Gandhara",
+      "albumBrowseId": "MPREb_lgYKds9Xo2N",
+      "duration": "4:48",
+      "durationSeconds": 288,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LOfknlJXSVJmZvPJB70s1kOW38gHHSmArYNYqiqi6z-_F1bcWMnVMTfFGDCpg_l_PM5hzBgAvh72GZXR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y8EBoAUCb4c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Y8EBoAUCb4c",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "OkoA1MrJECY",
+      "songTitle": "廻廻奇譚",
+      "title": "廻廻奇譚",
+      "artists": [
+        "ASTERISM"
+      ],
+      "albumTitle": "廻廻奇譚",
+      "albumBrowseId": "MPREb_FBrZGmmzFsv",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0a7o5Zn6HF9i-7EpbFTDtxE0BkMsPfdHd_a0j2KKHj0SO4i_YsJXBbIkpRHWpZcoqkfat1bjnkFhmZ6h=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OkoA1MrJECY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OkoA1MrJECY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "gah2fUyuNWk",
+      "songTitle": "HOMESHIP",
+      "title": "HOMESHIP",
+      "artists": [
+        "ASTERISM"
+      ],
+      "albumTitle": "Kick Down the Wall",
+      "albumBrowseId": "MPREb_X331DSotOr4",
+      "duration": "4:20",
+      "durationSeconds": 260,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EKq1CHVZlrC4-okmNADMOT5h1w-E6sKcTJFTcMQ5KDuMCrdMuwf_7PO7BTanCCHOeBm4WIT6KIAa9-Kx=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gah2fUyuNWk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gah2fUyuNWk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "V61Iub5AkmY",
+      "songTitle": "Rising Moon",
+      "title": "Rising Moon",
+      "artists": [
+        "ASTERISM"
+      ],
+      "albumTitle": "The Session Vol. 2",
+      "albumBrowseId": "MPREb_m6aIIFukQGM",
+      "duration": "5:13",
+      "durationSeconds": 313,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/k_bizfGlaljqapYCusv21q68YnaWRaYPTxvgPVyUK62ObysWOLTFPEg-O9KHvkWVwLR6_8HiWY6VYr2i=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V61Iub5AkmY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=V61Iub5AkmY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EPMATaEnfdI",
+      "songTitle": "STARDOM",
+      "title": "STARDOM",
+      "artists": [
+        "ASTERISM"
+      ],
+      "albumTitle": "BESIDE",
+      "albumBrowseId": "MPREb_G0U101HM008",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MCRe-OdiwQ8c-dpJlsoutiTnt3Xh9CWll3I6VijfjNctYB_QGK-lQvSVqbwz2-9JxyS_fu5e2I6xcg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EPMATaEnfdI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EPMATaEnfdI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "ASTERISM 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=onPmI_ZetIY%2CctwmsTCxl24%2COTluXYRtw7g%2CPlJiagK9gII%2CzHufaDBUeTA%2CY8EBoAUCb4c%2COkoA1MrJECY%2Cgah2fUyuNWk%2CV61Iub5AkmY%2CEPMATaEnfdI&title=ASTERISM+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=onPmI_ZetIY&list=RDAMVMonPmI_ZetIY"
+}

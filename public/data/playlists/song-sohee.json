@@ -1,0 +1,206 @@
+{
+  "artistId": "song-sohee",
+  "artistName": "송소희",
+  "englishName": "Song Sohee",
+  "collectedAt": "2026-08-05T12:30:47.895312+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1090,
+    "latestSlotLabel": "18:10",
+    "festivalId": "jumf-2026",
+    "rank": 0.638,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UC4nj2Xlp-6k6FQJ07YfkoXQ",
+    "name": "Song Sohee",
+    "subscribers": "246K",
+    "channelId": "UCkETgC-oou53G1LoICkLTUw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/AmWfuu7h_JucFD1xRlOgGKL8ctPkBszW8aXXIl8ZMhyReTZHPMYcvPBVcSP2z-56xwXYqdO4w4Thtk3K=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC4nj2Xlp-6k6FQJ07YfkoXQ"
+  },
+  "tracks": [
+    {
+      "videoId": "3MlfsZAoOLE",
+      "songTitle": "Not a Dream",
+      "title": "Not a Dream",
+      "artists": [
+        "Song Sohee"
+      ],
+      "albumTitle": "Not a Dream",
+      "albumBrowseId": "MPREb_0fGngOnBUSu",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dFjx3MTNxe0NydqgN7FOD_s809-ad1eUMBsB0HpvrfT4ZqF3qpB8WKpYTVkxrEyR0Kke6jcFVtzMiQHi=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3MlfsZAoOLE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3MlfsZAoOLE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Fq94y0JslGE",
+      "songTitle": "SUZUME",
+      "title": "SUZUME",
+      "artists": [
+        "So Hee Song"
+      ],
+      "albumTitle": "SUZUME",
+      "albumBrowseId": "MPREb_BYbPri3VQY5",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jbJW9eJM7U8TjwWDXtG5FN9dxWJSTKH4AGyX6iXrEbhROGN6zFC1yVTuf7MR1bUcgGlci7fuYTBo79s=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Fq94y0JslGE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Fq94y0JslGE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "X5c4zzcvOSI",
+      "songTitle": "PARADE (生)",
+      "title": "PARADE (生)",
+      "artists": [
+        "Song Sohee"
+      ],
+      "albumTitle": "PARADE (生)",
+      "albumBrowseId": "MPREb_lUruIJ4g5h8",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ULCp5nHeyQSmGjpn20vNUmSP7APMoPWXmMBSqBxzzggSlNSOH8twP1XUJOFxoAxoBD0LEFFPmWf4GVU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=X5c4zzcvOSI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=X5c4zzcvOSI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "q3SzKi_y7Mk",
+      "songTitle": "My Country, Korea",
+      "title": "My Country, Korea",
+      "artists": [
+        "So Hee Song"
+      ],
+      "albumTitle": "My Country, Korea",
+      "albumBrowseId": "MPREb_MHfl4U110hP",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oUVBaDyv9-kGGOetR1tZw6vxFlewwQrBhw8Us8VFHkL_-2Ax51JV4r1nG_sATvOrSCaak5PwQ5pthYRg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=q3SzKi_y7Mk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=q3SzKi_y7Mk",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "TkLgneaOzuI",
+      "songTitle": "그대라는 계절",
+      "title": "그대라는 계절",
+      "artists": [
+        "송소희"
+      ],
+      "albumTitle": "바람과 구름과 비 OST Part.4",
+      "albumBrowseId": "MPREb_fJPAGlI4RDd",
+      "duration": "4:14",
+      "durationSeconds": 254,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Q5JK5wOMZGd1O0rSaonGYwgjPoME19pVr0I2GJEWzyivXb7CUukv2qOerte1PciR7z4PouPXz_UKwKSf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TkLgneaOzuI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TkLgneaOzuI",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "inlLTIvr898",
+      "songTitle": "Moon Halo",
+      "title": "Moon Halo",
+      "artists": [
+        "So Hee Song"
+      ],
+      "albumTitle": "Moon Halo",
+      "albumBrowseId": "MPREb_ZEZ2NBwUrZC",
+      "duration": "4:43",
+      "durationSeconds": 283,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6egk2Pg75H-onUgAktQJrub3uodYSZ4vSGm3e96pRlt0d6P6_dZcECf3H9jvMCLrkkf2Pp3j51dLj9Mc5Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=inlLTIvr898",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=inlLTIvr898",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "gecLEiYx9c4",
+      "songTitle": "Forest Spirit",
+      "title": "Forest Spirit",
+      "artists": [
+        "Song Sohee"
+      ],
+      "albumTitle": "GANGGANGSULLAE",
+      "albumBrowseId": "MPREb_Cbc5D5sLz55",
+      "duration": "2:52",
+      "durationSeconds": 172,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SM8mAyNYVpnEgG8s9FshFuj5x2A2WqKu7Vcc59dY0nCcrveQlZSPW4ZWlxfKxy2GZrN1XetLiJC7MfRN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gecLEiYx9c4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gecLEiYx9c4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "4A4FQ7-eiAk",
+      "songTitle": "Against the Dark Ocean",
+      "title": "Against the Dark Ocean",
+      "artists": [
+        "Song Sohee"
+      ],
+      "albumTitle": "GANGGANGSULLAE",
+      "albumBrowseId": "MPREb_Cbc5D5sLz55",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SM8mAyNYVpnEgG8s9FshFuj5x2A2WqKu7Vcc59dY0nCcrveQlZSPW4ZWlxfKxy2GZrN1XetLiJC7MfRN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4A4FQ7-eiAk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4A4FQ7-eiAk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "OJ0MxJj674U",
+      "songTitle": "GANGGANGSULLAE",
+      "title": "GANGGANGSULLAE",
+      "artists": [
+        "Song Sohee"
+      ],
+      "albumTitle": "GANGGANGSULLAE",
+      "albumBrowseId": "MPREb_Cbc5D5sLz55",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SM8mAyNYVpnEgG8s9FshFuj5x2A2WqKu7Vcc59dY0nCcrveQlZSPW4ZWlxfKxy2GZrN1XetLiJC7MfRN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OJ0MxJj674U",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OJ0MxJj674U",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "G_-k1Zb6utw",
+      "songTitle": "아름다운 나라",
+      "title": "아름다운 나라",
+      "artists": [
+        "So Hee Song"
+      ],
+      "albumTitle": "송소희 얼쑤 아름다운 樂 콘서트",
+      "albumBrowseId": "MPREb_L1p1Av1Vk1a",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rm5or9Vvfj8t6beOcXrztlW1Hd2duAIj9Zyt8bYuNf60vlM3qAxXKIAxmB4aZ8XLS0VDy27T8h7kTAYk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=G_-k1Zb6utw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=G_-k1Zb6utw",
+      "source": "ytm_songs_popular",
+      "year": "2015",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 송소희 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=3MlfsZAoOLE%2CFq94y0JslGE%2CX5c4zzcvOSI%2Cq3SzKi_y7Mk%2CTkLgneaOzuI%2CinlLTIvr898%2CgecLEiYx9c4%2C4A4FQ7-eiAk%2COJ0MxJj674U%2CG_-k1Zb6utw&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%86%A1%EC%86%8C%ED%9D%AC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=3MlfsZAoOLE&list=RDAMVM3MlfsZAoOLE"
+}

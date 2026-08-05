@@ -1,0 +1,203 @@
+{
+  "artistId": "catch-the-young",
+  "artistName": "CATCH THE YOUNG",
+  "englishName": "Catch the Young",
+  "collectedAt": "2026-08-05T12:30:09.141873+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCoTSjCdMbDAGytV8V7nrHqQ",
+    "name": "Catch The Young",
+    "subscribers": "309K",
+    "channelId": "UCIqbCtkXMNRwi7-cwIeqE9A",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/BoZYpNdxTZoQTeUzG3kvKmP9vVPDlzJA3BOZxsYTiKkeQvbEkR-P0b6C21EwpDfH_8ogszQfulJ8lQs=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCoTSjCdMbDAGytV8V7nrHqQ"
+  },
+  "tracks": [
+    {
+      "videoId": "778zelyJjQ0",
+      "songTitle": "Amplify",
+      "title": "Amplify",
+      "artists": [
+        "CATCH THE YOUNG"
+      ],
+      "albumTitle": "EVOLVE",
+      "albumBrowseId": "MPREb_z5DL1mEhevn",
+      "duration": "3:29",
+      "durationSeconds": 209,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/z3UBhb-PfK9O0n3ukgqRhMfMvPE6tevvlixIF3MrMZ1MrYSSadiu3Vc5NYtImN_pZ9iVI1t_s2nEdFqe=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=778zelyJjQ0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=778zelyJjQ0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "d1kdz7dW9a0",
+      "songTitle": "Sail",
+      "title": "Sail",
+      "artists": [
+        "CATCH THE YOUNG"
+      ],
+      "albumTitle": "EVOLVE",
+      "albumBrowseId": "MPREb_z5DL1mEhevn",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/z3UBhb-PfK9O0n3ukgqRhMfMvPE6tevvlixIF3MrMZ1MrYSSadiu3Vc5NYtImN_pZ9iVI1t_s2nEdFqe=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=d1kdz7dW9a0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=d1kdz7dW9a0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dWaMp8P-73k",
+      "songTitle": "이상형 (Ideal Type)",
+      "title": "이상형 (Ideal Type)",
+      "artists": [
+        "Catch The Young"
+      ],
+      "albumTitle": "이상형 (Ideal Type)",
+      "albumBrowseId": "MPREb_kbjRfZsJf87",
+      "duration": "3:43",
+      "durationSeconds": 223,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/GWR5Mu13FiQTkEY4T6PkG9VWq0I2z_7muCPcsPwiXgTpua2xFa6fUX49vGjs2L8re6tgcBewMIQmJxAO=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dWaMp8P-73k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dWaMp8P-73k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "CpleBKQBMB8",
+      "songTitle": "Addicted",
+      "title": "Addicted",
+      "artists": [
+        "CATCH THE YOUNG"
+      ],
+      "albumTitle": "EVOLVE",
+      "albumBrowseId": "MPREb_z5DL1mEhevn",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/z3UBhb-PfK9O0n3ukgqRhMfMvPE6tevvlixIF3MrMZ1MrYSSadiu3Vc5NYtImN_pZ9iVI1t_s2nEdFqe=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CpleBKQBMB8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CpleBKQBMB8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "YJyyT-HgtaI",
+      "songTitle": "To You, Standing Before Me",
+      "title": "To You, Standing Before Me",
+      "artists": [
+        "CATCH THE YOUNG"
+      ],
+      "albumTitle": "EVOLVE",
+      "albumBrowseId": "MPREb_z5DL1mEhevn",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/z3UBhb-PfK9O0n3ukgqRhMfMvPE6tevvlixIF3MrMZ1MrYSSadiu3Vc5NYtImN_pZ9iVI1t_s2nEdFqe=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YJyyT-HgtaI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YJyyT-HgtaI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "CTU5yllkef0",
+      "songTitle": "FOOTSTEPS",
+      "title": "FOOTSTEPS",
+      "artists": [
+        "CATCH THE YOUNG"
+      ],
+      "albumTitle": "FOOTSTEPS",
+      "albumBrowseId": "MPREb_J1iG96RsOwk",
+      "duration": "4:07",
+      "durationSeconds": 247,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Fdl_Dxt9HHrmstcrH1yoMDOqaaaT_LJIgtGSdexsO-ylej8BgVK1ahc-6bmBa_1CWuJOHy694_oWSVdX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CTU5yllkef0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CTU5yllkef0",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "9rYothC5nUQ",
+      "songTitle": "In Your Arms (안아줘)",
+      "title": "In Your Arms (안아줘)",
+      "artists": [
+        "CATCH THE YOUNG"
+      ],
+      "albumTitle": "In Your Arms (안아줘)",
+      "albumBrowseId": "MPREb_tS5fGQhCXdZ",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oZc82z_GE-_nFSX3MGDQAggv2sRZKijQ57Xr7fC1R4NUcos5a6gk-oVAWycWC5ALY99TuB8v8S_1EvJ-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9rYothC5nUQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9rYothC5nUQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "T5lw3yDbiII",
+      "songTitle": "Sentimental Journey",
+      "title": "Sentimental Journey",
+      "artists": [
+        "Catch The Young"
+      ],
+      "albumTitle": "Catch The Young : Fragments of Odyssey",
+      "albumBrowseId": "MPREb_tJM1TwHWpql",
+      "duration": "3:34",
+      "durationSeconds": 214,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-aJz8fAfhWV551osCkAhAB7q7ZizDhstBWnQfdvw4m9ht3T_Fp2HzhkpNTgNu7OvBUecyI5M2y0g1Os=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T5lw3yDbiII",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=T5lw3yDbiII",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "u1RAts723s0",
+      "songTitle": "YOUTH!!!",
+      "title": "YOUTH!!!",
+      "artists": [
+        "Catch The Young"
+      ],
+      "albumTitle": "Catch The Young : Fragments of Youth",
+      "albumBrowseId": "MPREb_O4JzkYknmji",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BX1GhygaLH8518HM_qn0N8GCAdcqFBl0gj9SdjqtqzBPecpR39_Nq-EYm2rQ0ISQFkDbPPTdDnYAXtQK=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u1RAts723s0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=u1RAts723s0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "H4KBwtxrbXs",
+      "songTitle": "Voyager",
+      "title": "Voyager",
+      "artists": [
+        "Catch The Young"
+      ],
+      "albumTitle": "Catch The Young : Fragments of Odyssey",
+      "albumBrowseId": "MPREb_tJM1TwHWpql",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-aJz8fAfhWV551osCkAhAB7q7ZizDhstBWnQfdvw4m9ht3T_Fp2HzhkpNTgNu7OvBUecyI5M2y0g1Os=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H4KBwtxrbXs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=H4KBwtxrbXs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "CATCH THE YOUNG 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=778zelyJjQ0%2Cd1kdz7dW9a0%2CdWaMp8P-73k%2CCpleBKQBMB8%2CYJyyT-HgtaI%2CCTU5yllkef0%2C9rYothC5nUQ%2CT5lw3yDbiII%2Cu1RAts723s0%2CH4KBwtxrbXs&title=CATCH+THE+YOUNG+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=778zelyJjQ0&list=RDAMVM778zelyJjQ0"
+}

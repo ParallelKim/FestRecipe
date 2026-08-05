@@ -1,0 +1,206 @@
+{
+  "artistId": "nerd-connection",
+  "artistName": "너드커넥션",
+  "englishName": "Nerd Connection",
+  "collectedAt": "2026-08-05T12:30:36.465620+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1190,
+    "latestSlotLabel": "19:50",
+    "festivalId": "jumf-2026",
+    "rank": 0.784,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCCaBM8AtUiqVwJQZHbtua2w",
+    "name": "Nerd Connection",
+    "subscribers": "136K",
+    "channelId": "UCgI0yyuYZGo2iqlBk-Rn8YQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/upWpkG68YHtJ8F5BMK0VIRHf0j2yckXf4xYbPexY8li5XMYyWCpTDFJwMa5PEQOwvtSsjL3BUdLM5FI=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCCaBM8AtUiqVwJQZHbtua2w"
+  },
+  "tracks": [
+    {
+      "videoId": "IMWT6937uUs",
+      "songTitle": "If I have you only (My love X Nerd Connection) (그대만 있다면 (여름날 우리 X 너드커넥션 (Nerd Connection)))",
+      "title": "If I have you only (My love X Nerd Connection) (그대만 있다면 (여름날 우리 X 너드커넥션 (Nerd Connection)))",
+      "artists": [
+        "Nerd Connection"
+      ],
+      "albumTitle": "If I have you only (My love X Nerd Connection) (그대만 있다면 (여름날 우리 X 너드커넥션 (Nerd Connection)))",
+      "albumBrowseId": "MPREb_vNoLXP0FcjD",
+      "duration": "4:11",
+      "durationSeconds": 251,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ByRU7QoW11SylOEoPhybFwZ4opjcSNoEGe0WcrskC4hhSRBtighRhjbZhd_bzwwTWdkkXWTwc8rOKU8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IMWT6937uUs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=IMWT6937uUs",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "XfzE8ku3TCI",
+      "songTitle": "‎Good Night Good Dream (좋은 밤 좋은 꿈)",
+      "title": "‎Good Night Good Dream (좋은 밤 좋은 꿈)",
+      "artists": [
+        "Nerd Connection"
+      ],
+      "albumTitle": "‎Good Night Good Dream (좋은 밤 좋은 꿈)",
+      "albumBrowseId": "MPREb_iYdSE4KuOVq",
+      "duration": "4:26",
+      "durationSeconds": 266,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/hZhVpQE6C8tVkRmQ3UT7OOL2o352IPiqh3DzZ9rPVkvkdwquq6_RNH-hhmYZRlfrxTr9u9SnG2dOU_fZbA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XfzE8ku3TCI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XfzE8ku3TCI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "W25_xvZWKMw",
+      "songTitle": "Silently Completely Eternally",
+      "title": "Silently Completely Eternally",
+      "artists": [
+        "Nerd Connection"
+      ],
+      "albumTitle": "New Century Masterpiece Cinema",
+      "albumBrowseId": "MPREb_Ceh5w89p1QC",
+      "duration": "3:09",
+      "durationSeconds": 189,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/CjZXbTuEZuL4kCCDZPPQsPZ7EEiH4tDi080TuqSw3ac7hfr3j5TyqwLlcZnBRYbChzWm9B1n5i8ttXs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W25_xvZWKMw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=W25_xvZWKMw",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "rRrannEOpxc",
+      "songTitle": "Smile for me",
+      "title": "Smile for me",
+      "artists": [
+        "Nerd Connection"
+      ],
+      "albumTitle": "Motel California OST Part.5",
+      "albumBrowseId": "MPREb_5jj1cav5kgj",
+      "duration": "3:36",
+      "durationSeconds": 216,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5ass5j-4TxKMzovfHLqcH6XA0PX7ddCY6IkoNLw46IW_JVcVjSzm1DKBY_lPMA-fUj8lDkdMUcOIqXs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rRrannEOpxc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rRrannEOpxc",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "BdMyM9_bZ4g",
+      "songTitle": "Will We Be a Melody",
+      "title": "Will We Be a Melody",
+      "artists": [
+        "Nerd Connection"
+      ],
+      "albumTitle": "New Century Masterpiece Cinema",
+      "albumBrowseId": "MPREb_Ceh5w89p1QC",
+      "duration": "4:59",
+      "durationSeconds": 299,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/CjZXbTuEZuL4kCCDZPPQsPZ7EEiH4tDi080TuqSw3ac7hfr3j5TyqwLlcZnBRYbChzWm9B1n5i8ttXs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BdMyM9_bZ4g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BdMyM9_bZ4g",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "sxs2LHOmmoU",
+      "songTitle": "Back in Time",
+      "title": "Back in Time",
+      "artists": [
+        "너드커넥션"
+      ],
+      "albumTitle": "Back in Time",
+      "albumBrowseId": "MPREb_oRJez3J4ajr",
+      "duration": "5:00",
+      "durationSeconds": 300,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mZr-zqPV2E0yBbpkHBG7mAUj0cLsEt70gU600RdKtTtsJa3f35hP0xTo6hIw9EQqAktHFwg3bYCu5KLSpw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sxs2LHOmmoU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sxs2LHOmmoU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "12MDDuw2hH4",
+      "songTitle": "29",
+      "title": "29",
+      "artists": [
+        "Nerd Connection"
+      ],
+      "albumTitle": "New Century Masterpiece Cinema",
+      "albumBrowseId": "MPREb_Ceh5w89p1QC",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/CjZXbTuEZuL4kCCDZPPQsPZ7EEiH4tDi080TuqSw3ac7hfr3j5TyqwLlcZnBRYbChzWm9B1n5i8ttXs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=12MDDuw2hH4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=12MDDuw2hH4",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "M4ewlpi1L0A",
+      "songTitle": "Stardust",
+      "title": "Stardust",
+      "artists": [
+        "Nerd Connection"
+      ],
+      "albumTitle": "On the Crest of a Wave",
+      "albumBrowseId": "MPREb_E3Ekb7alJRf",
+      "duration": "3:23",
+      "durationSeconds": 203,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tOEo5d1zOOdv17Kb8PnhjTQvxW7UA5-p7XHBNzH_Vc4ozKdFmsRgRxbqT8ho-6tWsvF7eiyKNbAPWzk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M4ewlpi1L0A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=M4ewlpi1L0A",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "13yi2QrFf8s",
+      "songTitle": "Star Communications",
+      "title": "Star Communications",
+      "artists": [
+        "Nerd Connection"
+      ],
+      "albumTitle": "New Century Masterpiece Cinema",
+      "albumBrowseId": "MPREb_Ceh5w89p1QC",
+      "duration": "4:23",
+      "durationSeconds": 263,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/CjZXbTuEZuL4kCCDZPPQsPZ7EEiH4tDi080TuqSw3ac7hfr3j5TyqwLlcZnBRYbChzWm9B1n5i8ttXs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=13yi2QrFf8s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=13yi2QrFf8s",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "BFBBLgNdSfk",
+      "songTitle": "대나무숲",
+      "title": "대나무숲",
+      "artists": [
+        "너드커넥션(Nerd Connection)"
+      ],
+      "albumTitle": "대나무숲",
+      "albumBrowseId": "MPREb_iMqkAjv62Rl",
+      "duration": "4:15",
+      "durationSeconds": 255,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZCWETIY0uqhlqdRVjw8iUjJ-KMoFP_O1nFZjBgQ1M6KLHlRtd2ksKp-b0AHmleVXW_6usoboeCjYaPNF=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BFBBLgNdSfk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BFBBLgNdSfk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 너드커넥션 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=IMWT6937uUs%2CXfzE8ku3TCI%2CW25_xvZWKMw%2CrRrannEOpxc%2CBdMyM9_bZ4g%2Csxs2LHOmmoU%2C12MDDuw2hH4%2CM4ewlpi1L0A%2C13yi2QrFf8s%2CBFBBLgNdSfk&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%84%88%EB%93%9C%EC%BB%A4%EB%84%A5%EC%85%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=IMWT6937uUs&list=RDAMVMIMWT6937uUs"
+}

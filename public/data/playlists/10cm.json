@@ -1,0 +1,206 @@
+{
+  "artistId": "10cm",
+  "artistName": "10CM",
+  "englishName": "10CM",
+  "collectedAt": "2026-08-05T12:30:04.119929+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1400,
+    "latestSlotLabel": "23:20",
+    "festivalId": "jumf-2026",
+    "rank": 0.983,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UC9oomNHPNLrh819sxCgcYTA",
+    "name": "10CM",
+    "subscribers": "62.2K",
+    "channelId": "UChwEKI9_C1CZ7R8-3-m3-vA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/WqU2rnUBkvpQfwqoV_5LHk3s25BpGZEnQ1c55cUdh7Dg3lXLcUT7RIhWCKqIHnM8yUa8bZsAfgD0JA=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC9oomNHPNLrh819sxCgcYTA"
+  },
+  "tracks": [
+    {
+      "videoId": "RZMp2kQObCs",
+      "songTitle": "To Reach You (너에게 닿기를)",
+      "title": "To Reach You (너에게 닿기를)",
+      "artists": [
+        "10CM"
+      ],
+      "albumTitle": "To Reach You (너에게 닿기를)",
+      "albumBrowseId": "MPREb_IbIabKYGJfg",
+      "duration": "2:39",
+      "durationSeconds": 159,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fd4_I73mhnUIiV3Ywa-42GkInQM3TirlFnNoFSssFK6I6s6VU5KcYnoWUPJyRHganeWq2hDf7KZ-1EYVKg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RZMp2kQObCs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RZMp2kQObCs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "BCaIO1yELbQ",
+      "songTitle": "Spring Snow",
+      "title": "Spring Snow",
+      "artists": [
+        "10CM"
+      ],
+      "albumTitle": "Lovely Runner, Pt. 8 (Original Soundtrack)",
+      "albumBrowseId": "MPREb_DJJGBxOKWqI",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0QaqK26wdvatrpNSZc-fM7jcgkow5TMOevItmfYz2ZaHf0Jz9H5ZYv1txKRFKpv6pRSbz-m4L3ocuj9G=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BCaIO1yELbQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BCaIO1yELbQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "e7_1cqOtVsc",
+      "songTitle": "Gradation",
+      "title": "Gradation",
+      "artists": [
+        "10CM"
+      ],
+      "albumTitle": "5.3 (Gradation)",
+      "albumBrowseId": "MPREb_aWkUZdpoEQG",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LOQWc0TjxZKvcUGx5GrF2uiBwzyxAq0ZZuAHT4f-1HayOnDr-8-bVXfJOvmkjQuJAqJ0PStpUkFVfJ-jsQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=e7_1cqOtVsc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=e7_1cqOtVsc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Y_8aUSyNM9Y",
+      "songTitle": "Borrow your night",
+      "title": "Borrow your night",
+      "artists": [
+        "10CM"
+      ],
+      "albumTitle": "Borrow your night (From Naver Webtoon \"Romance 101\")",
+      "albumBrowseId": "MPREb_IduAdYlgWqO",
+      "duration": "3:08",
+      "durationSeconds": 188,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uEpYtb5IMa85Lazlsw_a6zWi94C0WBYpP1Pj9uKn7YiAOKfjB2SFt4Yl4sdXlxUjXoqUT1paOTZKIGiz=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y_8aUSyNM9Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Y_8aUSyNM9Y",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "qmbfQUwN3X4",
+      "songTitle": "Love in the Milky Way Cafe",
+      "title": "Love in the Milky Way Cafe",
+      "artists": [
+        "10CM"
+      ],
+      "albumTitle": "1.0",
+      "albumBrowseId": "MPREb_3EeKzDFCcHp",
+      "duration": "2:53",
+      "durationSeconds": 173,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1CLS_x-hEMYYe5VvoN58fusD-FH3minuZ3vh987Dg9VpuKwJy91fGjRevsL9nZBlbvj9G0NDEfNWBX96wQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qmbfQUwN3X4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qmbfQUwN3X4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "txi3VEdStJ4",
+      "songTitle": "폰서트 Phonecert",
+      "title": "폰서트 Phonecert",
+      "artists": [
+        "10cm"
+      ],
+      "albumTitle": "4.0",
+      "albumBrowseId": "MPREb_jIbtqB7waEg",
+      "duration": "3:18",
+      "durationSeconds": 198,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/x-ysOqPjTy_UUfPfCjcopU9nAau8LTpBHtTocMl07vXwvSmtybb1UfN86D7hBwoSVUn1Yo8ce3Im4H73=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=txi3VEdStJ4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=txi3VEdStJ4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "tnsggn5cNmU",
+      "songTitle": "Drawer",
+      "title": "Drawer",
+      "artists": [
+        "10CM"
+      ],
+      "albumTitle": "Our Beloved Summer OST Part.1",
+      "albumBrowseId": "MPREb_M6PJzkCzOk9",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KcmNm2i_MSTELpoZ0rGUpqL-EkYNbnZQ-m6OOCYPPonQU6jweGltpCZ8FcKw-bPchz_HcwcyaQPnWfcQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tnsggn5cNmU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tnsggn5cNmU",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "YSJ9_lP5sgI",
+      "songTitle": "Stalker",
+      "title": "Stalker",
+      "artists": [
+        "10cm"
+      ],
+      "albumTitle": "3.0",
+      "albumBrowseId": "MPREb_305uTL8B9fN",
+      "duration": "4:13",
+      "durationSeconds": 253,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PPmafq2diIVZ1a8K7xTD7vV_qfU-zkfG1lS84Nhcb_thq7IXLxiY1sFc9606iZYjY09RIEoN-elQV58=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YSJ9_lP5sgI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YSJ9_lP5sgI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "9TiGuWyGlXc",
+      "songTitle": "Tell Me It's Not a Dream",
+      "title": "Tell Me It's Not a Dream",
+      "artists": [
+        "10CM"
+      ],
+      "albumTitle": "Queen of Tears OST Part.2",
+      "albumBrowseId": "MPREb_J6wNjIEAcE3",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6_Wrg4zoOe0WPe_8cFgVzZtm9eTVLrhN1_1zhWDVDCCEU-sweemy6titSkpQy3bc0KCiX5YBOPpzi1aR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9TiGuWyGlXc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9TiGuWyGlXc",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "YF4zktyi4YY",
+      "songTitle": "Just 10 centimeters (딱 10CM만)",
+      "title": "Just 10 centimeters (딱 10CM만)",
+      "artists": [
+        "10CM",
+        "BIG Naughty"
+      ],
+      "albumTitle": "Just 10 centimeters (딱 10CM만)",
+      "albumBrowseId": "MPREb_AsxBjaMcpOL",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nqf4-0vB9NwfUp2EqZ0zeEknAQ7uNxOuNvh-bDnFzAQmm8nvD8LVH9Av0ojYn9WN0OUpEf8rGPGnBn8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YF4zktyi4YY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YF4zktyi4YY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 10CM 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=RZMp2kQObCs%2CBCaIO1yELbQ%2Ce7_1cqOtVsc%2CY_8aUSyNM9Y%2CqmbfQUwN3X4%2Ctxi3VEdStJ4%2Ctnsggn5cNmU%2CYSJ9_lP5sgI%2C9TiGuWyGlXc%2CYF4zktyi4YY&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+10CM+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=RZMp2kQObCs&list=RDAMVMRZMp2kQObCs"
+}

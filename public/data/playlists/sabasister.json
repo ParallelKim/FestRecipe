@@ -1,0 +1,202 @@
+{
+  "artistId": "sabasister",
+  "artistName": "SABASISTER",
+  "englishName": "SABASISTER",
+  "collectedAt": "2026-08-05T12:30:42.795313+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1090,
+    "latestSlotLabel": "18:10",
+    "festivalId": "jumf-2026",
+    "rank": 0.629,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCwg4U4rdQWISBoZg2pXvSKA",
+    "name": "SABASISTER",
+    "subscribers": "94.4K",
+    "channelId": "UC8Xje-LJAj5bJWEJQaVwU9g",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/aP1fUcyruSj5A8P9DmOhblJmjkxJ1Q0WTjTNh7236B6Lp5CjuY2gau1CfJj_TG8Iv91pBuHx76_tFQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCwg4U4rdQWISBoZg2pXvSKA"
+  },
+  "tracks": [
+    {
+      "videoId": "9O00FWDqeLQ",
+      "songTitle": "覚悟を決めろ! - Prepare Yourself!",
+      "title": "覚悟を決めろ! - Prepare Yourself!",
+      "artists": [
+        "Sabasister"
+      ],
+      "albumTitle": "Prepare Yourself!",
+      "albumBrowseId": "MPREb_0Jz1JK6HdrY",
+      "duration": "3:55",
+      "durationSeconds": 235,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/sz-_fZ9fY0mio7IeWZgLw0L5HJSyq15_uCk69uxHwDvkmvsZYSZwESfz_e1Ir6Ffdq3e4TweQKdeWPv74w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9O00FWDqeLQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9O00FWDqeLQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "KjvgtGw_h64",
+      "songTitle": "君が笑うほど夢中に夏っ! - The more you smile, the more I fall for summer!",
+      "title": "君が笑うほど夢中に夏っ! - The more you smile, the more I fall for summer!",
+      "artists": [
+        "SABASISTER"
+      ],
+      "albumTitle": "The more you smile, the more I fall for summer!",
+      "albumBrowseId": "MPREb_qc0kK0dOF2j",
+      "duration": "4:15",
+      "durationSeconds": 255,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ggQRnW7Z9yUK_bO43iLiGsAU3n4bP_WN5fpbO116Zrh-0N6mrbesd-hj-oQQKpasI5z_QafiMRWGG1s=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KjvgtGw_h64",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KjvgtGw_h64",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "mq_O1C4_XXM",
+      "songTitle": "才能 - Gift",
+      "title": "才能 - Gift",
+      "artists": [
+        "SABASISTER"
+      ],
+      "albumTitle": "Gift",
+      "albumBrowseId": "MPREb_CPLgJRrixCM",
+      "duration": "4:23",
+      "durationSeconds": 263,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1EK3rKGn3-cw0ZQpkGKlbiCzxMfBrLuzrIpz_XVBRUc1vB0wU62IthFIGwd4oEvl-Qq3r029O5WGQhD-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mq_O1C4_XXM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mq_O1C4_XXM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "OwPq3El3kQY",
+      "songTitle": "ジャージ - Jersey",
+      "title": "ジャージ - Jersey",
+      "artists": [
+        "サバシスター"
+      ],
+      "albumTitle": "Saba no ichi",
+      "albumBrowseId": "MPREb_2732qT5LPM9",
+      "duration": "2:36",
+      "durationSeconds": 156,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/gvAa4LQ1LWd-0ls7ANJvrfyGUDaTcNZ1pX564FC1VnyZkJyDaPkrZXcQPBWNqDYkpTqnp4NQ0TQTQ8PA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OwPq3El3kQY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OwPq3El3kQY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "A0lJ_KWt8Ns",
+      "songTitle": "ハッピーなんて - Happy Nante",
+      "title": "ハッピーなんて - Happy Nante",
+      "artists": [
+        "SABASISTER"
+      ],
+      "albumTitle": "Happy Nante",
+      "albumBrowseId": "MPREb_xbSrEAqiEX5",
+      "duration": "3:23",
+      "durationSeconds": 203,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/m_GikSGA6RZwLVT7Pr-amlMT2m-Yc6yPr_00okSm19Te1ayy7PAzpA0hyijzcWzLxCScIAqqDlvC_bJP_g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=A0lJ_KWt8Ns",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=A0lJ_KWt8Ns",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "2v4DcFwi6LM",
+      "songTitle": "My girlfriend is PIZZA OF DEATH Ⅱ - My girlfriend is PIZZA OF DEATH 2",
+      "title": "My girlfriend is PIZZA OF DEATH Ⅱ - My girlfriend is PIZZA OF DEATH 2",
+      "artists": [
+        "SABASISTER"
+      ],
+      "albumTitle": "My girlfriend is PIZZA OF DEATH",
+      "albumBrowseId": "MPREb_87pGwAcPNDx",
+      "duration": "1:22",
+      "durationSeconds": 82,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rGmgu_aN6DWKfSH_b1gd0kdeJcurXDwBTyuh3-ZXx8dezChmh69D5JwNKyvDORx2mKq6Zrt9acfuMUWF=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2v4DcFwi6LM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2v4DcFwi6LM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "syCRUf_WGnM",
+      "songTitle": "タイムセール逃してくれ - Time sale nogashitekure",
+      "title": "タイムセール逃してくれ - Time sale nogashitekure",
+      "artists": [
+        "サバシスター"
+      ],
+      "albumTitle": "Attention",
+      "albumBrowseId": "MPREb_uEhoMb0JBsT",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/shHSizilz_PeguuCd8JnPw7Ar2xSySrJnXA0V7nyKG4IUCOdq6VPnr80mc0iUu5IiDn6LxAPix3Rl8Vcng=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=syCRUf_WGnM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=syCRUf_WGnM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "5w5i4Y819cI",
+      "songTitle": "ミュージック・プリズナー - Music Prisoner",
+      "title": "ミュージック・プリズナー - Music Prisoner",
+      "artists": [
+        "Sabasister"
+      ],
+      "albumTitle": "Prepare Yourself!",
+      "albumBrowseId": "MPREb_hW81MpsWSD2",
+      "duration": "3:46",
+      "durationSeconds": 226,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YQWuIdsoz5WOSmwWnQnUXa7xNHHyF8hs9LlzAgZvY3atjhNckH8NTkdqQ-TUiLOYsjnyO5yeOBZyJ_1H=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5w5i4Y819cI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5w5i4Y819cI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Y6AiUBECHus",
+      "songTitle": "ふしぎなきみ - Curious about you",
+      "title": "ふしぎなきみ - Curious about you",
+      "artists": [
+        "SABASISTER"
+      ],
+      "albumTitle": "Curious about you",
+      "albumBrowseId": "MPREb_P31fK9IoqSv",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/zRXZ-Nj-ii_jjo5JFZsRAY0FsKkbBaKdELOr9qUIqxgDEQ3OpDZDgayt6YoxhdzyidnuZxKdsV5ccjWJMg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y6AiUBECHus",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Y6AiUBECHus",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "bCKa0zbNTxQ",
+      "songTitle": "マイベストラブ！ - My best love!",
+      "title": "マイベストラブ！ - My best love!",
+      "artists": [
+        "saba sister"
+      ],
+      "albumTitle": "My best love!",
+      "albumBrowseId": "MPREb_rjpCPuIpXJF",
+      "duration": "3:34",
+      "durationSeconds": 214,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OlDrPDJRYzrMYgFjpL-5mxinDTVzAXOUFEGoNDTeUY9Xo4LU_D2_LOgQiDaT2VptToP2HOBKK3Q8aqdLUQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bCKa0zbNTxQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bCKa0zbNTxQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 SABASISTER 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=9O00FWDqeLQ%2CKjvgtGw_h64%2Cmq_O1C4_XXM%2COwPq3El3kQY%2CA0lJ_KWt8Ns%2C2v4DcFwi6LM%2CsyCRUf_WGnM%2C5w5i4Y819cI%2CY6AiUBECHus%2CbCKa0zbNTxQ&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+SABASISTER+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=9O00FWDqeLQ&list=RDAMVM9O00FWDqeLQ"
+}

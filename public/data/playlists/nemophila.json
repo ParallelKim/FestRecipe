@@ -1,0 +1,202 @@
+{
+  "artistId": "nemophila",
+  "artistName": "NEMOPHILA",
+  "englishName": "NEMOPHILA",
+  "collectedAt": "2026-08-05T12:30:35.941741+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCMXAdfuVtiZ852N3rtqwe-A",
+    "name": "NEMOPHILA",
+    "subscribers": "398K",
+    "channelId": "UCvoAeGZoC8giXP59NOZABIA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/7FPXxbitTAYbxanR-voFVWMTtN9lIAPqGgUKQ7gdi-lGe7Z0vqOFl4eYN4zxqcsM9OYfTYuRHKh_KttQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCMXAdfuVtiZ852N3rtqwe-A"
+  },
+  "tracks": [
+    {
+      "videoId": "MWLTmhlUtU0",
+      "songTitle": "-業- - -GOU-",
+      "title": "-業- - -GOU-",
+      "artists": [
+        "NEMOPHILA"
+      ],
+      "albumTitle": "-GOU-",
+      "albumBrowseId": "MPREb_jLetgb3IPvB",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qBF3BXpbC-BxeBdAhzbRe6hLaycJ6NtlnAPZGegF3MXzrJJpJS1sQ12Egc3cHO4uKcG1pXnNlL9IEzGr=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MWLTmhlUtU0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=MWLTmhlUtU0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3xJcTVQm_iQ",
+      "songTitle": "DISSENSION",
+      "title": "DISSENSION",
+      "artists": [
+        "NEMOPHILA"
+      ],
+      "albumTitle": "REVIVE",
+      "albumBrowseId": "MPREb_PgW8XLR63nH",
+      "duration": "4:02",
+      "durationSeconds": 242,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ejenFpNg15DfwihtGxw8oqYwSqTCyXUBYzlg5yMvAVBEn6OPXHKjGrRtXu8ABUcuYag8oUzJ7L6oCU2a=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3xJcTVQm_iQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3xJcTVQm_iQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EL_2IBGA0io",
+      "songTitle": "RISE",
+      "title": "RISE",
+      "artists": [
+        "NEMOPHILA"
+      ],
+      "albumTitle": "RISE",
+      "albumBrowseId": "MPREb_O9Eg2n0M0J6",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JmXnM_59TKJEaiSQbLDGK4N-f5DdqnFgs4xmvM2EucXI6kAgtFjatGDawTKGwe_o5y_51wpQ_owHg10NiA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EL_2IBGA0io",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EL_2IBGA0io",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "TiN7hi5t8Rs",
+      "songTitle": "開花宣言 - KAIKASENGEN",
+      "title": "開花宣言 - KAIKASENGEN",
+      "artists": [
+        "NEMOPHILA"
+      ],
+      "albumTitle": "KAIKASENGEN",
+      "albumBrowseId": "MPREb_nAPJP6X3LTp",
+      "duration": "3:10",
+      "durationSeconds": 190,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7pwNzL4C3_7kgjD5u8ocpeSqt0w3u3caTwJkt5mRqdj_V6J6--OeQAhcR8ETtS7Lwl5Inc0EOLnZy-sXdQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TiN7hi5t8Rs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TiN7hi5t8Rs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Cfk7VCBMnFw",
+      "songTitle": "雷霆 -RAITEI-",
+      "title": "雷霆 -RAITEI-",
+      "artists": [
+        "NEMOPHILA"
+      ],
+      "albumTitle": "REVIVE",
+      "albumBrowseId": "MPREb_PgW8XLR63nH",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ejenFpNg15DfwihtGxw8oqYwSqTCyXUBYzlg5yMvAVBEn6OPXHKjGrRtXu8ABUcuYag8oUzJ7L6oCU2a=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Cfk7VCBMnFw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Cfk7VCBMnFw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "y43OdhTbHhk",
+      "songTitle": "REVIVE",
+      "title": "REVIVE",
+      "artists": [
+        "NEMOPHILA"
+      ],
+      "albumTitle": "REVIVE",
+      "albumBrowseId": "MPREb_PgW8XLR63nH",
+      "duration": "3:29",
+      "durationSeconds": 209,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ejenFpNg15DfwihtGxw8oqYwSqTCyXUBYzlg5yMvAVBEn6OPXHKjGrRtXu8ABUcuYag8oUzJ7L6oCU2a=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=y43OdhTbHhk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=y43OdhTbHhk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "CsrLguuWq04",
+      "songTitle": "鬼灯 - Hozuki",
+      "title": "鬼灯 - Hozuki",
+      "artists": [
+        "NEMOPHILA"
+      ],
+      "albumTitle": "REVIVE",
+      "albumBrowseId": "MPREb_PgW8XLR63nH",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ejenFpNg15DfwihtGxw8oqYwSqTCyXUBYzlg5yMvAVBEn6OPXHKjGrRtXu8ABUcuYag8oUzJ7L6oCU2a=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CsrLguuWq04",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CsrLguuWq04",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Y1ZJEC96UAA",
+      "songTitle": "Just Do It!",
+      "title": "Just Do It!",
+      "artists": [
+        "NEMOPHILA"
+      ],
+      "albumTitle": "Apple of my eye",
+      "albumBrowseId": "MPREb_Ol0fA2YikNl",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NL0XCfaMVSrAZmdZLggXwHrvM2arnZZmX5yoAngYxrXPCzDS5wVPpT0n8K7UPjFm354ZaDNnkXp65Hs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y1ZJEC96UAA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Y1ZJEC96UAA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "BeFb4NkmkKY",
+      "songTitle": "Monsters",
+      "title": "Monsters",
+      "artists": [
+        "NEMOPHILA"
+      ],
+      "albumTitle": "Oiran",
+      "albumBrowseId": "MPREb_WHfFHgdRds6",
+      "duration": "4:46",
+      "durationSeconds": 286,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FuaBYz8Fbog3lZB9Vx5LOfcuDjDLDvPWwZZ2SjoTkJWBWgZ-B0OzGSDu5hiOjo_6ph4vA0TbTjFFnSlkvA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BeFb4NkmkKY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BeFb4NkmkKY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "PDjPyJvq4pM",
+      "songTitle": "徒花 -ADABANA-",
+      "title": "徒花 -ADABANA-",
+      "artists": [
+        "NEMOPHILA"
+      ],
+      "albumTitle": "ADABANA",
+      "albumBrowseId": "MPREb_AKk5mQAFsPK",
+      "duration": "4:14",
+      "durationSeconds": 254,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7xfgLQjG8LFHFj8wbUA2d1sUwc7PmAtwqcfV6USCg1gg-ocHZxKk0cXkQdD4Tpr35OcwOBIQcwRnK2bh=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PDjPyJvq4pM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PDjPyJvq4pM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "NEMOPHILA 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=MWLTmhlUtU0%2C3xJcTVQm_iQ%2CEL_2IBGA0io%2CTiN7hi5t8Rs%2CCfk7VCBMnFw%2Cy43OdhTbHhk%2CCsrLguuWq04%2CY1ZJEC96UAA%2CBeFb4NkmkKY%2CPDjPyJvq4pM&title=NEMOPHILA+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=MWLTmhlUtU0&list=RDAMVMMWLTmhlUtU0"
+}

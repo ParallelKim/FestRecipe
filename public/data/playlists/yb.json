@@ -1,0 +1,210 @@
+{
+  "artistId": "yb",
+  "artistName": "YB",
+  "englishName": "YB",
+  "collectedAt": "2026-08-05T12:30:56.418026+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1400,
+    "latestSlotLabel": "23:20",
+    "festivalId": "jumf-2026",
+    "rank": 0.991,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCArljIU3tkZSK5k_ZF_jxWg",
+    "name": "YB",
+    "subscribers": "56.3K",
+    "channelId": "UCtmBxLMQCrwrpEpjfMaj3OQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/B9RsyLcrAsVkPnHhTUN378boVJDzXSK905vHvzkGp-spN_x7qZfmxC1-dWshLb5sYPRTP4ef48uWWA=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCArljIU3tkZSK5k_ZF_jxWg"
+  },
+  "tracks": [
+    {
+      "videoId": "UTg9wf1HGI8",
+      "songTitle": "나는 나비",
+      "title": "나는 나비",
+      "artists": [
+        "YB"
+      ],
+      "albumTitle": "Why Be?",
+      "albumBrowseId": "MPREb_SgDZl8darS9",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QLgx7ZQJlY3vVRgAhZSYvjgwixzDp5aUon9-pG9ZP6bDCkGPx2a3kztsQ-Q_usOXs986pqNkWPYOdeA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UTg9wf1HGI8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UTg9wf1HGI8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "brKH-IsAA2s",
+      "songTitle": "너를 보내고",
+      "title": "너를 보내고",
+      "artists": [
+        "YB"
+      ],
+      "albumTitle": "한국 Rock 다시 부르기",
+      "albumBrowseId": "MPREb_jp8628OPef8",
+      "duration": "3:48",
+      "durationSeconds": 228,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yZys3FO6bm6PRDgntkPUjE4PH4wHtxBhH752YN6F-T1nlhNLSsUcqvF_5V3FyLVkzQFoFPIX4ODFqO__=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=brKH-IsAA2s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=brKH-IsAA2s",
+      "source": "ytm_songs_popular",
+      "year": "1999",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "ucE3CgJBGNE",
+      "songTitle": "박하사탕",
+      "title": "박하사탕",
+      "artists": [
+        "YB"
+      ],
+      "albumTitle": "Un Urbanite",
+      "albumBrowseId": "MPREb_YXjqI9KfrrQ",
+      "duration": "4:51",
+      "durationSeconds": 291,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/hYKdrcBv0QbyykwvNdUF30WeQqjVQdeW8qNXDren7fJi4FK8ikdYzzLbJCnE47R9L02n3ZAO8T5IuEw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ucE3CgJBGNE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ucE3CgJBGNE",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Oma_4cJWWNE",
+      "songTitle": "Blue Whale 2016 Version",
+      "title": "Blue Whale 2016 Version",
+      "artists": [
+        "YB"
+      ],
+      "albumTitle": "REMIND",
+      "albumBrowseId": "MPREb_Nxa0A9cmJJD",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Jl3GqydKncJExwyohEc0a5CD3sLlAHYCH1wdQXc9_XkgFiABHavVY4BbrhxZ_uuhdAOb-a5GqO9aIXE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Oma_4cJWWNE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Oma_4cJWWNE",
+      "source": "ytm_songs_popular",
+      "year": "2016",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "N1--FFpe0xE",
+      "songTitle": "I'll Forget You 2016 Version",
+      "title": "I'll Forget You 2016 Version",
+      "artists": [
+        "YB"
+      ],
+      "albumTitle": "REMIND",
+      "albumBrowseId": "MPREb_Nxa0A9cmJJD",
+      "duration": "4:29",
+      "durationSeconds": 269,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Jl3GqydKncJExwyohEc0a5CD3sLlAHYCH1wdQXc9_XkgFiABHavVY4BbrhxZ_uuhdAOb-a5GqO9aIXE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=N1--FFpe0xE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=N1--FFpe0xE",
+      "source": "ytm_songs_popular",
+      "year": "2016",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "S1THQlQ-P5w",
+      "songTitle": "Peppermint Candy 2016 Version",
+      "title": "Peppermint Candy 2016 Version",
+      "artists": [
+        "YB"
+      ],
+      "albumTitle": "REMIND",
+      "albumBrowseId": "MPREb_Nxa0A9cmJJD",
+      "duration": "4:33",
+      "durationSeconds": 273,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Jl3GqydKncJExwyohEc0a5CD3sLlAHYCH1wdQXc9_XkgFiABHavVY4BbrhxZ_uuhdAOb-a5GqO9aIXE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=S1THQlQ-P5w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=S1THQlQ-P5w",
+      "source": "ytm_songs_popular",
+      "year": "2016",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "gsgq3A5i9dc",
+      "songTitle": "담배가게 아가씨",
+      "title": "담배가게 아가씨",
+      "artists": [
+        "YB"
+      ],
+      "albumTitle": "한국 Rock 다시 부르기",
+      "albumBrowseId": "MPREb_jp8628OPef8",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yZys3FO6bm6PRDgntkPUjE4PH4wHtxBhH752YN6F-T1nlhNLSsUcqvF_5V3FyLVkzQFoFPIX4ODFqO__=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gsgq3A5i9dc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gsgq3A5i9dc",
+      "source": "ytm_songs_popular",
+      "year": "1999",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "n9PhiPcYI3g",
+      "songTitle": "Rebellion (feat. Xdinary Heroes)",
+      "title": "Rebellion (feat. Xdinary Heroes)",
+      "artists": [
+        "YB"
+      ],
+      "albumTitle": "Rebellion",
+      "albumBrowseId": "MPREb_beG3kiNfP4i",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FJLZK-3y3e5bBfP2x9FDt8b71zCxXWq8LBUCv-8ggBD6prIZ8TnWqOOPELzVCSurWnkzcaDvd06UgTdw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=n9PhiPcYI3g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=n9PhiPcYI3g",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EAgzIa98t7o",
+      "songTitle": "먼 훗날",
+      "title": "먼 훗날",
+      "artists": [
+        "YB"
+      ],
+      "albumTitle": "Destitute",
+      "albumBrowseId": "MPREb_G1emEBEifTH",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qBzC1YRq5SIo7n09LvGOUZMINutmXY-83T6Y6-Xi13_eYSbra0xngK44Mic2E4ABF6lYNy7v99mFZw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EAgzIa98t7o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EAgzIa98t7o",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "o3YDI3oa5UU",
+      "songTitle": "박하사탕２",
+      "title": "박하사탕２",
+      "artists": [
+        "YB"
+      ],
+      "albumTitle": "Why Be?",
+      "albumBrowseId": "MPREb_SgDZl8darS9",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QLgx7ZQJlY3vVRgAhZSYvjgwixzDp5aUon9-pG9ZP6bDCkGPx2a3kztsQ-Q_usOXs986pqNkWPYOdeA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o3YDI3oa5UU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=o3YDI3oa5UU",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 YB 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=UTg9wf1HGI8%2CbrKH-IsAA2s%2CucE3CgJBGNE%2COma_4cJWWNE%2CN1--FFpe0xE%2CS1THQlQ-P5w%2Cgsgq3A5i9dc%2Cn9PhiPcYI3g%2CEAgzIa98t7o%2Co3YDI3oa5UU&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+YB+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=UTg9wf1HGI8&list=RDAMVMUTg9wf1HGI8"
+}

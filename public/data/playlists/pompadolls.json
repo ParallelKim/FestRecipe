@@ -1,0 +1,205 @@
+{
+  "artistId": "pompadolls",
+  "artistName": "PompadollS",
+  "englishName": "PompadollS",
+  "collectedAt": "2026-08-05T12:30:39.807890+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCmu5lpe6Wt-7yCHe2rA4zYQ",
+    "name": "PompadollS",
+    "subscribers": "48.5K",
+    "channelId": "UC7fNyIRtf5qOB4ln1H0aEQg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/bWz6HQxvmEGNz7DFfp_dYMW2VNhiqwzyICPhIrfy1stNHfENHWs0qxkmYLt_Wpn2knGxXtAZ-yfjjps=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCmu5lpe6Wt-7yCHe2rA4zYQ"
+  },
+  "tracks": [
+    {
+      "videoId": "a6sHa24_BbU",
+      "songTitle": "悪食 - Gluttony",
+      "title": "悪食 - Gluttony",
+      "artists": [
+        "PompadollS"
+      ],
+      "albumTitle": "P.S.",
+      "albumBrowseId": "MPREb_xAMSAyCNQ3J",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/b0J-IQkc080zIM7xk7JaVSoQiLjNrbUBwJC_wgULZAujbBPESwF_aC8nLM0dfzPpY-GjaM8y2L262Q3L=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=a6sHa24_BbU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=a6sHa24_BbU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "O90CPgt7nMA",
+      "songTitle": "リトルワールド - little world",
+      "title": "リトルワールド - little world",
+      "artists": [
+        "PompadollS"
+      ],
+      "albumTitle": "little world",
+      "albumBrowseId": "MPREb_glbSQiTYiIr",
+      "duration": "3:09",
+      "durationSeconds": 189,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Eofr3Orwy20wt3ddch_Be707SooJt5iL8vNJZd93ExKvMeS3Efxh2ntml5U_hFtVK3j4px9bqEnqEEIG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=O90CPgt7nMA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=O90CPgt7nMA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "oZ8LP1rg2Bc",
+      "songTitle": "スポットライト・ジャンキー - Spotlight Junkie",
+      "title": "スポットライト・ジャンキー - Spotlight Junkie",
+      "artists": [
+        "PompadollS"
+      ],
+      "albumTitle": "Spotlight Junkie",
+      "albumBrowseId": "MPREb_DhhLnA9fOVA",
+      "duration": "3:05",
+      "durationSeconds": 185,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/d50vRvb3FioR-SEIdm-fq_5q8yWE40PCsZsfU6fTVirvg7k4l6CAdEEakCb6xAHnf-DTW0PQfCtxcPZE6Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oZ8LP1rg2Bc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=oZ8LP1rg2Bc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "gf4znKuVj_k",
+      "songTitle": "ASURA",
+      "title": "ASURA",
+      "artists": [
+        "PompadollS"
+      ],
+      "albumTitle": "ASURA",
+      "albumBrowseId": "MPREb_zubzWtfW4fx",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZJzxLOrUskkKun17d7NSIMaVu6aqf9m9XG4Xja7HegVdK61717IeDKukkZNa_Vljcz8SeKYd1mjXf6w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gf4znKuVj_k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gf4znKuVj_k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "wQOZ75bStAE",
+      "songTitle": "ヒグレチガイ - Higurechigai",
+      "title": "ヒグレチガイ - Higurechigai",
+      "artists": [
+        "PompadollS"
+      ],
+      "albumTitle": "Higurechigai",
+      "albumBrowseId": "MPREb_N4JPWLHJCSH",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ztUstFjhX8iru2Wm1mgtwbYWmGmgKPcEszIM2vVfaCrF47Zjh53Uj3eeAQin5K00MTCK1RTvHgEW5bv7=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wQOZ75bStAE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wQOZ75bStAE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "eezQhYerqDk",
+      "songTitle": "ホワイトジャーニー - White Journey",
+      "title": "ホワイトジャーニー - White Journey",
+      "artists": [
+        "PompadollS"
+      ],
+      "albumTitle": "PompadollS",
+      "albumBrowseId": "MPREb_LvXGTpEC6c3",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UOpfdfrXOeEaAr44KLRpxH6a8QaE6eW7p3h1OWfnwKJ32qUKwY5vPhqP-4XsdQXwKtRDxn978SIUeGdR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eezQhYerqDk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=eezQhYerqDk",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "4T-Ky1n2VLM",
+      "songTitle": "魔法のランプ - Magic Lamp",
+      "title": "魔法のランプ - Magic Lamp",
+      "artists": [
+        "PompadollS"
+      ],
+      "albumTitle": "Magic Lamp",
+      "albumBrowseId": "MPREb_iUSPTJsvBxE",
+      "duration": "4:42",
+      "durationSeconds": 282,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KqrFLeNii6gcmR8i7u9XybS-5dsKcEpq2BC4NYfGNGQ5zLY4CPl0hRUlDR1AK9KTUpFuK-jISvi6l_TS=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4T-Ky1n2VLM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4T-Ky1n2VLM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Iaw-FjeOVo4",
+      "songTitle": "Vanished Vanity",
+      "title": "Vanished Vanity",
+      "artists": [
+        "PompadollS"
+      ],
+      "albumTitle": "PompadollS",
+      "albumBrowseId": "MPREb_LvXGTpEC6c3",
+      "duration": "3:29",
+      "durationSeconds": 209,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UOpfdfrXOeEaAr44KLRpxH6a8QaE6eW7p3h1OWfnwKJ32qUKwY5vPhqP-4XsdQXwKtRDxn978SIUeGdR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Iaw-FjeOVo4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Iaw-FjeOVo4",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "p6zVC2ENK2g",
+      "songTitle": "ラブソング - Love Song",
+      "title": "ラブソング - Love Song",
+      "artists": [
+        "PompadollS"
+      ],
+      "albumTitle": "Fantasism",
+      "albumBrowseId": "MPREb_Hejs6Xwie0z",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/l9fPl4nqJxJeqVG-USw_1jgP-BgMcjNRcLQkXAz19IWZPLWNEFZDx0jsDD6JA_SWsllod1f9tGcjyOw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=p6zVC2ENK2g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=p6zVC2ENK2g",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "3YPBdNR3hQY",
+      "songTitle": "日の東、月の西 - East of the Sun and West of the Moon",
+      "title": "日の東、月の西 - East of the Sun and West of the Moon",
+      "artists": [
+        "PompadollS"
+      ],
+      "albumTitle": "East of the Sun and West of the Moon",
+      "albumBrowseId": "MPREb_IPq3shcjXgC",
+      "duration": "3:09",
+      "durationSeconds": 189,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/GD7GDppQl2g2sF6pOx7cF0VzWTuIIXHg6JtnSP6ouIAn_Sj_dvVIyMuEMoVIpZ1qWQHmD9wF0hB3vZghlA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3YPBdNR3hQY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3YPBdNR3hQY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "PompadollS 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=a6sHa24_BbU%2CO90CPgt7nMA%2CoZ8LP1rg2Bc%2Cgf4znKuVj_k%2CwQOZ75bStAE%2CeezQhYerqDk%2C4T-Ky1n2VLM%2CIaw-FjeOVo4%2Cp6zVC2ENK2g%2C3YPBdNR3hQY&title=PompadollS+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=a6sHa24_BbU&list=RDAMVMa6sHa24_BbU"
+}

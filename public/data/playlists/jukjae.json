@@ -1,0 +1,207 @@
+{
+  "artistId": "jukjae",
+  "artistName": "적재",
+  "englishName": "Jukjae",
+  "collectedAt": "2026-08-05T12:30:27.444676+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCs0hbjTPASbs8Eevsd-1xfg",
+    "name": "JUKJAE",
+    "subscribers": "119K",
+    "channelId": "UCnLtKHf2cDTRgWYKDIoW0nw",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/6H_Wityzt6d2zXsr6hSFR-beRJshh6g_4WuijegXUuw6P_of-AtW2SO2TUl3bymKWLZx7Ni6g0yY-Ac=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCs0hbjTPASbs8Eevsd-1xfg"
+  },
+  "tracks": [
+    {
+      "videoId": "cn8gCkw6H5A",
+      "songTitle": "Do you want to walk with me? (Romance 101 X Jukjae) (나랑 같이 걸을래 (바른연애 길잡이 X 적재))",
+      "title": "Do you want to walk with me? (Romance 101 X Jukjae) (나랑 같이 걸을래 (바른연애 길잡이 X 적재))",
+      "artists": [
+        "Jukjae"
+      ],
+      "albumTitle": "Do you want to walk with me? (Romance 101 X Jukjae) (나랑 같이 걸을래 (바른연애 길잡이 X 적재))",
+      "albumBrowseId": "MPREb_EfLCKhakYA4",
+      "duration": "3:47",
+      "durationSeconds": 227,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Z1JW9MXbtBmN3BQoWz1z3URae6YiM_E4rWzRkZl_jnOsnnOCLnu8IfwYUPb2tu6mCNqdNZgmWRXZXAA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cn8gCkw6H5A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cn8gCkw6H5A",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "V6YLhXN6OCs",
+      "songTitle": "별 보러 가자",
+      "title": "별 보러 가자",
+      "artists": [
+        "Jukjae"
+      ],
+      "albumTitle": "FINE",
+      "albumBrowseId": "MPREb_dy248YoMNR2",
+      "duration": "5:18",
+      "durationSeconds": 318,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jS3NZspDfMcXxcEb1bsyT5FzEc_8DuJ2JyYFqwOfT46ESrfk5-oSNmQpgtEGE7LIck-7dra3jLL9Dr5q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V6YLhXN6OCs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=V6YLhXN6OCs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "XjdAJ5Oy-AQ",
+      "songTitle": "Midnight Call",
+      "title": "Midnight Call",
+      "artists": [
+        "Jukjae"
+      ],
+      "albumTitle": "Midnight Call",
+      "albumBrowseId": "MPREb_0VtpgIIQ8iB",
+      "duration": "3:05",
+      "durationSeconds": 185,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/znKSFoitaDBvrR4xKIo4y_vGdHfnUX2AX9X_jXNulm3H0sHaNbGYkIF_5nqhz7buTZSkLocDQyoDf_o=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XjdAJ5Oy-AQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XjdAJ5Oy-AQ",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "WsKoXIF3jXs",
+      "songTitle": "Be My Shelter, Hold Me Close",
+      "title": "Be My Shelter, Hold Me Close",
+      "artists": [
+        "Jukjae"
+      ],
+      "albumTitle": "Motel California OST Part.1",
+      "albumBrowseId": "MPREb_d2mACEOXmAn",
+      "duration": "3:48",
+      "durationSeconds": 228,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/zIw789LM-WdPwCl0WqhImD9NSDHZFd0X3jq_rEXCLEE856AMQMCGBvNZqJLxkMALL4_Q9iJQBYA0ObBe=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WsKoXIF3jXs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WsKoXIF3jXs",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "1UjS4-ZEqD4",
+      "songTitle": "By Your Side (Once We Were Us X JUKJAE)",
+      "title": "By Your Side (Once We Were Us X JUKJAE)",
+      "artists": [
+        "JUKJAE"
+      ],
+      "albumTitle": "Once We Were Us (Original Motion Picture Soundtrack) Special Track",
+      "albumBrowseId": "MPREb_v0sfXGNbkPz",
+      "duration": "2:44",
+      "durationSeconds": 164,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PKb94551BaNuVqVAJZE1M8S_RED1SXifAoOzatwoIk4OhaNSRio5rrWiyuY_ffKlKJRA5p5cAKFA0NJ6=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1UjS4-ZEqD4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1UjS4-ZEqD4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "v7Bn3wL3oS8",
+      "songTitle": "Letter (잘 지내)",
+      "title": "Letter (잘 지내)",
+      "artists": [
+        "Jukjae"
+      ],
+      "albumTitle": "A Day (하루)",
+      "albumBrowseId": "MPREb_5lAu67v7ho0",
+      "duration": "3:32",
+      "durationSeconds": 212,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ftf2ys8qoCOTEyItkdLjKUHCF_egSm-eeZpF9bmF_N__JYXPyAdCFc4t_fZZh_Jz3uZFyetKz3cDWYv5fg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v7Bn3wL3oS8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=v7Bn3wL3oS8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "mT2MLTnBXzI",
+      "songTitle": "Moments Make Memories",
+      "title": "Moments Make Memories",
+      "artists": [
+        "적재"
+      ],
+      "albumTitle": "18 again, Pt. 6 (Original Television Soundtrack)",
+      "albumBrowseId": "MPREb_wZWuFlrbFT9",
+      "duration": "4:08",
+      "durationSeconds": 248,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7YdXO3mdH5dx3ln-NWL3fFWpIoBzhjBiGUuaAkq8GE-qfVi11kyrvSkaafL_AwUAedQkj8vywTH-1aCA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mT2MLTnBXzI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mT2MLTnBXzI",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "XkYWZYKNxJA",
+      "songTitle": "Holding hands or walking together.",
+      "title": "Holding hands or walking together.",
+      "artists": [
+        "Jukjae"
+      ],
+      "albumTitle": "Trip: Tape #01",
+      "albumBrowseId": "MPREb_Qj9Uawj3Lqf",
+      "duration": "3:15",
+      "durationSeconds": 195,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/N1Vk6R5KTZ7jLp4foDiaHLLYzogrxCmqYt7Tz0N7FbSjlzUzVn10pK1hl8InfwTEJm-omBn9CeFAjwi2rw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XkYWZYKNxJA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XkYWZYKNxJA",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "xxwxr3nkzeQ",
+      "songTitle": "First Love (처음 사랑해)",
+      "title": "First Love (처음 사랑해)",
+      "artists": [
+        "Jukjae"
+      ],
+      "albumTitle": "First Love (처음 사랑해)",
+      "albumBrowseId": "MPREb_JE99gewuDRt",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HjRj2cjS5ks2yZRqzkIaajhwN9_HzGlccQzu1JlBkN0OYbK3UK1SRQ5eL28J_gmOFVVCeth4zIzUlUy_QQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xxwxr3nkzeQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xxwxr3nkzeQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "5359hiMKATQ",
+      "songTitle": "Fall In Love",
+      "title": "Fall In Love",
+      "artists": [
+        "Jukjae"
+      ],
+      "albumTitle": "Nevertheless (Original Television Soundtrack, Pt. 7)",
+      "albumBrowseId": "MPREb_pUetb1jROaE",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Nv7VHauXFzJA5z8voDqHqzJHQqmdetj0jlEMYGc96XfowwHwieAuAABZlLDot1eS-hh0njz1aZvdAIo=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5359hiMKATQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5359hiMKATQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "적재 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=cn8gCkw6H5A%2CV6YLhXN6OCs%2CXjdAJ5Oy-AQ%2CWsKoXIF3jXs%2C1UjS4-ZEqD4%2Cv7Bn3wL3oS8%2CmT2MLTnBXzI%2CXkYWZYKNxJA%2Cxxwxr3nkzeQ%2C5359hiMKATQ&title=%EC%A0%81%EC%9E%AC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=cn8gCkw6H5A&list=RDAMVMcn8gCkw6H5A"
+}

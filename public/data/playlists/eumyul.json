@@ -1,0 +1,202 @@
+{
+  "artistId": "eumyul",
+  "artistName": "음율",
+  "englishName": "UmYull",
+  "collectedAt": "2026-08-05T12:30:17.584177+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCDokg22KagN1yZOzKtrxwdg",
+    "name": "UmYull",
+    "subscribers": "77.7K",
+    "channelId": "UC2NnGbZfn2CqQy61urPaFLg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/jHuTYRJoYksQCOMgU54DiYMzWs9bltRU4PRrsHnLLlGz_XwK4GEqkEMk1noHa_jHYi3-bJMS6oDzUl0=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCDokg22KagN1yZOzKtrxwdg"
+  },
+  "tracks": [
+    {
+      "videoId": "OR0loARBwZE",
+      "songTitle": "We′re no different",
+      "title": "We′re no different",
+      "artists": [
+        "UmYull"
+      ],
+      "albumTitle": "The Theory of Happiness",
+      "albumBrowseId": "MPREb_AqCxp4QvD1R",
+      "duration": "4:14",
+      "durationSeconds": 254,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fa25Mf-HX7tXc6DAbcjkbmkZwrlTepDrGkC8_RS42QhcuP21gJ218_X_pef8NOEcdnSP1esoN7-1RDc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OR0loARBwZE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OR0loARBwZE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WNbtXklKFI4",
+      "songTitle": "Wa;volution",
+      "title": "Wa;volution",
+      "artists": [
+        "UmYull"
+      ],
+      "albumTitle": "Wa;volution",
+      "albumBrowseId": "MPREb_zCWhtMWt4yd",
+      "duration": "4:15",
+      "durationSeconds": 255,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/C-BuEJVsGJifv90UHbvED9L9F2nxds-9edeNNREFLOL5nK0zhqn_xCc-hwdX5yi8vAEkmg29jULfqrJbuw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WNbtXklKFI4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WNbtXklKFI4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "o2JzwvUE6RQ",
+      "songTitle": "Inverse",
+      "title": "Inverse",
+      "artists": [
+        "UmYull"
+      ],
+      "albumTitle": "The Theory of Happiness",
+      "albumBrowseId": "MPREb_AqCxp4QvD1R",
+      "duration": "4:01",
+      "durationSeconds": 241,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fa25Mf-HX7tXc6DAbcjkbmkZwrlTepDrGkC8_RS42QhcuP21gJ218_X_pef8NOEcdnSP1esoN7-1RDc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2JzwvUE6RQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=o2JzwvUE6RQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "djBlQ9jIvxI",
+      "songTitle": "Song For Youth",
+      "title": "Song For Youth",
+      "artists": [
+        "UmYull"
+      ],
+      "albumTitle": "Song For Youth",
+      "albumBrowseId": "MPREb_rje739eYkqk",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/O3KMUEEJ1CBpkncjMNBRDEqRUYqDvN-5DM8WqKKeKPkmcc5obBVwGP1T6QAfF_zidxeZ-xz-YURIY4nZ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=djBlQ9jIvxI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=djBlQ9jIvxI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "SLAUqlARbks",
+      "songTitle": "Dance In Despair",
+      "title": "Dance In Despair",
+      "artists": [
+        "UmYull"
+      ],
+      "albumTitle": "Wishes of The Youth",
+      "albumBrowseId": "MPREb_vMADlkYv4Zg",
+      "duration": "4:28",
+      "durationSeconds": 268,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-Htv6h2MRk393sYEfDoVqp-iNYdyq2kjWJZS29GC63fbU_mgaundo3U6ht6pfDgsmn_ox2v_UZRBYpfiwA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SLAUqlARbks",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SLAUqlARbks",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "6pPcnU6WhX4",
+      "songTitle": "CROXX",
+      "title": "CROXX",
+      "artists": [
+        "UmYull"
+      ],
+      "albumTitle": "CROXX",
+      "albumBrowseId": "MPREb_dTjeWs8Z8H4",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OsFK7UxNyl-RhVm2lGaVYRtwRyyqO2POljk-M-P2OFcTRn-Ps27l244Sgyu0cxNahEzhFxCPxLwrNZ--TA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6pPcnU6WhX4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6pPcnU6WhX4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "rMUnrVAlR74",
+      "songTitle": "The Stranger of the 56th Street",
+      "title": "The Stranger of the 56th Street",
+      "artists": [
+        "UmYull"
+      ],
+      "albumTitle": "The Stranger of the 56th Street",
+      "albumBrowseId": "MPREb_DshTGB90SV3",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/a3sMCMDezchmZlpmnJmRrkLrFpN5jU6JQ83IKjJpopHqVFENWhwZjJ9sWEw5PK1lP1VqI3awUk8JBh4m=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rMUnrVAlR74",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rMUnrVAlR74",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "snXa034bjsM",
+      "songTitle": "Walldam",
+      "title": "Walldam",
+      "artists": [
+        "UmYull"
+      ],
+      "albumTitle": "Walldam",
+      "albumBrowseId": "MPREb_xqORaeUPaO4",
+      "duration": "4:01",
+      "durationSeconds": 241,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/cS2uDb6HDyYGgPfOXMVl6cGQJYMAJTKPHjDuBojVX2BzbVqA-2Gte64Y0Y-uCu41ePfoCBzFcvQms55p=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=snXa034bjsM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=snXa034bjsM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "DGP8UnHz-Og",
+      "songTitle": "Wind;Decoy",
+      "title": "Wind;Decoy",
+      "artists": [
+        "UmYull"
+      ],
+      "albumTitle": "Wind;Decoy",
+      "albumBrowseId": "MPREb_0rULpiWm90Z",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/hyj8te-5RdPcKqXmfAjphLF1Sq7JExHzhTGeYHLp1WYBqYYpEC2IQpKxvXYo5JsQGzlgDNYWodgaNzTm=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DGP8UnHz-Og",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DGP8UnHz-Og",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "etJC0Nlw4X8",
+      "songTitle": "Hypocrite",
+      "title": "Hypocrite",
+      "artists": [
+        "UmYull"
+      ],
+      "albumTitle": "Wishes of The Youth",
+      "albumBrowseId": "MPREb_vMADlkYv4Zg",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-Htv6h2MRk393sYEfDoVqp-iNYdyq2kjWJZS29GC63fbU_mgaundo3U6ht6pfDgsmn_ox2v_UZRBYpfiwA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=etJC0Nlw4X8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=etJC0Nlw4X8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "음율 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=OR0loARBwZE%2CWNbtXklKFI4%2Co2JzwvUE6RQ%2CdjBlQ9jIvxI%2CSLAUqlARbks%2C6pPcnU6WhX4%2CrMUnrVAlR74%2CsnXa034bjsM%2CDGP8UnHz-Og%2CetJC0Nlw4X8&title=%EC%9D%8C%EC%9C%A8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=OR0loARBwZE&list=RDAMVMOR0loARBwZE"
+}

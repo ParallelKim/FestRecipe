@@ -1,0 +1,205 @@
+{
+  "artistId": "shim-kyu-sun",
+  "artistName": "심규선",
+  "englishName": "Lucia",
+  "collectedAt": "2026-08-05T12:30:45.234574+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCuqjtm5ybnZmfntdb2Aa-iw",
+    "name": "Lucia",
+    "subscribers": "110K",
+    "channelId": "UC4VMmTByZwTAaU3En8HQE6A",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/RLOuDMXa6a3JmHxSh7a8mBGMuhlN-StcsvQlRr4N9vm221JWD_Zdi7X1f4xmxGpV1V78If7M1Idol1Y3=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCuqjtm5ybnZmfntdb2Aa-iw"
+  },
+  "tracks": [
+    {
+      "videoId": "sjShIsv8HGk",
+      "songTitle": "부디",
+      "title": "부디",
+      "artists": [
+        "Lucia(심규선)"
+      ],
+      "albumTitle": "두 번째, 방",
+      "albumBrowseId": "MPREb_5DcAVOYJshl",
+      "duration": "4:45",
+      "durationSeconds": 285,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/gnL27um_q6jsoIXUWJxuSOp3Px0F32XL04rfg4px2fYgWh1tPZce4wThgMQaTQr1O9n6kHsdJS5VsSWHCA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sjShIsv8HGk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sjShIsv8HGk",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "Ext1tnRFEmE",
+      "songTitle": "Arari (아라리)",
+      "title": "Arari (아라리)",
+      "artists": [
+        "Lucia(심규선)"
+      ],
+      "albumTitle": "Fantasy Pieces Op.1 (환상소곡집 op.1)",
+      "albumBrowseId": "MPREb_S8WOXnFqHYz",
+      "duration": "5:28",
+      "durationSeconds": 328,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Y-iimqer2UN8KaMVy2hSLa0NoY4_-76udfwv94_k-dZtdPp1Y7_BogXkTC1eyjMgAWwJ9P7LhDOiaf4L=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ext1tnRFEmE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Ext1tnRFEmE",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Mi9H9EkLoaI",
+      "songTitle": "Fire Flower",
+      "title": "Fire Flower",
+      "artists": [
+        "Lucia"
+      ],
+      "albumTitle": "Webtoon 'Return of the Blossoming Blade' Part.4 (Original Soundtrack)",
+      "albumBrowseId": "MPREb_551InYLJ2hW",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FTd-Ns9Q4uJN9qDUwY8g5-wAZ8nuo7KDCkJ36GmYiwawDnnTGLrCU2YmhluthV72b_5Fpigw3JVTvMSX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Mi9H9EkLoaI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Mi9H9EkLoaI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "098tIqgN4Vk",
+      "songTitle": "Hwa-Jo-Do : A painting of Flowers and Birds (화조도 花鳥圖)",
+      "title": "Hwa-Jo-Do : A painting of Flowers and Birds (화조도 花鳥圖)",
+      "artists": [
+        "Lucia"
+      ],
+      "albumTitle": "Fantasy Pieces op.2 <ARIA> (환상소곡집 op.2 <ARIA>)",
+      "albumBrowseId": "MPREb_7azvAKJgJjf",
+      "duration": "5:57",
+      "durationSeconds": 357,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wydo7NxnGz9rG-gcfWwgR1UnMIjiGuHSKTqeWxmHlSafgtPMBCnL6tmUWhPUzbeD1-QysRufAfjNv6yQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=098tIqgN4Vk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=098tIqgN4Vk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WKVL5bFJwUY",
+      "songTitle": "The Moon Has Passed",
+      "title": "The Moon Has Passed",
+      "artists": [
+        "Lucia"
+      ],
+      "albumTitle": "The Moon Has Passed (The Moon during the Day)",
+      "albumBrowseId": "MPREb_sEoKddigUfX",
+      "duration": "3:47",
+      "durationSeconds": 227,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wUC7lTFQ2Au0kHZopwil6oTAVnydlH5HG610zzxs0XcBTM8zAS0WeEvZ6hE3tvCck_D8itb4qHwKl_2D=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WKVL5bFJwUY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WKVL5bFJwUY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "zX3MvT7tIMU",
+      "songTitle": "Moonflower (야래향 夜來香)",
+      "title": "Moonflower (야래향 夜來香)",
+      "artists": [
+        "Lucia"
+      ],
+      "albumTitle": "Lunar phase : B side (월령: 下)",
+      "albumBrowseId": "MPREb_tm1OFgxUYGS",
+      "duration": "5:36",
+      "durationSeconds": 336,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ly4OXg1hzrWQnaiH9yOtLStHXYqUOMS_J8HiWdDEN8XjvYAaxupZDgVlXxyabowIQxu67Dm6ntX2LS1iRQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zX3MvT7tIMU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zX3MvT7tIMU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "RGPpBDFFqDg",
+      "songTitle": "달과 6펜스",
+      "title": "달과 6펜스",
+      "artists": [
+        "Lucia(심규선)"
+      ],
+      "albumTitle": "Light & Shade chapter.2",
+      "albumBrowseId": "MPREb_L7H3ls0fYw9",
+      "duration": "4:07",
+      "durationSeconds": 247,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kJkNPTtv26dpHHCwN869rD_x-SLTK1hrrKoZt0qSY9aK8K1-tQFt6LKiqy1t4npDR4Ze5gXNs5rQdm05GA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RGPpBDFFqDg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RGPpBDFFqDg",
+      "source": "ytm_songs_popular",
+      "year": "2015",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "SatuDumgn-s",
+      "songTitle": "Nox (밤의 정원)",
+      "title": "Nox (밤의 정원)",
+      "artists": [
+        "Lucia"
+      ],
+      "albumTitle": "Narrow Road (소로 小路)",
+      "albumBrowseId": "MPREb_tRnBGsvx3uU",
+      "duration": "4:32",
+      "durationSeconds": 272,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/DlRqO7zZYoGR_lCJb9zC9GicscTMpuat-BAwTbWX9v3LIqMDg11Yx0myKaYkaj-vrFn3sLsQJzdZgVjO=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SatuDumgn-s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SatuDumgn-s",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "HgGKROdsinc",
+      "songTitle": "Lunar phase (월령 月齡)",
+      "title": "Lunar phase (월령 月齡)",
+      "artists": [
+        "Lucia"
+      ],
+      "albumTitle": "Lunar phase : A side (월령: 上)",
+      "albumBrowseId": "MPREb_oSws5IxcS6B",
+      "duration": "4:50",
+      "durationSeconds": 290,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/D5_Ko_t-HQSxz6M_wMsgpIgMyy5nizG3xg9T9hqmd86qdpVlfA1ixU73_Pv94-0l38Ljv2AzxjOXlFlDzg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HgGKROdsinc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HgGKROdsinc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "jyuVzOxU68Y",
+      "songTitle": "Tempest (요란 搖亂)",
+      "title": "Tempest (요란 搖亂)",
+      "artists": [
+        "Lucia"
+      ],
+      "albumTitle": "Tempest (요란 搖亂)",
+      "albumBrowseId": "MPREb_fJ03II81tOw",
+      "duration": "4:13",
+      "durationSeconds": 253,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WrewYw_dyt-6BHJozFv-adzQspg4P325kpf4ugwYtl-oTOhyWjQluQseXL61yn9GvJzDL-4V8W0xzMG0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jyuVzOxU68Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jyuVzOxU68Y",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "심규선 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=sjShIsv8HGk%2CExt1tnRFEmE%2CMi9H9EkLoaI%2C098tIqgN4Vk%2CWKVL5bFJwUY%2CzX3MvT7tIMU%2CRGPpBDFFqDg%2CSatuDumgn-s%2CHgGKROdsinc%2CjyuVzOxU68Y&title=%EC%8B%AC%EA%B7%9C%EC%84%A0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=sjShIsv8HGk&list=RDAMVMsjShIsv8HGk"
+}

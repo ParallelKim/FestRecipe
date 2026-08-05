@@ -1,0 +1,212 @@
+{
+  "artistId": "riot-kidz",
+  "artistName": "라이엇키즈",
+  "englishName": "Riot Kidz",
+  "collectedAt": "2026-08-05T12:30:40.605412+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 900,
+    "latestSlotLabel": "15:00",
+    "festivalId": "jumf-2026",
+    "rank": 0.233,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC-v--9Bml03njBlhn7N8HXQ",
+    "name": "Riot Kidz",
+    "subscribers": "161",
+    "channelId": "UC-v--9Bml03njBlhn7N8HXQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/MWR7AKDOcq6nfIuly0c63BVma6uSlrDPgNlvcZ0bobtXMSvyLF7fe00FHhYiV_o_nFySgmicKn0LcVw=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC-v--9Bml03njBlhn7N8HXQ"
+  },
+  "tracks": [
+    {
+      "videoId": "y5ULMhKp4E4",
+      "songTitle": "Connect",
+      "title": "Connect",
+      "artists": [
+        "Riot Kidz"
+      ],
+      "albumTitle": "My Dearest Nemesis OST Part.1",
+      "albumBrowseId": "MPREb_sio41P4V8nW",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QXx6cywFOGwm0Svzfso9xGKBrPHzKs8lSon3SBEigv4lTIwzBJfpRjm8TJsaaBGIT7F2hsXfy6VPU7IksQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=y5ULMhKp4E4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=y5ULMhKp4E4",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "qBkJ5JtrUuw",
+      "songTitle": "Connect (Inst.)",
+      "title": "Connect (Inst.)",
+      "artists": [
+        "Riot Kidz"
+      ],
+      "albumTitle": "My Dearest Nemesis OST Part.1",
+      "albumBrowseId": "MPREb_sio41P4V8nW",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QXx6cywFOGwm0Svzfso9xGKBrPHzKs8lSon3SBEigv4lTIwzBJfpRjm8TJsaaBGIT7F2hsXfy6VPU7IksQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qBkJ5JtrUuw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qBkJ5JtrUuw",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "9qA1pUsOST0",
+      "songTitle": "DANCING BEAUTY",
+      "title": "DANCING BEAUTY",
+      "artists": [
+        "RIOT KIDZ"
+      ],
+      "albumTitle": "DANCING BEAUTY",
+      "albumBrowseId": "MPREb_xqtwDXdhNEf",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wixMrulNhs35xKk6_30NCBEKXR3VV6Qimn0sUGUX0Jaj99BD2olajjnzkUV_EUl58RxAPnokGTNCvDCI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9qA1pUsOST0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9qA1pUsOST0",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "VZCkKU4QN_M",
+      "songTitle": "DREAM CITY",
+      "title": "DREAM CITY",
+      "artists": [
+        "RIOT KIDZ"
+      ],
+      "albumTitle": "DREAM CITY",
+      "albumBrowseId": "MPREb_AM2JpkJdZwk",
+      "duration": "2:53",
+      "durationSeconds": 173,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QSHCJW9dW7w0rKXqMwod8MDQ1_9Q_JzIEy0uNZLcVQB-OAdpDIzwh5GcAUNVv1A4YDlSsmY4SFthzkvZ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VZCkKU4QN_M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VZCkKU4QN_M",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "mxOHtm0-RlU",
+      "songTitle": "ECHOES",
+      "title": "ECHOES",
+      "artists": [
+        "RIOT KIDZ"
+      ],
+      "albumTitle": "ESCAPE",
+      "albumBrowseId": "MPREb_eFZKRpBWHAE",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FxKp7Q0EMJxaJnJNoc-uP2tCb6Bin2oMPy56VM9Q6465whh4ihLympk7fRwaPDjEPpdKom5ZFHO2x7VCiQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mxOHtm0-RlU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mxOHtm0-RlU",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "1kCW3uNulHg",
+      "songTitle": "Nightmare (98% Version) (feat. Lee Yongwon)",
+      "title": "Nightmare (98% Version) (feat. Lee Yongwon)",
+      "artists": [
+        "RIOT KIDZ"
+      ],
+      "albumTitle": "98%",
+      "albumBrowseId": "MPREb_UrG7LAAcKBe",
+      "duration": "3:08",
+      "durationSeconds": 188,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/s-G1K3gLvpotoUvjr3lpwg-Sxt0wM_0Ek6RHzPNAOzjFzyNzU8AwtXoVH5IZMf5B__SJ2KY4ypQBAis=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1kCW3uNulHg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1kCW3uNulHg",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "WspgHC18FK0",
+      "songTitle": "HATE YOU ALL",
+      "title": "HATE YOU ALL",
+      "artists": [
+        "RIOT KIDZ"
+      ],
+      "albumTitle": "ESCAPE",
+      "albumBrowseId": "MPREb_eFZKRpBWHAE",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FxKp7Q0EMJxaJnJNoc-uP2tCb6Bin2oMPy56VM9Q6465whh4ihLympk7fRwaPDjEPpdKom5ZFHO2x7VCiQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WspgHC18FK0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WspgHC18FK0",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "wo1k7T9ieNs",
+      "songTitle": "Piece of You",
+      "title": "Piece of You",
+      "artists": [
+        "RIOT KIDZ"
+      ],
+      "albumTitle": "98%",
+      "albumBrowseId": "MPREb_UrG7LAAcKBe",
+      "duration": "3:08",
+      "durationSeconds": 188,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/s-G1K3gLvpotoUvjr3lpwg-Sxt0wM_0Ek6RHzPNAOzjFzyNzU8AwtXoVH5IZMf5B__SJ2KY4ypQBAis=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wo1k7T9ieNs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wo1k7T9ieNs",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Pvk6N-4sZ_s",
+      "songTitle": "Out of Town (98% Version)",
+      "title": "Out of Town (98% Version)",
+      "artists": [
+        "RIOT KIDZ"
+      ],
+      "albumTitle": "98%",
+      "albumBrowseId": "MPREb_UrG7LAAcKBe",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/s-G1K3gLvpotoUvjr3lpwg-Sxt0wM_0Ek6RHzPNAOzjFzyNzU8AwtXoVH5IZMf5B__SJ2KY4ypQBAis=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Pvk6N-4sZ_s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Pvk6N-4sZ_s",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "npkbU76saC8",
+      "songTitle": "Green Day (Stay Young)",
+      "title": "Green Day (Stay Young)",
+      "artists": [
+        "RIOT KIDZ"
+      ],
+      "albumTitle": "98%",
+      "albumBrowseId": "MPREb_UrG7LAAcKBe",
+      "duration": "3:18",
+      "durationSeconds": 198,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/s-G1K3gLvpotoUvjr3lpwg-Sxt0wM_0Ek6RHzPNAOzjFzyNzU8AwtXoVH5IZMf5B__SJ2KY4ypQBAis=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=npkbU76saC8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=npkbU76saC8",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 라이엇키즈 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=y5ULMhKp4E4%2CqBkJ5JtrUuw%2C9qA1pUsOST0%2CVZCkKU4QN_M%2CmxOHtm0-RlU%2C1kCW3uNulHg%2CWspgHC18FK0%2Cwo1k7T9ieNs%2CPvk6N-4sZ_s%2CnpkbU76saC8&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%9D%BC%EC%9D%B4%EC%97%87%ED%82%A4%EC%A6%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=y5ULMhKp4E4&list=RDAMVMy5ULMhKp4E4"
+}

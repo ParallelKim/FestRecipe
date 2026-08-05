@@ -1,0 +1,175 @@
+{
+  "artistId": "hrtzwv",
+  "artistName": "하츠웨이브",
+  "englishName": "hrtz.wv",
+  "collectedAt": "2026-08-05T12:30:21.654642+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 900,
+    "latestSlotLabel": "15:00",
+    "festivalId": "jumf-2026",
+    "rank": 0.216,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 8,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCu2p2qoy09dRPsB9pW90hFg",
+    "name": "hrtz.wav",
+    "subscribers": "99K",
+    "channelId": "UCXDwVFlgBZzSEIHJBIxJvRw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/PslOOk_bRQlocsvg8LzeQXKmyl1iFp0Lzs4r_jF_0CIPtIZkDH5QEdgEZU0WMHQrFnQ5m9Zv3EBnNU4=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCu2p2qoy09dRPsB9pW90hFg"
+  },
+  "tracks": [
+    {
+      "videoId": "ua0M2wzPcT0",
+      "songTitle": "You Keep Me Here",
+      "title": "You Keep Me Here",
+      "artists": [
+        "hrtz.wav"
+      ],
+      "albumTitle": "Perfect Crown OST Part.8",
+      "albumBrowseId": "MPREb_6qOytGFhXFT",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8i7ptHH6QkoLlyBsJqnPnZbuXuk71xjnDHrCHdKEYWnppbPRs6Oi_nqQEcE1s8PUr6luvjCZOmtgbOQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ua0M2wzPcT0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ua0M2wzPcT0",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "kgSeozI3-74",
+      "songTitle": "NINETEEN",
+      "title": "NINETEEN",
+      "artists": [
+        "hrtz.wav"
+      ],
+      "albumTitle": "The First Wave",
+      "albumBrowseId": "MPREb_WqPqo6EgHPD",
+      "duration": "2:40",
+      "durationSeconds": 160,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ETNExq7ToAY09M-lv7Aq9r9LcocmLUNxWC0vejsLbXO3ZJh41MslcAPUC-PLEZt2u4ZGE_FJPMARlR4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kgSeozI3-74",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kgSeozI3-74",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "NS4BhZd4JA8",
+      "songTitle": "Highlight",
+      "title": "Highlight",
+      "artists": [
+        "hrtz.wav"
+      ],
+      "albumTitle": "The First Wave",
+      "albumBrowseId": "MPREb_WqPqo6EgHPD",
+      "duration": "3:19",
+      "durationSeconds": 199,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ETNExq7ToAY09M-lv7Aq9r9LcocmLUNxWC0vejsLbXO3ZJh41MslcAPUC-PLEZt2u4ZGE_FJPMARlR4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NS4BhZd4JA8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NS4BhZd4JA8",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "ehdZVBO2gj0",
+      "songTitle": "Outta my mind",
+      "title": "Outta my mind",
+      "artists": [
+        "hrtz.wav"
+      ],
+      "albumTitle": "The First Wave",
+      "albumBrowseId": "MPREb_WqPqo6EgHPD",
+      "duration": "3:00",
+      "durationSeconds": 180,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ETNExq7ToAY09M-lv7Aq9r9LcocmLUNxWC0vejsLbXO3ZJh41MslcAPUC-PLEZt2u4ZGE_FJPMARlR4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ehdZVBO2gj0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ehdZVBO2gj0",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "4BEXHRqZTGU",
+      "songTitle": "Dream",
+      "title": "Dream",
+      "artists": [
+        "hrtz.wav"
+      ],
+      "albumTitle": "The First Wave",
+      "albumBrowseId": "MPREb_WqPqo6EgHPD",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ETNExq7ToAY09M-lv7Aq9r9LcocmLUNxWC0vejsLbXO3ZJh41MslcAPUC-PLEZt2u4ZGE_FJPMARlR4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4BEXHRqZTGU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4BEXHRqZTGU",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "C8J2byp1Opk",
+      "songTitle": "I AM SO FINE",
+      "title": "I AM SO FINE",
+      "artists": [
+        "hrtz.wav"
+      ],
+      "albumTitle": "The First Wave",
+      "albumBrowseId": "MPREb_WqPqo6EgHPD",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ETNExq7ToAY09M-lv7Aq9r9LcocmLUNxWC0vejsLbXO3ZJh41MslcAPUC-PLEZt2u4ZGE_FJPMARlR4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=C8J2byp1Opk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=C8J2byp1Opk",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "bSyIB4ddXFs",
+      "songTitle": "Close To Me",
+      "title": "Close To Me",
+      "artists": [
+        "hrtz.wav"
+      ],
+      "albumTitle": "The First Wave",
+      "albumBrowseId": "MPREb_WqPqo6EgHPD",
+      "duration": "3:04",
+      "durationSeconds": 184,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ETNExq7ToAY09M-lv7Aq9r9LcocmLUNxWC0vejsLbXO3ZJh41MslcAPUC-PLEZt2u4ZGE_FJPMARlR4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bSyIB4ddXFs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bSyIB4ddXFs",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "ey-AJe836J4",
+      "songTitle": "You Keep Me Here (Inst.)",
+      "title": "You Keep Me Here (Inst.)",
+      "artists": [
+        "hrtz.wav"
+      ],
+      "albumTitle": "Perfect Crown OST Part.8",
+      "albumBrowseId": "MPREb_6qOytGFhXFT",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8i7ptHH6QkoLlyBsJqnPnZbuXuk71xjnDHrCHdKEYWnppbPRs6Oi_nqQEcE1s8PUr6luvjCZOmtgbOQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ey-AJe836J4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ey-AJe836J4",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 하츠웨이브 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ua0M2wzPcT0%2CkgSeozI3-74%2CNS4BhZd4JA8%2CehdZVBO2gj0%2C4BEXHRqZTGU%2CC8J2byp1Opk%2CbSyIB4ddXFs%2Cey-AJe836J4&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%95%98%EC%B8%A0%EC%9B%A8%EC%9D%B4%EB%B8%8C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ua0M2wzPcT0&list=RDAMVMua0M2wzPcT0"
+}

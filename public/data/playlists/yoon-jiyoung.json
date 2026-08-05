@@ -1,0 +1,204 @@
+{
+  "artistId": "yoon-jiyoung",
+  "artistName": "윤지영",
+  "englishName": "Yoon Jiyoung",
+  "collectedAt": "2026-08-05T12:30:56.808754+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC27jxefZWRB7dYSTZ2KgR3A",
+    "name": "Yoon Jiyoung",
+    "subscribers": "32.2K",
+    "channelId": "UC-T_Zk_sP9zZQVxv6cZwy2g",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/2LselK8rwpL3tfhQ_J1qy-u2DxjXPpuJLBegRMr37BGhIc5PiNaaEJza6Mkwz4ftMh8uIQRCxcobgSg=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC27jxefZWRB7dYSTZ2KgR3A"
+  },
+  "tracks": [
+    {
+      "videoId": "kuaXso8UPEI",
+      "songTitle": "a will (feat. CAR, THE GARDEN)",
+      "title": "a will (feat. CAR, THE GARDEN)",
+      "artists": [
+        "Whys Young"
+      ],
+      "albumTitle": "a will",
+      "albumBrowseId": "MPREb_3RZtOgwXGIC",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eoPx8vOnfiyYVQz2S-V2muINm9kOmLkwDYMAW0K3dBZz3xdl_v46JeVVzYQqw1wZQ053NJZmIwS4zc8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kuaXso8UPEI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kuaXso8UPEI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "JRpgH8IIKHM",
+      "songTitle": "Blue bird",
+      "title": "Blue bird",
+      "artists": [
+        "Whys Young"
+      ],
+      "albumTitle": "Blue bird",
+      "albumBrowseId": "MPREb_6yBrA5qMMkA",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZFznpMZLd-XN0vM608ZaLtlkS-hj-mUzOVROn48NeinGJBGjDHewaSirt5M9t7xHXazjtI0mNkeXNOYx=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JRpgH8IIKHM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JRpgH8IIKHM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "xfqcQPi0XOE",
+      "songTitle": "I dreamt about you last night",
+      "title": "I dreamt about you last night",
+      "artists": [
+        "Whys Young"
+      ],
+      "albumTitle": "In My Garden",
+      "albumBrowseId": "MPREb_jr3xFth2XL3",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZODbNcnQgvfOn-8KilkyHcbUAbjchzLvkbXOYraOmPsVjcpQl1CgcrBrxWsATkabxCxuQb1rQj5K8TaW=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xfqcQPi0XOE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xfqcQPi0XOE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ESFqZY3rAqo",
+      "songTitle": "wwwe",
+      "title": "wwwe",
+      "artists": [
+        "Whys Young"
+      ],
+      "albumTitle": "wwwe",
+      "albumBrowseId": "MPREb_QpJCnr0ir7u",
+      "duration": "3:43",
+      "durationSeconds": 223,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/NqXpPSRRraY4L6p7YJgi8DIFklXDmHI6DDVuGfqvqMrSh7zllIP8GyCH40JbxxVHzj8KZKZXZSNX47fHaw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ESFqZY3rAqo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ESFqZY3rAqo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Ryn5oAQppro",
+      "songTitle": "batman",
+      "title": "batman",
+      "artists": [
+        "Whys Young"
+      ],
+      "albumTitle": "Blue bird",
+      "albumBrowseId": "MPREb_6yBrA5qMMkA",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZFznpMZLd-XN0vM608ZaLtlkS-hj-mUzOVROn48NeinGJBGjDHewaSirt5M9t7xHXazjtI0mNkeXNOYx=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ryn5oAQppro",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Ryn5oAQppro",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "xIyedF5T7l8",
+      "songTitle": "City Seoul",
+      "title": "City Seoul",
+      "artists": [
+        "Whys Young"
+      ],
+      "albumTitle": "In My Garden",
+      "albumBrowseId": "MPREb_jr3xFth2XL3",
+      "duration": "2:58",
+      "durationSeconds": 178,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZODbNcnQgvfOn-8KilkyHcbUAbjchzLvkbXOYraOmPsVjcpQl1CgcrBrxWsATkabxCxuQb1rQj5K8TaW=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xIyedF5T7l8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xIyedF5T7l8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "rjNeYjJZCRg",
+      "songTitle": "Shame",
+      "title": "Shame",
+      "artists": [
+        "Whys Young"
+      ],
+      "albumTitle": "Shame",
+      "albumBrowseId": "MPREb_4fM7Us4p4LZ",
+      "duration": "4:09",
+      "durationSeconds": 249,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/M8TTlQhsD3S-JPLOfKHd3RxC8-egwsDx5UAwKCaz38HMVy9KywFGUnQMFGzAS9tbf71pl3iRZQmESnbd=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rjNeYjJZCRg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rjNeYjJZCRg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WCXq7oG-2mY",
+      "songTitle": "eternal",
+      "title": "eternal",
+      "artists": [
+        "Whys Young"
+      ],
+      "albumTitle": "eternal",
+      "albumBrowseId": "MPREb_kIu4cfIP5xY",
+      "duration": "2:50",
+      "durationSeconds": 170,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FGDBYzI-LCv2uqklgOzkaIgrmU-mXYqvyRShEiTYp6JWY_AYKisMUkbzRYKT78lupmhiN0QKCJt_jX8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WCXq7oG-2mY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WCXq7oG-2mY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ThshWsiJdok",
+      "songTitle": "Dimension Theory",
+      "title": "Dimension Theory",
+      "artists": [
+        "Whys Young"
+      ],
+      "albumTitle": "Dimension Theory",
+      "albumBrowseId": "MPREb_B7qx9WYyLQV",
+      "duration": "2:36",
+      "durationSeconds": 156,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TWgBY720kHg8h79JiAlbitSsVzKySvaltO2769Mao69blzD_dT-B82ixNSiMpLqqkGgPZf1X7EAOjDE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ThshWsiJdok",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ThshWsiJdok",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "YhFdtdTDMtU",
+      "songTitle": "I wish you are good",
+      "title": "I wish you are good",
+      "artists": [
+        "Whys Young"
+      ],
+      "albumTitle": "Blue bird",
+      "albumBrowseId": "MPREb_6yBrA5qMMkA",
+      "duration": "2:51",
+      "durationSeconds": 171,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZFznpMZLd-XN0vM608ZaLtlkS-hj-mUzOVROn48NeinGJBGjDHewaSirt5M9t7xHXazjtI0mNkeXNOYx=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YhFdtdTDMtU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YhFdtdTDMtU",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "ep"
+    }
+  ],
+  "playlistTitle": "윤지영 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=kuaXso8UPEI%2CJRpgH8IIKHM%2CxfqcQPi0XOE%2CESFqZY3rAqo%2CRyn5oAQppro%2CxIyedF5T7l8%2CrjNeYjJZCRg%2CWCXq7oG-2mY%2CThshWsiJdok%2CYhFdtdTDMtU&title=%EC%9C%A4%EC%A7%80%EC%98%81+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=kuaXso8UPEI&list=RDAMVMkuaXso8UPEI"
+}

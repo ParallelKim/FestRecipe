@@ -1,0 +1,206 @@
+{
+  "artistId": "kami-wa-saikoro",
+  "artistName": "神はサイコロを振らない",
+  "englishName": "Kami wa Saikoro wo Furanai",
+  "collectedAt": "2026-08-05T12:30:28.911810+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1190,
+    "latestSlotLabel": "19:50",
+    "festivalId": "jumf-2026",
+    "rank": 0.767,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCBX3AdkQtdXZkBuM8ojQ8jA",
+    "name": "KAMI WA SAIKORO WO FURANAI",
+    "subscribers": "172K",
+    "channelId": "UCipIkLmhz2DFOL0-Rng_Qog",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/7q7dZeXfPQV1RI5_MxjL9b3ovxfbeI66k8fUvVawfyz_r1ClNlzhFwe2lF5Fje0ZEM60wI89WFBac_AD=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCBX3AdkQtdXZkBuM8ojQ8jA"
+  },
+  "tracks": [
+    {
+      "videoId": "X154e2cWBpI",
+      "songTitle": "夜永唄 - Yonaga Uta",
+      "title": "夜永唄 - Yonaga Uta",
+      "artists": [
+        "KAMI WA SAIKORO WO FURANAI"
+      ],
+      "albumTitle": "Lambda Ni Taisuru Kenkai",
+      "albumBrowseId": "MPREb_X84dPHeu3Lp",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/onnfwqaEoOMkv0euaTlWgUIf7c-jxg1Mja4U_knPUnS_zZGKX0gUhA3ArVfeWk-wjupLPfSvsbXXauI=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=X154e2cWBpI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=X154e2cWBpI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "VCFt3sToceI",
+      "songTitle": "愛のけだもの - Two Creatures",
+      "title": "愛のけだもの - Two Creatures",
+      "artists": [
+        "KAMI WA SAIKORO WO FURANAI",
+        "Tatsuya Kitani"
+      ],
+      "albumTitle": "Two Creatures",
+      "albumBrowseId": "MPREb_NbB6efgXaNh",
+      "duration": "4:33",
+      "durationSeconds": 273,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fDUyO3h1KduFhJi9RHBx1ECiN_Ff-0NYNdE5QO9Uoz7lPz4gtBtgiPfYd3FHoeCK_J5gmfSs8G_TIFUx=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VCFt3sToceI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VCFt3sToceI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ADuIBunQ8JA",
+      "songTitle": "タイムファクター - Time Factor",
+      "title": "タイムファクター - Time Factor",
+      "artists": [
+        "KAMI WA SAIKORO WO FURANAI"
+      ],
+      "albumTitle": "Time Factor",
+      "albumBrowseId": "MPREb_nuOmE3ZCtk8",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WgaS436MdZ2Jse02a6yfF5FIFREaXiQrVmgGqO5SzXDy23WB4o7B8-7HKxPiiEDHIyTQrCOaDq17xAoKJw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ADuIBunQ8JA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ADuIBunQ8JA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "UoMoOX8wFRk",
+      "songTitle": "初恋 - First Love",
+      "title": "初恋 - First Love",
+      "artists": [
+        "KAMI WA SAIKORO WO FURANAI",
+        "AYUNi D",
+        "N-buna"
+      ],
+      "albumTitle": "First Love",
+      "albumBrowseId": "MPREb_ijLqLa7bQvc",
+      "duration": "4:01",
+      "durationSeconds": 241,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2CNDIaZv111SIkdXtThAMA9gArXfuSr-e1r_39Cl5k3b8Fx7OLca0Z_Ix767r1e8vY4VwMqEZOTY9zXA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UoMoOX8wFRk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UoMoOX8wFRk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "mhTtk6FRuS4",
+      "songTitle": "泡沫花火 - Utakata Hanabi",
+      "title": "泡沫花火 - Utakata Hanabi",
+      "artists": [
+        "KAMI WA SAIKORO WO FURANAI"
+      ],
+      "albumTitle": "Utakata Hanabi",
+      "albumBrowseId": "MPREb_aplwUWvYxtR",
+      "duration": "4:40",
+      "durationSeconds": 280,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/90fnaEcE0ZApWNByetDMX4-veFshU24gSEBLmBqSkO3gZClcOlXG2sO65l-a3VxE8rFsBiu83P6yYjA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mhTtk6FRuS4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mhTtk6FRuS4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "9CZlNcFG9lk",
+      "songTitle": "カラー・リリィの恋文 - Love Letter From Calla Lily",
+      "title": "カラー・リリィの恋文 - Love Letter From Calla Lily",
+      "artists": [
+        "KAMI WA SAIKORO WO FURANAI"
+      ],
+      "albumTitle": "Love Letter From Calla Lily",
+      "albumBrowseId": "MPREb_wsgpTBAWcjG",
+      "duration": "3:48",
+      "durationSeconds": 228,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HsMn5qLNex2x9I3iLIY8bD1Z4vCm-4JTb-OM1zpn-ZOGXVfewUahnt0WXqtTE42JnZVuOTYTe41CgJvb=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9CZlNcFG9lk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9CZlNcFG9lk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-C3vyLGAtLQ",
+      "songTitle": "Lovey Dovey",
+      "title": "Lovey Dovey",
+      "artists": [
+        "KAMI WA SAIKORO WO FURANAI"
+      ],
+      "albumTitle": "Lovey Dovey",
+      "albumBrowseId": "MPREb_mcEJVzKyzh7",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/r4megO2NDkuJJkb-4F8flez88EUg9XCL5plmdVTtYVlgVnG_RNG8xo3Ue4KOT8Uk2uObQfrcdRXSHb4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-C3vyLGAtLQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-C3vyLGAtLQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Cw5CVP8tXD8",
+      "songTitle": "未来永劫 - Mirai Eigou",
+      "title": "未来永劫 - Mirai Eigou",
+      "artists": [
+        "KAMI WA SAIKORO WO FURANAI"
+      ],
+      "albumTitle": "Mirai Eigou",
+      "albumBrowseId": "MPREb_CRqCbfoOgG7",
+      "duration": "4:27",
+      "durationSeconds": 267,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2bCM0YcW2mE4Y-L9XAKG8vjjsNHog4LZZ7MYF_9lVriXDqlXBrNYJDpMswC7UlIuc2kA2RABMsEy4ic=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Cw5CVP8tXD8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Cw5CVP8tXD8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3Z53QP74ObQ",
+      "songTitle": "夜永唄 – From THE FIRST TAKE - Yonaga Uta - From THE FIRST TAKE",
+      "title": "夜永唄 – From THE FIRST TAKE - Yonaga Uta - From THE FIRST TAKE",
+      "artists": [
+        "KAMI WA SAIKORO WO FURANAI"
+      ],
+      "albumTitle": "Yonaga Uta - From THE FIRST TAKE",
+      "albumBrowseId": "MPREb_NxOkeP3nljv",
+      "duration": "5:24",
+      "durationSeconds": 324,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SUIW6-K_Dw0TCjIbqa7-XLABBNGdP-7MFvLQd3PvYOQSh496wW8dZ6TpS7hBVjnM49VBV2qtz2Jyf_g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3Z53QP74ObQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3Z53QP74ObQ",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "QExGi7hdHmo",
+      "songTitle": "胡蝶蘭 - Kochoran",
+      "title": "胡蝶蘭 - Kochoran",
+      "artists": [
+        "KAMI WA SAIKORO WO FURANAI"
+      ],
+      "albumTitle": "kotowari",
+      "albumBrowseId": "MPREb_QrSck0caSo2",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VbB7hp_nPpkeloCvjwHR3BFcfORQU_QCLRzjH9jG6aTmp25DtPmnGSsHs78j-7iDZBv9tm8NqWOoEg=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QExGi7hdHmo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=QExGi7hdHmo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 神はサイコロを振らない 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=X154e2cWBpI%2CVCFt3sToceI%2CADuIBunQ8JA%2CUoMoOX8wFRk%2CmhTtk6FRuS4%2C9CZlNcFG9lk%2C-C3vyLGAtLQ%2CCw5CVP8tXD8%2C3Z53QP74ObQ%2CQExGi7hdHmo&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%E7%A5%9E%E3%81%AF%E3%82%B5%E3%82%A4%E3%82%B3%E3%83%AD%E3%82%92%E6%8C%AF%E3%82%89%E3%81%AA%E3%81%84+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=X154e2cWBpI&list=RDAMVMX154e2cWBpI"
+}

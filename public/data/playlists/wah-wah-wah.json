@@ -1,0 +1,211 @@
+{
+  "artistId": "wah-wah-wah",
+  "artistName": "와와와",
+  "englishName": "Wah Wah Wah",
+  "collectedAt": "2026-08-05T12:30:55.549409+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1070,
+    "latestSlotLabel": "17:50",
+    "festivalId": "jumf-2026",
+    "rank": 0.586,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCOHwsckB8j3XtArHuklU5hQ",
+    "name": "Wah Wah Wah",
+    "subscribers": "1.7K",
+    "channelId": "UC12PN6fWy8SkHoqYaJ80mwA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/ekEVBNA2dFN9UlMt6UOwFyXAC8GaMyODxX96X2pT20AWoIZQoUGEWCYgtMAByrDrweWuGReZRw=w1089-h453-l90-rj-dcIROIy5WnXFEB",
+    "url": "https://music.youtube.com/channel/UCOHwsckB8j3XtArHuklU5hQ"
+  },
+  "tracks": [
+    {
+      "videoId": "wrjBsikh7YI",
+      "songTitle": "Chihuahua",
+      "title": "Chihuahua",
+      "artists": [
+        "Wah Wah Wah"
+      ],
+      "albumTitle": "Burnt Crispy Beats",
+      "albumBrowseId": "MPREb_pZqscXXOhWx",
+      "duration": "4:45",
+      "durationSeconds": 285,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dfFTFbLY9b55RX8u72LYvJh8IT3rxhgyTCqCTHPaEPuOpe2tWEERzMKqqvqSoxi60Yqf9F1eKVXz_qC-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wrjBsikh7YI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wrjBsikh7YI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "DaHLUzYSBx0",
+      "songTitle": "Dirty",
+      "title": "Dirty",
+      "artists": [
+        "Wah Wah Wah"
+      ],
+      "albumTitle": "Burnt Crispy Beats",
+      "albumBrowseId": "MPREb_pZqscXXOhWx",
+      "duration": "7:54",
+      "durationSeconds": 474,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dfFTFbLY9b55RX8u72LYvJh8IT3rxhgyTCqCTHPaEPuOpe2tWEERzMKqqvqSoxi60Yqf9F1eKVXz_qC-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DaHLUzYSBx0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DaHLUzYSBx0",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Hhk9d6Umu44",
+      "songTitle": "Uncertainty",
+      "title": "Uncertainty",
+      "artists": [
+        "Wah Wah Wah",
+        "Noridogam"
+      ],
+      "albumTitle": "UBUBU",
+      "albumBrowseId": "MPREb_DoefHvIiLKL",
+      "duration": "9:48",
+      "durationSeconds": 588,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jTp9535j9d9X1ZICjulc88cfCvLth9faSrieL4F0tvUoha2Lm8XDmcgitq4p0lhg9UQHlzaXRT1inbJgRQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hhk9d6Umu44",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Hhk9d6Umu44",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "Kz6G3_KpqG8",
+      "songTitle": "Brain Overload",
+      "title": "Brain Overload",
+      "artists": [
+        "Wah Wah Wah"
+      ],
+      "albumTitle": "Burnt Crispy Beats",
+      "albumBrowseId": "MPREb_pZqscXXOhWx",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dfFTFbLY9b55RX8u72LYvJh8IT3rxhgyTCqCTHPaEPuOpe2tWEERzMKqqvqSoxi60Yqf9F1eKVXz_qC-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Kz6G3_KpqG8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Kz6G3_KpqG8",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "5d2c3WQ-lxQ",
+      "songTitle": "Vitamin D",
+      "title": "Vitamin D",
+      "artists": [
+        "Wah Wah Wah"
+      ],
+      "albumTitle": "Midnight Breakfast",
+      "albumBrowseId": "MPREb_t2dZb8VP8ua",
+      "duration": "2:31",
+      "durationSeconds": 151,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OGR83xJOFwp2JCjz-DE6YFSR-jVtiS03k5tPLEvzhqP0dpB5Yq6JuQ3dlGB2NSlPjWARLAwvaJuAHs0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5d2c3WQ-lxQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5d2c3WQ-lxQ",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "9ujTYHbuOsM",
+      "songTitle": "Silly Telly",
+      "title": "Silly Telly",
+      "artists": [
+        "Wah Wah Wah"
+      ],
+      "albumTitle": "Oh, Wow!",
+      "albumBrowseId": "MPREb_KxVIThGfHdN",
+      "duration": "2:36",
+      "durationSeconds": 156,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6UDSS1wHGaVkyB7SGRUXOTCOlQJut8rKtuXMTyquYyxl4e9IpUN_7oZltXoEg9iKRTLfN_Vy9nKjQrRw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9ujTYHbuOsM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9ujTYHbuOsM",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "eCECeVJ0m1k",
+      "songTitle": "Unknown Fest",
+      "title": "Unknown Fest",
+      "artists": [
+        "Wah Wah Wah",
+        "Noridogam"
+      ],
+      "albumTitle": "UBUBU",
+      "albumBrowseId": "MPREb_DoefHvIiLKL",
+      "duration": "3:19",
+      "durationSeconds": 199,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jTp9535j9d9X1ZICjulc88cfCvLth9faSrieL4F0tvUoha2Lm8XDmcgitq4p0lhg9UQHlzaXRT1inbJgRQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eCECeVJ0m1k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=eCECeVJ0m1k",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "gHsFw8JgWCE",
+      "songTitle": "Jack Shit",
+      "title": "Jack Shit",
+      "artists": [
+        "Wah Wah Wah"
+      ],
+      "albumTitle": "Midnight Breakfast",
+      "albumBrowseId": "MPREb_t2dZb8VP8ua",
+      "duration": "2:30",
+      "durationSeconds": 150,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OGR83xJOFwp2JCjz-DE6YFSR-jVtiS03k5tPLEvzhqP0dpB5Yq6JuQ3dlGB2NSlPjWARLAwvaJuAHs0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gHsFw8JgWCE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gHsFw8JgWCE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "xi18qwpMwZk",
+      "songTitle": "C.Y.F",
+      "title": "C.Y.F",
+      "artists": [
+        "Wah Wah Wah"
+      ],
+      "albumTitle": "Midnight Breakfast",
+      "albumBrowseId": "MPREb_t2dZb8VP8ua",
+      "duration": "2:27",
+      "durationSeconds": 147,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OGR83xJOFwp2JCjz-DE6YFSR-jVtiS03k5tPLEvzhqP0dpB5Yq6JuQ3dlGB2NSlPjWARLAwvaJuAHs0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xi18qwpMwZk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xi18qwpMwZk",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "BLVP1yPLbjA",
+      "songTitle": "I Am Not Dead",
+      "title": "I Am Not Dead",
+      "artists": [
+        "Wah Wah Wah"
+      ],
+      "albumTitle": "Midnight Breakfast",
+      "albumBrowseId": "MPREb_t2dZb8VP8ua",
+      "duration": "2:38",
+      "durationSeconds": 158,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OGR83xJOFwp2JCjz-DE6YFSR-jVtiS03k5tPLEvzhqP0dpB5Yq6JuQ3dlGB2NSlPjWARLAwvaJuAHs0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BLVP1yPLbjA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BLVP1yPLbjA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 와와와 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=wrjBsikh7YI%2CDaHLUzYSBx0%2CHhk9d6Umu44%2CKz6G3_KpqG8%2C5d2c3WQ-lxQ%2C9ujTYHbuOsM%2CeCECeVJ0m1k%2CgHsFw8JgWCE%2Cxi18qwpMwZk%2CBLVP1yPLbjA&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%99%80%EC%99%80%EC%99%80+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=wrjBsikh7YI&list=RDAMVMwrjBsikh7YI"
+}

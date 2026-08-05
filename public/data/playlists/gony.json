@@ -1,0 +1,208 @@
+{
+  "artistId": "gony",
+  "artistName": "고니",
+  "englishName": "GONY",
+  "collectedAt": "2026-08-05T12:32:56.871641+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 970,
+    "latestSlotLabel": "16:10",
+    "festivalId": "jumf-2026",
+    "rank": 0.388,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCYNIw2vmqfjdZqJO32zwR4A",
+    "name": "GonyBand",
+    "subscribers": "230",
+    "channelId": "UCYNIw2vmqfjdZqJO32zwR4A",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/e4Jh-29JCkiwF8G1S-2OFe5ZvSWjvvDpYo66Lb7rpG7--kHCwusHoQi12bEKE_8xWmjyBfdpGIHmWA=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCYNIw2vmqfjdZqJO32zwR4A"
+  },
+  "tracks": [
+    {
+      "videoId": "ecKUTWBQMu4",
+      "songTitle": "A long sleep",
+      "title": "A long sleep",
+      "artists": [
+        "GonyBand"
+      ],
+      "albumTitle": "WAVE",
+      "albumBrowseId": "MPREb_t3gYOfE6xqu",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_HgAONUlxFnNlQfYNdr4mf7jHnbOIY3z5RQr-VPnA1MiFDnDqgoNqWwiJR-lP40ALKB8ProZ7IzrxPud=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ecKUTWBQMu4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ecKUTWBQMu4",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "aQ4kefuLkK0",
+      "songTitle": "Call it love",
+      "title": "Call it love",
+      "artists": [
+        "GonyBand"
+      ],
+      "albumTitle": "WAVE",
+      "albumBrowseId": "MPREb_t3gYOfE6xqu",
+      "duration": "4:08",
+      "durationSeconds": 248,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_HgAONUlxFnNlQfYNdr4mf7jHnbOIY3z5RQr-VPnA1MiFDnDqgoNqWwiJR-lP40ALKB8ProZ7IzrxPud=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aQ4kefuLkK0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=aQ4kefuLkK0",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "OPwKM5rtktA",
+      "songTitle": "Make my name",
+      "title": "Make my name",
+      "artists": [
+        "고니밴드"
+      ],
+      "albumTitle": "Make my name",
+      "albumBrowseId": "MPREb_QwKVIAk1I43",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ILZ4YRUuqmQNv6Z2SakpsVhHYweSge2S5QJ8ANkO3Yss-TjZ30yxM8pGIZR3QFs6iAS73SaOD8zZH6eC=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OPwKM5rtktA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OPwKM5rtktA",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "PRI_LvLRl5A",
+      "songTitle": "Give me water",
+      "title": "Give me water",
+      "artists": [
+        "GonyBand"
+      ],
+      "albumTitle": "WAVE",
+      "albumBrowseId": "MPREb_t3gYOfE6xqu",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_HgAONUlxFnNlQfYNdr4mf7jHnbOIY3z5RQr-VPnA1MiFDnDqgoNqWwiJR-lP40ALKB8ProZ7IzrxPud=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PRI_LvLRl5A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PRI_LvLRl5A",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ymCj-rIHv8Q",
+      "songTitle": "Somebody loves me",
+      "title": "Somebody loves me",
+      "artists": [
+        "GonyBand"
+      ],
+      "albumTitle": "Somebody loves me",
+      "albumBrowseId": "MPREb_simTHqPkN10",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Slf3-_vImMvvld6P9B1HjTvsYy5z8-NDu6VoRIr-pnYJ3ecyIvau1Eq35JsDzUyj6vZWw_mmKg1oAXUg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ymCj-rIHv8Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ymCj-rIHv8Q",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "fmpfz-gCNFc",
+      "songTitle": "Happy",
+      "title": "Happy",
+      "artists": [
+        "GonyBand"
+      ],
+      "albumTitle": "Happy",
+      "albumBrowseId": "MPREb_RbY00gnnmKf",
+      "duration": "3:55",
+      "durationSeconds": 235,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/q5lGRv-a2uR92BwXZKOwcKIP8Tn9qICFhQJbQtY2z9ngWBxl-QxVmhg-osTOyjOFwwgHj5lOQLt_97Ep9w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fmpfz-gCNFc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fmpfz-gCNFc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dCXlWa_y-zs",
+      "songTitle": "Witch hunt",
+      "title": "Witch hunt",
+      "artists": [
+        "GonyBand"
+      ],
+      "albumTitle": "WAVE",
+      "albumBrowseId": "MPREb_t3gYOfE6xqu",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_HgAONUlxFnNlQfYNdr4mf7jHnbOIY3z5RQr-VPnA1MiFDnDqgoNqWwiJR-lP40ALKB8ProZ7IzrxPud=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dCXlWa_y-zs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dCXlWa_y-zs",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "TBsEgSMfcj8",
+      "songTitle": "We love even when it hurts",
+      "title": "We love even when it hurts",
+      "artists": [
+        "GonyBand"
+      ],
+      "albumTitle": "WAVE",
+      "albumBrowseId": "MPREb_t3gYOfE6xqu",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_HgAONUlxFnNlQfYNdr4mf7jHnbOIY3z5RQr-VPnA1MiFDnDqgoNqWwiJR-lP40ALKB8ProZ7IzrxPud=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TBsEgSMfcj8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TBsEgSMfcj8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "fkWTixnUzzA",
+      "songTitle": "Jin, Jin",
+      "title": "Jin, Jin",
+      "artists": [
+        "고니밴드"
+      ],
+      "albumTitle": "Jin, Jin",
+      "albumBrowseId": "MPREb_QT1zShfrZGP",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eAjzA5kJR2Tp8AgMLnN78FXkB97xALiHECERb_1XIhS7OKuax6vgm9rMpp30xnLNEgp33VGvAkLhP5K-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fkWTixnUzzA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fkWTixnUzzA",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "LoLek6WnaO4",
+      "songTitle": "Dear for you",
+      "title": "Dear for you",
+      "artists": [
+        "GonyBand"
+      ],
+      "albumTitle": "WAVE",
+      "albumBrowseId": "MPREb_t3gYOfE6xqu",
+      "duration": "3:11",
+      "durationSeconds": 191,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_HgAONUlxFnNlQfYNdr4mf7jHnbOIY3z5RQr-VPnA1MiFDnDqgoNqWwiJR-lP40ALKB8ProZ7IzrxPud=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LoLek6WnaO4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LoLek6WnaO4",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 고니 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ecKUTWBQMu4%2CaQ4kefuLkK0%2COPwKM5rtktA%2CPRI_LvLRl5A%2CymCj-rIHv8Q%2Cfmpfz-gCNFc%2CdCXlWa_y-zs%2CTBsEgSMfcj8%2CfkWTixnUzzA%2CLoLek6WnaO4&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EA%B3%A0%EB%8B%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ecKUTWBQMu4&list=RDAMVMecKUTWBQMu4"
+}

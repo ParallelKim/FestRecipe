@@ -1,0 +1,203 @@
+{
+  "artistId": "urban-zakapa",
+  "artistName": "어반자카파",
+  "englishName": "Urban Zakapa",
+  "collectedAt": "2026-08-05T12:30:53.281467+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCsYJTPdjnUFuBaV09tGDPOw",
+    "name": "URBAN ZAKAPA",
+    "subscribers": "72.8K",
+    "channelId": "UCqqOWfMOiLuxn5MZVCWQTVw",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/qTH-9agvAh4CG0IRe6I-UMVTYsFRYuNbJPxsgd-AxF1cVO-fZR_fSdVDI1RALptTYkWm9ilyn_lmXOz0=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCsYJTPdjnUFuBaV09tGDPOw"
+  },
+  "tracks": [
+    {
+      "videoId": "fYsDi91T-SA",
+      "songTitle": "I Don't Love You (널 사랑하지 않아)",
+      "title": "I Don't Love You (널 사랑하지 않아)",
+      "artists": [
+        "URBAN ZAKAPA"
+      ],
+      "albumTitle": "STILL (스틸)",
+      "albumBrowseId": "MPREb_4O3jirxPz2e",
+      "duration": "4:15",
+      "durationSeconds": 255,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-2OuuEoYFp9LluR8MP2qhYskKqIY3Weztgrz25Gkt_QP7fWkeHv5wulaWVEyM1PsGxTgzhB0cwsqR6U=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fYsDi91T-SA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fYsDi91T-SA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "rfykBICvtCo",
+      "songTitle": "Thursday Night(목요일 밤) ) (feat. Beenzino)",
+      "title": "Thursday Night(목요일 밤) ) (feat. Beenzino)",
+      "artists": [
+        "URBAN ZAKAPA(어반자카파)"
+      ],
+      "albumTitle": "Thursday Night(목요일 밤)",
+      "albumBrowseId": "MPREb_exJq7A1hxSd",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uoEAMagqBhRVo3XKcplhgS2z5h-XkNPsgSF1k6wTSQG_3sxSZZijhk0TT-3LKYIF6wyi-Fh7IdDDwH4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rfykBICvtCo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rfykBICvtCo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "JbTfRru0e0w",
+      "songTitle": "My Love (그날에 우리)",
+      "title": "My Love (그날에 우리)",
+      "artists": [
+        "Urban Zakapa"
+      ],
+      "albumTitle": "《01》",
+      "albumBrowseId": "MPREb_aU1r5SR6Xzt",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/cgtkYIa9JIUt05uXXpPbottyadRdndg1_cUUylaD9LGhX_O-WmKcRwkTnqyNomHKKaMTpv78tWH2M7PO9Q=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JbTfRru0e0w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JbTfRru0e0w",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "mFiPDf7ls90",
+      "songTitle": "Beautiful Day",
+      "title": "Beautiful Day",
+      "artists": [
+        "Urban Zakapa"
+      ],
+      "albumTitle": "Beautiful Day",
+      "albumBrowseId": "MPREb_DGJyRMU2pO2",
+      "duration": "3:32",
+      "durationSeconds": 212,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/czuLkAJw4qn7rmPLK_WG-YOylkPRETwEufICWAdzy3a3-YrT78x0MJfPVUliPjxhY3C220MX9RrTqwqY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mFiPDf7ls90",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mFiPDf7ls90",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "JYVVx_6i_dc",
+      "songTitle": "Get (feat. Beenzino)",
+      "title": "Get (feat. Beenzino)",
+      "artists": [
+        "Urban Zakapa"
+      ],
+      "albumTitle": "Get",
+      "albumBrowseId": "MPREb_BvPcTMwrPTx",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MbXt3gs1hNQSMHIQy87xKqsj8e5GVNbupqRUmFzUSIngDbOt8b1BQ-tPjobmTZK8Q8isdaBwsv5ln-Bg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JYVVx_6i_dc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JYVVx_6i_dc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "vANdEL9vpjw",
+      "songTitle": "그대 고운 내사랑 Beautiful My Love",
+      "title": "그대 고운 내사랑 Beautiful My Love",
+      "artists": [
+        "어반자카파 URBAN ZAKAPA"
+      ],
+      "albumTitle": "슬기로운 의사생활 HOSPITAL PLAYLIST OST Part 5",
+      "albumBrowseId": "MPREb_TG3HwBIinuV",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UrQK_Qa8neXrc7GTIpIs9hm8jtzCJ0pMfANbKz_HqiSYFxl109DZu-iJRzPjSzNK9FU_xVWhBsolzzu4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vANdEL9vpjw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vANdEL9vpjw",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "shHDB4brjII",
+      "songTitle": "Stay",
+      "title": "Stay",
+      "artists": [
+        "URBAN ZAKAPA"
+      ],
+      "albumTitle": "Stay",
+      "albumBrowseId": "MPREb_184J8Fh7OYv",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/E4tAE0_OyvQxJGdv4IKkMEpvyOuuCrLH6Hr1iu3XX44IZvPn7D410wrBoQgnZn3mcJmucTSOM6_VSIbv=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=shHDB4brjII",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=shHDB4brjII",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "DUfc_NIWcYw",
+      "songTitle": "소원 Wish",
+      "title": "소원 Wish",
+      "artists": [
+        "어반자카파 URBAN ZAKAPA"
+      ],
+      "albumTitle": "도깨비 OST Part 10 Guardian (Original Television Soundtrack) Pt 10",
+      "albumBrowseId": "MPREb_qlBlTl50yaS",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oBnY8Rcezl0Vu1jGrwwlxTsvcshyB17VYVoRmq4Y7vsHDPRWYTqDCSqVMC6TZBVoSXn8TvwnrQ_h1gQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DUfc_NIWcYw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DUfc_NIWcYw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "IweuqB1_hB8",
+      "songTitle": "Seoul Night(서울 밤) )",
+      "title": "Seoul Night(서울 밤) )",
+      "artists": [
+        "URBAN ZAKAPA(어반자카파)"
+      ],
+      "albumTitle": "Seoul Night(서울 밤)",
+      "albumBrowseId": "MPREb_aUrDRQRqMFi",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OctOEposmT2M0_VgTNa_QeX-ZiLaDEYj1nmpcKXY9e5MyaubicceRPOnfH4cm3kTOf6CHc3S8W35xUY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IweuqB1_hB8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=IweuqB1_hB8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dKBYnD0V-9M",
+      "songTitle": "One Spring Day (봄을 그리다)",
+      "title": "One Spring Day (봄을 그리다)",
+      "artists": [
+        "Urban Zakapa"
+      ],
+      "albumTitle": "《01》",
+      "albumBrowseId": "MPREb_aU1r5SR6Xzt",
+      "duration": "4:30",
+      "durationSeconds": 270,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/cgtkYIa9JIUt05uXXpPbottyadRdndg1_cUUylaD9LGhX_O-WmKcRwkTnqyNomHKKaMTpv78tWH2M7PO9Q=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dKBYnD0V-9M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dKBYnD0V-9M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "어반자카파 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=fYsDi91T-SA%2CrfykBICvtCo%2CJbTfRru0e0w%2CmFiPDf7ls90%2CJYVVx_6i_dc%2CvANdEL9vpjw%2CshHDB4brjII%2CDUfc_NIWcYw%2CIweuqB1_hB8%2CdKBYnD0V-9M&title=%EC%96%B4%EB%B0%98%EC%9E%90%EC%B9%B4%ED%8C%8C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=fYsDi91T-SA&list=RDAMVMfYsDi91T-SA"
+}

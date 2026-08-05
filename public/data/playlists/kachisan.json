@@ -1,0 +1,211 @@
+{
+  "artistId": "kachisan",
+  "artistName": "까치산",
+  "englishName": "Kachisan",
+  "collectedAt": "2026-08-05T12:30:28.332597+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 970,
+    "latestSlotLabel": "16:10",
+    "festivalId": "jumf-2026",
+    "rank": 0.379,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC6Igq_9FoEQuQQM9poinXNg",
+    "name": "KACHISAN",
+    "subscribers": "5.47K",
+    "channelId": "UCBn6FgwJUNbeP6fKVii_Wdg",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/zyv8l8F94tUKZi4KnREe-t1FPuhkMXTMdjkeeDrCcvoi8MeoK-6naG1D9493Fw3tTpxM2rkBqfuuVg=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC6Igq_9FoEQuQQM9poinXNg"
+  },
+  "tracks": [
+    {
+      "videoId": "7BrdEeYE2Mw",
+      "songTitle": "Dotted Line",
+      "title": "Dotted Line",
+      "artists": [
+        "KACHISAN"
+      ],
+      "albumTitle": "Hello, We Are Kachisan.",
+      "albumBrowseId": "MPREb_UJXjyOW7pIA",
+      "duration": "1:18",
+      "durationSeconds": 78,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Cot1ld9s7D_J0L53kYrJwnuSs-2Yi3XSZpD7DqMqx_KzCObUxkVk0jyUnVhK0nlxTczJT7hKHBRVvzs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7BrdEeYE2Mw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7BrdEeYE2Mw",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "M-9mOYXeHAU",
+      "songTitle": "Faces or Masks",
+      "title": "Faces or Masks",
+      "artists": [
+        "KACHISAN"
+      ],
+      "albumTitle": "EVIL AND I",
+      "albumBrowseId": "MPREb_kKAYGCKFaSa",
+      "duration": "3:19",
+      "durationSeconds": 199,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XDv76N9nH-ZCD-1BBUypEWJdVo60Cvmz19wJAZj2EfxcqlS8zjZnKqa_LYdk1A18fwSJRj2cxMtQkGGy3A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M-9mOYXeHAU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=M-9mOYXeHAU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "gje-p5x8C2Q",
+      "songTitle": "Humanoid Monster",
+      "title": "Humanoid Monster",
+      "artists": [
+        "KACHISAN"
+      ],
+      "albumTitle": "Hello, We Are Kachisan.",
+      "albumBrowseId": "MPREb_UJXjyOW7pIA",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Cot1ld9s7D_J0L53kYrJwnuSs-2Yi3XSZpD7DqMqx_KzCObUxkVk0jyUnVhK0nlxTczJT7hKHBRVvzs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gje-p5x8C2Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gje-p5x8C2Q",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "ZW_iE8NiFzY",
+      "songTitle": "Theme of Love",
+      "title": "Theme of Love",
+      "artists": [
+        "KACHISAN"
+      ],
+      "albumTitle": "Theme of Love",
+      "albumBrowseId": "MPREb_fgwSFWS12cR",
+      "duration": "3:05",
+      "durationSeconds": 185,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ODoj1uTkCNZEN0MA8nGMyFIDASSh5iXUWVJg-EVyDVZGZ2NcJqllVInlKzCbN7WG0HwE5EhU_RtXOpXQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZW_iE8NiFzY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZW_iE8NiFzY",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "lQ-dDPG4zU4",
+      "songTitle": "RESCUE!",
+      "title": "RESCUE!",
+      "artists": [
+        "KACHISAN"
+      ],
+      "albumTitle": "RESCUE!",
+      "albumBrowseId": "MPREb_iMdpPdCyBq9",
+      "duration": "3:18",
+      "durationSeconds": 198,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BaoYD9I641AAwMouLxRJE-BnYFfT7si7HbJkM_M8ml4i2MPg94-mwZM9tHqzJgV_6qptBZPL01sKoqL7=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lQ-dDPG4zU4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lQ-dDPG4zU4",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "SXnUH65mzeI",
+      "songTitle": "Lie Machine",
+      "title": "Lie Machine",
+      "artists": [
+        "KACHISAN"
+      ],
+      "albumTitle": "Hello, We Are Kachisan.",
+      "albumBrowseId": "MPREb_UJXjyOW7pIA",
+      "duration": "2:55",
+      "durationSeconds": 175,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Cot1ld9s7D_J0L53kYrJwnuSs-2Yi3XSZpD7DqMqx_KzCObUxkVk0jyUnVhK0nlxTczJT7hKHBRVvzs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SXnUH65mzeI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SXnUH65mzeI",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "-RRj3ivnNEY",
+      "songTitle": "Convenient Love",
+      "title": "Convenient Love",
+      "artists": [
+        "KACHISAN"
+      ],
+      "albumTitle": "Hello, We Are Kachisan.",
+      "albumBrowseId": "MPREb_UJXjyOW7pIA",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Cot1ld9s7D_J0L53kYrJwnuSs-2Yi3XSZpD7DqMqx_KzCObUxkVk0jyUnVhK0nlxTczJT7hKHBRVvzs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-RRj3ivnNEY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-RRj3ivnNEY",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "l-fuGuhh0h0",
+      "songTitle": "Incomplete & Repetition",
+      "title": "Incomplete & Repetition",
+      "artists": [
+        "KACHISAN"
+      ],
+      "albumTitle": "Incomplete & Repetition",
+      "albumBrowseId": "MPREb_kdh9O4tCt4X",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Bwsv-Q50dwAhAd07nJoz0lPIktVBAZAyakXguBG9A5g5B2F5RF7Z7C6PD1sLUe-FQ4RN75QiEfWnH1cG=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=l-fuGuhh0h0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=l-fuGuhh0h0",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "ee6halFa-rw",
+      "songTitle": "The Mom of Moms",
+      "title": "The Mom of Moms",
+      "artists": [
+        "KACHISAN"
+      ],
+      "albumTitle": "Hello, We Are Kachisan.",
+      "albumBrowseId": "MPREb_UJXjyOW7pIA",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Cot1ld9s7D_J0L53kYrJwnuSs-2Yi3XSZpD7DqMqx_KzCObUxkVk0jyUnVhK0nlxTczJT7hKHBRVvzs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ee6halFa-rw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ee6halFa-rw",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "r6DQN-v4V2E",
+      "songTitle": "More than Noise",
+      "title": "More than Noise",
+      "artists": [
+        "KACHISAN"
+      ],
+      "albumTitle": "More than Noise",
+      "albumBrowseId": "MPREb_inf0UM6jp7S",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6qIX4_FaA2w8HDFy-7oLsUNOUoysiAstzuQDiG6FCHCP_n9evdJ88fBklk6uB1YdEBL3-zWv-vhocj9Z=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=r6DQN-v4V2E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=r6DQN-v4V2E",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 까치산 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=7BrdEeYE2Mw%2CM-9mOYXeHAU%2Cgje-p5x8C2Q%2CZW_iE8NiFzY%2ClQ-dDPG4zU4%2CSXnUH65mzeI%2C-RRj3ivnNEY%2Cl-fuGuhh0h0%2Cee6halFa-rw%2Cr6DQN-v4V2E&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EA%B9%8C%EC%B9%98%EC%82%B0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=7BrdEeYE2Mw&list=RDAMVM7BrdEeYE2Mw"
+}
