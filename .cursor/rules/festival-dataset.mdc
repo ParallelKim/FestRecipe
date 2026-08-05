@@ -43,6 +43,7 @@ alwaysApply: false
 - `signatureColor`·`status`·`tagline`(짧은 매력 문장)·`description`(주최/규모/스테이지 수 등)
 - 스테이지: `stageStyles[]`(타임테이블일 때 색), 요일별 `stages[]`
 - 아티스트 표기명은 `docs/ARTIST_DISPLAY_NAMES.md` 정책을 따른다
+- TT가 콜라보 유닛(예: `블랙홀 X 방수미`)이면 슬롯도 유닛 id 하나. `artists.json`에 `composedOf`로 멤버를 기록하고 PL은 병합한다 → 동 문서 §콜라보·피처링
 
 ## 출처 · 정합성
 

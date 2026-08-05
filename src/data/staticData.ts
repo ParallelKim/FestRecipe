@@ -38,10 +38,28 @@ export function getFestivalRawById(id: string): RawRecord | null {
   return festivalRawById[id] ?? null
 }
 
-/** 대표곡 플레이리스트가 준비된 artistId 집합 (읽기 전용으로 취급) */
-export const playlistReadyIds: ReadonlySet<string> = new Set(
+/** 파일로 존재하는 대표곡 PL artistId (인덱스 기준) */
+const playlistFileIds: ReadonlySet<string> = new Set(
   (playlistIndexData as { artists?: string[] }).artists ?? [],
 )
+
+/**
+ * 대표곡이 준비된 artistId.
+ * `composedOf` 콜라보는 전용 PL이 없어도 멤버 PL이 하나라도 있으면 포함.
+ * @see docs/ARTIST_DISPLAY_NAMES.md §콜라보·피처링
+ */
+function buildPlaylistReadyIds(): Set<string> {
+  const ready = new Set(playlistFileIds)
+  for (const a of artistsData as unknown as Artist[]) {
+    if (ready.has(a.id)) continue
+    const members = a.composedOf
+    if (!Array.isArray(members) || members.length === 0) continue
+    if (members.some((id) => playlistFileIds.has(id))) ready.add(a.id)
+  }
+  return ready
+}
+
+export const playlistReadyIds: ReadonlySet<string> = buildPlaylistReadyIds()
 
 /** 타입드 접근 (services/festivals 등 types 경로용) */
 export const festivals: Festival[] = orderedFestivalIds.map(

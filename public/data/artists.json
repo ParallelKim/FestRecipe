@@ -103,6 +103,13 @@
     "ytmName": "Band Nah"
   },
   {
+    "id": "bang-sumi",
+    "name": "방수미",
+    "englishName": "Bang Sumi",
+    "koreanName": "방수미",
+    "ytmName": "Bang Sumi"
+  },
+  {
     "id": "betcover",
     "name": "betcover!!",
     "englishName": "betcover!!",
@@ -114,13 +121,19 @@
     "name": "블랙홀",
     "englishName": "Black Hole",
     "koreanName": "블랙홀",
-    "ytmName": "Black Hole"
+    "ytmName": "Black Hole",
+    "ytmBrowseId": "UCJXby81Qr0ruqh_RR_ZA4kw"
   },
   {
     "id": "blackhole-x-bangsumi",
     "name": "블랙홀 X 방수미",
-    "englishName": "Blackhole X Bang Sumi",
-    "ytmName": "Black Hole"
+    "englishName": "Black Hole X Bang Sumi",
+    "ytmName": "Black Hole",
+    "composedOf": [
+      "blackhole",
+      "bang-sumi"
+    ],
+    "playlistMode": "merge"
   },
   {
     "id": "bongjeingan",

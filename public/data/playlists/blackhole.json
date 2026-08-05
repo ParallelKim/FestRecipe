@@ -1,0 +1,209 @@
+{
+  "artistId": "blackhole",
+  "artistName": "블랙홀",
+  "englishName": "Black Hole",
+  "collectedAt": "2026-08-05T15:12:35.059650+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCJXby81Qr0ruqh_RR_ZA4kw",
+    "name": "Black Hole",
+    "subscribers": "20.9K",
+    "channelId": "UCDgPjnmbU-JzzAZDbCk_2DA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/I-WY0rW13Ko0dkkasnhh1FaF_a6KLqXz15pqdIp9PI7fCltF5nRCqgqI-OvDIAw0iFNFd3LS3lfuclo=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCJXby81Qr0ruqh_RR_ZA4kw"
+  },
+  "tracks": [
+    {
+      "videoId": "quICtGfDAUw",
+      "songTitle": "깊은 밤의 서정곡",
+      "title": "깊은 밤의 서정곡",
+      "artists": [
+        "Black Hole"
+      ],
+      "albumTitle": "miracle",
+      "albumBrowseId": "MPREb_YWVgDTiWCsZ",
+      "duration": "5:32",
+      "durationSeconds": 332,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wLEiRSr6rJ4TuZLgWdaF2hKSZWhbURkDU145fBuS3YV0qmIf8eFcJxcnpn2o53GS_PE_Fr0N3zqTCRQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=quICtGfDAUw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=quICtGfDAUw",
+      "source": "ytm_songs_popular",
+      "year": "1989",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "5ZWQfx-IhnY",
+      "songTitle": "삶 (Life)",
+      "title": "삶 (Life)",
+      "artists": [
+        "블랙홀 (Black Hole)"
+      ],
+      "albumTitle": "8집 Hero",
+      "albumBrowseId": "MPREb_L26fTZGid3U",
+      "duration": "4:49",
+      "durationSeconds": 289,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FIyHmPFmYDDrQWPEB03zl0F7IL0oorliX6fOXGsdLa20p2jKEUcuZAZ27MV-qCSgpWQRlgUs_dYbLVPb=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5ZWQfx-IhnY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5ZWQfx-IhnY",
+      "source": "ytm_songs_popular",
+      "year": "2005",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "pCcwNUtpa5c",
+      "songTitle": "땅과 태양의 아이 (Child of the Earth and Sun)",
+      "title": "땅과 태양의 아이 (Child of the Earth and Sun)",
+      "artists": [
+        "블랙홀 (Black Hole)"
+      ],
+      "albumTitle": "8집 Hero",
+      "albumBrowseId": "MPREb_L26fTZGid3U",
+      "duration": "5:21",
+      "durationSeconds": 321,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FIyHmPFmYDDrQWPEB03zl0F7IL0oorliX6fOXGsdLa20p2jKEUcuZAZ27MV-qCSgpWQRlgUs_dYbLVPb=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pCcwNUtpa5c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pCcwNUtpa5c",
+      "source": "ytm_songs_popular",
+      "year": "2005",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "_6Smdm1tCd0",
+      "songTitle": "Your pain by my side",
+      "title": "Your pain by my side",
+      "artists": [
+        "블랙홀"
+      ],
+      "albumTitle": "Back To The Music Black Hole",
+      "albumBrowseId": "MPREb_yp1WnvsNLCu",
+      "duration": "5:15",
+      "durationSeconds": 315,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XhstCZVbn8uTKxYqUSV2ZZyjNPjEMiNHpghvacE0nrzAS4QMtYOkgFt7RkSiYYlKJzcvAIvuyFKiUjI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_6Smdm1tCd0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_6Smdm1tCd0",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "v-4vUYcCcb4",
+      "songTitle": "겨울풀잎",
+      "title": "겨울풀잎",
+      "artists": [
+        "Black Hole"
+      ],
+      "albumTitle": "miracle",
+      "albumBrowseId": "MPREb_YWVgDTiWCsZ",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wLEiRSr6rJ4TuZLgWdaF2hKSZWhbURkDU145fBuS3YV0qmIf8eFcJxcnpn2o53GS_PE_Fr0N3zqTCRQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v-4vUYcCcb4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=v-4vUYcCcb4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "UYpsnRNLxSs",
+      "songTitle": "야간비행",
+      "title": "야간비행",
+      "artists": [
+        "Black Hole"
+      ],
+      "albumTitle": "miracle",
+      "albumBrowseId": "MPREb_YWVgDTiWCsZ",
+      "duration": "2:56",
+      "durationSeconds": 176,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wLEiRSr6rJ4TuZLgWdaF2hKSZWhbURkDU145fBuS3YV0qmIf8eFcJxcnpn2o53GS_PE_Fr0N3zqTCRQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UYpsnRNLxSs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UYpsnRNLxSs",
+      "source": "ytm_songs_popular",
+      "year": "1989",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "BDsIDUNca7E",
+      "songTitle": "Forever",
+      "title": "Forever",
+      "artists": [
+        "블랙홀 (Black Hole)"
+      ],
+      "albumTitle": "8집 Hero",
+      "albumBrowseId": "MPREb_L26fTZGid3U",
+      "duration": "4:23",
+      "durationSeconds": 263,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FIyHmPFmYDDrQWPEB03zl0F7IL0oorliX6fOXGsdLa20p2jKEUcuZAZ27MV-qCSgpWQRlgUs_dYbLVPb=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BDsIDUNca7E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BDsIDUNca7E",
+      "source": "ytm_songs_popular",
+      "year": "2005",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "ccFucimqU_g",
+      "songTitle": "M.FOLLOWER",
+      "title": "M.FOLLOWER",
+      "artists": [
+        "Black Hole"
+      ],
+      "albumTitle": "Evolution",
+      "albumBrowseId": "MPREb_Wox8vA1baiE",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uWyTMpH1vv0NqSrFHuyz1Z_HybiqtevVw7sm2Zm0sEWrMwdzGO8mcFYQ7A2d3RYnSB9Hh37Ig0qKjyvJ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ccFucimqU_g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ccFucimqU_g",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "_G_xv8UmLrI",
+      "songTitle": "그 길은 외롭지 않습니다",
+      "title": "그 길은 외롭지 않습니다",
+      "artists": [
+        "Black Hole"
+      ],
+      "albumTitle": "HOPE",
+      "albumBrowseId": "MPREb_ztHCNKsqKtD",
+      "duration": "3:05",
+      "durationSeconds": 185,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/x3GY1CFNk1tsGZk0jkiomMaL_chhgte1mVvVHrXt-0enSCy1U8h4OU6cUPZgXf5mYiCCbyfFVJyQ-I0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_G_xv8UmLrI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_G_xv8UmLrI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "E1YSyqsY8mo",
+      "songTitle": "이상을 향하여",
+      "title": "이상을 향하여",
+      "artists": [
+        "Black Hole"
+      ],
+      "albumTitle": "miracle",
+      "albumBrowseId": "MPREb_YWVgDTiWCsZ",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wLEiRSr6rJ4TuZLgWdaF2hKSZWhbURkDU145fBuS3YV0qmIf8eFcJxcnpn2o53GS_PE_Fr0N3zqTCRQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E1YSyqsY8mo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=E1YSyqsY8mo",
+      "source": "ytm_songs_popular",
+      "year": "1989",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "블랙홀 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=quICtGfDAUw%2C5ZWQfx-IhnY%2CpCcwNUtpa5c%2C_6Smdm1tCd0%2Cv-4vUYcCcb4%2CUYpsnRNLxSs%2CBDsIDUNca7E%2CccFucimqU_g%2C_G_xv8UmLrI%2CE1YSyqsY8mo&title=%EB%B8%94%EB%9E%99%ED%99%80+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=quICtGfDAUw&list=RDAMVMquICtGfDAUw"
+}

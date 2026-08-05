@@ -132,14 +132,28 @@ export function mapFestivalView(raw: Record<string, unknown>): MobileFestivalVie
 }
 
 export function mapArtistViews(rawList: Record<string, unknown>[]): MobileArtistView[] {
-  return rawList
-    .map((raw) => {
-      const id = asString(raw.id)
-      if (!id) return null
-      return {
-        id,
-        displayName: asString(raw.name, id),
-      }
-    })
-    .filter((a): a is MobileArtistView => a !== null)
+  const nameById = new Map<string, string>()
+  for (const raw of rawList) {
+    const id = asString(raw.id)
+    if (!id) continue
+    nameById.set(id, asString(raw.name, id))
+  }
+
+  const views: MobileArtistView[] = []
+  for (const raw of rawList) {
+    const id = asString(raw.id)
+    if (!id) continue
+    const composed = Array.isArray(raw.composedOf)
+      ? raw.composedOf.filter((x): x is string => typeof x === 'string' && x.length > 0)
+      : []
+    const view: MobileArtistView = {
+      id,
+      displayName: asString(raw.name, id),
+    }
+    if (composed.length > 0) {
+      view.featLabel = composed.map((mid) => nameById.get(mid) ?? mid).join(' · ')
+    }
+    views.push(view)
+  }
+  return views
 }

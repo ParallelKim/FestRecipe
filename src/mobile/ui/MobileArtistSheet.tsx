@@ -42,7 +42,14 @@ export default function MobileArtistSheet({
           aria-hidden="true"
         />
 
-        <h2 className="mb-4 text-xl font-extrabold leading-snug">{artist.displayName}</h2>
+        <h2 className="text-xl font-extrabold leading-snug">{artist.displayName}</h2>
+        {artist.featLabel ? (
+          <p className="mb-4 mt-1 text-xs leading-relaxed text-muted-foreground">
+            Feat. {artist.featLabel}
+          </p>
+        ) : (
+          <div className="mb-4" />
+        )}
 
         {loading && (
           <p className="text-[13px] leading-relaxed text-muted-foreground">

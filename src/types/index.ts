@@ -26,6 +26,15 @@ export interface Artist {
   genres?: string[]
   aliases?: string[]
   ytmBrowseId?: string
+  /**
+   * 콜라보/유닛 구성원 artistId.
+   * 전용 `playlists/{id}.json`이 없으면 런타임에서 멤버 PL을 병합한다.
+   * 예: `blackhole-x-bangsumi` → `['blackhole', 'bang-sumi']`
+   * @see docs/ARTIST_DISPLAY_NAMES.md §콜라보·피처링
+   */
+  composedOf?: string[]
+  /** 플레이리스트 구성. `merge` = 멤버 PL 라운드로빈 병합 (기본) */
+  playlistMode?: 'merge'
 }
 
 /** 인지도 티어에 따른 대표곡 플레이리스트 */

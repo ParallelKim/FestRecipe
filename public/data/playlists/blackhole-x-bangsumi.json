@@ -1,0 +1,222 @@
+{
+  "artistId": "blackhole-x-bangsumi",
+  "artistName": "블랙홀 X 방수미",
+  "englishName": "Black Hole X Bang Sumi",
+  "collectedAt": "2026-08-05T15:13:04.195707+00:00",
+  "source": "youtube_music",
+  "selection": "composedOf_merge",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "reason": "timetable_lateness",
+    "festivalId": "jumf-2026"
+  },
+  "songCount": 12,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": null,
+    "name": "블랙홀 X 방수미",
+    "note": "Collab act: playlist merges composedOf members (blackhole + bang-sumi). Collab singles credited to Black Hole on YTM."
+  },
+  "composedOf": [
+    "blackhole",
+    "bang-sumi"
+  ],
+  "tracks": [
+    {
+      "videoId": "d8TZeD-ydL8",
+      "songTitle": "이 몸이 죽고 죽어 (Death After Death)",
+      "title": "이 몸이 죽고 죽어 (Death After Death)",
+      "artists": [
+        "블랙홀 (Black Hole)"
+      ],
+      "albumTitle": "8집 Hero",
+      "year": "2005",
+      "duration": "4:21",
+      "durationSeconds": 261,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FIyHmPFmYDDrQWPEB03zl0F7IL0oorliX6fOXGsdLa20p2jKEUcuZAZ27MV-qCSgpWQRlgUs_dYbLVPb=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=d8TZeD-ydL8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=d8TZeD-ydL8",
+      "source": "collab_priority"
+    },
+    {
+      "videoId": "N32RVuy_9R8",
+      "songTitle": "달빛아래 홀로 걷다 (Under the Moonlight)",
+      "title": "달빛아래 홀로 걷다 (Under the Moonlight)",
+      "artists": [
+        "블랙홀 (Black Hole)"
+      ],
+      "albumTitle": "8집 Hero",
+      "year": null,
+      "duration": "5:10",
+      "durationSeconds": 310,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FIyHmPFmYDDrQWPEB03zl0F7IL0oorliX6fOXGsdLa20p2jKEUcuZAZ27MV-qCSgpWQRlgUs_dYbLVPb=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=N32RVuy_9R8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=N32RVuy_9R8",
+      "source": "collab_priority"
+    },
+    {
+      "videoId": "XKrxennLdsc",
+      "songTitle": "When mung bean flowers bloom",
+      "title": "When mung bean flowers bloom",
+      "artists": [
+        "블랙홀"
+      ],
+      "albumTitle": "Back To The Music Black Hole",
+      "year": "2022",
+      "duration": "4:47",
+      "durationSeconds": 287,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XhstCZVbn8uTKxYqUSV2ZZyjNPjEMiNHpghvacE0nrzAS4QMtYOkgFt7RkSiYYlKJzcvAIvuyFKiUjI=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XKrxennLdsc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XKrxennLdsc",
+      "source": "collab_priority"
+    },
+    {
+      "videoId": "quICtGfDAUw",
+      "songTitle": "깊은 밤의 서정곡",
+      "title": "깊은 밤의 서정곡",
+      "artists": [
+        "Black Hole"
+      ],
+      "albumTitle": "miracle",
+      "year": "1989",
+      "duration": "5:32",
+      "durationSeconds": 332,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wLEiRSr6rJ4TuZLgWdaF2hKSZWhbURkDU145fBuS3YV0qmIf8eFcJxcnpn2o53GS_PE_Fr0N3zqTCRQ=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=quICtGfDAUw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=quICtGfDAUw",
+      "source": "collab_priority"
+    },
+    {
+      "videoId": "5ZWQfx-IhnY",
+      "songTitle": "삶 (Life)",
+      "title": "삶 (Life)",
+      "artists": [
+        "블랙홀 (Black Hole)"
+      ],
+      "albumTitle": "8집 Hero",
+      "year": "2005",
+      "duration": "4:49",
+      "durationSeconds": 289,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FIyHmPFmYDDrQWPEB03zl0F7IL0oorliX6fOXGsdLa20p2jKEUcuZAZ27MV-qCSgpWQRlgUs_dYbLVPb=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5ZWQfx-IhnY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5ZWQfx-IhnY",
+      "source": "collab_priority"
+    },
+    {
+      "videoId": "pCcwNUtpa5c",
+      "songTitle": "땅과 태양의 아이 (Child of the Earth and Sun)",
+      "title": "땅과 태양의 아이 (Child of the Earth and Sun)",
+      "artists": [
+        "블랙홀 (Black Hole)"
+      ],
+      "albumTitle": "8집 Hero",
+      "year": "2005",
+      "duration": "5:21",
+      "durationSeconds": 321,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FIyHmPFmYDDrQWPEB03zl0F7IL0oorliX6fOXGsdLa20p2jKEUcuZAZ27MV-qCSgpWQRlgUs_dYbLVPb=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pCcwNUtpa5c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pCcwNUtpa5c",
+      "source": "collab_priority"
+    },
+    {
+      "videoId": "_6Smdm1tCd0",
+      "songTitle": "Your pain by my side",
+      "title": "Your pain by my side",
+      "artists": [
+        "블랙홀"
+      ],
+      "albumTitle": "Back To The Music Black Hole",
+      "year": "2022",
+      "duration": "5:15",
+      "durationSeconds": 315,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XhstCZVbn8uTKxYqUSV2ZZyjNPjEMiNHpghvacE0nrzAS4QMtYOkgFt7RkSiYYlKJzcvAIvuyFKiUjI=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_6Smdm1tCd0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_6Smdm1tCd0",
+      "source": "collab_priority"
+    },
+    {
+      "videoId": "v-4vUYcCcb4",
+      "songTitle": "겨울풀잎",
+      "title": "겨울풀잎",
+      "artists": [
+        "Black Hole"
+      ],
+      "albumTitle": "miracle",
+      "year": null,
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wLEiRSr6rJ4TuZLgWdaF2hKSZWhbURkDU145fBuS3YV0qmIf8eFcJxcnpn2o53GS_PE_Fr0N3zqTCRQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v-4vUYcCcb4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=v-4vUYcCcb4",
+      "source": "collab_priority"
+    },
+    {
+      "videoId": "UYpsnRNLxSs",
+      "songTitle": "야간비행",
+      "title": "야간비행",
+      "artists": [
+        "Black Hole"
+      ],
+      "albumTitle": "miracle",
+      "year": "1989",
+      "duration": "2:56",
+      "durationSeconds": 176,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wLEiRSr6rJ4TuZLgWdaF2hKSZWhbURkDU145fBuS3YV0qmIf8eFcJxcnpn2o53GS_PE_Fr0N3zqTCRQ=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UYpsnRNLxSs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UYpsnRNLxSs",
+      "source": "collab_priority"
+    },
+    {
+      "videoId": "BDsIDUNca7E",
+      "songTitle": "Forever",
+      "title": "Forever",
+      "artists": [
+        "블랙홀 (Black Hole)"
+      ],
+      "albumTitle": "8집 Hero",
+      "year": "2005",
+      "duration": "4:23",
+      "durationSeconds": 263,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FIyHmPFmYDDrQWPEB03zl0F7IL0oorliX6fOXGsdLa20p2jKEUcuZAZ27MV-qCSgpWQRlgUs_dYbLVPb=w544-h544-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BDsIDUNca7E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BDsIDUNca7E",
+      "source": "collab_priority"
+    },
+    {
+      "videoId": "ccFucimqU_g",
+      "songTitle": "M.FOLLOWER",
+      "title": "M.FOLLOWER",
+      "artists": [
+        "Black Hole"
+      ],
+      "albumTitle": "Evolution",
+      "year": null,
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uWyTMpH1vv0NqSrFHuyz1Z_HybiqtevVw7sm2Zm0sEWrMwdzGO8mcFYQ7A2d3RYnSB9Hh37Ig0qKjyvJ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ccFucimqU_g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ccFucimqU_g",
+      "source": "collab_priority"
+    },
+    {
+      "videoId": "_G_xv8UmLrI",
+      "songTitle": "그 길은 외롭지 않습니다",
+      "title": "그 길은 외롭지 않습니다",
+      "artists": [
+        "Black Hole"
+      ],
+      "albumTitle": "HOPE",
+      "year": null,
+      "duration": "3:05",
+      "durationSeconds": 185,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/x3GY1CFNk1tsGZk0jkiomMaL_chhgte1mVvVHrXt-0enSCy1U8h4OU6cUPZgXf5mYiCCbyfFVJyQ-I0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_G_xv8UmLrI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_G_xv8UmLrI",
+      "source": "collab_priority"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 블랙홀 X 방수미 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=d8TZeD-ydL8%2CN32RVuy_9R8%2CXKrxennLdsc%2CquICtGfDAUw%2C5ZWQfx-IhnY%2CpCcwNUtpa5c%2C_6Smdm1tCd0%2Cv-4vUYcCcb4%2CUYpsnRNLxSs%2CBDsIDUNca7E%2CccFucimqU_g%2C_G_xv8UmLrI&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%B8%94%EB%9E%99%ED%99%80+X+%EB%B0%A9%EC%88%98%EB%AF%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=d8TZeD-ydL8&list=RDAMVMd8TZeD-ydL8"
+}

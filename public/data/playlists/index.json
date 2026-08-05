@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-05T12:34:04.654582+00:00",
-  "count": 167,
+  "updatedAt": "2026-08-05T15:13:04.196520+00:00",
+  "count": 169,
   "artists": [
     "10cm",
     "24th",
@@ -16,6 +16,8 @@
     "band-kirin",
     "band-nah",
     "betcover",
+    "blackhole",
+    "blackhole-x-bangsumi",
     "bongjeingan",
     "broken-teeth",
     "broken-valentine",
@@ -178,6 +180,7 @@
   "recognitionRule": {
     "withTimetable": "later slot => higher tier bundle (high=5, mid=4, low=3)",
     "withoutTimetable": "default low=3 bundle",
-    "artistListen": "ytm songs popular min=10 max=20"
+    "artistListen": "ytm songs popular min=10 max=20",
+    "composedOf": "collab artistIds may set composedOf[]; playlist may be pre-merged or resolved at runtime from members"
   }
 }
