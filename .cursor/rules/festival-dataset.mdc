@@ -1,0 +1,35 @@
+---
+description: 페스티벌 데이터셋 추가·수정 시 라인업·타임테이블·포스터·로고 등 필수 정보 수집 표준
+globs: public/data/festivals/*.json
+alwaysApply: false
+---
+
+# 페스티벌 데이터 수집 표준
+
+`public/data/**`가 SSOT다. 페스티벌을 추가/수정할 때 아래를 **모두** 수집·검증한다.
+"일부만" 넣지 말 것 — 공식 발표된 전체를 담는다.
+
+## 필수 수집 항목
+
+| 항목 | 저장 위치 | 비고 |
+|------|-----------|------|
+| **전체 라인업** | `festivals/{id}.json` `allArtists` + 요일별 `lineup[].artists` | 공식 발표 **전 팀** (부분 집합 금지). 팀 수는 공식 규모와 일치해야 함 |
+| **타임테이블** | 공개 시 `lineup[].slots`(+`day.stages`, `stageStyles`) → `lineupStage:"stage3_timetable"` | 미공개면 `stage2_daily`로 전체 요일별만, 시간·스테이지·요일을 **추측 금지** |
+| **공식 포스터** | `public/images/{id}-poster.*` → `posterUrl` | 원본 이미지를 실제로 저장(핫링크 금지) |
+| **페스티벌 로고** | `public/images/{id}-mark.*` → `logoUrl` (다크 히어로용 밝은 로고는 `logoLightUrl`) | |
+| **타임테이블/포스터 원본 캡처** | `sample/{id}/*.png` → `timetableSource.localAssets` | 표기명·슬롯 검수 근거 |
+
+## 기타 중요 정보 (누락 금지)
+
+- `name`·`shortName`·`startDate`·`endDate`·`location`(+`mapUrl`)·`websiteUrl`(공식)
+- `signatureColor`·`status`·`tagline`(짧은 매력 문장)·`description`(주최/규모/스테이지 수 등)
+- 스테이지: `stageStyles[]`(타임테이블일 때 색), 요일별 `stages[]`
+- 아티스트 표기명은 `docs/ARTIST_DISPLAY_NAMES.md` 정책을 따른다
+
+## 출처 · 정합성
+
+- 출처는 **공식(사무국 포스터·공식 홈·공식 SNS·예매처)** 우선. 블로그·커뮤니티는 교차확인용.
+- `timetableSource`에 `referenceUrl`·`secondaryUrls`·`referencedAt`·`note`·`localAssets` 기록.
+  타임테이블 미공개면 note에 "미공개 + 향후 `stage3_timetable` 승격" 명시.
+- 정합성: 모든 `artistId`가 `artists.json`에 존재 · `allArtists` = 요일별 라인업 합집합 · id 중복 없음.
+- `festivals/index.json` 등록 → 사이트맵 재생성 → 모바일 뷰포트에서 렌더 확인.
