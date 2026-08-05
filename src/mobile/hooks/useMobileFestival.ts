@@ -1,6 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useMemo } from 'react'
 import type { MobileArtistView, MobileFestivalView } from '../view/types'
-import { fetchArtistsJson, fetchFestivalJson, fetchPlaylistIndex } from '../data/loadJson'
+import {
+  artistsRaw,
+  getFestivalRawById,
+  playlistReadyIds,
+} from '../../data/staticData'
 import { mapArtistViews, mapFestivalView } from '../data/mapFestival'
 
 interface MobileFestivalState {
@@ -10,58 +14,40 @@ interface MobileFestivalState {
   playlistReady: Set<string>
 }
 
-export function useMobileFestival(festivalId: string | undefined) {
-  const [state, setState] = useState<MobileFestivalState | null>(null)
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(false)
+interface MobileFestivalResult {
+  state: MobileFestivalState | null
+  loading: boolean
+  error: boolean
+}
 
-  useEffect(() => {
-    let active = true
-    if (!festivalId) {
-      setLoading(false)
-      setState(null)
-      return
-    }
+/**
+ * 페스티벌·아티스트·플레이리스트 인덱스는 번들 데이터에서 동기 계산한다.
+ * 런타임 fetch가 없으므로 loading은 항상 false이며, 초기 스피너/워터폴이 사라진다.
+ * (아티스트별 대표곡은 useMobileListen에서 선택 시점에만 지연 로딩)
+ */
+export function useMobileFestival(
+  festivalId: string | undefined,
+): MobileFestivalResult {
+  return useMemo(() => {
+    if (!festivalId) return { state: null, loading: false, error: false }
 
-    setLoading(true)
-    setError(false)
+    const raw = getFestivalRawById(festivalId)
+    if (!raw) return { state: null, loading: false, error: true }
 
-    Promise.all([
-      fetchFestivalJson(festivalId),
-      fetchArtistsJson(),
-      fetchPlaylistIndex(),
-    ])
-      .then(([festRaw, artistsRaw, playlistReady]) => {
-        if (!active) return
-        if (!festRaw) {
-          setError(true)
-          setState(null)
-          return
-        }
-        const festival = mapFestivalView(festRaw)
-        if (!festival) {
-          setError(true)
-          setState(null)
-          return
-        }
-        const artists = mapArtistViews(artistsRaw)
-        const artistMap = new Map(artists.map((a) => [a.id, a]))
-        setState({ festival, artists, artistMap, playlistReady })
-      })
-      .catch(() => {
-        if (active) {
-          setError(true)
-          setState(null)
-        }
-      })
-      .finally(() => {
-        if (active) setLoading(false)
-      })
+    const festival = mapFestivalView(raw)
+    if (!festival) return { state: null, loading: false, error: true }
 
-    return () => {
-      active = false
+    const artists = mapArtistViews(artistsRaw)
+    const artistMap = new Map(artists.map((a) => [a.id, a]))
+    return {
+      state: {
+        festival,
+        artists,
+        artistMap,
+        playlistReady: new Set(playlistReadyIds),
+      },
+      loading: false,
+      error: false,
     }
   }, [festivalId])
-
-  return { state, loading, error }
 }

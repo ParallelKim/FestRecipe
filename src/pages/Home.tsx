@@ -1,10 +1,9 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { FestivalService } from '../services/festivals'
 import type { Festival } from '../types'
 import HomeHelmet from '../components/seo/HomeHelmet'
-import LoadingState from '../components/LoadingState'
 import { Container } from '../components/layout/Container'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -95,25 +94,8 @@ function festivalThumbnailUrl(festival: Festival, surface: 'on-dark' | 'on-light
 }
 
 export default function Home() {
-  const [festivals, setFestivals] = useState<Festival[]>([])
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    let active = true
-    FestivalService.getFestivals().then((data) => {
-      if (active) {
-        setFestivals(data)
-        setLoading(false)
-      }
-    })
-    return () => {
-      active = false
-    }
-  }, [])
-
-  if (loading) {
-    return <LoadingState label="페스티벌 정보를 불러오는 중…" />
-  }
+  // 번들 데이터에서 동기 초기화 — 초기 로딩 스피너/워터폴 없이 즉시 렌더
+  const [festivals] = useState<Festival[]>(() => FestivalService.getFestivalsSync())
 
   const featured = closestFestival(festivals)
   const heroImage = featured ? heroImageFor(featured) : null

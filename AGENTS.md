@@ -18,6 +18,18 @@ and fetched at runtime. See `README.md` and `docs/PRODUCT.md` for the product ov
   to develop or test the product end to end.
 - Preview a production build: `npm run build` then `npm run preview`.
 
+### Data loading architecture (non-obvious)
+- SSOT for all data is `public/data/**` (collector output + statically served). But the small
+  initial-critical data — `festivals/index.json`, `festivals/*.json`, `artists.json`,
+  `playlists/index.json` (~50KB total) — is **bundled at build time** via `src/data/staticData.ts`
+  (`import.meta.glob` + JSON imports from `public/data`), so Home and the festival page render
+  synchronously with no fetch/spinner/waterfall. Read this data through `src/data/staticData.ts`
+  (or `FestivalService.*Sync()` / `useMobileFestival`), not `fetch`.
+- Only the large per-artist playlists (`playlists/{artistId}.json`, ~700KB total) stay lazily
+  `fetch`-ed on demand (`loadJson.fetchPlaylistJson` / `FestivalService.getPlaylistForArtist`).
+- When adding a festival, update `festivals/index.json` + the festival JSON as before; the bundler
+  picks them up on rebuild (Vite HMR in dev). No runtime fetch wiring needed.
+
 ### Secrets / env (not required)
 - The app runs and is fully functional with **no secrets**. `.env.example` documents optional
   `VITE_FIREBASE_*` (GA4 analytics only) and `YT_API_KEY` (collector only) variables.

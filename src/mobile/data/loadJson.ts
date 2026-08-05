@@ -1,29 +1,15 @@
-/** 원천 JSON fetch — FestivalService·types 미사용 */
+/**
+ * 아티스트별 대표곡(~700KB 전체)은 선택 시점에만 필요하므로 지연 로딩한다.
+ * 초기 필수 데이터(페스티벌/아티스트/플레이리스트 인덱스)는 번들에서 동기 제공한다
+ * (src/data/staticData.ts). — FestivalService·useMobileFestival 참고.
+ */
 
-async function fetchJson<T>(url: string): Promise<T | null> {
+export async function fetchPlaylistJson(artistId: string): Promise<Record<string, unknown> | null> {
   try {
-    const res = await fetch(url)
+    const res = await fetch(`/data/playlists/${artistId}.json`)
     if (!res.ok) return null
-    return (await res.json()) as T
+    return (await res.json()) as Record<string, unknown>
   } catch {
     return null
   }
-}
-
-export async function fetchFestivalJson(festivalId: string): Promise<Record<string, unknown> | null> {
-  return fetchJson<Record<string, unknown>>(`/data/festivals/${festivalId}.json`)
-}
-
-export async function fetchArtistsJson(): Promise<Record<string, unknown>[]> {
-  const data = await fetchJson<Record<string, unknown>[]>('/data/artists.json')
-  return data ?? []
-}
-
-export async function fetchPlaylistIndex(): Promise<Set<string>> {
-  const data = await fetchJson<{ artists?: string[] }>('/data/playlists/index.json')
-  return new Set(data?.artists ?? [])
-}
-
-export async function fetchPlaylistJson(artistId: string): Promise<Record<string, unknown> | null> {
-  return fetchJson<Record<string, unknown>>(`/data/playlists/${artistId}.json`)
 }
