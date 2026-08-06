@@ -3,6 +3,7 @@ import { HelmetProvider } from 'react-helmet-async'
 import SiteHeader from './components/layout/SiteHeader'
 import Home from './pages/Home'
 import FestivalMobile from './pages/FestivalMobile'
+import PastFestivals from './pages/PastFestivals'
 import { Navigate, Routes, Route, useParams, useLocation } from 'react-router-dom'
 import { usePageTracking } from './lib/analytics'
 import { preloadPlaylists } from './data/playlistData'
@@ -42,6 +43,7 @@ export default function App() {
         <main style={{ flexGrow: 1 }}>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/festivals/past" element={<PastFestivals />} />
             <Route path="/festival/:id/m" element={<FestivalMobileLegacyRedirect />} />
             <Route path="/festival/:id" element={<FestivalMobile />} />
           </Routes>

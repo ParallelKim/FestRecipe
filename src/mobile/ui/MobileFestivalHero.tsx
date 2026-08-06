@@ -3,6 +3,8 @@ import { Button } from '@/components/ui/button'
 import { Container } from '@/components/layout/Container'
 import { cn } from '@/lib/utils'
 import { getFestivalSignatureTheme } from '@/lib/festivalSignature'
+import type { FestivalEditionNeighbor } from '@/lib/festivalLifecycle'
+import type { FestivalLifecycle } from '@/types'
 import type { MobileFestivalView } from '../view/types'
 
 function formatDateRange(start: string, end: string): string {
@@ -15,14 +17,24 @@ function formatDateRange(start: string, end: string): string {
 
 interface MobileFestivalHeroProps {
   festival: MobileFestivalView
+  lifecycle: FestivalLifecycle
+  previousEdition?: FestivalEditionNeighbor | null
+  nextEdition?: FestivalEditionNeighbor | null
 }
 
 /**
  * 표준 상단 히어로 — 포스터는 cover 배경 + 그레디언트, 텍스트는 하단 스택.
  */
-export default function MobileFestivalHero({ festival }: MobileFestivalHeroProps) {
+export default function MobileFestivalHero({
+  festival,
+  lifecycle,
+  previousEdition = null,
+  nextEdition = null,
+}: MobileFestivalHeroProps) {
   const sig = getFestivalSignatureTheme(festival.signatureColor)
   const hasPoster = Boolean(festival.posterUrl)
+  const isPast = lifecycle === 'past'
+  const hasEditionNav = Boolean(previousEdition || nextEdition)
 
   return (
     <section
@@ -59,14 +71,24 @@ export default function MobileFestivalHero({ festival }: MobileFestivalHeroProps
       >
         <div className="mb-3 flex items-center justify-between gap-3">
           <Link
-            to="/"
+            to={isPast ? '/festivals/past' : '/'}
             className={cn(
               'text-[13px] font-semibold no-underline',
               hasPoster ? 'text-white/90' : 'text-inherit opacity-90',
             )}
           >
-            ← 목록
+            ← {isPast ? '지난 페스티벌' : '목록'}
           </Link>
+          {isPast && (
+            <span
+              className={cn(
+                'text-[11px] font-extrabold tracking-[0.06em] uppercase',
+                hasPoster ? 'text-white/70' : 'opacity-70',
+              )}
+            >
+              종료
+            </span>
+          )}
         </div>
 
         <div className="flex min-w-0 flex-1 flex-col justify-end">
@@ -156,6 +178,39 @@ export default function MobileFestivalHero({ festival }: MobileFestivalHeroProps
                 공식 홈페이지
               </Button>
             </div>
+          )}
+
+          {hasEditionNav && (
+            <nav
+              className={cn(
+                'mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 border-t pt-3 text-[13px] font-semibold',
+                hasPoster ? 'border-white/20 text-white/85' : 'border-black/15 opacity-90',
+              )}
+              aria-label="다른 해 에디션"
+            >
+              {previousEdition ? (
+                <Link
+                  to={`/festival/${previousEdition.id}`}
+                  className="no-underline underline-offset-2 hover:underline"
+                >
+                  ← {previousEdition.editionYear}
+                  {previousEdition.shortName ? ` ${previousEdition.shortName}` : ''}
+                </Link>
+              ) : (
+                <span className="opacity-40">← 이전 해</span>
+              )}
+              {nextEdition ? (
+                <Link
+                  to={`/festival/${nextEdition.id}`}
+                  className="no-underline underline-offset-2 hover:underline"
+                >
+                  {nextEdition.editionYear}
+                  {nextEdition.shortName ? ` ${nextEdition.shortName}` : ''} →
+                </Link>
+              ) : (
+                <span className="opacity-40">다음 해 →</span>
+              )}
+            </nav>
           )}
         </div>
       </Container>

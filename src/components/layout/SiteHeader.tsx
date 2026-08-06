@@ -18,12 +18,20 @@ export default function SiteHeader() {
           FestRecipe
         </Link>
 
-        <Link
-          to="/#festivals"
-          className="text-sm font-semibold text-muted-foreground no-underline hover:text-foreground"
-        >
-          페스티벌
-        </Link>
+        <nav className="flex items-center gap-4">
+          <Link
+            to="/#festivals"
+            className="text-sm font-semibold text-muted-foreground no-underline hover:text-foreground"
+          >
+            페스티벌
+          </Link>
+          <Link
+            to="/festivals/past"
+            className="text-sm font-semibold text-muted-foreground no-underline hover:text-foreground"
+          >
+            지난
+          </Link>
+        </nav>
       </Container>
     </header>
   )

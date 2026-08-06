@@ -61,8 +61,11 @@ python3 build_playlists.py --artist-id hyukoh,khruangbin,silica-gel
 
 현재는 공식 라인업/타임테이블을 바탕으로 `public/data/festivals/{id}.json` 을 관리한다.
 
-필수 필드: `id`, `name`, `startDate`, `endDate`, `location`, `lineupStage`, `lineup`  
-아티스트 참조는 `lineup[].slots[].artistId` (또는 `lineup[].artists[]`) 로 둔다.
+필수 필드: `id`, `name`, `seriesId`, `editionYear`, `startDate`, `endDate`, `location`, `status`, `lineupStage`, `lineup`  
+
+- `status`: 티켓·공개 마케팅 단계 (`super_earlybird` / `earlybird` / `general` / `closed`). 일정 종료(past)와 무관 — past는 날짜 파생.
+- `seriesId` + `editionYear`: 동일 브랜드 연도판(이전/다음 해 네비).
+- 아티스트 참조는 `lineup[].slots[].artistId` (또는 `lineup[].artists[]`) 로 둔다.
 
 `index.json` 의 `festivals` 배열과 파일명이 일치해야 한다.
 

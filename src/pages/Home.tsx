@@ -7,6 +7,12 @@ import HomeHelmet from '../components/seo/HomeHelmet'
 import { Container } from '../components/layout/Container'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
+import {
+  festivalDdayLabel,
+  festivalStatusLabel,
+  sortActiveFestivals,
+  sortPastFestivals,
+} from '../lib/festivalLifecycle'
 
 function artistCount(festival: Festival): number {
   if (festival.lineupStage === 'stage1_all') return festival.allArtists.length
@@ -38,50 +44,6 @@ function formatDateRange(start: string, end: string): string {
   return `${fmt(start)} – ${fmt(end)}`
 }
 
-function todayIso(now = new Date()): string {
-  const y = now.getFullYear()
-  const m = String(now.getMonth() + 1).padStart(2, '0')
-  const d = String(now.getDate()).padStart(2, '0')
-  return `${y}-${m}-${d}`
-}
-
-function daysBetween(fromIso: string, toIso: string): number {
-  const from = Date.parse(`${fromIso}T12:00:00`)
-  const to = Date.parse(`${toIso}T12:00:00`)
-  return Math.round((to - from) / 86_400_000)
-}
-
-function sortFestivalsForList(festivals: Festival[], today = todayIso()): Festival[] {
-  return [...festivals].sort((a, b) => {
-    const aOngoing = a.startDate <= today && today <= a.endDate
-    const bOngoing = b.startDate <= today && today <= b.endDate
-    if (aOngoing !== bOngoing) return aOngoing ? -1 : 1
-    const aFuture = a.startDate >= today
-    const bFuture = b.startDate >= today
-    if (aFuture !== bFuture) return aFuture ? -1 : 1
-    if (aFuture) return a.startDate.localeCompare(b.startDate)
-    return b.endDate.localeCompare(a.endDate)
-  })
-}
-
-function closestFestival(festivals: Festival[], today = todayIso()): Festival | null {
-  const sorted = sortFestivalsForList(festivals, today)
-  return sorted[0] ?? null
-}
-
-function festivalDdayLabel(festival: Festival, today = todayIso()): string {
-  if (today < festival.startDate) {
-    const n = daysBetween(today, festival.startDate)
-    return n === 0 ? 'D-DAY' : `D-${n}`
-  }
-  if (today <= festival.endDate) {
-    const day = daysBetween(festival.startDate, today) + 1
-    return `DAY ${day}`
-  }
-  const ago = daysBetween(festival.endDate, today)
-  return ago <= 0 ? '종료' : `${ago}일 전 종료`
-}
-
 function heroImageFor(festival: Festival): string | null {
   return festival.posterUrl || null
 }
@@ -94,18 +56,18 @@ function festivalThumbnailUrl(festival: Festival, surface: 'on-dark' | 'on-light
 }
 
 export default function Home() {
-  // 번들 데이터에서 동기 초기화 — 초기 로딩 스피너/워터폴 없이 즉시 렌더
   const [festivals] = useState<Festival[]>(() => FestivalService.getFestivalsSync())
 
-  const featured = closestFestival(festivals)
+  const activeFestivals = sortActiveFestivals(festivals)
+  const pastFestivals = sortPastFestivals(festivals)
+  const featured = activeFestivals[0] ?? null
   const heroImage = featured ? heroImageFor(featured) : null
   const featuredThumb = featured ? festivalThumbnailUrl(featured, 'on-dark') : null
   const ddayLabel = featured ? festivalDdayLabel(featured) : null
-  const allFestivals = sortFestivalsForList(festivals)
 
   return (
     <div className="min-h-[calc(100vh-64px)] bg-[var(--color-canvas)]">
-      <HomeHelmet festivalCount={festivals.length} />
+      <HomeHelmet festivalCount={activeFestivals.length} />
 
       <section
         className="relative flex min-h-[min(88vh,760px)] items-end overflow-hidden text-white max-md:min-h-[78vh] bg-[radial-gradient(ellipse_80%_60%_at_20%_30%,rgba(168,216,196,0.22),transparent_55%),radial-gradient(ellipse_70%_50%_at_85%_20%,rgba(217,164,65,0.18),transparent_50%),linear-gradient(160deg,#0b1014_0%,#151b22_45%,#1c232c_100%)]"
@@ -198,15 +160,16 @@ export default function Home() {
         </Container>
       </section>
 
-      {allFestivals.length > 0 && (
-        <section className="py-16 pb-24" id="festivals">
+      {activeFestivals.length > 0 && (
+        <section className="py-16 pb-10" id="festivals">
           <Container>
-            <h2 className="mb-2 text-2xl font-bold tracking-tight">페스티벌 목록</h2>
+            <h2 className="mb-2 text-2xl font-bold tracking-tight">다가오는 페스티벌</h2>
             <p className="mb-7 text-sm text-muted-foreground">
-              등록된 페스티벌 <strong className="font-extrabold text-foreground">{allFestivals.length}</strong>개
+              예정·진행 중{' '}
+              <strong className="font-extrabold text-foreground">{activeFestivals.length}</strong>개
             </p>
             <div className="flex flex-col gap-5">
-              {allFestivals.map((festival, index) => {
+              {activeFestivals.map((festival, index) => {
                 const thumb = festivalThumbnailUrl(festival, 'on-light')
                 const listDday = festivalDdayLabel(festival)
                 return (
@@ -223,10 +186,18 @@ export default function Home() {
                         <Badge
                           variant="outline"
                           className="text-[11px] font-extrabold tracking-normal normal-case"
-                          aria-label={`일정 ${listDday}`}
                         >
-                          {listDday}
+                          {festivalStatusLabel(festival.status)}
                         </Badge>
+                        {listDday && (
+                          <Badge
+                            variant="outline"
+                            className="text-[11px] font-extrabold tracking-normal normal-case"
+                            aria-label={`일정 ${listDday}`}
+                          >
+                            {listDday}
+                          </Badge>
+                        )}
                       </p>
                       {thumb ? (
                         <div className="mb-3 flex items-center gap-3">
@@ -273,6 +244,27 @@ export default function Home() {
                   </motion.article>
                 )
               })}
+            </div>
+          </Container>
+        </section>
+      )}
+
+      {pastFestivals.length > 0 && (
+        <section className="pb-24 pt-4">
+          <Container>
+            <div className="border-t border-[var(--color-hairline)] pt-10">
+              <h2 className="mb-2 text-xl font-bold tracking-tight">지난 페스티벌</h2>
+              <p className="mb-5 max-w-[42ch] text-sm text-muted-foreground">
+                끝난 축제의 라인업과 대표곡도 그대로 들을 수 있어요.
+              </p>
+              <Button
+                variant="outline"
+                render={<Link to="/festivals/past" />}
+                nativeButton={false}
+                className="w-fit no-underline"
+              >
+                지난 페스티벌 보기
+              </Button>
             </div>
           </Container>
         </section>

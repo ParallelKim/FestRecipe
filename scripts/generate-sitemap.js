@@ -15,7 +15,7 @@ const { festivals: festivalIds } = JSON.parse(
 
 const urls = [
   { loc: BASE_URL + "/", changefreq: "weekly", priority: "1.0" },
-  { loc: BASE_URL + "/festivals", changefreq: "weekly", priority: "0.9" },
+  { loc: BASE_URL + "/festivals/past", changefreq: "weekly", priority: "0.7" },
   ...festivalIds.map((id) => ({
     loc: BASE_URL + `/festival/${id}`,
     changefreq: "monthly",
