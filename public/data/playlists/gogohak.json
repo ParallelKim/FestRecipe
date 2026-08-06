@@ -204,7 +204,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "고고학 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mQS60gaEZzI%2CBCOInVrReHI%2CWTngcsN_gZw%2Cc90xJC6fyq4%2Cxlkits0SDBA%2CHof2hFD8ve4%2Ctya6EAUTsnk%2CZdXDEcYo53w%2C4D5o60vQGXw%2C9pi6_qCpfFI&title=%EA%B3%A0%EA%B3%A0%ED%95%99+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mQS60gaEZzI&list=RDAMVMmQS60gaEZzI"
+  "playlistTitle": "고고학 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_mdPAHxAUbuJp5b_tMZWL00jzXIio9OUzs",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_mdPAHxAUbuJp5b_tMZWL00jzXIio9OUzs",
+  "ytmSongsPlaylistId": "OLAK5uy_mdPAHxAUbuJp5b_tMZWL00jzXIio9OUzs"
 }

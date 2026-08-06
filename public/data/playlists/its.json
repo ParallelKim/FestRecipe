@@ -198,7 +198,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "이츠 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=FG1mYbVByMA%2Ccwvpmwq10yk%2CnbT_6uJ6JCk%2CqByFr0eXSEs%2Cb59oMw4dEdU%2CuX6FyH01DdE%2CqrG-tnn_P1c%2C1-3T48Go7hc%2CNxm5L4QzAVw%2CT-KJTV2BxN0&title=%EC%9D%B4%EC%B8%A0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=FG1mYbVByMA&list=RDAMVMFG1mYbVByMA"
+  "playlistTitle": "이츠 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_mJ8xdKE5QbL_X6o9TYymiQJvJzRLMWon0",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_mJ8xdKE5QbL_X6o9TYymiQJvJzRLMWon0",
+  "ytmSongsPlaylistId": "OLAK5uy_mJ8xdKE5QbL_X6o9TYymiQJvJzRLMWon0"
 }

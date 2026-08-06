@@ -83,9 +83,12 @@ export interface ArtistPlaylist {
   /** 요일·페스티벌·나만의 번들에 넣을 곡 수 (티어 3~5) */
   targetSongCount: number
   tracks: PlaylistTrack[]
-  /** YouTube watch_videos 에 넘길 재생목록 표시명 */
+  /** 재생목록 표시명 (UI·폴백 watch_videos title) */
   playlistTitle?: string | null
+  /** YouTube 듣기 딥링크 — 단독은 기명 playlist?list=, 번들/폴백은 watch_videos */
   youtubePlaylistUrl?: string | null
+  /** YouTube Music Songs 기명 재생목록 list id (VL 접두 제외) */
+  ytmSongsPlaylistId?: string | null
 }
 
 export interface AlbumInfo {

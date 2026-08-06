@@ -196,7 +196,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "NEMOPHILA 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=MWLTmhlUtU0%2C3xJcTVQm_iQ%2CEL_2IBGA0io%2CTiN7hi5t8Rs%2CCfk7VCBMnFw%2Cy43OdhTbHhk%2CCsrLguuWq04%2CY1ZJEC96UAA%2CBeFb4NkmkKY%2CPDjPyJvq4pM&title=NEMOPHILA+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=MWLTmhlUtU0&list=RDAMVMMWLTmhlUtU0"
+  "playlistTitle": "NEMOPHILA Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_lr06icdntazyjTAhR90wkC9M4SvPgk4AE",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_lr06icdntazyjTAhR90wkC9M4SvPgk4AE",
+  "ytmSongsPlaylistId": "OLAK5uy_lr06icdntazyjTAhR90wkC9M4SvPgk4AE"
 }

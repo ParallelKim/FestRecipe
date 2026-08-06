@@ -198,7 +198,8 @@
       "releaseType": "single"
     }
   ],
-  "playlistTitle": "Atarayo 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ipiQ0lpayoo%2C6rOy6zi8Rao%2C90koJyqymI0%2CU6OIbpJlZxk%2CvuTM8OyZMIU%2ClAMAcF6fogA%2Cqw4gIxgwTB4%2CV8NuEPNRKSI%2CfTACwX3HyDo%2CpJ3CsK90pJE&title=Atarayo+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ipiQ0lpayoo&list=RDAMVMipiQ0lpayoo"
+  "playlistTitle": "Atarayo Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_k94ubLKkJLNfR1GVRx8Qk2TQNebJ2m8GI",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_k94ubLKkJLNfR1GVRx8Qk2TQNebJ2m8GI",
+  "ytmSongsPlaylistId": "OLAK5uy_k94ubLKkJLNfR1GVRx8Qk2TQNebJ2m8GI"
 }

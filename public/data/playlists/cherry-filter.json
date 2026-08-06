@@ -196,7 +196,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "체리필터 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=FYjWDBEA76E%2Ch3XVYav2SQs%2C4i1wkzAlU5M%2Cg4tJZSlIAYs%2C79pAV-hSlww%2CChVtFMOsHUo%2CK4IL9eF2-Ps%2CLcXsNCwleBc%2Ckp0-xOfvyW4%2Ca0ApUalp94k&title=%EC%B2%B4%EB%A6%AC%ED%95%84%ED%84%B0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=FYjWDBEA76E&list=RDAMVMFYjWDBEA76E"
+  "playlistTitle": "체리필터 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nyfXAK6qFp4ZhccRRTGPm-aw_3TQisP9w",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_nyfXAK6qFp4ZhccRRTGPm-aw_3TQisP9w",
+  "ytmSongsPlaylistId": "OLAK5uy_nyfXAK6qFp4ZhccRRTGPm-aw_3TQisP9w"
 }

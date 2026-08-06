@@ -199,7 +199,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "심규선 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=sjShIsv8HGk%2CExt1tnRFEmE%2CMi9H9EkLoaI%2C098tIqgN4Vk%2CWKVL5bFJwUY%2CzX3MvT7tIMU%2CRGPpBDFFqDg%2CSatuDumgn-s%2CHgGKROdsinc%2CjyuVzOxU68Y&title=%EC%8B%AC%EA%B7%9C%EC%84%A0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=sjShIsv8HGk&list=RDAMVMsjShIsv8HGk"
+  "playlistTitle": "심규선 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_n_ZU6EM-kY01UmxE4fLSINNzdNRXXB29w",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_n_ZU6EM-kY01UmxE4fLSINNzdNRXXB29w",
+  "ytmSongsPlaylistId": "OLAK5uy_n_ZU6EM-kY01UmxE4fLSINNzdNRXXB29w"
 }

@@ -146,7 +146,8 @@
       "source": "releases_fallback"
     }
   ],
-  "playlistTitle": "행로난 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=MSJ4TpI2USo%2CJsbi-vT4zro%2CnJee9Bq0mw4%2Cug0AXcuMXeg%2CbOVEm0pqyz4%2CScntaySD5ow%2CE1D7UHXoIao&title=%ED%96%89%EB%A1%9C%EB%82%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=MSJ4TpI2USo&list=RDAMVMMSJ4TpI2USo"
+  "playlistTitle": "행로난 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_mIWTe00ueQ6G8TeufLD1tO0Fy_S9LoWSc",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_mIWTe00ueQ6G8TeufLD1tO0Fy_S9LoWSc",
+  "ytmSongsPlaylistId": "OLAK5uy_mIWTe00ueQ6G8TeufLD1tO0Fy_S9LoWSc"
 }

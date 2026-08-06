@@ -206,7 +206,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "조이풀스 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=c5mIo6O-dgA%2Cw5iE7PrxFSo%2CD4ssxq3uMak%2CqkIWfsAs_Js%2CR7wRo1IMiAs%2C6hMiM-yyEJg%2CL7yQxCk77zM%2C_CKvXyarNeg%2CF0qwck4b0MM%2Ctmu17IO-EX4&title=%EC%A1%B0%EC%9D%B4%ED%92%80%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=c5mIo6O-dgA&list=RDAMVMc5mIo6O-dgA"
+  "playlistTitle": "조이풀스 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kJgKE0BmKybFjMA6dlAFIp3Mlk0RoRAIA",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_kJgKE0BmKybFjMA6dlAFIp3Mlk0RoRAIA",
+  "ytmSongsPlaylistId": "OLAK5uy_kJgKE0BmKybFjMA6dlAFIp3Mlk0RoRAIA"
 }

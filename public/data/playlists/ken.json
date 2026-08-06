@@ -206,7 +206,8 @@
       "releaseType": "single"
     }
   ],
-  "playlistTitle": "KEN 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=qjU7jr-7o2g%2CSqHNcQeQ36U%2C-DIlnUX39AY%2C9j9v-cZOidw%2CNHOWEcNNuz8%2Cp8nzkoUDQwc%2CGoL8tCu8KpY%2CpQvCvXzd_AQ%2CxgRjn7x9o3E%2CVwky52Up0Qg&title=KEN+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=qjU7jr-7o2g&list=RDAMVMqjU7jr-7o2g"
+  "playlistTitle": "KEN Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_laUkDl-IM3Jm3bFgNu2udyCfyte-YQxUE",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_laUkDl-IM3Jm3bFgNu2udyCfyte-YQxUE",
+  "ytmSongsPlaylistId": "OLAK5uy_laUkDl-IM3Jm3bFgNu2udyCfyte-YQxUE"
 }

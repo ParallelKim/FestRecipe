@@ -205,7 +205,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "Ruru 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=JEiZQkt1Xug%2Csph_tMPuRLw%2CH6l9m6z8H4Y%2C6TI4sxJ-C6w%2Cky65Wf5eHjU%2C1WXz7XBGMyA%2CS2m2ZGjr-so%2CqHcQ-80T4rc%2Cc7B-Qt1MgxY%2CU40WC2ZhliU&title=Ruru+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=JEiZQkt1Xug&list=RDAMVMJEiZQkt1Xug"
+  "playlistTitle": "Ruru Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_ks3Eyja6Rmkxz1TMJRF-09RcEGiz0O0-g",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_ks3Eyja6Rmkxz1TMJRF-09RcEGiz0O0-g",
+  "ytmSongsPlaylistId": "OLAK5uy_ks3Eyja6Rmkxz1TMJRF-09RcEGiz0O0-g"
 }

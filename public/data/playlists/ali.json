@@ -200,7 +200,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "ALI 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=R9PNKMwVW5M%2C4qqeafI9kXM%2Cu5heWZ9occg%2CAU-mW7oPA3c%2CqDXBnDo3Xpc%2COIHBpKYvnok%2C_a0MbGLPLD0%2CFypGyKEec4A%2CLcEFPTpN6s4%2CqQHUmAlzQiQ&title=ALI+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=R9PNKMwVW5M&list=RDAMVMR9PNKMwVW5M"
+  "playlistTitle": "ALI Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_n-LHO2jRwa-2QC77gTh7NpM5jzGRLxna4",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_n-LHO2jRwa-2QC77gTh7NpM5jzGRLxna4",
+  "ytmSongsPlaylistId": "OLAK5uy_n-LHO2jRwa-2QC77gTh7NpM5jzGRLxna4"
 }

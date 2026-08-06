@@ -136,10 +136,26 @@ export function useMobileListen(
   }, [festival, activeDay, lineupIds, playlistReady, loadPlaylist, openYoutube])
 
   const artistListenUrl = useCallback(
-    (artistName: string, tracks: { videoId: string }[]) => {
-      if (!festival || tracks.length === 0) return null
+    (artistName: string, tracks: { videoId: string }[], namedUrl?: string | null) => {
+      const named = (namedUrl || '').trim()
+      // 기명 PL(YTM Top songs) 우선 — 익명 watch_videos 조립하지 않음
+      if (named.startsWith('https://www.youtube.com/playlist?list=')) return named
+      if (named.startsWith('https://music.youtube.com/playlist?list=')) {
+        // PRODUCT: 듣기는 YouTube 로 통일
+        try {
+          const u = new URL(named)
+          const list = u.searchParams.get('list')
+          if (list) return `https://www.youtube.com/playlist?list=${list}`
+        } catch {
+          /* fall through */
+        }
+      }
+      if (!festival || tracks.length === 0) return named || null
       const title = playlistTitleForArtist(festival.name, artistName)
-      return buildWatchVideosUrl(tracks.map((t) => t.videoId), title)
+      return buildWatchVideosUrl(
+        tracks.map((t) => t.videoId),
+        title,
+      )
     },
     [festival],
   )
