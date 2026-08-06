@@ -19,6 +19,19 @@
 
 `lineupStage`는 **뷰 분기 데이터**로 유지한다. 공개 진행 바 UI는 두지 않는다.
 
+## 페스티벌 수명 · 티켓 단계 · 에디션
+
+| 개념 | SSOT | 쓰임 |
+|------|------|------|
+| 일정 수명 (`upcoming` / `ongoing` / `past`) | `startDate` · `endDate` 파생 | 홈 목록 분리, `/festivals/past`, 상세 카피 |
+| `status` | 티켓·공개 **마케팅 단계** | `super_earlybird` · `earlybird` · `general` · `closed` (일정 past와 혼동 금지) |
+| `lineupStage` | 뷰 분기 | 전체 / 일별 / 타임테이블 UI |
+| `seriesId` + `editionYear` | 동일 브랜드 연도판 | 상세 이전/다음 해 네비 |
+
+- 홈: **다가오는·진행 중**만 본문 목록. 지난 축제는 짧은 안내 + `/festivals/past` 링크.
+- 지난 축제: 듣기·내 라인업·배경화면은 유지. CTA는 「그해 라인업 다시 듣기」. 「N일 전 종료」 뱃지는 쓰지 않음.
+- `status`는 보통 1·2차 라인업 공개와 맞물리는 **슈퍼얼리버드 / 얼리버드** 등 공식 티켓명 기준.
+
 ## 대표곡
 
 - **아티스트 단독:** YTM 아티스트 **Songs(Top songs) 기명 재생목록** 링크로 핸드오프.

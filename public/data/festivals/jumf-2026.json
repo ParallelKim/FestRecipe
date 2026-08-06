@@ -2,11 +2,13 @@
   "id": "jumf-2026",
   "name": "2026 전주얼티밋뮤직페스티벌",
   "shortName": "JUMF",
+  "seriesId": "jumf",
+  "editionYear": 2026,
   "startDate": "2026-08-14",
   "endDate": "2026-08-16",
   "location": "전주대학교 인조잔디구장",
   "signatureColor": "coral",
-  "status": "upcoming",
+  "status": "general",
   "lineupStage": "stage3_timetable",
   "description": "전주문화방송이 주최하는 11회째 여름 음악 축제. 2026년에는 자우림·NELL·YB·10CM·FLOW 등 60팀이 전주대학교 인조잔디구장의 마루·너울(야외 메인)·숨(실내) 3개 스테이지에 오른다. 게이트 오픈 13:00.",
   "websiteUrl": "https://jumf.co.kr",
@@ -688,7 +690,7 @@
     }
   ],
   "timetableSource": {
-    "note": "공식 최종 타임테이블 기준(스테이지 마루·너울·숨, 시간·표기명 모두 공식 이미지에서 전사). 공식 홈 공지 '[JUMF 2026] 타임테이블 공개!'의 요일별 타임테이블 이미지와 LINE UP(/35·/36·/37) 이미지를 SSOT로 사용했다. 뉴스 기사 라인업은 부정확·부분적이라 배제했다. 표기명은 타임테이블 표기를 우선한다.",
+    "note": "공식 최종 타임테이블 기준(스테이지 마루·너울·숨, 시간·표기명 모두 공식 이미지에서 전사). 공식 홈 공지 '[JUMF 2026] 타임테이블 공개!'의 요일별 타임테이블 이미지와 LINE UP(/35·/36·/37) 이미지를 SSOT로 사용했다. 뉴스 기사 라인업은 부정확·부분적이라 배제했다. 표기명은 타임테이블 표기를 우선한다. 히어로 posterUrl은 공식 홈 키비주얼(cdn …/0ab19d35ca55d.png)을 사용. 이전에 넣었던 공연 영상 프레임은 공식 포스터가 아니어서 교체함.",
     "referencedAt": "2026-08-05",
     "referenceUrl": "https://www.jumf.co.kr/24/?bmode=view&idx=172686496",
     "secondaryUrls": [
@@ -699,7 +701,9 @@
     "localAssets": [
       "sample/jumf-2026/jumf-2026-day14-timetable.png",
       "sample/jumf-2026/jumf-2026-day15-timetable.png",
-      "sample/jumf-2026/jumf-2026-day16-timetable.png"
+      "sample/jumf-2026/jumf-2026-day16-timetable.png",
+      "sample/jumf-2026/jumf-2026-official-key-visual.png",
+      "sample/jumf-2026/jumf-2026-date-teaser.png"
     ],
     "displayNamePolicy": "docs/ARTIST_DISPLAY_NAMES.md"
   },

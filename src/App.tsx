@@ -3,13 +3,23 @@ import { HelmetProvider } from 'react-helmet-async'
 import SiteHeader from './components/layout/SiteHeader'
 import Home from './pages/Home'
 import FestivalMobile from './pages/FestivalMobile'
-import { Navigate, Routes, Route, useParams } from 'react-router-dom'
+import PastFestivals from './pages/PastFestivals'
+import { Navigate, Routes, Route, useParams, useLocation } from 'react-router-dom'
 import { usePageTracking } from './lib/analytics'
 import { preloadPlaylists } from './data/playlistData'
 
 function FestivalMobileLegacyRedirect() {
   const { id } = useParams<{ id: string }>()
   return <Navigate to={`/festival/${id}`} replace />
+}
+
+/** SPA 라우트 전환 시 이전 페이지 스크롤 위치가 남지 않도록 초기화 */
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [pathname])
+  return null
 }
 
 export default function App() {
@@ -27,11 +37,13 @@ export default function App() {
 
   return (
     <HelmetProvider>
+      <ScrollToTop />
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <SiteHeader />
         <main style={{ flexGrow: 1 }}>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/festivals/past" element={<PastFestivals />} />
             <Route path="/festival/:id/m" element={<FestivalMobileLegacyRedirect />} />
             <Route path="/festival/:id" element={<FestivalMobile />} />
           </Routes>

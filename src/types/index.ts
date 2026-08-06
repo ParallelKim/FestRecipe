@@ -3,7 +3,18 @@
 // ─────────────────────────────────────────────────────
 
 export type SignatureColor = 'coral' | 'forest' | 'cream' | 'dark'
-export type FestivalStatus = 'upcoming' | 'ongoing' | 'past'
+/**
+ * 티켓·공개 마케팅 단계 (공식 티켓명/발표 단계 기준).
+ * 일정 수명(upcoming/ongoing/past)과 무관 — 그건 날짜로 파생한다.
+ * `lineupStage`(뷰 분기)와도 독립. 보통 슈퍼얼리버드≈1차, 얼리버드≈2차 라인업과 맞춰 진행.
+ */
+export type FestivalStatus =
+  | 'super_earlybird'
+  | 'earlybird'
+  | 'general'
+  | 'closed'
+/** 일정 기준 수명 — JSON에 두지 않고 startDate/endDate로 파생 */
+export type FestivalLifecycle = 'upcoming' | 'ongoing' | 'past'
 export type LineupStage = 'stage1_all' | 'stage2_daily' | 'stage3_timetable'
 export type SongType = 'released' | 'unreleased' | 'cover'
 type AlbumType = 'single' | 'ep' | 'lp'
@@ -158,10 +169,19 @@ export interface Festival {
    * 예: "PENTAPORT" — 영문 대문자 권장
    */
   shortName?: string
+  /**
+   * 동일 브랜드 연도판 묶음 키.
+   * 예: `jumf`, `incheon-pentaport`, `sound-planet`
+   * 이전/다음 해 에디션 네비에 사용.
+   */
+  seriesId: string
+  /** 개최 연도(에디션). `seriesId`와 함께 연도 네비 정렬에 사용 */
+  editionYear: number
   startDate: string
   endDate: string
   location: string
   signatureColor: SignatureColor
+  /** 티켓·공개 마케팅 단계 — 일정 past와 혼동하지 말 것 */
   status: FestivalStatus
   lineupStage: LineupStage
   /** 히어로·카드용 짧은 매력 문장 (스폰서/스테이지명 비권장) */

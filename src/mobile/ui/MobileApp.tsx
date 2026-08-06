@@ -144,6 +144,8 @@ export default function MobileApp({
       const day = festival.days.find((d) => d.id === dayId)
       const onDayCount = lineupIdsOnDay(lineup.artistIds, day).length
       listenScope.syncForActiveDay(onDayCount)
+      // 일자 탭 전환 시 스크롤을 최상단으로
+      window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
     },
     [festival.days, lineup.artistIds, listenScope],
   )

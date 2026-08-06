@@ -3,6 +3,11 @@ import FestivalHelmet from '../components/seo/FestivalHelmet'
 import LoadingState from '../components/LoadingState'
 import { Container } from '../components/layout/Container'
 import { Button } from '@/components/ui/button'
+import { FestivalService } from '../services/festivals'
+import {
+  festivalLifecycle,
+  findEditionNeighbors,
+} from '../lib/festivalLifecycle'
 import { useMobileFestival } from '../mobile/hooks/useMobileFestival'
 import MobileApp from '../mobile/ui/MobileApp'
 import MobileFestivalHero from '../mobile/ui/MobileFestivalHero'
@@ -38,6 +43,15 @@ export default function FestivalMobile() {
 
   const { festival, artistMap, playlistReady } = state
   const count = artistCount(festival)
+  const rawFestival = FestivalService.getFestivalByIdSync(id)
+  const lifecycle = festivalLifecycle({
+    startDate: festival.startDate,
+    endDate: festival.endDate,
+  })
+  const neighbors =
+    rawFestival != null
+      ? findEditionNeighbors(FestivalService.getFestivalsSync(), rawFestival)
+      : { previous: null, next: null }
 
   return (
     <div className="min-h-screen bg-[var(--color-canvas,#f4f3f0)]">
@@ -51,8 +65,12 @@ export default function FestivalMobile() {
         artistCount={count}
       />
 
-      <MobileFestivalHero festival={festival} />
-
+      <MobileFestivalHero
+        festival={festival}
+        lifecycle={lifecycle}
+        previousEdition={neighbors.previous}
+        nextEdition={neighbors.next}
+      />
 
       <div className="min-[900px]:mx-auto min-[900px]:max-w-[440px]">
         <MobileApp
