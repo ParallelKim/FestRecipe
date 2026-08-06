@@ -200,7 +200,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "HYNN 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=BDqUNyV7UmU%2CKkhr5V7ZHSU%2C-llNF_9QZ1A%2CYxKxl0uKtE0%2CaFRJC3yF_fY%2Cp-jI13PtcSg%2CioV6ejEaiq4%2CNYm2YE706w8%2CrctKPion0uE%2C_3pWrYSTTAc&title=HYNN+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=BDqUNyV7UmU&list=RDAMVMBDqUNyV7UmU"
+  "playlistTitle": "HYNN Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nDPK9u2_8412WOshcgJdDdBRFY3ChTGq4",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_nDPK9u2_8412WOshcgJdDdBRFY3ChTGq4",
+  "ytmSongsPlaylistId": "OLAK5uy_nDPK9u2_8412WOshcgJdDdBRFY3ChTGq4"
 }

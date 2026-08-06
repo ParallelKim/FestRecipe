@@ -53,6 +53,8 @@ python3 build_playlists.py --artist-id hyukoh,khruangbin,silica-gel
 | low | 나머지 / 타임테이블 없음 | 3 |
 
 곡 선정은 YouTube Music Songs 플레이리스트 **인기순**을 사용한다.  
+단독 듣기 CTA는 같은 Songs의 **기명 재생목록 URL**(`youtube.com/playlist?list=…`)을 쓴다.
+(익명 `watch_videos`는 번들·Songs PL 부재 폴백 전용)
 결과는 `public/data/playlists/{artistId}.json` 으로 프론트에 제공된다.
 
 ### Step 1 — 페스티벌 정보

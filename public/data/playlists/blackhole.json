@@ -203,7 +203,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "블랙홀 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=quICtGfDAUw%2C5ZWQfx-IhnY%2CpCcwNUtpa5c%2C_6Smdm1tCd0%2Cv-4vUYcCcb4%2CUYpsnRNLxSs%2CBDsIDUNca7E%2CccFucimqU_g%2C_G_xv8UmLrI%2CE1YSyqsY8mo&title=%EB%B8%94%EB%9E%99%ED%99%80+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=quICtGfDAUw&list=RDAMVMquICtGfDAUw"
+  "playlistTitle": "블랙홀 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_mbdvzlF5J-gClSkVVluBp8IT3SHXeq2cQ",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_mbdvzlF5J-gClSkVVluBp8IT3SHXeq2cQ",
+  "ytmSongsPlaylistId": "OLAK5uy_mbdvzlF5J-gClSkVVluBp8IT3SHXeq2cQ"
 }

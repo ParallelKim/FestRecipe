@@ -199,7 +199,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "크라잉넛 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ct9pZdJHMrs%2Cdz6ri1riCi4%2CakvDgDzVrJk%2C4fwHhULkLYc%2CtyeQ1yJQSG0%2CT3eEZ-_2m9w%2CVcjbIbwJOzc%2CPSERpk2dWQs%2CoQ4VZwM4nLg%2C8oq0Srtw9bI&title=%ED%81%AC%EB%9D%BC%EC%9E%89%EB%84%9B+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ct9pZdJHMrs&list=RDAMVMct9pZdJHMrs"
+  "playlistTitle": "크라잉넛 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_ljketli07zXwvCOtzReaJdkL2QZiFBt8U",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_ljketli07zXwvCOtzReaJdkL2QZiFBt8U",
+  "ytmSongsPlaylistId": "OLAK5uy_ljketli07zXwvCOtzReaJdkL2QZiFBt8U"
 }

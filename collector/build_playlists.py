@@ -5,7 +5,9 @@
 인지도(recognition) 규칙:
   - 타임테이블이 있으면 슬롯이 늦을수록 인지도가 높다고 간주
   - 번들(요일·전체·나만의) 곡 수: 높음 5 / 중간 4 / 낮음 3
-  - 아티스트 단독 듣기: YTM Songs 인기순 최소 10곡(최대 20곡)
+  - 아티스트 단독 듣기: YTM Songs **기명** 재생목록 링크 (Top songs)
+    · tracks는 UI 미리보기·번들용으로 인기순 일부만 보관
+    · Songs PL이 없으면 watch_videos 폴백
   - 타임테이블 없으면 번들 기본 3곡
 
 대표곡 선정:
@@ -155,19 +157,35 @@ def default_recognition() -> dict:
     }
 
 
-def popular_tracks_from_ytm(yt: YTMusic, browse_id: str, limit: int = 30) -> list[dict]:
+def popular_tracks_from_ytm(
+    yt: YTMusic, browse_id: str, limit: int = 30
+) -> tuple[list[dict], str | None]:
+    """YTM 아티스트 Songs(Top songs) 인기순 + 기명 재생목록 list id.
+
+    Returns:
+      (tracks, playlist_list_id) — list id는 youtube.com/playlist?list= 에 쓰는 값
+      (browseId 의 VL 접두 제거). Songs PL이 없으면 playlist_list_id=None.
+    """
     try:
         info = yt.get_artist(browse_id) or {}
     except Exception as e:
         print(f"    [warn] get_artist({browse_id}): {e}")
-        return []
+        return [], None
     songs = info.get("songs") or {}
     browse = songs.get("browseId")
+    playlist_list_id: str | None = None
+    if isinstance(browse, str) and browse.strip():
+        playlist_list_id = browse[2:] if browse.startswith("VL") else browse
+
     raw = []
     if browse:
         try:
             pl = yt.get_playlist(browse, limit=limit)
             raw = pl.get("tracks") or []
+            # get_playlist id 가 있으면 그걸 우선
+            pl_id = pl.get("id")
+            if isinstance(pl_id, str) and pl_id.strip():
+                playlist_list_id = pl_id.strip()
         except Exception as e:
             print(f"    [warn] songs playlist: {e}")
             raw = songs.get("results") or []
@@ -200,8 +218,23 @@ def popular_tracks_from_ytm(yt: YTMusic, browse_id: str, limit: int = 30) -> lis
             "youtubeMusicUrl": f"https://music.youtube.com/watch?v={vid}",
             "source": "ytm_songs_popular",
         })
-    return tracks
+    return tracks, playlist_list_id
 
+
+def watch_videos_url(video_ids: list[str], title: str) -> str | None:
+    """번들·기명 PL 없을 때만 쓰는 익명 watch_videos 딥링크."""
+    if not video_ids:
+        return None
+    return "https://www.youtube.com/watch_videos?" + urlencode(
+        {"video_ids": ",".join(video_ids), "title": title}
+    )
+
+
+def named_songs_playlist_urls(list_id: str) -> tuple[str, str]:
+    return (
+        f"https://www.youtube.com/playlist?list={list_id}",
+        f"https://music.youtube.com/playlist?list={list_id}",
+    )
 
 def enrich_from_releases(tracks: list[dict], releases_path: Path) -> list[dict]:
     if not releases_path.exists():
@@ -241,7 +274,9 @@ def build_playlist_for_artist(
         LISTEN_SONG_MAX,
         max(bundle_song_count, LISTEN_SONG_MIN),
     )
-    popular = popular_tracks_from_ytm(yt, browse_id, limit=max(40, listen_song_count + 10))
+    popular, songs_list_id = popular_tracks_from_ytm(
+        yt, browse_id, limit=max(40, listen_song_count + 10)
+    )
     popular = enrich_from_releases(popular, releases_path)
     selected = popular[:listen_song_count]
 
@@ -282,7 +317,7 @@ def build_playlist_for_artist(
                 break
 
     video_ids = [t["videoId"] for t in selected]
-    # watch_videos title: "{페스티벌명} {아티스트명} 플레이리스트"
+    # UI 미리보기용 제목 (기명 PL이면 YTM "Top songs"가 실제 목록명)
     artist_name = (artist.get("name") or artist.get("englishName") or artist["id"]).strip()
     fest_name = (festival_name or "").strip()
     if fest_name and artist_name:
@@ -291,10 +326,17 @@ def build_playlist_for_artist(
         playlist_title = f"{artist_name} 플레이리스트"
     else:
         playlist_title = "아티스트 플레이리스트"
-    youtube_playlist_url = None
-    if video_ids:
-        youtube_playlist_url = "https://www.youtube.com/watch_videos?" + urlencode(
-            {"video_ids": ",".join(video_ids), "title": playlist_title}
+
+    # 단독 듣기: YTM Songs 기명 재생목록 우선. 없으면 watch_videos 폴백(콜라보·채널 없음).
+    if songs_list_id:
+        youtube_playlist_url, youtube_music_playlist_url = named_songs_playlist_urls(songs_list_id)
+        playlist_title = f"{artist_name} Top songs" if artist_name else "Top songs"
+    else:
+        youtube_playlist_url = watch_videos_url(video_ids, playlist_title)
+        youtube_music_playlist_url = (
+            f"https://music.youtube.com/watch?v={video_ids[0]}&list=RDAMVM{video_ids[0]}"
+            if video_ids
+            else None
         )
 
     payload = {
@@ -308,17 +350,13 @@ def build_playlist_for_artist(
         "songCount": len(selected),
         "targetSongCount": bundle_song_count,
         "ytmArtist": ytm,
+        "ytmSongsPlaylistId": songs_list_id,
         "tracks": selected,
         "playlistTitle": playlist_title,
         "youtubePlaylistUrl": youtube_playlist_url,
-        "youtubeMusicPlaylistUrl": (
-            f"https://music.youtube.com/watch?v={video_ids[0]}&list=RDAMVM{video_ids[0]}"
-            if video_ids else None
-        ),
+        "youtubeMusicPlaylistUrl": youtube_music_playlist_url,
     }
-    # youtubeMusic radio-style link is weak; keep watch_videos as primary play CTA
     return payload
-
 
 def main():
     parser = argparse.ArgumentParser(description="Build recognition-tiered highlight playlists")

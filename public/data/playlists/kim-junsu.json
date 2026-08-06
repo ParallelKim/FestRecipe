@@ -204,7 +204,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "김준수 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=FJzDzxVN8qY%2CDqiN8fYSAYw%2CjLxHfA3Qwqc%2Cc6It35RoRc0%2CkPRd9PEf-9g%2Cdrax-UY6Np8%2CrOkCJ0WZILo%2CvTG_xk2o41g%2CXNohfBs4x1s%2CQzr2Sfl0sbA&title=%EA%B9%80%EC%A4%80%EC%88%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=FJzDzxVN8qY&list=RDAMVMFJzDzxVN8qY"
+  "playlistTitle": "김준수 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_llhIyIo7oRLAIDobzZQLk2tlE94T_sMgQ",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_llhIyIo7oRLAIDobzZQLk2tlE94T_sMgQ",
+  "ytmSongsPlaylistId": "OLAK5uy_llhIyIo7oRLAIDobzZQLk2tlE94T_sMgQ"
 }

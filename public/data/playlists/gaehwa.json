@@ -202,7 +202,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "개화 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=d5SMqWpc0wo%2CYGZbjGliwTg%2CKR7i8TOPMNs%2CLo8MPNedc1U%2CgJmwAUukTVM%2CY90k-8q_Kqo%2CCl2iYl7h4Es%2CPsc_EnzePhk%2CYU4C_hnJwXs%2CUP2b81Tn14A&title=%EA%B0%9C%ED%99%94+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=d5SMqWpc0wo&list=RDAMVMd5SMqWpc0wo"
+  "playlistTitle": "개화 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_lXN1n3Mb0CgvGlUDgpx4fPCPxijfHqHII",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_lXN1n3Mb0CgvGlUDgpx4fPCPxijfHqHII",
+  "ytmSongsPlaylistId": "OLAK5uy_lXN1n3Mb0CgvGlUDgpx4fPCPxijfHqHII"
 }

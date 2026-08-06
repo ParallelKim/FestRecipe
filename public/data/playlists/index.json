@@ -180,7 +180,8 @@
   "recognitionRule": {
     "withTimetable": "later slot => higher tier bundle (high=5, mid=4, low=3)",
     "withoutTimetable": "default low=3 bundle",
-    "artistListen": "ytm songs popular min=10 max=20",
-    "composedOf": "collab artistIds may set composedOf[]; playlist may be pre-merged or resolved at runtime from members"
+    "artistListen": "ytm Songs named playlist (youtube.com/playlist?list=); watch_videos fallback if no Songs PL",
+    "composedOf": "collab artistIds may set composedOf[]; playlist may be pre-merged or resolved at runtime from members",
+    "bundleListen": "watch_videos anonymous bundle from tier tracks"
   }
 }

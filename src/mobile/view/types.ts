@@ -69,6 +69,12 @@ export interface MobilePlaylistView {
   tracks: MobileTrackView[]
   targetSongCount: number
   tier: RecognitionTier
+  /**
+   * 단독 듣기 URL.
+   * 있으면 YTM Songs 기명 재생목록(`youtube.com/playlist?list=…`),
+   * 없으면 호출측에서 watch_videos 폴백.
+   */
+  listenUrl?: string | null
 }
 
 export interface MobileBundleNotice {

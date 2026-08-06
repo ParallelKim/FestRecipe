@@ -204,7 +204,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "ChRocktikal 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=A-6Kz876__o%2Cn0A7QLHzxQc%2CT4NvX3e7wWI%2ClGHtGrnVzrI%2Ca_pSwfz-tG4%2CxYxbXNnn2bQ%2CFHE4e3C1qjQ%2Cs2pKIEXyXE4%2C2fdbZfTLM0A%2CEByqixt-SeA&title=ChRocktikal+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=A-6Kz876__o&list=RDAMVMA-6Kz876__o"
+  "playlistTitle": "ChRocktikal Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_n1tF-kls4ZnDNfTWlaRTd1whYRdaIGhqo",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_n1tF-kls4ZnDNfTWlaRTd1whYRdaIGhqo",
+  "ytmSongsPlaylistId": "OLAK5uy_n1tF-kls4ZnDNfTWlaRTd1whYRdaIGhqo"
 }

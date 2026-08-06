@@ -198,7 +198,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "Re.may 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=dB_qjJ6JhHo%2CEoTUxIJ9nto%2CuNyU79UK9lo%2CbYQVpoptQ1Q%2Cai7goap_n0A%2CBcXSxSvofts%2CKr0VtiondQI%2CEU9cAIBUx_I%2Cu-FYUmIft5k%2CJ5NdWZbsUyY&title=Re.may+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=dB_qjJ6JhHo&list=RDAMVMdB_qjJ6JhHo"
+  "playlistTitle": "Re.may Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nC54fVREWNUuyp6ET8y07LbqCqdFv1qFM",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_nC54fVREWNUuyp6ET8y07LbqCqdFv1qFM",
+  "ytmSongsPlaylistId": "OLAK5uy_nC54fVREWNUuyp6ET8y07LbqCqdFv1qFM"
 }

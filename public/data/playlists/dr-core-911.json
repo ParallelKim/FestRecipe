@@ -204,7 +204,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "닥터코어911 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=HiUcS9qEnAQ%2CNtLE946YITw%2CAri2-L722DM%2CCAu93KeK150%2CLOLDPnyZO2I%2CYuySu84BCWM%2CDJA1PgB7HDE%2CgQIohswjGho%2CNvqzEZfJ6js%2C2Imh5McXz9k&title=%EB%8B%A5%ED%84%B0%EC%BD%94%EC%96%B4911+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=HiUcS9qEnAQ&list=RDAMVMHiUcS9qEnAQ"
+  "playlistTitle": "닥터코어911 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nv-tTGC415KXb6j1YGgb2iqJfJe9QUR2g",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_nv-tTGC415KXb6j1YGgb2iqJfJe9QUR2g",
+  "ytmSongsPlaylistId": "OLAK5uy_nv-tTGC415KXb6j1YGgb2iqJfJe9QUR2g"
 }

@@ -199,7 +199,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "정효빈 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=2IzuShoLEHg%2CXfTnCwNp5a0%2Ct4RfjtPjFm0%2C_jmzlqEXEGQ%2C7D__k0cjh44%2CZn5BYlt_gmY%2CLnAczr-rDLQ%2C9eFu4MLusDg%2CfxFP5DLLu_0%2CVJmk6eZAMjY&title=%EC%A0%95%ED%9A%A8%EB%B9%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=2IzuShoLEHg&list=RDAMVM2IzuShoLEHg"
+  "playlistTitle": "정효빈 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nxN3XLvvoITfG5NJCPFbyDBB86L2hV-EQ",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_nxN3XLvvoITfG5NJCPFbyDBB86L2hV-EQ",
+  "ytmSongsPlaylistId": "OLAK5uy_nxN3XLvvoITfG5NJCPFbyDBB86L2hV-EQ"
 }

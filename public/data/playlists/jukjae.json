@@ -201,7 +201,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "적재 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=cn8gCkw6H5A%2CV6YLhXN6OCs%2CXjdAJ5Oy-AQ%2CWsKoXIF3jXs%2C1UjS4-ZEqD4%2Cv7Bn3wL3oS8%2CmT2MLTnBXzI%2CXkYWZYKNxJA%2Cxxwxr3nkzeQ%2C5359hiMKATQ&title=%EC%A0%81%EC%9E%AC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=cn8gCkw6H5A&list=RDAMVMcn8gCkw6H5A"
+  "playlistTitle": "적재 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nFMGuf1IhwpuFpqoSkSOY1eQY9a8IoyzI",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_nFMGuf1IhwpuFpqoSkSOY1eQY9a8IoyzI",
+  "ytmSongsPlaylistId": "OLAK5uy_nFMGuf1IhwpuFpqoSkSOY1eQY9a8IoyzI"
 }
