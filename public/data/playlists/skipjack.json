@@ -196,7 +196,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "SKIPJACK 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=7NsDYj1y2EY%2CcY5Nthxq4nA%2C9o3GjHvJSNY%2CthKfux7Mvfw%2C2BYOckXcslc%2CN97ietuDOcY%2CFpch_yRmY0M%2CnBSQw7SAk28%2C7JTm9eey4tw%2CgapmaIZnXrk&title=SKIPJACK+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=7NsDYj1y2EY&list=RDAMVM7NsDYj1y2EY"
+  "playlistTitle": "SKIPJACK Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nZmRi4F7hO5PpkyzkRlWU6c38WaBcreMM",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_nZmRi4F7hO5PpkyzkRlWU6c38WaBcreMM",
+  "ytmSongsPlaylistId": "OLAK5uy_nZmRi4F7hO5PpkyzkRlWU6c38WaBcreMM"
 }

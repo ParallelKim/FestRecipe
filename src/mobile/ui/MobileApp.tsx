@@ -104,7 +104,11 @@ export default function MobileApp({
 
   const artistListenUrl =
     selectedArtist && artistPlaylist
-      ? listen.artistListenUrl(selectedArtist.displayName, artistPlaylist.tracks)
+      ? listen.artistListenUrl(
+          selectedArtist.displayName,
+          artistPlaylist.tracks,
+          artistPlaylist.listenUrl,
+        )
       : null
 
   const dayReady = activeDay

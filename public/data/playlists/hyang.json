@@ -202,7 +202,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "HYANG 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=PoW6ccWfBBM%2CSRr_uLATFVk%2CqC3jFezN1no%2C_EoBDr1n_II%2CI2Tpdvzh9aE%2CduYTnfy1gGc%2Cn-gKNnWg434%2CzXARPX8VEFk%2CB15YJOaOjZU%2CoA6xDFoJbVI&title=HYANG+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=PoW6ccWfBBM&list=RDAMVMPoW6ccWfBBM"
+  "playlistTitle": "HYANG Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kBqGVicTVaF3v1iv9ByGKU4tU3JU9Vkcw",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_kBqGVicTVaF3v1iv9ByGKU4tU3JU9Vkcw",
+  "ytmSongsPlaylistId": "OLAK5uy_kBqGVicTVaF3v1iv9ByGKU4tU3JU9Vkcw"
 }

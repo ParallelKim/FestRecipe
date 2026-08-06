@@ -197,7 +197,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "아디오스오디오 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GA9pHvTQ7tg%2CEQbdud4-0MY%2CG-WzjK2Gg7k%2CDwTliKOhf6k%2Cv1TGOrOBt9A%2C1_jwsgFNaNY%2C_VyKUNlHIt8%2CaAdoWvFtGBs%2CB4iTLmkS2rk%2CJigWeW6EEjw&title=%EC%95%84%EB%94%94%EC%98%A4%EC%8A%A4%EC%98%A4%EB%94%94%EC%98%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GA9pHvTQ7tg&list=RDAMVMGA9pHvTQ7tg"
+  "playlistTitle": "아디오스오디오 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_l_wBnT4oDfhOn4V2TDzPJA8GgwAU3GtTc",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_l_wBnT4oDfhOn4V2TDzPJA8GgwAU3GtTc",
+  "ytmSongsPlaylistId": "OLAK5uy_l_wBnT4oDfhOn4V2TDzPJA8GgwAU3GtTc"
 }

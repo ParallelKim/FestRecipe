@@ -197,7 +197,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "W24 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ZNdERumxg5k%2CQx4RVhm3UZc%2C5chVpT8tGFo%2C-8r_WMgj65A%2C7AhygUZYoH4%2CqhfI-ukh_Qk%2CpH3If_X14OU%2CwRwbvrjQkMg%2CK0qFJtJYO2Y%2Cz4l74mNXRms&title=W24+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ZNdERumxg5k&list=RDAMVMZNdERumxg5k"
+  "playlistTitle": "W24 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_muqmxhrfC_Uy_K16NI3w7etYR38oWxGZg",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_muqmxhrfC_Uy_K16NI3w7etYR38oWxGZg",
+  "ytmSongsPlaylistId": "OLAK5uy_muqmxhrfC_Uy_K16NI3w7etYR38oWxGZg"
 }

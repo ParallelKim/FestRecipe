@@ -203,7 +203,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "기쿠하시 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=vZVFf9IAUJg%2Cx8fbDmkxURI%2CrL80v5KjOWg%2C072NwSbAa4A%2CRaRbzwea3Dc%2CzboyX7wcI-c%2CcQv778BxeLU%2Cmu-BtoRsvSw%2CWywyNY7mPYA%2CsZacHo4bm20&title=%EA%B8%B0%EC%BF%A0%ED%95%98%EC%8B%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=vZVFf9IAUJg&list=RDAMVMvZVFf9IAUJg"
+  "playlistTitle": "기쿠하시 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kscxXbljr7h4dwjMfOiWoR0ceaHdKOlGk",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_kscxXbljr7h4dwjMfOiWoR0ceaHdKOlGk",
+  "ytmSongsPlaylistId": "OLAK5uy_kscxXbljr7h4dwjMfOiWoR0ceaHdKOlGk"
 }

@@ -200,7 +200,8 @@
       "releaseType": "single"
     }
   ],
-  "playlistTitle": "UVERworld 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=0Ob_NVJ09Mw%2CUEqL_I0G7qU%2C4LeFmvLA_Co%2CYommuhgToGA%2CTrBupciJL-A%2CLhhpMZUBAho%2CdOVWGxU5YsU%2CGA9Yw5t-Mto%2C2XTI-T3Eb5A%2CMaZapg_E35w&title=UVERworld+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=0Ob_NVJ09Mw&list=RDAMVM0Ob_NVJ09Mw"
+  "playlistTitle": "UVERworld Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nki4TpIHoocRmzAXU1kZ4tcjCJf_Ala_A",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_nki4TpIHoocRmzAXU1kZ4tcjCJf_Ala_A",
+  "ytmSongsPlaylistId": "OLAK5uy_nki4TpIHoocRmzAXU1kZ4tcjCJf_Ala_A"
 }

@@ -43,5 +43,9 @@ export function mapPlaylistView(raw: Record<string, unknown>): MobilePlaylistVie
     tracks,
     targetSongCount,
     tier: tierFromRaw(recognition?.tier),
+    listenUrl:
+      typeof raw.youtubePlaylistUrl === 'string' && raw.youtubePlaylistUrl.trim()
+        ? raw.youtubePlaylistUrl.trim()
+        : null,
   }
 }

@@ -202,7 +202,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "진호 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=U6NSTeCnohA%2Ch1Jy-AD3RpM%2CVOjaeqyZO5M%2CjZvZAyVwMlg%2CdTVXv5RWGRM%2CHqw-O-u0PGo%2CbAtb6LKQtDw%2CVjUKdUKvTa8%2Cc4vRKPoVtvQ%2CRWZH6QeWoJ0&title=%EC%A7%84%ED%98%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=U6NSTeCnohA&list=RDAMVMU6NSTeCnohA"
+  "playlistTitle": "진호 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_mKtdJ8xv33-DbFRngw-fsKJlbu7gtC6WQ",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_mKtdJ8xv33-DbFRngw-fsKJlbu7gtC6WQ",
+  "ytmSongsPlaylistId": "OLAK5uy_mKtdJ8xv33-DbFRngw-fsKJlbu7gtC6WQ"
 }

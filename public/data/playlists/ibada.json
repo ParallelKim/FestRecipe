@@ -204,7 +204,8 @@
       "releaseType": "single"
     }
   ],
-  "playlistTitle": "이바다 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5splLOQmahc%2CVkaUpc9JfXE%2C-9HTVkd0Xho%2CHb0KOJ083rY%2CUhmFQ4eu73Q%2CVTURK-MTT18%2C5r3Ulg-8_zU%2C-ysreecrkfY%2CnWWqKXCZMGM%2CCKLnTfnNfKM&title=%EC%9D%B4%EB%B0%94%EB%8B%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5splLOQmahc&list=RDAMVM5splLOQmahc"
+  "playlistTitle": "이바다 Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kVfzqY7AewlaC6GfmaQkZ05wFaqcHi5Ec",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_kVfzqY7AewlaC6GfmaQkZ05wFaqcHi5Ec",
+  "ytmSongsPlaylistId": "OLAK5uy_kVfzqY7AewlaC6GfmaQkZ05wFaqcHi5Ec"
 }

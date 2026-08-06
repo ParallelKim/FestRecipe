@@ -207,7 +207,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "TOMIKITA 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=YdfwdnWfph8%2CUC41qpZttzM%2CelN94Chd_g0%2CWH3FF3siCzs%2Cyaye1wdKE_k%2C29rA2iOBmyQ%2CwsLFfAYEdsY%2CjhGW5dK1Pg0%2CCg-Qvahan9Q%2C9jZPLdoMU8o&title=TOMIKITA+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=YdfwdnWfph8&list=RDAMVMYdfwdnWfph8"
+  "playlistTitle": "TOMIKITA Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kVCyyS1_wG-sXU3zpb7V77M291j1Oy5ZA",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_kVCyyS1_wG-sXU3zpb7V77M291j1Oy5ZA",
+  "ytmSongsPlaylistId": "OLAK5uy_kVCyyS1_wG-sXU3zpb7V77M291j1Oy5ZA"
 }

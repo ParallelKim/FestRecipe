@@ -200,7 +200,8 @@
       "releaseType": "album"
     }
   ],
-  "playlistTitle": "AxMxP 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=hyuzYTv9unc%2Cs4mQvhbc270%2C8UVVnA8XKgE%2CQUrjKW1GR5s%2Cv-QajRnzWYU%2CoxlGR9Mk9jo%2CWDCX8bKblYc%2CXXjcVG6J9TI%2CJXGifEFhmIs%2C62MFyi8Crus&title=AxMxP+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=hyuzYTv9unc&list=RDAMVMhyuzYTv9unc"
+  "playlistTitle": "AxMxP Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nOv8YwkOL63X0zRAevqKKZxW1tGrUCW0Q",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_nOv8YwkOL63X0zRAevqKKZxW1tGrUCW0Q",
+  "ytmSongsPlaylistId": "OLAK5uy_nOv8YwkOL63X0zRAevqKKZxW1tGrUCW0Q"
 }

@@ -200,7 +200,8 @@
       "releaseType": "song"
     }
   ],
-  "playlistTitle": "Gaku 플레이리스트",
-  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ZpPoahIKiZA%2Cj3jINekcmRM%2CD6RkZ62ot9Y%2C5JtVCSCMYLY%2C3oXcJJe7mX8%2CI6Yp7SsEoHU%2CUn1p51v-_O8%2CVVC2NgntZh8%2C37gXd8wW2zY%2Csdq_SXQTj4g&title=Gaku+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
-  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ZpPoahIKiZA&list=RDAMVMZpPoahIKiZA"
+  "playlistTitle": "Gaku Top songs",
+  "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=OLAK5uy_mdv6VzmwTYGH_30vimMwryM9meTAjQTU8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/playlist?list=OLAK5uy_mdv6VzmwTYGH_30vimMwryM9meTAjQTU8",
+  "ytmSongsPlaylistId": "OLAK5uy_mdv6VzmwTYGH_30vimMwryM9meTAjQTU8"
 }
