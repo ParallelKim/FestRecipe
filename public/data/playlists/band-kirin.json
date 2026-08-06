@@ -1,0 +1,203 @@
+{
+  "artistId": "band-kirin",
+  "artistName": "밴드기린",
+  "englishName": "BandKirin",
+  "collectedAt": "2026-08-05T12:30:07.726611+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1020,
+    "latestSlotLabel": "17:00",
+    "festivalId": "jumf-2026",
+    "rank": 0.483,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UC9hyUfIWSB8XvTKUH9moanw",
+    "name": "BandKirin",
+    "subscribers": "876",
+    "channelId": "UC9hyUfIWSB8XvTKUH9moanw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/eLdSk1DQOuO6aC6sh89wa4D2VtuVpOTqMkPA581cMMjPZcP-_ou3GGESIBcEtXLdmGxjMtAK_3KoMVs=w1000-h416-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC9hyUfIWSB8XvTKUH9moanw"
+  },
+  "tracks": [
+    {
+      "videoId": "gAZE8MmgHsM",
+      "songTitle": "Jump",
+      "title": "Jump",
+      "artists": [
+        "밴드기린"
+      ],
+      "albumTitle": "Jump",
+      "albumBrowseId": "MPREb_ao3E4GovC77",
+      "duration": "4:16",
+      "durationSeconds": 256,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yJ5pCeAxV0zs7hGtptGMfLBkeB-UzlBaeZ-u8HRbtDPNSuBWsbLozkhcLM_AwCGMAy2wKlf9gA5hxiwoVg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gAZE8MmgHsM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gAZE8MmgHsM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "r2kofOJfk30",
+      "songTitle": "Hold onto me",
+      "title": "Hold onto me",
+      "artists": [
+        "밴드기린"
+      ],
+      "albumTitle": "Hold onto me",
+      "albumBrowseId": "MPREb_ZhvgrhagMEy",
+      "duration": "3:10",
+      "durationSeconds": 190,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eLdSk1DQOuO6aC6sh89wa4D2VtuVpOTqMkPA581cMMjPZcP-_ou3GGESIBcEtXLdmGxjMtAK_3KoMVs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=r2kofOJfk30",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=r2kofOJfk30",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Kk11WN56aDE",
+      "songTitle": "Beautiful days",
+      "title": "Beautiful days",
+      "artists": [
+        "밴드기린"
+      ],
+      "albumTitle": "Beautiful days",
+      "albumBrowseId": "MPREb_WrR1GIGiweD",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/r8JiKMbUlpUsCPt4oBF0-IwrHefqgjzHYAp-2QrZGHwIp5nL-zTixvCRl4JCBHe3uVwAzxWl76PyZZfl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Kk11WN56aDE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Kk11WN56aDE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7f98DsByVFw",
+      "songTitle": "도망쳐",
+      "title": "도망쳐",
+      "artists": [
+        "밴드기린"
+      ],
+      "albumTitle": "도망쳐",
+      "albumBrowseId": "MPREb_qBr1JtQGko3",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9hU8lRXcLJLTVf8HGF4Y6PlnPuZZauUj6CuetCFxbHLnSNVOKiFPbIsp0osGMd3koOMfZQ2IlV0VQ-Hg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7f98DsByVFw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7f98DsByVFw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "UoNn8NGf0Lc",
+      "songTitle": "You",
+      "title": "You",
+      "artists": [
+        "밴드기린"
+      ],
+      "albumTitle": "You",
+      "albumBrowseId": "MPREb_VF7GA2jB9s7",
+      "duration": "4:07",
+      "durationSeconds": 247,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/t91l6wknzv3dGv0h8rjqh9TR2THTtbln9li15FokzcM39ww-umdZifIg1KBpiKwzREO7NJ1wceYCjMOcBQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UoNn8NGf0Lc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UoNn8NGf0Lc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "OsVh5IJq6oc",
+      "songTitle": "조금만 더",
+      "title": "조금만 더",
+      "artists": [
+        "밴드기린"
+      ],
+      "albumTitle": "봄",
+      "albumBrowseId": "MPREb_gbq2NC4j5Yx",
+      "duration": "4:07",
+      "durationSeconds": 247,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1L6vl6iblsikOdYfXJFipht8BzBO0mSB8UrLRNn4VSw-uFXQZk8CiGdSQGpW97uDsqTkdjwYr-LRkoo5=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OsVh5IJq6oc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OsVh5IJq6oc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "jfaDSkNnRNo",
+      "songTitle": "말해줘",
+      "title": "말해줘",
+      "artists": [
+        "BandKirin"
+      ],
+      "albumTitle": "말해줘",
+      "albumBrowseId": "MPREb_aQqAWyrdCgB",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/q0A2xhAqfSm8C6RF7WZ9KzudbEd1dymSLHi7xMreE-oS8eFIQYvuNJEMmJ518-NZB17VRY_ZR-TIJbg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jfaDSkNnRNo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jfaDSkNnRNo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "wczbUn4tnAg",
+      "songTitle": "부서진",
+      "title": "부서진",
+      "artists": [
+        "밴드기린"
+      ],
+      "albumTitle": "You",
+      "albumBrowseId": "MPREb_VF7GA2jB9s7",
+      "duration": "4:43",
+      "durationSeconds": 283,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/t91l6wknzv3dGv0h8rjqh9TR2THTtbln9li15FokzcM39ww-umdZifIg1KBpiKwzREO7NJ1wceYCjMOcBQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wczbUn4tnAg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wczbUn4tnAg",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "_wmQw-SrcPU",
+      "songTitle": "Flying",
+      "title": "Flying",
+      "artists": [
+        "밴드기린"
+      ],
+      "albumTitle": "Flying",
+      "albumBrowseId": "MPREb_NUENYYNM8g3",
+      "duration": "4:41",
+      "durationSeconds": 281,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-zNtGomhu4HzY9-WtyeZlPAJFxL8dnbbh-2AWt4n88Xv6Bh348fmWwhKZdPC0ADm7rqZR_Ya6UPxqqrW=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_wmQw-SrcPU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_wmQw-SrcPU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "41pXRA-BpkM",
+      "songTitle": "여행",
+      "title": "여행",
+      "artists": [
+        "밴드기린"
+      ],
+      "albumTitle": "여행",
+      "albumBrowseId": "MPREb_NaZVPuEJJHa",
+      "duration": "4:25",
+      "durationSeconds": 265,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jkLkHqvG0_n4ld8X6D6qoDhvBLVesSK-xckAHrrIXjlscCG51uly5qR1cTyg7UyMKUd-OC5BE317oS3F=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=41pXRA-BpkM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=41pXRA-BpkM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 밴드기린 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=gAZE8MmgHsM%2Cr2kofOJfk30%2CKk11WN56aDE%2C7f98DsByVFw%2CUoNn8NGf0Lc%2COsVh5IJq6oc%2CjfaDSkNnRNo%2CwczbUn4tnAg%2C_wmQw-SrcPU%2C41pXRA-BpkM&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%B0%B4%EB%93%9C%EA%B8%B0%EB%A6%B0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=gAZE8MmgHsM&list=RDAMVMgAZE8MmgHsM"
+}

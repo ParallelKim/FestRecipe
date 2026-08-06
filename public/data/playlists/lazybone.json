@@ -1,0 +1,165 @@
+{
+  "artistId": "lazybone",
+  "artistName": "레이지본",
+  "englishName": "Lazybone",
+  "collectedAt": "2026-08-05T12:30:33.028205+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1050,
+    "latestSlotLabel": "17:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.552,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 7,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCUXRFAziJd66X-C2l68s7eQ",
+    "name": "LAZYBONE",
+    "subscribers": "0",
+    "channelId": "UCUXRFAziJd66X-C2l68s7eQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/XqcXXwW9QWCvQu8gioPDR0Hyl7RRpj_u6nEDX2GUAnNzDfOBtyeODVVL_BC1ipQLYjf6D1Pu5bnAs_X6=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCUXRFAziJd66X-C2l68s7eQ"
+  },
+  "tracks": [
+    {
+      "videoId": "E4iXDmKQjM4",
+      "songTitle": "MIKE DEAN",
+      "title": "MIKE DEAN",
+      "artists": [
+        "JUNKIE MEEP",
+        "LAZYBONE"
+      ],
+      "albumTitle": "MIKE DEAN",
+      "albumBrowseId": "MPREb_J33MLRFS8TX",
+      "duration": "3:02",
+      "durationSeconds": 182,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XqcXXwW9QWCvQu8gioPDR0Hyl7RRpj_u6nEDX2GUAnNzDfOBtyeODVVL_BC1ipQLYjf6D1Pu5bnAs_X6=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E4iXDmKQjM4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=E4iXDmKQjM4",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "qthkC29OtC4",
+      "songTitle": "ИГРУШКИ",
+      "title": "ИГРУШКИ",
+      "artists": [
+        "BABYCHOPPA",
+        "LAZYBONE"
+      ],
+      "albumTitle": "О ЧЕМ МЫ",
+      "albumBrowseId": "MPREb_IXRkq2cJfou",
+      "duration": "3:24",
+      "durationSeconds": 204,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZaTFMvXzCdaHwChIFMAPjwxyB7Aw8KRgCetFwgIP0RICqS31Qo9xmOELdWZnrxu0OAgPmV295nTTyIYlWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qthkC29OtC4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qthkC29OtC4",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "SOgsibFf8d0",
+      "songTitle": "МОРТАЛ КОМБАТ",
+      "title": "МОРТАЛ КОМБАТ",
+      "artists": [
+        "BABYCHOPPA",
+        "LAZYBONE"
+      ],
+      "albumTitle": "О ЧЕМ МЫ",
+      "albumBrowseId": "MPREb_IXRkq2cJfou",
+      "duration": "2:22",
+      "durationSeconds": 142,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZaTFMvXzCdaHwChIFMAPjwxyB7Aw8KRgCetFwgIP0RICqS31Qo9xmOELdWZnrxu0OAgPmV295nTTyIYlWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SOgsibFf8d0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SOgsibFf8d0",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "10u2i03cCMU",
+      "songTitle": "Я НЕ ПОНЯЛ",
+      "title": "Я НЕ ПОНЯЛ",
+      "artists": [
+        "BABYCHOPPA",
+        "LAZYBONE"
+      ],
+      "albumTitle": "О ЧЕМ МЫ",
+      "albumBrowseId": "MPREb_IXRkq2cJfou",
+      "duration": "2:08",
+      "durationSeconds": 128,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZaTFMvXzCdaHwChIFMAPjwxyB7Aw8KRgCetFwgIP0RICqS31Qo9xmOELdWZnrxu0OAgPmV295nTTyIYlWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=10u2i03cCMU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=10u2i03cCMU",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "9GwMuKHJ5nU",
+      "songTitle": "220!",
+      "title": "220!",
+      "artists": [
+        "BABYCHOPPA",
+        "LAZYBONE"
+      ],
+      "albumTitle": "О ЧЕМ МЫ",
+      "albumBrowseId": "MPREb_IXRkq2cJfou",
+      "duration": "2:21",
+      "durationSeconds": 141,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZaTFMvXzCdaHwChIFMAPjwxyB7Aw8KRgCetFwgIP0RICqS31Qo9xmOELdWZnrxu0OAgPmV295nTTyIYlWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9GwMuKHJ5nU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9GwMuKHJ5nU",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "Vvs6w2K62Ds",
+      "songTitle": "БЭГС",
+      "title": "БЭГС",
+      "artists": [
+        "BABYCHOPPA",
+        "LAZYBONE"
+      ],
+      "albumTitle": "О ЧЕМ МЫ",
+      "albumBrowseId": "MPREb_IXRkq2cJfou",
+      "duration": "1:50",
+      "durationSeconds": 110,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZaTFMvXzCdaHwChIFMAPjwxyB7Aw8KRgCetFwgIP0RICqS31Qo9xmOELdWZnrxu0OAgPmV295nTTyIYlWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Vvs6w2K62Ds",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Vvs6w2K62Ds",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "ol5LFnAmA3U",
+      "songTitle": "КАЛЕЙДОСКОП (Бонус) (feat. Юджин)",
+      "title": "КАЛЕЙДОСКОП (Бонус) (feat. Юджин)",
+      "artists": [
+        "LAZYBONE",
+        "BABYCHOPPA"
+      ],
+      "albumTitle": "О ЧЕМ МЫ",
+      "albumBrowseId": "MPREb_IXRkq2cJfou",
+      "duration": "2:18",
+      "durationSeconds": 138,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZaTFMvXzCdaHwChIFMAPjwxyB7Aw8KRgCetFwgIP0RICqS31Qo9xmOELdWZnrxu0OAgPmV295nTTyIYlWA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ol5LFnAmA3U",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ol5LFnAmA3U",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 레이지본 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=E4iXDmKQjM4%2CqthkC29OtC4%2CSOgsibFf8d0%2C10u2i03cCMU%2C9GwMuKHJ5nU%2CVvs6w2K62Ds%2Col5LFnAmA3U&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A0%88%EC%9D%B4%EC%A7%80%EB%B3%B8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=E4iXDmKQjM4&list=RDAMVME4iXDmKQjM4"
+}

@@ -1,0 +1,202 @@
+{
+  "artistId": "jang-beom-june",
+  "artistName": "장범준",
+  "englishName": "Jang Beom June",
+  "collectedAt": "2026-08-05T12:30:25.039103+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCvolP1xNN2maB52Tb1PkXzg",
+    "name": "Jang Beom June",
+    "subscribers": "870K",
+    "channelId": "UCjwCsj-axFNcxnv3yzV22WQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/6-A4ASzB6_MYJquLh1GxpwOA2ghK_mqCxv8ik_BiDjkdOfZGJbZsRNVTYEUyN8Qv07cDVqN1YA=w1910-h795-l90-rj-dcgWWMzKUI",
+    "url": "https://music.youtube.com/channel/UCvolP1xNN2maB52Tb1PkXzg"
+  },
+  "tracks": [
+    {
+      "videoId": "_pcl_JPqMfw",
+      "songTitle": "Your Shampoo Scent in the Flowers",
+      "title": "Your Shampoo Scent in the Flowers",
+      "artists": [
+        "Jang Beom June"
+      ],
+      "albumTitle": "Be Melodramatic, Part 3 (OST)",
+      "albumBrowseId": "MPREb_is3ydtV134x",
+      "duration": "2:49",
+      "durationSeconds": 169,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/fJQ-xGHkUDjbk1JScw1MrHEOflw6QnM7tRepbSiRdLhFyXVgVAjpRncbNi1LQzn4UhrT4AcZHbGiPU4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_pcl_JPqMfw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_pcl_JPqMfw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "K0qKtn5VPUE",
+      "songTitle": "can't sleep (잠이 오질 않네요)",
+      "title": "can't sleep (잠이 오질 않네요)",
+      "artists": [
+        "Jang Beom June"
+      ],
+      "albumTitle": "can't sleep (잠이 오질 않네요)",
+      "albumBrowseId": "MPREb_6v1PZX0Ndue",
+      "duration": "4:36",
+      "durationSeconds": 276,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/k38JTO1hclNHd07Bxy3f57b3EhAljriWLkEwhY9PcOdZt8FVqMvafN9A_IoJYyqwUlLtPJKg-nzixFqu=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K0qKtn5VPUE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=K0qKtn5VPUE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "RFMmK9E-cbc",
+      "songTitle": "Go Back (고백)",
+      "title": "Go Back (고백)",
+      "artists": [
+        "JANG BEOM JUNE"
+      ],
+      "albumTitle": "Go Back (첫 번째 '고백')",
+      "albumBrowseId": "MPREb_pgUysqdLDvc",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LSoOWZCjG5JelwF2-2BGOH9GVTKRRhJ2OqyqAeBmN8k8xC3X9mWakyKU32J2JTAaBtShgAnIAtWGN_Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RFMmK9E-cbc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RFMmK9E-cbc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "kL9_pN8MqdM",
+      "songTitle": "as you wish (추적이는 여름 비가 되어)",
+      "title": "as you wish (추적이는 여름 비가 되어)",
+      "artists": [
+        "JANG BEOM JUNE"
+      ],
+      "albumTitle": "JANG BEOM JUNE SINGLE (장범준 싱글)",
+      "albumBrowseId": "MPREb_XD2kP3zvZXn",
+      "duration": "4:34",
+      "durationSeconds": 274,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/e41dZ2Ggmc7c3ZCyA14gDamud2_Oi-2pGcpa--h6t4YTFoIfbNOqjCWBSQiIPGFo4L9s7_AA71LP2itEyQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kL9_pN8MqdM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kL9_pN8MqdM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "QV8D6P-NR4c",
+      "songTitle": "every moment with you (당신과는 천천히)",
+      "title": "every moment with you (당신과는 천천히)",
+      "artists": [
+        "Jang Beom June"
+      ],
+      "albumTitle": "Jang Beom June 3rd (장범준 3집)",
+      "albumBrowseId": "MPREb_MxLAMM4VxMM",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3xSG0iFo_NKAfLKffC5pTPYC2d1t8CDhZ8DvRsEhc8-K51kvjbdDA6lB5zuQ11Ug3we5sQAI3zoAVgu-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QV8D6P-NR4c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=QV8D6P-NR4c",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "1oipriupii0",
+      "songTitle": "I Feel You in My Heart",
+      "title": "I Feel You in My Heart",
+      "artists": [
+        "Jang Beom June"
+      ],
+      "albumTitle": "1st Album",
+      "albumBrowseId": "MPREb_ZV3CHkIEavN",
+      "duration": "3:18",
+      "durationSeconds": 198,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/w4dfK7Oeueo-zkYvFCB9lZvpf7I64WZsVlw3eXguhv7pxrLPJjLPR1UifjHdqAKh9MFqtNvPTd1sWSUI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1oipriupii0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1oipriupii0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Aka3RaNm9eA",
+      "songTitle": "Reminiscence",
+      "title": "Reminiscence",
+      "artists": [
+        "Jang Beom June"
+      ],
+      "albumTitle": "Signal, Part 1 (OST)",
+      "albumBrowseId": "MPREb_0Dqo2AjfF6z",
+      "duration": "4:29",
+      "durationSeconds": 269,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TebUqw5JYVj_lgh2jXdhdFHYOAEuVKH60aIZcFMWSNm4YiVPzFpIw2Jh3r2Rg-PCNd0AFCt4FmnZlO9Itw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Aka3RaNm9eA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Aka3RaNm9eA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "T27BUgDpcL0",
+      "songTitle": "Spring Rain (봄비)",
+      "title": "Spring Rain (봄비)",
+      "artists": [
+        "Jang Beom June"
+      ],
+      "albumTitle": "Jang Beom June 2nd Album (장범준 2집)",
+      "albumBrowseId": "MPREb_Al4BAXYSYym",
+      "duration": "3:02",
+      "durationSeconds": 182,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/y8R19v35zs0XsiebTLOKW6SjjGlQaxyV114tMnRRMJ9au-5VgFK0tw7c4_Y_WOaWE7jvwSpvx9BpTYfJNg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T27BUgDpcL0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=T27BUgDpcL0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "LiMJ_78Z5qY",
+      "songTitle": "To Hongdae (홍대와 건대 사이)",
+      "title": "To Hongdae (홍대와 건대 사이)",
+      "artists": [
+        "Jang Beom June"
+      ],
+      "albumTitle": "Jang Beom June 2nd Album (장범준 2집)",
+      "albumBrowseId": "MPREb_Al4BAXYSYym",
+      "duration": "2:57",
+      "durationSeconds": 177,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/y8R19v35zs0XsiebTLOKW6SjjGlQaxyV114tMnRRMJ9au-5VgFK0tw7c4_Y_WOaWE7jvwSpvx9BpTYfJNg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LiMJ_78Z5qY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LiMJ_78Z5qY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3xerxZ3gLnc",
+      "songTitle": "The One I Love",
+      "title": "The One I Love",
+      "artists": [
+        "Jang Beom June"
+      ],
+      "albumTitle": "1st Album",
+      "albumBrowseId": "MPREb_ZV3CHkIEavN",
+      "duration": "4:42",
+      "durationSeconds": 282,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/w4dfK7Oeueo-zkYvFCB9lZvpf7I64WZsVlw3eXguhv7pxrLPJjLPR1UifjHdqAKh9MFqtNvPTd1sWSUI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3xerxZ3gLnc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3xerxZ3gLnc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "장범준 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=_pcl_JPqMfw%2CK0qKtn5VPUE%2CRFMmK9E-cbc%2CkL9_pN8MqdM%2CQV8D6P-NR4c%2C1oipriupii0%2CAka3RaNm9eA%2CT27BUgDpcL0%2CLiMJ_78Z5qY%2C3xerxZ3gLnc&title=%EC%9E%A5%EB%B2%94%EC%A4%80+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=_pcl_JPqMfw&list=RDAMVM_pcl_JPqMfw"
+}

@@ -1,0 +1,206 @@
+{
+  "artistId": "hynn",
+  "artistName": "HYNN",
+  "englishName": "HYNN",
+  "collectedAt": "2026-08-05T12:30:22.905856+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC3qDRerpJAtgpxvAuEm2ITw",
+    "name": "HYNN",
+    "subscribers": "323K",
+    "channelId": "UCYqrMvzivB3xHHe2eoVrORw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/-CgIfw9_F-b8T0sqWa5SWdZkZn5cB7AdOLHxbieHCizM-GAjPk65CzLpI8eueQZbRcniDAdaGRgFXHI=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC3qDRerpJAtgpxvAuEm2ITw"
+  },
+  "tracks": [
+    {
+      "videoId": "BDqUNyV7UmU",
+      "songTitle": "The Lonely Bloom Stands Alone(시든 꽃에 물을 주듯)",
+      "title": "The Lonely Bloom Stands Alone(시든 꽃에 물을 주듯)",
+      "artists": [
+        "HYNN(박혜원)"
+      ],
+      "albumTitle": "The Lonely Bloom Stands Alone(시든 꽃에 물을 주듯)",
+      "albumBrowseId": "MPREb_pbtzxdWhwIN",
+      "duration": "3:20",
+      "durationSeconds": 200,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MCtod5jsrPCygOwPVEh3-MoCrcH1wax7_WfEhjunVhZBJYgF1y6A1k3MrNV8oYC2FDOXdRiM77iT0_0_=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BDqUNyV7UmU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BDqUNyV7UmU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Kkhr5V7ZHSU",
+      "songTitle": "If It Were Me",
+      "title": "If It Were Me",
+      "artists": [
+        "HYNN(박혜원)"
+      ],
+      "albumTitle": "If It Were Me",
+      "albumBrowseId": "MPREb_MIPzAKB8hgj",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HKLSM2F3sZ5pJGCHUx0lRjkz1cDPeUp9f_U_T9tPvm4Scnez1BjvZWnvjVcS1Mwk0BZBpdnvNSo-zmVu=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Kkhr5V7ZHSU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Kkhr5V7ZHSU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-llNF_9QZ1A",
+      "songTitle": "Wind that blows",
+      "title": "Wind that blows",
+      "artists": [
+        "HYNN"
+      ],
+      "albumTitle": "Wind that blows",
+      "albumBrowseId": "MPREb_xBD1T2Bs4Vo",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/s34yhghNLnOqlkg4w2j2y6vay_5T2CWuNrxDdQluGXpooWNcdClo8TbiJRvsvdPzUhv7JnhJoi5ka0MN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-llNF_9QZ1A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-llNF_9QZ1A",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "YxKxl0uKtE0",
+      "songTitle": "Goodbye My Love Change Street Version",
+      "title": "Goodbye My Love Change Street Version",
+      "artists": [
+        "HYNN"
+      ],
+      "albumTitle": "Change Street Episode 12",
+      "albumBrowseId": "MPREb_z8Eridfrwm5",
+      "duration": "4:30",
+      "durationSeconds": 270,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jW0q8WhGzrZZq22UATqg2cwf8coVMnSsFSd47nYr6MnxhehKzuyDPRuikCjvol_sRA4shNEpTIX_Z34=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YxKxl0uKtE0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YxKxl0uKtE0",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "aFRJC3yF_fY",
+      "songTitle": "P.S. I Love You (From. LOVE WAR)",
+      "title": "P.S. I Love You (From. LOVE WAR)",
+      "artists": [
+        "HYNN"
+      ],
+      "albumTitle": "P.S. I Love You (From. LOVE WAR)",
+      "albumBrowseId": "MPREb_94v4c0FdNmJ",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1_l_ddOA0bIeljQPiNFPu2vhA_T56dxz-DzG_qD7ScmKMU2mwAR8SDmBnNLo8FDv_xZHtKZx8DMvcNg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aFRJC3yF_fY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=aFRJC3yF_fY",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "p-jI13PtcSg",
+      "songTitle": "When I tell you goodbye (아무렇지 않게, 안녕)",
+      "title": "When I tell you goodbye (아무렇지 않게, 안녕)",
+      "artists": [
+        "HYNN"
+      ],
+      "albumTitle": "When I tell you goodbye (아무렇지 않게, 안녕)",
+      "albumBrowseId": "MPREb_I8pDQgR9WcZ",
+      "duration": "3:43",
+      "durationSeconds": 223,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KgufeOOP6ew6RDniV84fa0cR8SAgQubsGwwYLrBO8GgseVGf9jrtA6T9ULCsgoMefyTJH2QDYCwzmBPz=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=p-jI13PtcSg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=p-jI13PtcSg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ioV6ejEaiq4",
+      "songTitle": "차가워진 이 바람엔 우리가 써있어(Bad Love)",
+      "title": "차가워진 이 바람엔 우리가 써있어(Bad Love)",
+      "artists": [
+        "HYNN"
+      ],
+      "albumTitle": "차가워진 이 바람엔 우리가 써있어(Bad Love)",
+      "albumBrowseId": "MPREb_XjfEUA6aUF3",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6EiD25a62FAEyvhndjDlTDBygfnPwqFu4s4SJeQsZyEXjhFbzA43UQg08srJlCk_kJCccJYz2spcHEYm9w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ioV6ejEaiq4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ioV6ejEaiq4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "NYm2YE706w8",
+      "songTitle": "그런일은",
+      "title": "그런일은",
+      "artists": [
+        "HYNN"
+      ],
+      "albumTitle": "Begin Again Open Mic Episode.22 (비긴어게인 오픈마이크 Episode.22)",
+      "albumBrowseId": "MPREb_zReM4spOWD1",
+      "duration": "4:36",
+      "durationSeconds": 276,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-qQuGxjkoUj9Z_-YZyffxzjDC2BWlm1MznydcaN9GXJt4Cj0kFIvfxhbs1k6Xuk_vsyUdLUeOm8opH0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NYm2YE706w8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NYm2YE706w8",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "rctKPion0uE",
+      "songTitle": "We Should've Been Friends",
+      "title": "We Should've Been Friends",
+      "artists": [
+        "HYNN"
+      ],
+      "albumTitle": "We Should've Been Friends",
+      "albumBrowseId": "MPREb_UPxS0hPdcE8",
+      "duration": "4:32",
+      "durationSeconds": 272,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EZfoE1IwGAmJUy-GWoEU2XyTDUZUOcz7RkjQpUdinETS4eF8QySAknqdBNPE-4F8zw-078vI8AZUGPk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rctKPion0uE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rctKPion0uE",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "_3pWrYSTTAc",
+      "songTitle": "GO FOR IT",
+      "title": "GO FOR IT",
+      "artists": [
+        "HYNN"
+      ],
+      "albumTitle": "GO FOR IT",
+      "albumBrowseId": "MPREb_9rmQ6O836Yr",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/E0liJvYVuvD0jY_LC036SUU2UbSCWopVOTUEcyZOkPuRI6TuJy8J9d9XmBKHOzyGB8NaF9ZflklsP4H_8A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_3pWrYSTTAc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_3pWrYSTTAc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "HYNN 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=BDqUNyV7UmU%2CKkhr5V7ZHSU%2C-llNF_9QZ1A%2CYxKxl0uKtE0%2CaFRJC3yF_fY%2Cp-jI13PtcSg%2CioV6ejEaiq4%2CNYm2YE706w8%2CrctKPion0uE%2C_3pWrYSTTAc&title=HYNN+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=BDqUNyV7UmU&list=RDAMVMBDqUNyV7UmU"
+}

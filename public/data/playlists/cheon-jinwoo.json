@@ -1,0 +1,211 @@
+{
+  "artistId": "cheon-jinwoo",
+  "artistName": "천진우",
+  "englishName": "Cheon Jinwoo",
+  "collectedAt": "2026-08-05T12:30:09.940970+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 930,
+    "latestSlotLabel": "15:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.319,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCN33LVB3rEIHm1VdyO1RD-g",
+    "name": "천진우",
+    "subscribers": "9.19K",
+    "channelId": "UCN33LVB3rEIHm1VdyO1RD-g",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/enHSvSxa9SgXT6cf9VvR4W7ayl0qfpgbr19LRCXbnClYnXNgzEmk0Hakc8220K2xWWyW1i3aEuDmNAY=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCN33LVB3rEIHm1VdyO1RD-g"
+  },
+  "tracks": [
+    {
+      "videoId": "xPy-af9PC0g",
+      "songTitle": "청춘",
+      "title": "청춘",
+      "artists": [
+        "천진우"
+      ],
+      "albumTitle": "굴다리",
+      "albumBrowseId": "MPREb_UNJtyP9V7b6",
+      "duration": "2:53",
+      "durationSeconds": 173,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JozyvR34-YplMH7UyHj3iOeQVyQ2OUZmGl8W-rq84OBrMngH2uWVltD7r1gEHMW5TssRRcifbMdnigjE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xPy-af9PC0g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xPy-af9PC0g",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "NRaUozva58c",
+      "songTitle": "좆됐다 좆됐어",
+      "title": "좆됐다 좆됐어",
+      "artists": [
+        "천진우"
+      ],
+      "albumTitle": "푸줏간",
+      "albumBrowseId": "MPREb_D1Neioi3VmF",
+      "duration": "2:36",
+      "durationSeconds": 156,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/g2G_oh-s6EstH1xi7ClhI_umSbujK48Gd4dLRYmyGEgHe54bxIQ4y8VAKiTXCeGA8Os0BRSa2mICBAwmRA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NRaUozva58c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NRaUozva58c",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "TdSjC23BJhY",
+      "songTitle": "멸망",
+      "title": "멸망",
+      "artists": [
+        "천진우"
+      ],
+      "albumTitle": "굴다리",
+      "albumBrowseId": "MPREb_UNJtyP9V7b6",
+      "duration": "4:07",
+      "durationSeconds": 247,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JozyvR34-YplMH7UyHj3iOeQVyQ2OUZmGl8W-rq84OBrMngH2uWVltD7r1gEHMW5TssRRcifbMdnigjE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TdSjC23BJhY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TdSjC23BJhY",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "D55pHDBXjkw",
+      "songTitle": "대가리총 (Headshot)",
+      "title": "대가리총 (Headshot)",
+      "artists": [
+        "천진우"
+      ],
+      "albumTitle": "나는 기계가 싫어요 (Luddite)",
+      "albumBrowseId": "MPREb_dZjmfFL0c0Q",
+      "duration": "3:06",
+      "durationSeconds": 186,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RHqYhEqbj3hwWHr9d22dE91WsBcrwPcaxAycaJIFYrRAA8wMt5FacMTKvM2xkhymdb1FOfrHpkWs0rgu=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=D55pHDBXjkw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=D55pHDBXjkw",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "z9YyvKa0a6Y",
+      "songTitle": "민달팽이 (Slug)",
+      "title": "민달팽이 (Slug)",
+      "artists": [
+        "천진우"
+      ],
+      "albumTitle": "패배주의 (Defeatism)",
+      "albumBrowseId": "MPREb_V2hGWYshB2m",
+      "duration": "2:00",
+      "durationSeconds": 120,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dEl-xIyDM-uL7viwSOG0I2fvCJw8fUQ724eXFfxoW_FkuER_GBBB7BAgdkQftrpE_5AvQGmiR26YZeKcQw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=z9YyvKa0a6Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=z9YyvKa0a6Y",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "GllfjpQr6gE",
+      "songTitle": "인간쓰레기",
+      "title": "인간쓰레기",
+      "artists": [
+        "천진우"
+      ],
+      "albumTitle": "인간쓰레기",
+      "albumBrowseId": "MPREb_1m7S3QF6byj",
+      "duration": "2:43",
+      "durationSeconds": 163,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/goXIzW0sSGR-TJxiXCAlIBFT66Kia8VWLgsiN_a1jkofpOcxdP_F-9qDBIz0b1oMLnvkJwoM4qMFoAomMg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GllfjpQr6gE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GllfjpQr6gE",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "P4GkTzVvT74",
+      "songTitle": "이번 방학엔 공부 좀 해라",
+      "title": "이번 방학엔 공부 좀 해라",
+      "artists": [
+        "천진우"
+      ],
+      "albumTitle": "졸업앨범",
+      "albumBrowseId": "MPREb_zupVoCwTgAH",
+      "duration": "2:24",
+      "durationSeconds": 144,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ieWJbFgl7gX3gkYs7m5_w-R__GIgwU1NRehz6xu0MCniv4uKWx0Ekku2B7SM4HTXTWN9SFPq7f1GUe30=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=P4GkTzVvT74",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=P4GkTzVvT74",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "f8Mz4l683W0",
+      "songTitle": "세모 네모 동그라미",
+      "title": "세모 네모 동그라미",
+      "artists": [
+        "천진우"
+      ],
+      "albumTitle": "세모 네모 동그라미",
+      "albumBrowseId": "MPREb_3Amb17WAKA1",
+      "duration": "2:43",
+      "durationSeconds": 163,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eK8QFaG9H7uKiKxeZuDIA20DIYZNjP3CfklsfTqZ20P8RHCoe5IOe9YDKihO39QvelDKeUiPHbBy24iNiw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=f8Mz4l683W0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=f8Mz4l683W0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "u6IGn77zw5Y",
+      "songTitle": "12월 31일",
+      "title": "12월 31일",
+      "artists": [
+        "천진우"
+      ],
+      "albumTitle": "천진우 캐롤 모음집",
+      "albumBrowseId": "MPREb_VadRGdTutrB",
+      "duration": "2:44",
+      "durationSeconds": 164,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ofIkfD3evIfn6FEePOOevH6nUrx98wignHLgE_mH5ZtPbNNLI-wuWGnVnSD5cfteNKp3rJyBDW0t8XPA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u6IGn77zw5Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=u6IGn77zw5Y",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "luedv3FOBbU",
+      "songTitle": "복제인간 (Replicant)",
+      "title": "복제인간 (Replicant)",
+      "artists": [
+        "천진우"
+      ],
+      "albumTitle": "패배주의 (Defeatism)",
+      "albumBrowseId": "MPREb_V2hGWYshB2m",
+      "duration": "0:52",
+      "durationSeconds": 52,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dEl-xIyDM-uL7viwSOG0I2fvCJw8fUQ724eXFfxoW_FkuER_GBBB7BAgdkQftrpE_5AvQGmiR26YZeKcQw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=luedv3FOBbU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=luedv3FOBbU",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 천진우 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=xPy-af9PC0g%2CNRaUozva58c%2CTdSjC23BJhY%2CD55pHDBXjkw%2Cz9YyvKa0a6Y%2CGllfjpQr6gE%2CP4GkTzVvT74%2Cf8Mz4l683W0%2Cu6IGn77zw5Y%2Cluedv3FOBbU&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%B2%9C%EC%A7%84%EC%9A%B0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=xPy-af9PC0g&list=RDAMVMxPy-af9PC0g"
+}

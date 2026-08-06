@@ -1,0 +1,211 @@
+{
+  "artistId": "drinking-boys-and-girls-choir",
+  "artistName": "드링킹소년소녀합창단",
+  "englishName": "Drinking Boys and Girls Choir",
+  "collectedAt": "2026-08-05T12:30:15.936153+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1020,
+    "latestSlotLabel": "17:00",
+    "festivalId": "jumf-2026",
+    "rank": 0.491,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCRyxVcXTtMNl1EjKAQaIBTg",
+    "name": "Drinking Boys and Girls Choir",
+    "subscribers": "1.92K",
+    "channelId": "UCZ-TCOPrVoAQroP1i_F60UA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/Q6vOuP8DCM6zdNIs-lKKBYIpXs8og3eEntTcb8jF_PMQX9qUwlBQlZF5Rqigh-3nedZ-dIKTrGlGVdc=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCRyxVcXTtMNl1EjKAQaIBTg"
+  },
+  "tracks": [
+    {
+      "videoId": "Z-kk3q6W588",
+      "songTitle": "Linda Linda (Japanese)",
+      "title": "Linda Linda (Japanese)",
+      "artists": [
+        "Drinking Boys and Girls Choir"
+      ],
+      "albumTitle": "Linda Linda",
+      "albumBrowseId": "MPREb_pSimNrd5cNj",
+      "duration": "2:15",
+      "durationSeconds": 135,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-ta2aIcgOS_WT1_Vl-q9Y6hAWiVrrtp5R3xGUzi8LphdSs5H8oJ-IMbU6pLtgYoxb7bfd-U8qpZd1cVm=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Z-kk3q6W588",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Z-kk3q6W588",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "7jR0whm0jjs",
+      "songTitle": "Linda Linda (Korean)",
+      "title": "Linda Linda (Korean)",
+      "artists": [
+        "Drinking Boys and Girls Choir"
+      ],
+      "albumTitle": "Linda Linda",
+      "albumBrowseId": "MPREb_pSimNrd5cNj",
+      "duration": "2:33",
+      "durationSeconds": 153,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-ta2aIcgOS_WT1_Vl-q9Y6hAWiVrrtp5R3xGUzi8LphdSs5H8oJ-IMbU6pLtgYoxb7bfd-U8qpZd1cVm=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7jR0whm0jjs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7jR0whm0jjs",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "jLvdB_23GBg",
+      "songTitle": "History",
+      "title": "History",
+      "artists": [
+        "Drinking Boys and Girls Choir"
+      ],
+      "albumTitle": "History",
+      "albumBrowseId": "MPREb_kLQavMYiTqC",
+      "duration": "2:02",
+      "durationSeconds": 122,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qo1Qj6xuDklBwXfhhzRyhLNKbyOs0KFmBbLlHWMnm4i8xAeNyn8od-Ukq5248oHgyJLZmeHC6EhSg6Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jLvdB_23GBg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jLvdB_23GBg",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "6UNL_tWkPQs",
+      "songTitle": "Song of Sincerity",
+      "title": "Song of Sincerity",
+      "artists": [
+        "Drinking Boys and Girls Choir"
+      ],
+      "albumTitle": "Keep Drinking",
+      "albumBrowseId": "MPREb_t9FZBisUQdX",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/aQLoEjFgo-ZrUUIwnI9fd2Pkpq5TfHtQpIdNQG0v2f7xKkssrW47y4QCp4WUWNNOSnFPXKgzTXwF7jX5=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6UNL_tWkPQs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6UNL_tWkPQs",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "O6XtjNKFokE",
+      "songTitle": "Stay Here",
+      "title": "Stay Here",
+      "artists": [
+        "Drinking Boys and Girls Choir"
+      ],
+      "albumTitle": "Keep Drinking",
+      "albumBrowseId": "MPREb_t9FZBisUQdX",
+      "duration": "2:51",
+      "durationSeconds": 171,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/aQLoEjFgo-ZrUUIwnI9fd2Pkpq5TfHtQpIdNQG0v2f7xKkssrW47y4QCp4WUWNNOSnFPXKgzTXwF7jX5=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=O6XtjNKFokE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=O6XtjNKFokE",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "KFjTvmI83g8",
+      "songTitle": "National Police Shit",
+      "title": "National Police Shit",
+      "artists": [
+        "Drinking Boys and Girls Choir"
+      ],
+      "albumTitle": "Keep Drinking",
+      "albumBrowseId": "MPREb_t9FZBisUQdX",
+      "duration": "1:34",
+      "durationSeconds": 94,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/aQLoEjFgo-ZrUUIwnI9fd2Pkpq5TfHtQpIdNQG0v2f7xKkssrW47y4QCp4WUWNNOSnFPXKgzTXwF7jX5=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KFjTvmI83g8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KFjTvmI83g8",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Uw11uTlx8ZQ",
+      "songTitle": "There Is No Spring",
+      "title": "There Is No Spring",
+      "artists": [
+        "Drinking Boys and Girls Choir"
+      ],
+      "albumTitle": "Marriage License",
+      "albumBrowseId": "MPREb_osPnQPHaMT7",
+      "duration": "2:33",
+      "durationSeconds": 153,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/75mgTvZi9Am2Khhr61YwpEVLf8VNe_QtT-mkvZhAg4Ue3J-rigEJfAs-bKZV1e3W06BLOt56U-caMBcB=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Uw11uTlx8ZQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Uw11uTlx8ZQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "fJkR9FlY850",
+      "songTitle": "I'm a Fucking McDonald's",
+      "title": "I'm a Fucking McDonald's",
+      "artists": [
+        "Drinking Boys and Girls Choir"
+      ],
+      "albumTitle": "Keep Drinking",
+      "albumBrowseId": "MPREb_t9FZBisUQdX",
+      "duration": "2:23",
+      "durationSeconds": 143,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/aQLoEjFgo-ZrUUIwnI9fd2Pkpq5TfHtQpIdNQG0v2f7xKkssrW47y4QCp4WUWNNOSnFPXKgzTXwF7jX5=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fJkR9FlY850",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fJkR9FlY850",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "eo-nQ3TwjIM",
+      "songTitle": "Let Me Lost",
+      "title": "Let Me Lost",
+      "artists": [
+        "Drinking Boys and Girls Choir"
+      ],
+      "albumTitle": "Keep Drinking",
+      "albumBrowseId": "MPREb_t9FZBisUQdX",
+      "duration": "2:01",
+      "durationSeconds": 121,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/aQLoEjFgo-ZrUUIwnI9fd2Pkpq5TfHtQpIdNQG0v2f7xKkssrW47y4QCp4WUWNNOSnFPXKgzTXwF7jX5=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eo-nQ3TwjIM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=eo-nQ3TwjIM",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "2vixZcBJe2k",
+      "songTitle": "얼마나 더",
+      "title": "얼마나 더",
+      "artists": [
+        "드링킹소년소녀합창단"
+      ],
+      "albumTitle": "우리는,",
+      "albumBrowseId": "MPREb_NIOa2bdDPej",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0MhY6nB9KElW4bKJGmIEq_2vyMolnhFJECU0chOdvvHYwuy-gx6ac542WitWEn7D0dHKN4YM5HvM4dUE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2vixZcBJe2k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2vixZcBJe2k",
+      "source": "ytm_songs_popular",
+      "year": "2015",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 드링킹소년소녀합창단 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Z-kk3q6W588%2C7jR0whm0jjs%2CjLvdB_23GBg%2C6UNL_tWkPQs%2CO6XtjNKFokE%2CKFjTvmI83g8%2CUw11uTlx8ZQ%2CfJkR9FlY850%2Ceo-nQ3TwjIM%2C2vixZcBJe2k&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%93%9C%EB%A7%81%ED%82%B9%EC%86%8C%EB%85%84%EC%86%8C%EB%85%80%ED%95%A9%EC%B0%BD%EB%8B%A8+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Z-kk3q6W588&list=RDAMVMZ-kk3q6W588"
+}

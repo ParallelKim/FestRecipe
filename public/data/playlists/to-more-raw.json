@@ -1,0 +1,118 @@
+{
+  "artistId": "to-more-raw",
+  "artistName": "To More Raw",
+  "englishName": "To More Raw",
+  "collectedAt": "2026-08-05T12:30:51.243386+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 5,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UClMLS_hkgDlI6-bNYjfTNqA",
+    "name": "To More Raw",
+    "subscribers": "464",
+    "channelId": "UC64Cpa1XhnqjriPqCfkCIAw",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/NeK62Jepn1rP50lGBOrEccX1BoIKDzTJSvJdsNjItYVW7-AmE8TwRSi7-IeVyFYx4SNX9fHFqOUQygg=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UClMLS_hkgDlI6-bNYjfTNqA"
+  },
+  "tracks": [
+    {
+      "videoId": "cDksj9UKKRQ",
+      "songTitle": "Day",
+      "title": "Day",
+      "artists": [
+        "To More Raw"
+      ],
+      "albumTitle": "Day",
+      "albumBrowseId": "MPREb_WDttDiHAdPa",
+      "duration": null,
+      "durationSeconds": null,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/zqtmCDDNJ7aWjHEUT7xjObbPByR67yUTnM7sO4peX8AMdo86RQXXdzvpAXvmtPIADxdyw7tRp9oC9pJ_FA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cDksj9UKKRQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cDksj9UKKRQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3w61W7_u0fQ",
+      "songTitle": "Trip",
+      "title": "Trip",
+      "artists": [
+        "To More Raw"
+      ],
+      "albumTitle": "Trip",
+      "albumBrowseId": "MPREb_21k2JCbNtuK",
+      "duration": null,
+      "durationSeconds": null,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eEYSCs6Kw41fJpTp2mJm5VhGoBvPvh_poq4VIZylmZNgKZB63FmHKO_SHKhtCCFU7MGI4AtyHIDme2nz=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3w61W7_u0fQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3w61W7_u0fQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "u7S_cac7cfU",
+      "songTitle": "Metropolis",
+      "title": "Metropolis",
+      "artists": [
+        "To More Raw"
+      ],
+      "albumTitle": "Metropolis",
+      "albumBrowseId": "MPREb_g6Za2ofdEAs",
+      "duration": null,
+      "durationSeconds": null,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/DeIQlY2h2F9iKYh50eEvGIyy2C0YOqdGEl7X9BX2kJIMe1G2lnrshusvC3PWczSNcO6twiL_QLKfGZ4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u7S_cac7cfU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=u7S_cac7cfU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "zERgaFrNVe0",
+      "songTitle": "Red light",
+      "title": "Red light",
+      "artists": [
+        "To More Raw"
+      ],
+      "albumTitle": "Red light",
+      "albumBrowseId": "MPREb_liB4BdLizTC",
+      "duration": null,
+      "durationSeconds": null,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Bk8seg68JtR-SKytrqSuprJTbJEtACOBYVCvKoJ8MfOuyfaK5JjdqS9erhm2D0Dzwegkf7dOgerSpURe=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zERgaFrNVe0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zERgaFrNVe0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-TaoA0KNduQ",
+      "songTitle": "Hurricane",
+      "title": "Hurricane",
+      "artists": [
+        "To More Raw"
+      ],
+      "albumTitle": "Hurricane",
+      "albumBrowseId": "MPREb_otESLyg4GWT",
+      "duration": "3:36",
+      "durationSeconds": 216,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3YFMF_jSEekPSUFKAWuFaKHOiIDBZGl5o21HO_mmhHM_SKZ6BUrlNbcMWhFi78rKfr3p8rRnDwKpExjH=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-TaoA0KNduQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-TaoA0KNduQ",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "To More Raw 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=cDksj9UKKRQ%2C3w61W7_u0fQ%2Cu7S_cac7cfU%2CzERgaFrNVe0%2C-TaoA0KNduQ&title=To+More+Raw+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=cDksj9UKKRQ&list=RDAMVMcDksj9UKKRQ"
+}

@@ -1,0 +1,204 @@
+{
+  "artistId": "flow",
+  "artistName": "FLOW",
+  "englishName": "FLOW",
+  "collectedAt": "2026-08-05T12:30:18.546955+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1340,
+    "latestSlotLabel": "22:20",
+    "festivalId": "jumf-2026",
+    "rank": 0.931,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCJCEjx_2PIFi97rJjjfwrcQ",
+    "name": "FLOW",
+    "subscribers": "806K",
+    "channelId": "UCLakaKEelmUdqQISLjwIRmg",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/RLpDqF0eCgDDCwggE9ZqZTrZwfDzehrHsczN4Lc-VS-zBaAEAAQJPJDDTCjDrELzkjrwoUf7q32TpA=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCJCEjx_2PIFi97rJjjfwrcQ"
+  },
+  "tracks": [
+    {
+      "videoId": "csVeFCLhmAM",
+      "songTitle": "Sign",
+      "title": "Sign",
+      "artists": [
+        "FLOW"
+      ],
+      "albumTitle": "MICROCOSM",
+      "albumBrowseId": "MPREb_CvQTwJ5TnAu",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4_YVXNNRCEh5JGphZ0aNbyNVaTMlPlEQNjUtM4CFEOOrEZp1ZEwyPy7skZfsssE8J_CQ4A0nf5KW77ys=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=csVeFCLhmAM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=csVeFCLhmAM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Cr_a22DS-ik",
+      "songTitle": "Go!!!",
+      "title": "Go!!!",
+      "artists": [
+        "FLOW"
+      ],
+      "albumTitle": "Game",
+      "albumBrowseId": "MPREb_MAqcFQnFCwl",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/z_yftBS29iZQxEs9tYTDjqbqOanMT9mAGftDp2Ki12osQiMYsJTPE2POz1rqlLYhPYmm9qShj7Gvdio=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Cr_a22DS-ik",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Cr_a22DS-ik",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3y-BWmaLMsU",
+      "songTitle": "HERO 〜希望の歌〜 - Hero -Kibou No Uta",
+      "title": "HERO 〜希望の歌〜 - Hero -Kibou No Uta",
+      "artists": [
+        "FLOW"
+      ],
+      "albumTitle": "FLOW THE MAX !!!",
+      "albumBrowseId": "MPREb_w7fHCi2yUvh",
+      "duration": "3:38",
+      "durationSeconds": 218,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/UAmnPS1pbfGztXZUtIFAj5rtNLLnSgH6tPhY5xapdEoLhuri6QkggVgBiuixGLf3u9hn-kWE6tIaZYs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3y-BWmaLMsU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3y-BWmaLMsU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ecYqnhOrppc",
+      "songTitle": "COLORS (Album Mix) - Colors (Ailu Mix)",
+      "title": "COLORS (Album Mix) - Colors (Ailu Mix)",
+      "artists": [
+        "FLOW"
+      ],
+      "albumTitle": "Ailu",
+      "albumBrowseId": "MPREb_6Fn5HqZC8fk",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MkAhtVAojw1VKbqYEcZ6eI_TOM4ILTVbLKcRhwjQbMLYRlO_ACzuE8skfKtOQ8mc4H93-0PSrs1dvl-luQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ecYqnhOrppc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ecYqnhOrppc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "hQp_69UgtXQ",
+      "songTitle": "Days (Golden Coast Version)",
+      "title": "Days (Golden Coast Version)",
+      "artists": [
+        "FLOW"
+      ],
+      "albumTitle": "Golden Coast",
+      "albumBrowseId": "MPREb_8umFijXpiga",
+      "duration": "4:26",
+      "durationSeconds": 266,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7KbjPnmwesNZlBweJC8WfLplxy1fo63gTGydwGRvrofcLYtLz2I7C7H89i4Fj2pA0xYZczyoMMLUBj39=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hQp_69UgtXQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=hQp_69UgtXQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "JjR-Eo08WeU",
+      "songTitle": "Butter-Fly - From THE FIRST TAKE",
+      "title": "Butter-Fly - From THE FIRST TAKE",
+      "artists": [
+        "angela, Masayoshi Oishi, Masami Okui, TrySail, and FLOW"
+      ],
+      "albumTitle": "Butter-Fly - From THE FIRST TAKE",
+      "albumBrowseId": "MPREb_dFNAAqojOYA",
+      "duration": "5:19",
+      "durationSeconds": 319,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1n3AYNPCWALXsoJq1OiRVj83W8-QEeL0lpzwquSNHsm0rdviYjmhVeQgm2V3PTIIVwOTaKNposYyN3tS=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JjR-Eo08WeU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JjR-Eo08WeU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "am5R6aoQ6UQ",
+      "songTitle": "GO!!! - From THE FIRST TAKE",
+      "title": "GO!!! - From THE FIRST TAKE",
+      "artists": [
+        "FLOW"
+      ],
+      "albumTitle": "GO!!! - From THE FIRST TAKE",
+      "albumBrowseId": "MPREb_dYqTXGSGyqJ",
+      "duration": "4:43",
+      "durationSeconds": 283,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/D7CGjVPmXcnTm6ljVd2YA4CXpX_JPU1XGTmyJXoVvDX4EIZYxRofEwX9Kl45JXAgBHEYWk9wGYsyWXpO=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=am5R6aoQ6UQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=am5R6aoQ6UQ",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "8WmOjPl0m5I",
+      "songTitle": "GO!!! ～15th Anniversary ver.～ - GO!!! 15th Anniversary version",
+      "title": "GO!!! ～15th Anniversary ver.～ - GO!!! 15th Anniversary version",
+      "artists": [
+        "FLOW"
+      ],
+      "albumTitle": "Fighting Dreamers",
+      "albumBrowseId": "MPREb_V87XY7cewC6",
+      "duration": "5:23",
+      "durationSeconds": 323,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HBp7UzP_2OIBgIFdv6zxsV0ppmnqj5s4UKE_-fQQYTZ_7QBECZxTM1WdGuheG15iCoJ1VTm7kIeKkmML=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8WmOjPl0m5I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8WmOjPl0m5I",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "tEG3MXhgvAo",
+      "songTitle": "Howling",
+      "title": "Howling",
+      "artists": [
+        "FLOW",
+        "GRANRODEO"
+      ],
+      "albumTitle": "Howling",
+      "albumBrowseId": "MPREb_jaMtMQtuchc",
+      "duration": "4:22",
+      "durationSeconds": 262,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p7fkLmkti-lcUx1NGjVw51k83L3-_aMSCJ2C0oOkJ3gajZmhwD1I2mWFR-tp2fTF_yGPOxTt4AFNia0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tEG3MXhgvAo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tEG3MXhgvAo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "g9MbO7FIJ6o",
+      "songTitle": "World End",
+      "title": "World End",
+      "artists": [
+        "FLOW"
+      ],
+      "albumTitle": "Number Five",
+      "albumBrowseId": "MPREb_kz5fJ6TlHLo",
+      "duration": "3:47",
+      "durationSeconds": 227,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/r60A9T8MoFcO1LNQbVGMz8-sYkOm65rMZUkdZ6qSZ9uaXzS-2KJYNGn5OfVjgrFex1TF_WOWnbTFOKQAZw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g9MbO7FIJ6o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=g9MbO7FIJ6o",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 FLOW 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=csVeFCLhmAM%2CCr_a22DS-ik%2C3y-BWmaLMsU%2CecYqnhOrppc%2ChQp_69UgtXQ%2CJjR-Eo08WeU%2Cam5R6aoQ6UQ%2C8WmOjPl0m5I%2CtEG3MXhgvAo%2Cg9MbO7FIJ6o&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+FLOW+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=csVeFCLhmAM&list=RDAMVMcsVeFCLhmAM"
+}

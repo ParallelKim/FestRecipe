@@ -1,0 +1,152 @@
+{
+  "artistId": "haengronan",
+  "artistName": "행로난",
+  "englishName": "Hangronan",
+  "collectedAt": "2026-08-05T12:30:21.243329+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 7,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCJXcOzzxoblEVMWCBg5BZGA",
+    "name": "Hangronan",
+    "subscribers": "6.98K",
+    "channelId": "UCywRQ5sUdcS5xyd7tv9rFqg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/okGD43MoWTDjxbUKHwFYolXfq0G1-v1r6-vU5zWLV6oBZAaPh8y5TDpG8FhpQqcuJQRdrO-Xdg=w1772-h738-l90-rj-dcHWSSrCkH",
+    "url": "https://music.youtube.com/channel/UCJXcOzzxoblEVMWCBg5BZGA"
+  },
+  "tracks": [
+    {
+      "videoId": "MSJ4TpI2USo",
+      "songTitle": "Resistance",
+      "title": "Resistance",
+      "artists": [
+        "Hangronan"
+      ],
+      "albumTitle": "Resistance",
+      "albumBrowseId": "MPREb_FnyEW9i36gS",
+      "duration": "3:36",
+      "durationSeconds": 216,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2xnU66-DCTJHbKN6LiKHsflJ-2TeCzX-E6dITGQAOIp1SlTPv77OpQW_BgPhfsmPwoxTvIHKH22PUBab=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MSJ4TpI2USo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=MSJ4TpI2USo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Jsbi-vT4zro",
+      "songTitle": "Plasma",
+      "title": "Plasma",
+      "artists": [
+        "Hangronan"
+      ],
+      "albumTitle": "Plasma",
+      "albumBrowseId": "MPREb_crsI1MBnsHE",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/cIjyQNyM1yzSTRDU-3pX97eXoHvYKtm8umSaIHWuXpgD5qdAE8MO-jRgO09TIQlu0SZ8a2ZzCyO5phY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Jsbi-vT4zro",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Jsbi-vT4zro",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "nJee9Bq0mw4",
+      "songTitle": "Nirvana",
+      "title": "Nirvana",
+      "artists": [
+        "Hangronan"
+      ],
+      "albumTitle": "GREAT SEOUL INVASION Section 4",
+      "albumBrowseId": "MPREb_xjjyK7HioK4",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_ito7PzFO4U8UumRn2NP3yLXaMBaMU2EOeNSX5xLWAiSqY4Hd5sSQJxGGiTp66rGAmcQAzGDcURWlp0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nJee9Bq0mw4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nJee9Bq0mw4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ug0AXcuMXeg",
+      "songTitle": "Horizon",
+      "title": "Horizon",
+      "artists": [
+        "Hangronan"
+      ],
+      "albumTitle": "bright #11",
+      "albumBrowseId": "MPREb_8SU4BWbJYMH",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4s8hbpT9fTji5MqTBgMfDOGqrD_VFHRRYd0ZXGF8rYERAGse2G3l2PQ177EoUuCO5tc3bS3PcZuPHuE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ug0AXcuMXeg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ug0AXcuMXeg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "bOVEm0pqyz4",
+      "songTitle": "Stardust",
+      "title": "Stardust",
+      "artists": [
+        "Hangronan"
+      ],
+      "albumTitle": "Stardust",
+      "albumBrowseId": "MPREb_kNtzmKfX8pu",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/DNHNXnA9YGM8Th7CsauS3GFngD9sXQS3Sz-bMdKqmwHHwDvqF7LH1l3KGAWQo0d2bg5hrjcgszQedIUpTw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bOVEm0pqyz4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bOVEm0pqyz4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ScntaySD5ow",
+      "songTitle": "Hexagone",
+      "title": "Hexagone",
+      "artists": [
+        "Hangronan"
+      ],
+      "albumTitle": "GREAT SEOUL INVASION Section 1",
+      "albumBrowseId": "MPREb_Q9a9rNT6YKR",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oRC04gV9xUX_-6-gBPkkl9NRjzmzhVh9Oe7IzRtOQikGcQHSJmDw-FXpIlvB9EP8Fgt53VI5oHsIf-ih=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ScntaySD5ow",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ScntaySD5ow",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "E1D7UHXoIao",
+      "songTitle": "No way (improvised live ver.)",
+      "title": "No way (improvised live ver.)",
+      "artists": [
+        "Hangronan"
+      ],
+      "albumTitle": "GREAT SEOUL INVASION Section 5",
+      "albumBrowseId": "MPREb_4dS2sVrEhrk",
+      "year": null,
+      "releaseType": "song",
+      "duration": "2:01",
+      "durationSeconds": 121,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/b0nlRsQFQrFH5byo0slFwn0VYNKhT9GpPu1GUenCmguoLhcB5IROzCskJMwdV4BXx2MPGsHiMrmp7W0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E1D7UHXoIao",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=E1D7UHXoIao",
+      "source": "releases_fallback"
+    }
+  ],
+  "playlistTitle": "행로난 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=MSJ4TpI2USo%2CJsbi-vT4zro%2CnJee9Bq0mw4%2Cug0AXcuMXeg%2CbOVEm0pqyz4%2CScntaySD5ow%2CE1D7UHXoIao&title=%ED%96%89%EB%A1%9C%EB%82%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=MSJ4TpI2USo&list=RDAMVMMSJ4TpI2USo"
+}

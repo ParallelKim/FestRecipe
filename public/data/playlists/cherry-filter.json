@@ -1,0 +1,202 @@
+{
+  "artistId": "cherry-filter",
+  "artistName": "체리필터",
+  "englishName": "Cherry Filter",
+  "collectedAt": "2026-08-05T12:30:10.559516+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC4wA7s-xYMuRqWrpNL9Bgdg",
+    "name": "CherryFilter",
+    "subscribers": "71.3K",
+    "channelId": "UCKTD_Rh7yAD5x9Snt4ZSJsw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/vHGYYbbsIz7OgKagmLLxUIPsN6WT0jTui0MPwLo9LxcCQvYJImzAS9efOl9Bj5OQzDcHrHoBGBiGioDX=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC4wA7s-xYMuRqWrpNL9Bgdg"
+  },
+  "tracks": [
+    {
+      "videoId": "FYjWDBEA76E",
+      "songTitle": "flying duck",
+      "title": "flying duck",
+      "artists": [
+        "CHERRYFILTER"
+      ],
+      "albumTitle": "Third Eye",
+      "albumBrowseId": "MPREb_7fp0378eS5M",
+      "duration": "4:06",
+      "durationSeconds": 246,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JUHpepfa9uB6sOcLpNgx5FvvnwDAWa7h-exdaOaBSNaeCyJffMjkDwdof8RnM87zakLEu9Zrfz75PiNk=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FYjWDBEA76E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FYjWDBEA76E",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "h3XVYav2SQs",
+      "songTitle": "sweet little kitty (낭만고양이)",
+      "title": "sweet little kitty (낭만고양이)",
+      "artists": [
+        "CHERRYFILTER"
+      ],
+      "albumTitle": "Made In Korea?",
+      "albumBrowseId": "MPREb_3ctF1L06XI8",
+      "duration": "3:51",
+      "durationSeconds": 231,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AVP1HWKXDrmU9aszsct5WVrbmhHH_ckWwhf-F8hvXtUyg4KrzHedP5AXUfknjWce_IObpahqltMxMJkQzQ=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=h3XVYav2SQs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=h3XVYav2SQs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "4i1wkzAlU5M",
+      "songTitle": "Happy Day",
+      "title": "Happy Day",
+      "artists": [
+        "CHERRYFILTER"
+      ],
+      "albumTitle": "Peace N’ Rock N’ Roll",
+      "albumBrowseId": "MPREb_6dNmJhKapMD",
+      "duration": "3:36",
+      "durationSeconds": 216,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4DHWEtZzk-aZMUm0anQCrdY0TvKJpCgNcE7hjuIRv3SZLx1Hvev7vu2dfc9344x5EskIT1RwjKWLHTXQ=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4i1wkzAlU5M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4i1wkzAlU5M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "g4tJZSlIAYs",
+      "songTitle": "moonlight boy",
+      "title": "moonlight boy",
+      "artists": [
+        "CHERRYFILTER"
+      ],
+      "albumTitle": "Third Eye",
+      "albumBrowseId": "MPREb_7fp0378eS5M",
+      "duration": "4:01",
+      "durationSeconds": 241,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JUHpepfa9uB6sOcLpNgx5FvvnwDAWa7h-exdaOaBSNaeCyJffMjkDwdof8RnM87zakLEu9Zrfz75PiNk=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g4tJZSlIAYs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=g4tJZSlIAYs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "79pAV-hSlww",
+      "songTitle": "Pianissimo 2022 Remixed Remastered",
+      "title": "Pianissimo 2022 Remixed Remastered",
+      "artists": [
+        "체리필터"
+      ],
+      "albumTitle": "Rocksteric 2022 Remixed Remastered",
+      "albumBrowseId": "MPREb_fiKu57Wvs58",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vHGYYbbsIz7OgKagmLLxUIPsN6WT0jTui0MPwLo9LxcCQvYJImzAS9efOl9Bj5OQzDcHrHoBGBiGioDX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=79pAV-hSlww",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=79pAV-hSlww",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ChVtFMOsHUo",
+      "songTitle": "come to me (내게로 와)",
+      "title": "come to me (내게로 와)",
+      "artists": [
+        "CHERRYFILTER"
+      ],
+      "albumTitle": "Made In Korea?",
+      "albumBrowseId": "MPREb_3ctF1L06XI8",
+      "duration": "3:46",
+      "durationSeconds": 226,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AVP1HWKXDrmU9aszsct5WVrbmhHH_ckWwhf-F8hvXtUyg4KrzHedP5AXUfknjWce_IObpahqltMxMJkQzQ=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ChVtFMOsHUo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ChVtFMOsHUo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "K4IL9eF2-Ps",
+      "songTitle": "flying duck (M-Ver.)",
+      "title": "flying duck (M-Ver.)",
+      "artists": [
+        "CHERRYFILTER"
+      ],
+      "albumTitle": "Third Eye",
+      "albumBrowseId": "MPREb_7fp0378eS5M",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JUHpepfa9uB6sOcLpNgx5FvvnwDAWa7h-exdaOaBSNaeCyJffMjkDwdof8RnM87zakLEu9Zrfz75PiNk=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K4IL9eF2-Ps",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=K4IL9eF2-Ps",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "LcXsNCwleBc",
+      "songTitle": "touch my ruin heart (내 안의 폐허에 닿아)",
+      "title": "touch my ruin heart (내 안의 폐허에 닿아)",
+      "artists": [
+        "CHERRYFILTER"
+      ],
+      "albumTitle": "Made In Korea?",
+      "albumBrowseId": "MPREb_3ctF1L06XI8",
+      "duration": "4:55",
+      "durationSeconds": 295,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AVP1HWKXDrmU9aszsct5WVrbmhHH_ckWwhf-F8hvXtUyg4KrzHedP5AXUfknjWce_IObpahqltMxMJkQzQ=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LcXsNCwleBc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LcXsNCwleBc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "kp0-xOfvyW4",
+      "songTitle": "a jolly witch (유쾌한 마녀)",
+      "title": "a jolly witch (유쾌한 마녀)",
+      "artists": [
+        "CHERRYFILTER"
+      ],
+      "albumTitle": "Peace N’ Rock N’ Roll",
+      "albumBrowseId": "MPREb_6dNmJhKapMD",
+      "duration": "4:11",
+      "durationSeconds": 251,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4DHWEtZzk-aZMUm0anQCrdY0TvKJpCgNcE7hjuIRv3SZLx1Hvev7vu2dfc9344x5EskIT1RwjKWLHTXQ=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kp0-xOfvyW4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kp0-xOfvyW4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "a0ApUalp94k",
+      "songTitle": "Peace N` Rock N` Roll",
+      "title": "Peace N` Rock N` Roll",
+      "artists": [
+        "CHERRYFILTER"
+      ],
+      "albumTitle": "Peace N’ Rock N’ Roll",
+      "albumBrowseId": "MPREb_6dNmJhKapMD",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4DHWEtZzk-aZMUm0anQCrdY0TvKJpCgNcE7hjuIRv3SZLx1Hvev7vu2dfc9344x5EskIT1RwjKWLHTXQ=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=a0ApUalp94k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=a0ApUalp94k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "체리필터 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=FYjWDBEA76E%2Ch3XVYav2SQs%2C4i1wkzAlU5M%2Cg4tJZSlIAYs%2C79pAV-hSlww%2CChVtFMOsHUo%2CK4IL9eF2-Ps%2CLcXsNCwleBc%2Ckp0-xOfvyW4%2Ca0ApUalp94k&title=%EC%B2%B4%EB%A6%AC%ED%95%84%ED%84%B0+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=FYjWDBEA76E&list=RDAMVMFYjWDBEA76E"
+}

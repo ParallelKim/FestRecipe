@@ -1,0 +1,207 @@
+{
+  "artistId": "guckkasten",
+  "artistName": "국카스텐",
+  "englishName": "Guckkasten",
+  "collectedAt": "2026-08-05T12:30:21.000986+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1290,
+    "latestSlotLabel": "21:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.914,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCqdzjL6QabfYCnFZ-enRyQw",
+    "name": "Guckkasten",
+    "subscribers": "43.4K",
+    "channelId": "UC1UWhd_JMdh8zrLvjtXgjhQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/CALvbbf6mVr04AqVfBtwPAJhAhiUhvxxGyJ0uoCFZpVFda1PmhfCMCY0ufNHnFggv0sdd5PhOg=w2000-h833-l90-rj-dckZKSqr0H",
+    "url": "https://music.youtube.com/channel/UCqdzjL6QabfYCnFZ-enRyQw"
+  },
+  "tracks": [
+    {
+      "videoId": "hS3CSjwUdjw",
+      "songTitle": "모나리자 (원곡가수 조용필)",
+      "title": "모나리자 (원곡가수 조용필)",
+      "artists": [
+        "Guckkasten"
+      ],
+      "albumTitle": "<나는 가수다 2> 2012 가왕전 7강전 / 1집",
+      "albumBrowseId": "MPREb_VSi2F49YGTh",
+      "duration": "4:47",
+      "durationSeconds": 287,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/gQjAHKij1UwsJHnKUyAaOd-MYR7rb1TLvpm7TmsWjBv6g_F8KApBYFMa1bxAJNaOy_l4JoR34ju-roUf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hS3CSjwUdjw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=hS3CSjwUdjw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "6n910kfzvx0",
+      "songTitle": "Mirror (거울)",
+      "title": "Mirror (거울)",
+      "artists": [
+        "Guckkasten"
+      ],
+      "albumTitle": "Guckkasten",
+      "albumBrowseId": "MPREb_XBESisccObH",
+      "duration": "4:41",
+      "durationSeconds": 281,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/w20VzEwpEJ3kHiSl9WHBdW9lM2JX8H1xvacdBwI1Qzs3SnclAfLBeYzB9eMR0r_abeevTuPvd4k7q1pp-g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6n910kfzvx0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6n910kfzvx0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "urP5p8io-Ag",
+      "songTitle": "Pulse",
+      "title": "Pulse",
+      "artists": [
+        "Guckkasten"
+      ],
+      "albumTitle": "Pulse",
+      "albumBrowseId": "MPREb_GDSyvuCOPUc",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WRhRdU-PZpQhd3XXyANHL_yZtk-Mtf1bGujhFsl5-YCZNWm3t_11rBLXa4HLolkvN80vsNNaqxLzoa12=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=urP5p8io-Ag",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=urP5p8io-Ag",
+      "source": "ytm_songs_popular",
+      "year": "2016",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "1Wb4RfIsxrQ",
+      "songTitle": "VITRIOL",
+      "title": "VITRIOL",
+      "artists": [
+        "Guckkasten"
+      ],
+      "albumTitle": "Guckkasten",
+      "albumBrowseId": "MPREb_XBESisccObH",
+      "duration": "5:48",
+      "durationSeconds": 348,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/w20VzEwpEJ3kHiSl9WHBdW9lM2JX8H1xvacdBwI1Qzs3SnclAfLBeYzB9eMR0r_abeevTuPvd4k7q1pp-g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1Wb4RfIsxrQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1Wb4RfIsxrQ",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "JBlrDbP4tqI",
+      "songTitle": "KICK OUT",
+      "title": "KICK OUT",
+      "artists": [
+        "Guckkasten"
+      ],
+      "albumTitle": "AURUM",
+      "albumBrowseId": "MPREb_MBhKcYdlGTU",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/cUvqAzHjweABEbTKQ5jK2tCEhBgyNghsDrj4_RcCCM5Kr7v44EHheFxvwiL-YTSp2awiBfHhkJK-nHw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JBlrDbP4tqI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JBlrDbP4tqI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "bPXNwkUwz_I",
+      "songTitle": "MANDRAKE",
+      "title": "MANDRAKE",
+      "artists": [
+        "Guckkasten"
+      ],
+      "albumTitle": "Guckkasten",
+      "albumBrowseId": "MPREb_XBESisccObH",
+      "duration": "6:12",
+      "durationSeconds": 372,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/w20VzEwpEJ3kHiSl9WHBdW9lM2JX8H1xvacdBwI1Qzs3SnclAfLBeYzB9eMR0r_abeevTuPvd4k7q1pp-g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bPXNwkUwz_I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bPXNwkUwz_I",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "F21SAZQy3lU",
+      "songTitle": "SINK HOLE",
+      "title": "SINK HOLE",
+      "artists": [
+        "Guckkasten"
+      ],
+      "albumTitle": "Guckkasten",
+      "albumBrowseId": "MPREb_XBESisccObH",
+      "duration": "4:15",
+      "durationSeconds": 255,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/w20VzEwpEJ3kHiSl9WHBdW9lM2JX8H1xvacdBwI1Qzs3SnclAfLBeYzB9eMR0r_abeevTuPvd4k7q1pp-g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=F21SAZQy3lU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=F21SAZQy3lU",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "BoxYW3rr6ak",
+      "songTitle": "ROLLER",
+      "title": "ROLLER",
+      "artists": [
+        "Guckkasten"
+      ],
+      "albumTitle": "AURUM",
+      "albumBrowseId": "MPREb_MBhKcYdlGTU",
+      "duration": "3:14",
+      "durationSeconds": 194,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/cUvqAzHjweABEbTKQ5jK2tCEhBgyNghsDrj4_RcCCM5Kr7v44EHheFxvwiL-YTSp2awiBfHhkJK-nHw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BoxYW3rr6ak",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BoxYW3rr6ak",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-mCVFbkAIww",
+      "songTitle": "Red (붉은 밭)",
+      "title": "Red (붉은 밭)",
+      "artists": [
+        "Guckkasten"
+      ],
+      "albumTitle": "TIME AFTER TIME SELECTION",
+      "albumBrowseId": "MPREb_9n8wWczTbpg",
+      "duration": "4:05",
+      "durationSeconds": 245,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/n6Wslb4NrbteZphBdJKTe8TCZuIwfRplOxEW8INkldMX45YsOlCAP9XB4E6-CWiO88fu264MQ_TeuWJExA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-mCVFbkAIww",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-mCVFbkAIww",
+      "source": "ytm_songs_popular",
+      "year": "2012",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "5oJrKiTgvQg",
+      "songTitle": "어서 말을해 (원곡가수 해바라기)",
+      "title": "어서 말을해 (원곡가수 해바라기)",
+      "artists": [
+        "Guckkasten"
+      ],
+      "albumTitle": "나는 가수다 2 - 7월의 가수전",
+      "albumBrowseId": "MPREb_j7v8xKFgy2q",
+      "duration": "4:24",
+      "durationSeconds": 264,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LJZdTo8sUhy9OrKxndHh2ipG8ohYb0MSmmC9lcBd6TsTnvK1eWPP6qQQtTDa0zq1WiwX-8FZbAsqOM-u=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5oJrKiTgvQg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5oJrKiTgvQg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 국카스텐 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=hS3CSjwUdjw%2C6n910kfzvx0%2CurP5p8io-Ag%2C1Wb4RfIsxrQ%2CJBlrDbP4tqI%2CbPXNwkUwz_I%2CF21SAZQy3lU%2CBoxYW3rr6ak%2C-mCVFbkAIww%2C5oJrKiTgvQg&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EA%B5%AD%EC%B9%B4%EC%8A%A4%ED%85%90+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=hS3CSjwUdjw&list=RDAMVMhS3CSjwUdjw"
+}

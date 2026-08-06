@@ -1,0 +1,203 @@
+{
+  "artistId": "adios-audio",
+  "artistName": "아디오스오디오",
+  "englishName": "Adios Audio",
+  "collectedAt": "2026-08-05T12:30:05.077280+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCJlYXgJcrq68M1oemHO3W7g",
+    "name": "Adios Audio",
+    "subscribers": "5.65K",
+    "channelId": "UCLk7j4sM8VenT-9UHRfcA3Q",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/q6AT6Ljba95F_t1UKzVGi5di3phO_Z4VI_kQkcSPxfDK-rhHU0T24BYcyp5ebUZEXG7KAWMeCGD1Uco=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCJlYXgJcrq68M1oemHO3W7g"
+  },
+  "tracks": [
+    {
+      "videoId": "GA9pHvTQ7tg",
+      "songTitle": "Make One's Way",
+      "title": "Make One's Way",
+      "artists": [
+        "Adios Audio"
+      ],
+      "albumTitle": "Make One's Way",
+      "albumBrowseId": "MPREb_LAesUPYJJVF",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/q-AovPVAw8_m_NxMgCIIR_YNb7Gt_FcPYxlml8DOUNAUoQkQkXwhvDazI1mbxK1Fvymb0Z9B8-8qN_Ri=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GA9pHvTQ7tg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GA9pHvTQ7tg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EQbdud4-0MY",
+      "songTitle": "Sea of Dream",
+      "title": "Sea of Dream",
+      "artists": [
+        "Adios Audio"
+      ],
+      "albumTitle": "The Guide for Tomorrow",
+      "albumBrowseId": "MPREb_hhI4gnEwHnW",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WAB8aRLMUOOqBiUpt4GnNa7I3QF9jPxve9VLWysVhpd3cTG4hT1yvO5QwZlHOLEzcjhV0wfH3nrLvTLh=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EQbdud4-0MY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EQbdud4-0MY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "G-WzjK2Gg7k",
+      "songTitle": "Letters to you",
+      "title": "Letters to you",
+      "artists": [
+        "Adios Audio"
+      ],
+      "albumTitle": "The Guide for Tomorrow",
+      "albumBrowseId": "MPREb_hhI4gnEwHnW",
+      "duration": "3:09",
+      "durationSeconds": 189,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WAB8aRLMUOOqBiUpt4GnNa7I3QF9jPxve9VLWysVhpd3cTG4hT1yvO5QwZlHOLEzcjhV0wfH3nrLvTLh=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=G-WzjK2Gg7k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=G-WzjK2Gg7k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "DwTliKOhf6k",
+      "songTitle": "It's okay not to be okay",
+      "title": "It's okay not to be okay",
+      "artists": [
+        "Adios Audio"
+      ],
+      "albumTitle": "It's okay not to be okay",
+      "albumBrowseId": "MPREb_u3d6MCAXzaQ",
+      "duration": "4:53",
+      "durationSeconds": 293,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2YXWgMPeVruP5O13OyFtpNDByErzqg1ED7pjF4ZimZPzQxBwYy7ggrn0ptz8ynHHSXpyPjbyIwkeAnU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DwTliKOhf6k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DwTliKOhf6k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "v1TGOrOBt9A",
+      "songTitle": "DISSOLVE",
+      "title": "DISSOLVE",
+      "artists": [
+        "Adios Audio"
+      ],
+      "albumTitle": "DISSOLVE",
+      "albumBrowseId": "MPREb_Z7K9JIBTH5D",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OtISfsh9L9zTx9p5i1Cxl7SlnIIvUq6VOQJehrYX0yp9r5-7gHUFD673_vgShGJ6-9wvgSBSfoIr3kI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v1TGOrOBt9A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=v1TGOrOBt9A",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "1_jwsgFNaNY",
+      "songTitle": "PING",
+      "title": "PING",
+      "artists": [
+        "Adios Audio"
+      ],
+      "albumTitle": "PING",
+      "albumBrowseId": "MPREb_QNkwUKoRDZZ",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IxCEOWfpQL0CbEjnnRispVK3z731ITOQf6zn_ugzfj6Av73bkFu-Jy8fQ66L-atVTbPpR0nfUJKwiE5g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1_jwsgFNaNY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1_jwsgFNaNY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "_VyKUNlHIt8",
+      "songTitle": "Flowering Plant",
+      "title": "Flowering Plant",
+      "artists": [
+        "Adios Audio"
+      ],
+      "albumTitle": "Flowering Plant 〈Sanullim's 50th anniversary collaboration album〉",
+      "albumBrowseId": "MPREb_wS3PhjWqtGC",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LxwuQ6VXiMijS6f2u5CwQF5RdXHJefjswYnB9MGBobEdsGwd4Q58GB08-S8-pyRAzH8TZUvP0TeqNY0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_VyKUNlHIt8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_VyKUNlHIt8",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "aAdoWvFtGBs",
+      "songTitle": "Embers",
+      "title": "Embers",
+      "artists": [
+        "Adios Audio"
+      ],
+      "albumTitle": "The Guide for Tomorrow",
+      "albumBrowseId": "MPREb_hhI4gnEwHnW",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WAB8aRLMUOOqBiUpt4GnNa7I3QF9jPxve9VLWysVhpd3cTG4hT1yvO5QwZlHOLEzcjhV0wfH3nrLvTLh=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aAdoWvFtGBs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=aAdoWvFtGBs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "B4iTLmkS2rk",
+      "songTitle": "밤밤밤",
+      "title": "밤밤밤",
+      "artists": [
+        "Adios Audio"
+      ],
+      "albumTitle": "밤밤밤",
+      "albumBrowseId": "MPREb_9HkrPh3pxWL",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iXeCf56PfuwSYnOBv8vQYWCLfHykkfnn5oZyakRT9yH3U44EdKD8BCtvE_DNzpi6BDBrmeTyrCIhTiM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=B4iTLmkS2rk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=B4iTLmkS2rk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "JigWeW6EEjw",
+      "songTitle": "My Stable Tomorrow Album version",
+      "title": "My Stable Tomorrow Album version",
+      "artists": [
+        "Adios Audio"
+      ],
+      "albumTitle": "The Guide for Tomorrow",
+      "albumBrowseId": "MPREb_hhI4gnEwHnW",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WAB8aRLMUOOqBiUpt4GnNa7I3QF9jPxve9VLWysVhpd3cTG4hT1yvO5QwZlHOLEzcjhV0wfH3nrLvTLh=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JigWeW6EEjw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JigWeW6EEjw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "아디오스오디오 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=GA9pHvTQ7tg%2CEQbdud4-0MY%2CG-WzjK2Gg7k%2CDwTliKOhf6k%2Cv1TGOrOBt9A%2C1_jwsgFNaNY%2C_VyKUNlHIt8%2CaAdoWvFtGBs%2CB4iTLmkS2rk%2CJigWeW6EEjw&title=%EC%95%84%EB%94%94%EC%98%A4%EC%8A%A4%EC%98%A4%EB%94%94%EC%98%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=GA9pHvTQ7tg&list=RDAMVMGA9pHvTQ7tg"
+}

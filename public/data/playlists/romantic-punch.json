@@ -1,0 +1,210 @@
+{
+  "artistId": "romantic-punch",
+  "artistName": "로맨틱펀치",
+  "englishName": "Romantic Punch",
+  "collectedAt": "2026-08-05T12:30:41.125959+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1280,
+    "latestSlotLabel": "21:20",
+    "festivalId": "jumf-2026",
+    "rank": 0.905,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UC9X06dK6yBt54gZC8vF8VKA",
+    "name": "Romantic Punch",
+    "subscribers": "2.32K",
+    "channelId": "UC9X06dK6yBt54gZC8vF8VKA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/-xo-EnlDZshg3zgguGoSxu7x8HeT3-3AYBP5ZYaDHN4Gcc6p5fOz0rDD3LX-KBQUmqhmmi8ZfxWm4L-T=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC9X06dK6yBt54gZC8vF8VKA"
+  },
+  "tracks": [
+    {
+      "videoId": "9yF6fMOsHAw",
+      "songTitle": "Saturday Night Fever",
+      "title": "Saturday Night Fever",
+      "artists": [
+        "로맨틱 펀치"
+      ],
+      "albumTitle": "Midnight Cinderella",
+      "albumBrowseId": "MPREb_JKqunAtFlqP",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mLmD3U4Ce3AHY_TeE_waDeEuWs38ZepRM54ylEWnhOYe0VT04BsWbsFuaHKSPP-I2drg8vlHc2pSIRnu=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9yF6fMOsHAw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9yF6fMOsHAw",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "oakowtTl0G8",
+      "songTitle": "Sleepwalk (feat. 이혁)",
+      "title": "Sleepwalk (feat. 이혁)",
+      "artists": [
+        "로맨틱 펀치"
+      ],
+      "albumTitle": "Midnight Cinderella",
+      "albumBrowseId": "MPREb_JKqunAtFlqP",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mLmD3U4Ce3AHY_TeE_waDeEuWs38ZepRM54ylEWnhOYe0VT04BsWbsFuaHKSPP-I2drg8vlHc2pSIRnu=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oakowtTl0G8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=oakowtTl0G8",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "KIEZ2vEm8_k",
+      "songTitle": "Didn't You know",
+      "title": "Didn't You know",
+      "artists": [
+        "로맨틱 펀치"
+      ],
+      "albumTitle": "Midnight Cinderella",
+      "albumBrowseId": "MPREb_JKqunAtFlqP",
+      "duration": "3:46",
+      "durationSeconds": 226,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mLmD3U4Ce3AHY_TeE_waDeEuWs38ZepRM54ylEWnhOYe0VT04BsWbsFuaHKSPP-I2drg8vlHc2pSIRnu=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KIEZ2vEm8_k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KIEZ2vEm8_k",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "WKQ9yFbzFYA",
+      "songTitle": "Moonwalk In Kyoto",
+      "title": "Moonwalk In Kyoto",
+      "artists": [
+        "로맨틱 펀치"
+      ],
+      "albumTitle": "Moonwalk In Kyoto",
+      "albumBrowseId": "MPREb_c6rou0RWqL0",
+      "duration": "4:08",
+      "durationSeconds": 248,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OTzYyMq4HntyItkSJbjxZRKuChH0wTPjXzYvjNNDllpKuwoatxgWm5cyRfUVXm-aixLXAGv2PK5c-OEa=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WKQ9yFbzFYA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WKQ9yFbzFYA",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "akwsUFOioSc",
+      "songTitle": "Unfeeling Kiss",
+      "title": "Unfeeling Kiss",
+      "artists": [
+        "로맨틱 펀치"
+      ],
+      "albumTitle": "Romantic Punch",
+      "albumBrowseId": "MPREb_wOHtOVH2hqH",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7ucykRH4OOjlOZfWxC8Oa5sJ6XO917ejOLj0f06JagBWb4J276iC-mk0pt-ZUx_JqkwjE7rLH1qwINLqDQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=akwsUFOioSc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=akwsUFOioSc",
+      "source": "ytm_songs_popular",
+      "year": "2009",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "6w8pcqdsN1E",
+      "songTitle": "1. 레디메리Go!(Ready-Merry-Go!)",
+      "title": "1. 레디메리Go!(Ready-Merry-Go!)",
+      "artists": [
+        "로맨틱 펀치(Romantic Punch)"
+      ],
+      "albumTitle": "이웃집 꽃미남 OST Part 1",
+      "albumBrowseId": "MPREb_7F0WDHPQYNT",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/glo1TSnwqUY7AL8n45JjEkl4aZL8DdHJqAlNrlxzd5vnuXoVw3l1v2-Fd01BEgQg0BBYGrFSpOtp25ABzQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6w8pcqdsN1E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6w8pcqdsN1E",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "nEsk9aRYwrY",
+      "songTitle": "파이트 클럽",
+      "title": "파이트 클럽",
+      "artists": [
+        "로맨틱 펀치"
+      ],
+      "albumTitle": "파이트 클럽",
+      "albumBrowseId": "MPREb_kgbkVqhBehd",
+      "duration": "3:43",
+      "durationSeconds": 223,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iEUFpqrZ7ke0hLKrtG5nr5H-G03YeiOkyUa8qjfEcRMX_s6NtVZzKiqWrj5eq0ADHu-63EBmuBuh3g4Faw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nEsk9aRYwrY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nEsk9aRYwrY",
+      "source": "ytm_songs_popular",
+      "year": "2015",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "ySKpQX7ml_c",
+      "songTitle": "야미볼",
+      "title": "야미볼",
+      "artists": [
+        "로맨틱 펀치"
+      ],
+      "albumTitle": "It's Yummy",
+      "albumBrowseId": "MPREb_tphJHxko2Vg",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6P1v9SIaE7two0ZSW4ZSLtppg6PbQWSF3738p5JOwTD3Z5vDByxjlTCJKir0aSqeFrQx-zLOJ1jpgt7e=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ySKpQX7ml_c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ySKpQX7ml_c",
+      "source": "ytm_songs_popular",
+      "year": "2011",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "-jdlAObqN_8",
+      "songTitle": "미드나잇 신데렐라",
+      "title": "미드나잇 신데렐라",
+      "artists": [
+        "로맨틱펀치"
+      ],
+      "albumTitle": "서바이벌 TOP밴드2 4강",
+      "albumBrowseId": "MPREb_rzeDcpjssFD",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JF4_fwsOHiw7ewRK90t25RKXpZCHEGCXMSU-aIEpvjiTveH7z29GKwEgOUJON4rz_gSCnWcOaYavhObI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-jdlAObqN_8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-jdlAObqN_8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qqF0cycggbw",
+      "songTitle": "Zzz",
+      "title": "Zzz",
+      "artists": [
+        "로맨틱 펀치"
+      ],
+      "albumTitle": "Zzz",
+      "albumBrowseId": "MPREb_yvIbHcm4ZgE",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vvhN_J4OoD7gicx4ksVKXtXhXNZ6TXM5dekip8womFjB_dFsOYKDWQq_rDhoRLcayV_gAuLQSm0sGGGZqg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qqF0cycggbw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qqF0cycggbw",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 로맨틱펀치 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=9yF6fMOsHAw%2CoakowtTl0G8%2CKIEZ2vEm8_k%2CWKQ9yFbzFYA%2CakwsUFOioSc%2C6w8pcqdsN1E%2CnEsk9aRYwrY%2CySKpQX7ml_c%2C-jdlAObqN_8%2CqqF0cycggbw&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A1%9C%EB%A7%A8%ED%8B%B1%ED%8E%80%EC%B9%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=9yF6fMOsHAw&list=RDAMVM9yF6fMOsHAw"
+}

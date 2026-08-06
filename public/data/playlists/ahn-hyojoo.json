@@ -1,0 +1,86 @@
+{
+  "artistId": "ahn-hyojoo",
+  "artistName": "안효주",
+  "englishName": "Ahn Hyojoo",
+  "collectedAt": "2026-08-05T12:30:05.211835+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 3,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCP3WjOMz1oyQUJoge-uY6qg",
+    "name": "An Hyoju",
+    "subscribers": "33",
+    "channelId": "UCP3WjOMz1oyQUJoge-uY6qg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/p7aSjo0G6zlyargmV6MSNTBf-zIL2cmyd3RgmlOBgV5TWPj4znFq1gWyGfY_Mfcbx74Qhmp-4_cWCs8DJg=w1400-h583-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCP3WjOMz1oyQUJoge-uY6qg"
+  },
+  "tracks": [
+    {
+      "videoId": "c_buigIlqwc",
+      "songTitle": "170923",
+      "title": "170923",
+      "artists": [
+        "An Hyoju"
+      ],
+      "albumTitle": "I CAN SEE YOUR VOICE 10, Pt. 5",
+      "albumBrowseId": "MPREb_730WymNVg8U",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/j04APy3HmehA-0_dpHFCWewH_kJalwQXFfeTtFtkXcpjBC0EMoY9-66rTzeZajIPSW_pHT1onhFxE2A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c_buigIlqwc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=c_buigIlqwc",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "mVfvbgxRvvE",
+      "songTitle": "Kyoung",
+      "title": "Kyoung",
+      "artists": [
+        "An Hyoju"
+      ],
+      "albumTitle": "Kyoung",
+      "albumBrowseId": "MPREb_SV8zU9javni",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/p7aSjo0G6zlyargmV6MSNTBf-zIL2cmyd3RgmlOBgV5TWPj4znFq1gWyGfY_Mfcbx74Qhmp-4_cWCs8DJg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mVfvbgxRvvE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mVfvbgxRvvE",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "0O_AzAs7w2I",
+      "songTitle": "170923 (Instrumental)",
+      "title": "170923 (Instrumental)",
+      "artists": [
+        "An Hyoju"
+      ],
+      "albumTitle": "I CAN SEE YOUR VOICE 10, Pt. 5",
+      "albumBrowseId": "MPREb_730WymNVg8U",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/j04APy3HmehA-0_dpHFCWewH_kJalwQXFfeTtFtkXcpjBC0EMoY9-66rTzeZajIPSW_pHT1onhFxE2A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0O_AzAs7w2I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0O_AzAs7w2I",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "안효주 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=c_buigIlqwc%2CmVfvbgxRvvE%2C0O_AzAs7w2I&title=%EC%95%88%ED%9A%A8%EC%A3%BC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=c_buigIlqwc&list=RDAMVMc_buigIlqwc"
+}

@@ -1,0 +1,204 @@
+{
+  "artistId": "atarayo",
+  "artistName": "Atarayo",
+  "englishName": "Atarayo",
+  "collectedAt": "2026-08-05T12:30:06.887048+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCZp2Y8QZWzWJRX0AzYU9drA",
+    "name": "ATARAYO",
+    "subscribers": "322K",
+    "channelId": "UCgrtbLQsox2EYtF0iVclZjA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/Udqq8dtvihsv-HT9VUL6DWMqLYW5jjdY4jWpB8sEhSFlA1vUuPe-5dL5iF0mEGEwpGbTdVTehKCi9XM=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCZp2Y8QZWzWJRX0AzYU9drA"
+  },
+  "tracks": [
+    {
+      "videoId": "ipiQ0lpayoo",
+      "songTitle": "「僕は...」 - I am...",
+      "title": "「僕は...」 - I am...",
+      "artists": [
+        "Atarayo"
+      ],
+      "albumTitle": "I am...",
+      "albumBrowseId": "MPREb_lwNHEJLTjET",
+      "duration": "4:00",
+      "durationSeconds": 240,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Uls_Cz6TLv6AF3rzdUI3ZRuIEf77hNaPpBfxbMoCX0xPNWdUc3AORUaaA0lyGRKDNeeHguh5gRWVMTKfVg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ipiQ0lpayoo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ipiQ0lpayoo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "6rOy6zi8Rao",
+      "songTitle": "夏霞 - Summer haze",
+      "title": "夏霞 - Summer haze",
+      "artists": [
+        "Atarayo"
+      ],
+      "albumTitle": "Summer haze",
+      "albumBrowseId": "MPREb_feg273DX6fX",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ACnQc0LBXcPCgeqCxKZ5OySaBx-ubT2K6TJUrfcEa6zAOEVG2sQklHfcJPin4TuzWebXYZ9_ReEvDWs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6rOy6zi8Rao",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6rOy6zi8Rao",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "90koJyqymI0",
+      "songTitle": "また夏を追う - Matanatsuwoou",
+      "title": "また夏を追う - Matanatsuwoou",
+      "artists": [
+        "Atarayo"
+      ],
+      "albumTitle": "Matanatsuwoou",
+      "albumBrowseId": "MPREb_V7wVDozhcND",
+      "duration": "4:48",
+      "durationSeconds": 288,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/zATbAdYcpHa4R7HWNtH1uUyC77G__L6TWsxP_F-_V_iKkY6_07Uec7P4o6M6xpZa9aSUgdeNp_aM6Gk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=90koJyqymI0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=90koJyqymI0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "U6OIbpJlZxk",
+      "songTitle": "魚 - Fish",
+      "title": "魚 - Fish",
+      "artists": [
+        "Atarayo"
+      ],
+      "albumTitle": "Fish",
+      "albumBrowseId": "MPREb_zRTfDcRW8r6",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MxHWUWBazNsR0LaudqyaBr4hc6UCVlt5QGBhY3BDqaky9VZtpU9L4-KjcW-0-u5v0in_YMOOmKk4Z7o=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=U6OIbpJlZxk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=U6OIbpJlZxk",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "vuTM8OyZMIU",
+      "songTitle": "春となり - Spring is coming",
+      "title": "春となり - Spring is coming",
+      "artists": [
+        "Atarayo"
+      ],
+      "albumTitle": "Spring is coming",
+      "albumBrowseId": "MPREb_ebSvfKqk1Ho",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/aVANRmlrH-ieGcULsXNDXm5ATgVUx2fI8WUSb79j6xKN0jOqxs1_oaGfxRIvcVnUA9SqKqkHtwHilyc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vuTM8OyZMIU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vuTM8OyZMIU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "lAMAcF6fogA",
+      "songTitle": "10月無口な君を忘れる - Jugatsu Mukuchinakimiwo Wasureru",
+      "title": "10月無口な君を忘れる - Jugatsu Mukuchinakimiwo Wasureru",
+      "artists": [
+        "Atarayo"
+      ],
+      "albumTitle": "Jugatsu Mukuchinakimiwo Wasureru",
+      "albumBrowseId": "MPREb_ijBoPUlHu6q",
+      "duration": "5:33",
+      "durationSeconds": 333,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vNa6NiGPenVX2c94W3PbrkWRh755TGe_kZ_ShdIwGK2EUAo6X3PG_cDLZc4T-ZlfgjExhX1jjnxEddSWnA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lAMAcF6fogA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lAMAcF6fogA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qw4gIxgwTB4",
+      "songTitle": "僕らはそれを愛と呼んだ - bokurawasorewoaitoyonda",
+      "title": "僕らはそれを愛と呼んだ - bokurawasorewoaitoyonda",
+      "artists": [
+        "Atarayo"
+      ],
+      "albumTitle": "bokurawasorewoaitoyonda",
+      "albumBrowseId": "MPREb_IUU4ayYLLvT",
+      "duration": "5:23",
+      "durationSeconds": 323,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/og-XQknGwK81MYU5zGfqefHtZGJFcEgm6E98EEL-1Xw-1_wHxzBkqdpNlGRcl99PRdE8w4hh7Tw3gqg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qw4gIxgwTB4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qw4gIxgwTB4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "V8NuEPNRKSI",
+      "songTitle": "8.8 - hattenhachi",
+      "title": "8.8 - hattenhachi",
+      "artists": [
+        "Atarayo"
+      ],
+      "albumTitle": "8.8",
+      "albumBrowseId": "MPREb_5Oh0CgZWRl1",
+      "duration": "5:54",
+      "durationSeconds": 354,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MYiRuHFXWL9nt0qwGfv1Tx52NICBV0rPi3rjHjDqjvZfKqZ9_l0BBkN_y3zDpb-JFIz5Y0rtndJNTHE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V8NuEPNRKSI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=V8NuEPNRKSI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "fTACwX3HyDo",
+      "songTitle": "ツキノフネ - moon ship",
+      "title": "ツキノフネ - moon ship",
+      "artists": [
+        "Atarayo"
+      ],
+      "albumTitle": "moon ship",
+      "albumBrowseId": "MPREb_EyxeOVIPSOE",
+      "duration": "3:32",
+      "durationSeconds": 212,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/A7m-f8uULOX54bVzgyUnDE9A_px_-0-7cYt50ANEh6Q1AXRS7Ibp7x6SQeQubP5l_lHPyukxwwDnyKIW=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fTACwX3HyDo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fTACwX3HyDo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "pJ3CsK90pJE",
+      "songTitle": "朝凪 - Asanagi",
+      "title": "朝凪 - Asanagi",
+      "artists": [
+        "Atarayo"
+      ],
+      "albumTitle": "Asanagi",
+      "albumBrowseId": "MPREb_4OnD0kkJjXU",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/i_2eGzku0uif8YOW4edhW_EK9eko3D8i0j5YtDI1TWjY9TM7IG1aAnAqMQN2YwW48ggM4-f_vnzDRPc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pJ3CsK90pJE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pJ3CsK90pJE",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "Atarayo 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ipiQ0lpayoo%2C6rOy6zi8Rao%2C90koJyqymI0%2CU6OIbpJlZxk%2CvuTM8OyZMIU%2ClAMAcF6fogA%2Cqw4gIxgwTB4%2CV8NuEPNRKSI%2CfTACwX3HyDo%2CpJ3CsK90pJE&title=Atarayo+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ipiQ0lpayoo&list=RDAMVMipiQ0lpayoo"
+}

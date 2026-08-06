@@ -1,0 +1,203 @@
+{
+  "artistId": "cnblue",
+  "artistName": "CNBLUE",
+  "englishName": "CNBLUE",
+  "collectedAt": "2026-08-05T12:30:11.858103+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCAiXJcqDrDKtKDIXV7NWhVg",
+    "name": "CNBLUE",
+    "subscribers": "1.12M",
+    "channelId": "UC-CVBl3-ryi3GtZBXtc2_IA",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/h7PZjF7zx3UYD3IbpHMSoLmnaEbxIua9fEOzUIDIv4-vMK04ru_fyhTVQ9S2tSAcG0GgLma6aoFMeg=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCAiXJcqDrDKtKDIXV7NWhVg"
+  },
+  "tracks": [
+    {
+      "videoId": "BRIGlW12qpk",
+      "songTitle": "Loner (외톨이야)",
+      "title": "Loner (외톨이야)",
+      "artists": [
+        "CNBLUE"
+      ],
+      "albumTitle": "Bluetory",
+      "albumBrowseId": "MPREb_iFu2k1ZHk9F",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pguwuq4rtDdi80yVfONs-YQSSpKz4O_B84-rs96jfxhpyTSR8_6sXgJwHYm90iM9FBxe3jW53w93bOz6GA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BRIGlW12qpk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BRIGlW12qpk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "vvXEzDM3N5A",
+      "songTitle": "Love",
+      "title": "Love",
+      "artists": [
+        "CNBLUE"
+      ],
+      "albumTitle": "Bluelove",
+      "albumBrowseId": "MPREb_xKu42VJQDJ8",
+      "duration": "3:48",
+      "durationSeconds": 228,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XKCPm1wGdfV3go0R_C6GeL85EGk3CNLo9U9DsArz4whNMbVc2EocK41pebtybhbnoRUdwTeg9-Wnp0axRA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vvXEzDM3N5A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vvXEzDM3N5A",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "0NYjmBL_l7M",
+      "songTitle": "Love Light (사랑 빛)",
+      "title": "Love Light (사랑 빛)",
+      "artists": [
+        "CNBLUE"
+      ],
+      "albumTitle": "Bluelove",
+      "albumBrowseId": "MPREb_xKu42VJQDJ8",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XKCPm1wGdfV3go0R_C6GeL85EGk3CNLo9U9DsArz4whNMbVc2EocK41pebtybhbnoRUdwTeg9-Wnp0axRA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0NYjmBL_l7M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0NYjmBL_l7M",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "sULK--z566Y",
+      "songTitle": "Intuition (직감)",
+      "title": "Intuition (직감)",
+      "artists": [
+        "CNBLUE"
+      ],
+      "albumTitle": "FIRST STEP",
+      "albumBrowseId": "MPREb_Yg2aNatPwbY",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/M4eTJmQfKFuGUVnWREW4Zk0T4aCcFoQkJskACXc26OZkXo-VzraXbb61U2WN7Baz39p3Z1Zn0PSa5bWJ3Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sULK--z566Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sULK--z566Y",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "kCAjuG50st8",
+      "songTitle": "I`m Sorry",
+      "title": "I`m Sorry",
+      "artists": [
+        "CNBLUE"
+      ],
+      "albumTitle": "Re:BLUE",
+      "albumBrowseId": "MPREb_kFkFkoU1GDi",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2T0eM13YKANVDrOcQtjF4ofk-nRcvmvPvJ5aR6PK-zVlMMAVCjvyUdACRJln00SlbvexTan9pDLEYz0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kCAjuG50st8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kCAjuG50st8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "cm57lBYVr1w",
+      "songTitle": "Can't Stop",
+      "title": "Can't Stop",
+      "artists": [
+        "CNBLUE"
+      ],
+      "albumTitle": "Can't Stop (Can`t Stop)",
+      "albumBrowseId": "MPREb_N7lxRV4Y5s5",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9pt_Ewv73xd50YbARiX9isnKkLKRaPdfAooVQDOckxUNuWjyQniHGIekc6HBtT8m-Mn7QiPPP3DKp9F-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cm57lBYVr1w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cm57lBYVr1w",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "pxMy6SmwT_g",
+      "songTitle": "Love Girl",
+      "title": "Love Girl",
+      "artists": [
+        "CNBLUE"
+      ],
+      "albumTitle": "FIRST STEP",
+      "albumBrowseId": "MPREb_Yg2aNatPwbY",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/M4eTJmQfKFuGUVnWREW4Zk0T4aCcFoQkJskACXc26OZkXo-VzraXbb61U2WN7Baz39p3Z1Zn0PSa5bWJ3Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pxMy6SmwT_g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pxMy6SmwT_g",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "D2IcGYKJ8QQ",
+      "songTitle": "그리운건 그대일까 그때일까 (A Sleepless Night)",
+      "title": "그리운건 그대일까 그때일까 (A Sleepless Night)",
+      "artists": [
+        "CNBLUE"
+      ],
+      "albumTitle": "X",
+      "albumBrowseId": "MPREb_9JGW4FTXeOg",
+      "duration": "2:46",
+      "durationSeconds": 166,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/O8GFLjGAjowGHDW2i479f9HKFHvpQ-LNbVskizIW5OiYcLZp45n3IK364Qj2DqMwNEpS-zTYJj7PRJO0LQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=D2IcGYKJ8QQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=D2IcGYKJ8QQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "KUjWlTgqTyA",
+      "songTitle": "Killer Joy",
+      "title": "Killer Joy",
+      "artists": [
+        "CNBLUE"
+      ],
+      "albumTitle": "3LOGY",
+      "albumBrowseId": "MPREb_EJmxynvq8pK",
+      "duration": "3:00",
+      "durationSeconds": 180,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Cq-z8rz7sbTwL2M-6M2zhOzCGCiUWsDHM3lPlbTh6agqS3Oo1_woPMmLymF-eMWhq7FZxebgHBg6bUAONA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KUjWlTgqTyA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KUjWlTgqTyA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "teu1KiagLWg",
+      "songTitle": "Hey You",
+      "title": "Hey You",
+      "artists": [
+        "CNBLUE"
+      ],
+      "albumTitle": "EAR FUN",
+      "albumBrowseId": "MPREb_Su8TzykjICT",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yW4xKM9kyFpVLYbJJAEFnQQZhHEhwTvr8mWXWCUxWpz5s282oXN29hBL1Wv96v_DDZOhao75CYGzyaLM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=teu1KiagLWg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=teu1KiagLWg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "CNBLUE 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=BRIGlW12qpk%2CvvXEzDM3N5A%2C0NYjmBL_l7M%2CsULK--z566Y%2CkCAjuG50st8%2Ccm57lBYVr1w%2CpxMy6SmwT_g%2CD2IcGYKJ8QQ%2CKUjWlTgqTyA%2Cteu1KiagLWg&title=CNBLUE+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=BRIGlW12qpk&list=RDAMVMBRIGlW12qpk"
+}

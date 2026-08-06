@@ -1,0 +1,204 @@
+{
+  "artistId": "one-over-n",
+  "artistName": "엔분의일",
+  "englishName": "ONE OVER N",
+  "collectedAt": "2026-08-05T12:30:37.240469+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCU1hubLoV-i7wB1YgdXcRdw",
+    "name": "1/N",
+    "subscribers": "3.86K",
+    "channelId": "UCMudgdpmUlBSFIRJx4XwucQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/_kYxlrYsZj0DQg0WaBc3e3b-fCEeDwbPPyAWI0u0pxpd0g7aAcyOT6rPs_O-fbDow8u5YKfFwa2C8s4=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCU1hubLoV-i7wB1YgdXcRdw"
+  },
+  "tracks": [
+    {
+      "videoId": "gJkdFYhJGH0",
+      "songTitle": "Resonance",
+      "title": "Resonance",
+      "artists": [
+        "1/N"
+      ],
+      "albumTitle": "BLUE WAVE",
+      "albumBrowseId": "MPREb_JRpZb9PhRNW",
+      "duration": "5:38",
+      "durationSeconds": 338,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lwfjNj71Kfjki1c17p0L--GEGPmumSS9SfdbYiMh7zIpo353kK2z8h1sC5FJRqXOgHNfEhRWd1-1y_a-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gJkdFYhJGH0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gJkdFYhJGH0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dfkNPNqNQz4",
+      "songTitle": "Burn Out",
+      "title": "Burn Out",
+      "artists": [
+        "엔분의일"
+      ],
+      "albumTitle": "Burn Out",
+      "albumBrowseId": "MPREb_mvVON17WbS7",
+      "duration": "5:08",
+      "durationSeconds": 308,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/uhufcC2Wbtk4Ku1XSLJGhvlURTjkpiqq6CDdyaEOK7CpCB6I9Lrshe11KYqfnIIbZ5Z9RaKjFSEC14cg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dfkNPNqNQz4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dfkNPNqNQz4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "AHROnMpPabc",
+      "songTitle": "With You",
+      "title": "With You",
+      "artists": [
+        "1/N"
+      ],
+      "albumTitle": "With You",
+      "albumBrowseId": "MPREb_00nQR6l7Sl5",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/sdm70_Y8VZldGJROp3TtaJG3171I_COEbeFGycOBsyNVF8ewk5s0xYY_DbgcF4-qPeW9jdNFmqvEklCN=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AHROnMpPabc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=AHROnMpPabc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "swdY8tdZC5g",
+      "songTitle": "Polaris",
+      "title": "Polaris",
+      "artists": [
+        "엔분의일"
+      ],
+      "albumTitle": "POLARIS",
+      "albumBrowseId": "MPREb_F3QgBWjvJzz",
+      "duration": "3:24",
+      "durationSeconds": 204,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/y3ewCx8anjE1mKnMBiYk-VcQllofbx9wAw0-06MyMDA1R7QSG-0pIy0U-XuYZ5_pUJXgxbNfnlxuN1YWuA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=swdY8tdZC5g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=swdY8tdZC5g",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "fSrfQIuGha8",
+      "songTitle": "Falling for you",
+      "title": "Falling for you",
+      "artists": [
+        "엔분의일"
+      ],
+      "albumTitle": "Falling for you",
+      "albumBrowseId": "MPREb_U6Prig0ow2K",
+      "duration": "2:57",
+      "durationSeconds": 177,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2rjobPhxiaC8GCxCtShyzp5fdZcRLesnFtukR-mNyoHsg96VHazKJUVpMye21n8pjHFwGg_xSKlv6XOV_w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fSrfQIuGha8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fSrfQIuGha8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "mfPg3K4z-b0",
+      "songTitle": "넌 나를 사랑했어",
+      "title": "넌 나를 사랑했어",
+      "artists": [
+        "엔분의일"
+      ],
+      "albumTitle": "FEVER",
+      "albumBrowseId": "MPREb_IRzJfGz7XPn",
+      "duration": "4:17",
+      "durationSeconds": 257,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/gnuipO8KpRNsqAk1zXwDNYlLqtOvSar94B1KvqhYzNa-n9uTz64bl0ESJ0Tb6T3LsnGiIFSfc2XeWUzJ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mfPg3K4z-b0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mfPg3K4z-b0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "OVFOfcgadfQ",
+      "songTitle": "We, night",
+      "title": "We, night",
+      "artists": [
+        "엔분의일"
+      ],
+      "albumTitle": "We, night",
+      "albumBrowseId": "MPREb_k3hvfdJDlza",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iydeR2hkCHNrJowWMb7-yXyA5p49SUp6-bpswrGFDWoEwT4vVaCSv4XmWeSBmeGcFQ3w6XUXy_5HB3O_=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OVFOfcgadfQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OVFOfcgadfQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "kF8JFz8Juu0",
+      "songTitle": "Scene 45.",
+      "title": "Scene 45.",
+      "artists": [
+        "1/N"
+      ],
+      "albumTitle": "Scene 45.",
+      "albumBrowseId": "MPREb_sIBtU1cPkvP",
+      "duration": "5:25",
+      "durationSeconds": 325,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_S5SqmxmwONi4mvjIU5eoSqGDfMdnks3dypFiEQb0zGlV_RhtucM3iidwFTl_FcgoNVDHI201JHg0TAZ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kF8JFz8Juu0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kF8JFz8Juu0",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "J-Ldd-pQ6S4",
+      "songTitle": "BAD",
+      "title": "BAD",
+      "artists": [
+        "엔분의일"
+      ],
+      "albumTitle": "BAD",
+      "albumBrowseId": "MPREb_j6sONLrgXDN",
+      "duration": "3:36",
+      "durationSeconds": 216,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/DguJHCAsd_Spix3HkhMrdy3kzibRNhlB-LsMYdGe2fzLq1BPbGfgpn3zRD0zaXrVcel_WTjDWRzJ3yW2=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J-Ldd-pQ6S4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=J-Ldd-pQ6S4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "soCbK3PQdOI",
+      "songTitle": "Eden",
+      "title": "Eden",
+      "artists": [
+        "1/N"
+      ],
+      "albumTitle": "BLUE WAVE",
+      "albumBrowseId": "MPREb_JRpZb9PhRNW",
+      "duration": "4:14",
+      "durationSeconds": 254,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lwfjNj71Kfjki1c17p0L--GEGPmumSS9SfdbYiMh7zIpo353kK2z8h1sC5FJRqXOgHNfEhRWd1-1y_a-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=soCbK3PQdOI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=soCbK3PQdOI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "엔분의일 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=gJkdFYhJGH0%2CdfkNPNqNQz4%2CAHROnMpPabc%2CswdY8tdZC5g%2CfSrfQIuGha8%2CmfPg3K4z-b0%2COVFOfcgadfQ%2CkF8JFz8Juu0%2CJ-Ldd-pQ6S4%2CsoCbK3PQdOI&title=%EC%97%94%EB%B6%84%EC%9D%98%EC%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=gJkdFYhJGH0&list=RDAMVMgJkdFYhJGH0"
+}

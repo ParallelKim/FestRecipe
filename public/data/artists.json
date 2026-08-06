@@ -1,9 +1,74 @@
 [
   {
+    "id": "10cm",
+    "name": "10CM",
+    "englishName": "10CM",
+    "ytmName": "10CM",
+    "ytmBrowseId": "UC9oomNHPNLrh819sxCgcYTA"
+  },
+  {
+    "id": "24th",
+    "name": "이십사일",
+    "englishName": "24th",
+    "koreanName": "이십사일",
+    "ytmName": "24th",
+    "ytmBrowseId": "UCISBEKe0xjbn-sFuGAzYawQ"
+  },
+  {
+    "id": "adios-audio",
+    "name": "아디오스오디오",
+    "englishName": "Adios Audio",
+    "koreanName": "아디오스오디오",
+    "ytmName": "Adios Audio",
+    "ytmBrowseId": "UCJlYXgJcrq68M1oemHO3W7g"
+  },
+  {
+    "id": "ahn-hyojoo",
+    "name": "안효주",
+    "englishName": "Ahn Hyojoo",
+    "ytmName": "안효주",
+    "ytmBrowseId": "UCP3WjOMz1oyQUJoge-uY6qg"
+  },
+  {
+    "id": "ali",
+    "name": "ALI",
+    "englishName": "ALI",
+    "country": "JP",
+    "ytmName": "ALI",
+    "ytmBrowseId": "UCcM2nwYSXoS0pRpljTefmpg"
+  },
+  {
     "id": "asian-spice-house",
     "name": "아시안 스파이스 하우스",
     "englishName": "Asian Spice House",
     "ytmName": "Asian Spice House (아시안 스파이스 하우스)"
+  },
+  {
+    "id": "asterism",
+    "name": "ASTERISM",
+    "englishName": "ASTERISM",
+    "country": "JP",
+    "ytmName": "ASTERISM",
+    "ytmBrowseId": "UCqmlafOBss33lWb8icmifUw"
+  },
+  {
+    "id": "atarayo",
+    "name": "Atarayo",
+    "englishName": "Atarayo",
+    "country": "JP",
+    "aliases": [
+      "あたらよ",
+      "Atarayo"
+    ],
+    "ytmName": "あたらよ",
+    "ytmBrowseId": "UCZp2Y8QZWzWJRX0AzYU9drA"
+  },
+  {
+    "id": "axmxp",
+    "name": "AxMxP",
+    "englishName": "AxMxP",
+    "ytmName": "AxMxP",
+    "ytmBrowseId": "UCP05mdnO1Nut4cgz0ys3gDw"
   },
   {
     "id": "baan",
@@ -24,10 +89,25 @@
     "ytmName": "Bek Hyunjin"
   },
   {
+    "id": "band-kirin",
+    "name": "밴드기린",
+    "englishName": "BandKirin",
+    "koreanName": "밴드기린",
+    "ytmName": "BandKirin",
+    "ytmBrowseId": "UC9hyUfIWSB8XvTKUH9moanw"
+  },
+  {
     "id": "band-nah",
     "name": "나상현씨밴드",
     "englishName": "Band Nah",
     "ytmName": "Band Nah"
+  },
+  {
+    "id": "bang-sumi",
+    "name": "방수미",
+    "englishName": "Bang Sumi",
+    "koreanName": "방수미",
+    "ytmName": "Bang Sumi"
   },
   {
     "id": "betcover",
@@ -37,10 +117,37 @@
     "ytmName": "betcover!!"
   },
   {
+    "id": "blackhole",
+    "name": "블랙홀",
+    "englishName": "Black Hole",
+    "koreanName": "블랙홀",
+    "ytmName": "Black Hole",
+    "ytmBrowseId": "UCJXby81Qr0ruqh_RR_ZA4kw"
+  },
+  {
+    "id": "blackhole-x-bangsumi",
+    "name": "블랙홀 X 방수미",
+    "englishName": "Black Hole X Bang Sumi",
+    "ytmName": "Black Hole",
+    "composedOf": [
+      "blackhole",
+      "bang-sumi"
+    ],
+    "playlistMode": "merge"
+  },
+  {
     "id": "bongjeingan",
     "name": "봉제인간",
     "englishName": "Bongjeingan",
     "ytmName": "bongjeingan"
+  },
+  {
+    "id": "broken-teeth",
+    "name": "브로큰티스",
+    "englishName": "BrokenTeeth",
+    "koreanName": "브로큰티스",
+    "ytmName": "BrokenTeeth",
+    "ytmBrowseId": "UC1X3iY5bD6lT49AFoDJ0rfQ"
   },
   {
     "id": "broken-valentine",
@@ -49,10 +156,32 @@
     "ytmName": "Broken Valentine"
   },
   {
+    "id": "cant-be-blue",
+    "name": "can't be blue",
+    "englishName": "can't be blue",
+    "ytmName": "can't be blue",
+    "ytmBrowseId": "UCxfcdjtht2doaWgbHuhLxLA"
+  },
+  {
     "id": "casually-connected",
     "name": "CASUALLY CONNECTED",
     "englishName": "casually connected",
     "ytmName": "CASUALLY CONNECTED"
+  },
+  {
+    "id": "catch-the-young",
+    "name": "CATCH THE YOUNG",
+    "englishName": "Catch the Young",
+    "ytmName": "Catch the Young",
+    "ytmBrowseId": "UCoTSjCdMbDAGytV8V7nrHqQ"
+  },
+  {
+    "id": "cheon-jinwoo",
+    "name": "천진우",
+    "englishName": "Cheon Jinwoo",
+    "koreanName": "천진우",
+    "ytmName": "Cheon Jinwoo",
+    "ytmBrowseId": "UCN33LVB3rEIHm1VdyO1RD-g"
   },
   {
     "id": "cheong-yoil",
@@ -64,6 +193,14 @@
     ],
     "ytmBrowseId": "UC_IG7QG_1lMz9sxro-wg2RA",
     "ytmName": "CHUNGYOILE"
+  },
+  {
+    "id": "cherry-filter",
+    "name": "체리필터",
+    "englishName": "Cherry Filter",
+    "koreanName": "체리필터",
+    "ytmName": "Cherry Filter",
+    "ytmBrowseId": "UC4wA7s-xYMuRqWrpNL9Bgdg"
   },
   {
     "id": "chorokbulkkot-sonyeondan",
@@ -78,10 +215,51 @@
     "ytmName": "Green Flame Boys"
   },
   {
+    "id": "chrocktikal",
+    "name": "ChRocktikal",
+    "englishName": "ChRocktikal",
+    "ytmName": "ChRocktikal",
+    "ytmBrowseId": "UCahwSp2VhgzPiHwW-AAqlkA"
+  },
+  {
+    "id": "cnblue",
+    "name": "CNBLUE",
+    "englishName": "CNBLUE",
+    "ytmName": "CNBLUE",
+    "ytmBrowseId": "UCAiXJcqDrDKtKDIXV7NWhVg"
+  },
+  {
     "id": "confined-white",
     "name": "컨파인드 화이트",
     "englishName": "Confined White",
     "ytmName": "Confined White"
+  },
+  {
+    "id": "cotoba",
+    "name": "cotoba",
+    "englishName": "cotoba",
+    "country": "JP",
+    "aliases": [
+      "코토바",
+      "cotoba"
+    ],
+    "ytmName": "cotoba",
+    "ytmBrowseId": "UCoOAYdXwSWlxQzCiczaGcTg"
+  },
+  {
+    "id": "crying-nut",
+    "name": "크라잉넛",
+    "englishName": "Crying Nut",
+    "koreanName": "크라잉넛",
+    "ytmName": "Crying Nut",
+    "ytmBrowseId": "UCRU0hoqPi-bqE7KVqI0REDg"
+  },
+  {
+    "id": "d82",
+    "name": "D82",
+    "englishName": "D82",
+    "ytmName": "D82",
+    "ytmBrowseId": "UCKKik3ScnsFJv0EDIj_lVjg"
   },
   {
     "id": "dabda",
@@ -91,16 +269,87 @@
     "koreanName": "다브다"
   },
   {
+    "id": "dadada",
+    "name": "다다다",
+    "englishName": "DADADA",
+    "koreanName": "다다다",
+    "ytmName": "DADADA",
+    "ytmBrowseId": "UCtYDYCTUHbTeC-DXo2I8CaA"
+  },
+  {
+    "id": "damons-year",
+    "name": "데이먼스 이어",
+    "englishName": "Damons year",
+    "aliases": [
+      "데이먼스 이어",
+      "Damons year",
+      "DAMONS YEAR"
+    ],
+    "ytmName": "Damons year",
+    "ytmBrowseId": "UCH-aM6ae8RUTNtNGwrKI3Fg"
+  },
+  {
+    "id": "dear-cloud",
+    "name": "디어클라우드",
+    "englishName": "Dear Cloud",
+    "koreanName": "디어클라우드",
+    "ytmName": "Dear Cloud",
+    "ytmBrowseId": "UCa3EUnke4HfoSm9gQRLZs5g"
+  },
+  {
+    "id": "dr-core-911",
+    "name": "닥터코어911",
+    "englishName": "Dr. Core 911",
+    "koreanName": "닥터코어911",
+    "ytmName": "Dr. Core 911",
+    "ytmBrowseId": "UCBs1XJhNXBc_eeJndcGexoA"
+  },
+  {
     "id": "dragon-pony",
     "name": "드래곤포니",
     "englishName": "Dragon Pony",
     "ytmName": "Dragon Pony"
   },
   {
+    "id": "drinking-boys-and-girls-choir",
+    "name": "드링킹소년소녀합창단",
+    "englishName": "Drinking Boys and Girls Choir",
+    "koreanName": "드링킹소년소녀합창단",
+    "ytmName": "Drinking Boys and Girls Choir",
+    "ytmBrowseId": "UCRyxVcXTtMNl1EjKAQaIBTg"
+  },
+  {
+    "id": "e-pak-sa",
+    "name": "신빠람 이박사",
+    "englishName": "E-PAK-SA",
+    "koreanName": "이박사",
+    "ytmName": "이박사",
+    "ytmBrowseId": "UC_qeBgQZ07BHGT8PevXl0Xg"
+  },
+  {
     "id": "eddie-and-the-bricks",
     "name": "Eddie and the Bricks",
     "englishName": "Eddie and the Bricks",
     "ytmName": "Eddie and the Bricks"
+  },
+  {
+    "id": "emnw",
+    "name": "EMNW",
+    "englishName": "EMNW",
+    "ytmName": "EMNW",
+    "ytmBrowseId": "UC5icSBE7b_-YhG1rKb7ItCQ"
+  },
+  {
+    "id": "eumyul",
+    "name": "음율",
+    "englishName": "UmYull",
+    "koreanName": "음율",
+    "aliases": [
+      "음율",
+      "UmYull"
+    ],
+    "ytmName": "음율",
+    "ytmBrowseId": "UCDokg22KagN1yZOzKtrxwdg"
   },
   {
     "id": "far-east-asian-tigers",
@@ -120,6 +369,68 @@
     "englishName": "Flesh Juicer",
     "country": "TW",
     "ytmName": "Flesh Juicer"
+  },
+  {
+    "id": "flow",
+    "name": "FLOW",
+    "englishName": "FLOW",
+    "country": "JP",
+    "ytmName": "FLOW",
+    "ytmBrowseId": "UCJCEjx_2PIFi97rJjjfwrcQ"
+  },
+  {
+    "id": "gaehwa",
+    "name": "개화",
+    "englishName": "GAEHWA",
+    "ytmName": "개화",
+    "ytmBrowseId": "UCXJMVtIlhiYmxOcHnD8OnBQ"
+  },
+  {
+    "id": "gaku",
+    "name": "Gaku",
+    "englishName": "Gaku",
+    "country": "JP",
+    "ytmName": "Gaku",
+    "ytmBrowseId": "UCyG3L9kVtkmulp_P_3wPE4g"
+  },
+  {
+    "id": "gogohak",
+    "name": "고고학",
+    "englishName": "Gogohak",
+    "koreanName": "고고학",
+    "ytmName": "Gogohak",
+    "ytmBrowseId": "UCvUPHtxTyXRKBvdaJoJCSSg"
+  },
+  {
+    "id": "gony",
+    "name": "고니",
+    "englishName": "GONY",
+    "koreanName": "고니",
+    "ytmName": "GONY",
+    "ytmBrowseId": "UCYNIw2vmqfjdZqJO32zwR4A"
+  },
+  {
+    "id": "grizzly",
+    "name": "그리즐리",
+    "englishName": "Grizzly",
+    "koreanName": "그리즐리",
+    "ytmName": "Grizzly",
+    "ytmBrowseId": "UCSqB-T8XTnmuO4nZeUgpGFQ"
+  },
+  {
+    "id": "guckkasten",
+    "name": "국카스텐",
+    "englishName": "Guckkasten",
+    "koreanName": "국카스텐",
+    "ytmName": "Guckkasten",
+    "ytmBrowseId": "UCqdzjL6QabfYCnFZ-enRyQw"
+  },
+  {
+    "id": "haengronan",
+    "name": "행로난",
+    "englishName": "Hangronan",
+    "ytmName": "행로난",
+    "ytmBrowseId": "UCJXcOzzxoblEVMWCBg5BZGA"
   },
   {
     "id": "hana",
@@ -148,10 +459,52 @@
     "ytmName": "HOLLOW JAN"
   },
   {
+    "id": "hrtzwv",
+    "name": "하츠웨이브",
+    "englishName": "hrtz.wv",
+    "ytmName": "hrtz.wv",
+    "ytmBrowseId": "UCu2p2qoy09dRPsB9pW90hFg"
+  },
+  {
+    "id": "hyang",
+    "name": "HYANG",
+    "englishName": "HYANG",
+    "ytmName": "HYANG",
+    "ytmBrowseId": "UCVxZEf14pFRJwsqeGkgreow"
+  },
+  {
+    "id": "hynn",
+    "name": "HYNN",
+    "englishName": "HYNN",
+    "koreanName": "박혜원",
+    "aliases": [
+      "박혜원",
+      "HYNN"
+    ],
+    "ytmName": "HYNN",
+    "ytmBrowseId": "UC3qDRerpJAtgpxvAuEm2ITw"
+  },
+  {
     "id": "hyukoh",
     "name": "혁오",
     "englishName": "HYUKOH",
     "ytmName": "HYUKOH"
+  },
+  {
+    "id": "ibada",
+    "name": "이바다",
+    "englishName": "Ibada",
+    "koreanName": "이바다",
+    "ytmName": "Ibada",
+    "ytmBrowseId": "UCe3hxA7aGrSB0IAQe0qOaoA"
+  },
+  {
+    "id": "idiotape",
+    "name": "이디오테잎",
+    "englishName": "IDIOTAPE",
+    "koreanName": "이디오테잎",
+    "ytmName": "IDIOTAPE",
+    "ytmBrowseId": "UCbqFypNQpLZVoMY4D86bqGA"
   },
   {
     "id": "isyana-sarasvati",
@@ -161,16 +514,107 @@
     "ytmName": "Isyana Sarasvati"
   },
   {
+    "id": "its",
+    "name": "이츠",
+    "englishName": "ITS",
+    "koreanName": "이츠",
+    "ytmName": "ITS",
+    "ytmBrowseId": "UCHSCSb4Emnhvvho1flbBZrw"
+  },
+  {
+    "id": "jang-beom-june",
+    "name": "장범준",
+    "englishName": "Jang Beom June",
+    "koreanName": "장범준",
+    "ytmName": "Jang Beom June",
+    "ytmBrowseId": "UCvolP1xNN2maB52Tb1PkXzg"
+  },
+  {
     "id": "jang-pillsoon",
     "name": "장필순",
     "englishName": "Jang Pill Soon",
     "ytmName": "Jang Pill Soon"
   },
   {
+    "id": "jaurim",
+    "name": "자우림",
+    "englishName": "Jaurim",
+    "koreanName": "자우림",
+    "ytmName": "Jaurim",
+    "ytmBrowseId": "UCbypb9u1bZaH7N2_h5cMLuw"
+  },
+  {
+    "id": "jeokranun",
+    "name": "적란운",
+    "englishName": "Jeokranun",
+    "koreanName": "적란운",
+    "ytmName": "Jeokranun",
+    "ytmBrowseId": "UCHs2KXTqL2OVCY3D4-5CIEw"
+  },
+  {
+    "id": "jinho",
+    "name": "진호",
+    "englishName": "Jinho",
+    "koreanName": "진호",
+    "ytmName": "Jinho",
+    "ytmBrowseId": "UCj3WbRhWU28QgAlDANAIHiw"
+  },
+  {
     "id": "jkc",
     "name": "잭킹콩",
     "englishName": "JKC",
     "ytmName": "JKC"
+  },
+  {
+    "id": "jukjae",
+    "name": "적재",
+    "englishName": "Jukjae",
+    "koreanName": "적재",
+    "ytmName": "Jukjae",
+    "ytmBrowseId": "UCs0hbjTPASbs8Eevsd-1xfg"
+  },
+  {
+    "id": "jung-hyobean",
+    "name": "정효빈",
+    "englishName": "Jeong hyo bean",
+    "ytmName": "정효빈",
+    "ytmBrowseId": "UCFQAI9sUTcuYY-zZTf48Jeg"
+  },
+  {
+    "id": "kachisan",
+    "name": "까치산",
+    "englishName": "Kachisan",
+    "koreanName": "까치산",
+    "aliases": [
+      "까치산",
+      "喜鵲山",
+      "Kachisan"
+    ],
+    "ytmName": "Kachisan",
+    "ytmBrowseId": "UC6Igq_9FoEQuQQM9poinXNg"
+  },
+  {
+    "id": "kami-wa-saikoro",
+    "name": "神はサイコロを振らない",
+    "englishName": "Kami wa Saikoro wo Furanai",
+    "country": "JP",
+    "ytmName": "神はサイコロを振らない",
+    "ytmBrowseId": "UCBX3AdkQtdXZkBuM8ojQ8jA"
+  },
+  {
+    "id": "kardi",
+    "name": "카디",
+    "englishName": "KARDI",
+    "koreanName": "카디",
+    "ytmName": "KARDI",
+    "ytmBrowseId": "UC26ws-BbUC5OmTtO-vCSUdg"
+  },
+  {
+    "id": "ken",
+    "name": "KEN",
+    "englishName": "KEN",
+    "ytmName": "KEN",
+    "ytmBrowseId": "UCq5nu-cMMHnd9mlLzFUsBmA"
   },
   {
     "id": "khruangbin",
@@ -180,10 +624,67 @@
     "ytmName": "Khruangbin"
   },
   {
+    "id": "kikuhashi",
+    "name": "기쿠하시",
+    "englishName": "gikuhasi",
+    "aliases": [
+      "기쿠하시",
+      "gikuhasi",
+      "Kikuhashi"
+    ],
+    "ytmName": "기쿠하시",
+    "ytmBrowseId": "UC-KxX27-noeyI5M-Jo4Z8hA"
+  },
+  {
+    "id": "kim-jong-hyeon",
+    "name": "김종현",
+    "englishName": "KIM JONGHYEON",
+    "koreanName": "김종현",
+    "ytmName": "김종현",
+    "ytmBrowseId": "UCIX86eLidW87S5oAHajXLtA"
+  },
+  {
+    "id": "kim-junsu",
+    "name": "김준수",
+    "englishName": "XIA",
+    "koreanName": "김준수",
+    "aliases": [
+      "김준수",
+      "XIA",
+      "JUNSU"
+    ],
+    "ytmName": "XIA",
+    "ytmBrowseId": "UCoNA96-HeeAo3g-eGILJlUw"
+  },
+  {
+    "id": "kim-kwang-jin",
+    "name": "김광진",
+    "englishName": "Kim Kwang Jin",
+    "koreanName": "김광진",
+    "ytmName": "Kim Kwang Jin",
+    "ytmBrowseId": "UCm4oXMr-XJwGMF6PKbtf5qg"
+  },
+  {
+    "id": "kim-nayoung",
+    "name": "김나영",
+    "englishName": "Kim Na Young",
+    "koreanName": "김나영",
+    "ytmName": "김나영",
+    "ytmBrowseId": "UCBXNRYFBNNMHwArbYK3N4eg"
+  },
+  {
     "id": "kirara",
     "name": "키라라",
     "englishName": "Kirara",
     "ytmName": "KIRARA"
+  },
+  {
+    "id": "knosis",
+    "name": "크노시스",
+    "englishName": "Knosis",
+    "country": "JP",
+    "ytmName": "Knosis",
+    "ytmBrowseId": "UCB9WtIQzNC9_mVKirlA8NHg"
   },
   {
     "id": "kwon-jina",
@@ -191,6 +692,14 @@
     "englishName": "Kwon Jin Ah",
     "ytmName": "챈슬러, 권진아",
     "koreanName": "권진아"
+  },
+  {
+    "id": "lazybone",
+    "name": "레이지본",
+    "englishName": "Lazybone",
+    "koreanName": "레이지본",
+    "ytmName": "Lazybone",
+    "ytmBrowseId": "UCUXRFAziJd66X-C2l68s7eQ"
   },
   {
     "id": "lee-seung-yoon",
@@ -205,10 +714,33 @@
     "ytmName": "LEENALCHI"
   },
   {
+    "id": "lif",
+    "name": "LIF",
+    "englishName": "LIF",
+    "ytmName": "LIF",
+    "ytmBrowseId": "UCO8pePCNLEeq0o_Tsr0_E9w"
+  },
+  {
     "id": "lilly-eat-machine",
     "name": "릴리 잇 머신",
     "englishName": "Lilly Eat Machine",
     "ytmName": "Lilly Eat Machine"
+  },
+  {
+    "id": "luamel",
+    "name": "루아멜",
+    "englishName": "Luamel",
+    "koreanName": "루아멜",
+    "ytmName": "Luamel",
+    "ytmBrowseId": "UCpPZAhXlneDMgWidXahRZ2w"
+  },
+  {
+    "id": "macguffin",
+    "name": "맥거핀",
+    "englishName": "MacGuffin",
+    "koreanName": "맥거핀",
+    "ytmName": "MacGuffin",
+    "ytmBrowseId": "UCdRRmKdFwypF4OT0aKZOCDg"
   },
   {
     "id": "massive-attack",
@@ -231,6 +763,30 @@
     "ytmName": "Mudd the student"
   },
   {
+    "id": "nell",
+    "name": "넬",
+    "englishName": "NELL",
+    "koreanName": "넬",
+    "ytmName": "NELL",
+    "ytmBrowseId": "UC1yfXDUlpfEncDnLUMekHhQ"
+  },
+  {
+    "id": "nemophila",
+    "name": "NEMOPHILA",
+    "englishName": "NEMOPHILA",
+    "country": "JP",
+    "ytmName": "NEMOPHILA",
+    "ytmBrowseId": "UCMXAdfuVtiZ852N3rtqwe-A"
+  },
+  {
+    "id": "nerd-connection",
+    "name": "너드커넥션",
+    "englishName": "Nerd Connection",
+    "koreanName": "너드커넥션",
+    "ytmName": "Nerd Connection",
+    "ytmBrowseId": "UCCaBM8AtUiqVwJQZHbtua2w"
+  },
+  {
     "id": "neu",
     "name": "노이",
     "englishName": "neu",
@@ -242,6 +798,13 @@
     "englishName": "never young beach",
     "country": "JP",
     "ytmName": "never young beach"
+  },
+  {
+    "id": "nibuy",
+    "name": "NIBUY",
+    "englishName": "NIBUY",
+    "ytmName": "NIBUY",
+    "ytmBrowseId": "UCe6QO5bLh0zHlgQKFL1d_Sw"
   },
   {
     "id": "noizegarden",
@@ -257,11 +820,38 @@
     "ytmName": "Nyteh"
   },
   {
+    "id": "one-over-n",
+    "name": "엔분의일",
+    "englishName": "ONE OVER N",
+    "aliases": [
+      "엔분의일",
+      "ONE OVER N",
+      "1/N"
+    ],
+    "ytmName": "엔분의일",
+    "ytmBrowseId": "UCU1hubLoV-i7wB1YgdXcRdw"
+  },
+  {
+    "id": "onewe",
+    "name": "ONEWE",
+    "englishName": "ONEWE",
+    "ytmName": "ONEWE",
+    "ytmBrowseId": "UC3KIhF390O_EYA0qoMjS3qQ"
+  },
+  {
     "id": "original-love",
     "name": "Original Love",
     "englishName": "Original Love",
     "country": "JP",
     "ytmName": "Original Love"
+  },
+  {
+    "id": "owalloil",
+    "name": "오월오일",
+    "englishName": "Owalloil",
+    "koreanName": "오월오일",
+    "ytmName": "Owalloil",
+    "ytmBrowseId": "UCp-MnUXH3vPP0uh8s4-rxQQ"
   },
   {
     "id": "peach-truck-hijackers",
@@ -275,11 +865,31 @@
     "ytmName": "Peach Truck Hijackers"
   },
   {
+    "id": "peppertones",
+    "name": "페퍼톤스",
+    "englishName": "Peppertones",
+    "koreanName": "페퍼톤스",
+    "ytmName": "Peppertones",
+    "ytmBrowseId": "UCMaqrGhm1vkbE6lBWThnSnQ"
+  },
+  {
     "id": "pixies",
     "name": "PIXIES",
     "englishName": "PIXIES",
     "country": "US",
     "ytmName": "Pixies"
+  },
+  {
+    "id": "pompadolls",
+    "name": "PompadollS",
+    "englishName": "PompadollS",
+    "country": "JP",
+    "aliases": [
+      "폼파돌스",
+      "PompadollS"
+    ],
+    "ytmName": "PompadollS",
+    "ytmBrowseId": "UCmu5lpe6Wt-7yCHe2rA4zYQ"
   },
   {
     "id": "poser",
@@ -300,10 +910,76 @@
     "ytmName": "Redoor"
   },
   {
+    "id": "remay",
+    "name": "Re.may",
+    "englishName": "Re.may",
+    "ytmName": "Re.may",
+    "ytmBrowseId": "UC3RJjErc1xbYU4Q3ZPvD34A"
+  },
+  {
+    "id": "riot-kidz",
+    "name": "라이엇키즈",
+    "englishName": "Riot Kidz",
+    "koreanName": "라이엇키즈",
+    "ytmName": "Riot Kidz",
+    "ytmBrowseId": "UC-v--9Bml03njBlhn7N8HXQ"
+  },
+  {
+    "id": "romantic-punch",
+    "name": "로맨틱펀치",
+    "englishName": "Romantic Punch",
+    "koreanName": "로맨틱펀치",
+    "ytmName": "Romantic Punch",
+    "ytmBrowseId": "UC9X06dK6yBt54gZC8vF8VKA"
+  },
+  {
+    "id": "rosi",
+    "name": "로시",
+    "englishName": "Rothy",
+    "koreanName": "로시",
+    "ytmName": "Rosi",
+    "ytmBrowseId": "UC-c5ivG8CgNeuzLzwAyWTNQ"
+  },
+  {
+    "id": "ruru",
+    "name": "Ruru",
+    "englishName": "Ruru",
+    "ytmName": "Ruru",
+    "ytmBrowseId": "UCLTDSh6fJcGLDF0e36srFFg"
+  },
+  {
+    "id": "sabasister",
+    "name": "SABASISTER",
+    "englishName": "SABASISTER",
+    "country": "JP",
+    "aliases": [
+      "サバシスター",
+      "SABASISTER"
+    ],
+    "ytmName": "サバシスター",
+    "ytmBrowseId": "UCwg4U4rdQWISBoZg2pXvSKA"
+  },
+  {
+    "id": "sable-hills",
+    "name": "Sable Hills",
+    "englishName": "Sable Hills",
+    "country": "JP",
+    "ytmName": "Sable Hills",
+    "ytmBrowseId": "UCS971BLU1Y1byM8sUtyrIOg"
+  },
+  {
     "id": "sanbo",
     "name": "산보",
     "englishName": "Sanbo",
     "ytmName": "Sanbo"
+  },
+  {
+    "id": "schizo",
+    "name": "스키조",
+    "englishName": "Schizo",
+    "koreanName": "스키조",
+    "ytmName": "Schizo",
+    "ytmBrowseId": "UC-n3FtWzmlRSvVY-u3uoVuA"
   },
   {
     "id": "seisumi",
@@ -316,6 +992,26 @@
     ],
     "ytmBrowseId": "UCnmRY2xwlBPN2zbk1CspmhA",
     "ytmName": "Say Sue Me"
+  },
+  {
+    "id": "shaun",
+    "name": "숀",
+    "englishName": "SHAUN",
+    "koreanName": "숀",
+    "ytmName": "SHAUN",
+    "ytmBrowseId": "UCZtbCSzIjKOH7lxX8Czo2iw"
+  },
+  {
+    "id": "shim-kyu-sun",
+    "name": "심규선",
+    "englishName": "Lucia",
+    "koreanName": "심규선",
+    "aliases": [
+      "심규선",
+      "Lucia"
+    ],
+    "ytmName": "Lucia",
+    "ytmBrowseId": "UCuqjtm5ybnZmfntdb2Aa-iw"
   },
   {
     "id": "silica-gel",
@@ -341,6 +1037,21 @@
     "ytmName": "Shin In Ryu"
   },
   {
+    "id": "skipjack",
+    "name": "SKIPJACK",
+    "englishName": "SKIPJACK",
+    "ytmName": "SKIPJACK",
+    "ytmBrowseId": "UC228_4K2bnWFYG1k3sLw4Ww"
+  },
+  {
+    "id": "snake-chicken-soup",
+    "name": "스네이크치킨수프",
+    "englishName": "Snake Chicken Soup",
+    "koreanName": "스네이크치킨수프",
+    "ytmName": "Snake Chicken Soup",
+    "ytmBrowseId": "UCH9pjP0MBOYtl9E7xH_VN9g"
+  },
+  {
     "id": "socialclub-hyangwu",
     "name": "향우회",
     "englishName": "SOCIALCLUB HYANGWU",
@@ -355,6 +1066,29 @@
     "ytmName": "宋冬野 - Song Dongye"
   },
   {
+    "id": "song-eunchae",
+    "name": "송은채",
+    "englishName": "Song Eunchae",
+    "koreanName": "송은채",
+    "ytmName": "Song Eunchae"
+  },
+  {
+    "id": "song-sohee",
+    "name": "송소희",
+    "englishName": "Song Sohee",
+    "koreanName": "송소희",
+    "ytmName": "Song Sohee",
+    "ytmBrowseId": "UC4nj2Xlp-6k6FQJ07YfkoXQ"
+  },
+  {
+    "id": "sonic-stones",
+    "name": "소닉스톤즈",
+    "englishName": "Sonic Stones",
+    "koreanName": "소닉스톤즈",
+    "ytmName": "Sonic Stones",
+    "ytmBrowseId": "UC44DjCf6vyw_-E7bojOzrfA"
+  },
+  {
     "id": "sultan-of-the-disco",
     "name": "술탄오브더디스코",
     "englishName": "Sultan Of The Disco",
@@ -365,6 +1099,30 @@
     "name": "SUMIN",
     "englishName": "SUMIN",
     "ytmName": "SUMIN"
+  },
+  {
+    "id": "synsnake",
+    "name": "신스네이크",
+    "englishName": "Synsnake",
+    "koreanName": "신스네이크",
+    "ytmName": "Synsnake",
+    "ytmBrowseId": "UCXz36stKvTjdm5fT3va1obA"
+  },
+  {
+    "id": "ta-copy",
+    "name": "타카피",
+    "englishName": "t.a-copy",
+    "koreanName": "타카피",
+    "ytmName": "t.a-copy",
+    "ytmBrowseId": "UCe2ZsulP-Y88aByU86eJCfg"
+  },
+  {
+    "id": "the-ade",
+    "name": "디에이드",
+    "englishName": "The Ade",
+    "koreanName": "디에이드",
+    "ytmName": "The Ade",
+    "ytmBrowseId": "UCpD0cGTQZYd1QyznGXGGb7g"
   },
   {
     "id": "the-fix",
@@ -386,6 +1144,18 @@
     "ytmName": "The Jesus And Mary Chain"
   },
   {
+    "id": "the-joyfools",
+    "name": "조이풀스",
+    "englishName": "The Joyfools",
+    "aliases": [
+      "조이풀스",
+      "The Joyfools",
+      "The JoyFools"
+    ],
+    "ytmName": "The Joyfools",
+    "ytmBrowseId": "UCaZY5zSAyXhedvQujITyQpw"
+  },
+  {
     "id": "the-lemon-twigs",
     "name": "The Lemon Twigs",
     "englishName": "The Lemon Twigs",
@@ -399,6 +1169,14 @@
     "ytmName": "The Poles"
   },
   {
+    "id": "the-solutions",
+    "name": "솔루션스",
+    "englishName": "The Solutions",
+    "koreanName": "솔루션스",
+    "ytmName": "The Solutions",
+    "ytmBrowseId": "UCknu_lMOWIogVjPhiKxg85w"
+  },
+  {
     "id": "the-volunteers",
     "name": "더 발룬티어스",
     "englishName": "The Volunteers",
@@ -409,6 +1187,27 @@
     "name": "쏜애플",
     "englishName": "Thornapple",
     "ytmName": "THORNAPPLE"
+  },
+  {
+    "id": "to-more-raw",
+    "name": "To More Raw",
+    "englishName": "To More Raw",
+    "ytmName": "To More Raw",
+    "ytmBrowseId": "UClMLS_hkgDlI6-bNYjfTNqA"
+  },
+  {
+    "id": "tokai",
+    "name": "Tokai",
+    "englishName": "Tokai",
+    "ytmName": "Tokai",
+    "ytmBrowseId": "UCJDQtjpQRecS6iKbxfBOkJQ"
+  },
+  {
+    "id": "tomikita",
+    "name": "TOMIKITA",
+    "englishName": "TOMIKITA",
+    "ytmName": "TOMIKITA",
+    "ytmBrowseId": "UCUel3NTw3gNZcysl6wqd06A"
   },
   {
     "id": "touched",
@@ -424,10 +1223,49 @@
     "ytmName": "TURTLE ISLAND"
   },
   {
+    "id": "umuhae",
+    "name": "우무해",
+    "englishName": "Umuhae",
+    "koreanName": "우무해",
+    "ytmName": "Umuhae",
+    "ytmBrowseId": "UC0mQoO67xC9SuCa0uokSr6Q"
+  },
+  {
+    "id": "urban-zakapa",
+    "name": "어반자카파",
+    "englishName": "Urban Zakapa",
+    "koreanName": "어반자카파",
+    "ytmName": "Urban Zakapa",
+    "ytmBrowseId": "UCsYJTPdjnUFuBaV09tGDPOw"
+  },
+  {
     "id": "ureuk-and-the-gypsies",
     "name": "우륵과 풍각쟁이들",
     "englishName": "UREUK AND THE GYPSIES",
     "ytmName": "UREUK AND THE GYPSIES"
+  },
+  {
+    "id": "uverworld",
+    "name": "UVERworld",
+    "englishName": "UVERworld",
+    "country": "JP",
+    "ytmName": "UVERworld",
+    "ytmBrowseId": "UCvNGvMSDassu8fTA9Vwdzxg"
+  },
+  {
+    "id": "w24",
+    "name": "W24",
+    "englishName": "W24",
+    "ytmName": "W24",
+    "ytmBrowseId": "UCfvTHPBZPbRhRM-ijvBpwdA"
+  },
+  {
+    "id": "wah-wah-wah",
+    "name": "와와와",
+    "englishName": "Wah Wah Wah",
+    "koreanName": "와와와",
+    "ytmName": "Wah Wah Wah",
+    "ytmBrowseId": "UCOHwsckB8j3XtArHuklU5hQ"
   },
   {
     "id": "we-steal-oranges",
@@ -455,6 +1293,22 @@
     "ytmName": "Yang Jeong Hoon"
   },
   {
+    "id": "yb",
+    "name": "YB",
+    "englishName": "YB",
+    "koreanName": "윤도현밴드",
+    "ytmName": "YB",
+    "ytmBrowseId": "UCArljIU3tkZSK5k_ZF_jxWg"
+  },
+  {
+    "id": "yoon-jiyoung",
+    "name": "윤지영",
+    "englishName": "Yoon Jiyoung",
+    "koreanName": "윤지영",
+    "ytmName": "Yoon Jiyoung",
+    "ytmBrowseId": "UC27jxefZWRB7dYSTZ2KgR3A"
+  },
+  {
     "id": "yunmachi",
     "name": "윤마치",
     "englishName": "MRCH",
@@ -466,5 +1320,18 @@
     ],
     "ytmBrowseId": "UCRaBisCw9HzGk0cTbvAF-FQ",
     "ytmName": "MRCH"
+  },
+  {
+    "id": "zutomayo",
+    "name": "ZUTOMAYO",
+    "englishName": "ZUTOMAYO",
+    "country": "JP",
+    "aliases": [
+      "ずっと真夜中でいいのに。",
+      "즛토마요",
+      "ZUTOMAYO"
+    ],
+    "ytmName": "ZUTOMAYO",
+    "ytmBrowseId": "UCrpcd5WtOrdCsx5cufc4JRQ"
   }
 ]

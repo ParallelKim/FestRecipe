@@ -11,8 +11,9 @@ type AlbumType = 'single' | 'ep' | 'lp'
 export interface Artist {
   id: string
   /**
-   * UI 공식 표기명 (공식 TT 등 출처 기준 사람 큐레이션).
-   * 가이드: docs/ARTIST_DISPLAY_NAMES.md
+   * 카탈로그 기본 표기 (내부 id에 붙는 기본 라벨).
+   * 페스티벌 화면 표기는 `Festival.artistDisplays`가 SSOT다.
+   * @see docs/ARTIST_DISPLAY_NAMES.md
    */
   name: string
   /** 로마자/영문 표기 (검색·YTM 매칭) */
@@ -24,8 +25,21 @@ export interface Artist {
   country?: string // KR, US, UK, JP etc (외국 아티스트만)
   imageUrl?: string
   genres?: string[]
+  /**
+   * 검색·YTM 쿼리 확장용 이표기.
+   * 페스티벌별 화면 표기를 여기 두지 않는다 (그건 `Festival.artistDisplays`).
+   */
   aliases?: string[]
   ytmBrowseId?: string
+  /**
+   * 콜라보/유닛 구성원 artistId.
+   * 전용 `playlists/{id}.json`이 없으면 런타임에서 멤버 PL을 병합한다.
+   * 예: `blackhole-x-bangsumi` → `['blackhole', 'bang-sumi']`
+   * @see docs/ARTIST_DISPLAY_NAMES.md §콜라보·피처링
+   */
+  composedOf?: string[]
+  /** 플레이리스트 구성. `merge` = 멤버 PL 라운드로빈 병합 (기본) */
+  playlistMode?: 'merge'
 }
 
 /** 인지도 티어에 따른 대표곡 플레이리스트 */
@@ -165,6 +179,12 @@ export interface Festival {
   /** 스테이지 없는 라인업(칩·카드) 내 라인업 하이라이트 배경 */
   lineupHighlightColor?: string
   allArtists: string[] // 1단계(all) 요일미구분 전체 라인업
+  /**
+   * 페스티벌 화면용 표기 매핑 (artistId → 공식 TT/포스터 표기).
+   * 슬롯·라인업은 id만 두고, 표기 문자열은 여기에 둔다.
+   * @see docs/ARTIST_DISPLAY_NAMES.md
+   */
+  artistDisplays?: Record<string, string>
   lineup: DayLineup[]
 }
 

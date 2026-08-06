@@ -1,0 +1,206 @@
+{
+  "artistId": "the-solutions",
+  "artistName": "솔루션스",
+  "englishName": "The Solutions",
+  "collectedAt": "2026-08-05T12:30:51.094698+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCknu_lMOWIogVjPhiKxg85w",
+    "name": "THE SOLUTIONS",
+    "subscribers": "8.49K",
+    "channelId": "UCzjKxzXJOXzQ8Rg16YVCg2w",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/ENeqUprJr7ynAoXWj5wdKV0UejJzSrQlboxs74_GmOPa3ln2MYY1QxPbpiXzyq5LSuBJiphm8G2-mIA=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCknu_lMOWIogVjPhiKxg85w"
+  },
+  "tracks": [
+    {
+      "videoId": "6dFY8IQYMTs",
+      "songTitle": "DNCM",
+      "title": "DNCM",
+      "artists": [
+        "THE SOLUTIONS"
+      ],
+      "albumTitle": "N/A",
+      "albumBrowseId": "MPREb_XcmYwJ4tTQx",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/D4Hal9V0m7QxmoJHCxtbsYAIMgMFXj88LtCIVjYtf1JUzwRCBdUlc5iDaw5iaf8odKojCgWFCIBarxBp=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6dFY8IQYMTs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6dFY8IQYMTs",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "fZ_mAFKgj-Y",
+      "songTitle": "My Youth",
+      "title": "My Youth",
+      "artists": [
+        "THE SOLUTIONS"
+      ],
+      "albumTitle": "TIME",
+      "albumBrowseId": "MPREb_73lzPbwo16o",
+      "duration": "3:48",
+      "durationSeconds": 228,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2jwcIqqrTcHBCqS4a_4pzhH_aLDubNKvk1tS98PP3ZdCEVcHEMIdL88bhz_TTi_WwJqbdKxnpnBVaRGA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fZ_mAFKgj-Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fZ_mAFKgj-Y",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "CjL5bKPv294",
+      "songTitle": "Spirit",
+      "title": "Spirit",
+      "artists": [
+        "THE SOLUTIONS"
+      ],
+      "albumTitle": "Emergence",
+      "albumBrowseId": "MPREb_2e9nWIaTYyR",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/f2riMn40qQIwUS4E3yJAdGNuBY3WrUKi4TWW5A1eoIMkiIOHHLogqXEuamCANR_88p72Z8Wd82UzrRNT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CjL5bKPv294",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CjL5bKPv294",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "KxcIakS_DPU",
+      "songTitle": "N/A",
+      "title": "N/A",
+      "artists": [
+        "THE SOLUTIONS"
+      ],
+      "albumTitle": "N/A",
+      "albumBrowseId": "MPREb_XcmYwJ4tTQx",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/D4Hal9V0m7QxmoJHCxtbsYAIMgMFXj88LtCIVjYtf1JUzwRCBdUlc5iDaw5iaf8odKojCgWFCIBarxBp=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KxcIakS_DPU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KxcIakS_DPU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "9tB7V8ttLks",
+      "songTitle": "Forever Young",
+      "title": "Forever Young",
+      "artists": [
+        "THE SOLUTIONS"
+      ],
+      "albumTitle": "Burn to Win (Original Soundtrack) Part. 4",
+      "albumBrowseId": "MPREb_oc8ixXMqdF2",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FYOzd8-t3Z-RDe3mfrcQiHHjw1dvN9b6e5eajGbi1AYYIWnkG8S0vXabmZ8aCZvY2Mcr4G-XNlg-vrd-xA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9tB7V8ttLks",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9tB7V8ttLks",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EuvnNZkhLoE",
+      "songTitle": "Star Synth",
+      "title": "Star Synth",
+      "artists": [
+        "THE SOLUTIONS"
+      ],
+      "albumTitle": "N/A",
+      "albumBrowseId": "MPREb_XcmYwJ4tTQx",
+      "duration": "3:43",
+      "durationSeconds": 223,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/D4Hal9V0m7QxmoJHCxtbsYAIMgMFXj88LtCIVjYtf1JUzwRCBdUlc5iDaw5iaf8odKojCgWFCIBarxBp=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EuvnNZkhLoE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EuvnNZkhLoE",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "O_TxNnZrwRE",
+      "songTitle": "Otherside",
+      "title": "Otherside",
+      "artists": [
+        "THE SOLUTIONS"
+      ],
+      "albumTitle": "THE SOLUTIONS",
+      "albumBrowseId": "MPREb_9HsK74KoKex",
+      "duration": "3:52",
+      "durationSeconds": 232,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/m728QJYNkvRLbAzPjkfTcv-XOh5DwEyn350IYG4KLG6sGERsqTg-TYAAmwVUoNeOr5ilsLMxNCp0SVOO=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=O_TxNnZrwRE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=O_TxNnZrwRE",
+      "source": "ytm_songs_popular",
+      "year": "2012",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "s4PdJAKbYVQ",
+      "songTitle": "Answer",
+      "title": "Answer",
+      "artists": [
+        "THE SOLUTIONS"
+      ],
+      "albumTitle": "MOVEMENTS",
+      "albumBrowseId": "MPREb_WWjm47zDKgk",
+      "duration": "4:13",
+      "durationSeconds": 253,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/z_37VIdptQgpsGnEcNaLvgv5ALZOQfqphCva7Uqarrl07caDH_rF6X-AOM0qxh51vrb4jlTehzBH-mf6eA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s4PdJAKbYVQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=s4PdJAKbYVQ",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "M6uJ4w5GntY",
+      "songTitle": "Superstition",
+      "title": "Superstition",
+      "artists": [
+        "THE SOLUTIONS"
+      ],
+      "albumTitle": "N/A",
+      "albumBrowseId": "MPREb_XcmYwJ4tTQx",
+      "duration": "4:21",
+      "durationSeconds": 261,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/D4Hal9V0m7QxmoJHCxtbsYAIMgMFXj88LtCIVjYtf1JUzwRCBdUlc5iDaw5iaf8odKojCgWFCIBarxBp=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M6uJ4w5GntY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=M6uJ4w5GntY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "KJMe6Yk5zC0",
+      "songTitle": "Breath",
+      "title": "Breath",
+      "artists": [
+        "THE SOLUTIONS"
+      ],
+      "albumTitle": "Emergence",
+      "albumBrowseId": "MPREb_2e9nWIaTYyR",
+      "duration": "5:43",
+      "durationSeconds": 343,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/f2riMn40qQIwUS4E3yJAdGNuBY3WrUKi4TWW5A1eoIMkiIOHHLogqXEuamCANR_88p72Z8Wd82UzrRNT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KJMe6Yk5zC0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KJMe6Yk5zC0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "솔루션스 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=6dFY8IQYMTs%2CfZ_mAFKgj-Y%2CCjL5bKPv294%2CKxcIakS_DPU%2C9tB7V8ttLks%2CEuvnNZkhLoE%2CO_TxNnZrwRE%2Cs4PdJAKbYVQ%2CM6uJ4w5GntY%2CKJMe6Yk5zC0&title=%EC%86%94%EB%A3%A8%EC%85%98%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=6dFY8IQYMTs&list=RDAMVM6dFY8IQYMTs"
+}

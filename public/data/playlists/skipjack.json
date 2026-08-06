@@ -1,0 +1,202 @@
+{
+  "artistId": "skipjack",
+  "artistName": "SKIPJACK",
+  "englishName": "SKIPJACK",
+  "collectedAt": "2026-08-05T12:30:46.040376+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC228_4K2bnWFYG1k3sLw4Ww",
+    "name": "SKIPJACK",
+    "subscribers": "864",
+    "channelId": "UCEPks7NW6pqBkn4nCRiEnWg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/UDVh1_DPgskhGEIHCSo-QivbMVnLo6jBGJhyS941W_J922t8vvh71Je171rcuwnehvVIGCuDyg=w1138-h474-l90-rj-dcETOMiikH",
+    "url": "https://music.youtube.com/channel/UC228_4K2bnWFYG1k3sLw4Ww"
+  },
+  "tracks": [
+    {
+      "videoId": "7NsDYj1y2EY",
+      "songTitle": "All Work And No Play Makes One A Dull Boy",
+      "title": "All Work And No Play Makes One A Dull Boy",
+      "artists": [
+        "SKIPJACK"
+      ],
+      "albumTitle": "All Work And No Play Makes One A Dull Boy",
+      "albumBrowseId": "MPREb_o93FliopkUt",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BZGG55p7O0itBBFx8VFLw55DHYM8g239TImvNl8FjfKZUWmVF6XuytzPaxE-W_QGS1STUN10ifv9BL56=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7NsDYj1y2EY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7NsDYj1y2EY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "cY5Nthxq4nA",
+      "songTitle": "No Named",
+      "title": "No Named",
+      "artists": [
+        "SKIPJACK"
+      ],
+      "albumTitle": "giveusasalvation.",
+      "albumBrowseId": "MPREb_ywnJ5oYqFtj",
+      "duration": "4:44",
+      "durationSeconds": 284,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/hQ1XBZC-A4cqRo-jrkeZipEf8oXCpGMqJRoX-EnBp2uyFrZ1_TqV579otDNAYHpIhHLBFrgOvBjHfBs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cY5Nthxq4nA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cY5Nthxq4nA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "9o3GjHvJSNY",
+      "songTitle": "Daydream Girl",
+      "title": "Daydream Girl",
+      "artists": [
+        "SKIPJACK"
+      ],
+      "albumTitle": "Daydream Girl",
+      "albumBrowseId": "MPREb_UQkCtRuf8jF",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LRjya8vHi7K1GcW5UkH0F_m3GAwAo7v4MyntVodJDfZwfN4c7h5UppngF-XsrWbXl7kmOYKjoM78pDw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9o3GjHvJSNY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9o3GjHvJSNY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "thKfux7Mvfw",
+      "songTitle": "Gretchen",
+      "title": "Gretchen",
+      "artists": [
+        "SKIPJACK"
+      ],
+      "albumTitle": "giveusasalvation.",
+      "albumBrowseId": "MPREb_ywnJ5oYqFtj",
+      "duration": "3:24",
+      "durationSeconds": 204,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/hQ1XBZC-A4cqRo-jrkeZipEf8oXCpGMqJRoX-EnBp2uyFrZ1_TqV579otDNAYHpIhHLBFrgOvBjHfBs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=thKfux7Mvfw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=thKfux7Mvfw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "2BYOckXcslc",
+      "songTitle": "ARHAT",
+      "title": "ARHAT",
+      "artists": [
+        "SKIPJACK"
+      ],
+      "albumTitle": "ARHAT",
+      "albumBrowseId": "MPREb_ygQSQEBOzw0",
+      "duration": "4:40",
+      "durationSeconds": 280,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Z1jm07J9TG3PGu-qMI4pu3Vy-wbJhiGbHUy2FuoXfpRE6gdIdZwx3uUvPWKO3iKJm1HJiNY_y_l2aw4P=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2BYOckXcslc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2BYOckXcslc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "N97ietuDOcY",
+      "songTitle": "Can I go?",
+      "title": "Can I go?",
+      "artists": [
+        "SKIPJACK"
+      ],
+      "albumTitle": "giveusasalvation.",
+      "albumBrowseId": "MPREb_ywnJ5oYqFtj",
+      "duration": "4:17",
+      "durationSeconds": 257,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/hQ1XBZC-A4cqRo-jrkeZipEf8oXCpGMqJRoX-EnBp2uyFrZ1_TqV579otDNAYHpIhHLBFrgOvBjHfBs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=N97ietuDOcY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=N97ietuDOcY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Fpch_yRmY0M",
+      "songTitle": "flowerboi",
+      "title": "flowerboi",
+      "artists": [
+        "SKIPJACK"
+      ],
+      "albumTitle": "flowerboi",
+      "albumBrowseId": "MPREb_EKGz1U5ihlA",
+      "duration": "4:18",
+      "durationSeconds": 258,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HjpsX9cEEaaKKnONYJCvizb6lSadw-F3HxLBJjud2M9lIE59UyNKFlC6CoDSXHfPVRLa2L0v7D3n9iA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Fpch_yRmY0M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Fpch_yRmY0M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "nBSQw7SAk28",
+      "songTitle": "Deus",
+      "title": "Deus",
+      "artists": [
+        "SKIPJACK"
+      ],
+      "albumTitle": "Deus",
+      "albumBrowseId": "MPREb_6DUk8k2bQAf",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MxmhnTMMIsnTK8_UtaIqPdaigPnHeLKptWjM2mhKp_2UwfP7kjvqqIiTHbVMREvQ0QO72kQeVwIRbVM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nBSQw7SAk28",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nBSQw7SAk28",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7JTm9eey4tw",
+      "songTitle": "C/A",
+      "title": "C/A",
+      "artists": [
+        "SKIPJACK"
+      ],
+      "albumTitle": "DRUGSTORE",
+      "albumBrowseId": "MPREb_ERxWTSou0b3",
+      "duration": "4:11",
+      "durationSeconds": 251,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LaSTozfm50DUjIx6KHJ-gAFeflTMTAMc0XBdA_M164MdSz8en9yVNn0uoalQjTqk-b05rlWsfveB_lA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7JTm9eey4tw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7JTm9eey4tw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "gapmaIZnXrk",
+      "songTitle": "Advent Never Comes",
+      "title": "Advent Never Comes",
+      "artists": [
+        "SKIPJACK"
+      ],
+      "albumTitle": "Advent Never Comes",
+      "albumBrowseId": "MPREb_MREDkRn8w6g",
+      "duration": "2:10",
+      "durationSeconds": 130,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2Mdvwlnnpt5rUr3NPFhU9w8Acmyk7BuMOr-qHGET8ZEiwtsYoffDxDGeoFlpYlqD8eDDNQ1a9WQvjlkg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gapmaIZnXrk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=gapmaIZnXrk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "SKIPJACK 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=7NsDYj1y2EY%2CcY5Nthxq4nA%2C9o3GjHvJSNY%2CthKfux7Mvfw%2C2BYOckXcslc%2CN97ietuDOcY%2CFpch_yRmY0M%2CnBSQw7SAk28%2C7JTm9eey4tw%2CgapmaIZnXrk&title=SKIPJACK+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=7NsDYj1y2EY&list=RDAMVM7NsDYj1y2EY"
+}

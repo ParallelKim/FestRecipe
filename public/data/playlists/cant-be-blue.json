@@ -1,0 +1,207 @@
+{
+  "artistId": "cant-be-blue",
+  "artistName": "can't be blue",
+  "englishName": "can't be blue",
+  "collectedAt": "2026-08-05T12:30:08.622392+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 930,
+    "latestSlotLabel": "15:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.31,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCxfcdjtht2doaWgbHuhLxLA",
+    "name": "can’t be blue (캔트비블루)",
+    "subscribers": "65.7K",
+    "channelId": "UCaSkJXwAi4NOD4Ifobi_tAQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/zNf7K5gDo5vA536enZpr3myRwKioLnWUr67_ptv16utkXBFqL1WYHKE4GVdZNHlLG6LEt0QNul4=w1500-h625-l90-rj-dciYKOSrHlsXEB",
+    "url": "https://music.youtube.com/channel/UCxfcdjtht2doaWgbHuhLxLA"
+  },
+  "tracks": [
+    {
+      "videoId": "HC9XN6KBVVE",
+      "songTitle": "사랑이라 했던 말 속에서",
+      "title": "사랑이라 했던 말 속에서",
+      "artists": [
+        "can’t be blue (캔트비블루)"
+      ],
+      "albumTitle": "사랑이라 했던 말 속에서",
+      "albumBrowseId": "MPREb_Hpurp3CKey6",
+      "duration": "3:20",
+      "durationSeconds": 200,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kMJxeA1Ce42GMnIhS9S0Mvkx2NzE4VAovupaajMx1Dmuio2_0sUTl1yRB_brFZyUuNHwee29NyX88nk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HC9XN6KBVVE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HC9XN6KBVVE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Z0B6uzPeFvM",
+      "songTitle": "blue daisy",
+      "title": "blue daisy",
+      "artists": [
+        "can’t be blue (캔트비블루) & Mulasaki Ima"
+      ],
+      "albumTitle": "can't be blue",
+      "albumBrowseId": "MPREb_yqVOD70kNkm",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZxAk40eJTSoadlwEULvQW92BONYkG4voIWr-5uQCKMl_2nYuEC-emhBQpFE4iD1tJIAEdKSASv5drQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Z0B6uzPeFvM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Z0B6uzPeFvM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "iEp2bSUFnvM",
+      "songTitle": "can't love",
+      "title": "can't love",
+      "artists": [
+        "can’t be blue (캔트비블루) & HAN"
+      ],
+      "albumTitle": "can't love",
+      "albumBrowseId": "MPREb_EylZ3ojndB3",
+      "duration": "3:15",
+      "durationSeconds": 195,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wz71UXBil5sSQNfbM4M59eSORuQKf9nxiLAW9QN1wsRpIULCzA08vZ-0-dK13JMAu0GDWUGeNvS_nOM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iEp2bSUFnvM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=iEp2bSUFnvM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "pLoQZ8SqUJE",
+      "songTitle": "First Sight",
+      "title": "First Sight",
+      "artists": [
+        "can’t be blue"
+      ],
+      "albumTitle": "First Sight",
+      "albumBrowseId": "MPREb_0uAT421dLow",
+      "duration": "3:34",
+      "durationSeconds": 214,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/al4LveXMnUZNb9FGEZCafvSNm8DfVPiLdxUifkPryXACIxi2j-6M5kOZyFz09kYbgn2K6nQMS8SoRm99Jg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pLoQZ8SqUJE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pLoQZ8SqUJE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "OvkJRbVwcXw",
+      "songTitle": "even better",
+      "title": "even better",
+      "artists": [
+        "can’t be blue (캔트비블루)"
+      ],
+      "albumTitle": "can't be blue",
+      "albumBrowseId": "MPREb_yqVOD70kNkm",
+      "duration": "2:17",
+      "durationSeconds": 137,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZxAk40eJTSoadlwEULvQW92BONYkG4voIWr-5uQCKMl_2nYuEC-emhBQpFE4iD1tJIAEdKSASv5drQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OvkJRbVwcXw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OvkJRbVwcXw",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "8p80mrveoyI",
+      "songTitle": "still want me to love you",
+      "title": "still want me to love you",
+      "artists": [
+        "can’t be blue (캔트비블루)"
+      ],
+      "albumTitle": "can't be blue",
+      "albumBrowseId": "MPREb_yqVOD70kNkm",
+      "duration": "2:30",
+      "durationSeconds": 150,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZxAk40eJTSoadlwEULvQW92BONYkG4voIWr-5uQCKMl_2nYuEC-emhBQpFE4iD1tJIAEdKSASv5drQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8p80mrveoyI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8p80mrveoyI",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "FWjKwmqmGyM",
+      "songTitle": "take it anymore",
+      "title": "take it anymore",
+      "artists": [
+        "can’t be blue"
+      ],
+      "albumTitle": "take it anymore",
+      "albumBrowseId": "MPREb_3eTcECVaFKB",
+      "duration": "2:42",
+      "durationSeconds": 162,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ijsr7jfgS6Fjorh-RxlrHDWiZS0ErhMxaPKd2WR3Lx1lxV4DgHybPCBQdiZtbOicivnBoqEv0rSBW0Mt=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FWjKwmqmGyM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FWjKwmqmGyM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "y0nvezFYYzk",
+      "songTitle": "commercial love",
+      "title": "commercial love",
+      "artists": [
+        "can’t be blue (캔트비블루)"
+      ],
+      "albumTitle": "can't be blue",
+      "albumBrowseId": "MPREb_yqVOD70kNkm",
+      "duration": "3:00",
+      "durationSeconds": 180,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZxAk40eJTSoadlwEULvQW92BONYkG4voIWr-5uQCKMl_2nYuEC-emhBQpFE4iD1tJIAEdKSASv5drQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=y0nvezFYYzk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=y0nvezFYYzk",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "TEN1fUDsiYs",
+      "songTitle": "bitter but sweet",
+      "title": "bitter but sweet",
+      "artists": [
+        "can’t be blue (캔트비블루)"
+      ],
+      "albumTitle": "can't be blue",
+      "albumBrowseId": "MPREb_yqVOD70kNkm",
+      "duration": "2:41",
+      "durationSeconds": 161,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZxAk40eJTSoadlwEULvQW92BONYkG4voIWr-5uQCKMl_2nYuEC-emhBQpFE4iD1tJIAEdKSASv5drQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TEN1fUDsiYs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TEN1fUDsiYs",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "GejRmDsEolI",
+      "songTitle": "Magic Lily",
+      "title": "Magic Lily",
+      "artists": [
+        "can’t be blue"
+      ],
+      "albumTitle": "KickKickKickKick (Original Television Soundtrack), Pt. 1",
+      "albumBrowseId": "MPREb_LwC9JRbLllx",
+      "duration": "4:27",
+      "durationSeconds": 267,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yoyhH96dv2ZKprzT-TLgX2e0rXcH_PL1JXpRdftSFln1ntYiyrJanSmfQeYdk50A8d7hgRYoxHL05O4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GejRmDsEolI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GejRmDsEolI",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 can't be blue 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=HC9XN6KBVVE%2CZ0B6uzPeFvM%2CiEp2bSUFnvM%2CpLoQZ8SqUJE%2COvkJRbVwcXw%2C8p80mrveoyI%2CFWjKwmqmGyM%2Cy0nvezFYYzk%2CTEN1fUDsiYs%2CGejRmDsEolI&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+can%27t+be+blue+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=HC9XN6KBVVE&list=RDAMVMHC9XN6KBVVE"
+}

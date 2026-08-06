@@ -55,6 +55,8 @@ export interface MobileFestivalView {
 export interface MobileArtistView {
   id: string
   displayName: string
+  /** composedOf 멤버 표기 (예: "블랙홀 · 방수미"). TT `name`과 별도 Feat 라인 */
+  featLabel?: string
 }
 
 export interface MobileTrackView {

@@ -1,0 +1,203 @@
+{
+  "artistId": "shaun",
+  "artistName": "숀",
+  "englishName": "SHAUN",
+  "collectedAt": "2026-08-05T12:30:44.221594+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1180,
+    "latestSlotLabel": "19:40",
+    "festivalId": "jumf-2026",
+    "rank": 0.75,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCZtbCSzIjKOH7lxX8Czo2iw",
+    "name": "SHAUN",
+    "subscribers": "629K",
+    "channelId": "UC3Zqhlhhf01s24EiM_c7fPQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/qK_a3oaP6ZmjYWz-Tg4Zrf3R6jOKSIyMmoRWEi2Lf4zyUMvDyaF5_oODUuz1jmZTWihJytt27WD-nQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCZtbCSzIjKOH7lxX8Czo2iw"
+  },
+  "tracks": [
+    {
+      "videoId": "1rP7ziPDDt0",
+      "songTitle": "Way Back Home",
+      "title": "Way Back Home",
+      "artists": [
+        "SHAUN"
+      ],
+      "albumTitle": "Take",
+      "albumBrowseId": "MPREb_pccJQsc3ChW",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/s11FZcEmWA8RTHRFtpITbiEOys9EJ4PNfJF8GPBkCFWAgsYTTSAihJzRtmKq9_UVgUS9C5ZXpLIi3HUi=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1rP7ziPDDt0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=1rP7ziPDDt0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "rQkAq2rl5J0",
+      "songTitle": "Way Back Home [Sam Feldt Edit] (feat. Conor Maynard)",
+      "title": "Way Back Home [Sam Feldt Edit] (feat. Conor Maynard)",
+      "artists": [
+        "SHAUN"
+      ],
+      "albumTitle": "Way Back Home (Sam Feldt Edit)",
+      "albumBrowseId": "MPREb_xAai36rvo8B",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0pSjXJkxWx7tNjS0oP8JxLSG5wzsUDuFZv3GX41O9emofCkBWExzkAfiYB-Ey54fFwJRiga8JYnA4yo=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rQkAq2rl5J0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rQkAq2rl5J0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "t1wi0mJLymI",
+      "songTitle": "Easy",
+      "title": "Easy",
+      "artists": [
+        "SHAUN"
+      ],
+      "albumTitle": "Easy",
+      "albumBrowseId": "MPREb_WnPpCiZWdGz",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/A3xVce8o9MnrkjzZC7wfZGH3G_xZAUfQzhNTEBkpkix53u68sPz5Rj8RYPUnNTHDDCBAehKN_1hmVR0k=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=t1wi0mJLymI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=t1wi0mJLymI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "FkxaCjdVU7I",
+      "songTitle": "Way Back Home (Japanese Ver.)",
+      "title": "Way Back Home (Japanese Ver.)",
+      "artists": [
+        "SHAUN"
+      ],
+      "albumTitle": "Way Back Home (Japanese Ver.)",
+      "albumBrowseId": "MPREb_zTb5MW14EYv",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6sKLl2OfvSdqatGCPCcXW6ICVUpqXtN8rWoi1b6Xjm_KLy0ZG9jVDAD_Qpphr5v62krMckdq4M7WINP_=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FkxaCjdVU7I",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FkxaCjdVU7I",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "EYPUiW-Jflc",
+      "songTitle": "That Summer",
+      "title": "That Summer",
+      "artists": [
+        "SHAUN"
+      ],
+      "albumTitle": "That Summer",
+      "albumBrowseId": "MPREb_M8rJH1BRnlz",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/avT6E7dBcCJz1iSfsBeY-EK0SP27LNfqrN4T68Jnebb19R5HRbiy-zZ5MJzvpC-H4v1tF1UNjXJsVmw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EYPUiW-Jflc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EYPUiW-Jflc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "B7UujzIc0Mk",
+      "songTitle": "Night Walk",
+      "title": "Night Walk",
+      "artists": [
+        "SHAUN"
+      ],
+      "albumTitle": "Night Walk",
+      "albumBrowseId": "MPREb_4mZGhSgXAHT",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7DE9ykNsZn2NFpAUDJ0MolwIV_EKoOvvYLRNyXrpFACLxJp2zpt8VwSiLvU-6hXG2KP97Bkq0WsUZHJM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=B7UujzIc0Mk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=B7UujzIc0Mk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "VhjHsHHfri0",
+      "songTitle": "Closed Ending",
+      "title": "Closed Ending",
+      "artists": [
+        "SHAUN"
+      ],
+      "albumTitle": "#0055b7",
+      "albumBrowseId": "MPREb_0AzfYaly9rj",
+      "duration": "4:13",
+      "durationSeconds": 253,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/aSWohpsHED7ZqHmJU34MXWbrHxp5H2qcGj9uAK1HltPI6LRvaeW5Eex3MY5KYsOuvm5r_KYFd0qVQkYO=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VhjHsHHfri0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VhjHsHHfri0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "ky27mVyl3qU",
+      "songTitle": "Bad Habits",
+      "title": "Bad Habits",
+      "artists": [
+        "SHAUN"
+      ],
+      "albumTitle": "An-nyeong",
+      "albumBrowseId": "MPREb_0IzUwhmaBJI",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rAhGRyOyChWsJIC-pAqXIoCf4mepkUGZ4z4CfZo10kOJgEwQFLtCLIahWt7i1ICkMjs_mx4WMnZHX5cJ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ky27mVyl3qU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ky27mVyl3qU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Apm-1ef2Fgo",
+      "songTitle": "Diary",
+      "title": "Diary",
+      "artists": [
+        "SHAUN"
+      ],
+      "albumTitle": "Diary",
+      "albumBrowseId": "MPREb_DfXc2oN9oft",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jmZOascBp6bSnB9F6HQvEMsA0t2zyRZPfz5mCBQn9eU4bBzsHa4fIT_Hmyd0E7cCboWp0WURmUPG_m_QpQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Apm-1ef2Fgo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Apm-1ef2Fgo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "OARuw4OJMHY",
+      "songTitle": "Way Back Home [Sam Feldt Festival Mix] (feat. Conor Maynard)",
+      "title": "Way Back Home [Sam Feldt Festival Mix] (feat. Conor Maynard)",
+      "artists": [
+        "SHAUN"
+      ],
+      "albumTitle": "Birthday Club Mixes",
+      "albumBrowseId": "MPREb_GPfnXcF49Ds",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7zIbqPg2fN0m26i7XpD8k9olOIOi1XJI7agn7qOGf6Ww-bBkQVHTsMRZiz1V1vLoZMaRo27M2Tp6dNSm=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OARuw4OJMHY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OARuw4OJMHY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 숀 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=1rP7ziPDDt0%2CrQkAq2rl5J0%2Ct1wi0mJLymI%2CFkxaCjdVU7I%2CEYPUiW-Jflc%2CB7UujzIc0Mk%2CVhjHsHHfri0%2Cky27mVyl3qU%2CApm-1ef2Fgo%2COARuw4OJMHY&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%88%80+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=1rP7ziPDDt0&list=RDAMVM1rP7ziPDDt0"
+}

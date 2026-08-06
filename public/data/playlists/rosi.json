@@ -1,0 +1,205 @@
+{
+  "artistId": "rosi",
+  "artistName": "로시",
+  "englishName": "Rothy",
+  "collectedAt": "2026-08-05T12:30:41.716799+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1070,
+    "latestSlotLabel": "17:50",
+    "festivalId": "jumf-2026",
+    "rank": 0.578,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UC-c5ivG8CgNeuzLzwAyWTNQ",
+    "name": "Rothy",
+    "subscribers": "27.5K",
+    "channelId": "UCcTq_itv43G05dGVydRTJew",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/C_IkX-vMMhRe0M971gc_QLlmK7gV5eh-AzWIh8THbyf50J1zVnwcRwQt7eYK2Zj8Q7CeDt_Q6A0pPMxx=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC-c5ivG8CgNeuzLzwAyWTNQ"
+  },
+  "tracks": [
+    {
+      "videoId": "Lfe7RzFuiX4",
+      "songTitle": "Don't Be",
+      "title": "Don't Be",
+      "artists": [
+        "Rothy"
+      ],
+      "albumTitle": "Don't Be",
+      "albumBrowseId": "MPREb_dxWorF3X8lq",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LPmXJjDWdfGUTuOCJijD9YneLckzQI0gq-BbJPFzA17BB5cFUZYH5AomowGJ3TxJbO4_gf5NR6Z1G6QMMw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Lfe7RzFuiX4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Lfe7RzFuiX4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "sEIc7-gx3e4",
+      "songTitle": "파도",
+      "title": "파도",
+      "artists": [
+        "Rothy"
+      ],
+      "albumTitle": "파도",
+      "albumBrowseId": "MPREb_auYGotQ45F9",
+      "duration": "4:02",
+      "durationSeconds": 242,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kUIZKzo6sXvMo6nADvfisHdFi_XJo-WfRmwlUt9TDQL_WxasBFRHUmvuJ3J3T_ZgNeRq5d425uEI9PY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sEIc7-gx3e4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sEIc7-gx3e4",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "BfQBn9ubP9k",
+      "songTitle": "Cloud",
+      "title": "Cloud",
+      "artists": [
+        "로시 (Rothy)"
+      ],
+      "albumTitle": "The Beauty Inside Pt. 1 (Original Television Soundtrack)",
+      "albumBrowseId": "MPREb_viMoSf3jvKC",
+      "duration": "3:04",
+      "durationSeconds": 184,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Nx2o_L_BySF-rtLgel7onG15D-aQhzX4clWm7XO3Cs3n0O4qpYpe5Umbz5DwL5maeOPuxGhWT1TDpZ8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BfQBn9ubP9k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BfQBn9ubP9k",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "QZ3spies4Ow",
+      "songTitle": "First Train",
+      "title": "First Train",
+      "artists": [
+        "Rothy"
+      ],
+      "albumTitle": "First Train",
+      "albumBrowseId": "MPREb_fzwriNfKIMb",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/unGWVIhQgEcUmyzVzf_2o7FGm0NhFy-NRr8AW7zocePmL7JOJnnfPzAomN4eg_zTTeu3bLo-qwyEuI0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QZ3spies4Ow",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=QZ3spies4Ow",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "g5Y0A-cjbkg",
+      "songTitle": "OCEAN VIEW (Feat.CHANYEOL) (OCEAN VIEW (feat. CHANYEOL)",
+      "title": "OCEAN VIEW (Feat.CHANYEOL) (OCEAN VIEW (feat. CHANYEOL)",
+      "artists": [
+        "ROTHY"
+      ],
+      "albumTitle": "OCEAN VIEW",
+      "albumBrowseId": "MPREb_qRjhjZ18YWW",
+      "duration": "3:08",
+      "durationSeconds": 188,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2249Ik8mInnKurKHIFpt7LbxBNdJ7y-iW9OxcZlRQbxEz0v1lhr6SU2keftDkxolXGoRTJwbX92dyjoYxg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g5Y0A-cjbkg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=g5Y0A-cjbkg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "W_7WN_FWVVc",
+      "songTitle": "HELLO",
+      "title": "HELLO",
+      "artists": [
+        "Rothy"
+      ],
+      "albumTitle": "Ending Again Part.2 (또한번 엔딩 Part.2)",
+      "albumBrowseId": "MPREb_ZiTNZr8cnkm",
+      "duration": "3:26",
+      "durationSeconds": 206,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OKaBpIiNdLbt4pQBMiJjqJftCWbLlATSbRJsXEK6VNgMjzT2J6wb8N6iHqvSACi9J4B19cWu7qvXXwE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W_7WN_FWVVc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=W_7WN_FWVVc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "lAvUfQ6k8k4",
+      "songTitle": "Stars",
+      "title": "Stars",
+      "artists": [
+        "로시 Rothy"
+      ],
+      "albumTitle": "Shape Of Rothy",
+      "albumBrowseId": "MPREb_7oq6O5Vu2py",
+      "duration": "4:21",
+      "durationSeconds": 261,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8xiY8E22HHdwPd-JlXouN38-UQWhLMJYXfs3K4tUWpqXJmNJwyWNshNEDBEHEgli8NbHKR8hX6yOp38=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lAvUfQ6k8k4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lAvUfQ6k8k4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3oNIhFG75eY",
+      "songTitle": "A little bit more",
+      "title": "A little bit more",
+      "artists": [
+        "JINHO (PENTAGON)",
+        "Rothy"
+      ],
+      "albumTitle": "Whats wrong with secretary kim OST Part.4",
+      "albumBrowseId": "MPREb_qsaQOlD98Lh",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9SNm9BgfGKpzRHiSM0rVnPdrHnMErCNBgM_mq5wr8GeyLOc9Bfvs0aM8E8SSAMSOaYu6C1fpN3Juha8d=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3oNIhFG75eY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3oNIhFG75eY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "DVWFCXTfCDM",
+      "songTitle": "Sleepless Night",
+      "title": "Sleepless Night",
+      "artists": [
+        "Rothy"
+      ],
+      "albumTitle": "Backstreet Rookie (Original Television Soundtrack), Pt.4",
+      "albumBrowseId": "MPREb_DhXmHeMKQnf",
+      "duration": "4:22",
+      "durationSeconds": 262,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/QQiBMEOcXa_dPm6ENCXEYiR7PGMIb-2l076FdolDWwrHeX5PrLRWaA0kKmBSkAZepe9BLVprNkdVxNCL=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DVWFCXTfCDM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DVWFCXTfCDM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "dVGMtrDdYZY",
+      "songTitle": "BEE",
+      "title": "BEE",
+      "artists": [
+        "로시 (Rothy)"
+      ],
+      "albumTitle": "COLOR OF ROTHY",
+      "albumBrowseId": "MPREb_UmHLObYw1qh",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8Awaz_xVM3DQ9JtKg6IkuAKNFtWR8T30WpBQ3O_cc02qsp-OR9aAqK6mv7sl9YifUsCYt7zzCByY2oAayw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dVGMtrDdYZY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dVGMtrDdYZY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 로시 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=Lfe7RzFuiX4%2CsEIc7-gx3e4%2CBfQBn9ubP9k%2CQZ3spies4Ow%2Cg5Y0A-cjbkg%2CW_7WN_FWVVc%2ClAvUfQ6k8k4%2C3oNIhFG75eY%2CDVWFCXTfCDM%2CdVGMtrDdYZY&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EB%A1%9C%EC%8B%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=Lfe7RzFuiX4&list=RDAMVMLfe7RzFuiX4"
+}

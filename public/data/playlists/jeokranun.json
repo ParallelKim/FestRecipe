@@ -1,0 +1,212 @@
+{
+  "artistId": "jeokranun",
+  "artistName": "적란운",
+  "englishName": "Jeokranun",
+  "collectedAt": "2026-08-05T12:30:26.280079+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCHs2KXTqL2OVCY3D4-5CIEw",
+    "name": "Zeokranun",
+    "subscribers": "797",
+    "channelId": "UCHs2KXTqL2OVCY3D4-5CIEw",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/clmPOmiTSAImSRg7aB8eBuu6nRLePj-56bdSJJxNqEjdEkiQy7XKDb6J5S2NJtaY5aVA3WnYdO1WQ9c=w2400-h1000-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCHs2KXTqL2OVCY3D4-5CIEw"
+  },
+  "tracks": [
+    {
+      "videoId": "9n0Wld43wx0",
+      "songTitle": "Blue Mountains",
+      "title": "Blue Mountains",
+      "artists": [
+        "Zeokranun"
+      ],
+      "albumTitle": "Ran",
+      "albumBrowseId": "MPREb_8EDA5ZrgFGJ",
+      "duration": "3:46",
+      "durationSeconds": 226,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mV0zBb0B3vfPqRKoxakU0RfHdzJUH5YANZgAz7QOE_dzdpi5loUdM_QK45EJzOOlkYIMaFdPNr5KCHLR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9n0Wld43wx0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9n0Wld43wx0",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "GqSuveaPAd8",
+      "songTitle": "assimilate",
+      "title": "assimilate",
+      "artists": [
+        "Zeokranun"
+      ],
+      "albumTitle": "Ran",
+      "albumBrowseId": "MPREb_8EDA5ZrgFGJ",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mV0zBb0B3vfPqRKoxakU0RfHdzJUH5YANZgAz7QOE_dzdpi5loUdM_QK45EJzOOlkYIMaFdPNr5KCHLR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GqSuveaPAd8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=GqSuveaPAd8",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "OlrERxaRlng",
+      "songTitle": "Mint",
+      "title": "Mint",
+      "artists": [
+        "Zeokranun"
+      ],
+      "albumTitle": "Mint",
+      "albumBrowseId": "MPREb_nHETTLcPnQn",
+      "duration": "3:24",
+      "durationSeconds": 204,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nb2EUlOqdQP1SRRWGS57UD6f6x5Ismn1QYkWwWbwOBFxd6COuKHdhTjj-9qKb6jr3urbcPGUYaaiKe3_=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OlrERxaRlng",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=OlrERxaRlng",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "ip7il3z5jtM",
+      "songTitle": "My Sea",
+      "title": "My Sea",
+      "artists": [
+        "Zeokranun"
+      ],
+      "albumTitle": "My Sea",
+      "albumBrowseId": "MPREb_5501YLpgnCO",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/83kSjUOFXe7A3IJo5fhEYZtLOWiQQmCLZFUmNjRDQZaujVkqCzXe7nhp8Hd827IvOdJ3nbVDmLh1UXYL=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ip7il3z5jtM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ip7il3z5jtM",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "agnU-c3HI54",
+      "songTitle": "Mobius",
+      "title": "Mobius",
+      "artists": [
+        "Zeokranun"
+      ],
+      "albumTitle": "Mobius",
+      "albumBrowseId": "MPREb_WKXlg6a8n2Y",
+      "duration": "3:43",
+      "durationSeconds": 223,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OpRK1w054y11tIwOsEiOb4iK9jKhJfRUaklrMnMrVZKK845WGFuTczg775WqvExTO1KyEfODrrKhPzsnfg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=agnU-c3HI54",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=agnU-c3HI54",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "H9o5GdOohP0",
+      "songTitle": "Besixdouze",
+      "title": "Besixdouze",
+      "artists": [
+        "Zeokranun"
+      ],
+      "albumTitle": "Ran",
+      "albumBrowseId": "MPREb_8EDA5ZrgFGJ",
+      "duration": "4:32",
+      "durationSeconds": 272,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mV0zBb0B3vfPqRKoxakU0RfHdzJUH5YANZgAz7QOE_dzdpi5loUdM_QK45EJzOOlkYIMaFdPNr5KCHLR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H9o5GdOohP0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=H9o5GdOohP0",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "jadadkmFPY0",
+      "songTitle": "The direction of the moon",
+      "title": "The direction of the moon",
+      "artists": [
+        "Zeokranun"
+      ],
+      "albumTitle": "Ran",
+      "albumBrowseId": "MPREb_8EDA5ZrgFGJ",
+      "duration": "5:05",
+      "durationSeconds": 305,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mV0zBb0B3vfPqRKoxakU0RfHdzJUH5YANZgAz7QOE_dzdpi5loUdM_QK45EJzOOlkYIMaFdPNr5KCHLR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jadadkmFPY0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jadadkmFPY0",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "fFepA0fikgA",
+      "songTitle": "Unknown",
+      "title": "Unknown",
+      "artists": [
+        "Zeokranun"
+      ],
+      "albumTitle": "Unknown",
+      "albumBrowseId": "MPREb_uKVFQ3bfTFb",
+      "duration": "3:05",
+      "durationSeconds": 185,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ov431VG96LGPeC6z2qQhJNsAQsysD3kNEtBOUCmVr6e-SjUcoeerRd7RbmZXT3cdy1voAwyTNrLoYrQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fFepA0fikgA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fFepA0fikgA",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "Pb-_FCUAK9U",
+      "songTitle": "Blue Wave",
+      "title": "Blue Wave",
+      "artists": [
+        "Zeokranun"
+      ],
+      "albumTitle": "Blue Wave",
+      "albumBrowseId": "MPREb_VFIVHlJS9Tk",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OQXIgQDxPHq5TUPgY6yphZJUy7gJKg95wPOLbongdonMfxV7nw5oM8DjoRELIenvf_WnnWVmmEIcTpVV=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Pb-_FCUAK9U",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Pb-_FCUAK9U",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "bGX0SpuDnI4",
+      "songTitle": "mirage",
+      "title": "mirage",
+      "artists": [
+        "Zeokranun"
+      ],
+      "albumTitle": "Ran",
+      "albumBrowseId": "MPREb_8EDA5ZrgFGJ",
+      "duration": "4:38",
+      "durationSeconds": 278,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mV0zBb0B3vfPqRKoxakU0RfHdzJUH5YANZgAz7QOE_dzdpi5loUdM_QK45EJzOOlkYIMaFdPNr5KCHLR=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bGX0SpuDnI4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=bGX0SpuDnI4",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    }
+  ],
+  "playlistTitle": "적란운 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=9n0Wld43wx0%2CGqSuveaPAd8%2COlrERxaRlng%2Cip7il3z5jtM%2CagnU-c3HI54%2CH9o5GdOohP0%2CjadadkmFPY0%2CfFepA0fikgA%2CPb-_FCUAK9U%2CbGX0SpuDnI4&title=%EC%A0%81%EB%9E%80%EC%9A%B4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=9n0Wld43wx0&list=RDAMVM9n0Wld43wx0"
+}

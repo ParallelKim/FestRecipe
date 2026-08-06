@@ -1,0 +1,210 @@
+{
+  "artistId": "kim-junsu",
+  "artistName": "김준수",
+  "englishName": "XIA",
+  "collectedAt": "2026-08-05T12:30:31.470058+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCoNA96-HeeAo3g-eGILJlUw",
+    "name": "XIA",
+    "subscribers": "271K",
+    "channelId": "UCdk_-wGLorR0-81Nxj0w_VA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/eJj7FqjDDBa7P1T2Kug4R3YDDPMBnEftNsqI6SOd9rnthYbP02aOblrzar71C0WRbPZvrpYBb3X1kfyS=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCoNA96-HeeAo3g-eGILJlUw"
+  },
+  "tracks": [
+    {
+      "videoId": "FJzDzxVN8qY",
+      "songTitle": "How Can I Love You",
+      "title": "How Can I Love You",
+      "artists": [
+        "XIA"
+      ],
+      "albumTitle": "Descendants Of The Sun Pt.10 (Original Television Soundtrack)",
+      "albumBrowseId": "MPREb_BOSJgx6fb46",
+      "duration": "4:21",
+      "durationSeconds": 261,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nuM9IGAq5Ru_HHo63QSYiglRyY-yKFNl8dd-Y-41RCIqg34EU3A3jUPFvqyoRS5yp-xNVw_brsiS6bg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FJzDzxVN8qY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FJzDzxVN8qY",
+      "source": "ytm_songs_popular",
+      "year": "2016",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "DqiN8fYSAYw",
+      "songTitle": "The Reason",
+      "title": "The Reason",
+      "artists": [
+        "XIA"
+      ],
+      "albumTitle": "The Reason",
+      "albumBrowseId": "MPREb_rp5ICaeg6Z9",
+      "duration": "4:56",
+      "durationSeconds": 296,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FGmlt7efe3GzgLAaBO3DyhWvmDScSpXFOWSL2E1wcKVZLsmPrScMwnPyPsdukWbWhhrVEYmmWWq8bhqjGQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DqiN8fYSAYw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DqiN8fYSAYw",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "jLxHfA3Qwqc",
+      "songTitle": "GRAVITY",
+      "title": "GRAVITY",
+      "artists": [
+        "XIA"
+      ],
+      "albumTitle": "GRAVITY",
+      "albumBrowseId": "MPREb_Krrm8Lb0QiM",
+      "duration": "2:52",
+      "durationSeconds": 172,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rFi8voyjxdDvS3owz81fMW3Az6sic_Q9tXT4DaFUnAd5YuDOkXtxh7ZrlnNpESM4Sbz98BhuD5B_7poc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jLxHfA3Qwqc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jLxHfA3Qwqc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "c6It35RoRc0",
+      "songTitle": "Love no more (Romance 101 X XIA) (사랑하고 싶지 않아 (바른연애 길잡이 X XIA (준수)))",
+      "title": "Love no more (Romance 101 X XIA) (사랑하고 싶지 않아 (바른연애 길잡이 X XIA (준수)))",
+      "artists": [
+        "XIA"
+      ],
+      "albumTitle": "Love no more (Romance 101 X XIA) (사랑하고 싶지 않아 (바른연애 길잡이 X XIA (준수)))",
+      "albumBrowseId": "MPREb_G1YEEoaloIu",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/X6rjhKz_8JyfgSHxUCbc8cWeYOF7AkjRVYv4sWjOHS27DJQEHzMzti9JMpnRhsN98bTT5j3xdPVnLQU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c6It35RoRc0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=c6It35RoRc0",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "kPRd9PEf-9g",
+      "songTitle": "Forest of Memories",
+      "title": "Forest of Memories",
+      "artists": [
+        "XIA"
+      ],
+      "albumTitle": "GRAVITY",
+      "albumBrowseId": "MPREb_Krrm8Lb0QiM",
+      "duration": "4:30",
+      "durationSeconds": 270,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rFi8voyjxdDvS3owz81fMW3Az6sic_Q9tXT4DaFUnAd5YuDOkXtxh7ZrlnNpESM4Sbz98BhuD5B_7poc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kPRd9PEf-9g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kPRd9PEf-9g",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "drax-UY6Np8",
+      "songTitle": "Serenade (My love X XIA) (축가 (여름날 우리 X XIA (준수)))",
+      "title": "Serenade (My love X XIA) (축가 (여름날 우리 X XIA (준수)))",
+      "artists": [
+        "XIA"
+      ],
+      "albumTitle": "Serenade (My love X XIA) (축가 (여름날 우리 X XIA (준수)))",
+      "albumBrowseId": "MPREb_4jFY4W5MdM7",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4tgRVT2BmuLjOLjR3os0IEAGvetY4kEdB8ZEL9p54b5wjFGS2nmeW_k88Pr7pP1qiC6TECJTogQjQJFc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=drax-UY6Np8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=drax-UY6Np8",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "rOkCJ0WZILo",
+      "songTitle": "What About Your Goodbye",
+      "title": "What About Your Goodbye",
+      "artists": [
+        "XIA"
+      ],
+      "albumTitle": "GRAVITY",
+      "albumBrowseId": "MPREb_Krrm8Lb0QiM",
+      "duration": "5:04",
+      "durationSeconds": 304,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rFi8voyjxdDvS3owz81fMW3Az6sic_Q9tXT4DaFUnAd5YuDOkXtxh7ZrlnNpESM4Sbz98BhuD5B_7poc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rOkCJ0WZILo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rOkCJ0WZILo",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "vTG_xk2o41g",
+      "songTitle": "Beat’s Knockin",
+      "title": "Beat’s Knockin",
+      "artists": [
+        "XIA"
+      ],
+      "albumTitle": "GRAVITY",
+      "albumBrowseId": "MPREb_Krrm8Lb0QiM",
+      "duration": "3:10",
+      "durationSeconds": 190,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rFi8voyjxdDvS3owz81fMW3Az6sic_Q9tXT4DaFUnAd5YuDOkXtxh7ZrlnNpESM4Sbz98BhuD5B_7poc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vTG_xk2o41g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vTG_xk2o41g",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "XNohfBs4x1s",
+      "songTitle": "You are so beautiful",
+      "title": "You are so beautiful",
+      "artists": [
+        "XIA"
+      ],
+      "albumTitle": "Scent Of A Woman (Original Television Soundtrack), Pt. 2",
+      "albumBrowseId": "MPREb_DtsDtKYUpvN",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/-A01lkcEgXS_E6g5kxsURHvux0UQslu1gYkIM1UTohY_g7c4laUGpoUTHK7-jGOp7Xydz7eNmcLtH4a_=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XNohfBs4x1s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XNohfBs4x1s",
+      "source": "ytm_songs_popular",
+      "year": "2011",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "Qzr2Sfl0sbA",
+      "songTitle": "Homage",
+      "title": "Homage",
+      "artists": [
+        "XIA"
+      ],
+      "albumTitle": "GRAVITY",
+      "albumBrowseId": "MPREb_Krrm8Lb0QiM",
+      "duration": "2:46",
+      "durationSeconds": 166,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rFi8voyjxdDvS3owz81fMW3Az6sic_Q9tXT4DaFUnAd5YuDOkXtxh7ZrlnNpESM4Sbz98BhuD5B_7poc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Qzr2Sfl0sbA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Qzr2Sfl0sbA",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "김준수 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=FJzDzxVN8qY%2CDqiN8fYSAYw%2CjLxHfA3Qwqc%2Cc6It35RoRc0%2CkPRd9PEf-9g%2Cdrax-UY6Np8%2CrOkCJ0WZILo%2CvTG_xk2o41g%2CXNohfBs4x1s%2CQzr2Sfl0sbA&title=%EA%B9%80%EC%A4%80%EC%88%98+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=FJzDzxVN8qY&list=RDAMVMFJzDzxVN8qY"
+}

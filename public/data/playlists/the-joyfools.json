@@ -1,0 +1,212 @@
+{
+  "artistId": "the-joyfools",
+  "artistName": "조이풀스",
+  "englishName": "The Joyfools",
+  "collectedAt": "2026-08-05T12:30:50.566793+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCaZY5zSAyXhedvQujITyQpw",
+    "name": "The Joyfools",
+    "subscribers": "70",
+    "channelId": "UCaZY5zSAyXhedvQujITyQpw",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/_fnW31ZE-j7kB2D5c13yS72ne9EGoI-bE1JWP3b7dqgtZlE7U2eP3zoU0Meo2zF4HQOUDRJVdbD2nn4=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCaZY5zSAyXhedvQujITyQpw"
+  },
+  "tracks": [
+    {
+      "videoId": "c5mIo6O-dgA",
+      "songTitle": "The Last Goodbye",
+      "title": "The Last Goodbye",
+      "artists": [
+        "The Joyfools"
+      ],
+      "albumTitle": "I JUST WANNA DANCE!",
+      "albumBrowseId": "MPREb_VohbmH2rmxg",
+      "duration": "4:24",
+      "durationSeconds": 264,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vg_06e81GeJKJyglZZ-fwovUBA6xqbDgPMZjJKYXvhtD-gpClckx5MJVVrzXhaXPtHvcmF71K7jLZWt9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c5mIo6O-dgA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=c5mIo6O-dgA",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "w5iE7PrxFSo",
+      "songTitle": "Loser's Love",
+      "title": "Loser's Love",
+      "artists": [
+        "The Joyfools"
+      ],
+      "albumTitle": "I JUST WANNA DANCE!",
+      "albumBrowseId": "MPREb_VohbmH2rmxg",
+      "duration": "2:35",
+      "durationSeconds": 155,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vg_06e81GeJKJyglZZ-fwovUBA6xqbDgPMZjJKYXvhtD-gpClckx5MJVVrzXhaXPtHvcmF71K7jLZWt9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w5iE7PrxFSo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=w5iE7PrxFSo",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "D4ssxq3uMak",
+      "songTitle": "Love Punk",
+      "title": "Love Punk",
+      "artists": [
+        "The Joyfools"
+      ],
+      "albumTitle": "Love Punk",
+      "albumBrowseId": "MPREb_oEEjkZXKguG",
+      "duration": "2:31",
+      "durationSeconds": 151,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JIDSSXGhQnn2VlgQ52RjgdISRxCUiHaujo65ceq7zMjO4GTahQqrtX26IQwqtYkTcy9Cd9gd0J7Am8o=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=D4ssxq3uMak",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=D4ssxq3uMak",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "qkIWfsAs_Js",
+      "songTitle": "Fxxk Off",
+      "title": "Fxxk Off",
+      "artists": [
+        "The Joyfools"
+      ],
+      "albumTitle": "I JUST WANNA DANCE!",
+      "albumBrowseId": "MPREb_VohbmH2rmxg",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vg_06e81GeJKJyglZZ-fwovUBA6xqbDgPMZjJKYXvhtD-gpClckx5MJVVrzXhaXPtHvcmF71K7jLZWt9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qkIWfsAs_Js",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qkIWfsAs_Js",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "R7wRo1IMiAs",
+      "songTitle": "Mr. Rock 'n' Roll",
+      "title": "Mr. Rock 'n' Roll",
+      "artists": [
+        "The Joyfools"
+      ],
+      "albumTitle": "I JUST WANNA DANCE!",
+      "albumBrowseId": "MPREb_VohbmH2rmxg",
+      "duration": "3:33",
+      "durationSeconds": 213,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vg_06e81GeJKJyglZZ-fwovUBA6xqbDgPMZjJKYXvhtD-gpClckx5MJVVrzXhaXPtHvcmF71K7jLZWt9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=R7wRo1IMiAs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=R7wRo1IMiAs",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "6hMiM-yyEJg",
+      "songTitle": "I Just Wanna Dance!",
+      "title": "I Just Wanna Dance!",
+      "artists": [
+        "The Joyfools"
+      ],
+      "albumTitle": "I Just Wanna Dance!",
+      "albumBrowseId": "MPREb_5c3RldMPShg",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ps6SzEVcPE7LiDQICkEEuQYYZdirUGpE3YpKRP5tq1G0VJCUxXpnLnUH8K97dfE992llZmT7zNJz4uKgGw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6hMiM-yyEJg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6hMiM-yyEJg",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "L7yQxCk77zM",
+      "songTitle": "2009 (Davao)",
+      "title": "2009 (Davao)",
+      "artists": [
+        "The Joyfools"
+      ],
+      "albumTitle": "I JUST WANNA DANCE!",
+      "albumBrowseId": "MPREb_VohbmH2rmxg",
+      "duration": "2:52",
+      "durationSeconds": 172,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vg_06e81GeJKJyglZZ-fwovUBA6xqbDgPMZjJKYXvhtD-gpClckx5MJVVrzXhaXPtHvcmF71K7jLZWt9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=L7yQxCk77zM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=L7yQxCk77zM",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "_CKvXyarNeg",
+      "songTitle": "Can I Fly?",
+      "title": "Can I Fly?",
+      "artists": [
+        "The Joyfools"
+      ],
+      "albumTitle": "I JUST WANNA DANCE!",
+      "albumBrowseId": "MPREb_VohbmH2rmxg",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vg_06e81GeJKJyglZZ-fwovUBA6xqbDgPMZjJKYXvhtD-gpClckx5MJVVrzXhaXPtHvcmF71K7jLZWt9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_CKvXyarNeg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_CKvXyarNeg",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "F0qwck4b0MM",
+      "songTitle": "Same Shit, Different Day",
+      "title": "Same Shit, Different Day",
+      "artists": [
+        "The Joyfools"
+      ],
+      "albumTitle": "Same Shit, Different Day",
+      "albumBrowseId": "MPREb_ULFciuIqbim",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OlF2BpDyBtCiLREu3GyvzAUdYR1CPlIOLUmODYwIgdy6YzkA6juNS_UPh0idGYf8Zj3VlNSqdl13JWJa=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=F0qwck4b0MM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=F0qwck4b0MM",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "tmu17IO-EX4",
+      "songTitle": "A Little Boy",
+      "title": "A Little Boy",
+      "artists": [
+        "The Joyfools"
+      ],
+      "albumTitle": "I JUST WANNA DANCE!",
+      "albumBrowseId": "MPREb_VohbmH2rmxg",
+      "duration": "1:18",
+      "durationSeconds": 78,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vg_06e81GeJKJyglZZ-fwovUBA6xqbDgPMZjJKYXvhtD-gpClckx5MJVVrzXhaXPtHvcmF71K7jLZWt9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tmu17IO-EX4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tmu17IO-EX4",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "조이풀스 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=c5mIo6O-dgA%2Cw5iE7PrxFSo%2CD4ssxq3uMak%2CqkIWfsAs_Js%2CR7wRo1IMiAs%2C6hMiM-yyEJg%2CL7yQxCk77zM%2C_CKvXyarNeg%2CF0qwck4b0MM%2Ctmu17IO-EX4&title=%EC%A1%B0%EC%9D%B4%ED%92%80%EC%8A%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=c5mIo6O-dgA&list=RDAMVMc5mIo6O-dgA"
+}

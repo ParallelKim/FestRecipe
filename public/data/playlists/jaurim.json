@@ -1,0 +1,207 @@
+{
+  "artistId": "jaurim",
+  "artistName": "자우림",
+  "englishName": "Jaurim",
+  "collectedAt": "2026-08-05T12:30:25.949395+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1410,
+    "latestSlotLabel": "23:30",
+    "festivalId": "jumf-2026",
+    "rank": 1.0,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCbypb9u1bZaH7N2_h5cMLuw",
+    "name": "Jaurim",
+    "subscribers": "113K",
+    "channelId": "UCyPwyuEZLmXJXa0M24-Sh6Q",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/jyqL1Dnbsw2kDksHVR5Pg1S9GjR-KUWWlrufVWoQBA8-4Z7G4OFSDt8PID6uWl1_zbo2czkJcor3m3I=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCbypb9u1bZaH7N2_h5cMLuw"
+  },
+  "tracks": [
+    {
+      "videoId": "7xobleMnKhU",
+      "songTitle": "스물다섯, 스물하나",
+      "title": "스물다섯, 스물하나",
+      "artists": [
+        "Jaurim"
+      ],
+      "albumTitle": "Goodbye, grief.",
+      "albumBrowseId": "MPREb_GlD2TzjZYwD",
+      "duration": "4:45",
+      "durationSeconds": 285,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZubDVCV4lJ35aukeixebjJXRgyiNGtJmOwsDpiYU2rDG9veIRqQvW9BPn01-B0x64dUik9Ymzeqa8RM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7xobleMnKhU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7xobleMnKhU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "kUlMiYseY_U",
+      "songTitle": "Magic carpet ride (매직 카펫 라이드)",
+      "title": "Magic carpet ride (매직 카펫 라이드)",
+      "artists": [
+        "Jaurim"
+      ],
+      "albumTitle": "Jaurim, The Wonder Land",
+      "albumBrowseId": "MPREb_LkNaXGEfvpe",
+      "duration": "3:34",
+      "durationSeconds": 214,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/swJ0l6QhfyS1fsErYJ_e4VzNJkfVrtd8o2bjI6OvTrH19_7KQndqdbzwhxHJT1Qxko64nk0zQIsxsbjryQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kUlMiYseY_U",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kUlMiYseY_U",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "XjOcigGNhvs",
+      "songTitle": "있지",
+      "title": "있지",
+      "artists": [
+        "Jaurim"
+      ],
+      "albumTitle": "자우림",
+      "albumBrowseId": "MPREb_7pEpwTuWetU",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oxpiFMbx6WnjUY1WJjIFwRdF5OM_c-XSxOdgMqqaT6hvJWDIapxb9yXMoLv3Wl91Uu-p5yFRPq_n8DKT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XjOcigGNhvs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XjOcigGNhvs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7JO94PxA7Hw",
+      "songTitle": "Shining (샤이닝)",
+      "title": "Shining (샤이닝)",
+      "artists": [
+        "Jaurim"
+      ],
+      "albumTitle": "Ashes To Ashes",
+      "albumBrowseId": "MPREb_GF3rPs4zAga",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Cwu_6ZFCpWxd3nCp8J3DWEzMlZWR0PSLrpY-DESYcw5ZAyhE5EW_rNp4YNGG6B0WpXEANiKUD5eSoiO1RA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7JO94PxA7Hw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7JO94PxA7Hw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "DhNWHW4B5hg",
+      "songTitle": "17171771",
+      "title": "17171771",
+      "artists": [
+        "Jaurim"
+      ],
+      "albumTitle": "All You Need Is Love",
+      "albumBrowseId": "MPREb_p5tg6NNOv6j",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/sbY6nHh7jdc3gqrO1-u3k0Sx_AezuAv17WsjXZxRxUKcWLMOPmX50Vcjr85zb3mRNcinpX-kbxU9uLnr=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DhNWHW4B5hg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DhNWHW4B5hg",
+      "source": "ytm_songs_popular",
+      "year": "2004",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "rBa4ZYxI4vM",
+      "songTitle": "I am sorry, I hate you (미안해 널 미워해)",
+      "title": "I am sorry, I hate you (미안해 널 미워해)",
+      "artists": [
+        "Jaurim"
+      ],
+      "albumTitle": "Lovers (연인(戀人))",
+      "albumBrowseId": "MPREb_Dy1R1jyzdfs",
+      "duration": "3:56",
+      "durationSeconds": 236,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ez-YUE-KMw_MfE2vwgk0skRV9q7liRg9NiNF4lBMxQzzrojRVr9H0P9L7tD8bibPGkpJx6iKEFkptGy0IQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rBa4ZYxI4vM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rBa4ZYxI4vM",
+      "source": "ytm_songs_popular",
+      "year": "1998",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "o_P9dGE-ob4",
+      "songTitle": "Finding Lover! (애인 발견!!!)",
+      "title": "Finding Lover! (애인 발견!!!)",
+      "artists": [
+        "Jaurim"
+      ],
+      "albumTitle": "Purple Heart",
+      "albumBrowseId": "MPREb_zgP10FEDQyS",
+      "duration": "3:40",
+      "durationSeconds": 220,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4SUquN0dBQexdGvW-ula7Yl602eYFTftSt-tWP6cAFCCiU5UqnUDlxkM6ob7-S2Iv9XG6xdbmytmN3Qo=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o_P9dGE-ob4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=o_P9dGE-ob4",
+      "source": "ytm_songs_popular",
+      "year": "1997",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "C2HITwP_RV8",
+      "songTitle": "STAY WITH ME",
+      "title": "STAY WITH ME",
+      "artists": [
+        "Jaurim"
+      ],
+      "albumTitle": "LOVE FOREVER",
+      "albumBrowseId": "MPREb_sVV8k26iSFH",
+      "duration": "3:19",
+      "durationSeconds": 199,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZmYNglQa7RKUWxqtrvrP_C57_5nn0RQ2CVq0m_wNr1_8L8Ap19VoU3VDCNQDn4StL5YWiwPNhtGNIOg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=C2HITwP_RV8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=C2HITwP_RV8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "fqoY2Hf-quk",
+      "songTitle": "Song of Ha Ha Ha (하하하쏭)",
+      "title": "Song of Ha Ha Ha (하하하쏭)",
+      "artists": [
+        "Jaurim"
+      ],
+      "albumTitle": "All You Need Is Love",
+      "albumBrowseId": "MPREb_p5tg6NNOv6j",
+      "duration": "3:15",
+      "durationSeconds": 195,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/sbY6nHh7jdc3gqrO1-u3k0Sx_AezuAv17WsjXZxRxUKcWLMOPmX50Vcjr85zb3mRNcinpX-kbxU9uLnr=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fqoY2Hf-quk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fqoY2Hf-quk",
+      "source": "ytm_songs_popular",
+      "year": "2004",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "BteNIPEAB90",
+      "songTitle": "Twenty-five, twenty-one 25th",
+      "title": "Twenty-five, twenty-one 25th",
+      "artists": [
+        "Jaurim"
+      ],
+      "albumTitle": "HAPPY 25th JAURIM",
+      "albumBrowseId": "MPREb_g5nijBZWAcF",
+      "duration": "4:46",
+      "durationSeconds": 286,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/DVqKrjlhD-PHOfVu3DZAADL5C7rtkAvblVGkMm8YXXwDzgfR8zKvmH2w07NQJKyE98M_xIE5Qlw0zI3I=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BteNIPEAB90",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BteNIPEAB90",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 자우림 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=7xobleMnKhU%2CkUlMiYseY_U%2CXjOcigGNhvs%2C7JO94PxA7Hw%2CDhNWHW4B5hg%2CrBa4ZYxI4vM%2Co_P9dGE-ob4%2CC2HITwP_RV8%2CfqoY2Hf-quk%2CBteNIPEAB90&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%9E%90%EC%9A%B0%EB%A6%BC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=7xobleMnKhU&list=RDAMVM7xobleMnKhU"
+}

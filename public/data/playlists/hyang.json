@@ -1,0 +1,208 @@
+{
+  "artistId": "hyang",
+  "artistName": "HYANG",
+  "englishName": "HYANG",
+  "collectedAt": "2026-08-05T12:30:22.019068+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCVxZEf14pFRJwsqeGkgreow",
+    "name": "HYANG",
+    "subscribers": "1.36K",
+    "channelId": "UC159FMvHHiVTo827IXJTIAw",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/xdoaQRxxWazsAXQHKGsrO28WblHvIzRoOTs3a8qkay3qHJd9wS0UeR42a_xtRiiyWDI19tpJG20=w2880-h1200-l90-rj-dclYKSKTEH",
+    "url": "https://music.youtube.com/channel/UCVxZEf14pFRJwsqeGkgreow"
+  },
+  "tracks": [
+    {
+      "videoId": "PoW6ccWfBBM",
+      "songTitle": "identity",
+      "title": "identity",
+      "artists": [
+        "HYANG"
+      ],
+      "albumTitle": "identity",
+      "albumBrowseId": "MPREb_iEwZwfj7U2B",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wvwYJ3yqvWw9DuLD2XfQuDUi1pDJe9nlQp3JguuMUK2niCSsCIw3FA2DIy6cv7an5QCvuLB7IdD12J8U=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PoW6ccWfBBM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PoW6ccWfBBM",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "SRr_uLATFVk",
+      "songTitle": "Summer",
+      "title": "Summer",
+      "artists": [
+        "HYANG"
+      ],
+      "albumTitle": "Summer",
+      "albumBrowseId": "MPREb_eL6HEXw2FUI",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qrVV5nmL36QQbbeV7ML-Im1-E7GcFzc5DxbpTv8v163rwW9V1LftRfnWEwPlff6Etbf6gW0I2o7YzA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SRr_uLATFVk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SRr_uLATFVk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qC3jFezN1no",
+      "songTitle": "Monday",
+      "title": "Monday",
+      "artists": [
+        "HYANG"
+      ],
+      "albumTitle": "Take off",
+      "albumBrowseId": "MPREb_emp8rZFo3Nm",
+      "duration": "3:11",
+      "durationSeconds": 191,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AxO4Hsxl1hQ00DITGVV1WLVunY27vAKkTfDSX8ERyLxpAM6ij5SjPM1H0XVRQo4iPcDU92AMI0qVPwpskg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qC3jFezN1no",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qC3jFezN1no",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "_EoBDr1n_II",
+      "songTitle": "1:9",
+      "title": "1:9",
+      "artists": [
+        "HYANG"
+      ],
+      "albumTitle": "All We Have Is Not What We Need",
+      "albumBrowseId": "MPREb_m71qkH8OMyu",
+      "duration": "5:42",
+      "durationSeconds": 342,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yHR1MoA3Xlv-tak_olO1o1D6M73UF6BNzy44uKAV1PCGqEL3riAVuomA_4mvrb_kna2_XNArbl9CKyve=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_EoBDr1n_II",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_EoBDr1n_II",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "I2Tpdvzh9aE",
+      "songTitle": "MND (Maybe we're Not Destiny)",
+      "title": "MND (Maybe we're Not Destiny)",
+      "artists": [
+        "HYANG"
+      ],
+      "albumTitle": "Take off",
+      "albumBrowseId": "MPREb_emp8rZFo3Nm",
+      "duration": "3:07",
+      "durationSeconds": 187,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AxO4Hsxl1hQ00DITGVV1WLVunY27vAKkTfDSX8ERyLxpAM6ij5SjPM1H0XVRQo4iPcDU92AMI0qVPwpskg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=I2Tpdvzh9aE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=I2Tpdvzh9aE",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "duYTnfy1gGc",
+      "songTitle": "Stay with me",
+      "title": "Stay with me",
+      "artists": [
+        "HYANG"
+      ],
+      "albumTitle": "Take off",
+      "albumBrowseId": "MPREb_emp8rZFo3Nm",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AxO4Hsxl1hQ00DITGVV1WLVunY27vAKkTfDSX8ERyLxpAM6ij5SjPM1H0XVRQo4iPcDU92AMI0qVPwpskg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=duYTnfy1gGc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=duYTnfy1gGc",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "n-gKNnWg434",
+      "songTitle": "I got a feeling",
+      "title": "I got a feeling",
+      "artists": [
+        "HYANG"
+      ],
+      "albumTitle": "All We Have Is Not What We Need",
+      "albumBrowseId": "MPREb_m71qkH8OMyu",
+      "duration": "2:51",
+      "durationSeconds": 171,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yHR1MoA3Xlv-tak_olO1o1D6M73UF6BNzy44uKAV1PCGqEL3riAVuomA_4mvrb_kna2_XNArbl9CKyve=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=n-gKNnWg434",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=n-gKNnWg434",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "zXARPX8VEFk",
+      "songTitle": "Beside you",
+      "title": "Beside you",
+      "artists": [
+        "HYANG"
+      ],
+      "albumTitle": "Beside you",
+      "albumBrowseId": "MPREb_FYmvlhrHrM4",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/VhNu628D5DNhp9Xencox946rU5Z6GUcYlkfz3BnrFr_bGan555N23RfkZk76YPNyzARN3BWCuBzm83JV=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zXARPX8VEFk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zXARPX8VEFk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "B15YJOaOjZU",
+      "songTitle": "Real or Fake",
+      "title": "Real or Fake",
+      "artists": [
+        "HYANG"
+      ],
+      "albumTitle": "Take off",
+      "albumBrowseId": "MPREb_emp8rZFo3Nm",
+      "duration": "2:53",
+      "durationSeconds": 173,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AxO4Hsxl1hQ00DITGVV1WLVunY27vAKkTfDSX8ERyLxpAM6ij5SjPM1H0XVRQo4iPcDU92AMI0qVPwpskg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=B15YJOaOjZU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=B15YJOaOjZU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "oA6xDFoJbVI",
+      "songTitle": "Mine.",
+      "title": "Mine.",
+      "artists": [
+        "HYANG"
+      ],
+      "albumTitle": "Mine.",
+      "albumBrowseId": "MPREb_jxakuqDSMjo",
+      "duration": "4:14",
+      "durationSeconds": 254,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/T3vsa9Vx2yHsJCazerpXtieB4HXj9EGKpsE8rypIDihOwBO7HcFr6VkQaNv4RvHSjypR306RNKAc1K2C=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oA6xDFoJbVI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=oA6xDFoJbVI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "HYANG 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=PoW6ccWfBBM%2CSRr_uLATFVk%2CqC3jFezN1no%2C_EoBDr1n_II%2CI2Tpdvzh9aE%2CduYTnfy1gGc%2Cn-gKNnWg434%2CzXARPX8VEFk%2CB15YJOaOjZU%2CoA6xDFoJbVI&title=HYANG+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=PoW6ccWfBBM&list=RDAMVMPoW6ccWfBBM"
+}

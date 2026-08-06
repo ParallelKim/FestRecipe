@@ -74,8 +74,10 @@ python3 sync_artists.py --add-missing       # 미등록 ID를 artists.json place
 
 - 페스티벌에 등장하는 artistId를 모아 `_artist_index.json` 에 저장
 - `artists.json` 누락 / index 불일치를 경고
-- placeholder로 추가된 항목의 **`name`은 사람이 검수**한다 → [`docs/ARTIST_DISPLAY_NAMES.md`](../docs/ARTIST_DISPLAY_NAMES.md)
-- 수집 파이프라인은 YTM 매칭용 필드를 쓰며, 큐레이션된 화면용 `name`을 덮어쓰지 않는다
+- placeholder로 추가된 항목의 **`name`(카탈로그 기본명)은 사람이 검수**한다. 페스티벌 화면 표기는 `festivals/{id}.artistDisplays` → [`docs/ARTIST_DISPLAY_NAMES.md`](../docs/ARTIST_DISPLAY_NAMES.md)
+- 수집 파이프라인은 YTM 매칭용 필드(`englishName` / `aliases` / `ytmBrowseId` 등)를 쓰며, 큐레이션된 `name`·`artistDisplays`를 덮어쓰지 않는다
+- **`aliases`**: 검색·YTM 쿼리 확장용 이표기. 페스티벌별 화면 표기를 여기 두지 않는다
+- **콜라보 유닛** (`composedOf`): TT가 `A X B`처럼 한 슬롯이면 유닛 id 하나로 두고 멤버를 `composedOf`에 적는다. TT 표기 문자열은 해당 페스티벌 `artistDisplays`에 둔다. 전용 PL이 없으면 프론트가 멤버 PL을 병합한다. 파이프라인은 `composedOf`/`playlistMode`를 지우지 않는다. 예: `blackhole-x-bangsumi`
 
 ### Step 3 — YouTube Music 발매곡
 

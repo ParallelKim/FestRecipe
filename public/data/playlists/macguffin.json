@@ -1,0 +1,212 @@
+{
+  "artistId": "macguffin",
+  "artistName": "맥거핀",
+  "englishName": "MacGuffin",
+  "collectedAt": "2026-08-05T12:30:34.435141+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCdRRmKdFwypF4OT0aKZOCDg",
+    "name": "Macguffin",
+    "subscribers": "5.16K",
+    "channelId": "UCCRAFwORMM9WwuIcdc9va2w",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/XjezUaCHZM1tyJCXW88dScTPXrZVtrxfXGoFJ213xp1DbgmoYgiSkJvrKmhBwg5_DUoRZTdszlV1UwU=w1429-h595-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCdRRmKdFwypF4OT0aKZOCDg"
+  },
+  "tracks": [
+    {
+      "videoId": "T_dNNgdx6Dg",
+      "songTitle": "Bucket List",
+      "title": "Bucket List",
+      "artists": [
+        "MGFF"
+      ],
+      "albumTitle": "MUFFY",
+      "albumBrowseId": "MPREb_7aY2Dp7Dj7t",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZnKcMdh_MwDcFFuEl1HfGnXB5RPklWIq9KKd1XmpkceJgdbDLQdeOePtDuUCiRMCyNY2ZS0356q_DG6F=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T_dNNgdx6Dg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=T_dNNgdx6Dg",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "xFBQNp-wocU",
+      "songTitle": "Wannabe",
+      "title": "Wannabe",
+      "artists": [
+        "맥거핀"
+      ],
+      "albumTitle": "SUPERGREEN",
+      "albumBrowseId": "MPREb_f0hXRHSloN6",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/S2Rh7g79vpavkpe6vsGi2I2RojQRPyyicXtoFGaHGa9urxpw0nSAMhAnHDMNxXAfhwy16e758Q504DB-=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xFBQNp-wocU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xFBQNp-wocU",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "dI-s0cF2XJo",
+      "songTitle": "핑",
+      "title": "핑",
+      "artists": [
+        "맥거핀"
+      ],
+      "albumTitle": "핑",
+      "albumBrowseId": "MPREb_xYy4yL6WhBP",
+      "duration": "3:18",
+      "durationSeconds": 198,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/I8svE9Mq8K4SOvwEo-DlFydtDeHcyfMxCr2XfbNtHynG2RtI5zjf0bTkEckU7YospxdNBAhfqMxykNB7cA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dI-s0cF2XJo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dI-s0cF2XJo",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "IcXdLlFGDY0",
+      "songTitle": "WYA",
+      "title": "WYA",
+      "artists": [
+        "MGFF"
+      ],
+      "albumTitle": "MOIM",
+      "albumBrowseId": "MPREb_K8i6S1gAYkQ",
+      "duration": "3:23",
+      "durationSeconds": 203,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_GzyyVzndu1xuf2y9LN2yf5aA7WIkzLB45JGkAndP3_8teTwuL3bLUgnXYHbQJnhUEFN2ZZMveYrnx0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IcXdLlFGDY0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=IcXdLlFGDY0",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "0o5fjRTi6Pk",
+      "songTitle": "Zigzag",
+      "title": "Zigzag",
+      "artists": [
+        "MGFF"
+      ],
+      "albumTitle": "MUFFY",
+      "albumBrowseId": "MPREb_7aY2Dp7Dj7t",
+      "duration": "4:22",
+      "durationSeconds": 262,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZnKcMdh_MwDcFFuEl1HfGnXB5RPklWIq9KKd1XmpkceJgdbDLQdeOePtDuUCiRMCyNY2ZS0356q_DG6F=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0o5fjRTi6Pk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0o5fjRTi6Pk",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "dliswSyF8vc",
+      "songTitle": "Blackwater",
+      "title": "Blackwater",
+      "artists": [
+        "맥거핀"
+      ],
+      "albumTitle": "BLUEBLACK",
+      "albumBrowseId": "MPREb_RrOENL1yt0P",
+      "duration": "3:32",
+      "durationSeconds": 212,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4dj8flrB-tyO7XD5WCKBUp8iIe-u-3yqxXXtverBzy_r2C0-Y8LtjT8ZJwLQIVGBu7xtq62shCtmnUdT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dliswSyF8vc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=dliswSyF8vc",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "T6EWLfQvmiU",
+      "songTitle": "Mr. Conversation",
+      "title": "Mr. Conversation",
+      "artists": [
+        "MGFF"
+      ],
+      "albumTitle": "MOIM",
+      "albumBrowseId": "MPREb_K8i6S1gAYkQ",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_GzyyVzndu1xuf2y9LN2yf5aA7WIkzLB45JGkAndP3_8teTwuL3bLUgnXYHbQJnhUEFN2ZZMveYrnx0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T6EWLfQvmiU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=T6EWLfQvmiU",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "uyj2W4ltous",
+      "songTitle": "Malibu",
+      "title": "Malibu",
+      "artists": [
+        "Macguffin"
+      ],
+      "albumTitle": "Malibu",
+      "albumBrowseId": "MPREb_m54ad5Tlwc3",
+      "duration": "2:46",
+      "durationSeconds": 166,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2rGfi0Vuumd73UeMga0Np6lGW4bQaZCAgvl9v5tLfqE2M6Y6ntTj5D9wJWxmWlDsdmEeetfenfd2DVou3g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uyj2W4ltous",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=uyj2W4ltous",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "NFOkYntz0dk",
+      "songTitle": "Abduvida (Moneygun)",
+      "title": "Abduvida (Moneygun)",
+      "artists": [
+        "MGFF"
+      ],
+      "albumTitle": "MUFFY",
+      "albumBrowseId": "MPREb_7aY2Dp7Dj7t",
+      "duration": "3:27",
+      "durationSeconds": 207,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZnKcMdh_MwDcFFuEl1HfGnXB5RPklWIq9KKd1XmpkceJgdbDLQdeOePtDuUCiRMCyNY2ZS0356q_DG6F=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NFOkYntz0dk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=NFOkYntz0dk",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "vPb_Fy0KQPk",
+      "songTitle": "Gambit",
+      "title": "Gambit",
+      "artists": [
+        "MGFF"
+      ],
+      "albumTitle": "MOIM",
+      "albumBrowseId": "MPREb_K8i6S1gAYkQ",
+      "duration": "3:34",
+      "durationSeconds": 214,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_GzyyVzndu1xuf2y9LN2yf5aA7WIkzLB45JGkAndP3_8teTwuL3bLUgnXYHbQJnhUEFN2ZZMveYrnx0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vPb_Fy0KQPk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vPb_Fy0KQPk",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    }
+  ],
+  "playlistTitle": "맥거핀 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=T_dNNgdx6Dg%2CxFBQNp-wocU%2CdI-s0cF2XJo%2CIcXdLlFGDY0%2C0o5fjRTi6Pk%2CdliswSyF8vc%2CT6EWLfQvmiU%2Cuyj2W4ltous%2CNFOkYntz0dk%2CvPb_Fy0KQPk&title=%EB%A7%A5%EA%B1%B0%ED%95%80+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=T_dNNgdx6Dg&list=RDAMVMT_dNNgdx6Dg"
+}

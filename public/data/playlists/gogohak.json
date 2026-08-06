@@ -1,0 +1,210 @@
+{
+  "artistId": "gogohak",
+  "artistName": "고고학",
+  "englishName": "Gogohak",
+  "collectedAt": "2026-08-05T12:30:19.692404+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCvUPHtxTyXRKBvdaJoJCSSg",
+    "name": "Gogohawk",
+    "subscribers": "2.47K",
+    "channelId": "UC8sPnQFdpmY5em3rhaecg6Q",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/W2qQZVmhJ-BjVc6Fp4Q6UYS2KaV9XvbANnS9jeGx2kVrOUREG1EA-F7-rbzvn0dJrYJt8zxNdh4=w1906-h794-l90-rj-dcgVCSxJ4I",
+    "url": "https://music.youtube.com/channel/UCvUPHtxTyXRKBvdaJoJCSSg"
+  },
+  "tracks": [
+    {
+      "videoId": "mQS60gaEZzI",
+      "songTitle": "P",
+      "title": "P",
+      "artists": [
+        "Gogohawk"
+      ],
+      "albumTitle": "VOL.10",
+      "albumBrowseId": "MPREb_N2DPRkm41F7",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TlmLMYQnnXBw9BXLB8IY5sQ7dvle2V1dnUnYM7p-1hxPl27SXk5GLdMzfN56yo832FGUacm1UGEc5RIl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mQS60gaEZzI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mQS60gaEZzI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "BCOInVrReHI",
+      "songTitle": "Homecoming",
+      "title": "Homecoming",
+      "artists": [
+        "Gogohawk"
+      ],
+      "albumTitle": "VOL.10",
+      "albumBrowseId": "MPREb_N2DPRkm41F7",
+      "duration": "5:43",
+      "durationSeconds": 343,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TlmLMYQnnXBw9BXLB8IY5sQ7dvle2V1dnUnYM7p-1hxPl27SXk5GLdMzfN56yo832FGUacm1UGEc5RIl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BCOInVrReHI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=BCOInVrReHI",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "WTngcsN_gZw",
+      "songTitle": "Echo",
+      "title": "Echo",
+      "artists": [
+        "Gogohawk"
+      ],
+      "albumTitle": "VOL.10",
+      "albumBrowseId": "MPREb_N2DPRkm41F7",
+      "duration": "4:40",
+      "durationSeconds": 280,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TlmLMYQnnXBw9BXLB8IY5sQ7dvle2V1dnUnYM7p-1hxPl27SXk5GLdMzfN56yo832FGUacm1UGEc5RIl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WTngcsN_gZw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WTngcsN_gZw",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "c90xJC6fyq4",
+      "songTitle": "Persimmon",
+      "title": "Persimmon",
+      "artists": [
+        "Gogohawk"
+      ],
+      "albumTitle": "VOL.07",
+      "albumBrowseId": "MPREb_GDTttFQiXyh",
+      "duration": "4:21",
+      "durationSeconds": 261,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_qoAvZKvZCxKr_8Y9hc3qnhT3qIM_u7U7gsnwdJK1-8SsuZdN_8YLBmKiUiXKZPtigb11X8XiuPGpdc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c90xJC6fyq4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=c90xJC6fyq4",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "xlkits0SDBA",
+      "songTitle": "WAVE",
+      "title": "WAVE",
+      "artists": [
+        "Gogohawk"
+      ],
+      "albumTitle": "VOL.04",
+      "albumBrowseId": "MPREb_14RjCHU4Nlo",
+      "duration": "5:58",
+      "durationSeconds": 358,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TdN5aOxalMeuCPcQ40SEXzJB4LbZpRyzJBEoiiTAbQCFbxTRc5ybshn8Zh31Gbm1ejd9NTN8qkTxaww=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xlkits0SDBA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xlkits0SDBA",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "Hof2hFD8ve4",
+      "songTitle": "The Cause",
+      "title": "The Cause",
+      "artists": [
+        "Gogohawk"
+      ],
+      "albumTitle": "VOL.10",
+      "albumBrowseId": "MPREb_N2DPRkm41F7",
+      "duration": "3:11",
+      "durationSeconds": 191,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TlmLMYQnnXBw9BXLB8IY5sQ7dvle2V1dnUnYM7p-1hxPl27SXk5GLdMzfN56yo832FGUacm1UGEc5RIl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hof2hFD8ve4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Hof2hFD8ve4",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "tya6EAUTsnk",
+      "songTitle": "Trauma",
+      "title": "Trauma",
+      "artists": [
+        "Gogohawk"
+      ],
+      "albumTitle": "VOL.07",
+      "albumBrowseId": "MPREb_GDTttFQiXyh",
+      "duration": "4:05",
+      "durationSeconds": 245,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_qoAvZKvZCxKr_8Y9hc3qnhT3qIM_u7U7gsnwdJK1-8SsuZdN_8YLBmKiUiXKZPtigb11X8XiuPGpdc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tya6EAUTsnk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tya6EAUTsnk",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "ZdXDEcYo53w",
+      "songTitle": "Future Boy",
+      "title": "Future Boy",
+      "artists": [
+        "Gogohawk"
+      ],
+      "albumTitle": "VOL.07",
+      "albumBrowseId": "MPREb_GDTttFQiXyh",
+      "duration": "5:25",
+      "durationSeconds": 325,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_qoAvZKvZCxKr_8Y9hc3qnhT3qIM_u7U7gsnwdJK1-8SsuZdN_8YLBmKiUiXKZPtigb11X8XiuPGpdc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZdXDEcYo53w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZdXDEcYo53w",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "4D5o60vQGXw",
+      "songTitle": "COMPLEX",
+      "title": "COMPLEX",
+      "artists": [
+        "Gogohawk"
+      ],
+      "albumTitle": "VOL.05",
+      "albumBrowseId": "MPREb_SOvLFh8FD1y",
+      "duration": "5:12",
+      "durationSeconds": 312,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4O6hPs182sVYy8Jy_BFQHt1yu8lZhkS96hlvhTDe8tFAJnxxihV71WWg532-1QSDghnnzjivU_wL-qpbuA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4D5o60vQGXw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=4D5o60vQGXw",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "9pi6_qCpfFI",
+      "songTitle": "City Legend",
+      "title": "City Legend",
+      "artists": [
+        "Gogohawk"
+      ],
+      "albumTitle": "VOL.07",
+      "albumBrowseId": "MPREb_GDTttFQiXyh",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_qoAvZKvZCxKr_8Y9hc3qnhT3qIM_u7U7gsnwdJK1-8SsuZdN_8YLBmKiUiXKZPtigb11X8XiuPGpdc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9pi6_qCpfFI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9pi6_qCpfFI",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "고고학 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=mQS60gaEZzI%2CBCOInVrReHI%2CWTngcsN_gZw%2Cc90xJC6fyq4%2Cxlkits0SDBA%2CHof2hFD8ve4%2Ctya6EAUTsnk%2CZdXDEcYo53w%2C4D5o60vQGXw%2C9pi6_qCpfFI&title=%EA%B3%A0%EA%B3%A0%ED%95%99+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=mQS60gaEZzI&list=RDAMVMmQS60gaEZzI"
+}

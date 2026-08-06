@@ -1,0 +1,209 @@
+{
+  "artistId": "kikuhashi",
+  "artistName": "기쿠하시",
+  "englishName": "gikuhasi",
+  "collectedAt": "2026-08-05T12:30:30.102436+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UC-KxX27-noeyI5M-Jo4Z8hA",
+    "name": "gikuhasi",
+    "subscribers": "4.7K",
+    "channelId": "UCBFXK_hZGKqQHiuWdjH6YqA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/-Me4CYvSRv2koE0kRYXnZUJnrAtgjkW0LOWTbLIB9j71XxihPz4LXjIgrMCcgbLjyuA2SBXaUg=w1071-h446-l90-rj-dckXOQqS0H",
+    "url": "https://music.youtube.com/channel/UC-KxX27-noeyI5M-Jo4Z8hA"
+  },
+  "tracks": [
+    {
+      "videoId": "vZVFf9IAUJg",
+      "songTitle": "microhabitat",
+      "title": "microhabitat",
+      "artists": [
+        "gikuhasi"
+      ],
+      "albumTitle": "new computer emotion",
+      "albumBrowseId": "MPREb_V0jxkJH8JdH",
+      "duration": "3:32",
+      "durationSeconds": 212,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eW6ghQYSSPWSBJ7UO1W2t0m_0-eujNrMUhehcvG4MaTsNInc-2hcdtefm_Qzd8zp2zKQIAVNAv_nrW0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vZVFf9IAUJg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vZVFf9IAUJg",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "x8fbDmkxURI",
+      "songTitle": "Internet",
+      "title": "Internet",
+      "artists": [
+        "gikuhasi"
+      ],
+      "albumTitle": "new computer emotion",
+      "albumBrowseId": "MPREb_V0jxkJH8JdH",
+      "duration": "1:48",
+      "durationSeconds": 108,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eW6ghQYSSPWSBJ7UO1W2t0m_0-eujNrMUhehcvG4MaTsNInc-2hcdtefm_Qzd8zp2zKQIAVNAv_nrW0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x8fbDmkxURI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=x8fbDmkxURI",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "rL80v5KjOWg",
+      "songTitle": "wrestling",
+      "title": "wrestling",
+      "artists": [
+        "gikuhasi"
+      ],
+      "albumTitle": "new computer emotion",
+      "albumBrowseId": "MPREb_V0jxkJH8JdH",
+      "duration": "2:51",
+      "durationSeconds": 171,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eW6ghQYSSPWSBJ7UO1W2t0m_0-eujNrMUhehcvG4MaTsNInc-2hcdtefm_Qzd8zp2zKQIAVNAv_nrW0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rL80v5KjOWg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rL80v5KjOWg",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "072NwSbAa4A",
+      "songTitle": "HONEY",
+      "title": "HONEY",
+      "artists": [
+        "gikuhasi"
+      ],
+      "albumTitle": "new computer emotion",
+      "albumBrowseId": "MPREb_V0jxkJH8JdH",
+      "duration": "2:14",
+      "durationSeconds": 134,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eW6ghQYSSPWSBJ7UO1W2t0m_0-eujNrMUhehcvG4MaTsNInc-2hcdtefm_Qzd8zp2zKQIAVNAv_nrW0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=072NwSbAa4A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=072NwSbAa4A",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "RaRbzwea3Dc",
+      "songTitle": "The story of a pet dog",
+      "title": "The story of a pet dog",
+      "artists": [
+        "gikuhasi"
+      ],
+      "albumTitle": "new computer emotion",
+      "albumBrowseId": "MPREb_V0jxkJH8JdH",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eW6ghQYSSPWSBJ7UO1W2t0m_0-eujNrMUhehcvG4MaTsNInc-2hcdtefm_Qzd8zp2zKQIAVNAv_nrW0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RaRbzwea3Dc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=RaRbzwea3Dc",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "zboyX7wcI-c",
+      "songTitle": "Parade",
+      "title": "Parade",
+      "artists": [
+        "gikuhasi"
+      ],
+      "albumTitle": "Parade",
+      "albumBrowseId": "MPREb_MmRsT55zgVZ",
+      "duration": "4:36",
+      "durationSeconds": 276,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8Jayk5WOGmSCl8CMWsE6xJ-qO7ZewGK-Bf1ZUNNu4lDw08bJB9lkrY7q8zb1EycGON1Xbs0kE8psZ4oL=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zboyX7wcI-c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zboyX7wcI-c",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "cQv778BxeLU",
+      "songTitle": "Alien",
+      "title": "Alien",
+      "artists": [
+        "gikuhasi"
+      ],
+      "albumTitle": "Alien",
+      "albumBrowseId": "MPREb_U8s585Ul9N9",
+      "duration": "4:26",
+      "durationSeconds": 266,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/q7c1IUYUu-F15pXDXzWchhmqEkqGD8A5A0GcNyeysB_ntDYUZVe3l3i3k2uOm2tySvnmstB8RqMjzaTqSA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cQv778BxeLU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cQv778BxeLU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "mu-BtoRsvSw",
+      "songTitle": "Blue Flash",
+      "title": "Blue Flash",
+      "artists": [
+        "gikuhasi"
+      ],
+      "albumTitle": "Coin Laundry Band Practice",
+      "albumBrowseId": "MPREb_R8oANVyMf3a",
+      "duration": "4:30",
+      "durationSeconds": 270,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ImQhJ1uRx2fxVPebAhd30A5QfyE4klVLcFIKN_PKTBsJ7TvRZnzDRfdCU7C_K7njQBByl3txPOe8Qas=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mu-BtoRsvSw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mu-BtoRsvSw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WywyNY7mPYA",
+      "songTitle": "anemone",
+      "title": "anemone",
+      "artists": [
+        "gikuhasi"
+      ],
+      "albumTitle": "new computer emotion",
+      "albumBrowseId": "MPREb_V0jxkJH8JdH",
+      "duration": "5:43",
+      "durationSeconds": 343,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eW6ghQYSSPWSBJ7UO1W2t0m_0-eujNrMUhehcvG4MaTsNInc-2hcdtefm_Qzd8zp2zKQIAVNAv_nrW0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WywyNY7mPYA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WywyNY7mPYA",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "sZacHo4bm20",
+      "songTitle": "Graduation",
+      "title": "Graduation",
+      "artists": [
+        "gikuhasi"
+      ],
+      "albumTitle": "new computer emotion",
+      "albumBrowseId": "MPREb_V0jxkJH8JdH",
+      "duration": "4:49",
+      "durationSeconds": 289,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eW6ghQYSSPWSBJ7UO1W2t0m_0-eujNrMUhehcvG4MaTsNInc-2hcdtefm_Qzd8zp2zKQIAVNAv_nrW0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sZacHo4bm20",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sZacHo4bm20",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "기쿠하시 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=vZVFf9IAUJg%2Cx8fbDmkxURI%2CrL80v5KjOWg%2C072NwSbAa4A%2CRaRbzwea3Dc%2CzboyX7wcI-c%2CcQv778BxeLU%2Cmu-BtoRsvSw%2CWywyNY7mPYA%2CsZacHo4bm20&title=%EA%B8%B0%EC%BF%A0%ED%95%98%EC%8B%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=vZVFf9IAUJg&list=RDAMVMvZVFf9IAUJg"
+}

@@ -44,7 +44,7 @@ export default function MobileLineupSheet({
         <h2 className="text-xl font-extrabold leading-snug">내 라인업</h2>
         {!empty && (
           <p className="mb-3 mt-0 text-xs leading-relaxed text-muted-foreground">
-            {dayLabel} · 대표곡 준비 {readyCount}/{artistIds.length}
+            {dayLabel} · {readyCount}/{artistIds.length} 듣기 가능
           </p>
         )}
 

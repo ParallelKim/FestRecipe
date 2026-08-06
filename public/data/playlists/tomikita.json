@@ -1,0 +1,213 @@
+{
+  "artistId": "tomikita",
+  "artistName": "TOMIKITA",
+  "englishName": "TOMIKITA",
+  "collectedAt": "2026-08-05T12:30:52.115564+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCUel3NTw3gNZcysl6wqd06A",
+    "name": "TOMIKITA",
+    "subscribers": "79",
+    "channelId": "UCUel3NTw3gNZcysl6wqd06A",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/YERYcDkrTUIl8JfelLNC36mTHvdhNcxhQXKcD7hwG2QMMBftqInCWTbKAaJN2aTP99jFEtPHXOKxN4Wz=w1400-h583-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCUel3NTw3gNZcysl6wqd06A"
+  },
+  "tracks": [
+    {
+      "videoId": "YdfwdnWfph8",
+      "songTitle": "천사의 미소2 (feat. 바비 킴)",
+      "title": "천사의 미소2 (feat. 바비 킴)",
+      "artists": [
+        "토미키타"
+      ],
+      "albumTitle": "RETRACKZ- I Love You",
+      "albumBrowseId": "MPREb_uyhytEruL1b",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/O5oaEU3d9LDeans6dyVC9Sv0ftkcQ9Tp5BHtlS0_H12Op7KyhjDEEDk1OyUEovHy0f3uDkXu-1Dlyp6iAA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YdfwdnWfph8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YdfwdnWfph8",
+      "source": "ytm_songs_popular",
+      "year": "2011",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "UC41qpZttzM",
+      "songTitle": "I love you Instrumental (feat. Bobby Kim)",
+      "title": "I love you Instrumental (feat. Bobby Kim)",
+      "artists": [
+        "토미키타"
+      ],
+      "albumTitle": "RETRACKZ- I Love You",
+      "albumBrowseId": "MPREb_uyhytEruL1b",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/O5oaEU3d9LDeans6dyVC9Sv0ftkcQ9Tp5BHtlS0_H12Op7KyhjDEEDk1OyUEovHy0f3uDkXu-1Dlyp6iAA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UC41qpZttzM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UC41qpZttzM",
+      "source": "ytm_songs_popular",
+      "year": "2011",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "elN94Chd_g0",
+      "songTitle": "UNITY",
+      "title": "UNITY",
+      "artists": [
+        "TOMIKITA",
+        "YOON DO HYUN"
+      ],
+      "albumTitle": "UNITY",
+      "albumBrowseId": "MPREb_OXX0Oy4TxV2",
+      "duration": "4:14",
+      "durationSeconds": 254,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tctifLn3I810DXNzhl6AiwCoP0IGZlR-cJW6UysiSf9HPFv1q4oOTBGu_n8P6KM6GyV1fmv8GoH3ELE=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=elN94Chd_g0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=elN94Chd_g0",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "WH3FF3siCzs",
+      "songTitle": "잃어버린 미소 (Mono)",
+      "title": "잃어버린 미소 (Mono)",
+      "artists": [
+        "Tomikita"
+      ],
+      "albumTitle": "듣기 좋은 그 한마디",
+      "albumBrowseId": "MPREb_Xr54kGCMZDv",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/x_0b8vR0bw05GG4-HDAo5u6GZRIirG8kWtActySCWOM99GAUwTHzJ2Bxix0WdnANK1laR2HjeDdT_zz3=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WH3FF3siCzs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WH3FF3siCzs",
+      "source": "ytm_songs_popular",
+      "year": "1994",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "yaye1wdKE_k",
+      "songTitle": "SILENT CRIES (Remix)",
+      "title": "SILENT CRIES (Remix)",
+      "artists": [
+        "Tomikita"
+      ],
+      "albumTitle": "듣기 좋은 그 한마디",
+      "albumBrowseId": "MPREb_Xr54kGCMZDv",
+      "duration": "4:24",
+      "durationSeconds": 264,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/x_0b8vR0bw05GG4-HDAo5u6GZRIirG8kWtActySCWOM99GAUwTHzJ2Bxix0WdnANK1laR2HjeDdT_zz3=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yaye1wdKE_k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=yaye1wdKE_k",
+      "source": "ytm_songs_popular",
+      "year": "1994",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "29rA2iOBmyQ",
+      "songTitle": "WHITE RAIN",
+      "title": "WHITE RAIN",
+      "artists": [
+        "TOMIKITA"
+      ],
+      "albumTitle": "SUPERSTAR",
+      "albumBrowseId": "MPREb_nbrUZvq3acT",
+      "duration": "4:42",
+      "durationSeconds": 282,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jG29nG4vlLrqZDQkeV5P-J1XE7JskBDqRPTzTe96u4T3baaPGAGljnfHzSfVlMFMK2fe9sKurUQummK4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=29rA2iOBmyQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=29rA2iOBmyQ",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "wsLFfAYEdsY",
+      "songTitle": "듣기 좋은 그 한마디",
+      "title": "듣기 좋은 그 한마디",
+      "artists": [
+        "Tomikita"
+      ],
+      "albumTitle": "듣기 좋은 그 한마디",
+      "albumBrowseId": "MPREb_Xr54kGCMZDv",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/x_0b8vR0bw05GG4-HDAo5u6GZRIirG8kWtActySCWOM99GAUwTHzJ2Bxix0WdnANK1laR2HjeDdT_zz3=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wsLFfAYEdsY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wsLFfAYEdsY",
+      "source": "ytm_songs_popular",
+      "year": "1994",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "jhGW5dK1Pg0",
+      "songTitle": "슬픈 눈빛",
+      "title": "슬픈 눈빛",
+      "artists": [
+        "Tomikita"
+      ],
+      "albumTitle": "듣기 좋은 그 한마디",
+      "albumBrowseId": "MPREb_Xr54kGCMZDv",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/x_0b8vR0bw05GG4-HDAo5u6GZRIirG8kWtActySCWOM99GAUwTHzJ2Bxix0WdnANK1laR2HjeDdT_zz3=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jhGW5dK1Pg0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jhGW5dK1Pg0",
+      "source": "ytm_songs_popular",
+      "year": "1994",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "Cg-Qvahan9Q",
+      "songTitle": "하얀 이별",
+      "title": "하얀 이별",
+      "artists": [
+        "Tomikita"
+      ],
+      "albumTitle": "듣기 좋은 그 한마디",
+      "albumBrowseId": "MPREb_Xr54kGCMZDv",
+      "duration": "3:14",
+      "durationSeconds": 194,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/x_0b8vR0bw05GG4-HDAo5u6GZRIirG8kWtActySCWOM99GAUwTHzJ2Bxix0WdnANK1laR2HjeDdT_zz3=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Cg-Qvahan9Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Cg-Qvahan9Q",
+      "source": "ytm_songs_popular",
+      "year": "1994",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "9jZPLdoMU8o",
+      "songTitle": "INVITATION",
+      "title": "INVITATION",
+      "artists": [
+        "Tomikita"
+      ],
+      "albumTitle": "듣기 좋은 그 한마디",
+      "albumBrowseId": "MPREb_Xr54kGCMZDv",
+      "duration": "2:59",
+      "durationSeconds": 179,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/x_0b8vR0bw05GG4-HDAo5u6GZRIirG8kWtActySCWOM99GAUwTHzJ2Bxix0WdnANK1laR2HjeDdT_zz3=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9jZPLdoMU8o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9jZPLdoMU8o",
+      "source": "ytm_songs_popular",
+      "year": "1994",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "TOMIKITA 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=YdfwdnWfph8%2CUC41qpZttzM%2CelN94Chd_g0%2CWH3FF3siCzs%2Cyaye1wdKE_k%2C29rA2iOBmyQ%2CwsLFfAYEdsY%2CjhGW5dK1Pg0%2CCg-Qvahan9Q%2C9jZPLdoMU8o&title=TOMIKITA+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=YdfwdnWfph8&list=RDAMVMYdfwdnWfph8"
+}

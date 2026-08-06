@@ -1,0 +1,212 @@
+{
+  "artistId": "ta-copy",
+  "artistName": "타카피",
+  "englishName": "t.a-copy",
+  "collectedAt": "2026-08-05T12:30:49.616360+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1070,
+    "latestSlotLabel": "17:50",
+    "festivalId": "jumf-2026",
+    "rank": 0.595,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCe2ZsulP-Y88aByU86eJCfg",
+    "name": "타카피",
+    "subscribers": "115",
+    "channelId": "UCe2ZsulP-Y88aByU86eJCfg",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/ksDGYuOhNxcuJgKkokWXZke0OFeV3Xo8oUD0CYehHP1plUd0UHllOjF0wnZb3D0sHBLpLoYqr0OOv2I=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCe2ZsulP-Y88aByU86eJCfg"
+  },
+  "tracks": [
+    {
+      "videoId": "nFz-T6bP24s",
+      "songTitle": "치고 달려라 Final Version",
+      "title": "치고 달려라 Final Version",
+      "artists": [
+        "타카피"
+      ],
+      "albumTitle": "치고 달려라 Final Version",
+      "albumBrowseId": "MPREb_E5dhIywWLMt",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4kCPl0KwwaN12eV8XU6xFxl8mNH7K2YtCfvcGiCmbhEziQQRFXdV1ZaHpsqdTry5cqb86rYXonvJgp5u=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nFz-T6bP24s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nFz-T6bP24s",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "Bc-aPFHbw-g",
+      "songTitle": "치고 달려라 Final Instrumental Version",
+      "title": "치고 달려라 Final Instrumental Version",
+      "artists": [
+        "타카피"
+      ],
+      "albumTitle": "치고 달려라 Final Version",
+      "albumBrowseId": "MPREb_E5dhIywWLMt",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/4kCPl0KwwaN12eV8XU6xFxl8mNH7K2YtCfvcGiCmbhEziQQRFXdV1ZaHpsqdTry5cqb86rYXonvJgp5u=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Bc-aPFHbw-g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Bc-aPFHbw-g",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "Vd0-JQdv8-A",
+      "songTitle": "GO! ON!",
+      "title": "GO! ON!",
+      "artists": [
+        "타카피"
+      ],
+      "albumTitle": "GO! ON!",
+      "albumBrowseId": "MPREb_QJK7Txw8zsD",
+      "duration": "2:51",
+      "durationSeconds": 171,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/67kNEwGCDY5AxPpmAEjybw0cD0vDRIl3VTeEWjzvtQ0kCn0YE9bj7X8y28gB7SIO4oplb72fSC0sw0Yi=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Vd0-JQdv8-A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Vd0-JQdv8-A",
+      "source": "ytm_songs_popular",
+      "year": "2007",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "7Kh2z8u1lv8",
+      "songTitle": "너클볼",
+      "title": "너클볼",
+      "artists": [
+        "타카피"
+      ],
+      "albumTitle": "Life Goes On 2014",
+      "albumBrowseId": "MPREb_fcSGcqWh7Gy",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9UdGRodaXmAiVUE6MstMWgfmCCHXG-5RI4agQs4-n96No5E94r7-BkKUXDb0jGYr4R2I9TqC2gmLHdkO=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7Kh2z8u1lv8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7Kh2z8u1lv8",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "MrSaCpGYVGQ",
+      "songTitle": "치고 달려라 2014",
+      "title": "치고 달려라 2014",
+      "artists": [
+        "타카피"
+      ],
+      "albumTitle": "Life Goes On 2014",
+      "albumBrowseId": "MPREb_fcSGcqWh7Gy",
+      "duration": "4:15",
+      "durationSeconds": 255,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9UdGRodaXmAiVUE6MstMWgfmCCHXG-5RI4agQs4-n96No5E94r7-BkKUXDb0jGYr4R2I9TqC2gmLHdkO=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MrSaCpGYVGQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=MrSaCpGYVGQ",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "PiLnGZlu2hY",
+      "songTitle": "역전 만루 홈런",
+      "title": "역전 만루 홈런",
+      "artists": [
+        "타카피"
+      ],
+      "albumTitle": "역전 만루 홈런",
+      "albumBrowseId": "MPREb_A8T7QxJBode",
+      "duration": "2:42",
+      "durationSeconds": 162,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ASaVCxpCy3VndB8mxhBjBU0mnSGc2Ti6Gx76DyL51F80j_F3z9JjvHCcZHskNdEPqbP0xjbY2I8wPY1WoQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PiLnGZlu2hY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PiLnGZlu2hY",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "jDgeMVhby4A",
+      "songTitle": "let's jump (feat. Angie)",
+      "title": "let's jump (feat. Angie)",
+      "artists": [
+        "타카피"
+      ],
+      "albumTitle": "let's jump",
+      "albumBrowseId": "MPREb_FQ06GopkYTu",
+      "duration": "2:22",
+      "durationSeconds": 142,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Ud0TYZDHWvxEuAA9bnSh3OlUvlta-adgZAtizMVGfjqcTV9FTUaa9wyq5AUZ_BZYtjCC-keBsqi3D4js=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jDgeMVhby4A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=jDgeMVhby4A",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "wWLBqLMHJ6U",
+      "songTitle": "Jumping Jumping (feat. 백해인)",
+      "title": "Jumping Jumping (feat. 백해인)",
+      "artists": [
+        "타카피"
+      ],
+      "albumTitle": "Slam Dunk Vs Jumping Jumping",
+      "albumBrowseId": "MPREb_rDMU3xs3PJ7",
+      "duration": "3:49",
+      "durationSeconds": 229,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AQdMY0GpaeQr9BVBGu-PcKg8K0Ds0PNiVNoMIN3w_GlMR4BNDM68ydzHqDhdZInTCJ0Gzhy78b12oKYqwA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wWLBqLMHJ6U",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wWLBqLMHJ6U",
+      "source": "ytm_songs_popular",
+      "year": "2014",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "TYR5rjGa3M8",
+      "songTitle": "emo",
+      "title": "emo",
+      "artists": [
+        "타카피"
+      ],
+      "albumTitle": "emo",
+      "albumBrowseId": "MPREb_8Z3odm3ybNp",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/q5RPQpFO7tUYGr7h6TLYzQilJWsaXDesq2zVu9RhHriUa5V43kwbt0_LpddTSwLH-6-wM66yLiQcnYk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TYR5rjGa3M8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TYR5rjGa3M8",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "rh3ff_azSo8",
+      "songTitle": "a young man",
+      "title": "a young man",
+      "artists": [
+        "타카피"
+      ],
+      "albumTitle": "reserve",
+      "albumBrowseId": "MPREb_vzowJtT3HTV",
+      "duration": "3:02",
+      "durationSeconds": 182,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/WX44DTJyCyP9AIdgkyvNhvAcYgNlS1Khu2XgIBlb7x28ETe05O56zhzuueA1JfP7ZkS-vB5nFnxdyp985w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rh3ff_azSo8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=rh3ff_azSo8",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 타카피 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=nFz-T6bP24s%2CBc-aPFHbw-g%2CVd0-JQdv8-A%2C7Kh2z8u1lv8%2CMrSaCpGYVGQ%2CPiLnGZlu2hY%2CjDgeMVhby4A%2CwWLBqLMHJ6U%2CTYR5rjGa3M8%2Crh3ff_azSo8&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%ED%83%80%EC%B9%B4%ED%94%BC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=nFz-T6bP24s&list=RDAMVMnFz-T6bP24s"
+}

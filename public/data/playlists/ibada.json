@@ -1,0 +1,210 @@
+{
+  "artistId": "ibada",
+  "artistName": "이바다",
+  "englishName": "Ibada",
+  "collectedAt": "2026-08-05T12:32:57.755559+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCe3hxA7aGrSB0IAQe0qOaoA",
+    "name": "LEEBADA",
+    "subscribers": "50K",
+    "channelId": "UC_9fa0jUHM2HU_W8K6VGxvA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/cywCMoG-nmvBSWxf3DEPkSlyGMQPCOvs_OfbK9AWtjUeb1-pcvvURQF1U4hjrEZ2FklwGV-mxNhddoOl=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCe3hxA7aGrSB0IAQe0qOaoA"
+  },
+  "tracks": [
+    {
+      "videoId": "5splLOQmahc",
+      "songTitle": "여우",
+      "title": "여우",
+      "artists": [
+        "이바다"
+      ],
+      "albumTitle": "THE OCEAN",
+      "albumBrowseId": "MPREb_tP2aC0DWYzB",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LVR2FDg1giT9I8eDCjhziRWDG_9swdHONKyrRF2huSfx6IY4wyWaU8SPMoQ3XviP0K5jFTHnnsnibI8=w120-h120-s-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5splLOQmahc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5splLOQmahc",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "VkaUpc9JfXE",
+      "songTitle": "야몽음인 (夜夢陰人)",
+      "title": "야몽음인 (夜夢陰人)",
+      "artists": [
+        "이바다"
+      ],
+      "albumTitle": "BLACK OCEAN",
+      "albumBrowseId": "MPREb_AxyAq75Pwbw",
+      "duration": "4:08",
+      "durationSeconds": 248,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/l5DfWRFr2NA4Czj7H-4NljQa2Xi33R2XF4GQuCFpYG1pYYqXJ4jL4Z0LZQhOn-hxEdSt_j_KazcXRggv=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VkaUpc9JfXE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VkaUpc9JfXE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-9HTVkd0Xho",
+      "songTitle": "High (Prod. GroovyRoom) (feat. PENOMECO)",
+      "title": "High (Prod. GroovyRoom) (feat. PENOMECO)",
+      "artists": [
+        "LEEBADA",
+        "PENOMECO"
+      ],
+      "albumTitle": "High (Feat. PENOMECO) (Prod. GroovyRoom)",
+      "albumBrowseId": "MPREb_ruUKcBFYhox",
+      "duration": "3:20",
+      "durationSeconds": 200,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/H7VevElly8EKAWHt34R1sD2WrpK00HpJrA-L2tb-XqlPn7VBxv7BT3KcW7DrLqyB7PTTDoIJIumK7Uo=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-9HTVkd0Xho",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-9HTVkd0Xho",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Hb0KOJ083rY",
+      "songTitle": "파란꽃",
+      "title": "파란꽃",
+      "artists": [
+        "이바다"
+      ],
+      "albumTitle": "BLUE OCEAN",
+      "albumBrowseId": "MPREb_p44lcJFUPgq",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PwQs_D7_iX8CutNfbd9qK0XPyp2Lu9T77ssWSJCu30HjuVdp8L7wRLGr5jyIU6ACq77UcbK3WhQKqcmL=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hb0KOJ083rY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Hb0KOJ083rY",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "UhmFQ4eu73Q",
+      "songTitle": "Silence",
+      "title": "Silence",
+      "artists": [
+        "LEEBADA"
+      ],
+      "albumTitle": "Love me (Original Television Soundtrack) Pt. 1",
+      "albumBrowseId": "MPREb_TfbLTTJgr62",
+      "duration": "3:36",
+      "durationSeconds": 216,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FtCsu57XHVxYr-LilGHvx3IK6s2TGODGFY779Qwy9VAkxuELrlA1Oyafe67JYNjK2uT4E5mGJefJS1AA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UhmFQ4eu73Q",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UhmFQ4eu73Q",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "VTURK-MTT18",
+      "songTitle": "Lonely Hearts Club",
+      "title": "Lonely Hearts Club",
+      "artists": [
+        "Winona Oak",
+        "LEEBADA"
+      ],
+      "albumTitle": "Lonely Hearts Club",
+      "albumBrowseId": "MPREb_yncHcVzi19F",
+      "duration": "3:06",
+      "durationSeconds": 186,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/zqKrQBq1W5dwbbcZ4ZoxKgQqWlfCq0DL-r_v24HTVU6YWMf-2YyMAAGtJe78bHNkZ6rHPdavE6vg_OM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VTURK-MTT18",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VTURK-MTT18",
+      "source": "ytm_songs_popular",
+      "year": "2021",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "5r3Ulg-8_zU",
+      "songTitle": "Pass Away (나를 떠나가는 것들)",
+      "title": "Pass Away (나를 떠나가는 것들)",
+      "artists": [
+        "LEEBADA",
+        "Kang Sunghee"
+      ],
+      "albumTitle": "SingAgain3 - Battle of the Unknown, Ep.4 (From the JTBC TV Show) (싱어게인3 - 무명가수전 Episode.4)",
+      "albumBrowseId": "MPREb_GwQ1Ja49jY1",
+      "duration": "3:16",
+      "durationSeconds": 196,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Vf38FYGZiIHoBkjlu3fjhFUJJnPxpKYaf8D8lVmktKofzoaI2uce82JEetNQ6xEHTAKSa6H-PL5ouec=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5r3Ulg-8_zU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5r3Ulg-8_zU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-ysreecrkfY",
+      "songTitle": "Earth to Venus",
+      "title": "Earth to Venus",
+      "artists": [
+        "LEEBADA"
+      ],
+      "albumTitle": "Earth to Venus",
+      "albumBrowseId": "MPREb_0CpWFFoi2QH",
+      "duration": "3:15",
+      "durationSeconds": 195,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1t2__RlIQz3WjF8B_tjYJL5r2s62xyibjd6kyIcky50K072T3_5eSsh0CNcadJ_ce4DWSo8i_ulgDtYH=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-ysreecrkfY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-ysreecrkfY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "nWWqKXCZMGM",
+      "songTitle": "Eternal",
+      "title": "Eternal",
+      "artists": [
+        "LEEBADA"
+      ],
+      "albumTitle": "Moon in the day, Pt. 3 (Original Soundtrack)",
+      "albumBrowseId": "MPREb_Vwi5IHIzNpQ",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/bpUdWyXfqQRyoI-z9vDhiUhApagfWQtVls6CaBj3dzVtmS_LR8TTNjP0IYCgKg3ieZq3BCz-zsd-rMG9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nWWqKXCZMGM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nWWqKXCZMGM",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "CKLnTfnNfKM",
+      "songTitle": "Existence",
+      "title": "Existence",
+      "artists": [
+        "LEEBADA"
+      ],
+      "albumTitle": "Existence",
+      "albumBrowseId": "MPREb_AKXcaUdcoZn",
+      "duration": "2:57",
+      "durationSeconds": 177,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/HYEyMSGIpGgk_LwKF5c2u4I6YrEsaHXNfXFeJOAbglvj-KHqb7A9ah937NCWUF1Q3o_AViZpGaLqwTY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CKLnTfnNfKM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CKLnTfnNfKM",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "이바다 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=5splLOQmahc%2CVkaUpc9JfXE%2C-9HTVkd0Xho%2CHb0KOJ083rY%2CUhmFQ4eu73Q%2CVTURK-MTT18%2C5r3Ulg-8_zU%2C-ysreecrkfY%2CnWWqKXCZMGM%2CCKLnTfnNfKM&title=%EC%9D%B4%EB%B0%94%EB%8B%A4+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=5splLOQmahc&list=RDAMVM5splLOQmahc"
+}

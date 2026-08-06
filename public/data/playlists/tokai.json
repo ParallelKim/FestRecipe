@@ -1,0 +1,208 @@
+{
+  "artistId": "tokai",
+  "artistName": "Tokai",
+  "englishName": "Tokai",
+  "collectedAt": "2026-08-05T12:30:51.685121+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": 970,
+    "latestSlotLabel": "16:10",
+    "festivalId": "jumf-2026",
+    "rank": 0.371,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCJDQtjpQRecS6iKbxfBOkJQ",
+    "name": "Tokai",
+    "subscribers": "6.28K",
+    "channelId": "UCiMphKcWnc2oNMUCYPJPsDQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/AzuPieVWVOwQgAOHaLpJi-NZN9hZlrQp58YDJNS3Xsy2khiTJYGKmynOR-xH1gSq-FqhUyGJWki6Ew=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCJDQtjpQRecS6iKbxfBOkJQ"
+  },
+  "tracks": [
+    {
+      "videoId": "ZJQ_Gr4t61w",
+      "songTitle": "not us.",
+      "title": "not us.",
+      "artists": [
+        "Tokai"
+      ],
+      "albumTitle": "burning.",
+      "albumBrowseId": "MPREb_gmsAlCWeoG8",
+      "duration": "3:02",
+      "durationSeconds": 182,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SvmnVFvQ6SLh1MnzorjxlcpBOKLWaA7eEbTgVjNqijxKYPVm5_2zb-deO4s-Eo5NnuaoOLLL-3LmiV_7=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZJQ_Gr4t61w",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZJQ_Gr4t61w",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "R_qA67pUQKw",
+      "songTitle": "Kyokuya Fumei",
+      "title": "Kyokuya Fumei",
+      "artists": [
+        "Tokai"
+      ],
+      "albumTitle": "shining.",
+      "albumBrowseId": "MPREb_jjpYvfkVx3t",
+      "duration": "3:03",
+      "durationSeconds": 183,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AUFZiVppeB212Um4Hbw15GC6BpUNLmjft4nZNnufnzAmkNxgx-2kI3b4CoNrv9rsB50JlKUUxKN1beg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=R_qA67pUQKw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=R_qA67pUQKw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "8kD62htERd0",
+      "songTitle": "round",
+      "title": "round",
+      "artists": [
+        "Tokai"
+      ],
+      "albumTitle": "Comikai",
+      "albumBrowseId": "MPREb_SGP5UooDhBu",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kDEstu4spTeWnzxBpvcuJvtgRtTG5L2_n988mJyDNS0Ec_A-b5fJaboelyx3C5IK6S1OOXSmny3VSf0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8kD62htERd0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8kD62htERd0",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "5qzbyFjuL7k",
+      "songTitle": "Youth!",
+      "title": "Youth!",
+      "artists": [
+        "Tokai"
+      ],
+      "albumTitle": "burning.",
+      "albumBrowseId": "MPREb_gmsAlCWeoG8",
+      "duration": "3:46",
+      "durationSeconds": 226,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SvmnVFvQ6SLh1MnzorjxlcpBOKLWaA7eEbTgVjNqijxKYPVm5_2zb-deO4s-Eo5NnuaoOLLL-3LmiV_7=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5qzbyFjuL7k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5qzbyFjuL7k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WDtkFVxmzQY",
+      "songTitle": "breathing.",
+      "title": "breathing.",
+      "artists": [
+        "Tokai"
+      ],
+      "albumTitle": "breathing.",
+      "albumBrowseId": "MPREb_OMDvZlRj8tl",
+      "duration": "3:17",
+      "durationSeconds": 197,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/GloA8CAw8apDtP5O0YoZJU5fw9F8kavYYZ6s_jdbHlK7n5W6NpgbHcHY5ZuQJOh3FzUva13kOeVBiD_N=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WDtkFVxmzQY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WDtkFVxmzQY",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "UdFRaQ-2lco",
+      "songTitle": "Marigolds",
+      "title": "Marigolds",
+      "artists": [
+        "Tokai"
+      ],
+      "albumTitle": "burning.",
+      "albumBrowseId": "MPREb_gmsAlCWeoG8",
+      "duration": "4:06",
+      "durationSeconds": 246,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/SvmnVFvQ6SLh1MnzorjxlcpBOKLWaA7eEbTgVjNqijxKYPVm5_2zb-deO4s-Eo5NnuaoOLLL-3LmiV_7=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UdFRaQ-2lco",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=UdFRaQ-2lco",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "EMgZNetcBBs",
+      "songTitle": "mannerism",
+      "title": "mannerism",
+      "artists": [
+        "Tokai"
+      ],
+      "albumTitle": "Comikai",
+      "albumBrowseId": "MPREb_SGP5UooDhBu",
+      "duration": "3:48",
+      "durationSeconds": 228,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kDEstu4spTeWnzxBpvcuJvtgRtTG5L2_n988mJyDNS0Ec_A-b5fJaboelyx3C5IK6S1OOXSmny3VSf0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EMgZNetcBBs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EMgZNetcBBs",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "DuOyxSofS28",
+      "songTitle": "himawari",
+      "title": "himawari",
+      "artists": [
+        "Tokai"
+      ],
+      "albumTitle": "Comikai",
+      "albumBrowseId": "MPREb_SGP5UooDhBu",
+      "duration": "5:00",
+      "durationSeconds": 300,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kDEstu4spTeWnzxBpvcuJvtgRtTG5L2_n988mJyDNS0Ec_A-b5fJaboelyx3C5IK6S1OOXSmny3VSf0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DuOyxSofS28",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DuOyxSofS28",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "N-TlaKRRLWE",
+      "songTitle": "echo",
+      "title": "echo",
+      "artists": [
+        "Tokai"
+      ],
+      "albumTitle": "Comikai",
+      "albumBrowseId": "MPREb_SGP5UooDhBu",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kDEstu4spTeWnzxBpvcuJvtgRtTG5L2_n988mJyDNS0Ec_A-b5fJaboelyx3C5IK6S1OOXSmny3VSf0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=N-TlaKRRLWE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=N-TlaKRRLWE",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "TqmjTkVshak",
+      "songTitle": "sway",
+      "title": "sway",
+      "artists": [
+        "Tokai"
+      ],
+      "albumTitle": "shining.",
+      "albumBrowseId": "MPREb_jjpYvfkVx3t",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/AUFZiVppeB212Um4Hbw15GC6BpUNLmjft4nZNnufnzAmkNxgx-2kI3b4CoNrv9rsB50JlKUUxKN1beg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TqmjTkVshak",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TqmjTkVshak",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 Tokai 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ZJQ_Gr4t61w%2CR_qA67pUQKw%2C8kD62htERd0%2C5qzbyFjuL7k%2CWDtkFVxmzQY%2CUdFRaQ-2lco%2CEMgZNetcBBs%2CDuOyxSofS28%2CN-TlaKRRLWE%2CTqmjTkVshak&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+Tokai+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ZJQ_Gr4t61w&list=RDAMVMZJQ_Gr4t61w"
+}

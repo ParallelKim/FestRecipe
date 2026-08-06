@@ -33,6 +33,6 @@
 
 ## 아티스트 표기 · 카피 · SEO
 
-- 표기: [`ARTIST_DISPLAY_NAMES.md`](./ARTIST_DISPLAY_NAMES.md)
+- 표기: 아티스트는 내부 id, 페스티벌 화면 표기는 `artistDisplays` 매핑 — [`ARTIST_DISPLAY_NAMES.md`](./ARTIST_DISPLAY_NAMES.md)
 - 카피: [`TONE_AND_MANNER.md`](./TONE_AND_MANNER.md)
 - SEO: [`SEO.md`](./SEO.md)

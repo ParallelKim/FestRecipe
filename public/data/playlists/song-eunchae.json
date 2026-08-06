@@ -1,0 +1,160 @@
+{
+  "artistId": "song-eunchae",
+  "artistName": "송은채",
+  "englishName": "Song Eunchae",
+  "collectedAt": "2026-08-05T12:33:40.320141+00:00",
+  "source": "youtube_music",
+  "selection": "songs_search",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 9,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": null,
+    "name": "송은채",
+    "note": "No dedicated YTM artist channel; tracks from song search"
+  },
+  "tracks": [
+    {
+      "videoId": "SP_IZEZOnBM",
+      "songTitle": "Stay",
+      "title": "Stay",
+      "artists": [
+        "송은채"
+      ],
+      "albumTitle": "A shade tree",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iswI50-5B946SQ6orNLOTxMJgAt21LshurypeLKn1MRDoraDSpHuUrFw5wWFD-yRK-4aTRLAwTwW8l_44g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SP_IZEZOnBM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SP_IZEZOnBM",
+      "source": "songs_search"
+    },
+    {
+      "videoId": "o0Iq7hRfDp8",
+      "songTitle": "Dear Spring",
+      "title": "Dear Spring",
+      "artists": [
+        "Song EunChae"
+      ],
+      "albumTitle": "Bus to Cheongju",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dPbEnwxksqQFV7AIjMM5LqkzaVENP35p1RMFaPSflpeWLVYfPZ6zxwz0CtRODyVJHVWWTAbFi6Gylwg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o0Iq7hRfDp8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=o0Iq7hRfDp8",
+      "source": "songs_search"
+    },
+    {
+      "videoId": "egNW3fPHvVw",
+      "songTitle": "Confession",
+      "title": "Confession",
+      "artists": [
+        "송은채"
+      ],
+      "albumTitle": "A shade tree",
+      "duration": "3:50",
+      "durationSeconds": 230,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iswI50-5B946SQ6orNLOTxMJgAt21LshurypeLKn1MRDoraDSpHuUrFw5wWFD-yRK-4aTRLAwTwW8l_44g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=egNW3fPHvVw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=egNW3fPHvVw",
+      "source": "songs_search"
+    },
+    {
+      "videoId": "0-tI6XmVH78",
+      "songTitle": "Don't leave me",
+      "title": "Don't leave me",
+      "artists": [
+        "송은채"
+      ],
+      "albumTitle": "A shade tree",
+      "duration": "4:20",
+      "durationSeconds": 260,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iswI50-5B946SQ6orNLOTxMJgAt21LshurypeLKn1MRDoraDSpHuUrFw5wWFD-yRK-4aTRLAwTwW8l_44g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0-tI6XmVH78",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0-tI6XmVH78",
+      "source": "songs_search"
+    },
+    {
+      "videoId": "yttiWppVNGE",
+      "songTitle": "날 그냥 내버려 둬",
+      "title": "날 그냥 내버려 둬",
+      "artists": [
+        "송은채"
+      ],
+      "albumTitle": "날 그냥 내버려 둬",
+      "duration": "4:31",
+      "durationSeconds": 271,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7ZNHSj1IF8q5uP7M5qPEsf3rGKfnp_yKofSy8eR3LY0vnUCeKrUsoNpzm_9s1b_D65wTeyahxGN2dKXkhg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yttiWppVNGE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=yttiWppVNGE",
+      "source": "songs_search"
+    },
+    {
+      "videoId": "0oKIa8ZXGqI",
+      "songTitle": "Bus to Cheongju",
+      "title": "Bus to Cheongju",
+      "artists": [
+        "Song EunChae"
+      ],
+      "albumTitle": "Bus to Cheongju",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dPbEnwxksqQFV7AIjMM5LqkzaVENP35p1RMFaPSflpeWLVYfPZ6zxwz0CtRODyVJHVWWTAbFi6Gylwg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0oKIa8ZXGqI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0oKIa8ZXGqI",
+      "source": "songs_search"
+    },
+    {
+      "videoId": "-uoQ-Ds6Z8g",
+      "songTitle": "Bored",
+      "title": "Bored",
+      "artists": [
+        "Eunchae Song"
+      ],
+      "albumTitle": "HOMETOWN #1",
+      "duration": "3:28",
+      "durationSeconds": 208,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2OuDcuS-8B5681ymN6V8X51tUbQo9piFy3rquIj1BGXlGIwgAuKFgxfONxcgc3k2LBTXqGdKxqOaQxA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-uoQ-Ds6Z8g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-uoQ-Ds6Z8g",
+      "source": "songs_search"
+    },
+    {
+      "videoId": "CH4Mx3T155c",
+      "songTitle": "Slow day (Intro)",
+      "title": "Slow day (Intro)",
+      "artists": [
+        "송은채"
+      ],
+      "albumTitle": "A shade tree",
+      "duration": "1:31",
+      "durationSeconds": 91,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iswI50-5B946SQ6orNLOTxMJgAt21LshurypeLKn1MRDoraDSpHuUrFw5wWFD-yRK-4aTRLAwTwW8l_44g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CH4Mx3T155c",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CH4Mx3T155c",
+      "source": "songs_search"
+    },
+    {
+      "videoId": "YgbPog-w8hc",
+      "songTitle": "BAB TONG",
+      "title": "BAB TONG",
+      "artists": [
+        "송은채"
+      ],
+      "albumTitle": "A shade tree",
+      "duration": "5:29",
+      "durationSeconds": 329,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/iswI50-5B946SQ6orNLOTxMJgAt21LshurypeLKn1MRDoraDSpHuUrFw5wWFD-yRK-4aTRLAwTwW8l_44g=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YgbPog-w8hc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=YgbPog-w8hc",
+      "source": "songs_search"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 송은채 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=SP_IZEZOnBM%2Co0Iq7hRfDp8%2CegNW3fPHvVw%2C0-tI6XmVH78%2CyttiWppVNGE%2C0oKIa8ZXGqI%2C-uoQ-Ds6Z8g%2CCH4Mx3T155c%2CYgbPog-w8hc&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%86%A1%EC%9D%80%EC%B1%84+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=SP_IZEZOnBM&list=RDAMVMSP_IZEZOnBM"
+}

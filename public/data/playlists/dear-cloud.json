@@ -1,0 +1,209 @@
+{
+  "artistId": "dear-cloud",
+  "artistName": "디어클라우드",
+  "englishName": "Dear Cloud",
+  "collectedAt": "2026-08-05T12:30:15.158219+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCa3EUnke4HfoSm9gQRLZs5g",
+    "name": "Dear Cloud",
+    "subscribers": "6.45K",
+    "channelId": "UCOoW0X5tgoTzc_0DK_h_EPA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/y0O2h-xxfKox44h44bhTC_PtHwRaNkMp5SL1AeYGmeqqmyrsZj_LvA1IAAVjsiRe843NkketqQ=w2400-h1000-l90-rj-dcBXCWBK_oLSsC",
+    "url": "https://music.youtube.com/channel/UCa3EUnke4HfoSm9gQRLZs5g"
+  },
+  "tracks": [
+    {
+      "videoId": "B8jIQdEKv0A",
+      "songTitle": "얼음요새",
+      "title": "얼음요새",
+      "artists": [
+        "Dear Cloud"
+      ],
+      "albumTitle": "Dear Cloud",
+      "albumBrowseId": "MPREb_nmfSaUAoMyr",
+      "duration": "4:33",
+      "durationSeconds": 273,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/r37sIEalcwHoz7erb-vdQVwpQD-OF4o9XSNGEAjokY8gur1UoRTsIVpIXYCIobY2RyXa-BXXVedhGuZ4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=B8jIQdEKv0A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=B8jIQdEKv0A",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "HiME3N6ri6k",
+      "songTitle": "Remember",
+      "title": "Remember",
+      "artists": [
+        "디어클라우드"
+      ],
+      "albumTitle": "너를 기억해 (KBS 월화드라마) OST - Part.1",
+      "albumBrowseId": "MPREb_t6lhibQLrKB",
+      "duration": "4:38",
+      "durationSeconds": 278,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/vA_wBhN_TIMASIGg9iC7hbRWa52xrysloW58ds5K8GH74qhn4YaB0x0rW2Rg1jN6g_YfQZhPvnNfRA0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HiME3N6ri6k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HiME3N6ri6k",
+      "source": "ytm_songs_popular",
+      "year": "2015",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "Fp80cDNYeOM",
+      "songTitle": "Love Again",
+      "title": "Love Again",
+      "artists": [
+        "Dear Cloud"
+      ],
+      "albumTitle": "Queen For Seven Days (Original Television Soundtrack) Pt.3",
+      "albumBrowseId": "MPREb_mlHQzYWsatg",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/A1wwiOWQptarYvO5VBRUUgVX8Z5EQpHgXoAkBR16RRIHJJIm0G9JztebjEWYj0TvtA2D28Wrzgwb3qKV3A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Fp80cDNYeOM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Fp80cDNYeOM",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "JNGNW3z7Rc8",
+      "songTitle": "또한번 사랑해 (Instrumental)",
+      "title": "또한번 사랑해 (Instrumental)",
+      "artists": [
+        "Dear Cloud"
+      ],
+      "albumTitle": "Queen For Seven Days (Original Television Soundtrack) Pt.3",
+      "albumBrowseId": "MPREb_mlHQzYWsatg",
+      "duration": "3:58",
+      "durationSeconds": 238,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/A1wwiOWQptarYvO5VBRUUgVX8Z5EQpHgXoAkBR16RRIHJJIm0G9JztebjEWYj0TvtA2D28Wrzgwb3qKV3A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JNGNW3z7Rc8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JNGNW3z7Rc8",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "vS8LEjYJNlI",
+      "songTitle": "beside you(네 곁에 있어)",
+      "title": "beside you(네 곁에 있어)",
+      "artists": [
+        "dear cloud"
+      ],
+      "albumTitle": "MY DEAR, MY LOVER",
+      "albumBrowseId": "MPREb_U2bSxaPa7iJ",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/j19BKcCOfb2ka8CkQ8jmm2Gs70wwWvire6Ahgx_ji1fCWD84oA5U4q4jkiraDnfeyfhGsh9bYBXFfro=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vS8LEjYJNlI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vS8LEjYJNlI",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "0_KKVcvDwwg",
+      "songTitle": "늦은 혼잣말",
+      "title": "늦은 혼잣말",
+      "artists": [
+        "디어 클라우드 (Dear Cloud)"
+      ],
+      "albumTitle": "Grey",
+      "albumBrowseId": "MPREb_wU7kXbd4j60",
+      "duration": "4:12",
+      "durationSeconds": 252,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/g8a1YxKFI4a-xAK_XjbdobapTJb0ec7UNXvqlcPzslAeTB0g_sehxKHQMlb91XeV68JhPfy7F1B5WfY=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0_KKVcvDwwg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=0_KKVcvDwwg",
+      "source": "ytm_songs_popular",
+      "year": "2008",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "kBmBQXVIOnk",
+      "songTitle": "Don't disappear",
+      "title": "Don't disappear",
+      "artists": [
+        "디어클라우드"
+      ],
+      "albumTitle": "Take The Air",
+      "albumBrowseId": "MPREb_UiPaIwy3XE8",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JFYDowfASu72jy5SLgTh6dEepQ5x57bwXVeOp9gKzJOBvGGEFtB3ax32eocUW1MEmVgfVkRZ21WdElQu=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kBmBQXVIOnk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=kBmBQXVIOnk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "TT7hWO9ukIk",
+      "songTitle": "Same place, same song",
+      "title": "Same place, same song",
+      "artists": [
+        "디어클라우드"
+      ],
+      "albumTitle": "Take The Air",
+      "albumBrowseId": "MPREb_UiPaIwy3XE8",
+      "duration": "4:21",
+      "durationSeconds": 261,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JFYDowfASu72jy5SLgTh6dEepQ5x57bwXVeOp9gKzJOBvGGEFtB3ax32eocUW1MEmVgfVkRZ21WdElQu=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TT7hWO9ukIk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=TT7hWO9ukIk",
+      "source": "ytm_songs_popular",
+      "year": "2010",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "S-mXvzvL7x0",
+      "songTitle": "Silver Lining",
+      "title": "Silver Lining",
+      "artists": [
+        "Dear Cloud"
+      ],
+      "albumTitle": "Silver Lining",
+      "albumBrowseId": "MPREb_X6inhP0dYK2",
+      "duration": "4:05",
+      "durationSeconds": 245,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/itbeFI2Zsw_2DYEjl8U5CRMZ1VA-Gi2GAHKnQOPkKClpMNZNnsN41XshK7ptsj5cxvUgu2tnZy5EIBU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=S-mXvzvL7x0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=S-mXvzvL7x0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "nHFdco-HQ7o",
+      "songTitle": "넌 아름답기만 한 기억으로",
+      "title": "넌 아름답기만 한 기억으로",
+      "artists": [
+        "Dear Cloud"
+      ],
+      "albumTitle": "Dear Cloud",
+      "albumBrowseId": "MPREb_nmfSaUAoMyr",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/r37sIEalcwHoz7erb-vdQVwpQD-OF4o9XSNGEAjokY8gur1UoRTsIVpIXYCIobY2RyXa-BXXVedhGuZ4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nHFdco-HQ7o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=nHFdco-HQ7o",
+      "source": "ytm_songs_popular",
+      "year": "2007",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "디어클라우드 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=B8jIQdEKv0A%2CHiME3N6ri6k%2CFp80cDNYeOM%2CJNGNW3z7Rc8%2CvS8LEjYJNlI%2C0_KKVcvDwwg%2CkBmBQXVIOnk%2CTT7hWO9ukIk%2CS-mXvzvL7x0%2CnHFdco-HQ7o&title=%EB%94%94%EC%96%B4%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=B8jIQdEKv0A&list=RDAMVMB8jIQdEKv0A"
+}

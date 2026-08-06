@@ -1,0 +1,206 @@
+{
+  "artistId": "axmxp",
+  "artistName": "AxMxP",
+  "englishName": "AxMxP",
+  "collectedAt": "2026-08-05T12:30:07.287758+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCP05mdnO1Nut4cgz0ys3gDw",
+    "name": "AxMxP",
+    "subscribers": "314K",
+    "channelId": "UC8caKDwgP2a51iuGEb4b3yA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/NZt-f1ROJ_giP9muQdaflupvjPPPfC8RcjV_GgFN7zkEsozX-qcOunaC8GxP8ujNvi6BduNmgbudJTk=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCP05mdnO1Nut4cgz0ys3gDw"
+  },
+  "tracks": [
+    {
+      "videoId": "hyuzYTv9unc",
+      "songTitle": "24 Hours",
+      "title": "24 Hours",
+      "artists": [
+        "AxMxP"
+      ],
+      "albumTitle": "24 Hours",
+      "albumBrowseId": "MPREb_ICta0p2mJ7V",
+      "duration": "2:39",
+      "durationSeconds": 159,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/02kbaHZI6PHuKXdPzVAb0VF8MhC7yIwkv1tLF9vZG6fD1psLBOcg11ZIn96kcpCdRFXWcC5SWcO25MRc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hyuzYTv9unc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=hyuzYTv9unc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "s4mQvhbc270",
+      "songTitle": "SEE YOU LATER",
+      "title": "SEE YOU LATER",
+      "artists": [
+        "AxMxP"
+      ],
+      "albumTitle": "Spring of Youth (Original Soundtrack) Part.1",
+      "albumBrowseId": "MPREb_rMsrPYrkGAc",
+      "duration": "2:41",
+      "durationSeconds": 161,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qzhrSMDr5FCxzAYqx2eycFKqyZkFFpDP_27p0OtsCFQbQWjiVMXqxoPAYgIobLGlZcPuGogDOrQT47A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s4mQvhbc270",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=s4mQvhbc270",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "8UVVnA8XKgE",
+      "songTitle": "Shocking Drama",
+      "title": "Shocking Drama",
+      "artists": [
+        "AxMxP"
+      ],
+      "albumTitle": "AxMxP",
+      "albumBrowseId": "MPREb_JvTo6IbXfCU",
+      "duration": "2:20",
+      "durationSeconds": 140,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lUWySyE4YqwbSVFEwwwFn7EIRJT5e0w_PFXh6LvLJ5YHHjoL6PD_LKymJ32-2ZiLY2SIz5FRVGcH2Xc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8UVVnA8XKgE",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8UVVnA8XKgE",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "QUrjKW1GR5s",
+      "songTitle": "Thereafter",
+      "title": "Thereafter",
+      "artists": [
+        "AxMxP"
+      ],
+      "albumTitle": "Amplify My Way",
+      "albumBrowseId": "MPREb_vr1OnnjWmAG",
+      "duration": "2:32",
+      "durationSeconds": 152,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eKj5EUN5dJNQQQGmfG1-aL9rnJEvtc5CFT0LOUSIyGBI2JdAhs9ZbzqD7cEliQF-bQHS7a7I7s0EXR3k=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QUrjKW1GR5s",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=QUrjKW1GR5s",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "v-QajRnzWYU",
+      "songTitle": "너는 나를 시인으로 만들어 (Love Poem)",
+      "title": "너는 나를 시인으로 만들어 (Love Poem)",
+      "artists": [
+        "AxMxP"
+      ],
+      "albumTitle": "AxMxP",
+      "albumBrowseId": "MPREb_JvTo6IbXfCU",
+      "duration": "3:12",
+      "durationSeconds": 192,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lUWySyE4YqwbSVFEwwwFn7EIRJT5e0w_PFXh6LvLJ5YHHjoL6PD_LKymJ32-2ZiLY2SIz5FRVGcH2Xc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v-QajRnzWYU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=v-QajRnzWYU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "oxlGR9Mk9jo",
+      "songTitle": "우기가 찾아와 (Season of Tears)",
+      "title": "우기가 찾아와 (Season of Tears)",
+      "artists": [
+        "AxMxP"
+      ],
+      "albumTitle": "AxMxP",
+      "albumBrowseId": "MPREb_JvTo6IbXfCU",
+      "duration": "2:35",
+      "durationSeconds": 155,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lUWySyE4YqwbSVFEwwwFn7EIRJT5e0w_PFXh6LvLJ5YHHjoL6PD_LKymJ32-2ZiLY2SIz5FRVGcH2Xc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oxlGR9Mk9jo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=oxlGR9Mk9jo",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "WDCX8bKblYc",
+      "songTitle": "PASS",
+      "title": "PASS",
+      "artists": [
+        "AxMxP"
+      ],
+      "albumTitle": "Amplify My Way",
+      "albumBrowseId": "MPREb_vr1OnnjWmAG",
+      "duration": "2:38",
+      "durationSeconds": 158,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eKj5EUN5dJNQQQGmfG1-aL9rnJEvtc5CFT0LOUSIyGBI2JdAhs9ZbzqD7cEliQF-bQHS7a7I7s0EXR3k=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WDCX8bKblYc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WDCX8bKblYc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "XXjcVG6J9TI",
+      "songTitle": "너만 모르는 나의 이야기 (My Secret Story)",
+      "title": "너만 모르는 나의 이야기 (My Secret Story)",
+      "artists": [
+        "AxMxP"
+      ],
+      "albumTitle": "AxMxP",
+      "albumBrowseId": "MPREb_JvTo6IbXfCU",
+      "duration": "2:45",
+      "durationSeconds": 165,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lUWySyE4YqwbSVFEwwwFn7EIRJT5e0w_PFXh6LvLJ5YHHjoL6PD_LKymJ32-2ZiLY2SIz5FRVGcH2Xc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XXjcVG6J9TI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XXjcVG6J9TI",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "JXGifEFhmIs",
+      "songTitle": "White T-shirt",
+      "title": "White T-shirt",
+      "artists": [
+        "AxMxP"
+      ],
+      "albumTitle": "AxMxP",
+      "albumBrowseId": "MPREb_JvTo6IbXfCU",
+      "duration": "2:56",
+      "durationSeconds": 176,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lUWySyE4YqwbSVFEwwwFn7EIRJT5e0w_PFXh6LvLJ5YHHjoL6PD_LKymJ32-2ZiLY2SIz5FRVGcH2Xc=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JXGifEFhmIs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JXGifEFhmIs",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "62MFyi8Crus",
+      "songTitle": "I Melody You",
+      "title": "I Melody You",
+      "artists": [
+        "AxMxP"
+      ],
+      "albumTitle": "Amplify My Way",
+      "albumBrowseId": "MPREb_vr1OnnjWmAG",
+      "duration": "2:33",
+      "durationSeconds": 153,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eKj5EUN5dJNQQQGmfG1-aL9rnJEvtc5CFT0LOUSIyGBI2JdAhs9ZbzqD7cEliQF-bQHS7a7I7s0EXR3k=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=62MFyi8Crus",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=62MFyi8Crus",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "AxMxP 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=hyuzYTv9unc%2Cs4mQvhbc270%2C8UVVnA8XKgE%2CQUrjKW1GR5s%2Cv-QajRnzWYU%2CoxlGR9Mk9jo%2CWDCX8bKblYc%2CXXjcVG6J9TI%2CJXGifEFhmIs%2C62MFyi8Crus&title=AxMxP+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=hyuzYTv9unc&list=RDAMVMhyuzYTv9unc"
+}

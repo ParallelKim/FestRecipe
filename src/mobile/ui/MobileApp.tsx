@@ -197,7 +197,6 @@ export default function MobileApp({
           <MobileArtistList
             artistIds={listArtistIds}
             artists={artistMap}
-            playlistReady={playlistReady}
             lineupIds={lineup.artistIds}
             selectedArtistId={selectedArtistId ?? undefined}
             onArtistClick={openArtist}

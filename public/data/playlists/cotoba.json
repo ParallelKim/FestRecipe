@@ -1,0 +1,204 @@
+{
+  "artistId": "cotoba",
+  "artistName": "cotoba",
+  "englishName": "cotoba",
+  "collectedAt": "2026-08-05T12:30:12.353470+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCoOAYdXwSWlxQzCiczaGcTg",
+    "name": "cotoba",
+    "subscribers": "69.1K",
+    "channelId": "UCwKf8Qw6Um090LXWTgIP-sQ",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/05FH6ZiqHRn3MlgQJ2AYcU-jjg-cUbxgtNBFeG5OJGkHSmwjZSVQZA9d8hktbVZVw-EO-Vy2iaCK-fo=w1920-h800-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCoOAYdXwSWlxQzCiczaGcTg"
+  },
+  "tracks": [
+    {
+      "videoId": "LxEff8wDCDc",
+      "songTitle": "coii",
+      "title": "coii",
+      "artists": [
+        "cotoba"
+      ],
+      "albumTitle": "Humanoid operational",
+      "albumBrowseId": "MPREb_CHt866WsjKH",
+      "duration": "5:01",
+      "durationSeconds": 301,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/gS6U40ZnFyzV2_eWIHqBbiHhcC6fCW8u1ky570BzeWJOSqFY9ZM9SJTHJwVVHAcmwEhgKG8JZ3wr4sbw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LxEff8wDCDc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LxEff8wDCDc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Qvu4CemU-Bc",
+      "songTitle": "oatmeal",
+      "title": "oatmeal",
+      "artists": [
+        "cotoba"
+      ],
+      "albumTitle": "Form Of Tongue",
+      "albumBrowseId": "MPREb_9iYijhEtsfj",
+      "duration": "3:54",
+      "durationSeconds": 234,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2Yp79b4NR4M2KTp0OqOUA0s4ei-VFPqZlZchqYdRCtsE-y5ixA2tOWkBiwdkt24qN-xauCHdK4Jr8Mj6mg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Qvu4CemU-Bc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Qvu4CemU-Bc",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "c__LMIDL05o",
+      "songTitle": "melon 2022 Version",
+      "title": "melon 2022 Version",
+      "artists": [
+        "cotoba"
+      ],
+      "albumTitle": "4pricøt",
+      "albumBrowseId": "MPREb_2HpVDJA01tg",
+      "duration": "5:02",
+      "durationSeconds": 302,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/zRs11vrARVHwhXtMfFqWikdBKTdt10u2Jf9bxzBfD4reOeLzl7DlKbGMGlcgwlJ08f3y6oVqIn0oGwaI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c__LMIDL05o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=c__LMIDL05o",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "PyPmBazrdfU",
+      "songTitle": "syhi",
+      "title": "syhi",
+      "artists": [
+        "cotoba"
+      ],
+      "albumTitle": "sin swims",
+      "albumBrowseId": "MPREb_NDP4q2oaMJt",
+      "duration": "3:59",
+      "durationSeconds": 239,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3X-w9mblLF6rGXefLpwo0bRIALsk3rQKGxONbOURJMTfN3qXIonS2WvRS_PW0RD50wDfGei90kvn-Ms=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PyPmBazrdfU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PyPmBazrdfU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "mlFXqzmwqzc",
+      "songTitle": "Luminous overflows",
+      "title": "Luminous overflows",
+      "artists": [
+        "cotoba"
+      ],
+      "albumTitle": "Luminous overflows",
+      "albumBrowseId": "MPREb_BPnIpmwlgjO",
+      "duration": "4:06",
+      "durationSeconds": 246,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/dXJU2f3Gfmj-J8BASVJidAah7TUqUxrjtHUxyDk9ZcjobguztIFB1UgW8Nr5Qmls3cB3cNTHSF9pLEa5Eg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mlFXqzmwqzc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=mlFXqzmwqzc",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "ZzS0awE93Ns",
+      "songTitle": "Loss",
+      "title": "Loss",
+      "artists": [
+        "cotoba"
+      ],
+      "albumTitle": "Loss",
+      "albumBrowseId": "MPREb_UK8o1bdpQmF",
+      "duration": "5:09",
+      "durationSeconds": 309,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/V6aMh_kvO26AI-mPMQ00rJ0O4C7qTylQZM0p7i-I2DlV6ld5-SHipLnJE3pD8QvaEZ08w_U9-Pbu4tk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZzS0awE93Ns",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZzS0awE93Ns",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "3roRhxzJTos",
+      "songTitle": "sin",
+      "title": "sin",
+      "artists": [
+        "cotoba"
+      ],
+      "albumTitle": "sin swims",
+      "albumBrowseId": "MPREb_NDP4q2oaMJt",
+      "duration": "4:53",
+      "durationSeconds": 293,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3X-w9mblLF6rGXefLpwo0bRIALsk3rQKGxONbOURJMTfN3qXIonS2WvRS_PW0RD50wDfGei90kvn-Ms=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3roRhxzJTos",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3roRhxzJTos",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7hSUxHMdX4M",
+      "songTitle": "reyn KR version",
+      "title": "reyn KR version",
+      "artists": [
+        "cotoba"
+      ],
+      "albumTitle": "Name of The Seasons",
+      "albumBrowseId": "MPREb_b93TEhXDHSa",
+      "duration": "4:37",
+      "durationSeconds": 277,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mql7JHqSDO79Ati9ngdEK2tnRRS7anIVJtp0Ate3oJLy0Qz_Ebf4ElSRx4TksfzUrWsje2hd1ajRGAg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7hSUxHMdX4M",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7hSUxHMdX4M",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Xxter5aOKLA",
+      "songTitle": "Free will",
+      "title": "Free will",
+      "artists": [
+        "cotoba"
+      ],
+      "albumTitle": "4pricøt",
+      "albumBrowseId": "MPREb_2HpVDJA01tg",
+      "duration": "4:57",
+      "durationSeconds": 297,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/zRs11vrARVHwhXtMfFqWikdBKTdt10u2Jf9bxzBfD4reOeLzl7DlKbGMGlcgwlJ08f3y6oVqIn0oGwaI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Xxter5aOKLA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Xxter5aOKLA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "69NByfA2NxI",
+      "songTitle": "coii Single Version",
+      "title": "coii Single Version",
+      "artists": [
+        "cotoba"
+      ],
+      "albumTitle": "co-isolation Single Version",
+      "albumBrowseId": "MPREb_mnYrsUdZmEb",
+      "duration": "5:03",
+      "durationSeconds": 303,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/lKdlXcuT2czhQWQuOiECLyX6jgj-YEog9G-rNBR3QT2gcaHgn0KwiAhIeMaM5rChpCYvIPx2m1o1ntU=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=69NByfA2NxI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=69NByfA2NxI",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "cotoba 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=LxEff8wDCDc%2CQvu4CemU-Bc%2Cc__LMIDL05o%2CPyPmBazrdfU%2CmlFXqzmwqzc%2CZzS0awE93Ns%2C3roRhxzJTos%2C7hSUxHMdX4M%2CXxter5aOKLA%2C69NByfA2NxI&title=cotoba+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=LxEff8wDCDc&list=RDAMVMLxEff8wDCDc"
+}

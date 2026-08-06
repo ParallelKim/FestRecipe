@@ -1,0 +1,707 @@
+{
+  "id": "jumf-2026",
+  "name": "2026 전주얼티밋뮤직페스티벌",
+  "shortName": "JUMF",
+  "startDate": "2026-08-14",
+  "endDate": "2026-08-16",
+  "location": "전주대학교 인조잔디구장",
+  "signatureColor": "coral",
+  "status": "upcoming",
+  "lineupStage": "stage3_timetable",
+  "description": "전주문화방송이 주최하는 11회째 여름 음악 축제. 2026년에는 자우림·NELL·YB·10CM·FLOW 등 60팀이 전주대학교 인조잔디구장의 마루·너울(야외 메인)·숨(실내) 3개 스테이지에 오른다. 게이트 오픈 13:00.",
+  "websiteUrl": "https://jumf.co.kr",
+  "logoUrl": "/images/jumf-2026-mark.png",
+  "posterUrl": "/images/jumf-2026-poster.png",
+  "mapUrl": "https://map.naver.com/p/search/%EC%A0%84%EC%A3%BC%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9D%B8%EC%A1%B0%EC%9E%94%EB%94%94%EA%B5%AC%EC%9E%A5",
+  "stageStyles": [
+    {
+      "stageName": "마루",
+      "shortLabel": "마루",
+      "bg": "#ec4f9c",
+      "fg": "#ffffff",
+      "accent": "#d6338b",
+      "soft": "#fddcec",
+      "lineupBg": "#f9c9e0"
+    },
+    {
+      "stageName": "너울",
+      "shortLabel": "너울",
+      "bg": "#7c5cd6",
+      "fg": "#ffffff",
+      "accent": "#5b3fb0",
+      "soft": "#e2d9f7",
+      "lineupBg": "#d2c4f0"
+    },
+    {
+      "stageName": "숨",
+      "shortLabel": "숨",
+      "bg": "#22b3c6",
+      "fg": "#ffffff",
+      "accent": "#178a9b",
+      "soft": "#cbeef4",
+      "lineupBg": "#b0e6ee"
+    }
+  ],
+  "allArtists": [
+    "hrtzwv",
+    "band-nah",
+    "owalloil",
+    "qwer",
+    "peppertones",
+    "flow",
+    "dadada",
+    "cant-be-blue",
+    "onewe",
+    "sabasister",
+    "shaun",
+    "romantic-punch",
+    "10cm",
+    "song-eunchae",
+    "nibuy",
+    "tokai",
+    "grizzly",
+    "rosi",
+    "the-ade",
+    "kami-wa-saikoro",
+    "d82",
+    "kachisan",
+    "lazybone",
+    "broken-valentine",
+    "far-east-asian-tigers",
+    "nell",
+    "nyteh",
+    "cheon-jinwoo",
+    "yunmachi",
+    "song-sohee",
+    "redoor",
+    "guckkasten",
+    "jaurim",
+    "lif",
+    "24th",
+    "gony",
+    "band-kirin",
+    "wah-wah-wah",
+    "e-pak-sa",
+    "blackhole-x-bangsumi",
+    "synsnake",
+    "snake-chicken-soup",
+    "emnw",
+    "knosis",
+    "nerd-connection",
+    "idiotape",
+    "yb",
+    "riot-kidz",
+    "chorokbulkkot-sonyeondan",
+    "sonic-stones",
+    "kardi",
+    "sable-hills",
+    "kim-kwang-jin",
+    "umuhae",
+    "broken-teeth",
+    "luamel",
+    "drinking-boys-and-girls-choir",
+    "ta-copy",
+    "the-fix",
+    "schizo"
+  ],
+  "artistDisplays": {
+    "hrtzwv": "하츠웨이브",
+    "band-nah": "나상현씨밴드",
+    "owalloil": "오월오일",
+    "qwer": "QWER",
+    "peppertones": "페퍼톤스",
+    "flow": "FLOW",
+    "dadada": "다다다",
+    "cant-be-blue": "can't be blue",
+    "onewe": "ONEWE",
+    "sabasister": "SABASISTER",
+    "shaun": "숀",
+    "romantic-punch": "로맨틱펀치",
+    "10cm": "10CM",
+    "song-eunchae": "송은채",
+    "nibuy": "NIBUY",
+    "tokai": "Tokai",
+    "grizzly": "그리즐리",
+    "rosi": "로시",
+    "the-ade": "디에이드",
+    "kami-wa-saikoro": "神はサイコロを振らない",
+    "d82": "D82",
+    "kachisan": "까치산",
+    "lazybone": "레이지본",
+    "broken-valentine": "브로큰 발렌타인",
+    "far-east-asian-tigers": "극동아시아타이거즈",
+    "nell": "넬",
+    "nyteh": "Nyteh",
+    "cheon-jinwoo": "천진우",
+    "yunmachi": "윤마치",
+    "song-sohee": "송소희",
+    "redoor": "리도어",
+    "guckkasten": "국카스텐",
+    "jaurim": "자우림",
+    "lif": "LIF",
+    "24th": "이십사일",
+    "gony": "고니",
+    "band-kirin": "밴드기린",
+    "wah-wah-wah": "와와와",
+    "e-pak-sa": "신빠람 이박사",
+    "blackhole-x-bangsumi": "블랙홀 X 방수미",
+    "synsnake": "신스네이크",
+    "snake-chicken-soup": "스네이크치킨수프",
+    "emnw": "EMNW",
+    "knosis": "크노시스",
+    "nerd-connection": "너드커넥션",
+    "idiotape": "이디오테잎",
+    "yb": "YB",
+    "riot-kidz": "라이엇키즈",
+    "chorokbulkkot-sonyeondan": "초록불꽃소년단",
+    "sonic-stones": "소닉스톤즈",
+    "kardi": "카디",
+    "sable-hills": "Sable Hills",
+    "kim-kwang-jin": "김광진",
+    "umuhae": "우무해",
+    "broken-teeth": "브로큰티스",
+    "luamel": "루아멜",
+    "drinking-boys-and-girls-choir": "드링킹소년소녀합창단",
+    "ta-copy": "타카피",
+    "the-fix": "더 픽스",
+    "schizo": "스키조"
+  },
+  "lineup": [
+    {
+      "date": "2026-08-14",
+      "dayLabel": "8.14 FRI",
+      "stages": [
+        "마루",
+        "너울",
+        "숨"
+      ],
+      "artists": [
+        "hrtzwv",
+        "band-nah",
+        "owalloil",
+        "qwer",
+        "peppertones",
+        "flow",
+        "dadada",
+        "cant-be-blue",
+        "onewe",
+        "sabasister",
+        "shaun",
+        "romantic-punch",
+        "10cm",
+        "song-eunchae",
+        "nibuy",
+        "tokai",
+        "grizzly",
+        "rosi",
+        "the-ade",
+        "kami-wa-saikoro"
+      ],
+      "slots": [
+        {
+          "artistId": "hrtzwv",
+          "stageName": "마루",
+          "startTime": "14:30",
+          "endTime": "15:00",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "band-nah",
+          "stageName": "마루",
+          "startTime": "15:30",
+          "endTime": "16:10",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "owalloil",
+          "stageName": "마루",
+          "startTime": "16:50",
+          "endTime": "17:30",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "qwer",
+          "stageName": "마루",
+          "startTime": "18:20",
+          "endTime": "19:00",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "peppertones",
+          "stageName": "마루",
+          "startTime": "19:40",
+          "endTime": "20:30",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "flow",
+          "stageName": "마루",
+          "startTime": "21:20",
+          "endTime": "22:20",
+          "durationMinutes": 60
+        },
+        {
+          "artistId": "dadada",
+          "stageName": "너울",
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "cant-be-blue",
+          "stageName": "너울",
+          "startTime": "15:00",
+          "endTime": "15:30",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "onewe",
+          "stageName": "너울",
+          "startTime": "16:10",
+          "endTime": "16:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "sabasister",
+          "stageName": "너울",
+          "startTime": "17:30",
+          "endTime": "18:10",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "shaun",
+          "stageName": "너울",
+          "startTime": "19:00",
+          "endTime": "19:40",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "romantic-punch",
+          "stageName": "너울",
+          "startTime": "20:30",
+          "endTime": "21:20",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "10cm",
+          "stageName": "너울",
+          "startTime": "22:20",
+          "endTime": "23:20",
+          "durationMinutes": 60
+        },
+        {
+          "artistId": "song-eunchae",
+          "stageName": "숨",
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "nibuy",
+          "stageName": "숨",
+          "startTime": "14:50",
+          "endTime": "15:20",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "tokai",
+          "stageName": "숨",
+          "startTime": "15:40",
+          "endTime": "16:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "grizzly",
+          "stageName": "숨",
+          "startTime": "16:30",
+          "endTime": "17:00",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "rosi",
+          "stageName": "숨",
+          "startTime": "17:20",
+          "endTime": "17:50",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "the-ade",
+          "stageName": "숨",
+          "startTime": "18:10",
+          "endTime": "18:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "kami-wa-saikoro",
+          "stageName": "숨",
+          "startTime": "19:10",
+          "endTime": "19:50",
+          "durationMinutes": 40
+        }
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "dayLabel": "8.15 SAT",
+      "stages": [
+        "마루",
+        "너울",
+        "숨"
+      ],
+      "artists": [
+        "d82",
+        "kachisan",
+        "lazybone",
+        "broken-valentine",
+        "far-east-asian-tigers",
+        "nell",
+        "nyteh",
+        "cheon-jinwoo",
+        "yunmachi",
+        "song-sohee",
+        "redoor",
+        "guckkasten",
+        "jaurim",
+        "lif",
+        "24th",
+        "gony",
+        "band-kirin",
+        "wah-wah-wah",
+        "e-pak-sa",
+        "blackhole-x-bangsumi"
+      ],
+      "slots": [
+        {
+          "artistId": "d82",
+          "stageName": "마루",
+          "startTime": "14:30",
+          "endTime": "15:00",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "kachisan",
+          "stageName": "마루",
+          "startTime": "15:30",
+          "endTime": "16:10",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "lazybone",
+          "stageName": "마루",
+          "startTime": "16:50",
+          "endTime": "17:30",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "broken-valentine",
+          "stageName": "마루",
+          "startTime": "18:20",
+          "endTime": "19:00",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "far-east-asian-tigers",
+          "stageName": "마루",
+          "startTime": "19:50",
+          "endTime": "20:40",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "nell",
+          "stageName": "마루",
+          "startTime": "21:30",
+          "endTime": "22:30",
+          "durationMinutes": 60
+        },
+        {
+          "artistId": "nyteh",
+          "stageName": "너울",
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "cheon-jinwoo",
+          "stageName": "너울",
+          "startTime": "15:00",
+          "endTime": "15:30",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "yunmachi",
+          "stageName": "너울",
+          "startTime": "16:10",
+          "endTime": "16:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "song-sohee",
+          "stageName": "너울",
+          "startTime": "17:30",
+          "endTime": "18:10",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "redoor",
+          "stageName": "너울",
+          "startTime": "19:00",
+          "endTime": "19:50",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "guckkasten",
+          "stageName": "너울",
+          "startTime": "20:40",
+          "endTime": "21:30",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "jaurim",
+          "stageName": "너울",
+          "startTime": "22:30",
+          "endTime": "23:30",
+          "durationMinutes": 60
+        },
+        {
+          "artistId": "lif",
+          "stageName": "숨",
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "24th",
+          "stageName": "숨",
+          "startTime": "14:50",
+          "endTime": "15:20",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "gony",
+          "stageName": "숨",
+          "startTime": "15:40",
+          "endTime": "16:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "band-kirin",
+          "stageName": "숨",
+          "startTime": "16:30",
+          "endTime": "17:00",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "wah-wah-wah",
+          "stageName": "숨",
+          "startTime": "17:20",
+          "endTime": "17:50",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "e-pak-sa",
+          "stageName": "숨",
+          "startTime": "18:10",
+          "endTime": "18:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "blackhole-x-bangsumi",
+          "stageName": "숨",
+          "startTime": "19:10",
+          "endTime": "19:50",
+          "durationMinutes": 40
+        }
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "dayLabel": "8.16 SUN",
+      "stages": [
+        "마루",
+        "너울",
+        "숨"
+      ],
+      "artists": [
+        "synsnake",
+        "snake-chicken-soup",
+        "emnw",
+        "knosis",
+        "nerd-connection",
+        "idiotape",
+        "yb",
+        "riot-kidz",
+        "chorokbulkkot-sonyeondan",
+        "sonic-stones",
+        "kardi",
+        "sable-hills",
+        "kim-kwang-jin",
+        "umuhae",
+        "broken-teeth",
+        "luamel",
+        "drinking-boys-and-girls-choir",
+        "ta-copy",
+        "the-fix",
+        "schizo"
+      ],
+      "slots": [
+        {
+          "artistId": "synsnake",
+          "stageName": "마루",
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "snake-chicken-soup",
+          "stageName": "마루",
+          "startTime": "15:00",
+          "endTime": "15:30",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "emnw",
+          "stageName": "마루",
+          "startTime": "16:10",
+          "endTime": "16:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "knosis",
+          "stageName": "마루",
+          "startTime": "17:30",
+          "endTime": "18:10",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "nerd-connection",
+          "stageName": "마루",
+          "startTime": "19:00",
+          "endTime": "19:50",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "idiotape",
+          "stageName": "마루",
+          "startTime": "20:40",
+          "endTime": "21:30",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "yb",
+          "stageName": "마루",
+          "startTime": "22:20",
+          "endTime": "23:20",
+          "durationMinutes": 60
+        },
+        {
+          "artistId": "riot-kidz",
+          "stageName": "너울",
+          "startTime": "14:30",
+          "endTime": "15:00",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "chorokbulkkot-sonyeondan",
+          "stageName": "너울",
+          "startTime": "15:30",
+          "endTime": "16:10",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "sonic-stones",
+          "stageName": "너울",
+          "startTime": "16:50",
+          "endTime": "17:30",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "kardi",
+          "stageName": "너울",
+          "startTime": "18:20",
+          "endTime": "19:00",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "sable-hills",
+          "stageName": "너울",
+          "startTime": "19:50",
+          "endTime": "20:40",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "kim-kwang-jin",
+          "stageName": "너울",
+          "startTime": "21:30",
+          "endTime": "22:20",
+          "durationMinutes": 50
+        },
+        {
+          "artistId": "umuhae",
+          "stageName": "숨",
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "broken-teeth",
+          "stageName": "숨",
+          "startTime": "14:50",
+          "endTime": "15:20",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "luamel",
+          "stageName": "숨",
+          "startTime": "15:40",
+          "endTime": "16:10",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "drinking-boys-and-girls-choir",
+          "stageName": "숨",
+          "startTime": "16:30",
+          "endTime": "17:00",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "ta-copy",
+          "stageName": "숨",
+          "startTime": "17:20",
+          "endTime": "17:50",
+          "durationMinutes": 30
+        },
+        {
+          "artistId": "the-fix",
+          "stageName": "숨",
+          "startTime": "18:10",
+          "endTime": "18:50",
+          "durationMinutes": 40
+        },
+        {
+          "artistId": "schizo",
+          "stageName": "숨",
+          "startTime": "19:10",
+          "endTime": "19:50",
+          "durationMinutes": 40
+        }
+      ]
+    }
+  ],
+  "timetableSource": {
+    "note": "공식 최종 타임테이블 기준(스테이지 마루·너울·숨, 시간·표기명 모두 공식 이미지에서 전사). 공식 홈 공지 '[JUMF 2026] 타임테이블 공개!'의 요일별 타임테이블 이미지와 LINE UP(/35·/36·/37) 이미지를 SSOT로 사용했다. 뉴스 기사 라인업은 부정확·부분적이라 배제했다. 표기명은 타임테이블 표기를 우선한다.",
+    "referencedAt": "2026-08-05",
+    "referenceUrl": "https://www.jumf.co.kr/24/?bmode=view&idx=172686496",
+    "secondaryUrls": [
+      "https://www.jumf.co.kr/35",
+      "https://www.jumf.co.kr/36",
+      "https://www.jumf.co.kr/37"
+    ],
+    "localAssets": [
+      "sample/jumf-2026/jumf-2026-day14-timetable.png",
+      "sample/jumf-2026/jumf-2026-day15-timetable.png",
+      "sample/jumf-2026/jumf-2026-day16-timetable.png"
+    ],
+    "displayNamePolicy": "docs/ARTIST_DISPLAY_NAMES.md"
+  },
+  "tagline": "전주에서 사흘, 장르의 경계를 넘는 여름"
+}

@@ -1,0 +1,203 @@
+{
+  "artistId": "kardi",
+  "artistName": "카디",
+  "englishName": "KARDI",
+  "collectedAt": "2026-08-05T12:30:29.412859+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1140,
+    "latestSlotLabel": "19:00",
+    "festivalId": "jumf-2026",
+    "rank": 0.741,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UC26ws-BbUC5OmTtO-vCSUdg",
+    "name": "KARDI",
+    "subscribers": "67.1K",
+    "channelId": "UC9D3wSCLuif2Hd3kTc4zD9w",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/qVnLTqwGNCyMVk5OykV8r9Zve9g1VJZRKK0T92AYqn_qVMNJzlB1biA2ufv0auiEKpOgGLbyEeQslSxo=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC26ws-BbUC5OmTtO-vCSUdg"
+  },
+  "tracks": [
+    {
+      "videoId": "PpWUvornRxM",
+      "songTitle": "Not But Disco",
+      "title": "Not But Disco",
+      "artists": [
+        "KARDI"
+      ],
+      "albumTitle": "Not But Disco",
+      "albumBrowseId": "MPREb_0qTSmvdW2GG",
+      "duration": "3:45",
+      "durationSeconds": 225,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/1xMch7Dt5H2kQlIOMg6jc8SzGpGPiZnQF26aRWcUf0Qa_xFXX70kSup_cQVS8womzMtTtSAnPV0UHgiCDA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PpWUvornRxM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PpWUvornRxM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "HPxvxvUZNUs",
+      "songTitle": "Player 1",
+      "title": "Player 1",
+      "artists": [
+        "KARDI"
+      ],
+      "albumTitle": "Player 1",
+      "albumBrowseId": "MPREb_BQlphXMz3K2",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OStmil_CODzOOfJhQDTex4lOUKM2-gJmg38-TIFR-76R5pKjWgKGHc2qAdU334fFDxiqpV0KYV4iixk=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HPxvxvUZNUs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=HPxvxvUZNUs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "WheNKzwM_-8",
+      "songTitle": "7000RPM",
+      "title": "7000RPM",
+      "artists": [
+        "KARDI"
+      ],
+      "albumTitle": "SuperBand2 - Episode.13 (슈퍼밴드2 - Episode.13)",
+      "albumBrowseId": "MPREb_hPQ02A5opJt",
+      "duration": "5:42",
+      "durationSeconds": 342,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Te0zb3NVG6Fhlo_DEmqlP8kFO5roK1VBgVOcbr1ig9KXlx4M6ub3GGJ5ZfAYAL5vQoGDSYSRo57aLQs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WheNKzwM_-8",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=WheNKzwM_-8",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "KsgbCTpzjjQ",
+      "songTitle": "Watchout",
+      "title": "Watchout",
+      "artists": [
+        "KARDI"
+      ],
+      "albumTitle": "Chill",
+      "albumBrowseId": "MPREb_6U0xqrlooQt",
+      "duration": "2:58",
+      "durationSeconds": 178,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BexmFxxGGmyRLbOb_mvJd7jPfNobl7c4wbFBoZb6XzaNaDKXo5_JB-k9Ujzaq6NUeCV9kh-0TaEb1EI=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KsgbCTpzjjQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=KsgbCTpzjjQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Di1AaevOY7U",
+      "songTitle": "TOKKEBI-BULL",
+      "title": "TOKKEBI-BULL",
+      "artists": [
+        "KARDI"
+      ],
+      "albumTitle": "When The Lights Out",
+      "albumBrowseId": "MPREb_kgKkUw8Vwko",
+      "duration": "4:23",
+      "durationSeconds": 263,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/7-YWNuJL-xCm4yJhPtBx5uv0-w0MDvMzDtPV8ZNiIlpIXeXzcTT3e77id2KvG8FzGYqiMXyVRstPJjT4SQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Di1AaevOY7U",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Di1AaevOY7U",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "lYoXQiXPu1g",
+      "songTitle": "Skybound",
+      "title": "Skybound",
+      "artists": [
+        "KARDI"
+      ],
+      "albumTitle": "Inside Out",
+      "albumBrowseId": "MPREb_UAGV7j0erA7",
+      "duration": "2:57",
+      "durationSeconds": 177,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eP3IMatXubGewTSZ6LwA7ph6IsvDApmcjIrd3JW4UZnTn_S-c9960lqvldWTDmlX4pbtGnEsmfeq9WGX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lYoXQiXPu1g",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lYoXQiXPu1g",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "tvt5FA5OqYc",
+      "songTitle": "PARTY",
+      "title": "PARTY",
+      "artists": [
+        "KARDI"
+      ],
+      "albumTitle": "PARTY",
+      "albumBrowseId": "MPREb_XGJAlrxqKnH",
+      "duration": "3:21",
+      "durationSeconds": 201,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9jjLv2i7i_zVY7jkHiUke23YwlVM5qpRKZQOVRHsGg9ps0pG8gyPSA5mHGpbYkOq1p0z7HFF9m0c3wG2-w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tvt5FA5OqYc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=tvt5FA5OqYc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "zVBjjYHfImo",
+      "songTitle": "Havin’ a Good Time",
+      "title": "Havin’ a Good Time",
+      "artists": [
+        "KARDI"
+      ],
+      "albumTitle": "Havin' a Good Time",
+      "albumBrowseId": "MPREb_A4FgKnv0Od3",
+      "duration": "3:18",
+      "durationSeconds": 198,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/pYM7PumPpNTy3BgeVM_I9pzUtmDxOBUvY3kdx2YM0_XWVGTuTzvtYKqSo6Wi19lLs9mYvUDlIMKKz25A7A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zVBjjYHfImo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=zVBjjYHfImo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "y_rfvchmB98",
+      "songTitle": "Out of Sight",
+      "title": "Out of Sight",
+      "artists": [
+        "KARDI"
+      ],
+      "albumTitle": "Inside Out",
+      "albumBrowseId": "MPREb_UAGV7j0erA7",
+      "duration": "3:13",
+      "durationSeconds": 193,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/eP3IMatXubGewTSZ6LwA7ph6IsvDApmcjIrd3JW4UZnTn_S-c9960lqvldWTDmlX4pbtGnEsmfeq9WGX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=y_rfvchmB98",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=y_rfvchmB98",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "abMbCf06Wro",
+      "songTitle": "No Need",
+      "title": "No Need",
+      "artists": [
+        "KARDI"
+      ],
+      "albumTitle": "No Doubt",
+      "albumBrowseId": "MPREb_DTmJOwTAPlT",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/y51CTeubEDV01WoysZsHv98IjtItXBjl6NdQmfZS26rP2p3fywgivuYDBa5u3C2q7SexexBwQXHVj85c=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=abMbCf06Wro",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=abMbCf06Wro",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 카디 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=PpWUvornRxM%2CHPxvxvUZNUs%2CWheNKzwM_-8%2CKsgbCTpzjjQ%2CDi1AaevOY7U%2ClYoXQiXPu1g%2Ctvt5FA5OqYc%2CzVBjjYHfImo%2Cy_rfvchmB98%2CabMbCf06Wro&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%B9%B4%EB%94%94+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=PpWUvornRxM&list=RDAMVMPpWUvornRxM"
+}

@@ -1,0 +1,203 @@
+{
+  "artistId": "w24",
+  "artistName": "W24",
+  "englishName": "W24",
+  "collectedAt": "2026-08-05T12:30:55.093899+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCfvTHPBZPbRhRM-ijvBpwdA",
+    "name": "W24",
+    "subscribers": "715K",
+    "channelId": "UCpIQ_PHkivL2HHWfdgO-Urw",
+    "thumbnailUrl": "https://lh3.googleusercontent.com/Zkbgwm2Cb-Oc76cHaKFnJcf1Rv2PWDBVa1zICKZAM7U2dnKjjGAufxe2Uzzgef_bLSuMPKWZhjZu2PA=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCfvTHPBZPbRhRM-ijvBpwdA"
+  },
+  "tracks": [
+    {
+      "videoId": "ZNdERumxg5k",
+      "songTitle": "water gushes",
+      "title": "water gushes",
+      "artists": [
+        "W24"
+      ],
+      "albumTitle": "water gushes",
+      "albumBrowseId": "MPREb_gLy2GRMWXwA",
+      "duration": "4:20",
+      "durationSeconds": 260,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_c433jdAEupmreJlTGC-4ZSAoayfkPXXWWPPffoGl-Y9Rcdygr34qseRNY5GhCx-IIYWZDDKYhqhYYOy=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZNdERumxg5k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ZNdERumxg5k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Qx4RVhm3UZc",
+      "songTitle": "Seize The Day",
+      "title": "Seize The Day",
+      "artists": [
+        "W24"
+      ],
+      "albumTitle": "Seize The Day",
+      "albumBrowseId": "MPREb_1bJPdXA2Fru",
+      "duration": "4:16",
+      "durationSeconds": 256,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/GhKgZ5eflnvQCcRCpkI7J_kze10tH6jjjqH0-0VZHSet9K0Ys6WcZFiV8HYh9fKqngechZwfutv9u4qhHg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Qx4RVhm3UZc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Qx4RVhm3UZc",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "5chVpT8tGFo",
+      "songTitle": "Drive",
+      "title": "Drive",
+      "artists": [
+        "W24"
+      ],
+      "albumTitle": "Born again",
+      "albumBrowseId": "MPREb_J8xELPWIPIl",
+      "duration": "3:34",
+      "durationSeconds": 214,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jZYyYsC8bVigobjZdOL-H3EfBqgEiTRY8AT33ueBwRCeBUqv1eQHfEjQOUz9XT5MYbxsc-xWl-9O9dCBTw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5chVpT8tGFo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=5chVpT8tGFo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-8r_WMgj65A",
+      "songTitle": "Celestial Night",
+      "title": "Celestial Night",
+      "artists": [
+        "W24"
+      ],
+      "albumTitle": "Memory Making Moment",
+      "albumBrowseId": "MPREb_kzrRz9SpH42",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/x8sFVUkaSSTpX0n6DOyIOVflbQcwCiBSHalqknmVLTj1DT-BB8UKRzZIiwSVI6mmwYiXUnQ7m5QArCo=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-8r_WMgj65A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-8r_WMgj65A",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7AhygUZYoH4",
+      "songTitle": "За окнами",
+      "title": "За окнами",
+      "artists": [
+        "Юлия Савичева",
+        "W24"
+      ],
+      "albumTitle": "9",
+      "albumBrowseId": "MPREb_7gxF1A0eH66",
+      "duration": "2:49",
+      "durationSeconds": 169,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/niqK2aSzGVeLC0WfcQZNUecR2zjA_sKU71Hpak3BD2QX-7M0HDbKFKNMS9IJAdpY4Uf9l_kFz7nOCulJ-A=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7AhygUZYoH4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7AhygUZYoH4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "qhfI-ukh_Qk",
+      "songTitle": "Family",
+      "title": "Family",
+      "artists": [
+        "W24"
+      ],
+      "albumTitle": "Memory Making Moment",
+      "albumBrowseId": "MPREb_kzrRz9SpH42",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/x8sFVUkaSSTpX0n6DOyIOVflbQcwCiBSHalqknmVLTj1DT-BB8UKRzZIiwSVI6mmwYiXUnQ7m5QArCo=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qhfI-ukh_Qk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=qhfI-ukh_Qk",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "pH3If_X14OU",
+      "songTitle": "Love Me",
+      "title": "Love Me",
+      "artists": [
+        "W24"
+      ],
+      "albumTitle": "Love Me",
+      "albumBrowseId": "MPREb_mqHhXgP48a7",
+      "duration": "3:35",
+      "durationSeconds": 215,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/q0BlYQw6FjcOSBMSfPPLa-5tpO4HCo29PnG8GP7Q7uN_Pn3o7pjyrUAN5Rgoj88cvbpHASeKt41oJirK=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pH3If_X14OU",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=pH3If_X14OU",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "wRwbvrjQkMg",
+      "songTitle": "mustard seed",
+      "title": "mustard seed",
+      "artists": [
+        "W24"
+      ],
+      "albumTitle": "mustard seed",
+      "albumBrowseId": "MPREb_Mca1DEwh7rp",
+      "duration": "3:38",
+      "durationSeconds": 218,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/44uXFlxlSJtOL-aiJ-DcDQ1bv6gg7988WwtfuvVXzY6CL_jahkZBoAdToqk8T8GzHUi5-gV3CiDuhMs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wRwbvrjQkMg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=wRwbvrjQkMg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "K0qFJtJYO2Y",
+      "songTitle": "Our, Season",
+      "title": "Our, Season",
+      "artists": [
+        "W24"
+      ],
+      "albumTitle": "Our, Season",
+      "albumBrowseId": "MPREb_geE1pTSSCsu",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/ZEldWXRe8kfvOyRrd0LMRVm8Ib-eyw2aAe9WiSAE_wrMwW4QloX1ZkhxAcWK55jyap2bSHR9-70kfGgFcg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K0qFJtJYO2Y",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=K0qFJtJYO2Y",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "z4l74mNXRms",
+      "songTitle": "Stay A Moment",
+      "title": "Stay A Moment",
+      "artists": [
+        "W24"
+      ],
+      "albumTitle": "‘STAY A MOMENT’ 2nd Mini Album",
+      "albumBrowseId": "MPREb_ZWCWYC03zMN",
+      "duration": "3:37",
+      "durationSeconds": 217,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/IwFNCa_3HfVrWUFAEt7aDuvrSGxV5OKps6rFhtyRwUiGdVZaU91EoHVH2StAaYfBOLRgWWVTBZXWCXDiFw=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=z4l74mNXRms",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=z4l74mNXRms",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "W24 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ZNdERumxg5k%2CQx4RVhm3UZc%2C5chVpT8tGFo%2C-8r_WMgj65A%2C7AhygUZYoH4%2CqhfI-ukh_Qk%2CpH3If_X14OU%2CwRwbvrjQkMg%2CK0qFJtJYO2Y%2Cz4l74mNXRms&title=W24+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ZNdERumxg5k&list=RDAMVMZNdERumxg5k"
+}

@@ -1,0 +1,210 @@
+{
+  "artistId": "chrocktikal",
+  "artistName": "ChRocktikal",
+  "englishName": "ChRocktikal",
+  "collectedAt": "2026-08-05T12:30:11.004573+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCahwSp2VhgzPiHwW-AAqlkA",
+    "name": "ChRocktikal",
+    "subscribers": "25.2K",
+    "channelId": "UCertozwpQ2UspO-rAzrlR1w",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/HGU9M3WRv85EMRy3Sjc3c8btXiNZkCQlxra6TbDj4xUrORDlQ42lu23nDHpsOuYcVUtrWFsd=w2880-h1200-l90-rj-dcIVOSbSUI",
+    "url": "https://music.youtube.com/channel/UCahwSp2VhgzPiHwW-AAqlkA"
+  },
+  "tracks": [
+    {
+      "videoId": "A-6Kz876__o",
+      "songTitle": "PEACE",
+      "title": "PEACE",
+      "artists": [
+        "ChRocktikal"
+      ],
+      "albumTitle": "We break, you awake",
+      "albumBrowseId": "MPREb_odZMwolD6Xw",
+      "duration": "2:58",
+      "durationSeconds": 178,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3TjWloU8gYvp6IlI0GET-iAnEJ7e3ehkJ6-wJqCzQEY0XxKgHzow3pYkqwUasFugajQWCtWFvV4h8upf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=A-6Kz876__o",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=A-6Kz876__o",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "n0A7QLHzxQc",
+      "songTitle": "Shame",
+      "title": "Shame",
+      "artists": [
+        "ChRocktikal"
+      ],
+      "albumTitle": "We break, you awake",
+      "albumBrowseId": "MPREb_odZMwolD6Xw",
+      "duration": "3:42",
+      "durationSeconds": 222,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3TjWloU8gYvp6IlI0GET-iAnEJ7e3ehkJ6-wJqCzQEY0XxKgHzow3pYkqwUasFugajQWCtWFvV4h8upf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=n0A7QLHzxQc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=n0A7QLHzxQc",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "T4NvX3e7wWI",
+      "songTitle": "Free!",
+      "title": "Free!",
+      "artists": [
+        "ChRocktikal"
+      ],
+      "albumTitle": "We break, you awake",
+      "albumBrowseId": "MPREb_odZMwolD6Xw",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3TjWloU8gYvp6IlI0GET-iAnEJ7e3ehkJ6-wJqCzQEY0XxKgHzow3pYkqwUasFugajQWCtWFvV4h8upf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T4NvX3e7wWI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=T4NvX3e7wWI",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "lGHtGrnVzrI",
+      "songTitle": "Victor",
+      "title": "Victor",
+      "artists": [
+        "ChRocktikal"
+      ],
+      "albumTitle": "We break, you awake",
+      "albumBrowseId": "MPREb_odZMwolD6Xw",
+      "duration": "3:38",
+      "durationSeconds": 218,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3TjWloU8gYvp6IlI0GET-iAnEJ7e3ehkJ6-wJqCzQEY0XxKgHzow3pYkqwUasFugajQWCtWFvV4h8upf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lGHtGrnVzrI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=lGHtGrnVzrI",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "a_pSwfz-tG4",
+      "songTitle": "RIDE",
+      "title": "RIDE",
+      "artists": [
+        "ChRocktikal"
+      ],
+      "albumTitle": "We break, you awake",
+      "albumBrowseId": "MPREb_odZMwolD6Xw",
+      "duration": "3:14",
+      "durationSeconds": 194,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3TjWloU8gYvp6IlI0GET-iAnEJ7e3ehkJ6-wJqCzQEY0XxKgHzow3pYkqwUasFugajQWCtWFvV4h8upf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=a_pSwfz-tG4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=a_pSwfz-tG4",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "xYxbXNnn2bQ",
+      "songTitle": "All in on me",
+      "title": "All in on me",
+      "artists": [
+        "ChRocktikal"
+      ],
+      "albumTitle": "We break, you awake",
+      "albumBrowseId": "MPREb_odZMwolD6Xw",
+      "duration": "3:22",
+      "durationSeconds": 202,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3TjWloU8gYvp6IlI0GET-iAnEJ7e3ehkJ6-wJqCzQEY0XxKgHzow3pYkqwUasFugajQWCtWFvV4h8upf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xYxbXNnn2bQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xYxbXNnn2bQ",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "FHE4e3C1qjQ",
+      "songTitle": "NAVI",
+      "title": "NAVI",
+      "artists": [
+        "ChRocktikal"
+      ],
+      "albumTitle": "NAVI",
+      "albumBrowseId": "MPREb_jDMxDJjozdO",
+      "duration": "3:14",
+      "durationSeconds": 194,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/_ibQOdyHWuqhPbEXRB_-oWH9zePzadSdc_g4uGhat_nWSU2Om9Cw4kH8Fdfun-6VaApLC0KwdmPAMKqX=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FHE4e3C1qjQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FHE4e3C1qjQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "s2pKIEXyXE4",
+      "songTitle": "Iris",
+      "title": "Iris",
+      "artists": [
+        "ChRocktikal"
+      ],
+      "albumTitle": "We break, you awake",
+      "albumBrowseId": "MPREb_odZMwolD6Xw",
+      "duration": "4:28",
+      "durationSeconds": 268,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3TjWloU8gYvp6IlI0GET-iAnEJ7e3ehkJ6-wJqCzQEY0XxKgHzow3pYkqwUasFugajQWCtWFvV4h8upf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s2pKIEXyXE4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=s2pKIEXyXE4",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "2fdbZfTLM0A",
+      "songTitle": "KALish",
+      "title": "KALish",
+      "artists": [
+        "ChRocktikal"
+      ],
+      "albumTitle": "We break, you awake",
+      "albumBrowseId": "MPREb_odZMwolD6Xw",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3TjWloU8gYvp6IlI0GET-iAnEJ7e3ehkJ6-wJqCzQEY0XxKgHzow3pYkqwUasFugajQWCtWFvV4h8upf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2fdbZfTLM0A",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2fdbZfTLM0A",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "EByqixt-SeA",
+      "songTitle": "Masterpiece",
+      "title": "Masterpiece",
+      "artists": [
+        "ChRocktikal"
+      ],
+      "albumTitle": "We break, you awake",
+      "albumBrowseId": "MPREb_odZMwolD6Xw",
+      "duration": "3:57",
+      "durationSeconds": 237,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/3TjWloU8gYvp6IlI0GET-iAnEJ7e3ehkJ6-wJqCzQEY0XxKgHzow3pYkqwUasFugajQWCtWFvV4h8upf=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EByqixt-SeA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=EByqixt-SeA",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "album"
+    }
+  ],
+  "playlistTitle": "ChRocktikal 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=A-6Kz876__o%2Cn0A7QLHzxQc%2CT4NvX3e7wWI%2ClGHtGrnVzrI%2Ca_pSwfz-tG4%2CxYxbXNnn2bQ%2CFHE4e3C1qjQ%2Cs2pKIEXyXE4%2C2fdbZfTLM0A%2CEByqixt-SeA&title=ChRocktikal+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=A-6Kz876__o&list=RDAMVMA-6Kz876__o"
+}

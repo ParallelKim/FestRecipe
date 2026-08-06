@@ -1,6 +1,6 @@
 import { useCallback, useRef, useState } from 'react'
 import type { MobileBundleNotice, MobileDayView, MobileFestivalView } from '../view/types'
-import { fetchPlaylistJson } from '../data/loadJson'
+import { getPlaylistRaw } from '../../data/playlistData'
 import { mapPlaylistView } from '../data/mapPlaylist'
 import { lineupIdsOnDay } from '../lib/lineup'
 import { orderArtistIdsForDay, orderArtistIdsForFestival } from '../lib/orderArtists'
@@ -43,7 +43,7 @@ export function useMobileListen(
     const cached = cacheRef.current.get(artistId)
     if (cached) return cached
 
-    const raw = await fetchPlaylistJson(artistId)
+    const raw = await getPlaylistRaw(artistId)
     if (!raw) return null
     const view = mapPlaylistView(raw)
     if (view) cacheRef.current.set(artistId, view)

@@ -1,0 +1,209 @@
+{
+  "artistId": "sable-hills",
+  "artistName": "Sable Hills",
+  "englishName": "Sable Hills",
+  "collectedAt": "2026-08-05T12:30:43.252120+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "high",
+    "songCount": 5,
+    "latestSlotMinutes": 1240,
+    "latestSlotLabel": "20:40",
+    "festivalId": "jumf-2026",
+    "rank": 0.871,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 5,
+  "ytmArtist": {
+    "browseId": "UCS971BLU1Y1byM8sUtyrIOg",
+    "name": "Sable Hills",
+    "subscribers": "42.4K",
+    "channelId": "UCH49NUBZ4ecDojBi5HqghOQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/CwiNYfVkO4MNgPf-1s2m1FwkHubj0FYl67p2Ltropn1B2PXGaJohHlhJ7DVU1W-iPIMGHJIfXdj0h5o=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCS971BLU1Y1byM8sUtyrIOg"
+  },
+  "tracks": [
+    {
+      "videoId": "3Q6IkZy8MS0",
+      "songTitle": "Namu",
+      "title": "Namu",
+      "artists": [
+        "Sable Hills"
+      ],
+      "albumTitle": "Namu",
+      "albumBrowseId": "MPREb_zjJpdD2EN2Y",
+      "duration": "3:41",
+      "durationSeconds": 221,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/b5ycz9roOEfiVQjOjsFYLuz-GD77CIsVIMYI0tE7N6lFEAm3GVN_nB10j00v-xf_hAe8xO8zV6dYKvTl=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3Q6IkZy8MS0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=3Q6IkZy8MS0",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "ajmo07wf32k",
+      "songTitle": "Messiah",
+      "title": "Messiah",
+      "artists": [
+        "Sable Hills"
+      ],
+      "albumTitle": "MESSIAH",
+      "albumBrowseId": "MPREb_902JktSnjmk",
+      "duration": "4:10",
+      "durationSeconds": 250,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/2xxuYbxxzjDzhqflXW-4TzrHOeYQ7KDapG6YFQWjbPBwmBA7_HWFYBK9DKQwEaShcclJyazOzURol2y9=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ajmo07wf32k",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ajmo07wf32k",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "sH3fWaDXYCQ",
+      "songTitle": "Godforsaken",
+      "title": "Godforsaken",
+      "artists": [
+        "Sable Hills",
+        "John Henry",
+        "Darkest Hour"
+      ],
+      "albumTitle": "Godforsaken",
+      "albumBrowseId": "MPREb_gnPksk1bJo6",
+      "duration": "2:28",
+      "durationSeconds": 148,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KNH-oiGtZvev4tnsW-kkgSCZJule8dbzDhN0PWQqZX2MGg1Lm2ANGA-8eUnHYcsLLtDfyUOrGzMGd0w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sH3fWaDXYCQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=sH3fWaDXYCQ",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "PVOwnjt5GUw",
+      "songTitle": "A New Chapter",
+      "title": "A New Chapter",
+      "artists": [
+        "Sable Hills"
+      ],
+      "albumTitle": "A New Chapter",
+      "albumBrowseId": "MPREb_F51Y1QJiszi",
+      "duration": "4:01",
+      "durationSeconds": 241,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/qjobwNiBXlRpYloKevuOh5VDF6HAOVfE7euM2TD6hYCtl7JnxjRK_2-HourC6uLTJk_d85cXTH9LqMqF=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PVOwnjt5GUw",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PVOwnjt5GUw",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "u2dnF51LdAI",
+      "songTitle": "Battle Cry (feat. Kenta Koie)",
+      "title": "Battle Cry (feat. Kenta Koie)",
+      "artists": [
+        "Sable Hills"
+      ],
+      "albumTitle": "Battle Cry",
+      "albumBrowseId": "MPREb_ekHNHRN3Vg7",
+      "duration": "3:53",
+      "durationSeconds": 233,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/rnRoxjnhAAl8U0h8wUcyuCKbSq0rRzeyGtYKh38yH7p3RVp5GVI5_sl8I0DVBFAJUztkdyxbbvZy2UM=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u2dnF51LdAI",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=u2dnF51LdAI",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "JfAXDfKf0fs",
+      "songTitle": "The Eternal",
+      "title": "The Eternal",
+      "artists": [
+        "SABLE HILLS"
+      ],
+      "albumTitle": "DUALITY",
+      "albumBrowseId": "MPREb_aAUhCcol0cW",
+      "duration": "5:23",
+      "durationSeconds": 323,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EG_0twX3w-OLSHwmCkcSaHw55LG5fxEPdoU8eDq0UH0G3KpLKlPOPpix1IovvPmEj9kgITycaOoEz4fLDQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JfAXDfKf0fs",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JfAXDfKf0fs",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "_FwLa4NE7gg",
+      "songTitle": "Odyssey",
+      "title": "Odyssey",
+      "artists": [
+        "Sable Hills"
+      ],
+      "albumTitle": "Odyssey",
+      "albumBrowseId": "MPREb_AUwD0bb3bYu",
+      "duration": "4:05",
+      "durationSeconds": 245,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/XQbf1MIeZGt4NCUrMSGcpGOi5R5dym0e6EBjP5MQIxCz8GqHfygsqDk8gFwrJnZ_w-4Dc1FbUzsVyN4=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_FwLa4NE7gg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_FwLa4NE7gg",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "VmGzhklmTpo",
+      "songTitle": "Embers",
+      "title": "Embers",
+      "artists": [
+        "Sable Hills"
+      ],
+      "albumTitle": "EMBERS",
+      "albumBrowseId": "MPREb_XzAuDsuynoy",
+      "duration": "4:16",
+      "durationSeconds": 256,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/MfKka9yzi9j-cHV-GtaRbaiFoYIXOeGpqnM0nQsmrvy1_y0chfaFZZ7W55TPpxaE5_8USJylIoacY6Yy=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VmGzhklmTpo",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VmGzhklmTpo",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7AJwG9F9poY",
+      "songTitle": "Tokyo",
+      "title": "Tokyo",
+      "artists": [
+        "Sable Hills"
+      ],
+      "albumTitle": "Odyssey",
+      "albumBrowseId": "MPREb_KNtt6sWyKuD",
+      "duration": "3:48",
+      "durationSeconds": 228,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kINA3LzSY3o8cTMn8mytowVJvvdIp0EFUwqzsbm1Rpvuxktq9JlCn7PqVhpYwAUzB9EY4GXsohmR5V8=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7AJwG9F9poY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7AJwG9F9poY",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "eC_L8oiiXZA",
+      "songTitle": "The Envy",
+      "title": "The Envy",
+      "artists": [
+        "SABLE HILLS"
+      ],
+      "albumTitle": "DUALITY",
+      "albumBrowseId": "MPREb_aAUhCcol0cW",
+      "duration": "4:03",
+      "durationSeconds": 243,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EG_0twX3w-OLSHwmCkcSaHw55LG5fxEPdoU8eDq0UH0G3KpLKlPOPpix1IovvPmEj9kgITycaOoEz4fLDQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eC_L8oiiXZA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=eC_L8oiiXZA",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 Sable Hills 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=3Q6IkZy8MS0%2Cajmo07wf32k%2CsH3fWaDXYCQ%2CPVOwnjt5GUw%2Cu2dnF51LdAI%2CJfAXDfKf0fs%2C_FwLa4NE7gg%2CVmGzhklmTpo%2C7AJwG9F9poY%2CeC_L8oiiXZA&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+Sable+Hills+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=3Q6IkZy8MS0&list=RDAMVM3Q6IkZy8MS0"
+}

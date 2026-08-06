@@ -1,0 +1,205 @@
+{
+  "artistId": "jung-hyobean",
+  "artistName": "정효빈",
+  "englishName": "Jeong hyo bean",
+  "collectedAt": "2026-08-05T12:30:27.955165+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "low",
+    "songCount": 3,
+    "latestSlotMinutes": null,
+    "latestSlotLabel": null,
+    "festivalId": null,
+    "rank": null,
+    "reason": "no_timetable_default"
+  },
+  "songCount": 10,
+  "targetSongCount": 3,
+  "ytmArtist": {
+    "browseId": "UCFQAI9sUTcuYY-zZTf48Jeg",
+    "name": "JEONG HYO BEAN",
+    "subscribers": "24.2K",
+    "channelId": "UC57Llyq4HdPl7X2n4kVhd8Q",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/7GYnwClCboFHZvThVXd4HqMnXt4Tvma-VOQ9RQyFPguM92D7zEqZsm4pHAqkVwwzAzPLrDaPVnOFJkQ=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCFQAI9sUTcuYY-zZTf48Jeg"
+  },
+  "tracks": [
+    {
+      "videoId": "2IzuShoLEHg",
+      "songTitle": "이제는 어떻게 사랑을 하나요",
+      "title": "이제는 어떻게 사랑을 하나요",
+      "artists": [
+        "정효빈"
+      ],
+      "albumTitle": "연애의 참견 시즌3 - OST Part.6",
+      "albumBrowseId": "MPREb_fwmwp5s5bVw",
+      "duration": "3:38",
+      "durationSeconds": 218,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Mh4lGklf6_ukYzEDbL3AeCvGQOts19QbxgYZpLiK7IOGJWnJiXgVdmh4ILlydOh2SzmASp21a1MTkw1E=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2IzuShoLEHg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=2IzuShoLEHg",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "XfTnCwNp5a0",
+      "songTitle": "I`m not alone (혼자가 아닌 나)",
+      "title": "I`m not alone (혼자가 아닌 나)",
+      "artists": [
+        "Jeong Hyo Bean"
+      ],
+      "albumTitle": "I`m not alone (혼자가 아닌 나)",
+      "albumBrowseId": "MPREb_blMkF6z0ibs",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/A-YWJGQt8XK0ggQhCfofAXoyLuGkk-c2UWPjpOUi8CzVbG5lFMzUFTWlmALiJv79hUe-vLoGCQpsexpa=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XfTnCwNp5a0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XfTnCwNp5a0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "t4RfjtPjFm0",
+      "songTitle": "The First (처음이라서)",
+      "title": "The First (처음이라서)",
+      "artists": [
+        "Jeong Hyo Bin"
+      ],
+      "albumTitle": "The First (처음이라서)",
+      "albumBrowseId": "MPREb_t8bZXIFByPX",
+      "duration": "4:18",
+      "durationSeconds": 258,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TmoupW5z2NMKYro4HRqz5hkf5S80Ytgu3ehX_UUrEHM9D12IaYoWjpXzMf6tz9uRMB7NkcDHCzXlryg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=t4RfjtPjFm0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=t4RfjtPjFm0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "_jmzlqEXEGQ",
+      "songTitle": "에-오! (E-oh!)",
+      "title": "에-오! (E-oh!)",
+      "artists": [
+        "Jeong hyo bean"
+      ],
+      "albumTitle": "에-오! (E-oh!)",
+      "albumBrowseId": "MPREb_BbzbywgJzTo",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/BB3DaFueUdik8IHD86-oFC0ZkplUO7UTDAKsYGgDMPCvHPsgACnfaZIXmqWyOXyvK24Ud30nF2Z3Tfs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_jmzlqEXEGQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=_jmzlqEXEGQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "7D__k0cjh44",
+      "songTitle": "Need Conversation (대화가 필요해)",
+      "title": "Need Conversation (대화가 필요해)",
+      "artists": [
+        "Jeong Hyo Bean",
+        "Joosiq"
+      ],
+      "albumTitle": "Need Conversation (대화가 필요해)",
+      "albumBrowseId": "MPREb_UIm90SIN3zr",
+      "duration": "3:31",
+      "durationSeconds": 211,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/oQZiUEQPwgCAZveVcB_R8Wtn6AQdieLbTgHBpGx-QYEHIT59NhBdSGEd7eAEVC5Q07rjydjxM6R4vaLT=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7D__k0cjh44",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=7D__k0cjh44",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "Zn5BYlt_gmY",
+      "songTitle": "Breakups (몇 번의 이별)",
+      "title": "Breakups (몇 번의 이별)",
+      "artists": [
+        "Jeong Hyo Bean"
+      ],
+      "albumTitle": "Breakups (몇 번의 이별)",
+      "albumBrowseId": "MPREb_npTF0xpAyaT",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LqgfhxvAz2vI1XBb0SrO8rgEwq14jEOaIjHvzcA0cuUPTXw8EeZFKqlNT_evSlupOj2wgYWruav4t2aa_w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Zn5BYlt_gmY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Zn5BYlt_gmY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "LnAczr-rDLQ",
+      "songTitle": "Like our summer time (지금 우리의 여름처럼)",
+      "title": "Like our summer time (지금 우리의 여름처럼)",
+      "artists": [
+        "Jeong Hyo Bean"
+      ],
+      "albumTitle": "Like our summer time (지금 우리의 여름처럼)",
+      "albumBrowseId": "MPREb_9ZDtXpR6z4P",
+      "duration": "3:43",
+      "durationSeconds": 223,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/saUa5X0YvYp2oen8G1Gjdh09ZEu9_CS-oMh0hUcJBMd7dYQhlFWXSmZtVgsRpxVEHC6UkDEfvcgQi0Q=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LnAczr-rDLQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=LnAczr-rDLQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "9eFu4MLusDg",
+      "songTitle": "Permeating On Me",
+      "title": "Permeating On Me",
+      "artists": [
+        "정효빈"
+      ],
+      "albumTitle": "Destined with You OST Part.4",
+      "albumBrowseId": "MPREb_uxFI9HjJA6j",
+      "duration": "4:05",
+      "durationSeconds": 245,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/TZ4R1u0MUgBdP5vVKsHeGW0haKvsXZ4-TTvQXoJ4Ey8-M9h-Z8Q7ISqdTPxynqMOa7Kp3iuUG2V65DrC8w=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9eFu4MLusDg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9eFu4MLusDg",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "fxFP5DLLu_0",
+      "songTitle": "The Letter",
+      "title": "The Letter",
+      "artists": [
+        "Jeong hyo bean"
+      ],
+      "albumTitle": "The Letter",
+      "albumBrowseId": "MPREb_WhP5wxErVEl",
+      "duration": "4:39",
+      "durationSeconds": 279,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/FnhiL880SsrMRy-CEg25JOvYCW7WNXOM3S6QPG73dov0Qxl5eQ4AUtGVphl7F1IazlmIgAkyhlvipyvqJQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fxFP5DLLu_0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=fxFP5DLLu_0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "VJmk6eZAMjY",
+      "songTitle": "나도 여자랍니다(2021)",
+      "title": "나도 여자랍니다(2021)",
+      "artists": [
+        "정효빈"
+      ],
+      "albumTitle": "나도 여자랍니다(2021) (향기로운 우연 OST Part.1)",
+      "albumBrowseId": "MPREb_B6qV0lHyP7h",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/gMOPBSyUZkl-pfjt08eeKJGVWDCCSZzanUyZoBKWT2Q0gN43tpk471boDd0XcuViGelQ8ft1wHVe-9mQ=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VJmk6eZAMjY",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=VJmk6eZAMjY",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    }
+  ],
+  "playlistTitle": "정효빈 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=2IzuShoLEHg%2CXfTnCwNp5a0%2Ct4RfjtPjFm0%2C_jmzlqEXEGQ%2C7D__k0cjh44%2CZn5BYlt_gmY%2CLnAczr-rDLQ%2C9eFu4MLusDg%2CfxFP5DLLu_0%2CVJmk6eZAMjY&title=%EC%A0%95%ED%9A%A8%EB%B9%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=2IzuShoLEHg&list=RDAMVM2IzuShoLEHg"
+}

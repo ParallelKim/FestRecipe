@@ -1,0 +1,212 @@
+{
+  "artistId": "sonic-stones",
+  "artistName": "소닉스톤즈",
+  "englishName": "Sonic Stones",
+  "collectedAt": "2026-08-05T12:30:48.232651+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1050,
+    "latestSlotLabel": "17:30",
+    "festivalId": "jumf-2026",
+    "rank": 0.56,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UC44DjCf6vyw_-E7bojOzrfA",
+    "name": "SONIC STONES",
+    "subscribers": "564",
+    "channelId": "UC44DjCf6vyw_-E7bojOzrfA",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/aEILuPWCrw5cUUT2TShWQSljt-8Tl5MMFg-VMr6euM1fCoT6WWQYPXU6qEuFIMT7Hrv4hkFxsyPYOCM=w2400-h1000-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UC44DjCf6vyw_-E7bojOzrfA"
+  },
+  "tracks": [
+    {
+      "videoId": "ti8DwncRaBc",
+      "songTitle": "Answer",
+      "title": "Answer",
+      "artists": [
+        "SONIC STONES"
+      ],
+      "albumTitle": "BORN",
+      "albumBrowseId": "MPREb_3rSoNIkPgvs",
+      "duration": "4:30",
+      "durationSeconds": 270,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/R8_cJpnB9aQamQ1zx2GN3AYiwEgd00DxytgOBREAw1y16g_fVUXJevbY5ZhzZ-mGbJmdeyvErLUTvkbyVg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ti8DwncRaBc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ti8DwncRaBc",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "MnRV1ZwjLSQ",
+      "songTitle": "TINY STAR",
+      "title": "TINY STAR",
+      "artists": [
+        "SONIC STONES"
+      ],
+      "albumTitle": "BETTER THAN YESTERDAY",
+      "albumBrowseId": "MPREb_YQzJOz8LGhD",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mkvFcpzqNFFC5Qvaq9i-a0tIStIA4XOOBSWLi9sds642JOaX578pbGOwS1ao3v6y1AlhiOy2xOcj0DAd=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MnRV1ZwjLSQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=MnRV1ZwjLSQ",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "hRFXrvcLOlM",
+      "songTitle": "Find Out",
+      "title": "Find Out",
+      "artists": [
+        "SONIC STONES"
+      ],
+      "albumTitle": "Before the Storm",
+      "albumBrowseId": "MPREb_pTrPKJOP5ne",
+      "duration": "3:30",
+      "durationSeconds": 210,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/V9YcJoxA7fGubyA9-2qeIaFrwZwoQz2CYikmYpSyl-zgv1PX1ImEr-syCQATpILqeTdeOD0vKF_Us5M=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hRFXrvcLOlM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=hRFXrvcLOlM",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "xRZp0CyVS9E",
+      "songTitle": "Awesome!",
+      "title": "Awesome!",
+      "artists": [
+        "SONIC STONES"
+      ],
+      "albumTitle": "Awesome!",
+      "albumBrowseId": "MPREb_yA4gZveuZRX",
+      "duration": "2:57",
+      "durationSeconds": 177,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/sQ7uRD0I8TwM4gnzJfTuk4c7QepKANFXeXC-Ctr_cmj2CPL_gGMY2g7JOsjhgU10kfZgmk9MYQi9ccV7aA=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xRZp0CyVS9E",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=xRZp0CyVS9E",
+      "source": "ytm_songs_popular",
+      "year": "2019",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "SjiFUB2h9IM",
+      "songTitle": "SSAMSAFE",
+      "title": "SSAMSAFE",
+      "artists": [
+        "SONIC STONES"
+      ],
+      "albumTitle": "SSAMSAFE",
+      "albumBrowseId": "MPREb_S0DyeUjEMU8",
+      "duration": "2:26",
+      "durationSeconds": 146,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/PGoc5AwXm7UkLU15oSD34DOA8Euih-yUMJRgzamDSYcZulpER1xKts8yzvlSrKX61K_Uk849Bvy7k9xq=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SjiFUB2h9IM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=SjiFUB2h9IM",
+      "source": "ytm_songs_popular",
+      "year": "2022",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "r9KkMO5V1e4",
+      "songTitle": "KID",
+      "title": "KID",
+      "artists": [
+        "SONIC STONES"
+      ],
+      "albumTitle": "KID",
+      "albumBrowseId": "MPREb_g0aDJGVvnRZ",
+      "duration": "2:58",
+      "durationSeconds": 178,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/jI5cVdxw4XCJVQk3rErdQQs8ZvMEg6c3WJLXWWy_iWCgSb_2ir05kBf_eTkrtr8wv9LobxSjrZCZIOx5ww=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=r9KkMO5V1e4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=r9KkMO5V1e4",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "PZ_3Q53loM0",
+      "songTitle": "Go",
+      "title": "Go",
+      "artists": [
+        "SONIC STONES"
+      ],
+      "albumTitle": "BORN",
+      "albumBrowseId": "MPREb_3rSoNIkPgvs",
+      "duration": "3:44",
+      "durationSeconds": 224,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/R8_cJpnB9aQamQ1zx2GN3AYiwEgd00DxytgOBREAw1y16g_fVUXJevbY5ZhzZ-mGbJmdeyvErLUTvkbyVg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PZ_3Q53loM0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=PZ_3Q53loM0",
+      "source": "ytm_songs_popular",
+      "year": "2017",
+      "releaseType": "album"
+    },
+    {
+      "videoId": "yYY15zpxXBA",
+      "songTitle": "ALL I WANT",
+      "title": "ALL I WANT",
+      "artists": [
+        "SONIC STONES"
+      ],
+      "albumTitle": "BETTER THAN YESTERDAY",
+      "albumBrowseId": "MPREb_YQzJOz8LGhD",
+      "duration": "2:46",
+      "durationSeconds": 166,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/mkvFcpzqNFFC5Qvaq9i-a0tIStIA4XOOBSWLi9sds642JOaX578pbGOwS1ao3v6y1AlhiOy2xOcj0DAd=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yYY15zpxXBA",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=yYY15zpxXBA",
+      "source": "ytm_songs_popular",
+      "year": "2023",
+      "releaseType": "ep"
+    },
+    {
+      "videoId": "DJd6HCOustg",
+      "songTitle": "THIS IS HELL!",
+      "title": "THIS IS HELL!",
+      "artists": [
+        "SONIC STONES"
+      ],
+      "albumTitle": "THIS IS HELL!",
+      "albumBrowseId": "MPREb_WG2Brfybvzl",
+      "duration": "3:01",
+      "durationSeconds": 181,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/6x-1lxiMmFktmDHDws3s5CzaTgp0Ka6ltixIUszwMAqQ3VRRY6Y_8WOgxYA8mZA6cHfNjz710XmXnaMYHg=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DJd6HCOustg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=DJd6HCOustg",
+      "source": "ytm_songs_popular",
+      "year": "2018",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "CMtfbz-47io",
+      "songTitle": "Go Back",
+      "title": "Go Back",
+      "artists": [
+        "SONIC STONES"
+      ],
+      "albumTitle": "Go Back",
+      "albumBrowseId": "MPREb_xDrK4lZVtmZ",
+      "duration": "4:04",
+      "durationSeconds": 244,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Uv0OYj3hJkpCX8dUdUdK8vf-4helzrIPyyp7xnlH9UlC_ozQFf3L0wxGQMOUwxE2AXf_Fg-xwN_AdIo=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CMtfbz-47io",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=CMtfbz-47io",
+      "source": "ytm_songs_popular",
+      "year": "2020",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 소닉스톤즈 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=ti8DwncRaBc%2CMnRV1ZwjLSQ%2ChRFXrvcLOlM%2CxRZp0CyVS9E%2CSjiFUB2h9IM%2Cr9KkMO5V1e4%2CPZ_3Q53loM0%2CyYY15zpxXBA%2CDJd6HCOustg%2CCMtfbz-47io&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EC%86%8C%EB%8B%89%EC%8A%A4%ED%86%A4%EC%A6%88+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=ti8DwncRaBc&list=RDAMVMti8DwncRaBc"
+}

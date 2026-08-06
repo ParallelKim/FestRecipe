@@ -1,0 +1,211 @@
+{
+  "artistId": "grizzly",
+  "artistName": "그리즐리",
+  "englishName": "Grizzly",
+  "collectedAt": "2026-08-05T12:30:20.434707+00:00",
+  "source": "youtube_music",
+  "selection": "ytm_songs_popularity",
+  "recognition": {
+    "tier": "mid",
+    "songCount": 4,
+    "latestSlotMinutes": 1020,
+    "latestSlotLabel": "17:00",
+    "festivalId": "jumf-2026",
+    "rank": 0.474,
+    "reason": "timetable_lateness"
+  },
+  "songCount": 10,
+  "targetSongCount": 4,
+  "ytmArtist": {
+    "browseId": "UCSqB-T8XTnmuO4nZeUgpGFQ",
+    "name": "Grizzly",
+    "subscribers": "161",
+    "channelId": "UCSqB-T8XTnmuO4nZeUgpGFQ",
+    "thumbnailUrl": "https://yt3.googleusercontent.com/Y7xa-W1CegvULjeAKXihXb5qr1Xig1DWEkk71bkWpZq81BTwBzTFuyVQnJABlbam0eX7fUhEOY9tB3xB=w2880-h1200-p-l90-rj",
+    "url": "https://music.youtube.com/channel/UCSqB-T8XTnmuO4nZeUgpGFQ"
+  },
+  "tracks": [
+    {
+      "videoId": "JPGZi-E-UnM",
+      "songTitle": "Lake 2 Tha Ocean",
+      "title": "Lake 2 Tha Ocean",
+      "artists": [
+        "Grizzly"
+      ],
+      "albumTitle": "Northern Livin Volume 2",
+      "albumBrowseId": "MPREb_oCMwRv0VKBn",
+      "duration": "1:39",
+      "durationSeconds": 99,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8nqiSy9hgxbRXREwwfcDl21vI6caJRCG7yg5BFNqRn8fH0lShsJtMs3aPTWLmjMjYAtdcR72811Jt7SP=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JPGZi-E-UnM",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=JPGZi-E-UnM",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "-1KrOVDRKZg",
+      "songTitle": "A Nortenos Life",
+      "title": "A Nortenos Life",
+      "artists": [
+        "Grizzly/Chivo/Locs"
+      ],
+      "albumTitle": "Dirty Water Struggles",
+      "albumBrowseId": "MPREb_araZvF4jPvW",
+      "duration": "4:19",
+      "durationSeconds": 259,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RJC0_7JiWyttfmL2KUn6JFGaPjO9C9yV8_J4CH3nNFs2QTN804pSsk5QMjyabqoU6kVACNYX_x7q_hs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-1KrOVDRKZg",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=-1KrOVDRKZg",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "FI0wsJKamgQ",
+      "songTitle": "Northside",
+      "title": "Northside",
+      "artists": [
+        "Grizzly"
+      ],
+      "albumTitle": "Dirty Water Struggles",
+      "albumBrowseId": "MPREb_araZvF4jPvW",
+      "duration": "5:07",
+      "durationSeconds": 307,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RJC0_7JiWyttfmL2KUn6JFGaPjO9C9yV8_J4CH3nNFs2QTN804pSsk5QMjyabqoU6kVACNYX_x7q_hs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FI0wsJKamgQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FI0wsJKamgQ",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "cMzgNZLF6yk",
+      "songTitle": "AMSTAFF",
+      "title": "AMSTAFF",
+      "artists": [
+        "Vlad",
+        "Rough",
+        "Grizzly"
+      ],
+      "albumTitle": "AMSTAFF",
+      "albumBrowseId": "MPREb_bdNzB6yzxsU",
+      "duration": "2:27",
+      "durationSeconds": 147,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yOMLSKO1vKqHhedC_xftt1FqsP26F6idKdjKubEtBlbL8fVtJehTTSvdMXdzH8PjyRaCVbzxe_k7sr8Z=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cMzgNZLF6yk",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=cMzgNZLF6yk",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "6p0QyUnZRa4",
+      "songTitle": "Held The Game Ransom",
+      "title": "Held The Game Ransom",
+      "artists": [
+        "Grizzly/Chivo/Locs"
+      ],
+      "albumTitle": "Dirty Water Struggles",
+      "albumBrowseId": "MPREb_araZvF4jPvW",
+      "duration": "4:07",
+      "durationSeconds": 247,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/RJC0_7JiWyttfmL2KUn6JFGaPjO9C9yV8_J4CH3nNFs2QTN804pSsk5QMjyabqoU6kVACNYX_x7q_hs=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6p0QyUnZRa4",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=6p0QyUnZRa4",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "9-xC2bVDZbc",
+      "songTitle": "DISCO",
+      "title": "DISCO",
+      "artists": [
+        "Grizzly"
+      ],
+      "albumTitle": "DISCO",
+      "albumBrowseId": "MPREb_WVcjGBqyTXL",
+      "duration": "2:22",
+      "durationSeconds": 142,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/l9m8E5pNAzoxPud4CxExf7UlOgRpHj-cQZAkmd3IYvTuXZXCnJJhBqR00YjsHl8Sh4XwJip7MGmIM6s0=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9-xC2bVDZbc",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=9-xC2bVDZbc",
+      "source": "ytm_songs_popular",
+      "year": "2026",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "XeAiE6v05S0",
+      "songTitle": "Tell Me Why (feat. Grizzly, Chivo Loc & Mr. G)",
+      "title": "Tell Me Why (feat. Grizzly, Chivo Loc & Mr. G)",
+      "artists": [
+        "Grizzly"
+      ],
+      "albumTitle": "Northern Livin Volume 2",
+      "albumBrowseId": "MPREb_oCMwRv0VKBn",
+      "duration": "3:39",
+      "durationSeconds": 219,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8nqiSy9hgxbRXREwwfcDl21vI6caJRCG7yg5BFNqRn8fH0lShsJtMs3aPTWLmjMjYAtdcR72811Jt7SP=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XeAiE6v05S0",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=XeAiE6v05S0",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "8J3yMnmoCio",
+      "songTitle": "Hear You Callin' (feat. Grizzly & Chivo Loc)",
+      "title": "Hear You Callin' (feat. Grizzly & Chivo Loc)",
+      "artists": [
+        "Grizzly"
+      ],
+      "albumTitle": "Northern Livin Volume 2",
+      "albumBrowseId": "MPREb_oCMwRv0VKBn",
+      "duration": "3:25",
+      "durationSeconds": 205,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/8nqiSy9hgxbRXREwwfcDl21vI6caJRCG7yg5BFNqRn8fH0lShsJtMs3aPTWLmjMjYAtdcR72811Jt7SP=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8J3yMnmoCio",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=8J3yMnmoCio",
+      "source": "ytm_songs_popular",
+      "releaseType": "song"
+    },
+    {
+      "videoId": "p_OrGv8FgVQ",
+      "songTitle": "Angarishstsoreba",
+      "title": "Angarishstsoreba",
+      "artists": [
+        "Symbiote",
+        "Dankan21",
+        "Mercer",
+        "Grizzly"
+      ],
+      "albumTitle": "Angarishstsoreba",
+      "albumBrowseId": "MPREb_vD2mUMFgGPT",
+      "duration": "4:27",
+      "durationSeconds": 267,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wQYHAfoAiUoXK3OQ68A1FhJYVUU13DqNsNgL2QPIfibN5-jXwlo2Ai9WCdDXDeqdnw-Ss9pyN04v8bvP=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=p_OrGv8FgVQ",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=p_OrGv8FgVQ",
+      "source": "ytm_songs_popular",
+      "year": "2025",
+      "releaseType": "single"
+    },
+    {
+      "videoId": "ucc11myNwio",
+      "songTitle": "Tanging sayo lang (feat. Ricosa)",
+      "title": "Tanging sayo lang (feat. Ricosa)",
+      "artists": [
+        "Grizzly"
+      ],
+      "albumTitle": "Tanging sayo lang",
+      "albumBrowseId": "MPREb_svlFsSffVl8",
+      "duration": "2:38",
+      "durationSeconds": 158,
+      "thumbnailUrl": "https://yt3.googleusercontent.com/KBjv2PWKOj2LanKS7G_DISpm7JrwSgYmrP4TUW4feuGJ0wvyYeK5wQh1rnvmJrqyEaLFONmXCvvhPi3y=w120-h120-l90-rj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ucc11myNwio",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=ucc11myNwio",
+      "source": "ytm_songs_popular",
+      "year": "2024",
+      "releaseType": "single"
+    }
+  ],
+  "playlistTitle": "2026 전주얼티밋뮤직페스티벌 그리즐리 플레이리스트",
+  "youtubePlaylistUrl": "https://www.youtube.com/watch_videos?video_ids=JPGZi-E-UnM%2C-1KrOVDRKZg%2CFI0wsJKamgQ%2CcMzgNZLF6yk%2C6p0QyUnZRa4%2C9-xC2bVDZbc%2CXeAiE6v05S0%2C8J3yMnmoCio%2Cp_OrGv8FgVQ%2Cucc11myNwio&title=2026+%EC%A0%84%EC%A3%BC%EC%96%BC%ED%8B%B0%EB%B0%8B%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C+%EA%B7%B8%EB%A6%AC%EC%A6%90%EB%A6%AC+%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8",
+  "youtubeMusicPlaylistUrl": "https://music.youtube.com/watch?v=JPGZi-E-UnM&list=RDAMVMJPGZi-E-UnM"
+}
